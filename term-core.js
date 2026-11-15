@@ -12,6 +12,7 @@ const DAY = 864e5;
 /* ---------------- the machine's files ---------------- */
 const KEY = new TextEncoder().encode("wisp-whimsy-forever");
 const DATA = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(TD.fs), c => c.charCodeAt(0)).map((b, i) => b ^ KEY[i % KEY.length])));
+const pwNorm = s => String(s || "").trim().toLowerCase();
 const sha = async s => btoa(String.fromCharCode(...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode("whimsy:" + s)))));
 // progress flags live in storage only, so the terminal and the secret pages never overwrite each other
 const flags = new Proxy({}, { get: (_, k) => store.get("flags", {})[k] });
@@ -65,7 +66,7 @@ const LOG = (k, d) => window.TWLOG && window.TWLOG.push(k, d);
 /* ---------------- console UI ---------------- */
 const con = document.createElement("div");
 con.className = "console"; con.hidden = true; con.setAttribute("role", "dialog"); con.setAttribute("aria-label", "Terminal");
-con.innerHTML = `<div class="con-bar"><span class="con-title"></span><span class="con-hint">C-x C-c or Esc to close · help</span></div><div class="con-out" aria-live="polite"></div><div class="con-mode" hidden></div><label class="con-in"><span class="ps"></span><input id="conInput" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type a command"></label><div class="con-grip" role="separator" aria-orientation="horizontal" aria-label="Drag to resize the terminal" title="Drag to resize · double-click to maximise"></div>`;
+con.innerHTML = `<div class="con-bar"><span class="con-title"></span><span class="con-hint">C-x C-c or Esc to close · help</span></div><div class="con-out" aria-live="polite"></div><div class="con-mode" hidden></div><label class="con-in"><span class="ps"></span><input id="conInput" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" data-1p-ignore data-lpignore="true" data-bwignore data-form-type="other" aria-label="Type a command"></label><div class="con-grip" role="separator" aria-orientation="horizontal" aria-label="Drag to resize the terminal" title="Drag to resize · double-click to maximise"></div>`;
 document.body.append(con);
 const out = $(".con-out", con), inp = $("#conInput"), psEl = $(".ps", con), modeLine = $(".con-mode", con), titleEl = $(".con-title", con);
 if (flags.theme) con.classList.add("th-" + flags.theme);
@@ -113,7 +114,8 @@ function pop() { const m = modes.pop(); m && m.leave && m.leave(); refresh(); }
 function refresh() {
   const m = mode();
   psEl.textContent = m.prompt ? m.prompt() : "$";
-  inp.type = m.secret ? "password" : "text";
+  con.classList.toggle("secret", !!m.secret);
+  inp.setAttribute("aria-label", m.secret ? "Password (hidden)" : "Type a command");
   const ml = m.modeline ? m.modeline() : "";
   modeLine.hidden = !ml; modeLine.textContent = ml;
   titleEl.textContent = m.title ? m.title() : `${S.user}@${S.host}: ${S.cwd.replace(S.home, "~")}`;
@@ -785,8 +787,8 @@ cmd("ssh", a => {
   if (h === "news.blizzard.com" || h === "github.com") throw `${h}: Permission denied (publickey). Nice try.`;
   print(`The authenticity of host '${h} (${HOSTS[h]})' can't be established.\nED25519 key fingerprint is SHA256:w1sp/7777/sparkle.\nWarning: Permanently added '${h}' to the list of known hosts.`, "dim");
   ask(`${user === "whimsy" ? "grumbolt" : user}@${h}'s password: `, true, async pw => {
-    if (pw === "hunter2") print("hunter2? All I see is *******.", "dim");
-    if (await sha(pw) !== TD.ssh) { print("Permission denied, please try again.", "err"); return; }
+    if (pwNorm(pw) === "hunter2") print("hunter2? All I see is *******.", "dim");
+    if (await sha(pwNorm(pw)) !== TD.ssh) { print("Permission denied, please try again.", "err"); return; }
     award("ssh");
     sessions.push({ ...S }); Object.assign(S, { host: "barrow-deeps", user: "grumbolt", home: "/", cwd: "/", fs: BARROW, env: {} });
     print(html(`<span class="dim">Welcome to the Barrow Deeps (WhimsyOS, ring 7)\nLast login: never, legitimately.</span>\n` + esc(readFile("/welcome.txt"))));
@@ -837,8 +839,8 @@ cmd("su", a => {
   if (who === "wisp") { setTimeout(() => wisp.talk("> i don't log in. i simply am.", 2500), 200); return "This account is currently not available."; }
   if (S.user === "root") { if (who === "leeroy") { charge(); return ""; } return who === "whimsy" ? "Type exit to go back to being whimsy." : `Root has no need to be ${who}. (Root has every need to be root.)`; }
   ask("Password: ", true, async pw => {
-    if (who === "leeroy") return pw.trim().toLowerCase() === "chicken" ? charge() : suFail(who);
-    if (who !== "root" || await sha(pw) !== TD.root) return suFail(who);
+    if (who === "leeroy") return pwNorm(pw) === "chicken" ? charge() : suFail(who);
+    if (who !== "root" || await sha(pwNorm(pw)) !== TD.root) return suFail(who);
     sessions.push({ ...S }); Object.assign(S, { user: "root", home: "/root", cwd: "/root" });
     award("root"); print("You are root. Everything glows slightly more ominously.", "hl"); refresh();
   });

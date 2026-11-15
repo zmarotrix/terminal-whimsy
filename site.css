@@ -651,3 +651,6 @@ html.ressick main{filter:blur(.6px) saturate(.6);transition:filter 2s}
 @keyframes wglow{50%{transform:scale(1.3);opacity:.7}}
 @keyframes wbub{from{transform:translateY(0);opacity:1}to{transform:translateY(-44px);opacity:0}}
 @media (prefers-reduced-motion:reduce){.wisp.sink .orb,.wispglow,.wispglow::before,.wispglow::after{animation:none}}
+
+/* password prompts: a text box shown as dots (no real password field, so no password manager pre-filling it) */
+.console.secret .con-in input{-webkit-text-security:disc;text-security:disc;letter-spacing:.12em}

@@ -130,6 +130,8 @@ for i in ["inv_letter_15", "inv_misc_horn_01", "inv_misc_book_09", "inv_shirt_gu
           "inv_misc_food_15", "inv_misc_spyglass_03", "inv_misc_book_07", "spell_holy_heal", "inv_misc_questionmark",
           "trade_blacksmithing", "trade_leatherworking", "trade_tailoring", "inv_misc_gift_01", "spell_nature_starfall", "ability_warrior_charge", "inv_misc_head_dragon_black", "inv_misc_gem_diamond_01", "inv_misc_dice_02", "inv_misc_ticket_tarot_lunacy", "inv_misc_ticket_tarot_madness", "inv_misc_ticket_tarot_furies"]:
     use(i)
+for i in getattr(C, "EXTRA_ICONS", []):
+    use(i)
 for f in json.load(open(os.path.join(HERE, "feeds.json"), encoding="utf-8"))["feeds"]:
     if f.get("icon"):
         use(f["icon"])

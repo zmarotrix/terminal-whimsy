@@ -22,4 +22,19 @@ A guild guide to World of Warcraft: Forever: everything Blizzard has said, every
 - New Blizzard statement or change: add it to the JSON in `data/src/`, run `python tools/build_data.py`, commit.
 - New news source: add it to `tools/feeds.json` and run `python tools/fetch_news.py --dry` to check it.
 
+## The terminal (spoilers below)
+
+Press ` on the site, or click the green command line on the Briefing page. It's a make-believe Linux box,
+whimsy@forever, with a quest called the Seven Seals, an Emacs with a small Lisp, a text adventure, and secret pages.
+
+- `term-core.js`: the shell (files, pipes, ~150 commands, Emacs-style line editing, WoW slash commands, the quest).
+- `term-emacs.js`: Emacs: a small Emacs Lisp, `M-x` commands (doctor, butterfly, zone, snake, life, hanoi, magit-status,
+  org-agenda...), plus the vim and ed traps.
+- `term-adv.js`: the little text adventure (`adventure`, or `M-x dunnet`).
+- `secret.js`: secret pages (the Wisp's Vault, Darkmoon Faire, fictional patch notes, credits, graveyard, the Nether 404).
+- `term-data.js`: built by `node tools/term/build.mjs` from `tools/term/fs.mjs` (the machine's files) and
+  `tools/term/vault.html`. The files are lightly scrambled; the Vault is AES-GCM encrypted with the seven seal words,
+  and the seals are checked by hash, so View Source doesn't give the answers away.
+- After changing any script or style, run `python tools/stamp.py` so browsers fetch the new version.
+
 Game art and icons come from the WoW Forever client and are © Blizzard Entertainment. Not affiliated with Blizzard.

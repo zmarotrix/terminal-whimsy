@@ -150,10 +150,12 @@ function xp() {
   $(".xpbar i").style.setProperty("--xp", (100 * k / ids.length) + "%");
   $(".xp .v").textContent = `${k}/${ids.length}`;
   const next = (D.TITLES || []).find(([n]) => n > k);
-  const order = ids.slice().sort((a, b) => (!!got[b] - !!got[a]) || (!!ACH[a].secret - !!ACH[b].secret));
-  $("#achs").innerHTML = `<h3>${esc(who())}</h3><p class="achsub">${k} of ${ids.length} achievements · ${k * 10} points${next ? ` · ${next[0] - k} more for "${esc(next[1])}"` : ""}</p>
-    <ul>${order.map(x => { const a = ACH[x], hid = a.secret && !got[x];
-      return `<li class="${got[x] ? "got" : ""}${hid ? " hid" : ""}"><img src="${ICON(hid ? "inv_misc_questionmark" : a.i)}" alt=""><div><b>${hid ? "???" : esc(a.n)}</b>${hid ? "A secret. Keep exploring." : esc(a.d)}</div></li>`; }).join("")}</ul>`;
+  const cats = [...new Set(ids.map(x => ACH[x].cat || "Briefing"))];
+  const li = x => { const a = ACH[x], hid = a.secret && !got[x];
+    return `<li class="${got[x] ? "got" : ""}${hid ? " hid" : ""}"><img src="${ICON(hid ? "inv_misc_questionmark" : a.i)}" alt=""><div><b>${hid ? "???" : esc(a.n)}</b>${hid ? "A secret. Keep exploring." : esc(a.d)}</div></li>`; };
+  $("#achs").innerHTML = `<h3>${esc(who())}</h3><p class="achsub">${k} of ${ids.length} achievements · ${k * 10} points${next ? ` · ${next[0] - k} more for "${esc(next[1])}"` : ""}</p>` +
+    cats.map(c => { const mine = ids.filter(x => (ACH[x].cat || "Briefing") === c).sort((a, b) => (!!got[b] - !!got[a]) || (!!ACH[a].secret - !!ACH[b].secret));
+      return `<h4 class="achcat">${esc(c)} <span>${mine.filter(x => got[x]).length}/${mine.length}</span></h4><ul>${mine.map(li).join("")}</ul>`; }).join("");
 }
 $(".xp").addEventListener("click", e => { e.stopPropagation(); $("#achs").hidden = !$("#achs").hidden; });
 document.addEventListener("click", e => { if (!e.target.closest("#achs,.xp")) $("#achs").hidden = true; });
@@ -168,9 +170,17 @@ const wisp = (() => {
   const say = $(".say", el), bub = $(".bubble", el), orb = $(".orb", el);
   let typing = 0, hideT = 0, pokes = 0, recent = [];
   if (store.get("wispGold", false)) el.classList.add("gold");
-  const pos = store.get("wispPos", null);
-  const place = p => { if (!p) return; el.style.right = `calc(${p.r}px + env(safe-area-inset-right,0px))`; el.style.bottom = `calc(${p.b}px + env(safe-area-inset-bottom,0px))`; el.classList.toggle("left", p.r > innerWidth / 2); };
-  place(pos);
+  // the wisp's box is exactly the orb; the bubble hangs off it, on whichever side has room
+  const osize = () => orb.getBoundingClientRect().width || 54;
+  function place(p) {
+    if (!p || p.x == null) return;
+    const s = osize(), x = Math.max(4, Math.min(innerWidth - s - 4, p.x * innerWidth)), y = Math.max(4, Math.min(innerHeight - s - 4, p.y * innerHeight));
+    el.style.left = x + "px"; el.style.top = y + "px"; el.style.right = el.style.bottom = "auto";
+    el.classList.toggle("left", x + s / 2 < innerWidth / 2);
+    el.classList.toggle("low", y < 170);
+  }
+  place(store.get("wispPos", null));
+  addEventListener("resize", () => place(store.get("wispPos", null)));
   function talk(text, hold = 6000) {
     if (el.hidden || !text) return;
     clearTimeout(typing); clearTimeout(hideT);
@@ -197,22 +207,23 @@ const wisp = (() => {
   let drag = null;
   orb.addEventListener("pointerdown", e => {
     const r = el.getBoundingClientRect();
-    drag = { x: e.clientX, y: e.clientY, r: innerWidth - r.right, b: innerHeight - r.bottom, moved: false, id: e.pointerId };
+    // remember where on the orb you grabbed it, so the orb stays exactly under the pointer
+    drag = { sx: e.clientX, sy: e.clientY, ox: e.clientX - r.left, oy: e.clientY - r.top, moved: false };
     orb.setPointerCapture(e.pointerId);
   });
   orb.addEventListener("pointermove", e => {
     if (!drag) return;
-    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
-    if (!drag.moved && Math.hypot(dx, dy) < 7) return;
+    if (!drag.moved && Math.hypot(e.clientX - drag.sx, e.clientY - drag.sy) < 7) return;
     drag.moved = true; el.classList.add("held"); hideTip();
-    drag.nr = Math.max(4, Math.min(innerWidth - 70, drag.r - dx)); drag.nb = Math.max(4, Math.min(innerHeight - 70, drag.b - dy));
-    place({ r: drag.nr, b: drag.nb });
+    drag.p = { x: (e.clientX - drag.ox) / innerWidth, y: (e.clientY - drag.oy) / innerHeight };
+    place(drag.p);
   });
+  orb.addEventListener("pointercancel", () => { drag = null; el.classList.remove("held"); });
   orb.addEventListener("pointerup", e => {
     if (!drag) return;
     const d = drag; drag = null; el.classList.remove("held");
     if (!d.moved) { poke(); return; }
-    store.set("wispPos", { r: d.nr, b: d.nb }); award("wrangler");
+    store.set("wispPos", d.p); award("wrangler");
     el.classList.remove("boing"); void el.offsetWidth; el.classList.add("boing");
     talk(["> wheee!", "> ooh, nice view from here.", "> put me down gently next time.", "> i live here now."][Math.random() * 4 | 0], 2500);
   });
@@ -224,22 +235,38 @@ const wisp = (() => {
     sleep() { el.classList.add("sleep"); },
     gold(on = true) { el.classList.toggle("gold", on); store.set("wispGold", on); },
     show() { el.hidden = false; store.set("wispGone", false); },
-    home() { store.set("wispPos", null); el.style.right = el.style.bottom = ""; el.classList.remove("left"); },
+    home() { store.set("wispPos", null); el.style.left = el.style.top = el.style.right = el.style.bottom = ""; el.classList.remove("left", "low"); },
+    moveTo(x, y) { place({ x: x / innerWidth, y: y / innerHeight }); },       // for /follow and friends
+    restore() { const p = store.get("wispPos", null); if (p && p.x != null) place(p); else this.home(); },
   };
 })();
 
 /* ---------------- rooms (tabs) ---------------- */
 const ROOMS = ["brief", "changes", "gear", "said", "wire", "sources"];
+const SECRET = {};      // id -> { open(): bool, locked: room to show instead, tab: label, onShow() }
+function secretTabs() {
+  $$(".tabs .secret-tab").forEach(a => a.remove());
+  for (const [id, r] of Object.entries(SECRET)) {
+    if (!r.tab || !r.open()) continue;
+    const a = document.createElement("a");
+    a.href = "#" + id; a.dataset.room = id; a.className = "secret-tab" + (room === id ? " on" : "");
+    a.innerHTML = `<img src="${ICON(r.icon || "inv_misc_gem_diamond_01")}" alt="">${esc(r.tab)}`;
+    $(".tabs").append(a);
+  }
+}
 const visited = new Set(store.get("rooms", []));
 let room = null;
 function go(hash, scroll = true) {
   let id = (hash || "").replace(/^#/, ""), item = null;
   if (id.startsWith("c-")) { item = id; id = "changes"; }
-  if (!ROOMS.includes(id)) id = "brief";
+  if (!ROOMS.includes(id) && !SECRET[id]) id = id && SECRET.nether ? "nether" : "brief";
+  if (SECRET[id] && !SECRET[id].open()) id = SECRET[id].locked || "nether";
   if (id !== room) {
     $$(".room").forEach(s => s.hidden = s.id !== id);
     $$(".tabs a").forEach(a => a.classList.toggle("on", a.dataset.room === id));
     room = id;
+    secretTabs();
+    if (SECRET[id] && SECRET[id].onShow) SECRET[id].onShow();
     if (scroll && !item) scrollTo({ top: 0, behavior: "instant" });
     if (!visited.has(id)) { visited.add(id); store.set("rooms", [...visited]); setTimeout(() => wisp.talk(D.WISP.sections[id]), 600); }
     if (["brief", "changes", "gear", "said", "wire"].every(r => visited.has(r))) award("end");
@@ -557,6 +584,7 @@ async function wire() {
   // older news files have no stories yet: show each item as its own story
   const stories = (NEWS.stories || NEWS.items.map(i => ({ ...i, id: i.url.length + "" + i.title.length, last: i.date, n: 1, also: [], official: i.label === "official" })))
     .slice().sort((a, b) => new Date(b.last) - new Date(a.last));
+  if (window.TWX) window.TWX.newsTop = n => stories.slice(0, n);
   const lastVisit = store.get("lastVisit", 0);
   store.set("lastVisit", Date.now());
   const f = $(".fresh");
@@ -616,14 +644,15 @@ function sources() {
 })();
 
 /* ---------------- what whimsy.js needs ---------------- */
-window.TWX = { D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE,
+window.TWX = { D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE, star,
+  addRoom(id, r) { SECRET[id] = r; secretTabs(); }, secretTabs, get room() { return room; },
   setClass(k) { myClass = k; store.set("class", k); award("class"); }, get myClass() { return myClass; }, get hot() { return HOT; } };
 
 /* ---------------- init ---------------- */
 $$("img[src^='img/icons/']").forEach(i => { const k = i.getAttribute("src").slice(10, -4); if (window.TW_ICONS && TW_ICONS[k]) i.src = TW_ICONS[k]; });
 $$(".banner").forEach(b => { const c = document.createElement("canvas"); c.className = "motes"; c.setAttribute("aria-hidden", "true"); b.querySelector(".art").after(c); motes(c, innerWidth < 600 ? 22 : 40); });
 hero(); changes(); gear(); said(); sources(); xp();
-go(location.hash, false);
+document.addEventListener("DOMContentLoaded", () => go(location.hash, false));
 wire();
 setTimeout(() => { award("hello"); if (!store.get("wispMet", false)) { store.set("wispMet", true); wisp.talk(D.WISP.hello); } }, 2500);
 })();

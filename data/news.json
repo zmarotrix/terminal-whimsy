@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T07:04:16Z",
+ "updated": "2026-11-15T07:25:20Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,16 @@
   "r/wowforever"
  ],
  "items": [
+  {
+   "title": "Drowned city took 5 hours and 46 minutes for us.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwlclh/drowned_city_took_5_hours_and_46_minutes_for_us/",
+   "date": "2026-11-15T03:35:25Z",
+   "summary": "https://preview.redd.it/57efmgyj2p1i1.jpeg?width=1280&format=pjpg&auto=webp&s=ad57ce6821cf89c0d4fb4fe4f826e08c6d6baf76 https://preview.redd.it/4uuddhyj2p1i1.jpeg?width=308&format=pjpg&auto=webp&s=d835eadfeb149d1689e632732cc68b66acfe03f7 We walked into The…",
+   "who": "/u/starlight41",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
   {
    "title": "New Hotfix, dungeon XP nullification now applies when the highest level party member is 12 levels above, thoughts?",
    "url": "https://www.reddit.com/r/wowforever/comments/1xwjjl0/new_hotfix_dungeon_xp_nullification_now_applies/",
@@ -375,16 +385,6 @@
    "icon": "inv_shirt_guildtabard_01"
   },
   {
-   "title": "Give Horde a free faction change",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvwvsm/give_horde_a_free_faction_change/",
-   "date": "2026-11-14T08:00:47Z",
-   "summary": "Half of the posts I see are about people wanting to make Horde. Well, I'm at the other side! I've made Horde realising it isn't for me 33 levels in. But I won't swap because that would mean I would lose a lot of my time. Blizzard is solving this by forcing…",
-   "who": "/u/Goth2147",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01"
-  },
-  {
    "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
    "date": "2026-11-14T02:57:50Z",
@@ -624,7 +624,7 @@
   {
    "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
-   "date": "2026-11-13T05:05:02Z",
+   "date": "2026-11-13T04:37:16Z",
    "who": "Mobalytics",
    "source": "Google News",
    "label": "press",

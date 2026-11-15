@@ -1,0 +1,1589 @@
+{
+ "updated": "2026-11-15T06:44:40Z",
+ "sources": [
+  "Blizzard News",
+  "Blizzard forums (US)",
+  "Blizzard forums (EU)",
+  "World of Warcraft on Bluesky",
+  "BlizzardCS on Bluesky",
+  "Wowhead",
+  "Warcraft Tavern",
+  "Google News",
+  "Wowhead Blue Tracker",
+  "MMO-Champion",
+  "r/wowforever"
+ ],
+ "items": [
+  {
+   "title": "New Hotfix, dungeon XP nullification now applies when the highest level party member is 12 levels above, thoughts?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwjjl0/new_hotfix_dungeon_xp_nullification_now_applies/",
+   "date": "2026-11-15T02:00:40Z",
+   "who": "/u/hermitxd",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "People that do drive by buffs in the open world are top tier gamers..",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwj7z0/people_that_do_drive_by_buffs_in_the_open_world/",
+   "date": "2026-11-15T01:44:02Z",
+   "summary": "Thats the post",
+   "who": "/u/Dramatic_Signal_3967",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above",
+   "date": "2026-11-15T01:20:35Z",
+   "summary": "In a brand-new change, dungeon mobs will now grant zero experience when the highest-level player is more than 12 levels above the creature, instead of when the mob is grey! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Player-Level Dungeon XP Adjustment - November 14",
+   "url": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343/1",
+   "date": "2026-11-15T01:18:23.191000Z",
+   "summary": "Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "A short story",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwhbem/a_short_story/",
+   "date": "2026-11-15T00:08:18Z",
+   "summary": "I am unsure if it is a comedy or a tragedy.",
+   "who": "/u/DG_Templeton_3th",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmlMMXlBeUl1dzVkajFPZ0duNHpUazRqcjZEWUNnblFIQkxlNVRVclRVMGJlU3hFbzRjbHlBcktUM2NDMWdZcERyaWtBU1B6R3Bzb1BJMElFQ1VJSFAzcDJReHdMYXdTYTFMVl9XRHJ2eVZId0ppRkdzM3Btb0w3TVp3Z015UmlKT3BGMEZRSWZ4ZWNNTE13OXhwaVo3SjM4a2pnUmdON2l3R09wQndVYmFTa2pWMzJOMXdIYkQyUVZIMVgyR3dJRDAxSmNNY1k?oc=5",
+   "date": "2026-11-14T22:17:19Z",
+   "who": "PC Gamer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "The Newest Update to Dungeon XP is awful.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwdjr9/the_newest_update_to_dungeon_xp_is_awful/",
+   "date": "2026-11-14T21:16:43Z",
+   "summary": "The newest update that reduces all xp to basically nothing if there are grey mobs for one member is awful. I invited a 37 shaman to a city of dalaran last night (my first run through). The guy was in the dungeon finder... We got no XP. How is this supposed…",
+   "who": "/u/Plzfixweaponscaling",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "WoW: Forever Really Appeals to This Older Gamer",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kNEZ2UnRqNGFpd3FZQ3Q2cjVwSW5GNHZqbGUxY0hvRzRvVUk4TlRkZDRLOUJYSmw2SmxBaFBBVmZ5STdFdWhCOFI5YU8zd3A5MkpFR01aTUpReGVyWVg1dkMzV0RzUEVtUEhVRmZkRmJWc2FrVUtJX0NpSQ?oc=5",
+   "date": "2026-11-14T21:00:00Z",
+   "who": "Comics Gaming Magazine",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "We've got the most recent #WoWForever hotfixes that address various issues in the game. Some hotfixes may be immediate while others take a…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3n2cbyqxybu2a",
+   "date": "2026-11-14T20:00:01.260000Z",
+   "summary": "We've got the most recent #WoWForever hotfixes that address various issues in the game. Some hotfixes may be immediate while others take a realm restart to take effect. blizz.ly/3VrSrb5",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "Dungeon XP is dead and the new grey mob rule just made it worse",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwbdo0/dungeon_xp_is_dead_and_the_new_grey_mob_rule_just/",
+   "date": "2026-11-14T19:43:16Z",
+   "summary": "Man I'm so over this dungeon XP stuff. They keep saying they're \"buffing\" it a little and then slap us with something worse. That new hotfix is ridiculous. If even one person in the group has the mobs grey the entire party gets zero XP from the kill. So now…",
+   "who": "/u/Abraxotron",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "WoW Forever Players Reporting Dungeons Giving No Exp After Recent Change",
+   "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
+   "date": "2026-11-14T19:25:06Z",
+   "summary": "In the hotfixes from November 13th, experience gain in dungeons was changed. This change made it so that if an enemy in a dungeon is trivial (gray level) to anyone in the party, it will not give experience to anyone. This change seems very clearly intended…",
+   "who": "Passion",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15"
+  },
+  {
+   "title": "Dungeon XP Fixed",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwal8j/dungeon_xp_fixed/",
+   "date": "2026-11-14T19:10:39Z",
+   "summary": "I'm glad the devs are making the tough decisions for the health of the game.",
+   "who": "/u/Emergency_Salad2874",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
+   "date": "2026-11-14T19:00:00Z",
+   "summary": "Krol'dok Stronghold is a new dungeon that challenges players in the Level 40-45 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "The majority WANTS increased dungeon XP",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2406555",
+   "date": "2026-11-14T18:22:16Z",
+   "summary": "This obviously isnt the entire game, but just going off the people in the forums there are significantly more people in favor of reverting dungeon xp to how it was in classic than those who dont want... By Metuyomatch on 2026/11/14 at 12:22 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Please bro, I am a cow not a mathematician",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw8xjw/please_bro_i_am_a_cow_not_a_mathematician/",
+   "date": "2026-11-14T18:04:02Z",
+   "who": "/u/Sufficient-Emu-2380",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "This is a bad change and hurts the community far more than a small amount of boosters",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw7e2b/this_is_a_bad_change_and_hurts_the_community_far/",
+   "date": "2026-11-14T17:02:19Z",
+   "summary": "I'd argue this goes against what they want for Forever: people playing together, or simply helping out the community and being nice. People who sit in Org who offer free runs through RFC? Not anymore, and that's how I got one of my first runs out of pure…",
+   "who": "/u/Sinarai25",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Should respecs be free while Leveling? Or when there's significant class tuning?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw6jf9/should_respecs_be_free_while_leveling_or_when/",
+   "date": "2026-11-14T16:28:04Z",
+   "who": "/u/Starym",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
+   "date": "2026-11-14T16:16:46Z",
+   "summary": "In last night's hotfixes, Blizzard announced that if any party member in a dungeon is too high-level, no one in the party will receive experience. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "My friends got me to play wow forever but now they all out level me and it makes it so I don’t want to play anymore.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw67nz/my_friends_got_me_to_play_wow_forever_but_now/",
+   "date": "2026-11-14T16:14:29Z",
+   "summary": "Context : My friends all wanted us to play wow forever together (5 man group), and I agreed. We started out as the same race so we could level together and do dungeons and stuff. At first all was going well, we waited for each other to quest and we were all…",
+   "who": "/u/Parking-Award8418",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "World of Warcraft Forever signals that it’s not letting up on faction locks on PvP rulesets any time soon",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ1ZMS2puWVl1NnZHMXd5alZQcEt0MXl6U3RkMlpxY0RpbG56QlhBdWg0c1dkdENmSFlNbmp1LTZ4ZnZydEwwM3NyTW9sTXp4SHlOUlkzU3hqc1VTWDBKdUMwbGNONl9kR1kzTmFWUjJremd0MUl0Q2FxLTlvSUl5S2tVWTZ5Q240UTJ6d3FvZjhJQ09mQl9UdXd1OWRzWDEzN2FNQ0lvazBnQ0hxQlpvX2tCeS12MkVOeFJxRExmQ1BJb2dIRkRTLVhrb3ZfenBiTkJkZDlfQQ?oc=5",
+   "date": "2026-11-14T16:00:10Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "The xp change to grey mobs makes no sense, example: The Stockades and my 31 warlock",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw5epk/the_xp_change_to_grey_mobs_makes_no_sense_example/",
+   "date": "2026-11-14T15:41:00Z",
+   "summary": "I posted it in classicwow but I'll repost it also here just to warn people not aware of this. The last boss in Stockades is level 29 and to get the quest \"The Fury runs deep\" that asks to kill one of the bosses you need to kill a lot of level 29-31 elite…",
+   "who": "/u/AffectionateStand889",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "I dont undertand Game Devs",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw52n5/i_dont_undertand_game_devs/",
+   "date": "2026-11-14T15:26:54Z",
+   "summary": "Update: But looks like they did understand my point With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the…",
+   "who": "/u/WaffleQuemado",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "World of Warcraft: Forever- How to Get the Cozy Sleeping Bag (And How the Buff Works)",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLUQyMlRsbkFuRVM2YnYyQUdTNURDMFI5bC1JMUVrNXowZFp5TjVKb2FrTXFQeGZqUjhqbEdodl92a3EyX3dKa1RpMWF0UXB3TTE4a2JwbzNMN3dwa3RjQXF3YWRwVjA4MlFGbXVQSjlnX1JVV0dSNi0wZFc5a0lzOVlZdUVTZWo4NzEyZDhQUTFlbHp6MjNJV25xRVpiZEdmR0xUSFRmZ1gzdnRPZEpqcUVVemQ?oc=5",
+   "date": "2026-11-14T15:06:17Z",
+   "who": "VICE",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever",
+   "date": "2026-11-14T15:00:00Z",
+   "summary": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: turning the player into an Ogre! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Dungeon Exp Hotfix",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw47ev/dungeon_exp_hotfix/",
+   "date": "2026-11-14T14:49:42Z",
+   "summary": "Got a taste of this yesterday and it kinda sucked. I hope it’s just tuned wrong. We ran Deadmines. I was lv 21. We had a 17, 18, 24, 26. Deadmines is I believe listed at 17-26. No one got experience until we literally got to the ship and the level of the…",
+   "who": "/u/Honest_Range_3709",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "The Boulderfist Ogres are very culturally informed",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw46ep/the_boulderfist_ogres_are_very_culturally_informed/",
+   "date": "2026-11-14T14:48:27Z",
+   "who": "/u/SupaAwesomeName",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "My first BoE Epic",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw36gb/my_first_boe_epic/",
+   "date": "2026-11-14T14:04:25Z",
+   "who": "/u/Pubeski",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Am i Missing Something?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw2yma/am_i_missing_something/",
+   "date": "2026-11-14T13:54:27Z",
+   "summary": "So, am I Missing Something or why would anyone ever Join this group :D",
+   "who": "/u/DerDudeCats",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "I played WoW Forever on my Galaxy Z Fold 8, and it performed perfectly",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTXlpc3ROSzMtMGtDOW1nQmpmQ19Yb2hBbTBNdHdMaGNtMUpfU0NsUzFJRnRfQ0RFTVRxRncxVWFzbU43bkVjcndXb3RPV0tTMkRQbDNOUkh1blIwM2VwRjhpTFRscEZMZGxCWlB5OGhNeFhJZ0lhZV9vQVNfRWR4Q0xXRkZNWVA4WlE4dHo2V2N2SXI0dVhXUA?oc=5",
+   "date": "2026-11-14T13:45:10Z",
+   "who": "Android Police",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Would you like to see already existing low-level sets receive HD remake?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw2fxz/would_you_like_to_see_already_existing_lowlevel/",
+   "date": "2026-11-14T13:29:55Z",
+   "who": "/u/IronScar",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "10 Tips for New Players",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw2cuo/10_tips_for_new_players/",
+   "date": "2026-11-14T13:25:41Z",
+   "summary": "It’s fine to roll Greed on everything. You don’t need permission to roll Need on a genuine upgrade you’ll equip and use, unless the group agreed on different loot rules. Mages and warlocks: if an item has more +healing than +damage, give healers priority. If…",
+   "who": "/u/stepatdis",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "WoW Forever Dungeon XP: Trivial Enemies Give the Party No Experience",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQnVzT1VlUVFuZGZYOHVVMmN6Zk9RRmRMLXFtaFAtOXVUdVQ2WWZZTnZod1k0bzJpSmtQUEhHV1E0eHIzSjNiSWZvbVlSeTVTamJPRjd2RVpfUnlUUUZEM2l5MXdpbHFmMnltMlh3RHlJcXZpc3ItUFFjUXlTYmZHYQ?oc=5",
+   "date": "2026-11-14T12:12:47Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "We may have met if you’ve done a sleeping bag quest",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw0iln/we_may_have_met_if_youve_done_a_sleeping_bag_quest/",
+   "date": "2026-11-14T11:47:59Z",
+   "who": "/u/WhatIfSkynet_",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Why do only NEs get access to these alternate moonkin forms and not Tauren?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xvzxai/why_do_only_nes_get_access_to_these_alternate/",
+   "date": "2026-11-14T11:12:07Z",
+   "summary": "Is it only because of the horns? When I saw the alternate moonkin forms I figured everyone could use them, then I find out at lvl 40 that it’s night elf exclusive? So lame man. I was really looking forward to mixing it up. Come on blizzard the antlers do not…",
+   "who": "/u/BlightO",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "XP hotfix also apply for all group in the overworld.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xvzhj7/xp_hotfix_also_apply_for_all_group_in_the/",
+   "date": "2026-11-14T10:45:36Z",
+   "summary": "Did some test with friend. If I kill a green mob with a friend in the group where this mob is gray, I don't get XP at all. And we only have 1 level difference, Edit: New change:…",
+   "who": "/u/azokal",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Why is no one talking about this?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xvz681/why_is_no_one_talking_about_this/",
+   "date": "2026-11-14T10:25:46Z",
+   "who": "/u/MaxF1eld",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Yes, I report names like \"Your Mama\", \"SmellMy Farts\" or \"Youtube Troll\" on the roleplay server",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xvwzhw/yes_i_report_names_like_your_mama_smellmy_farts/",
+   "date": "2026-11-14T08:06:48Z",
+   "summary": "No, I will not take questions. May the earthmother guide you.",
+   "who": "/u/StopMarminMySparm",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Give Horde a free faction change",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xvwvsm/give_horde_a_free_faction_change/",
+   "date": "2026-11-14T08:00:47Z",
+   "summary": "Half of the posts I see are about people wanting to make Horde. Well, I'm at the other side! I've made Horde realising it isn't for me 33 levels in. But I won't swap because that would mean I would lose a lot of my time. Blizzard is solving this by forcing…",
+   "who": "/u/Goth2147",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "I did Dalaran, all 4 quests were yellow lvl range, guess Im still boosting because some mobs were grey at the start, so no xp for ppl",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xvvuxg/i_did_dalaran_all_4_quests_were_yellow_lvl_range/",
+   "date": "2026-11-14T06:58:32Z",
+   "summary": "This change wasnt thought out AT ALL its like blizz doesnt even play the game",
+   "who": "/u/shaunika",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01"
+  },
+  {
+   "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
+   "date": "2026-11-14T02:57:50Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Many Fixes to Dungeons, Quests, Enemies and Classes - WoW: Forever Hotfixes for November 13, 2026",
+   "url": "https://www.wowhead.com/news=383876/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for",
+   "date": "2026-11-14T01:59:35Z",
+   "summary": "Blizzard has posted hotfixes for today, which includes many fixes to dungeons, quests, enemies, and classes! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Blizzard Refunding Gold for Players Who Purchased Skills During Monday Server Issues",
+   "url": "https://www.wowhead.com/news=383875/blizzard-refunding-gold-for-players-who-purchased-skills-during-monday-server",
+   "date": "2026-11-14T01:53:22Z",
+   "summary": "Blizzard is refunding gold to players who purchased skills during the server issues on Monday. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "WoW: Forever Hotfixes - November 13, 2026",
+   "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-13-2026",
+   "date": "2026-11-14T01:53:01Z",
+   "summary": "Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "WoW: Forever - Lost Training Purchase Refunds",
+   "url": "https://www.mmo-champion.com/content/14695-WoW-Forever-Lost-Training-Purchase-Refunds",
+   "date": "2026-11-14T01:40:00Z",
+   "summary": "WoW: Forever - Lost Training Purchase Refunds Originally Posted by Blizzard ( Blue Tracker / Official Forums ) With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9…",
+   "source": "MMO-Champion",
+   "label": "press",
+   "icon": "inv_misc_book_07"
+  },
+  {
+   "title": "Lost Training Purchase Refunds - November 13",
+   "url": "https://us.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-november-13/2415068/1",
+   "date": "2026-11-14T01:36:48.839000Z",
+   "summary": "With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Riverglades is One of the Best Leveling Zones in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383849/riverglades-is-one-of-the-best-leveling-zones-in-wow-forever",
+   "date": "2026-11-13T23:08:44Z",
+   "summary": "Many players have mentioned that the Riverglades is one of the best leveling zones in WoW: Forever, so make sure to visit on your journey to 60! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Skyborne Don't Have Reputation Discount for Mounts in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383873/skyborne-dont-have-reputation-discount-for-mounts-in-wow-forever",
+   "date": "2026-11-13T20:40:55Z",
+   "summary": "Skyborne don't get the 10% reputation discount for learning your mount in WoW: Forever! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Where to Turn in Library Books in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/where-to-turn-in-library-books-in-wow-forever/",
+   "date": "2026-11-13T19:37:09Z",
+   "summary": "If you’ve stumbled upon a glittering scroll or tome in WoW Forever and clicked on it to pick up a book, you might be wondering what you’re supposed to do with it. The item doesn’t start a quest on its own, and there isn’t anything in the game to tell you…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15"
+  },
+  {
+   "title": "New WoW Forever Short Story: The Cost of Honor",
+   "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-short-story-the-cost-of-honor/",
+   "date": "2026-11-13T18:45:50Z",
+   "summary": "Following yesterday’s Episode 7 of the WoW Forever Podcast, which was all about lore, Blizzard has released a new short story for WoW Forever: The Cost of Honor. The story is available as an animated video and PDF. In it, Demar Brant, the leader of the…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15"
+  },
+  {
+   "title": "Blizzard Taking Down WoW: Forever Realms in 30 Minutes to Fix Urgent Server Crash",
+   "url": "https://www.wowhead.com/news=383870/blizzard-taking-down-wow-forever-realms-in-30-minutes-to-fix-urgent-server-crash",
+   "date": "2026-11-13T18:33:36Z",
+   "summary": "Blizzard has announced emergency realm maintenance in 30 minutes to fix an urgent server crash for WoW: Forever realms. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "WoW Weekly - WoW: Forever Podcast, a New Short Story, This Week's Video, and More!",
+   "url": "https://www.mmo-champion.com/content/14693-WoW-Weekly-WoW-Forever-Podcast-a-New-Short-Story-This-Week-s-Video-and-More!",
+   "date": "2026-11-13T18:31:00Z",
+   "summary": "WoW Weekly - WoW: Forever Podcast, a New Short Story, This Week's Video, and More! Originally Posted by Blizzard ( Blue Tracker / Official Forums ) This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the…",
+   "source": "MMO-Champion",
+   "label": "press",
+   "icon": "inv_misc_book_07"
+  },
+  {
+   "title": "New Short Story “Cost of Honor” for WoW: Forever",
+   "url": "https://www.wowhead.com/news=383868/new-short-story-cost-of-honor-for-wow-forever",
+   "date": "2026-11-13T18:03:42Z",
+   "summary": "Blizzard has released a new short story for WoW: Forever called \"The Cost of Honor\"! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!",
+   "url": "https://news.blizzard.com/en-us/article/24315205/wow-weekly-highlights-the-wow-forever-podcast-a-new-short-story-this-weeks-videos-and-more",
+   "date": "2026-11-13T18:01:00Z",
+   "summary": "This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the lore on the World of Warcraft: Forever Podcast, gather around the campfire for legendary tales from Demar Brant in the “Cost of Honor” short story,…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Watch the WoW: Forever Short Story, “Cost of Honor”",
+   "url": "https://news.blizzard.com/en-us/article/24316096/watch-the-wow-forever-short-story-cost-of-honor",
+   "date": "2026-11-13T18:00:00Z",
+   "summary": "Join Demar Brant for a special fireside telling of our newest short story to learn through tales of war, sacrifice, and hard choices, that the true strength of a people lies not in victory alone, but in the courage to protect one another.",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "WoW Forever Legacy Points explained",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0VTZ0aDdVb0d2N2FOZzkzQ1hxeXlfdVNkX19ud2pnZ0cyZlFKUmVxQ180d196UkJjYlJRTVNPLVowdUpmWU9VbC1XQmUwajVNbWEyaVZpSUhHa3pSdktMLWZWNWtjak5LUERaQlYxYw?oc=5",
+   "date": "2026-11-13T17:32:24Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Might of Stormwind World Buff Returns in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383857/might-of-stormwind-world-buff-returns-in-wow-forever",
+   "date": "2026-11-13T17:00:00Z",
+   "summary": "First introduced in Season of Discovery, the Might of Stormwind World Buff has returned for Alliance players in WoW: Forever. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "WoW Forever Has a Weekly Quest That Can Reward Up to 100 Gold, and Players Don't Love It",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRlRGTktSVmxIY09VandiR0NneE1QNzBEemVqQkJzTzhxNDRJZnNndDVsYU42Mm1lNXl0U3VRb1ZKdWRFVE0wUzd4QUxrYVh3MlNGOWwtMVRXWlc5UUJ3SF82aS0tZEwwM0NiT2QxZWpXR3gtbmdZSWIwbXlUWGQxR1paZUdvQXY0OXViVjhMa2Z4QnlObFpldlNtdGQ3YUJ3WG1rTHdFa0Y0THhHUnZJMVU1VUxnZw?oc=5",
+   "date": "2026-11-13T16:56:57Z",
+   "who": "IGN",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "WoW Factor: How World of Warcraft Forever entranced players who have never locked in to World of Warcraft",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZnh5SlAwVWdoMGxvbDJOSC1Eal8zODRxSEZ5ZG5WNHhLazBTSlhTZHRQLUhVXzltb0VveGVTQ0xCWFNkeThkZXg3Wnd0NEZoSFFzbkxxMEhxNUEyNWFJd1RLV3B4TklJQThQd0pQTloyellMTjl6THpvSWtOaHMtdFRKa0pUbWhHOEQ3VlFYNzZRSDNHaHg3emNOWXZ4UHJtOVZOZGtfOEczN2JRQ1pINW5nRW41amI1MjhSLUFpOUVGUnhYX2gyZVJYT09SdWJkbFI2ZUFTSQ?oc=5",
+   "date": "2026-11-13T16:00:38Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "World of Warcraft: Forever Review in Progress – More Than Just Nostalgia",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQVQ5dTNEWWVTMzlzcmFPTVpZUHJWMVEwV0tRT0dFeHZnSkFQNjQ1WjZPR3huQW1QUGpKTzRIcUNaUzRWZGJqTmloU09EOHFwY3FnRkxKNFdpTVloTUwydERvVHBSMWM2b0doNFpGbVdYRFc2RjYxUkdIel9zby1IOUxzTFJjdFBLbHhaYzJBT29mbkdZaUJJ?oc=5",
+   "date": "2026-11-13T15:33:12Z",
+   "who": "GamingBolt",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "World of Warcraft Forever soldiers through DDoS attack while teasing playable Ogres",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0U3dE9GQnJxZzFBYWlLeVJUODcycDl3bm0wUnRtM01Nc2hIVW5zLUZFT3piclhoQ1hqVGhmQmtfRXYwSmdVempFZUhKQzE0d0ZPQVphVkJKb2JDazdKeWJ2dy02bWRubTQzSGxiSVNfZnJ0Mlhta3B4elF5by1LQ2Z6ZmpEOFczOHg0dUJHclNpbExRY0RtNnNKZEZialpyZHBmLW41eE0wX3RqZ1JWbzBxNE5nS19MTWZZ?oc=5",
+   "date": "2026-11-13T15:00:31Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Secret Disguise Toy Found WoW: Forever",
+   "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever",
+   "date": "2026-11-13T15:00:00Z",
+   "summary": "A new secret toy, the Alcaz Operative Disguise, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Is WoW: Forever down? How to check server status explained",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1scjBTdnREeGVhZmxhdmdkOU4teWg2RTVMaDNXLW1wZG5abXNnVmx1cW45b3NPdC1JdmVlMmhONmt1S1FySkJmcWhRa05acXpId3dZd3RXbENfX1F1NkRxczc0NFNTNXR3YVVDY2FFb0I3NXc?oc=5",
+   "date": "2026-11-13T12:01:07Z",
+   "who": "Radio Times",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "WoW Forever Addons Guide",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fMFdyX295Smd5bWg3NVZ4U1p1X1drQ25pNWZ6QTVSbk1ZS0lubHh0R3l1M25HSm9RU2RhUWZ5WUh0Q3VVaHNTNXlTSkNVYV9HWW0yeVczWV90UTFDNkJ4M0VZV0xaY3F1cU1vVGhhS1lieXo0UDltZ1A3dWUwa1U?oc=5",
+   "date": "2026-11-13T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-13T04:38:58Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
+   "date": "2026-11-13T04:05:07Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Demonology Warlock Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
+   "date": "2026-11-13T03:52:55Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
+   "date": "2026-11-13T01:10:58Z",
+   "summary": "Once you reach max level in WoW: Forever, there's a new Weekly Quest that awards a random amount of gold, up to 100 Gold! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out",
+   "date": "2026-11-12T22:45:42Z",
+   "summary": "Once you learn Dual Spec, a bug can randomly trigger when you log out, wiping abilities off your Action Bars! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Season of Discovery's Scarlet Enclave Raid to Return in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383855/season-of-discoverys-scarlet-enclave-raid-to-return-in-wow-forever",
+   "date": "2026-11-12T22:02:00Z",
+   "summary": "In the latest episode of the WoW: Forever podcast, Blizzard has confirmed that the SoD exclusive raid, The Scarlet Enclave, will eventually return in WoW: Forever! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "World of Warcraft: Forever Review So Far",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLRUFiX21mbC1CRmxCN3Fyb2xxVTFMUnVHQkdpRzQzeWNLVTk4VTBuY2hMTHhJR0dSU1FfTU5rWkN3Y21ZTXJ0bk1GOWRBS3RfNVBoYktYZGp0bmFmYVpJZG81aGpGWkU5dFJ0UlVR?oc=5",
+   "date": "2026-11-12T20:19:00Z",
+   "who": "IGN",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "World of Warcraft: Forever Players Discover Its First Major Secret",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHJIajhnM2EydVdsQ3JvR2hOa2NEbElDeTd3ckFyQTdsbTMzUFFvQjNvYW5uZXFVeDdmNl9GeF9kMDRHVmpDcGxJOVhaSDY4U09XUTdBdVR1SGZpbVYxdnN6TWJ3YXpZTkxLZ05XR2hjNUZjQmF0czU2NlphQ2s3WUM5N29qeUt2VFJKMkxnM2lHaFFfUVIzdEFHdVMyWmsw?oc=5",
+   "date": "2026-11-12T19:26:01Z",
+   "who": "OpenCritic",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "New High Level Battle Mage Weapon Discovered in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383860/new-high-level-battle-mage-weapon-discovered-in-wow-forever",
+   "date": "2026-11-12T19:25:01Z",
+   "summary": "Players have discovered a new high-level Battle Mage weapon called Wit's Edge in WoW: Forever! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Enhancement Shaman Changes Now Live in WoW: Forever",
+   "url": "https://www.mmo-champion.com/content/14690-Enhancement-Shaman-Changes-Now-Live-in-WoW-Forever",
+   "date": "2026-11-12T19:17:00Z",
+   "summary": "Enhancement Shaman Changes Now Live in WoW: Forever Originally Posted by Blizzard ( Blue Tracker / Official Forums ) Please note: Due to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST / 19:45 CET today.…",
+   "source": "MMO-Champion",
+   "label": "press",
+   "icon": "inv_misc_book_07"
+  },
+  {
+   "title": "Enhancement Shaman Class Changes Now Live in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383858/enhancement-shaman-class-changes-now-live",
+   "date": "2026-11-12T19:12:41Z",
+   "summary": "Blizzard has confirmed that the Enhancement Shaman changes are now live. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "World of Warcraft: Forever Podcast - Episode 7: Turbo Nerds Lore-ing Out",
+   "url": "https://www.mmo-champion.com/content/14689-World-of-Warcraft-Forever-Podcast-Episode-7-Turbo-Nerds-Lore-ing-Out",
+   "date": "2026-11-12T18:35:00Z",
+   "summary": "World of Warcraft: Forever Podcast - Episode 7: Turbo Nerds Lore-ing Out Originally Posted by Blizzard ( Blue Tracker / Official Forums ) Join WoW: Forever Podcast host Countdown To Classic and special guests PlatinumWoW and Nobbel for a conversation with…",
+   "source": "MMO-Champion",
+   "label": "press",
+   "icon": "inv_misc_book_07"
+  },
+  {
+   "title": "\"Start Making Other Arrangements\" - Josh Greenfield on Locking Character Creation on PvP Rulesets",
+   "url": "https://www.wowhead.com/news=383854/start-making-other-arrangements-josh-greenfield-expands-on-pvp-ruleset-character",
+   "date": "2026-11-12T17:58:03Z",
+   "summary": "In episode 7 of the WoW: Forever podcast, Josh Greenfield comments on locking character creation on PvP rulesets, noting that Horde players who have not made a character on most PvP and RP-PVP realms should \"start making other arrangements\". Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Episode 7 of the WoW Forever Podcast Digs into Lore",
+   "url": "https://www.warcrafttavern.com/forever/news/episode-7-of-the-wow-forever-podcast-digs-into-lore/",
+   "date": "2026-11-12T17:50:59Z",
+   "summary": "After taking a week off for the game’s launch, the official WoW Forever Podcast is back with episode 7, which focuses on the game’s lore. Hosts CountdowntoClassic and Senior Game Designer Josh “Aggrend” Greenfield are joined by the game’s Lead Lore Historian…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15"
+  },
+  {
+   "title": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW",
+   "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856/1",
+   "date": "2026-11-12T17:46:04.799000Z",
+   "summary": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "The WoW: Forever Podcast Episode 7 Now Available - Lore Episode",
+   "url": "https://www.wowhead.com/news=383853/the-wow-forever-podcast-episode-7-now-available-lore-episode",
+   "date": "2026-11-12T17:37:38Z",
+   "summary": "The WoW: Forever podcast continues! Episode 7 is here and the team is talking about the lore. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "WoW Forever Dungeon XP: What Blizzard Says and What Players Write",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MMlFtVVZZc0Z5V1N6U0FrTE5fbko2QWQ4UkoyQ0hBQ29SdGZVb05aRXB4SWZnSi01bzFBcU1KNE9NV3ROOENJaGxDME9VRzFBY1JhUUlaVGxGVmhjaHY1T1dyUWZlZmF3THpKRGpDVlNocHhw?oc=5",
+   "date": "2026-11-12T17:25:03Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Watch the WoW: Forever Podcast – The Lore Episode",
+   "url": "https://news.blizzard.com/en-us/article/24316981/watch-the-wow-forever-podcast-the-lore-episode",
+   "date": "2026-11-12T17:15:00Z",
+   "summary": "Join WoW: Forever Podcast host Countdown To Classic and special guests PlatinumWoW and Nobbel for a conversation with Senior Game Designer Josh “Aggrend” Greenfield and Lore Historian Lead Sean Copeland. Together, they dive deeper into the lore and story of…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "WoW: Forever Is For Everyone, And Launch Just Proved It",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObW83VXdOOXZWeE91WXBKd3hoaEFtckJuN1pkSlk4cG5VZjFCRUNCcVdXWkhEeTFURjkwcHZfbWhqWkhvQlcyQTNFZHI5anBWUTRNTW1IX180OURDTm9GZTBVbEw1Q0h1MDVSMllyX1QwMzFqN08xTm1UdUNGdUJXV0tSR1VUbU5vanV5VFJUMXpuUQ?oc=5",
+   "date": "2026-11-12T16:40:24Z",
+   "who": "GameSpot",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "World of Warcraft: Forever players in Australia and New Zealand are struggling to get sunlight, and not for the usual MMO reasons",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91aDFTXzBCanVkTldZbThBNHlEV2VENlJqZXgyVkZBWWkwcnVXRFRoSkFSTEk0Z0EtWWZmaElnSWJiTmNCa0VITG45bEkzcVR0ODg4WHQybk45WXlJNmNjMWFaYzNwYnpJTlNrQXowdkozbFZWRkc0?oc=5",
+   "date": "2026-11-12T16:30:00Z",
+   "who": "Eurogamer.net",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Loot Ocarina of Time Boots from Drowned City in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383842/loot-ocarina-of-time-boots-from-drowned-city-in-wow-forever",
+   "date": "2026-11-12T16:00:00Z",
+   "summary": "A pair of boots has been discovered in the Drowned City loot table, which appears to be a clear reference to The Legend of Zelda: Ocarina of Time! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQTnl0SmtINTB2VmhlcGlpX2RjSlFZVFJNYjlqUlZCWlg4MUhDdUVnMlFLVjZwWmdPQ1gxVmozaGJzbEU0Q2lqa0lTbm9YUFlmRUNjRVZzZXo0WEdyVmZQdnh3eFAyT0NNZzdZemlMV1ZXMlBhbjdzUGt6VlB2R1lCWHVpcTlGNlJ6V3ZyNy1yakgyclNzbHlOWkpTWGhTaGpobUZnLTV3aVYzejZiQjBOcDMta052S3FZNU5RSW5BVXhNa3FmZmNkVWxDUUxyZ3IydFllbi1xakwzVDRka1NCRnBpSjJuM0YxNnFSWTJoOENvRWVobTY4cTJaWE1BLXluRk5Zdm0wUlNYZw?oc=5",
+   "date": "2026-11-12T15:36:38Z",
+   "who": "PC Gamer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383807/party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow",
+   "date": "2026-11-12T15:00:00Z",
+   "summary": "Getting the Cozy Sleeping Bag takes a long time, but you can use other players' sleeping bags to get the same experience buff if you're in the same party! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview",
+   "url": "https://www.wowhead.com/news=383818/catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview",
+   "date": "2026-11-12T14:00:00Z",
+   "summary": "But Why Tho? interviewed Mike Nuthals and Tim Jones on WoW: Forever and discussed the possibility of catch-up mechanics and the Economy. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "World of Warcraft: Forever – How to Dual Spec",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWGZzdy1jT01iSmFXVzFrWWMxUlFMaEZCUFpQZXFZZm5KTklSckQ5VVJTVVR6ZHBZNFM5TW5BYTJWeHNjaEFab0ktTmxRbDdSWkhGWDhvNlRLWVRoRUI2Y0RmbTJRclFCdFFnT2R2TU0zWW1uZ2FEcnFEdTNudTAwYw?oc=5",
+   "date": "2026-11-12T13:32:58Z",
+   "who": "VICE",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "WoW: Forever's 'Pointless' Early Quest Reward Hides a Much Bigger Secret",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbmEyQkdCVlMxTU94ejR1N2labzZFN29jYjEzTTNodHNkTXNkWjg1ajRENURKc1hmQmhjTEg3MFBTQzJvaDl1akh1RUlDVl9YbmhlRWxFOFlXSWh2Slc2TFZJQ3czazdlcGtYS2trOFBuMUlhZERyU2xMbzJIek1wYzI3Zmo3LXdT?oc=5",
+   "date": "2026-11-12T13:03:33Z",
+   "who": "Polygon.com",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03"
+  },
+  {
+   "title": "Restoration Druid Change to Wild Growth in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever",
+   "date": "2026-11-12T04:14:59Z",
+   "summary": "Restoration Druids have gotten a change to Wild Growth today in WoW: Forever. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Tailoring Bag Cost and Size Changes - WoW: Forever Hotfixes for November 11th, 2026",
+   "url": "https://www.wowhead.com/news=383848/tailoring-bag-cost-and-size-changes-wow-forever-hotfixes-for-november-11th-2026",
+   "date": "2026-11-12T00:52:58Z",
+   "summary": "Blizzard has posted hotfixes for today, which changes the crafting cost and bag size of some Tailoring Bags and disables Item Restoration. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth",
+   "url": "https://news.blizzard.com/en-us/article/24317866/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+   "date": "2026-11-11T21:28:14Z",
+   "summary": "Answer the call to a reimagined Azeroth with World of Warcraft: Forever. Prurchase the Skyborne Heroic Pack, Skyborne Epic Pack, or Warcraft Forever Collection on the Battle.net Shop to unlock upgrade benefit.",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Jokerd Talks Secrets and Plans Behind World First 60: The PULL 10 Podcast",
+   "url": "https://www.wowhead.com/news=383843/jokerd-talks-secrets-and-plans-behind-world-first-60-the-pull-10-podcast",
+   "date": "2026-11-11T19:42:15Z",
+   "summary": "This week's episode of Pull10 features Jorkerd, one of the five people to get world first level 60 in WoW: Forever, in just under 3 days! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Dual Spec Costs 50 Gold at Level 40 - Unlock Secondary Talent Tree",
+   "url": "https://www.wowhead.com/news=383835/dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree",
+   "date": "2026-11-11T18:29:47Z",
+   "summary": "Dual spec is available in WoW: Forever, but it costs 50 gold! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Explore the Drowned City: New Dungeon in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383825/explore-the-drowned-city-new-dungeon-in-wow-forever",
+   "date": "2026-11-11T16:00:00Z",
+   "summary": "The Drowned City is a new dungeon that challenges players in the Level 37-42 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Gelkis or Magram: Which to Pick in WoW: Forever?",
+   "url": "https://www.wowhead.com/news=383829/gelkis-or-magram-which-to-pick-in-wow-forever",
+   "date": "2026-11-11T15:00:00Z",
+   "summary": "When you start questing in Desolace in WoW: Forever, there are two competing clans to choose from - the Gelkis or the Magram. Which side is the better choice? Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Which Darkmoon Faire Buff Should You Pick in WoW: Forever?",
+   "url": "https://www.wowhead.com/news=383827/which-darkmoon-faire-buff-should-you-pick-in-wow-forever",
+   "date": "2026-11-11T14:00:00Z",
+   "summary": "In WoW: Forever, players can gain a 2-hour buff to aid them on their leveling or dungeon journey. The question is, which buff should players pick? Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Hunter Pet Nerf and Enhancement Shaman Changes - WoW: Forever Hotfixes for November 10, 2026",
+   "url": "https://www.wowhead.com/news=383837/hunter-pet-nerf-and-enhancement-shaman-changes-wow-forever-hotfixes-for-november",
+   "date": "2026-11-11T03:30:15Z",
+   "summary": "Blizzard has posted hotfixes for today, which includes a pet nerf for Hunters, a pet buff for Warlocks, Enhancement Shaman changes and more! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Blizzard Addressing Missing Shaman Totems Due to Monday's Server Issue in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383833/blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow",
+   "date": "2026-11-11T01:13:27Z",
+   "summary": "Blizzard has fixed an issue with missing Shaman totems due to server issues on Monday. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Bugged/missing shaman totems since Monday's server chaos",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2409772",
+   "date": "2026-11-11T01:10:36Z",
+   "summary": "We have just deployed a fix for this to all regions. Shamans who lost a totem due to the crash should find it restored to their bag. Shamans who experienced the disappearance, who are currently in-game,... By Kaivax on 2026/11/10 at 7:10 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Blizzard replied in “Bugged/missing shaman totems since Monday's server chaos”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/buggedmissing-shaman-totems-since-mondays-server-chaos/2409772/2",
+   "date": "2026-11-11T01:10:36.511000Z",
+   "summary": "We have just deployed a fix for this to all regions. Shamans who lost a totem due to the crash should find it restored to their bag. Shamans who experienced the disappearance, who are currently in-game, will need to make sure you have bag space, and then…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "WoW: Forever screenshot thread below 🧵",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzynk7feel2o",
+   "date": "2026-11-11T00:00:00.519000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Blizzard Adding Gold to Many Quests Near Max Level in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383832/blizzard-adding-gold-to-many-quests-near-max-level-in-next-24-hours",
+   "date": "2026-11-10T21:58:16Z",
+   "summary": "Blizzard is adding gold to most quests above level 48, including ones that never previously rewarded gold at all! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "No gold from quests at lvl 60? Seriously?",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/eu/640380",
+   "date": "2026-11-10T21:56:33Z",
+   "summary": "Tolbrim: When we evaluated the economy going into WoW: Forever, we made a conscious choice to disable the XP-to-Gold conversion for quests completed at maximum level. This change was originally introduced... By Kaivax on 2026/11/10 at 3:56 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Blizzard replied in “No gold from quests at lvl 60? Seriously?”",
+   "url": "https://eu.forums.blizzard.com/en/wow/t/no-gold-from-quests-at-lvl-60-seriously/640380/93",
+   "date": "2026-11-10T21:56:33.192000Z",
+   "summary": "When we evaluated the economy going into WoW: Forever, we made a conscious choice to disable the XP-to-Gold conversion for quests completed at maximum level. This change was originally introduced in 2006 in the weeks leading up the original Burning Crusade…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (EU)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Gold at 60 for quests",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2405161",
+   "date": "2026-11-10T21:56:23Z",
+   "summary": "Iamforty: When we evaluated the economy going into WoW: Forever, we made a conscious choice to disable the XP-to-Gold conversion for quests completed at maximum level. This change was originally introduced... By Kaivax on 2026/11/10 at 3:56 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Blizzard replied in “Gold at 60 for quests”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/gold-at-60-for-quests/2405161/165",
+   "date": "2026-11-10T21:56:23.698000Z",
+   "summary": "When we evaluated the economy going into WoW: Forever, we made a conscious choice to disable the XP-to-Gold conversion for quests completed at maximum level. This change was originally introduced in 2006 in the weeks leading up the original Burning Crusade…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Dungeon Experience in WoW: Forever is Now 60% of Classic Era - Blizzard Happy with Dungeon Level Speeds",
+   "url": "https://www.wowhead.com/news=383831/dungeon-experience-in-wow-forever-is-now-60-of-classic-era-blizzard-happy-with",
+   "date": "2026-11-10T21:52:03Z",
+   "summary": "Blizzard has confirmed that dungeon experience in WoW: Forever is now 60% of Classic era values, and that they feel the adjustment is working well. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Dungeon xp still not enough",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/eu/640969",
+   "date": "2026-11-10T21:35:31Z",
+   "summary": "Ravali: We’ve tracked this very carefully, and the hotfix that we deployed on Sunday, November 8 took dungeon kill XP from 40% of the values in Classic Era to 60% of the values in Classic Era. We have... By Kaivax on 2026/11/10 at 3:35 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Blizzard replied in “Dungeon xp still not enough”",
+   "url": "https://eu.forums.blizzard.com/en/wow/t/dungeon-xp-still-not-enough/640969/30",
+   "date": "2026-11-10T21:35:31.740000Z",
+   "summary": "We’ve tracked this very carefully, and the hotfix that we deployed on Sunday, November 8 took dungeon kill XP from 40% of the values in Classic Era to 60% of the values in Classic Era. We have subsequently felt that the adjustment is working well to produce…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (EU)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Blizzard replied in “The majority WANTS increased dungeon XP”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/the-majority-wants-increased-dungeon-xp/2406555/254",
+   "date": "2026-11-10T21:35:22.464000Z",
+   "summary": "We’ve tracked this very carefully, and the hotfix that we deployed on Sunday, November 8 took dungeon kill XP from 40% of the values in Classic Era to 60% of the values in Classic Era. We have subsequently felt that the adjustment is working well to produce…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead",
+   "url": "https://www.wowhead.com/news=383828/vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed",
+   "date": "2026-11-10T21:05:09Z",
+   "summary": "With the weekly reset, many items had their Vendor Prices changed on WoW: Forever, likely targeting Vendor Shuffles. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Whether you haven’t logged in for a while or this is your first time ever in Azeroth, here’s a quickstart guide to WoW: Forever 📖…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzydrc7ppu2v",
+   "date": "2026-11-10T21:05:01.044000Z",
+   "summary": "Whether you haven’t logged in for a while or this is your first time ever in Azeroth, here’s a quickstart guide to WoW: Forever 📖 blizz.ly/4sWKTcW",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Warlock and Hunter Class Tuning Now Live in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383826/warlock-and-hunter-class-tuning-now-live-in-wow-forever",
+   "date": "2026-11-10T20:16:31Z",
+   "summary": "Some Warlock and Hunter class tuning is now live in WoW: Forever. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
+   "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever",
+   "date": "2026-11-10T19:12:35Z",
+   "summary": "On the Weekly Reset, the Shaman Class Weapon, Rage of the Storm, has been hotfixed to change the attack speed and stats of the weapon. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
+   "url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch",
+   "date": "2026-11-10T16:00:00Z",
+   "summary": "The hunt for secrets is on in WoW: Forever, and to jump in, you'll need to find the Night Watchman's Torch in Duskwood. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Every Quest for Level 20 to 30 Dungeons in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever",
+   "date": "2026-11-10T15:00:00Z",
+   "summary": "Here are all the quests for the level 20 to 30 dungeons to help you level faster in WoW: Forever! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "New \"Dawn Waker\" Secret Found in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383813/new-dawn-waker-secret-found-in-wow-forever",
+   "date": "2026-11-10T14:00:00Z",
+   "summary": "A New extensive quest chain to unlock potentially powerful weapons has been discovered in WoW: Forever, thanks to the Secret Finding Discord! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09"
+  },
+  {
+   "title": "Blizzard replied in “WoW: Forever Hotfixes - November 13, 2026”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "date": "2026-11-10T04:23:46.156000Z",
+   "summary": "November 9, 2026 Classes Druid The Cooldown Manager no longer shows Berserk, and now correctly shows Lacerate when learned. Idol of Ferocity no longer lists Mangle as an ability it discounts. Feral Fixed an issue where Feral Charge (Cat) was not putting the…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "PvP Faction Balance Updates - November 10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1",
+   "date": "2026-11-10T02:05:13.558000Z",
+   "summary": "It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Dungeon Enemy XP Increased - 8 November",
+   "url": "https://eu.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-8-november/640598/1",
+   "date": "2026-11-08T19:48:33.052000Z",
+   "summary": "At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs. Happy dungeon crawling, and good luck with those Deviate Hides!",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (EU)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Congratulations everyone, you made HISTORY! WoW: Forever has achieved: 🔹The biggest launch in WoW history by peak concurrent players 🔹The…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzoudcfxws2t",
+   "date": "2026-11-07T02:34:47.722000Z",
+   "summary": "Congratulations everyone, you made HISTORY! WoW: Forever has achieved: 🔹The biggest launch in WoW history by peak concurrent players 🔹The highest number of returning players in WoW history This is all because of you, the players. From all of us, THANK YOU!",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Class Tuning Incoming - 10 November",
+   "url": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-10-november/640100/1",
+   "date": "2026-11-06T21:12:54.951000Z",
+   "summary": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them with a plan to release hotfixes on…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (EU)",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "We made a few video call backgrounds to get you closer to Azeroth until you can log back into WoW: Forever after work 🤝",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzo6xo3zt22o",
+   "date": "2026-11-06T20:12:28.741000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly",
+   "url": "https://news.blizzard.com/en-us/article/24316097/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir-takes-shape-in-wow-weekly",
+   "date": "2026-11-06T18:10:00Z",
+   "summary": "Azeroth has a new home, and the adventure is just getting started! This week in WoW Weekly, discover that World of Warcraft: Forever is now live, join ongoing conversations on Discord in and out of the game, explore another way to play with gamepad support,…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Happy Friday, friends! 😊 WoW Forever is hitting its stride and the weekend is fast approaching. A great time to make some serious progress…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzna6ea5bk2r",
+   "date": "2026-11-06T11:01:27.286000Z",
+   "summary": "Happy Friday, friends! 😊 WoW Forever is hitting its stride and the weekend is fast approaching. A great time to make some serious progress in our exploration! We're around if you've got any support questions!",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "Attention, Adventurers! Our list of common issues for #WoWForever can be found here: blizz.ly/4832gir *Please note this isn't a…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzm37lwpje2t",
+   "date": "2026-11-06T00:00:00.362000Z",
+   "summary": "Attention, Adventurers! Our list of common issues for #WoWForever can be found here: blizz.ly/4832gir *Please note this isn't a comprehensive list and will change as more issues arise.",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "Known Issues - WoW Forever - Updated Nov. 5",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2402363",
+   "date": "2026-11-05T22:07:42Z",
+   "summary": "In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues,... By Kaivax on 2026/11/05 at 4:07 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "WoW: Forever– Watch Forging Forever",
+   "url": "https://news.blizzard.com/en-us/article/24317865/wow-forever-watch-forging-forever",
+   "date": "2026-11-05T22:00:00Z",
+   "summary": "Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood.",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Rulesets mean a quicker route to finding people who like to play WoW: Forever the way you do 🤝 Watch the full Rulesets breakdown on…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzlkb7ah6i2d",
+   "date": "2026-11-05T18:56:40.630000Z",
+   "summary": "Rulesets mean a quicker route to finding people who like to play WoW: Forever the way you do 🤝 Watch the full Rulesets breakdown on YouTube: blizz.ly/4sLhJ0a",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Phasing issues with group still persist from beta",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2402367",
+   "date": "2026-11-05T15:51:58Z",
+   "summary": "Questions! After you accept the group invite and join your friend’s party, do you see the message in blue (lower-right here)? image1920×1105 577 KB Can you click on it? Does clicking on it result in... By Kaivax on 2026/11/05 at 9:51 AM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "WoW Forever Bug Report Forum Guidelines",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2402319",
+   "date": "2026-11-05T15:22:45Z",
+   "summary": "Welcome! Please read this before posting in this forum. What follows are guidelines for how this forum should and shouldn’t be used. WoW Forever Bug Report Forum Guidelines: Please do not post off-topic... By Kaivax on 2026/11/05 at 9:22 AM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "About the WoW Forever Bug Report category",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2402289",
+   "date": "2026-11-05T15:11:18Z",
+   "summary": "(Replace this first paragraph with a brief description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters.) Use the following paragraphs... By Kaivax on 2026/11/05 at 9:11 AM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Zeppelins broken?",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2401777",
+   "date": "2026-11-05T06:39:29Z",
+   "summary": "Hi There, We are aware of some issues with transports such as boats and zeppelins becoming lost in the maelstrom for extended periods of time. As a temporary fix, we’ve spawned portals near most... By Aggrend on 2026/11/05 at 12:39 AM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Why do I see maybe 8 people inside the main city?",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2401806",
+   "date": "2026-11-05T06:35:55Z",
+   "summary": "Hi There, Just wanted to chime in and say that we are aware of some issues with certain areas not feeling as populated as they should. We will be tweaking some numbers tomorrow to help things feel a... By Aggrend on 2026/11/05 at 12:35 AM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Issues Resolved for Invite-a-Friend Players",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2401646",
+   "date": "2026-11-05T02:43:58Z",
+   "summary": "With a hotfix that is now live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat channels, leveling past... By Kaivax on 2026/11/04 at 8:43 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
+   "url": "https://news.blizzard.com/en-us/article/24317678/set-your-campfire-ablaze-with-the-pouch-of-violet-dust",
+   "date": "2026-11-05T00:30:00Z",
+   "summary": "Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy.",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "New Player’s Starter Guide: Welcome to World of Warcraft: Forever",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2394974",
+   "date": "2026-11-05T00:24:25Z",
+   "summary": "World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and the journey itself take center stage. Begin at level one, shape a character of your own,... By Blizzard Entertainment on 2026/11/04 at 6:24 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Language and Social Settings",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/eu/639555",
+   "date": "2026-11-04T23:44:07Z",
+   "summary": "It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular. image898×713 128 KB... By Kaivax on 2026/11/04 at 5:44 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Message your group: it’s time to go ⏰ You can play WoW: Forever starting NOW!",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzjj3qvwer2i",
+   "date": "2026-11-04T23:30:24.619000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "World of Warcraft: Forever Now Live!",
+   "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live",
+   "date": "2026-11-04T23:00:00Z",
+   "summary": "Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "World of Warcraft: Forever Launch Time",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2400905",
+   "date": "2026-11-04T20:10:17Z",
+   "summary": "WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s: Time Zone Location Time Date HST Honolulu 1:00 p.m. Nov. 4 AKST Juneau 2:00 p.m. Nov. 4 PST Los Angeles 3:00 p.m.... By Kaivax on 2026/11/04 at 2:10 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Not sure when #WoWForever goes live in your region? Know when you can visit a reimagined Azeroth here: blizz.ly/4fcBojU",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzj5djv76r2x",
+   "date": "2026-11-04T20:00:00.778000Z",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "WoW Forever Beta Development Notes – Updated November 2",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2360696",
+   "date": "2026-11-04T19:35:27Z",
+   "summary": "Since the last full update to the Beta on October 15, we’ve continued to work to solve issues, refine classes, improve gameplay in all areas, and address feedback we received from Beta testers. What... By Kaivax on 2026/11/04 at 1:35 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03"
+  },
+  {
+   "title": "Stay Connected in World of Warcraft with Discord",
+   "url": "https://news.blizzard.com/en-us/article/24296228/stay-connected-in-world-of-warcraft-with-discord",
+   "date": "2026-11-04T18:00:00Z",
+   "summary": "Link your Battle.net and Discord accounts to stay connected with your guild in modern World of Warcraft and World of Warcraft: Forever, whether you’re in or out of the game.",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Good morning to Forever 🌅",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzirpdoxbp2c",
+   "date": "2026-11-04T16:31:52.044000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Seeing error WOW51900337 when trying to log into #WoWForever? This is expected, as the game is not live yet. World of Warcraft: Forever…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzij7ssnqj2k",
+   "date": "2026-11-04T14:00:01.091000Z",
+   "summary": "Seeing error WOW51900337 when trying to log into #WoWForever? This is expected, as the game is not live yet. World of Warcraft: Forever launches later today. More details: blizz.ly/4AgdCvM",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "#WoWForever begins a new journey through a reimagined world. From new zones and quests, to new systems and character options, we've got…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzh2bsdib52i",
+   "date": "2026-11-04T00:00:01.840000Z",
+   "summary": "#WoWForever begins a new journey through a reimagined world. From new zones and quests, to new systems and character options, we've got what you need to get you started on your return to Azeroth. Details here: blizz.ly/4is1DDW",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "From setting up your account to joining other adventurers, these fundamentals will help you begin with confidence while leaving discovery…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzgtl7holj2r",
+   "date": "2026-11-03T22:00:01.316000Z",
+   "summary": "From setting up your account to joining other adventurers, these fundamentals will help you begin with confidence while leaving discovery in your hands as you set your sights on #WoWForever. Details here: blizz.ly/4iF1RI6",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "Explore WoW: Forever with a Gamepad",
+   "url": "https://news.blizzard.com/en-us/article/24316974/explore-wow-forever-with-a-gamepad",
+   "date": "2026-11-03T20:00:00Z",
+   "summary": "Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamepad support is available in a beta state, with more improvements to come.",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Whether you’ve waited for years, months, or mere days, we can all agree… WOW: FOREVER LAUNCHES TOMORROW!",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzgjjdokor23",
+   "date": "2026-11-03T19:00:01.300000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "WoW: Forever—What’s New and What Feels Familiar",
+   "url": "https://news.blizzard.com/en-us/article/24315821/wow-foreverwhats-new-and-what-feels-familiar",
+   "date": "2026-11-03T18:00:00Z",
+   "summary": "World of Warcraft: Forever has something for explorers, dungeon groups, collectors, roleplayers, and PvP fans alike. See how its interface conveniences, class updates, and progression systems complement a distinct take on original WoW—and what to expect if…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Only one more day until the launch of WoW: Forever! Dive into everything coming: blizz.ly/4itTZZB 🏞️ New Zones 📖 1000 New Quests 🌪️…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzgd2czyuy2a",
+   "date": "2026-11-03T17:04:14.844000Z",
+   "summary": "Only one more day until the launch of WoW: Forever! Dive into everything coming: blizz.ly/4itTZZB 🏞️ New Zones 📖 1000 New Quests 🌪️ Skyborne, a new playable race 🪄 Classes and spec updates 📒 Account-wide progression ⚔️ New Dungeons & Raids",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Good morning, friends! Just one more sleep until WoW Forever! 🥰 We're around if you've got any support questions.",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzflpilwhc2k",
+   "date": "2026-11-03T10:06:35.546000Z",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "We are two days out from the launch of WoW: Forever! Prep for the moment with the official Launch Overview coming 11/3 @9am PST:…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzerszb5le2m",
+   "date": "2026-11-03T02:23:16.372000Z",
+   "summary": "We are two days out from the launch of WoW: Forever! Prep for the moment with the official Launch Overview coming 11/3 @9am PST: blizz.ly/4A8O0Ro",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Lock in three WoW: Forever characters before Early Name Reservation closes today! 🔒",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzed4cgs7e2c",
+   "date": "2026-11-02T22:00:01.867000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "When you purchase #WoWForever upgrade products, you will be granted codes that can be used to invite up to 3 friends to play for free…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzed4bcipx2x",
+   "date": "2026-11-02T22:00:00.574000Z",
+   "summary": "When you purchase #WoWForever upgrade products, you will be granted codes that can be used to invite up to 3 friends to play for free during the launch week (from November 4 through November 11, 2026). See the article for all the information: blizz.ly/4i4VIV8",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "Good morning, friends! It's Monday, coffee is ready, and we're getting closer to WoW Forever! Just two more days to go!🥳 We're around if…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzd4xgnvq22h",
+   "date": "2026-11-02T10:37:16.344000Z",
+   "summary": "Good morning, friends! It's Monday, coffee is ready, and we're getting closer to WoW Forever! Just two more days to go!🥳 We're around if you've got any support questions",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal"
+  },
+  {
+   "title": "Three sleeps to go before WoW: Forever launches 🫪",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzb6jmqfvu2e",
+   "date": "2026-11-01T16:00:00.956000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Villagers speak in hushed tones about the legend of the dreaded Kobold miner… Thanks for participating in the WoW: Forever beta!",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz4i3ja5vo2a",
+   "date": "2026-10-30T19:07:46.256000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
+   "url": "https://news.blizzard.com/en-us/article/24316094/prepare-for-forever-try-midnights-talebound-and-discover-sweet-treats-in-wow-weekly",
+   "date": "2026-10-30T17:01:00Z",
+   "summary": "From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15"
+  },
+  {
+   "title": "Watch an amazing animated music video and earn orbs while you headbang 🤘 Check Discord for the newest WoW: Forever Quest! blizz.ly/47OBIBy",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz2elumgcn2m",
+   "date": "2026-10-29T23:00:00.633000Z",
+   "summary": "Watch an amazing animated music video and earn orbs while you headbang 🤘 Check Discord for the newest WoW: Forever Quest! blizz.ly/47OBIBy",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Send this to the people you want in your first WoW: Forever group 📩",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz25yifcy724",
+   "date": "2026-10-29T21:01:47.788000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "When it makes an engineer smile like that, you know the data was good 😁 For more on the tech behind WoW: Forever, catch Episode 6 of the…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3myzobvibzt2m",
+   "date": "2026-10-29T16:20:40.755000Z",
+   "summary": "When it makes an engineer smile like that, you know the data was good 😁 For more on the tech behind WoW: Forever, catch Episode 6 of the podcast: blizz.ly/4yOWcVS",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Unlock WoW: Forever access for a friend from launch until Nov 11! Skyborne Epic & Heroic Pack owners will start receiving their…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3myy347cuir2f",
+   "date": "2026-10-29T01:04:51.788000Z",
+   "summary": "Unlock WoW: Forever access for a friend from launch until Nov 11! Skyborne Epic & Heroic Pack owners will start receiving their Invite-A-Friend code today 📩",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "🎮 Meet the WoW: Forever Devs 📝 Grab a signed poster 🧙 Connect with fellow adventurers Nov 2 at the Irvine Improv: blizz.ly/4imB5E9",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3myxypfejpf2j",
+   "date": "2026-10-29T00:21:54.453000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "Horde. Alliance. War. Nov 4. Pick your side of the story and fight for your faction when WoW: Forever launches! blizz.ly/4susCmW",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3myuptbj3xn2m",
+   "date": "2026-10-27T17:05:01.731000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "It’s almost time to say goodbye until launch, so hop on the WoW: Forever Beta while you can!",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mykabhkzym2o",
+   "date": "2026-10-23T13:00:00.579000Z",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  },
+  {
+   "title": "No spoilers, but we may or may not show a player death heatmap in this week’s WoW: Forever Podcast ☠️ Watch the full episode for a Beta…",
+   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3myi4k5ysmm2e",
+   "date": "2026-10-22T16:47:58.110000Z",
+   "summary": "No spoilers, but we may or may not show a player death heatmap in this week’s WoW: Forever Podcast ☠️ Watch the full episode for a Beta breakdown: blizz.ly/4BfOPZP",
+   "who": "@worldofwarcraft.blizzard.com",
+   "source": "World of Warcraft on Bluesky",
+   "label": "social",
+   "icon": "inv_misc_horn_01"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+# Refreshes The Wire (data/news.json) every 3 hours and deploys the site to GitHub Pages.
+# A failed fetch keeps the last good news file, so the site never goes blank.
+name: Refresh news and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch news
+        run: python tools/fetch_news.py --out data/news.json
+
+      - name: Save news to the repo
+        run: |
+          if ! git diff --quiet -- data/news.json; then
+            git config user.name "whimsy-wire[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/news.json
+            git commit -m "Refresh The Wire"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4

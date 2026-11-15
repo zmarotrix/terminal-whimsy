@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Terminal Whimsy · Forever Briefing</title>
+<meta name="description" content="Terminal Whimsy's guide to WoW Forever: everything Blizzard has said, every change worth knowing, the gear, and a live news wire.">
+<meta name="theme-color" content="#0a0c13">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 58 12v20c0 15-11 25-26 29C17 57 6 47 6 32V12z' fill='%2310131d' stroke='%23f2c56b' stroke-width='3'/%3E%3Cpath d='M19 24l9 8-9 8' fill='none' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M32 41h13' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Cinzel:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<header class="top bleed" style="padding-inline:var(--gutter) var(--gutter-r)">
+  <a class="brand" href="#top"><svg class="crest" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 3 58 12v20c0 15-11 25-26 29C17 57 6 47 6 32V12z" fill="#10131d" stroke="#f2c56b" stroke-width="3"/><path d="M19 24l9 8-9 8" fill="none" stroke="#7cf29a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 41h13" stroke="#7cf29a" stroke-width="4.5" stroke-linecap="round"/></svg><span>Terminal Whimsy</span></a>
+  <nav aria-label="Sections">
+    <a href="#must">Must know</a><a href="#road">Roadmap</a><a href="#you">Your class</a><a href="#changes">Changes</a><a href="#gear">Gear</a><a href="#said">Blizzard said</a><a href="#wire">The Wire</a><a href="#sources">Sources</a>
+  </nav>
+  <div class="xp" tabindex="0"><span class="lbl">Briefing</span><span class="xpbar"><i></i></span><span class="v mono">0/0</span></div>
+</header>
+
+<main id="top">
+<section class="hero bleed" style="padding-inline:var(--gutter) var(--gutter-r)">
+  <div class="art" role="img" aria-label="Dalaran, from WoW Forever's loading screen art"></div>
+  <canvas class="motes" aria-hidden="true"></canvas>
+  <div class="inner wide" style="width:100%">
+    <div class="term" aria-hidden="true"><span class="txt"></span><span class="cur"></span></div>
+    <h1>Terminal Whimsy<small>The Forever Briefing</small></h1>
+    <p class="lede" id="lede"></p>
+    <div class="count" aria-live="off"></div>
+    <div class="btns" style="margin-top:.6rem"><a class="btn go" href="#must">Brief me in 60 seconds</a><a class="btn" href="#wire">Latest news</a></div>
+  </div>
+</section>
+
+<div class="ticker bleed" aria-label="Latest headlines"><span class="tag">The Wire</span><div class="rail"><span class="muted" style="font-size:.9rem">loading headlines…</span></div></div>
+
+<!-- I. must know -->
+<section class="ch" id="must">
+  <div class="spine">
+    <div class="chap rv"><span class="num">01 · THE 60-SECOND VERSION</span><h2>What every raider must know</h2><p class="sub">If you read nothing else before raid night, read this. Each one links to the full detail and its source.</p></div>
+    <ol class="must" id="mustList"></ol>
+  </div>
+</section>
+
+<!-- II. roadmap -->
+<div class="banner bleed" style="--img:url(img/lordaeron.jpg);padding-inline:var(--gutter) var(--gutter-r)"><div class="art"></div><span class="credit">Ruins of Lordaeron · WoW Forever loading screen · © Blizzard</span><div class="cap wide" style="width:100%"><span class="eyebrow">02 · ROADMAP</span><h2>Where we are, and what's next</h2></div></div>
+<section class="ch" id="road" style="padding-top:2rem">
+  <div class="wide">
+    <div class="tldr rv"><div class="eyebrow">> the short version</div><p id="roadTldr"></p></div>
+    <div class="road" id="roadRail" role="list"></div>
+  </div>
+</section>
+
+<!-- III. your class -->
+<section class="ch" id="you">
+  <div class="wide">
+    <div class="chap rv"><span class="num">03 · YOUR CLASS</span><h2>What changed for you</h2><p class="sub">Pick your class and get only the changes that touch it. The site remembers your pick on this device.</p></div>
+    <div class="picker" id="spotPick"></div>
+    <div id="spotBody" style="margin-top:1.6rem"></div>
+  </div>
+</section>
+
+<!-- IV. changes -->
+<div class="banner bleed" style="--img:url(img/excavation.jpg);padding-inline:var(--gutter) var(--gutter-r)"><div class="art"></div><span class="credit">Excavation Site · WoW Forever loading screen · © Blizzard</span><div class="cap wide" style="width:100%"><span class="eyebrow">04 · THE CHANGE LEDGER</span><h2>Every change worth knowing</h2></div></div>
+<section class="ch" id="changes" style="padding-top:2rem">
+  <div class="wide">
+    <div class="tldr rv"><div class="eyebrow">> how to read this</div><p>Each line shows how Classic did it, struck through, and what Forever does now. Open a line for why it matters to the raid and where we read it. <b style="color:var(--official)">Official</b> means Blizzard said it. <b style="color:var(--sky)">Datamined</b> means it's in the game files. <b style="color:var(--community)">Community</b> means players tested or reported it, and <b style="color:var(--whim)">Rumour</b> means don't plan around it yet.</p></div>
+    <div class="filters">
+      <div class="row" id="areaChips"></div>
+      <div class="row"><div class="row" id="clsFilter" aria-label="Filter by class"></div></div>
+      <div class="row"><div class="row" id="confChips"><button class="chip" data-c="all" aria-pressed="true">Any source</button><button class="chip" data-c="official" aria-pressed="false">Official</button><button class="chip" data-c="datamined" aria-pressed="false">Datamined</button><button class="chip" data-c="community" aria-pressed="false">Community</button><button class="chip" data-c="rumour" aria-pressed="false">Rumour</button></div><input class="search" id="chgSearch" type="search" placeholder="> search changes…" aria-label="Search changes"><span class="count-line" id="chgCount"></span></div>
+    </div>
+    <div class="ledger" id="ledger"></div>
+    <button class="btn more-btn" id="chgMore">Show more changes</button>
+  </div>
+</section>
+
+<!-- V. gear -->
+<div class="banner bleed" style="--img:url(img/thanes.jpg);padding-inline:var(--gutter) var(--gutter-r)"><div class="art"></div><span class="credit">Hall of Thanes · WoW Forever loading screen · © Blizzard</span><div class="cap wide" style="width:100%"><span class="eyebrow">05 · GEAR</span><h2>Gear and loot changes</h2></div></div>
+<section class="ch" id="gear" style="padding-top:2rem">
+  <div class="wide">
+    <div class="tldr rv"><div class="eyebrow">> the short version</div><p>Tier 1 is all new. Every class gets a 6-piece set for each role, at item level 65, from Hyjal Summit and Barrow Deeps. Four of the six slots can also be crafted at item level 61, but only with essence from disenchanted raid loot. Every stat beyond armour stays hidden until the piece first drops on our realm.</p></div>
+    <div class="gearlede">
+      <div><h3 class="h3">How Tier 1 works</h3><ul class="facts"><li><b>6 pieces, 4 bonuses</b> at 2, 3, 4 and 5 pieces. The 4-piece adds damage against one creature type.</li><li><b>Head and chest</b> only drop in raids. The other four slots also drop in raids.</li><li><b>Binds to the looter.</b> Which boss drops which slot isn't published yet.</li></ul></div>
+      <div><h3 class="h3">Crafted pieces</h3><ul class="facts"><li><b>Shoulders, hands, legs, feet</b> at item level 61, made by Blacksmithing, Leatherworking or Tailoring at 300.</li><li><b>Needs Malleable Essence of Nature</b>, which only comes from disenchanting new raid loot, plus Guardians of Hyjal reputation and a camp station.</li><li><b>Wear 1 crafted piece</b>, or 2 after buying the Rousing Seed Pod (10 gold).</li></ul></div>
+    </div>
+    <p class="eyebrow" style="margin-bottom:.6rem">> pick a class, then click pieces to try the set on</p>
+    <div class="picker" id="gearPick" style="margin:0 0 1.4rem"></div>
+    <div id="tierSets"></div>
+    <h3 class="h3" style="margin:3rem 0 .4rem">Other gear and items worth knowing</h3>
+    <p class="muted" style="margin-bottom:1rem">Consumables, dungeon sets, PvP gear and items that changed since Classic.</p>
+    <div class="row" id="gearChips" style="margin-bottom:.6rem"></div>
+    <div class="gear" id="gearList"></div>
+  </div>
+</section>
+
+<!-- VI. blizzard said -->
+<section class="ch" id="said">
+  <div class="wide">
+    <div class="chap rv"><span class="num">06 · ON THE RECORD</span><h2>Everything Blizzard has said</h2><p class="sub">Every official statement we could find, newest first: articles, blue posts, patch notes, hotfixes and interviews. Each one links to where Blizzard said it.</p></div>
+    <div class="filters" style="top:52px"><div class="row" id="saidChips"></div><div class="row"><input class="search" id="saidSearch" type="search" placeholder="> search what Blizzard said…" aria-label="Search statements"></div></div>
+    <div class="said" id="saidList"></div>
+    <button class="btn more-btn" id="saidMore">Show older statements</button>
+  </div>
+</section>
+
+<!-- VII. wire -->
+<div class="banner bleed" style="--img:url(img/gilneas-map.jpg);padding-inline:var(--gutter) var(--gutter-r)"><div class="art"></div><span class="credit">WoW Forever loading screen · © Blizzard</span><div class="cap wide" style="width:100%"><span class="eyebrow">07 · THE WIRE</span><h2>News as it lands</h2></div></div>
+<section class="ch" id="wire" style="padding-top:2rem">
+  <div class="wide">
+    <div class="wire-head">
+      <p class="sub" style="max-width:62ch;color:var(--muted)">One feed for everything. Blizzard's own posts glow gold. Filter to just Blizzard, their social accounts, the press, or the community. It refreshes itself every few hours.</p>
+      <div class="fresh"><span class="led"></span>loading…</div>
+    </div>
+    <div class="filters" style="top:52px"><div class="row" id="wireChips"></div></div>
+    <div class="wire" id="wireList"></div>
+    <button class="btn more-btn" id="wireMore" hidden>Older stories</button>
+  </div>
+</section>
+
+<!-- sources -->
+<section class="ch" id="sources">
+  <div class="wide">
+    <div class="chap"><span class="num">08 · SOURCES</span><h2>Where all this comes from</h2><p class="sub">Every claim on this page links to its source. These are all <span id="srcCount" class="mono"></span> of them, by site.</p></div>
+    <ul class="srcs" id="srcList"></ul>
+  </div>
+</section>
+</main>
+
+<footer class="bleed" style="padding-inline:var(--gutter) var(--gutter-r)">
+  <div class="wide">
+    <p><b style="color:var(--ink)">Terminal Whimsy</b> · a guild guide to World of Warcraft: Forever. Not affiliated with Blizzard Entertainment.</p>
+    <p>Game art and icons come from the WoW Forever game client. World of Warcraft and its art are © Blizzard Entertainment. News headlines link to their publishers.</p>
+    <p>Compiled and built with help from Claude. Spotted something wrong? Tell an officer.</p>
+  </div>
+</footer>
+
+<div id="tip" role="tooltip"></div>
+<div class="toasts" aria-live="polite"></div>
+<script src="icons.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

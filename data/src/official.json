@@ -1,0 +1,913 @@
+[
+ {
+  "date": "2026-11-14",
+  "title": "Dungeon XP block now needs a 12-level gap",
+  "summary": "The day-old rule that cancelled dungeon kill XP when a high-level player is in the group missed the mark in some dungeons. A hotfix now applies it only when the high-level player is more than 12 levels above the enemies. Instances already in progress keep the old rule.",
+  "topic": "hotfix",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Gold refunded for training lost in the Nov 9 outage",
+  "summary": "Players who bought training on November 9 between 1:17 and 2:17 p.m. PST, and lost it when the servers had problems, have been refunded the cost by in-game mail.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-november-13/2415068/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Hotfixes: stun DR, Wild Growth, Windfury, dungeon XP for boosting",
+  "summary": "Diminishing returns on creature stuns were restored. Wild Growth can no longer be cast while moving, but its healing doubled. Windfury Totem now procs from all melee abilities. Enemies trivial to a party member's level now give that party zero XP. The weekly Stranglethorn fishing tournament can have more winners, and action bars no longer reset on logout for characters with secondary talents.",
+  "topic": "hotfix",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-13",
+  "title": "Short story 'Cost of Honor' released",
+  "summary": "A Riverglades fireside short story by Jonathan Maberry, narrated as Demar Brant, was released as a video and a PDF.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24316096/watch-the-wow-forever-short-story-cost-of-honor",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-12",
+  "title": "WoW: Forever Podcast episode 7: lore",
+  "summary": "The host, Countdown To Classic, and guests PlatinumWoW and Nobbel talk lore and story with Senior Game Designer Josh 'Aggrend' Greenfield and Lore Historian Lead Sean Copeland.",
+  "topic": "other",
+  "kind": "interview",
+  "url": "https://news.blizzard.com/en-us/article/24316981/watch-the-wow-forever-podcast-the-lore-episode",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-12",
+  "title": "Enhancement Shaman rework went live late",
+  "summary": "After a deployment delay, these went live in all regions at 10:45 a.m. PST: imbues and weapon totems can be used together, Stormstrike was cut to 100% weapon damage on an 8-second cooldown, Mental Dexterity was reduced, and Maelstrom Weapon was reworked. Blizzard said fixing Enhancement's gearing before raids open spares players from winning contested items that would lose value later.",
+  "topic": "classes",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Auction House changes moved to Nov 17 maintenance",
+  "summary": "Auction House changes were pulled from the November 11 update. They will go live with weekly maintenance on November 17 and be listed in the hotfix thread afterwards.",
+  "topic": "economy",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/7",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Hotfixes: Judgement becomes ranged, Item Restoration disabled",
+  "summary": "Paladin Judgement now counts as a ranged attack, and Volley procs and channel-while-moving were fixed. Several tailoring bags now cost more bolts but hold more. Item Restoration was disabled while a critical bug is investigated, and mounting in parts of Shen'dralas was restored.",
+  "topic": "hotfix",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Upgrade editions page revised after launch",
+  "summary": "After launch, the editions article lists the Skyborne Heroic Pack, the Skyborne Epic Pack, and the Warcraft Forever Collection, without the beta, name-reservation and launch-week invite perks. It repeats that Forever needs only a WoW subscription or Game Time, and that the 30 days of Game Time in the higher packs is added to the account.",
+  "topic": "business",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24317866/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-10",
+  "title": "Shaman totems lost in the crash restored",
+  "summary": "A fix in all regions returns the totems Shamans lost in the November 9 crash. Players need bag space and must relog to receive them.",
+  "topic": "hotfix",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/buggedmissing-shaman-totems-since-mondays-server-chaos/2409772/2",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-10",
+  "title": "No XP-to-gold at 60; quests 48+ get extra gold",
+  "summary": "Blizzard deliberately removed the max-level XP-to-gold conversion because it rewarded hoarding completed quests and grinding to 60 instead. Only about a quarter of original quests give gold, so a hotfix adds gold to most quests of level 48 and up, including some that never paid gold before.",
+  "topic": "economy",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/gold-at-60-for-quests/2405161/165",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-10",
+  "title": "Dungeon kill XP is now 60% of Classic Era",
+  "summary": "The November 8 hotfix raised dungeon kill XP from 40% to 60% of Classic Era values. Blizzard says the new rate fits the rest of Forever's leveling pace.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/the-majority-wants-increased-dungeon-xp/2406555/254",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-10",
+  "title": "Hotfixes: pets, Voidwalkers, Affliction, Enhancement, quest gold",
+  "summary": "Hunter pet health was corrected to 115%, and Warlock demons gained about 15% health. Affliction's Soul Siphon now scales with its DoTs, and Wrack damage was cut 30%. Racial vendor mounts became bind-on-pickup. Most quests of level 48 and up now give gold, replacing the original level-60 XP-to-gold conversion.",
+  "topic": "classes",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-09",
+  "title": "PvP ruleset faction balance: character creation restricted",
+  "summary": "Even the worst region is at about 55/45. Character creation now looks at long-term faction balance on each region's PvP rulesets, aiming for 50/50. For now that makes it harder to create Horde on North American PvP and Alliance on EU RP-PvP.",
+  "topic": "realms",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-09",
+  "title": "Fewer players per zone in congested areas",
+  "summary": "Blizzard lowered zone population caps where congestion was heavy, more so on the PvP ruleset after complaints of overcrowding. Zones will keep being monitored and adjusted.",
+  "topic": "realms",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/174",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-09",
+  "title": "Hotfixes: +50% dungeon XP, Drowned City nerf, population tuning",
+  "summary": "Dungeon XP was raised 50%, The Drowned City and Deathless Marrow were toned down, and mounting in Stratholme was blocked. An invisible wall on the Warsong Gulch Alliance roof was removed, and congested zones got lower player caps.",
+  "topic": "hotfix",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-08",
+  "title": "Dungeon kill XP raised 50%",
+  "summary": "A hotfix deployed around 11:05 a.m. PST raised experience from dungeon kills by 50%.",
+  "topic": "hotfix",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-november-8/2406595/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-06",
+  "title": "Class tuning planned for Tuesdays",
+  "summary": "Fixes are planned for November 10: Hunter pets and Voidwalkers should tank about as well as in Classic Era, DoTs should be worth casting alongside Wrack, and Strength should always be Enhancement Shaman's best stat. Class balance changes will land on Tuesdays as needed.",
+  "topic": "classes",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-06",
+  "title": "Hotfixes: Cooldown Manager shows CC durations, Voidwalker buff",
+  "summary": "The Cooldown Manager now shows crowd-control durations correctly, including under diminishing returns. Voidwalker health went up, and many quest, spawn and class tooltip fixes went in. The Tanning Rack requirement dropped to 125.",
+  "topic": "hotfix",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "First legendary revealed: Taldramir, the Whispering Wood",
+  "summary": "A 'Forging Forever' video shows the making of Forever's first legendary, Taldramir, the Whispering Wood, with a physical replica made by Wētā.",
+  "topic": "gear",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24317865/wow-forever-watch-forging-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Launch-day hotfixes",
+  "summary": "The first live hotfixes fixed respawns in starting zones, added Druid training to an NPC, and added apprentice bags to Zephras Isle vendors. The Plainsrunning racial no longer stacks and ends when carrying a flag. Blizzard says the hotfix post will be updated as more fixes go out.",
+  "topic": "hotfix",
+  "kind": "hotfix",
+  "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-5-2026",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Known Issues list opened",
+  "summary": "Known issues include PvP vendors being unavailable in all cities, 'Vorsha the Lasher' disabled because of a crash, bank tabs drawing outside the frame, and a few gamepad errors. A bug report forum and its guidelines opened the same day.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/known-issues-wow-forever-updated-nov-5/2402363/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Pouch of Violet Dust Twitch drop for campfires",
+  "summary": "Watching WoW streams on Twitch from November 4 to 12 earns a temporary toy that turns a campfire purple and adds an hour to all camp buffs for everyone resting there. It works only during the launch celebration and leaves collections in early December.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24317678/set-your-campfire-ablaze-with-the-pouch-of-violet-dust",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Lost boats and zeppelins: temporary portals placed",
+  "summary": "Boats and zeppelins were getting stuck in the Maelstrom, so Blizzard placed temporary portals at docks and zeppelin towers. They will be removed once the next morning's fix is confirmed.",
+  "topic": "launch",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/zeppelins-broken/2401777/15",
+  "who": "Aggrend"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Cities look empty: population numbers to be tweaked",
+  "summary": "Some areas showed fewer players than they should, and Blizzard said it would adjust the numbers the next day so places feel livelier.",
+  "topic": "realms",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/why-do-i-see-maybe-8-people-inside-the-main-city/2401806/27",
+  "who": "Aggrend"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Invite-a-Friend players' restrictions fixed",
+  "summary": "Players who joined with an Invite-a-Friend code were wrongly blocked from some chat channels, leveling past 10, guilds, parties and trading. A hotfix removed those blocks.",
+  "topic": "launch",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/issues-resolved-for-invite-a-friend-players/2401646/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "EU players told to check language and social settings",
+  "summary": "Blizzard asked players to review the in-game language and social settings, change any that are not set to their language, and relog.",
+  "topic": "ui-addons",
+  "kind": "blue-post",
+  "url": "https://eu.forums.blizzard.com/en/wow/t/639555",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Launch time: 3:00 p.m. PST in all regions",
+  "summary": "Forever launched at the same moment in every region: 3:00 p.m. PST on November 4, which was 10:00 a.m. AEDT on November 5.",
+  "topic": "launch",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-launch-time/2400905/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "World of Warcraft: Forever is live",
+  "summary": "Forever launched as a permanent, reimagined original WoW, set after Warcraft III: Forsaken Kingdom and before Molten Core. It has levels 1 to 60, more than 1,000 new quests, the Skyborne race, nine new dungeons, Normal, PvP, RP and RP-PvP rulesets (Hardcore later), camping, the Legacy System and gamepad support. Raids open on December 9.",
+  "topic": "launch",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Discord account linking and guild chat mirroring",
+  "summary": "Modern WoW and Forever support linking a Discord account and mirroring guild chat to and from Discord.",
+  "topic": "ui-addons",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24296228/stay-connected-in-world-of-warcraft-with-discord",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Final UI changes added to the beta notes",
+  "summary": "A last addition before launch covers interface fixes: the swing timer no longer fades with distance, nameplates show elite status, nameplate debuff icons can be clicked through, the combined bag shows which bag each slot belongs to, and keybinding highlights were added.",
+  "topic": "ui-addons",
+  "kind": "patch-notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/10",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-03",
+  "title": "What's new and familiar: presets, Cooldown Manager, Damage Meter",
+  "summary": "At first login players pick the Classic or Enhanced experience preset. Enhanced turns on quest guidance, a one-bag view, transmog and HD models, and both remain adjustable in Options. Advanced options include a Cooldown Manager and a Damage Meter. Gamepad support is described as being in a beta state.",
+  "topic": "ui-addons",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24315821/wow-foreverwhats-new-and-what-feels-familiar",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-03",
+  "title": "Gamepad guide",
+  "summary": "Forever supports XInput controllers and shows Xbox or PlayStation icons. The guide covers targeting with the bumpers, trigger-held action bars, a HUD laid out to match the controller, and controller lighting that turns red for Horde and blue for Alliance.",
+  "topic": "ui-addons",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24316974/explore-wow-forever-with-a-gamepad",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "Final beta development notes before launch",
+  "summary": "A large roll-up of changes made since October 15 includes class tuning, a quitter debuff cut to 40 seconds, and many gamepad fixes. One change improves gamepad UI compatibility with user-made add-ons to reduce conflicts. Blizzard says it aims for every class to feel valuable rather than for strict numerical equality.",
+  "topic": "classes",
+  "kind": "patch-notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-29",
+  "title": "Returning-player guide; Skyborne need a paid pack",
+  "summary": "The guide for returning players recaps the Year 1 setting, the new zones and nine dungeons, new race and class pairs such as Undead Paladin and Dwarf Shaman, and the Legacy System. It states that playing Skyborne requires the Heroic Pack or a higher upgrade.",
+  "topic": "business",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24315643/return-to-azeroth-in-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-29",
+  "title": "WoW: Forever Podcast episode 6: tech",
+  "summary": "Aggrend, Lead Software Engineer Ana Resendez and Principal Software Engineer Frank Williams talk about the game's technology with the host and guest Shobek.",
+  "topic": "other",
+  "kind": "interview",
+  "url": "https://news.blizzard.com/en-us/article/24315819/watch-the-wow-forever-podcast-all-about-tech",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "New player's starter guide",
+  "summary": "A beginner's guide covers choosing a ruleset, race and class, questing, grouping, dungeons, and how campsites bring players together.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24315280/new-players-starter-guide-welcome-to-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Developer poster signing at the Irvine Improv on Nov 2",
+  "summary": "Free tickets went out for a November 2 event where players could meet Forever developers before launch.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302547/now-live-get-your-ticket-to-the-wow-forever-poster-signing-at-the-irvine-improv",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "Restricted-name bug fixed",
+  "summary": "The restricted-name list was wrongly blocking some names, for example ones containing 'con'. The fix came with the next realm restarts, and players were invited to retry names they had been refused.",
+  "topic": "realms",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/overly-restrictive-name-check-and-fix-incoming-october-27/2394467/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "Oceanic bug: make RP characters first",
+  "summary": "On Australian servers, creating a character on Normal or PvP first made the RP and RP-PvP rulesets unavailable, so players were told to create RP characters first while a fix was prepared.",
+  "topic": "realms",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/name-reservation-issue-for-oceanic-players/2393431/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "WoW Portal Room Discord welcomes Forever players",
+  "summary": "The official WoW Discord, the Portal Room, and its community Ambassadors are offered as a way to find guilds and communities for Forever.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24315203/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-26",
+  "title": "Racial abilities: final pass favors racial identity",
+  "summary": "Blizzard brought back several role-flavored racials over generic ones and accepts that some races will be slightly better at certain roles. Weapon-specialization racials stay gone, so future loot tables are not judged by required weapon types. Orc Blood Fury, Troll Berserking and Undead Touch of the Grave were buffed.",
+  "topic": "classes",
+  "kind": "patch-notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/7",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-26",
+  "title": "Short story 'Unbowed' released",
+  "summary": "A short story by Sean Copeland follows Cormack, a former Scarlet Crusader raised as Forsaken, who asks whether a Forsaken can still serve the Light.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24313105/watch-the-wow-forever-short-story-unbowed",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-23",
+  "title": "Beta closed; character creation opens Oct 27",
+  "summary": "The five-week beta ended. Blizzard then spent a few days on priority fixes and the game service, and opened ruleset selection and name reservation on October 27.",
+  "topic": "launch",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-22",
+  "title": "RP-PvP ruleset added for launch",
+  "summary": "After player feedback and a podcast discussion of its concerns, Blizzard decided to add an RP-PvP ruleset at launch, with names reservable from October 27.",
+  "topic": "realms",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/the-roleplay-pvp-ruleset-is-coming-to-wow-forever/2389502/1",
+  "who": "Aggrend"
+ },
+ {
+  "date": "2026-10-22",
+  "title": "24-hour end-of-beta celebration",
+  "summary": "For its final 24 hours, ending at 10:00 a.m. PDT on October 23, the beta ran chaotic events in the starting zones, with items and experiences that will not appear in the live game.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-beta-celebration-is-underway/2389633/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Camping system explained",
+  "summary": "The Cooking Fire becomes a Basic Campfire, and up to three nearby players can each add one profession-made camp feature, such as a Sharpening Wheel, Faction Banner or Incense Candle. Sitting or crafting there for a minute grants the buffs, which do not stack with the matching class buffs. Camp items unlock at skill 20, and those needing 140 or more drop in dungeons and raids.",
+  "topic": "professions",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Stress test day on production hardware",
+  "summary": "The beta was taken offline and a stress test ran on the live regional hardware, starting at 2:00 p.m. PDT in the Americas. It was selected from the Game Version menu in the Battle.net app.",
+  "topic": "launch",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/testing-wow-forever-today-october-21/2388547/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "Stress test open to any WoW account",
+  "summary": "The October 21 stress test was open to every WoW account, with no subscription needed. It ran on the regional hardware Forever uses at launch, with start times listed for each region.",
+  "topic": "launch",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-october-21/2387920/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "Raid overview: sizes, bosses, attunement",
+  "summary": "Three level-60 raids open on December 9 with weekly resets. Barrow Deeps is a 10-player, 8-boss prison beneath Hyjal. Hyjal Summit is a 20-player raid with 13 bosses and branching paths. Onyxia's Lair is 40-player and requires the Drakefire Amulet in your bags, earned through the faction attunement questlines.",
+  "topic": "raids",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-gb/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "Nine new dungeons: locations and level ranges",
+  "summary": "The new dungeons are Hall of Thanes (13-18), Ruins of Lordaeron (15-20), Excavation Site (24-29), City of Dalaran (28-33), The Drowned City (35-40), Krol'dok Stronghold (40-45), Alcaz Prison (48-53), Blackmaw Hold (55-60) and Shaper's Terrace (58-60). Each has access notes and a story.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "Early name reservation: Oct 27 to Nov 3, three characters",
+  "summary": "Buyers of an upgrade pack could reserve names for up to three characters in total across all rulesets, starting October 27 at 1:00 p.m. PDT in North America and 18:00 CET in Europe.",
+  "topic": "realms",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24303866/claim-your-world-of-warcraft-forever-character-names",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-16",
+  "title": "Datamined art 'not intended for this version'",
+  "summary": "Art assets datamined from a recent beta build are not meant for this version of WoW.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/datamined-in-the-latest-beta-build/2385060/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-15",
+  "title": "Beta update Oct 15: Auto Shot stand-still, new tutorial",
+  "summary": "Auto Shot again needs the Hunter to stand still for 0.5 seconds, as in early WoW. The update also added a new-player tutorial, an auto attack/auto shot toggle, and a Frost Blast spell that replaces downranked Frostbolt, along with racial and class tuning.",
+  "topic": "classes",
+  "kind": "patch-notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/6",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-15",
+  "title": "Stress test announced, then moved to Oct 21",
+  "summary": "A stress test on live regional hardware was announced, open to any WoW account without a subscription. Players were asked to quest, trade and group. A follow-up corrected the date to October 21.",
+  "topic": "launch",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-stress-test-october-21/2383617/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-15",
+  "title": "Class deep dive: Paladin",
+  "summary": "Paladin changes build on Seals and Judgements and widen Holy, Protection and Retribution options. They include Twist of Light, which supports seal twisting without needing a swing-timer add-on, and Vindication.",
+  "topic": "classes",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302099/world-of-warcraft-forever-class-deep-dives-paladin",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-13",
+  "title": "Temporary Economy Holds against gold buying",
+  "summary": "Accounts suspected of real-money trading can be put on a temporary hold that restricts trade, mail, guild banks and the Auction House while they are investigated. A hold leaves no permanent strike if cleared, and the system may spread to all WoW versions if it works.",
+  "topic": "economy",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-13",
+  "title": "Dev interview roundup: account bank considered, no new continents",
+  "summary": "Developers said an account-wide bank is being considered for the not-too-distant future. They also said content will stay in Kalimdor and the Eastern Kingdoms for the first years, summoning stones will not teleport players to dungeons, retail races are not planned, and tanking Shamans are undecided.",
+  "topic": "roadmap",
+  "kind": "interview",
+  "url": "https://massivelyop.com/2026/10/13/world-of-warcraft-forever-devs-discuss-account-wide-banks-new-races-and-tanking-shamans/",
+  "who": "Holly Longdale and WoW: Forever developers",
+  "via": "https://massivelyop.com/2026/10/13/world-of-warcraft-forever-devs-discuss-account-wide-banks-new-races-and-tanking-shamans/"
+ },
+ {
+  "date": "2026-10-11",
+  "title": "No modern WoW races planned; Forever has its own continuity",
+  "summary": "Blizzard told TechRadar it has no plans to add races from later expansions. It will build on the RTS-era lore after Warcraft III: Forsaken Kingdom, with grounded stories in which the player is one hero among many. Later-expansion locations may appear, but in Forever's own versions.",
+  "topic": "other",
+  "kind": "interview",
+  "url": "https://www.techradar.com/gaming/can-fans-expect-goblins-or-vulpera-in-wow-forever-blizzard-says-it-has-no-plans-to-add-modern-wow-races-to-the-game-our-main-focus-for-the-game-is-to-build-off-the-foundational-lore-of-warcraft",
+  "who": "WoW: Forever team (to Demi Williams, TechRadar)"
+ },
+ {
+  "date": "2026-10-11",
+  "title": "PAX Aus panel: pillars, the Riverglades, and an ogre dungeon",
+  "summary": "Clay Stone and Holly Longdale went over the design pillars and said Forever is not a remake or an art-style overhaul. They explained that a dungeon idea blitz grew from six planned dungeons to nine, including a Twilight's Hammer ogre dungeon, and described how the Riverglades zone was built.",
+  "topic": "other",
+  "kind": "interview",
+  "url": "https://warcraft.blizzplanet.com/pax-2026-world-of-warcraft-forever-panel-transcript/7/",
+  "who": "Clay Stone, Holly Longdale",
+  "via": "https://warcraft.blizzplanet.com/pax-2026-world-of-warcraft-forever-panel-transcript/"
+ },
+ {
+  "date": "2026-10-08",
+  "title": "Beta update Oct 8: dungeon XP +20%, party-XP bug fixed",
+  "summary": "Dungeon kill XP was raised about 20%. Party XP is again calculated per member, as in Classic Era, rather than from the highest-level member. Classic looting of empty corpses returned, City of Dalaran opened for testing, and the Cooldown Manager now supports all class and racial abilities and trinkets.",
+  "topic": "other",
+  "kind": "patch-notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/5",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-08",
+  "title": "Why dungeon leveling is held back",
+  "summary": "Aggrend explained that cleaving dungeons to 60 as the best leveling method conflicts with the design pillars. After the fixes, ideal dungeon leveling should roughly match ideal questing, but not Classic Era's dungeon rates.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/20",
+  "who": "Aggrend"
+ },
+ {
+  "date": "2026-10-07",
+  "title": "Class deep dive: Mage and Shaman",
+  "summary": "Shaman weapon imbues now last 60 minutes and stack with sharpening stones and oils. Elemental Mastery was removed because it blocked Elemental's PvE tuning without making them too strong in PvP. Mages gain Fingers of Frost and a reworked Winter's Chill.",
+  "topic": "classes",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+  "who": "Blizzard Entertainment / Nethaera"
+ },
+ {
+  "date": "2026-10-07",
+  "title": "Class deep dive: Rogue and Warlock",
+  "summary": "Rogue and Warlock talent and spec changes, with a correction that Combat and Subtlety support all weapon types. Puncturing Wounds, formerly Improved Backstab, now also helps Mutilate.",
+  "topic": "classes",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock",
+  "who": "Blizzard Entertainment / Nethaera"
+ },
+ {
+  "date": "2026-10-07",
+  "title": "Skyborne visual revisions; SD Skyborne in early 2027",
+  "summary": "HD Skyborne druid forms are being reworked to fit the world better. Blizzard agreed HD Skyborne clash with SD models and says SD Skyborne characters and druid forms are coming in early 2027.",
+  "topic": "roadmap",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302546/world-of-warcraft-forever-the-future-of-skyborne-visual-updates",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-07",
+  "title": "Battle for the Darkspear Islands battleground",
+  "summary": "A 15v15 battleground for levels 30 to 60, off Dustwallow Marsh. Teams hold four capture points plus a central flag, first to 2000 points. It is queued from capital battlemasters or Barrens bases and has its own reputations, gear and an Exalted tabard questline.",
+  "topic": "pvp",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24307308/battle-for-the-darkspear-islands-in-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-07",
+  "title": "How PvP progression works",
+  "summary": "PvP progress uses Honor, a currency, and Rank Points, which advance the classic ranks toward High Warlord or Grand Marshal with a weekly cap. Honor buys a blue PvP set, which upgrades to epic with rank-gated Emboldened Seals. Honor gains were evened out so Alterac Valley is not the only efficient choice.",
+  "topic": "pvp",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24303316/how-pvp-progression-in-world-of-warcraft-forever-works",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-10-01",
+  "title": "Beta update Oct 1: level cap 30, Excavation Site",
+  "summary": "The beta level cap rose to 30, and the Excavation Site: Wetlands dungeon, Razorfen Downs and Uldaman opened. XP from dungeon quests was halved, the Ray Traced Shadows option was temporarily removed, and PvP Honor costs went up.",
+  "topic": "other",
+  "kind": "patch-notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/4",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-01",
+  "title": "Beta testers to get 16 Legacy points",
+  "summary": "So the Legacy System could be tested without heavy alt leveling, Blizzard planned to grant all beta testers 16 Legacy points for the rest of the beta.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/legacy-points-for-beta-testing/2368776/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-01",
+  "title": "Botting and RMT action; trade warning added",
+  "summary": "Accounts that botted gold in the beta, or bought or knowingly received illicit gold, are being actioned. A warning about accepting gold from strangers will appear in trades, and penalties range from gold removal to permanent closure.",
+  "topic": "economy",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/actions-taken-against-botting-and-rmt/2368705/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-10-01",
+  "title": "Warrior updates in the beta build",
+  "summary": "Rage from critical strikes was raised, a Dual Wield Specialization hit bug was fixed, and Fury and Protection talents were reworked to give earlier utility and a PvP option without a shield.",
+  "topic": "classes",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/warrior-updates-in-todays-beta-build/2369360/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-30",
+  "title": "Class deep dive: Hunter and Druid",
+  "summary": "Hunter and Druid spec changes, including a new 31-point Hunter shot, Sniper Shot, with a 4-second cast. Nethaera said every class will be covered and that details could still change during the beta.",
+  "topic": "classes",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid",
+  "who": "Blizzard Entertainment / Nethaera"
+ },
+ {
+  "date": "2026-09-30",
+  "title": "Class deep dive: Priest and Warrior",
+  "summary": "Priest racial spells were re-evaluated, Gnome Priests got new ones such as Confounding Flash, and Devouring Plague became available to all Priests at level 20. Warrior Arms, Fury and Protection changes were also covered.",
+  "topic": "classes",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-28",
+  "title": "Gold buyers will increasingly be actioned",
+  "summary": "Blizzard repeated that real-money trading is not allowed and said buyers' accounts, not just sellers', will face gold removal or closure.",
+  "topic": "economy",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/gold-buying-rules/2364933/43",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-28",
+  "title": "Holly Longdale and Clay Stone at PAX Aus",
+  "summary": "Holly Longdale gave the PAX Aus Storytime keynote, and Clay Stone presented a deep dive on one of the new Forever dungeons, streamed on Twitch.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302503/watch-holly-longdale-and-clay-stones-keynote-presentations-live-from-pax-aus-9-11-october",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-25",
+  "title": "Escape Together Toronto: Scarlet Monastery escape room",
+  "summary": "Blizzard announced a Horde-versus-Alliance escape-room stream for October 23 and an in-person Scarlet Monastery escape room in Toronto.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302094/world-of-warcraft-forever-escape-together-comes-to-toronto",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-24",
+  "title": "Beta name-policy enforcement",
+  "summary": "Forced renames were issued for beta characters that broke naming policy, and some testers lost beta access over names far outside the Code of Conduct, including names that revealed too much about themselves.",
+  "topic": "realms",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-account-actions-for-name-violations/2360739/1",
+  "who": "Fwoibles"
+ },
+ {
+  "date": "2026-09-24",
+  "title": "Collector's Edition restock ships Feb 2027",
+  "summary": "More English Collector's Editions were released in North America, the UK, Europe, Australia and New Zealand, shipping in February 2027 with a limit of one per household. The box has a 13-inch Dwarf and Bear statue, a mousepad, prints, pins, a journal, and a Warcraft Forever Collection code.",
+  "topic": "business",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302498/updated-9-24-pre-purchase-the-world-of-warcraft-forever-collectors-edition",
+  "who": "Blizzard Entertainment / Nethaera"
+ },
+ {
+  "date": "2026-09-24",
+  "title": "First beta development notes",
+  "summary": "The first weekly beta notes: campfire buffs can now be gained while sitting, kneeling or lying down, and players can cast, craft and buff while waiting for them, plus many fixes. Blizzard says the beta will update weekly.",
+  "topic": "professions",
+  "kind": "patch-notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-24",
+  "title": "WoW: Forever Podcast launched (episode 1)",
+  "summary": "Blizzard started a recurring developer podcast hosted by Countdown To Classic. Episode 1 unpacks the beta launch with Xaryu.",
+  "topic": "other",
+  "kind": "interview",
+  "url": "https://news.blizzard.com/en-us/article/24304076/watch-the-world-of-warcraft-forever-podcast-ep-1",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-23",
+  "title": "Legacy System deep dive",
+  "summary": "There are 65 account-wide Legacy Challenges in six categories, each worth one point and unlocked at level 25 for most players. Points are spent per character, up to 16 at launch, across the Professions, Adventure and Resourcefulness trees. A single character can earn up to 29 points, so alts are optional, and a cosmetic reward track sits alongside.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-23",
+  "title": "Auto Shot cast-time bug acknowledged",
+  "summary": "The 0.5-second windup before Auto Shot and wand shots was too short in the beta, and a fix was planned for a coming build.",
+  "topic": "classes",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/auto-shoot-bug-and-fix-incoming/2359185/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-22",
+  "title": "Beta client 1.60.1 build 69977",
+  "summary": "A new beta client, WoW Forever 1.60.1 build 69977, fixed Mac display and stability problems and some gamepad issues on character select and quest items.",
+  "topic": "ui-addons",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/beta-client-update-september-22/2358655/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-22",
+  "title": "Meet the Skyborne",
+  "summary": "The Skyborne (shen'dorei) are Highborne exiles bound to wind spirits, starting on Zephras Isle (levels 1-12). Horde Windshapers can be Shaman, and Alliance High Order Skyborne can be Mages. Both can be Druid, Hunter, Rogue or Warrior, with their own racials and druid forms.",
+  "topic": "classes",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302071/wow-forever-meet-the-new-skyborne",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-22",
+  "title": "Races and classes overview",
+  "summary": "An overview of the nine classes and which races can play them, including the new combinations and the Skyborne faction split.",
+  "topic": "classes",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-21",
+  "title": "Two-part character names, unique per region",
+  "summary": "Characters have a first and a second name, and the full combination must be unique within the region. Shared first names are allowed. The second name can be hidden from display, and both parts are checked together against the naming policy.",
+  "topic": "realms",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24304161/create-a-name-of-your-own-in-wow-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-21",
+  "title": "Rulesets replace realms",
+  "summary": "Players choose Normal, PvP, Roleplay, RP-PvP (added later) or Hardcore (after launch) instead of a realm. Grouping only works within a ruleset, and battlegrounds can mix rulesets except Hardcore. Factions cannot group, and switching rulesets means making a new character. A dead Hardcore character can move to another ruleset.",
+  "topic": "realms",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302070/choose-your-ruleset-in-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-18",
+  "title": "Ion Hazzikostas: Forever is the 'third pillar'",
+  "summary": "Hazzikostas called Forever a new game and a third pillar next to Retail and Classic, to be updated for years, with Classic continuing as before. He said Forever rebalances classes, removes world-buff farming, and keeps friction to build community, and that cutting-edge Mythic-style play is not its goal.",
+  "topic": "other",
+  "kind": "interview",
+  "url": "https://www.windowscentral.com/gaming/blizzard/we-spoke-to-world-of-warcrafts-ion-hazzikostas-on-forever-vs-retail-horde-vs-alliance-and-more",
+  "who": "Ion Hazzikostas (to Jez Corden, Windows Central)"
+ },
+ {
+  "date": "2026-09-18",
+  "title": "YouTube short: Forever is set in WoW's year one",
+  "summary": "An official short video says Forever takes place in the original game's first year. Only the title could be read.",
+  "topic": "other",
+  "kind": "social",
+  "url": "https://www.youtube.com/shorts/3fLqbG5LJ1Y",
+  "who": "Blizzard Entertainment (YouTube)"
+ },
+ {
+  "date": "2026-09-18",
+  "title": "Forever forums open to all subscribers",
+  "summary": "Kaivax clarified that the Forever discussion forum is open to everyone with an active WoW subscription, not just beta testers.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/unable-to-launch-wow-forever/2352142/130",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-17",
+  "title": "Beta live: level 20 cap, two dungeons",
+  "summary": "The beta opened to invited players and Epic Pack or Collection buyers with a level cap of 20, later raised to 30. Week 1 offered the Skyborne, Zephras Isle, Hall of Thanes and Ruins of Lordaeron, with more zones, dungeons and the battleground added over time.",
+  "topic": "launch",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24304160/the-world-of-warcraft-forever-beta-now-live",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-17",
+  "title": "GPU requirement: GCN 1 / Maxwell / Skylake or newer",
+  "summary": "Forever needs a GPU from AMD GCN 1, NVIDIA Maxwell, Intel Skylake or a later architecture, because the new visuals rely on RGBA16F UAV support in compute shaders. Cards like the GTX 780 and HD 6950 are unsupported, and the listed compatible cards are still below the full minimum specs.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24301512/world-of-warcraft-forever-gpu-requirements",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-14",
+  "title": "Krol'dok Stronghold is level 40-45; full dungeon list",
+  "summary": "A wrong level range shown at BlizzCon was corrected to 40-45 for Krol'dok Stronghold, and the post gives level ranges for all nine new dungeons.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/krol%E2%80%99dok-stronghold/2349672/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-14",
+  "title": "Ion and Holly on add-ons, Steam and regional patches",
+  "summary": "In a BlizzCon press round, Blizzard said it has no plans to bring Forever to Steam. Hazzikostas said Forever updates will roll out by region and time zone, and that one subscription covers Forever, Classic and Modern. Longdale said the Forever team was formed mostly from the Classic team. The add-on remarks were about Modern's Midnight API changes, not Forever.",
+  "topic": "ui-addons",
+  "kind": "interview",
+  "url": "https://www.warcrafttavern.com/forever/news/ion-holly-interview-blizzcon-2026/",
+  "who": "Ion Hazzikostas, Holly Longdale"
+ },
+ {
+  "date": "2026-09-13",
+  "title": "Deep Dive panel recap: systems, itemization, Paladin",
+  "summary": "The recap covers camping, the Legacy System (16 spendable points at launch, 65 available), realmless rulesets, opt-in transmog rules, kill times of roughly 10 to 15 seconds, merged hit and crit stats, and hundreds of new dungeon and rare drops. It also lists six new race and class pairs, a new 16-point talent milestone, and Paladin changes. Raid epics bind to the looter.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+  "who": "Blizzard Entertainment (Clay Stone, Josh Greenfield, Ana Resendez, Kris Zierhut)"
+ },
+ {
+  "date": "2026-09-13",
+  "title": "Found Photos panel: story philosophy",
+  "summary": "The 'found photographs' approach expands Year 1 Azeroth with stories that feel like they could always have existed, inside its own time bubble. New content falls into three groups: anticipated (Hyjal), new but familiar (the Riverglades), and occasional surprises.",
+  "topic": "other",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24304071/world-of-warcraft-forever-found-photos-panel-recap",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-12",
+  "title": "Ana Resendez interview: fixed raid sizes, no one-click grouping",
+  "summary": "Resendez said raid sizes are fixed at 10 and 20 with no flexible scaling. Group-finding tools will avoid one-click matchmaking and teleporting into content, and world-first racing will not be officially supported. Skyborne are exclusive to Forever for now.",
+  "topic": "raids",
+  "kind": "interview",
+  "url": "https://www.invenglobal.com/articles/25888/why-was-world-of-warcraft-forever-created",
+  "who": "Ana Resendez (to Inven Global)"
+ },
+ {
+  "date": "2026-09-12",
+  "title": "What's Next panel recap: pillars and roadmap",
+  "summary": "Blizzard calls Forever an evergreen original Azeroth, not a mode, a season or a new Classic, built on four design pillars, with no flying and no level scaling. The roadmap: beta on September 17, launch on November 4 at 3:00 p.m. PST, raids on December 9, then more raids, dungeons, PvP, quests, Hardcore and a revamped iconic raid.",
+  "topic": "roadmap",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-12",
+  "title": "Forever announced at BlizzCon 2026",
+  "summary": "Forever was announced as a new permanent home alongside Modern and Classic WoW, set after Warcraft III: Forsaken Kingdom and before Molten Core, with a level cap of 60. It is included with a subscription or Game Time, with optional upgrade packs and a physical Collector's Edition.",
+  "topic": "launch",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24302093/carve-a-new-path-with-world-of-warcraft-forever",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-12",
+  "title": "Upgrade editions and what each includes",
+  "summary": "The Skyborne Heroic Pack includes the Skyborne race, early name reservation, the Cerulean Prideclaw mount (riding skill bought separately), cosmetics and one launch-week invite code. The Epic Pack adds beta access, 30 days of Game Time, pets, tabards and three invite codes in total. The limited Warcraft Forever Collection adds Warcraft III: Reforged, Forsaken Kingdom and housing decor. Prices are not stated in the article.",
+  "topic": "business",
+  "kind": "article",
+  "url": "https://news.blizzard.com/en-us/article/24301508/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+  "who": "Blizzard Entertainment"
+ },
+ {
+  "date": "2026-09-12",
+  "title": "Official forums open for Forever",
+  "summary": "Blizzard opened the Forever General Discussion and Community Connections forums and a pinned thread that collects official information.",
+  "topic": "other",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-revealed-at-blizzcon-2026/2347170/1",
+  "who": "Kaivax"
+ }
+]

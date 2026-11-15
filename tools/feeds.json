@@ -1,0 +1,151 @@
+{
+ "_about": "Sources for The Wire. label: official | social | press | community. 'all': keep every item; otherwise an item must mention Forever (see fetch_news.py matches). Set 'off': true to pause a source. Tested 2026-11-15.",
+ "feeds": [
+  {
+   "name": "Blizzard News",
+   "label": "official",
+   "type": "blizzard",
+   "icon": "inv_letter_15",
+   "url": "https://news.blizzard.com/en-us/api/feed/world-of-warcraft?offset=0&feedCxpProductIds%5B%5D=blt2caca37e42f19839",
+   "listPath": [
+    "contentItems"
+   ],
+   "fields": {
+    "title": "properties.title",
+    "url": "properties.newsUrl",
+    "date": "properties.lastUpdated",
+    "summary": "properties.summary"
+   },
+   "match": [
+    "forever"
+   ]
+  },
+  {
+   "name": "Blizzard forums (US)",
+   "label": "official",
+   "type": "discourse",
+   "icon": "inv_scroll_03",
+   "url": "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts.json",
+   "base": "https://us.forums.blizzard.com/en/wow",
+   "all": true,
+   "onePerTopic": true,
+   "cats": [
+    346,
+    347,
+    348,
+    349,
+    352
+   ],
+   "catsIfTitle": [
+    171
+   ]
+  },
+  {
+   "name": "Blizzard forums (EU)",
+   "label": "official",
+   "type": "discourse",
+   "icon": "inv_scroll_03",
+   "url": "https://eu.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts.json",
+   "base": "https://eu.forums.blizzard.com/en/wow",
+   "all": true,
+   "onePerTopic": true,
+   "cats": [
+    359,
+    360,
+    361,
+    362
+   ],
+   "catsIfTitle": [
+    235
+   ]
+  },
+  {
+   "name": "World of Warcraft on Bluesky",
+   "label": "social",
+   "type": "bluesky",
+   "icon": "inv_misc_horn_01",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=worldofwarcraft.blizzard.com&limit=40&filter=posts_no_replies",
+   "match": [
+    "forever"
+   ]
+  },
+  {
+   "name": "BlizzardCS on Bluesky",
+   "label": "social",
+   "type": "bluesky",
+   "icon": "spell_holy_heal",
+   "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=support.blizzard.com&limit=40&filter=posts_no_replies",
+   "match": [
+    "forever"
+   ]
+  },
+  {
+   "name": "Wowhead",
+   "label": "press",
+   "type": "rss",
+   "icon": "inv_misc_book_09",
+   "url": "https://www.wowhead.com/news/rss/forever",
+   "category": "Forever",
+   "all": true
+  },
+  {
+   "name": "Warcraft Tavern",
+   "label": "press",
+   "type": "rss",
+   "icon": "inv_misc_food_15",
+   "url": "https://www.warcrafttavern.com/forever/feed/",
+   "linkContains": "/forever/news/",
+   "all": true
+  },
+  {
+   "name": "Google News",
+   "label": "press",
+   "type": "rss",
+   "icon": "inv_misc_spyglass_03",
+   "url": "https://news.google.com/rss/search?q=%22WoW:+Forever%22+OR+%22World+of+Warcraft:+Forever%22+when:{days}d&hl=en-US&gl=US&ceid=US:en",
+   "all": true,
+   "skipPublishers": [
+    "blizzard.com",
+    "wowhead.com",
+    "warcrafttavern.com"
+   ],
+   "cap": 25
+  },
+  {
+   "name": "Wowhead Blue Tracker",
+   "label": "official",
+   "type": "rss",
+   "icon": "inv_scroll_03",
+   "url": "https://www.wowhead.com/forever/blue-tracker?rss",
+   "all": true,
+   "cap": 40
+  },
+  {
+   "name": "MMO-Champion",
+   "label": "press",
+   "type": "rss",
+   "icon": "inv_misc_book_07",
+   "url": "https://www.mmo-champion.com/external.php?do=rss&type=newcontent&sectionid=1&days=120&count=10"
+  },
+  {
+   "name": "r/wowforever",
+   "label": "community",
+   "type": "rss",
+   "icon": "inv_shirt_guildtabard_01",
+   "url": "https://www.reddit.com/r/wowforever/top/.rss?t=day",
+   "all": true,
+   "cap": 25
+  },
+  {
+   "name": "Warcraft on YouTube",
+   "label": "social",
+   "type": "rss",
+   "icon": "inv_misc_ticket_tarot_madness",
+   "off": true,
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbLj9QP9FAaHs_647QckGtg",
+   "match": [
+    "forever"
+   ]
+  }
+ ]
+}

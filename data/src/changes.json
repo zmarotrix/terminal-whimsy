@@ -1,0 +1,2090 @@
+[
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Launch raid tier is 10 + 20 + 40, all opening 9 December",
+  "classic": "Phase 1 raiding was Molten Core and Onyxia, both 40-player.",
+  "forever": "Barrow Deeps (10 players, 8 bosses), Hyjal Summit (20 players, 13 bosses) and Onyxia's Lair (40) all open on 9 December 2026; Molten Core is not part of the launch tier.",
+  "impact": "A guild needs a 20-player core plus 10-player splits, not one 40-player roster, for most of its loot.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303009"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/raids/"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/wow-forever-raids-a-look-at-barrow-deeps-hyjal-summit-and-onyxias-lair"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "All raids reset weekly, Onyxia included",
+  "classic": "Onyxia's Lair reset every 5 days; 40-player raids reset weekly.",
+  "forever": "Blizzard's raid overview says all raids are currently planned to reset weekly; whether the 10 and 20 share a lockout is not published.",
+  "impact": "Onyxia becomes a once-a-week raid, and splitting rules for 10s need checking in the client on day one.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303009"
+   },
+   {
+    "name": "RankedBoost",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/raids/"
+   },
+   {
+    "name": "GuildOrder",
+    "url": "https://guildorder.com/games/wow_forever/wiki/the-launch-raids-and-the-raid-week"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "New raids have no attunement; Onyxia keeps the Drakefire Amulet chain",
+  "classic": "Onyxia required the long faction Drakefire Amulet questline.",
+  "forever": "The Onyxia chain is nearly identical to Classic (amulet only has to be in bags); Barrow Deeps and Hyjal Summit list no attunement.",
+  "impact": "Start Onyxia attunements now (UBRS/Drakkisath runs); the new raids need nothing but level 60.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303009"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/raids/"
+   },
+   {
+    "name": "RankedBoost",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/raids/onyxias-lair/"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Barrow Deeps: three entrances and branching paths",
+  "classic": "Classic raids were linear and entered from one portal.",
+  "forever": "Barrow Deeps (Illidan's old prison) has entrances via Mount Hyjal, Winterspring and Blackmaw Hold, with multiple paths; whether each entrance is a separate wing is unknown.",
+  "impact": "Plan summons and meeting points per wing; boss order may be flexible.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303009"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/wow-forever-raids-a-look-at-barrow-deeps-hyjal-summit-and-onyxias-lair"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Hyjal Summit is a new post-Archimonde raid with branching routes",
+  "classic": "Hyjal Summit was a 25-player Burning Crusade raid (Archimonde).",
+  "forever": "A 20-player, 13-boss raid set after Archimonde's death: an opening guardian fight, then multiple paths above and below ground converging on final bosses; Fel corruption themes.",
+  "impact": "Your 20-player team's main progression raid; expect learning nights since there is no PTR.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303009"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/raids/"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/wow-forever-raids-a-look-at-barrow-deeps-hyjal-summit-and-onyxias-lair"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "No PTR for raids; bosses unseen until opening night",
+  "classic": "Classic raids were long since datamined and documented.",
+  "forever": "Blizzard says there will be no PTR for new raid content; Josh Greenfield says players will not know the bosses until they first enter.",
+  "impact": "No boss guides or DBM/BigWigs timers will exist on night one; budget wipe time and record your own strats.",
+  "severity": "major",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/no-ptrs-and-new-datamining-restrictions-coming-to-world-of-warcraft-forever"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/item-stats-will-not-be-known-in-advance-for-wow-forever/"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Raids restricted to your own ruleset and faction",
+  "classic": "Realm-based raiding; cross-realm was not a factor.",
+  "forever": "One mega-realm per ruleset per region; GuildOrder says raids are open only to players on the same ruleset and faction.",
+  "impact": "Your raid pool is guild members on your ruleset; Hardcore or PvP alts on other rulesets cannot join.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "GuildOrder",
+    "url": "https://guildorder.com/games/wow_forever/wiki/the-launch-raids-and-the-raid-week"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Single difficulty; Tier 1 spread across all three raids",
+  "classic": "Tier sets came from one raid each (T1 Molten Core, T2 BWL).",
+  "forever": "Each raid has one difficulty and the Tier 1 set is split across Barrow Deeps, Hyjal Summit and Onyxia (ConquestCapped/Kami-Labs); class guides name only Hyjal and Barrow Deeps as tier sources.",
+  "impact": "Full sets need both the 10 and the 20 every week.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-roadmap/"
+   },
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/wow-forever/world-buffs-raids-wow-forever/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Two raids per tier cadence through 2027",
+  "classic": "Classic released one major raid per phase.",
+  "forever": "Spring 2027 adds a 10-player and a 20-player raid; summer 2027 adds one new raid plus a revamped iconic Classic raid (unnamed).",
+  "impact": "The 10/20 model is the long-term format, so build the roster around it.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303862"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-roadmap/"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Onyxia: same fight, fire resistance advised, loot expected to change",
+  "classic": "Three-phase Onyxia with Deep Breath; fire resistance helped tanks.",
+  "forever": "Blizzard describes the same three-phase heavy-fire encounter and advises fire resistance; Method expects rewards to change considerably and RankedBoost shows 16 drops still unrevealed.",
+  "impact": "Prepare fire resistance and expect Onyxia's loot table to surprise you.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303009"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/wow-forever-raids-a-look-at-barrow-deeps-hyjal-summit-and-onyxias-lair"
+   },
+   {
+    "name": "RankedBoost",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/raids/onyxias-lair/"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Resistance gear not needed for the opening raids",
+  "classic": "Molten Core demanded fire resistance and later raids nature/frost/shadow sets.",
+  "forever": "ConquestCapped says resistance gear is not needed for the opening raids (Onyxia fire resistance aside).",
+  "impact": "Do not farm full resistance sets before December; keep some fire resistance for Onyxia.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/wow-forever-raids-a-look-at-barrow-deeps-hyjal-summit-and-onyxias-lair"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Legendary tied to Hyjal Summit; later legendary questline",
+  "classic": "Phase 1 had Thunderfury bindings from Molten Core.",
+  "forever": "Blizzard teases a legendary reward from the new raids (Hyjal Summit); spring 2027 brings a legendary questline. Acquisition is unrevealed.",
+  "impact": "Track any unusual drops and quest starters from Hyjal bosses.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303862"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/wow-forever-raids-a-look-at-barrow-deeps-hyjal-summit-and-onyxias-lair"
+   }
+  ]
+ },
+ {
+  "area": "raids",
+  "class": null,
+  "title": "Each raid clear awards Legacy Points",
+  "classic": "No account progression existed.",
+  "forever": "Legacy Challenges include defeating Onyxia, all 13 Hyjal Summit bosses and all 8 Barrow Deeps bosses (one point each).",
+  "impact": "Full clears matter for account perks; skipping optional bosses costs a point.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24307383/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": null,
+  "title": "Shouts, auras and key totems now reach the whole raid",
+  "classic": "Battle Shout, Trueshot Aura, Moonkin Aura and Shaman totems only hit the caster's 5-player party.",
+  "forever": "Dev notes (16 Oct): Battle Shout, Trueshot Aura, Moonkin Aura, and Grace of Air, Strength of Earth, Windfury and Flametongue totems are raid-wide; ConquestCapped adds Leader of the Pack and Furious Howl.",
+  "impact": "Group composition and party-stacking around Shamans/Warriors stop mattering; one source of each buff covers everyone.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302097"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "paladin",
+  "title": "Only resistance auras are raid-wide; other paladin auras stay party-only",
+  "classic": "All paladin auras affected the paladin's party.",
+  "forever": "Fire, Frost and Shadow Resistance Auras reach all raid members within 30 yards; Devotion, Retribution and Concentration stay party-wide (Warcraft Tavern, ConquestCapped). Some secondary sites wrongly say all auras are raid-wide.",
+  "impact": "Paladins still need party placement for Devotion/Concentration; one paladin covers raid resistance.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302099"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/all-changes-to-paladins-in-wow-forever/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "paladin",
+  "title": "Blessing of Salvation removed entirely",
+  "classic": "Salvation (-30% threat) went on every DPS and was a pillar of Classic threat management.",
+  "forever": "Blizzard's 3 Nov dev notes: Salvation, Mass Salvation and Revoke removed; tank threat raised to compensate (Defensive Stance 80%, Bear 115%, Righteous Fury +33%).",
+  "impact": "DPS must manage their own threat; use Fade/Feint/Cower and threat meters, and expect tanks to hold more.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/en/wow-forever/patch-notes-2-novembre-notes-de-lancement/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "paladin",
+  "title": "Blessing of Light removed; Kings and Imp. Wisdom baseline",
+  "classic": "Kings was a Protection talent, Improved Blessing of Wisdom a Holy talent, Blessing of Light a staple on tanks.",
+  "forever": "Blessing of Kings and Improved Blessing of Wisdom are baseline; Blessing of Light (and Greater) removed; Sanctuary removed.",
+  "impact": "Every paladin can bring Kings; blessing assignments simplify to Kings/Might/Wisdom.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302099"
+   },
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/en/wow-forever/patch-notes-2-novembre-notes-de-lancement/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "paladin",
+  "title": "Blessings last 1 hour; Blessing of Might nerfed ~39%",
+  "classic": "Blessings lasted 5 minutes (Greater 15 minutes); Might rank 7 gave 185 AP (218 talented).",
+  "forever": "Five-minute and Greater Blessings last 1 hour; Blessing of Might rank 7 gives 133 AP.",
+  "impact": "Far less rebuffing on pulls, but Might is weaker for melee.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/all-changes-to-paladins-in-wow-forever/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "warrior",
+  "title": "Battle Shout weaker but raid-wide with Improved Battle Shout built in",
+  "classic": "Party-only Battle Shout; Improved Battle Shout was a talent.",
+  "forever": "Battle Shout is raid-wide, its AP is reduced, and Improved Battle Shout is baked in.",
+  "impact": "One warrior covers the raid; melee AP from shout is lower than you remember.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "shaman",
+  "title": "Windfury and Flametongue become totem buffs; totems last 5 minutes",
+  "classic": "Windfury Totem placed a weapon enchant on party members' weapons; totems lasted 2 minutes.",
+  "forever": "Windfury/Flametongue Totems are aura buffs (raid-wide per dev notes), persistent-buff totems last 5 minutes, totem GCD is 1 s, and totem presets via Call of the Elements. Since 10 Nov imbues and weapon totems work together.",
+  "impact": "Shamans no longer need to sit in melee groups; Windfury affects the whole raid's melee.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302097"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "shaman",
+  "title": "Resistance totems raid-wide; Tranquil Air removed",
+  "classic": "Resistance totems were party-only; Tranquil Air reduced threat.",
+  "forever": "Fire/Frost/Nature Resistance Totems give their bonus to the entire raid; Tranquil Air Totem removed.",
+  "impact": "Shaman threat reduction is gone along with Salvation.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302097"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "druid",
+  "title": "Leader of the Pack and Moonkin Aura no longer stack",
+  "classic": "LotP gave 3% melee/ranged crit to the party; Moonkin Aura 3% spell crit to the party.",
+  "forever": "Moonkin Aura is raid-wide; sources disagree whether it is spell-only (16 Oct notes) or all crit types (3 Nov notes), and it is now exclusive with Leader of the Pack.",
+  "impact": "Bringing both a feral and a moonkin no longer doubles the crit buff.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "hunter",
+  "title": "Trueshot Aura moved up the tree and rescaled",
+  "classic": "Trueshot Aura was a 31-point Marksmanship capstone and party-only.",
+  "forever": "Trueshot Aura is a 21-point talent, raid-wide, with ranged AP 20/35/50/75/100 by rank; ConquestCapped says it is ranged AP only.",
+  "impact": "Melee no longer benefit from Trueshot.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "warlock",
+  "title": "Curse of Shadow removed; Curse of the Elements covers all magic",
+  "classic": "Curse of Shadow and Curse of the Elements split shadow/arcane vs fire/frost.",
+  "forever": "Curse of Shadows is deleted; Curse of the Elements applies to all magic damage (top rank -75 resistances, +10% magic damage per ConquestCapped).",
+  "impact": "One warlock curse slot does the job of two.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24310968"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "warlock",
+  "title": "Curse of Agony and Doom become Banes; Recklessness drops AP",
+  "classic": "Curse of Agony/Doom competed with utility curses for the one-curse limit.",
+  "forever": "Agony and Doom are Banes (one Bane per warlock per target, separate from curses); Curse of Recklessness no longer raises the target's attack power.",
+  "impact": "Warlocks can keep a DoT and a utility curse up together.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24310968"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": null,
+  "title": "Shadow Weaving, Improved Scorch, Winter's Chill and Imp. Shadow Bolt are personal",
+  "classic": "These debuffs boosted every caster of that school on the target.",
+  "forever": "Shadow Weaving, Improved Scorch, Winter's Chill and Improved Shadow Bolt now only benefit the caster who applied them; each mage has their own Ignite.",
+  "impact": "Stacking one school no longer multiplies raid damage; no need for a 'scorch mage'.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302097"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24310968"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "rogue",
+  "title": "Expose Armor now equals 5 Sunders and no longer blocks Sunder",
+  "classic": "Improved Expose Armor overwrote and blocked Sunder Armor.",
+  "forever": "Expose Armor matches 5 stacks of Sunder at the same level and no longer blocks Sunder; Sunder threat scales with AP.",
+  "impact": "Armor debuff coordination between rogues and warriors is simpler.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24310968"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": "hunter",
+  "title": "Hunter pets no longer receive player buffs",
+  "classic": "Pets took Kings, Fortitude and other buffs.",
+  "forever": "Pets cannot receive player stat buffs; they scale from the hunter's gear instead.",
+  "impact": "Stop buffing pets; buff assignments shrink.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": null,
+  "title": "Camp buffs mirror class buffs but do not stack",
+  "classic": "No camping system.",
+  "forever": "Profession camp objects give buffs that copy class buffs at slightly lower power (e.g. 8% stats vs Kings' 10%) and do not stack with them.",
+  "impact": "Camps help pug or small groups, not a full raid already buffed.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/professions/"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   }
+  ]
+ },
+ {
+  "area": "buffs",
+  "class": null,
+  "title": "Debuff limit for Forever unannounced",
+  "classic": "Bosses had a debuff cap that forced debuff priority.",
+  "forever": "ConquestCapped says no debuff limit has been given for Forever; the removed-limit change people cite applies to Anniversary realms.",
+  "impact": "Assign debuff priority until the limit is known.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-raid-buffs/"
+   }
+  ]
+ },
+ {
+  "area": "world",
+  "class": null,
+  "title": "World buffs and Sayge fortunes do not work in raids or battlegrounds",
+  "classic": "Onyxia/Rend heads, Songflower, Dire Maul tribute, ZG and DMF buffs were central to Classic raiding.",
+  "forever": "Client text marks six of seven world buffs and all eight Sayge fortunes as having no effect in raid instances; Icy Veins/Massively OP report raids and battlegrounds. Spirit of Zandalar lacks the note (untested).",
+  "impact": "No world-buff pre-farming or raid logging; consumables and raid buffs are the whole picture.",
+  "severity": "major",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/wow-forever/world-buffs-raids-wow-forever/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/forever-world-buffs-now-provided-in-razor-hill-goldshire-lakeshire-sentinel-hill/"
+   }
+  ]
+ },
+ {
+  "area": "world",
+  "class": null,
+  "title": "More world-buff drop points",
+  "classic": "Rend buff dropped only in Orgrimmar/Crossroads or Stormwind.",
+  "forever": "Rend's buff is now also delivered at Razor Hill/Crossroads (Horde) and Goldshire, Lakeshire, Sentinel Hill (Alliance).",
+  "impact": "Useful for leveling and dungeons, not raids.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/forever-world-buffs-now-provided-in-razor-hill-goldshire-lakeshire-sentinel-hill/"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "Melee, ranged and spell hit merged into one stat",
+  "classic": "Separate melee hit and spell hit; casters stacked spell hit to 16%.",
+  "forever": "A single Hit Chance stat covers melee, ranged, spells, poisons, traps and taunts; gear lists flat percentages.",
+  "impact": "Hybrid gear is less wasted; recalc caps for every spec.",
+  "severity": "major",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/itemization-updates-in-world-of-warcraft-forever-expertise-spell-damage-more"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "New hit caps: 8% melee, 17% spells vs bosses (approx.)",
+  "classic": "Melee needed ~9% (8% with skill 305+) and spells 16% against a level 63 boss.",
+  "forever": "ConquestCapped (15 Oct beta) gives 5%/8% melee and 4%/17% spells vs equal/boss; Warcraft Tavern's stats guide gives 9% melee and 16% spell miss vs bosses. The 1% spell-miss floor is unconfirmed.",
+  "impact": "Treat 8%/17% as targets until your logs confirm; conflicting numbers in guides.",
+  "severity": "major",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/stats/"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "Dual-wield auto-attack penalty ~19%; special attacks 8%",
+  "classic": "Dual-wield added a 19% miss penalty to white hits; Dual Wield Specialization added hit.",
+  "forever": "Penalty is roughly 19% on white swings only; Dual Wield Specialization no longer adds hit and Heroic Strike queuing no longer boosts off-hand hit (Fury's Furious Precision replaces both).",
+  "impact": "Rogues and Fury warriors should cap 8% for specials.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "Weapon skill nerfed; Expertise replaces it",
+  "classic": "+weapon skill gear and racials (Human swords/maces, Orc axes) cut glancing and misses.",
+  "forever": "Weapon skill items were severely nerfed; Expertise replaces weapon skill in a Burning Crusade-like way; skill below max still costs ~0.04% hit/crit per point and drives glancing.",
+  "impact": "Edgemaster's-style weapon-skill gear is no longer a priority; skill up new weapons before raiding.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/itemization-updates-in-world-of-warcraft-forever-expertise-spell-damage-more"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "Crit merged; bonus healing gives one-third as spell damage",
+  "classic": "Separate melee/spell crit; +healing gear gave no damage.",
+  "forever": "Crit chance is a single stat; bonus healing gear also grants one-third as much spell damage.",
+  "impact": "Healers do slightly more damage; hybrid itemization changes BiS math.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/itemization-updates-in-world-of-warcraft-forever-expertise-spell-damage-more"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "Haste exists as a stat",
+  "classic": "Classic had almost no haste on gear.",
+  "forever": "Tier 2-piece bonuses give +1% attack and casting speed; Skyborne Wind Blessed gives 3% haste; Natural flasks offer haste. Warcraft Tavern says haste figures are not yet known.",
+  "impact": "A new stat for melee/hunter valuation.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/racial-class-ability-changes-in-the-wow-forever-beta/"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/list-of-all-consumables-and-enchants-in-wow-forever"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/stats/"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "Spell crits get +50% bonus; Intellect gives spell power via talents",
+  "classic": "Spell crits did 150% damage; Intellect gave mana and spell crit only.",
+  "forever": "Warcraft Tavern says spell crits are 50% more effective; several talents now convert Intellect to spell damage or AP (Champion of the Light, Mental Dexterity, Careful Aim, Arcane Blast stacks).",
+  "impact": "Intellect matters more for some hybrids.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/stats/"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302097"
+   }
+  ]
+ },
+ {
+  "area": "stats",
+  "class": null,
+  "title": "Class damage raised across the board; high-level mobs got more health",
+  "classic": "Classic numbers.",
+  "forever": "3 Nov dev notes: damage raised on classes across the game with higher-level creature health raised to match; no big tuning planned before raids.",
+  "impact": "Classic sims and breakpoints are unreliable; log your own.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": null,
+  "title": "Weapon specialization racials removed",
+  "classic": "Human sword/mace, Orc axe and Dwarf gun skill bonuses shaped raid racial picks.",
+  "forever": "Weapon skill racials are gone (Blizzard reportedly confirmed they won't return); Human gets Ruthless (+1% crit after 3 Nov), Orc Savage (+1% crit), Dwarf Artisan's Precision (+1% hit and spell hit).",
+  "impact": "Racial choice for melee is far less important.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/racial-class-ability-changes-in-the-wow-forever-beta/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": null,
+  "title": "Tauren lost their hit bonus",
+  "classic": "Endurance gave 5% health; Tauren had no hit racial.",
+  "forever": "Early beta gave Endurance 1% hit; 16 Oct notes changed it to 2% crit damage/healing, while ConquestCapped says it now gives only 5% health. Plainsrunning adds stacking mount speed.",
+  "impact": "Check current tooltip; sources conflict.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/racial-class-ability-changes-in-the-wow-forever-beta/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": null,
+  "title": "New race Skyborne and six new race/class combos",
+  "classic": "Eight races, fixed race/class options.",
+  "forever": "Skyborne (Horde shamans, Alliance mages; both warriors, hunters, rogues, druids), plus six new combinations for existing races (e.g. Human hunters).",
+  "impact": "Recruit pool gains new class/race options; racial picks for raid comps need fresh thinking.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303862"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   },
+   {
+    "name": "HostedGG",
+    "url": "https://hostedgg.com/blog/wow-forever-beta-datamine"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": null,
+  "title": "Talent trees rebuilt with 11/16/21/31 milestones; dual spec at 40",
+  "classic": "Classic trees had milestones at 11/21/31; respec costs climbed to 50g; no dual spec.",
+  "forever": "Talents start at 10 with a new 16-point gold medal; dual spec for 50 gold at 40, swapping out of combat; respec fees decay toward 1 gold. Over 100 new talents across classes.",
+  "impact": "Players can hold a raid and a farm/PvP spec; expect very different builds to Classic.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/overview/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": null,
+  "title": "Abilities must be bought from trainers; ~206 gold to train 1-60",
+  "classic": "Spells were also trained, cheaper overall.",
+  "forever": "Training 1-60 costs about 206-207 gold for all classes; learning a spell no longer auto-adds it to bars.",
+  "impact": "Fresh 60s may be short on gold for raid consumables.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/en/wow-forever/patch-notes-2-novembre-notes-de-lancement/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "warrior",
+  "title": "Rage normalized; tank threat buffed",
+  "classic": "Rage from damage scaled with damage taken/dealt; Defensive Stance +30% threat.",
+  "forever": "Rage from dealing damage depends on weapon speed; rage from taking hits ignores armor and absorbs; crits give 75% more rage. Defensive Stance threat +80%, Defiance 7/13/20%.",
+  "impact": "Warrior tanks start faster with gear-independent rage and hold more threat without Salvation on DPS.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "warrior",
+  "title": "Warrior cooldowns decoupled; Victory Rush, Tactical Mastery baseline",
+  "classic": "Recklessness, Retaliation and Shield Wall shared a 30-minute cooldown.",
+  "forever": "They no longer share a cooldown (Shield Wall/Retaliation 15 min); Tactical Mastery (keep 10 rage), Victory Rush, Improved Shield Block/Taunt baseline; Thunder Clap usable in Defensive Stance; new talents like Spearing Strike, Raging Blows, Bastion, Vanguard.",
+  "impact": "More tank cooldowns per fight; plan rotations of Shield Wall.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "warrior",
+  "title": "Fury rebuilt: Bloodthirst needs Death Wish, Flurry changed",
+  "classic": "Bloodthirst healed and was the 31-point talent; Flurry +30% after crits.",
+  "forever": "Bloodthirst no longer heals and gives movement speed; it now requires Death Wish (3 Nov); Death Wish raises all damage taken; Flurry is 10/20/30% for 3 swings.",
+  "impact": "Fury warriors take more damage; healers watch Death Wish.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "paladin",
+  "title": "Paladins can tank: Seal of Fury, Righteous Fury baseline, Holy Strike",
+  "classic": "Protection paladins struggled with taunt and mana; Righteous Fury +60% Holy threat.",
+  "forever": "Seal of Fury (level 10, absorb shield; its Judgement taunts at range), Holy Strike (level 6), Righteous Fury from level 10 (+33% all threat, +90% Holy), Consecration baseline but only 4 targets take full damage, Templar's Bulwark (100% health absorb).",
+  "impact": "Paladins are viable main tanks; Consecration is weak on big packs.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302099"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/all-changes-to-paladins-in-wow-forever/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "paladin",
+  "title": "Judgement no longer eats the seal; Seal twisting reworked",
+  "classic": "Judging consumed the seal; seal-twisting was a niche trick; Judgements lasted 10 s.",
+  "forever": "Judgement no longer consumes the seal; baseline seal twisting removed in favour of Retribution's Twist of Light; Judgement debuffs last 40 s; Judgement of the Crusader 15% stronger.",
+  "impact": "Less judgement upkeep for raid debuffs like Wisdom/Light.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302099"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/all-changes-to-paladins-in-wow-forever/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "paladin",
+  "title": "Holy Shock 10-second cooldown; Lay on Hands 20 minutes; Divine Shield halves damage",
+  "classic": "Holy Shock 30 s; Lay on Hands 1 hour; bubble removed attack speed only.",
+  "forever": "Holy Shock is a 21-point talent with a 10 s cooldown; Lay on Hands 20 min; Divine Shield now halves your damage dealt; Light's Vigil now friendly only.",
+  "impact": "More paladin emergency healing per raid night.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302099"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/all-changes-to-paladins-in-wow-forever/"
+   },
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/en/wow-forever/patch-notes-2-novembre-notes-de-lancement/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "priest",
+  "title": "Fear Ward, Devouring Plague, Divine Spirit, SW:Death for every priest",
+  "classic": "Fear Ward was Dwarf-only, Devouring Plague Undead-only, Divine Spirit a talent.",
+  "forever": "Fear Ward and Devouring Plague at level 20, Divine Spirit at 30, Shadow Word: Death at 32 for all priests.",
+  "impact": "Any priest can Fear Ward a tank; race no longer gates raid utility.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "priest",
+  "title": "Priest healing toolkit expanded; Prayer of Healing targets any party",
+  "classic": "Prayer of Healing only healed the priest's own party; one Renew per target.",
+  "forever": "Prayer of Healing heals the target's party; Renew from multiple priests stacks; Penance, Prayer of Mending, Divine Aegis added; Binding Heal removed (Holy Binding instead); Lightwell removed.",
+  "impact": "Priest group assignments become flexible.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "priest",
+  "title": "Shadowform no longer blocks non-healing spells; weaving personal",
+  "classic": "Shadowform blocked Holy spells; Shadow Weaving buffed all shadow damage.",
+  "forever": "Shadowform allows non-healing spells, halves shadow mana cost, doubles shadow crit bonus; Vampiric Embrace 30 s cooldown; Shadow Weaving self-only.",
+  "impact": "Shadow priests become solo DPS rather than warlock support.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301514"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/racial-class-ability-changes-in-the-wow-forever-beta/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "druid",
+  "title": "Feral druids can use potions and get real threat",
+  "classic": "Shapeshifting broke on potions; bears had +50% threat and weapon procs didn't work.",
+  "forever": "Most consumables usable without leaving form; weapon enchants/procs work in form; auto attack uses weapon DPS; Bear threat +115%; Lacerate at 42; Primal Bite; Berserk removed (3 Nov).",
+  "impact": "Bears and cats become solid raid tanks/DPS; plan feral consumables.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "druid",
+  "title": "Restoration gains Wild Growth; Swiftmend keeps HoTs",
+  "classic": "Swiftmend consumed Rejuvenation/Regrowth.",
+  "forever": "Wild Growth (31-point), Swiftmend no longer consumes the HoT, Gift of the Earthmother replaced by Bloom, Nature's Swiftness also works on Wild Growth.",
+  "impact": "Druids become strong raid healers.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   },
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/en/wow-forever/patch-notes-2-novembre-notes-de-lancement/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "druid",
+  "title": "Balance reworked: Eclipse, Insect Swarm hit debuff, Faerie Fire in form",
+  "classic": "Moonkin was a meme spec; Faerie Fire needed caster form.",
+  "forever": "Eclipse (Wrath speeds Starfire), Insect Swarm reduces target hit by 2% (doesn't stack), Faerie Fire castable in bear/cat with no cost, Hurricane no cooldown.",
+  "impact": "Moonkins bring a real tank debuff and AoE.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "hunter",
+  "title": "Aimed Shot baseline; Lone Wolf, Sniper Shot; Auto Shot needs standing still",
+  "classic": "Aimed Shot was a Marksmanship talent.",
+  "forever": "Aimed Shot is baseline at 20 (shares cooldown with Multi-Shot); Lone Wolf +20% without a pet; Sniper Shot; Auto Shot requires 0.5 s standing still; traps usable in combat (shared 30 s cooldown).",
+  "impact": "Hunters can raid without pets; movement costs more DPS.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24301515"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/racial-class-ability-changes-in-the-wow-forever-beta/"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "mage",
+  "title": "Mage: Frostfire Bolt, Arcane Blast, Ice Lance; Cold Snap 10 min",
+  "classic": "Frostbolt spam; Cold Snap 5-minute cooldown.",
+  "forever": "Frostfire Bolt (level 40), Arcane Blast (stacking), Ice Lance and Fingers of Frost, Heating Up for Pyroblast, Cold Snap 10 min, Precision 6% hit to all spells; Frost Blast removed.",
+  "impact": "Mage rotation and gear values change; no more Fire/Frost mono-spec raids by default.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302097"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "shaman",
+  "title": "Shaman: Lava Burst removed, Riptide/Water Shield, Stormstrike retuned",
+  "classic": "Elemental Mastery and Stormstrike (20 s) defined the specs.",
+  "forever": "Lava Burst removed and replaced by Call of Thunder (3 Nov); Riptide (12 s), Water Shield, Maelstrom Weapon, Rage of the Farseer; Stormstrike 100% weapon damage, 8 s cooldown after 10 Nov hotfix; Enhancement moved to Strength.",
+  "impact": "Elemental tier 5-piece (Lava Burst) is now dead text; Enhancement wants Strength gear.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24302097"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-tuning-coming-for-shamans-warlocks-hunter-pets-in-wow-forever/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "rogue",
+  "title": "Rogue: Mutilate, Shank, Hack and Slash, poisons with stones",
+  "classic": "Weapon specs per type; poisons replaced sharpening stones.",
+  "forever": "Mutilate (21-point), Shank (24), Death Mark, Venom; Hack and Slash replaces weapon specs; poisons stack with stones; Feint threat drop doubled; one-hand axes usable; several Subtlety talents removed 3 Nov.",
+  "impact": "Rogues can use both poisons and stones; more threat headroom.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24310968"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   },
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/en/wow-forever/patch-notes-2-novembre-notes-de-lancement/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "warlock",
+  "title": "Warlock: Life Tap scales with Spirit, Wrack, Incinerate; pets scale",
+  "classic": "Life Tap scaled with spell damage; seventeen-plus talents later removed.",
+  "forever": "Life Tap scales with Spirit; Firestone/Spellstone are weapon imbues stacking with Wizard Oil (Spellstone shadow only); Wrack (6 s channel since 10 Nov), Incinerate, Bane of Havoc; Drain Soul shards; pets scale from master's stats.",
+  "impact": "Warlocks need Spirit and wizard oil; shard farming is easier.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24310968"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-pre-launch-class-changes-bug-fixes/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   }
+  ]
+ },
+ {
+  "area": "classes",
+  "class": "hunter",
+  "title": "Pets and Voidwalkers made sturdier (10 Nov)",
+  "classic": "Pets tanked well in Classic.",
+  "forever": "Blizzard's 10 Nov tuning aims to make hunter pets and Voidwalkers about as durable as in Classic Era; hunter pets fixed to 115% health.",
+  "impact": "Minor for raids; useful for pet tanking on trash.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-tuning-coming-for-shamans-warlocks-hunter-pets-in-wow-forever/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Item stats hidden until someone on your realm loots it",
+  "classic": "All items were known and in AtlasLoot/Wowhead from day one.",
+  "forever": "Blizzard (Greenfield) says stats stay hidden until the item drops for someone on your server; about 40% of items (12,500+) shipped without stats, raid loot included; first raid weeks are a 'Wild West' with no BiS.",
+  "impact": "Loot councils cannot plan BiS in advance; record drops and share findings.",
+  "severity": "major",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/item-stats-will-not-be-known-in-advance-for-wow-forever/"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/no-ptrs-and-new-datamining-restrictions-coming-to-world-of-warcraft-forever"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Tier 1 is new class/role sets at item level 65",
+  "classic": "Tier 1 (Molten Core) had one set per class, 8 pieces, item level 66.",
+  "forever": "Each class gets new sets per role (18 total: e.g. Battlegear vs Battleplate of Glory), 6 pieces, item level 65, BoP; bonuses at 2/3/4/5 pieces (5 is the cap); stats hidden.",
+  "impact": "Hybrids need separate set pieces per role; plan loot by spec, not class.",
+  "severity": "major",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-tier-set/"
+   },
+   {
+    "name": "wow.gg",
+    "url": "https://wow.gg/guides/wow-forever-tier-set-bonuses"
+   }
+  ]
+ },
+ {
+  "area": "tier-sets",
+  "class": null,
+  "title": "Tier set bonus template: role stat, utility, creature-type damage, signature cooldown",
+  "classic": "Classic set bonuses were mixed stats, procs and the 8-piece capstone.",
+  "forever": "2-piece: role stat (1% hit for casters, 1% haste for melee/hunters, 10 Spirit healers, 7 Defense tanks); 3-piece utility; 4-piece bonus vs one creature type (e.g. +36 AP vs Humanoids) or +26 healing; 5-piece signature ability.",
+  "impact": "The 4-piece is situational by boss type; 2-piece hit counts toward caps.",
+  "severity": "notable",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "wow.gg",
+    "url": "https://wow.gg/guides/wow-forever-tier-set-bonuses"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   }
+  ]
+ },
+ {
+  "area": "tier-sets",
+  "class": null,
+  "title": "Some tier bonuses reference removed abilities",
+  "classic": "Not applicable.",
+  "forever": "Shaman Elemental 5-piece reduces Lava Burst cooldown, Druid Guardian 5-piece Berserk; both removed on 3 Nov. Paladin Retribution 4-piece listed as vs Undead (ConquestCapped) or Demons (wow.gg); Feral 5-piece listed as Tiger's Fury or Shifting Power.",
+  "impact": "Expect tier bonuses to change before or at raid opening; don't promise pieces on a bonus.",
+  "severity": "notable",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-shaman-tier-set/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-druid-tier-set/"
+   },
+   {
+    "name": "wow.gg",
+    "url": "https://wow.gg/guides/wow-forever-tier-set-bonuses"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-paladin-tier-set/"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "tier-sets",
+  "class": null,
+  "title": "Crafted tier pieces (item level 61) with an equip limit",
+  "classic": "Tier sets were raid-only.",
+  "forever": "Tailoring, Leatherworking and Blacksmithing at 300 make shoulders, hands, legs and feet of each set at item level 61 (BoE), using Malleable Essence of Nature from disenchanting new-raid loot; Unique-Equipped: Artisan's Tier (1), raised to 2 by Rousing Seed Pod (Revered Guardians of Hyjal).",
+  "impact": "Enchanters disenchanting raid loot feed the guild's tier; route spare drops to DE.",
+  "severity": "major",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-tier-set/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   }
+  ]
+ },
+ {
+  "area": "tier-sets",
+  "class": null,
+  "title": "Head and chest tier only from raids",
+  "classic": "All T1 pieces came from MC bosses.",
+  "forever": "No crafted head or chest exists; a 5-piece needs 4 raid pieces plus 1 crafted (or 3+2 with Seed Pod). Boss-to-slot drops are unpublished.",
+  "impact": "Prioritize head/chest drops in loot rules.",
+  "severity": "notable",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-tier-set/"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Guardians of Hyjal reputation gates crafted tier",
+  "classic": "No reputation tied to tier.",
+  "forever": "Friendly plus 'Friendly Advice' unlocks leg plans; further rep and slot specialization unlock others; Revered grants Rousing Seed Pod (10 g). Vendors Aisarra Nightmeadow and Rhylin Stonethorn in Mount Hyjal; 72 tier recipes sold.",
+  "impact": "Start Guardians of Hyjal rep on crafters and raiders now.",
+  "severity": "notable",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-tier-set/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Rare 'chase' item on every raid boss",
+  "classic": "Rare drops existed but no designed chase table.",
+  "forever": "Every boss can drop a low-chance chase item with strong effects; hidden class-changing items hinted (e.g. a sword for a battle-mage).",
+  "impact": "Agree loot rules for chase items before they drop.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/item-stats-will-not-be-known-in-advance-for-wow-forever/"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Dungeon sets (D1/D2) rebuilt with 2-6 piece thresholds",
+  "classic": "Dungeon Set 1 had 2/4/6/8-piece bonuses including +200 armor.",
+  "forever": "Datamined: 8-piece bonuses removed; 2-piece now +8 all resistances; bonuses at 2/3/4/5/6 with active effects (e.g. Valor's Moment of Valor); D2 Valthalak questline returns.",
+  "impact": "Pre-raid D1/D2 set value differs from Classic lists.",
+  "severity": "notable",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "wow.gg",
+    "url": "https://wow.gg/guides/wow-forever-tier-set-bonuses"
+   },
+   {
+    "name": "HostedGG",
+    "url": "https://hostedgg.com/blog/wow-forever-beta-datamine"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24307383/"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Classic sets reworked (Postmaster, Cadaverous, Imperial Plate etc.)",
+  "classic": "Postmaster gave run speed and armor; Cadaverous gave resistances.",
+  "forever": "Datamined: Postmaster gets spell damage, a reflect and 1% hit; Cadaverous/Necropile/Bloodmail/Deathbone lower resistance bonuses but gain hit/AP/crit; Imperial Plate swaps armor for Defense and hit.",
+  "impact": "Old pre-raid sets have new value; check before vendoring.",
+  "severity": "minor",
+  "confidence": "datamined",
+  "sources": [
+   {
+    "name": "wow.gg",
+    "url": "https://wow.gg/guides/wow-forever-tier-set-bonuses"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Hit on gear is flat percent and scarce below 50",
+  "classic": "Hit came as 1%/2% on specific items.",
+  "forever": "Gear hit is a percentage (e.g. Stromgarde Hood 0.5%, Lionheart Helm 2%) and mostly appears around level 50.",
+  "impact": "Hit caps come mainly from talents and tier 2-piece.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hit-cap/"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Dungeon loot reworked; BoP dungeon appearances shared",
+  "classic": "Classic 60 dungeons kept their original loot.",
+  "forever": "Level 60 Classic dungeons return with reworked loot and quests; BoP green/blue dungeon drops grant their appearance to all eligible group members; some quest rewards downgraded rare to uncommon.",
+  "impact": "Old pre-raid BiS lists are wrong; rely on discovery.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "Bad epic world drops removed; niche species/biome trinkets",
+  "classic": "World epics included many weak items.",
+  "forever": "Method: epic world drops revamped to remove bad epics; new species- and biome-specific trinkets; rares more rewarding.",
+  "impact": "World drops may be real upgrades; post them.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/itemization-updates-in-world-of-warcraft-forever-expertise-spell-damage-more"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/new-item-effects-in-wow-forever-revealed-at-blizzcon"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "No catch-up system; gear power steps are small",
+  "classic": "Each phase added much stronger gear.",
+  "forever": "ConquestCapped: no dedicated catch-up; vertical power rises in smaller steps between raid tiers; soft reset undecided.",
+  "impact": "Late joiners gear in the same raids; old raids remain relevant.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   }
+  ]
+ },
+ {
+  "area": "gear",
+  "class": null,
+  "title": "PvP gear: rare by Marks+Honor, epic via Emboldened Seal by rank",
+  "classic": "Rank-gated epic sets; Rank 14 weapons; dishonorable grind with decay.",
+  "forever": "Rare pieces bought with Honor and battleground Marks at 55+; Emboldened Seals (ranks 8-13) upgrade a rare piece to epic; epic weapons at Rank 14. Honor costs rose ~50% in October beta.",
+  "impact": "PvP gear is a pre-raid route with a weekly cap.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-pvp-overview/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   }
+  ]
+ },
+ {
+  "area": "loot",
+  "class": null,
+  "title": "Raid loot system not announced",
+  "classic": "Master loot/group loot with loot council or DKP.",
+  "forever": "No source found states the Forever raid loot method (personal, master or group); GuildOrder says check in-client.",
+  "impact": "Have a plan for master loot and a fallback if it's personal.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "GuildOrder",
+    "url": "https://guildorder.com/games/wow_forever/wiki/the-launch-raids-and-the-raid-week"
+   }
+  ]
+ },
+ {
+  "area": "professions",
+  "class": null,
+  "title": "Hundreds of new recipes; camp stations required for top crafts",
+  "classic": "Recipes were mostly static; no camp crafting.",
+  "forever": "600+ new recipes (938 per ConquestCapped's count); dungeon-boss Blueprints teach top camp stations (Master Forge, Loom) required for tier crafts.",
+  "impact": "Crafters need blueprints from dungeon runs before raids open.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/professions/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-tier-set/"
+   }
+  ]
+ },
+ {
+  "area": "professions",
+  "class": null,
+  "title": "Healing potions moved to First Aid; necklace enchants; flasks and elixirs stack",
+  "classic": "Alchemy made healing potions; flasks and elixirs were exclusive.",
+  "forever": "Basic healing potions are First Aid; necklaces can be enchanted; Method's beta list says flasks now stack with elixirs (unconfirmed), flasks persist through death.",
+  "impact": "Consumable plans for raids differ; check stacking in game.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/list-of-all-consumables-and-enchants-in-wow-forever"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/professions/"
+   }
+  ]
+ },
+ {
+  "area": "professions",
+  "class": null,
+  "title": "Natural flasks only work in Hyjal zones and raids",
+  "classic": "Flasks worked anywhere.",
+  "forever": "Four Natural flasks (+60 Stamina and 4-5% hit, crit, haste or dodge/parry) only function in Mount Hyjal, Hyjal Summit and Barrow Deeps.",
+  "impact": "Alchemists should stock these for the new raids.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/list-of-all-consumables-and-enchants-in-wow-forever"
+   }
+  ]
+ },
+ {
+  "area": "professions",
+  "class": null,
+  "title": "Specializations and profession window",
+  "classic": "Some specializations existed (BS/LW/Eng).",
+  "forever": "Blacksmithing, Engineering and Leatherworking specializations unlock exclusive recipes via quests; professions have their own searchable window; reagent bag slot.",
+  "impact": "Coordinate guild crafter specializations.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/professions/"
+   }
+  ]
+ },
+ {
+  "area": "economy",
+  "class": null,
+  "title": "Black Market NPCs sell scarce mats at fixed prices",
+  "classic": "Black Lotus and rare mats were player-farmed only.",
+  "forever": "Black Market NPCs sell certain materials (e.g. Black Lotus per ConquestCapped) at a set price, capping prices.",
+  "impact": "Flask costs have a ceiling.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/overview/"
+   }
+  ]
+ },
+ {
+  "area": "economy",
+  "class": null,
+  "title": "No XP-to-gold at 60; quests 48+ give gold",
+  "classic": "Max-level quests converted XP to gold.",
+  "forever": "XP-to-gold at level 60 disabled; most quests 48+ now give gold (10 Nov hotfix).",
+  "impact": "Saved quest logs are not a gold source; fund consumables differently.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/more-gold-from-quests-above-level-48-in-wow-forever/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   }
+  ]
+ },
+ {
+  "area": "economy",
+  "class": null,
+  "title": "Modern AH; 1 copper minimum deposit",
+  "classic": "Classic AH UI with deposits.",
+  "forever": "Newer Auction House interface; minimum deposit 1 copper (10 Nov).",
+  "impact": "Easier selling of mats for raid funds.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/overview/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   }
+  ]
+ },
+ {
+  "area": "economy",
+  "class": null,
+  "title": "New supply factions and Merchant's Favor",
+  "classic": "No supply reputation in Classic.",
+  "forever": "Azeroth Commerce Authority and Durotar Supply and Logistics sell crafting recipes for Merchant's Favor.",
+  "impact": "Crafters gain recipes via crates.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/overview/"
+   },
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24307383/"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   }
+  ]
+ },
+ {
+  "area": "economy",
+  "class": null,
+  "title": "Riding costs more; mount included in training",
+  "classic": "Riding training and the mount were bought separately and cost less at level 40.",
+  "forever": "Apprentice Riding 100 g including a basic mount; Journeyman 1,000 g plus 200 g swift mount; Honored rep -10%; mounts account-wide.",
+  "impact": "Fresh 60s need about 1,200 g for epic mounts.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-mount-cost/"
+   }
+  ]
+ },
+ {
+  "area": "pvp",
+  "class": null,
+  "title": "Rank is personal, weekly-capped and does not decay",
+  "classic": "Rank depended on server standing with weekly decay.",
+  "forever": "Rank Points fill a personal bar (24,750 for Rank 14, earliest week 10), reset per season; Honor capped at 25,000.",
+  "impact": "PvP gear is achievable alongside raiding.",
+  "severity": "notable",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-pvp-overview/"
+   }
+  ]
+ },
+ {
+  "area": "pvp",
+  "class": null,
+  "title": "New 15v15 Darkspear Islands battleground",
+  "classic": "WSG, AB, AV.",
+  "forever": "Darkspear Islands, 15v15, level 30+, four capture points plus a flag.",
+  "impact": "Marks from it are needed for some PvP gear.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303862"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-pvp-overview/"
+   }
+  ]
+ },
+ {
+  "area": "pvp",
+  "class": null,
+  "title": "Faction balance creation limits",
+  "classic": "No limits.",
+  "forever": "Blizzard tightened character creation for the more populous faction on PvP rulesets (Horde NA PvP, Alliance EU RP-PvP).",
+  "impact": "Recruiting alts may be blocked on the larger faction.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-pvp-faction-balance-concerns-in-wow-forever/"
+   }
+  ]
+ },
+ {
+  "area": "qol",
+  "class": null,
+  "title": "Add-ons restricted like retail Midnight",
+  "classic": "Classic add-on API allowed DBM, WeakAuras-style logic.",
+  "forever": "Kami-Labs reports (citing a 14 Sep interview) that Forever add-ons face the same combat restrictions as retail Midnight; Blizzard added a Cooldown Manager, Damage Meter, Edit Mode, nameplate options and mouseover casting.",
+  "impact": "Plan around built-in tools; some raid add-ons may not work.",
+  "severity": "major",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Kami-Labs",
+    "url": "https://kami-labs.fr/en/wow-classic/wow-forever-addons-restreints-comme-sur-midnight/"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/overview/"
+   }
+  ]
+ },
+ {
+  "area": "qol",
+  "class": null,
+  "title": "Account-wide collections, transmog, reagent bag",
+  "classic": "None of these existed.",
+  "forever": "Account-wide mounts, pets, toys and appearances; transmog; dedicated reagent bag slot; bags no longer auto-equip.",
+  "impact": "Quality-of-life; minor for raid planning.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   },
+   {
+    "name": "Blizzard forums (dev notes)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+   }
+  ]
+ },
+ {
+  "area": "qol",
+  "class": null,
+  "title": "No flying, new boat routes",
+  "classic": "No flying; a smaller set of boat and zeppelin routes.",
+  "forever": "No flying mounts; new routes like Stormwind-Auberdine, Southshore-Auberdine, Gadgetzan-Powderfuse Port; mages can teleport others.",
+  "impact": "Travel times for raids unchanged.",
+  "severity": "minor",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   },
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/overview/"
+   }
+  ]
+ },
+ {
+  "area": "leveling",
+  "class": null,
+  "title": "Dungeon XP +50%, rested bag, food XP",
+  "classic": "Standard XP.",
+  "forever": "Dungeon kill XP +50% (8 Nov); Cozy Sleeping Bag grants rested XP; food gives 5% kill XP.",
+  "impact": "Recruits reach 60 faster.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/news/experience-from-dungeon-kills-increased-in-wow-forever/"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   },
+   {
+    "name": "Method",
+    "url": "https://www.method.gg/wow-forever/list-of-all-consumables-and-enchants-in-wow-forever"
+   }
+  ]
+ },
+ {
+  "area": "leveling",
+  "class": null,
+  "title": "New zones and dungeons 1-60",
+  "classic": "Original zones.",
+  "forever": "Zephras Isle, Riverglades, Shen'dralas, Mount Hyjal; nine new dungeons incl. Blackmaw Hold and Shaper's Terrace at 55-60.",
+  "impact": "Pre-raid gearing includes new 60 dungeons.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303862"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gearing-progression/"
+   }
+  ]
+ },
+ {
+  "area": "roadmap",
+  "class": null,
+  "title": "Roadmap: Hardcore winter, spring and summer 2027 updates",
+  "classic": "Phased Classic release.",
+  "forever": "Hardcore in winter 2026-27; spring 2027: 2 raids, 2 dungeons, legendary questline; summer: revamped iconic raid, new raid, 2 dungeons.",
+  "impact": "Next raid tier around spring 2027.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard News",
+    "url": "https://news.blizzard.com/en-us/article/24303862"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-roadmap/"
+   },
+   {
+    "name": "warcraft.wiki.gg",
+    "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+   }
+  ]
+ },
+ {
+  "area": "roadmap",
+  "class": null,
+  "title": "Classic raids return later",
+  "classic": "MC, BWL, AQ phased in.",
+  "forever": "Warcraft Tavern says other vanilla raids return in future; RankedBoost lists MC, BWL, AQ pages without dates; Scarlet Enclave planned.",
+  "impact": "Old raids will come with reworked loot.",
+  "severity": "minor",
+  "confidence": "community",
+  "sources": [
+   {
+    "name": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/raids/"
+   },
+   {
+    "name": "RankedBoost",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/raids/"
+   }
+  ]
+ }
+]

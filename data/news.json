@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T11:39:58Z",
+ "updated": "2026-11-15T11:51:28Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -510,8 +510,8 @@
    "first": "2026-11-14T16:00:10Z",
    "last": "2026-11-14T16:00:10Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -940,8 +940,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1189,14 +1189,14 @@
   {
    "title": "Demonology Warlock Guide - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-13T09:45:20Z",
+   "date": "2026-11-13T09:27:11Z",
    "label": "press",
    "source": "Google News",
    "who": "Mobalytics",
    "icon": "inv_misc_spyglass_03",
    "id": "7650134c20",
-   "first": "2026-11-13T09:45:20Z",
-   "last": "2026-11-13T09:45:20Z",
+   "first": "2026-11-13T09:27:11Z",
+   "last": "2026-11-13T09:27:11Z",
    "tags": [
     "classes"
    ],
@@ -1443,9 +1443,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
+    "realms",
     "story",
-    "realms"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1521,9 +1521,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "professions",
     "hotfix",
-    "items",
-    "professions"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1639,9 +1639,9 @@
     "hotfix"
    ],
    "classes": [
+    "warlock",
     "shaman",
-    "hunter",
-    "warlock"
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -1754,8 +1754,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1876,9 +1876,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
     "hotfix",
-    "classes"
+    "classes",
+    "items"
    ],
    "classes": [
     "shaman"
@@ -1977,8 +1977,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2592,9 +2592,9 @@
    "last": "2026-11-03T18:00:00Z",
    "tags": [
     "leveling",
-    "pvp",
     "classes",
-    "ui"
+    "ui",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2614,8 +2614,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "leveling",
     "classes",
+    "leveling",
     "raids"
    ],
    "classes": [],
@@ -3865,7 +3865,7 @@
   {
    "title": "Demonology Warlock Guide - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-13T09:45:20Z",
+   "date": "2026-11-13T09:27:11Z",
    "who": "Mobalytics",
    "source": "Google News",
    "label": "press",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:27:47Z",
+ "updated": "2026-11-15T22:58:52Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,187 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "World of Warcraft: Forever Update Officially Breaks Dungeon XP",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdlVMUUdKOVRvaDZLVlViSTQ0cm56QjBlWkhNeDdzc21jWWRfUm1hSGFwMGFJSldPQmdiN0J6SWFoVlhIRzlyeTVrM0lxZnZPNWdIYzRnTkZDY3NWbUo4bm9VNFRIdDZnaXRieHR6cllCZ1FLeFVhNEUtOEtTZ3NiVDVPNlE5Y3dUZU5pUDU0VzVhcDNvdlZMTTlLYw?oc=5",
+   "date": "2026-11-15T21:37:15Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "OpenCritic",
+   "icon": "inv_misc_spyglass_03",
+   "id": "25ff0d94fb",
+   "first": "2026-11-15T21:37:15Z",
+   "last": "2026-11-15T21:37:15Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "something you learn very early on",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx68u4/something_you_learn_very_early_on/",
+   "date": "2026-11-15T20:44:40Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/GallantSystem",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "c79b9a5795",
+   "first": "2026-11-15T20:44:40Z",
+   "last": "2026-11-15T20:44:40Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
+   "date": "2026-11-15T19:00:00Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Looking to upgrade your bags, but are a little tight on gold? Here are some bag upgrades from quests in Forever that should give you a bit more storage space! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "e606ae027e",
+   "first": "2026-11-15T19:00:00Z",
+   "last": "2026-11-15T19:00:00Z",
+   "tags": [
+    "business",
+    "economy"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "The 1 Ring on as my first ever caught \"fish\"",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx3220/the_1_ring_on_as_my_first_ever_caught_fish/",
+   "date": "2026-11-15T18:36:47Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "My friend told me to post this. I got The 1 Ring on as my first ever caught fish, apparently I'm very lucky!",
+   "who": "/u/imadeamemelol",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "4bb33b4e52",
+   "first": "2026-11-15T18:36:47Z",
+   "last": "2026-11-15T18:36:47Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "75% of the way to 60.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx1rwe/75_of_the_way_to_60/",
+   "date": "2026-11-15T17:46:40Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/Kimagurena-Kaeru",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "a1ece298e8",
+   "first": "2026-11-15T17:46:40Z",
+   "last": "2026-11-15T17:46:40Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Horizontal Progression",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx0qnl/horizontal_progression/",
+   "date": "2026-11-15T17:06:45Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "When Forever was coming out, I saw a lot of references to OSRS for a game that does horizontal progression right. Now, every change all I see is people talking about how it will affect how quickly they can \"beat\" the game. All the drama with dungeon XP had…",
+   "who": "/u/Strict-Egg-7066",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "e6816ba424",
+   "first": "2026-11-15T17:06:45Z",
+   "last": "2026-11-15T17:06:45Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "DPS, threat management is YOUR responsibility as much as the tank's",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwzpes/dps_threat_management_is_your_responsibility_as/",
+   "date": "2026-11-15T16:26:29Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "This isn't retail. Download a threat meter even if you don't tank. Don't multishot or AOE as your opener. Don't attack the add that is running in. Don't pop all of your cooldowns as soon as we pull. Tanks don't have threat just because they exist, and…",
+   "who": "/u/Munstered",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "e0470119c2",
+   "first": "2026-11-15T16:26:29Z",
+   "last": "2026-11-15T16:26:29Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "I just love this",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwems7/i_just_love_this/",
+   "date": "2026-11-14T22:05:19Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/Safe-Elephant8709",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "a24b795985",
+   "first": "2026-11-14T22:05:19Z",
+   "last": "2026-11-15T15:55:30Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "I love how the new view distance makes Blackrock Mountain seem like a threat throughout your whole leveling journey",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xwyx84/i_love_how_the_new_view_distance_makes_blackrock/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-15T15:55:30Z"
+    }
+   ]
+  },
+  {
+   "title": "You Can Probably Guess WoW: Forever’s Most Popular Race, Class, And Faction",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbG1NT2JnRkc1MU5MYVE1di1wbHdHU2ZpcVcyS1NUTS1ITEdBWWF1UUo4NHlQRFhReVkxZDBaTE5kM0JKZHVWOTF5WnZLOF9tYURhZGE0TmFOWHRSakhTcVd6RlhxcE5FT2hqQjN1UEs1SDM3YzVwSzFDZzZGam5Kci04UnR6ZDFtb2Y1Y0REcFRfOF9WOWR3NkV0YkZtbHFpNVFodFpDV1hIdw?oc=5",
+   "date": "2026-11-13T19:15:27Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "GameSpot",
+   "icon": "inv_misc_spyglass_03",
+   "id": "87c17d9bb8",
+   "first": "2026-11-13T19:15:27Z",
+   "last": "2026-11-15T15:38:39Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Well, thanks I guess?",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xwyiip/well_thanks_i_guess/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-15T15:38:39Z"
+    }
+   ]
+  },
   {
    "title": "Riverglades is One of the Best Leveling Zones in WoW: Forever",
    "url": "https://www.wowhead.com/news=383849/riverglades-is-one-of-the-best-leveling-zones-in-wow-forever",
@@ -61,14 +242,14 @@
   {
    "title": "Complete Combat Leveling 1-60 - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-15T14:24:26Z",
+   "date": "2026-11-15T14:19:17Z",
    "label": "press",
    "source": "Google News",
    "who": "Mobalytics",
    "icon": "inv_misc_spyglass_03",
    "id": "5acfc62b6f",
-   "first": "2026-11-15T14:24:26Z",
-   "last": "2026-11-15T14:24:26Z",
+   "first": "2026-11-15T14:19:17Z",
+   "last": "2026-11-15T14:19:17Z",
    "tags": [
     "leveling"
    ],
@@ -137,6 +318,24 @@
    "also": []
   },
   {
+   "title": "Bring in Night Elf Ships",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwv7dj/bring_in_night_elf_ships/",
+   "date": "2026-11-15T13:14:02Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "I know these technically didn't come into the game until Patch 2.3 but I think adding these in from Auberdine to Stormwind and Rut'theran would be a very fitting and minor change that would add a lot of texture to the world.",
+   "who": "/u/Faerillis",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "e0a967c85b",
+   "first": "2026-11-15T13:14:02Z",
+   "last": "2026-11-15T13:14:02Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Traveling on footpaths should provide a 1-2% increase to speed",
    "url": "https://www.reddit.com/r/wowforever/comments/1xwu6fc/traveling_on_footpaths_should_provide_a_12/",
    "date": "2026-11-15T12:22:10Z",
@@ -168,6 +367,43 @@
    "tags": [
     "leveling"
    ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "When you multitarget DoT like a boss and spam hellfire, leaving you OOM and with 5% health left after a regular pack, but at least you finally beat the Hunter who was 4 levels below you by 5 total DPS",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xws9ki/when_you_multitarget_dot_like_a_boss_and_spam/",
+   "date": "2026-11-15T10:29:18Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/Due-Listen2632",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "9f84524bde",
+   "first": "2026-11-15T10:29:18Z",
+   "last": "2026-11-15T10:29:18Z",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "When you transmog a gun into a bow, it still shoots bullets",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwrgr6/when_you_transmog_a_gun_into_a_bow_it_still/",
+   "date": "2026-11-15T09:38:39Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "And looks very silly.",
+   "who": "/u/saenokda",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "a9c0fc6fa9",
+   "first": "2026-11-15T09:38:39Z",
+   "last": "2026-11-15T09:38:39Z",
+   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -227,6 +463,26 @@
    "also": []
   },
   {
+   "title": "Dungeon Kill Experience Changed Again in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
+   "date": "2026-11-15T02:49:15Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "In their ongoing effort to balance out the experience gained from dungeons in WoW Forever, Blizzard has once again adjusted the amount of XP granted from enemy kills. A recent change had effectively disabled experience for the entire party for mobs that were…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "f1d2e5f082",
+   "first": "2026-11-15T02:49:15Z",
+   "last": "2026-11-15T02:49:15Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "New High Level Battle Mage Weapon Discovered in WoW: Forever",
    "url": "https://www.wowhead.com/news=383860/new-high-level-battle-mage-weapon-discovered-in-wow-forever",
    "date": "2026-11-12T19:25:01Z",
@@ -238,9 +494,9 @@
    "first": "2026-11-12T19:25:01Z",
    "last": "2026-11-15T02:28:15Z",
    "tags": [
-    "leveling",
+    "classes",
     "items",
-    "classes"
+    "leveling"
    ],
    "classes": [
     "mage"
@@ -320,7 +576,7 @@
     "hotfix"
    ],
    "classes": [],
-   "n": 5,
+   "n": 4,
    "official": true,
    "also": [
     {
@@ -343,13 +599,6 @@
      "source": "Google News",
      "label": "press",
      "date": "2026-11-14T22:17:19Z"
-    },
-    {
-     "title": "Dungeon XP is dead and the new grey mob rule just made it worse",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xwbdo0/dungeon_xp_is_dead_and_the_new_grey_mob_rule_just/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-14T19:43:16Z"
     }
    ]
   },
@@ -430,43 +679,6 @@
    "also": []
   },
   {
-   "title": "I just love this",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xwems7/i_just_love_this/",
-   "date": "2026-11-14T22:05:19Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/Safe-Elephant8709",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "a24b795985",
-   "first": "2026-11-14T22:05:19Z",
-   "last": "2026-11-14T22:05:19Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "The Newest Update to Dungeon XP is awful.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xwdjr9/the_newest_update_to_dungeon_xp_is_awful/",
-   "date": "2026-11-14T21:16:43Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "The newest update that reduces all xp to basically nothing if there are grey mobs for one member is awful. I invited a 37 shaman to a city of dalaran last night (my first run through). The guy was in the dungeon finder... We got no XP. How is this supposed…",
-   "who": "/u/Plzfixweaponscaling",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "24b4982a93",
-   "first": "2026-11-14T21:16:43Z",
-   "last": "2026-11-14T21:16:43Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "WoW: Forever Really Appeals to This Older Gamer",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kNEZ2UnRqNGFpd3FZQ3Q2cjVwSW5GNHZqbGUxY0hvRzRvVUk4TlRkZDRLOUJYSmw2SmxBaFBBVmZ5STdFdWhCOFI5YU8zd3A5MkpFR01aTUpReGVyWVg1dkMzV0RzUEVtUEhVRmZkRmJWc2FrVUtJX0NpSQ?oc=5",
    "date": "2026-11-14T21:00:00Z",
@@ -531,26 +743,6 @@
    ]
   },
   {
-   "title": "Dungeon XP Fixed",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xwal8j/dungeon_xp_fixed/",
-   "date": "2026-11-14T19:10:39Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "I'm glad the devs are making the tough decisions for the health of the game.",
-   "who": "/u/Emergency_Salad2874",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "a0c04afe22",
-   "first": "2026-11-14T19:10:39Z",
-   "last": "2026-11-14T19:10:39Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
    "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
    "date": "2026-11-14T19:00:00Z",
@@ -563,27 +755,6 @@
    "last": "2026-11-14T19:00:00Z",
    "tags": [
     "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Layering system will eat your loot",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw9xbl/layering_system_will_eat_your_loot/",
-   "date": "2026-11-14T18:43:46Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "We were doing quests in Western Plaguelands when we ended up in the tower where the Formula: Enchant Weapon - Crusader recipe drops. We made our way to the top of the tower and killed the 3 casters and the recipe did drop. My friend told me I could have it…",
-   "who": "/u/create_account",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "13df926803",
-   "first": "2026-11-14T18:43:46Z",
-   "last": "2026-11-14T18:43:46Z",
-   "tags": [
-    "items",
-    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -610,71 +781,20 @@
    "also": []
   },
   {
-   "title": "This could be the best thing I've ever played in my life.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw96vy/this_could_be_the_best_thing_ive_ever_played_in/",
-   "date": "2026-11-14T18:14:23Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Since I was a child I always wanted to play WoW as it was crazy hyped back in 2005s. It was kind of a dream for me. Later in life, even though I had the financial ability, the system in the retail wow didn't really catch my interest and I always thought…",
-   "who": "/u/seiko84",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "b3fe0b9d64",
-   "first": "2026-11-14T18:14:23Z",
-   "last": "2026-11-14T18:14:23Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Please bro, I am a cow not a mathematician",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw8xjw/please_bro_i_am_a_cow_not_a_mathematician/",
-   "date": "2026-11-14T18:04:02Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/Sufficient-Emu-2380",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "2e69237fb4",
-   "first": "2026-11-14T18:04:02Z",
-   "last": "2026-11-14T18:04:02Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "A level 19 twink, already have 12k+ HK",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw8p0b/a_level_19_twink_already_have_12k_hk/",
-   "date": "2026-11-14T17:54:36Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Was scrolling the HK rankings last night to see which 60s haven't slept since launch. The top spot isn't a 60. It's a level 19 Tauren Warrior with 12,150 honorable kills. The next guy is somewhere around 8k and nobody else is past 10k. He has the full 2006…",
-   "who": "/u/Makkybis",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "76bd3a2325",
-   "first": "2026-11-14T17:54:36Z",
-   "last": "2026-11-14T17:54:36Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "I've never posted in this sub or any WoW sub before, not a kneejerk complainer I promise. But this new trivial mob XP update feels really, really bad",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw7nzp/ive_never_posted_in_this_sub_or_any_wow_sub/",
-   "date": "2026-11-14T17:13:08Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/Vyath",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "9ccccf9b36",
-   "first": "2026-11-14T17:13:08Z",
-   "last": "2026-11-14T17:13:08Z",
+   "title": "More Fishing Tournament Winners: WoW Forever Hotfixes for November 13",
+   "url": "https://www.warcrafttavern.com/forever/news/more-fishing-tournament-winners-wow-forever-hotfixes-for-november-13/",
+   "date": "2026-11-14T17:42:10Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "The most recent hotfixes for WoW Forever are in, a little over a week after the game’s launch and just ahead of the weekend. Notably, the Stranglethorn Vale Fishing Extravaganza has been changed to allow more winners, with “additional fixes” planned in the…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "4971213c0e",
+   "first": "2026-11-14T17:42:10Z",
+   "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "leveling"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -693,52 +813,14 @@
    "first": "2026-11-14T17:08:35Z",
    "last": "2026-11-14T17:08:35Z",
    "tags": [
-    "classes",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [
     "shaman",
     "paladin",
     "druid"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "This is a bad change and hurts the community far more than a small amount of boosters",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw7e2b/this_is_a_bad_change_and_hurts_the_community_far/",
-   "date": "2026-11-14T17:02:19Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "I'd argue this goes against what they want for Forever: people playing together, or simply helping out the community and being nice. People who sit in Org who offer free runs through RFC? Not anymore, and that's how I got one of my first runs out of pure…",
-   "who": "/u/Sinarai25",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "8681e92f2d",
-   "first": "2026-11-14T17:02:19Z",
-   "last": "2026-11-14T17:02:19Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Should respecs be free while Leveling? Or when there's significant class tuning?",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw6jf9/should_respecs_be_free_while_leveling_or_when/",
-   "date": "2026-11-14T16:28:04Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/Starym",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "4a918ab0c8",
-   "first": "2026-11-14T16:28:04Z",
-   "last": "2026-11-14T16:28:04Z",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -755,8 +837,8 @@
    "first": "2026-11-14T16:00:10Z",
    "last": "2026-11-14T16:00:10Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -961,25 +1043,6 @@
    "last": "2026-11-13T19:37:09Z",
    "tags": [
     "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "You Can Probably Guess WoW: Forever’s Most Popular Race, Class, And Faction",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbG1NT2JnRkc1MU5MYVE1di1wbHdHU2ZpcVcyS1NUTS1ITEdBWWF1UUo4NHlQRFhReVkxZDBaTE5kM0JKZHVWOTF5WnZLOF9tYURhZGE0TmFOWHRSakhTcVd6RlhxcE5FT2hqQjN1UEs1SDM3YzVwSzFDZzZGam5Kci04UnR6ZDFtb2Y1Y0REcFRfOF9WOWR3NkV0YkZtbHFpNVFodFpDV1hIdw?oc=5",
-   "date": "2026-11-13T19:15:27Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GameSpot",
-   "icon": "inv_misc_spyglass_03",
-   "id": "87c17d9bb8",
-   "first": "2026-11-13T19:15:27Z",
-   "last": "2026-11-13T19:15:27Z",
-   "tags": [
-    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1205,28 +1268,6 @@
    "also": []
   },
   {
-   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
-   "date": "2026-11-13T13:53:40Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ba18526e01",
-   "first": "2026-11-13T13:53:40Z",
-   "last": "2026-11-13T13:53:40Z",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "rogue"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Is WoW: Forever down? How to check server status explained",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1scjBTdnREeGVhZmxhdmdkOU4teWg2RTVMaDNXLW1wZG5abXNnVmx1cW45b3NPdC1JdmVlMmhONmt1S1FySkJmcWhRa05acXpId3dZd3RXbENfX1F1NkRxczc0NFNTNXR3YVVDY2FFb0I3NXc?oc=5",
    "date": "2026-11-13T12:01:07Z",
@@ -1255,8 +1296,8 @@
    "first": "2026-11-13T10:31:24Z",
    "last": "2026-11-13T10:31:24Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warrior"
@@ -1277,8 +1318,8 @@
    "first": "2026-11-13T09:55:12Z",
    "last": "2026-11-13T09:55:12Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warlock"
@@ -1339,8 +1380,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1436,9 +1477,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "story",
+    "pvp",
     "realms",
-    "pvp"
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1888,9 +1929,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "classes",
+    "items",
     "hotfix",
-    "items"
+    "classes"
    ],
    "classes": [
     "shaman"
@@ -1965,8 +2006,8 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "classes",
     "hotfix",
+    "classes",
     "ui"
    ],
    "classes": [
@@ -1989,8 +2030,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2010,8 +2051,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2049,9 +2090,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "leveling",
     "classes",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2316,8 +2357,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2603,10 +2644,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "leveling",
     "classes",
-    "pvp",
-    "ui"
+    "ui",
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2626,8 +2667,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "leveling",
     "classes",
+    "leveling",
     "raids"
    ],
    "classes": [],
@@ -2984,6 +3025,115 @@
  ],
  "items": [
   {
+   "title": "World of Warcraft: Forever Update Officially Breaks Dungeon XP",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdlVMUUdKOVRvaDZLVlViSTQ0cm56QjBlWkhNeDdzc21jWWRfUm1hSGFwMGFJSldPQmdiN0J6SWFoVlhIRzlyeTVrM0lxZnZPNWdIYzRnTkZDY3NWbUo4bm9VNFRIdDZnaXRieHR6cllCZ1FLeFVhNEUtOEtTZ3NiVDVPNlE5Y3dUZU5pUDU0VzVhcDNvdlZMTTlLYw?oc=5",
+   "date": "2026-11-15T21:37:15Z",
+   "who": "OpenCritic",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "something you learn very early on",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx68u4/something_you_learn_very_early_on/",
+   "date": "2026-11-15T20:44:40Z",
+   "who": "/u/GallantSystem",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
+   "date": "2026-11-15T19:00:00Z",
+   "summary": "Looking to upgrade your bags, but are a little tight on gold? Here are some bag upgrades from quests in Forever that should give you a bit more storage space! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "economy",
+    "business"
+   ],
+   "classes": []
+  },
+  {
+   "title": "The 1 Ring on as my first ever caught \"fish\"",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx3220/the_1_ring_on_as_my_first_ever_caught_fish/",
+   "date": "2026-11-15T18:36:47Z",
+   "summary": "My friend told me to post this. I got The 1 Ring on as my first ever caught fish, apparently I'm very lucky!",
+   "who": "/u/imadeamemelol",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "75% of the way to 60.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx1rwe/75_of_the_way_to_60/",
+   "date": "2026-11-15T17:46:40Z",
+   "who": "/u/Kimagurena-Kaeru",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Horizontal Progression",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xx0qnl/horizontal_progression/",
+   "date": "2026-11-15T17:06:45Z",
+   "summary": "When Forever was coming out, I saw a lot of references to OSRS for a game that does horizontal progression right. Now, every change all I see is people talking about how it will affect how quickly they can \"beat\" the game. All the drama with dungeon XP had…",
+   "who": "/u/Strict-Egg-7066",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "DPS, threat management is YOUR responsibility as much as the tank's",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwzpes/dps_threat_management_is_your_responsibility_as/",
+   "date": "2026-11-15T16:26:29Z",
+   "summary": "This isn't retail. Download a threat meter even if you don't tank. Don't multishot or AOE as your opener. Don't attack the add that is running in. Don't pop all of your cooldowns as soon as we pull. Tanks don't have threat just because they exist, and…",
+   "who": "/u/Munstered",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "I love how the new view distance makes Blackrock Mountain seem like a threat throughout your whole leveling journey",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwyx84/i_love_how_the_new_view_distance_makes_blackrock/",
+   "date": "2026-11-15T15:55:30Z",
+   "who": "/u/Woodstovia",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Well, thanks I guess?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwyiip/well_thanks_i_guess/",
+   "date": "2026-11-15T15:38:39Z",
+   "who": "/u/Charming_Fish_8045",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Who is playing with their best friend?",
    "url": "https://www.reddit.com/r/wowforever/comments/1xwycls/who_is_playing_with_their_best_friend/",
    "date": "2026-11-15T15:31:41Z",
@@ -3009,7 +3159,7 @@
   {
    "title": "Complete Combat Leveling 1-60 - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-15T14:24:26Z",
+   "date": "2026-11-15T14:19:17Z",
    "who": "Mobalytics",
    "source": "Google News",
    "label": "press",
@@ -3061,6 +3211,18 @@
    "classes": []
   },
   {
+   "title": "Bring in Night Elf Ships",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwv7dj/bring_in_night_elf_ships/",
+   "date": "2026-11-15T13:14:02Z",
+   "summary": "I know these technically didn't come into the game until Patch 2.3 but I think adding these in from Auberdine to Stormwind and Rut'theran would be a very fitting and minor change that would add a lot of texture to the world.",
+   "who": "/u/Faerillis",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Traveling on footpaths should provide a 1-2% increase to speed",
    "url": "https://www.reddit.com/r/wowforever/comments/1xwu6fc/traveling_on_footpaths_should_provide_a_12/",
    "date": "2026-11-15T12:22:10Z",
@@ -3083,6 +3245,31 @@
    "tags": [
     "leveling"
    ],
+   "classes": []
+  },
+  {
+   "title": "When you multitarget DoT like a boss and spam hellfire, leaving you OOM and with 5% health left after a regular pack, but at least you finally beat the Hunter who was 4 levels below you by 5 total DPS",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xws9ki/when_you_multitarget_dot_like_a_boss_and_spam/",
+   "date": "2026-11-15T10:29:18Z",
+   "who": "/u/Due-Listen2632",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ]
+  },
+  {
+   "title": "When you transmog a gun into a bow, it still shoots bullets",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwrgr6/when_you_transmog_a_gun_into_a_bow_it_still/",
+   "date": "2026-11-15T09:38:39Z",
+   "summary": "And looks very silly.",
+   "who": "/u/saenokda",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
    "classes": []
   },
   {
@@ -3118,6 +3305,20 @@
    "label": "community",
    "icon": "inv_shirt_guildtabard_01",
    "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Dungeon Kill Experience Changed Again in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
+   "date": "2026-11-15T02:49:15Z",
+   "summary": "In their ongoing effort to balance out the experience gained from dungeons in WoW Forever, Blizzard has once again adjusted the amount of XP granted from enemy kills. A recent change had effectively disabled experience for the entire party for mobs that were…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "leveling"
+   ],
    "classes": []
   },
   {
@@ -3251,20 +3452,6 @@
    "classes": []
   },
   {
-   "title": "The Newest Update to Dungeon XP is awful.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xwdjr9/the_newest_update_to_dungeon_xp_is_awful/",
-   "date": "2026-11-14T21:16:43Z",
-   "summary": "The newest update that reduces all xp to basically nothing if there are grey mobs for one member is awful. I invited a 37 shaman to a city of dalaran last night (my first run through). The guy was in the dungeon finder... We got no XP. How is this supposed…",
-   "who": "/u/Plzfixweaponscaling",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
    "title": "WoW: Forever Really Appeals to This Older Gamer",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kNEZ2UnRqNGFpd3FZQ3Q2cjVwSW5GNHZqbGUxY0hvRzRvVUk4TlRkZDRLOUJYSmw2SmxBaFBBVmZ5STdFdWhCOFI5YU8zd3A5MkpFR01aTUpReGVyWVg1dkMzV0RzUEVtUEhVRmZkRmJWc2FrVUtJX0NpSQ?oc=5",
    "date": "2026-11-14T21:00:00Z",
@@ -3304,20 +3491,6 @@
    "classes": []
   },
   {
-   "title": "Dungeon XP is dead and the new grey mob rule just made it worse",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xwbdo0/dungeon_xp_is_dead_and_the_new_grey_mob_rule_just/",
-   "date": "2026-11-14T19:43:16Z",
-   "summary": "Man I'm so over this dungeon XP stuff. They keep saying they're \"buffing\" it a little and then slap us with something worse. That new hotfix is ridiculous. If even one person in the group has the mobs grey the entire party gets zero XP from the kill. So now…",
-   "who": "/u/Abraxotron",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
    "title": "WoW Forever Players Reporting Dungeons Giving No Exp After Recent Change",
    "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
    "date": "2026-11-14T19:25:06Z",
@@ -3328,20 +3501,6 @@
    "icon": "inv_misc_food_15",
    "tags": [
     "hotfix",
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Dungeon XP Fixed",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xwal8j/dungeon_xp_fixed/",
-   "date": "2026-11-14T19:10:39Z",
-   "summary": "I'm glad the devs are making the tough decisions for the health of the game.",
-   "who": "/u/Emergency_Salad2874",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
     "leveling"
    ],
    "classes": []
@@ -3360,21 +3519,6 @@
    "classes": []
   },
   {
-   "title": "Layering system will eat your loot",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw9xbl/layering_system_will_eat_your_loot/",
-   "date": "2026-11-14T18:43:46Z",
-   "summary": "We were doing quests in Western Plaguelands when we ended up in the tower where the Formula: Enchant Weapon - Crusader recipe drops. We made our way to the top of the tower and killed the 3 casters and the recipe did drop. My friend told me I could have it…",
-   "who": "/u/create_account",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "items",
-    "realms"
-   ],
-   "classes": []
-  },
-  {
    "title": "The majority WANTS increased dungeon XP",
    "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2406555",
    "date": "2026-11-14T18:22:16Z",
@@ -3388,50 +3532,17 @@
    "classes": []
   },
   {
-   "title": "This could be the best thing I've ever played in my life.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw96vy/this_could_be_the_best_thing_ive_ever_played_in/",
-   "date": "2026-11-14T18:14:23Z",
-   "summary": "Since I was a child I always wanted to play WoW as it was crazy hyped back in 2005s. It was kind of a dream for me. Later in life, even though I had the financial ability, the system in the retail wow didn't really catch my interest and I always thought…",
-   "who": "/u/seiko84",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Please bro, I am a cow not a mathematician",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw8xjw/please_bro_i_am_a_cow_not_a_mathematician/",
-   "date": "2026-11-14T18:04:02Z",
-   "who": "/u/Sufficient-Emu-2380",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "A level 19 twink, already have 12k+ HK",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw8p0b/a_level_19_twink_already_have_12k_hk/",
-   "date": "2026-11-14T17:54:36Z",
-   "summary": "Was scrolling the HK rankings last night to see which 60s haven't slept since launch. The top spot isn't a 60. It's a level 19 Tauren Warrior with 12,150 honorable kills. The next guy is somewhere around 8k and nobody else is past 10k. He has the full 2006…",
-   "who": "/u/Makkybis",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "I've never posted in this sub or any WoW sub before, not a kneejerk complainer I promise. But this new trivial mob XP update feels really, really bad",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw7nzp/ive_never_posted_in_this_sub_or_any_wow_sub/",
-   "date": "2026-11-14T17:13:08Z",
-   "who": "/u/Vyath",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
+   "title": "More Fishing Tournament Winners: WoW Forever Hotfixes for November 13",
+   "url": "https://www.warcrafttavern.com/forever/news/more-fishing-tournament-winners-wow-forever-hotfixes-for-november-13/",
+   "date": "2026-11-14T17:42:10Z",
+   "summary": "The most recent hotfixes for WoW Forever are in, a little over a week after the game’s launch and just ahead of the weekend. Notably, the Stranglethorn Vale Fishing Extravaganza has been changed to allow more winners, with “additional fixes” planned in the…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
    "tags": [
-    "leveling"
+    "hotfix",
+    "professions"
    ],
    "classes": []
   },
@@ -3452,32 +3563,6 @@
     "shaman",
     "druid"
    ]
-  },
-  {
-   "title": "This is a bad change and hurts the community far more than a small amount of boosters",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw7e2b/this_is_a_bad_change_and_hurts_the_community_far/",
-   "date": "2026-11-14T17:02:19Z",
-   "summary": "I'd argue this goes against what they want for Forever: people playing together, or simply helping out the community and being nice. People who sit in Org who offer free runs through RFC? Not anymore, and that's how I got one of my first runs out of pure…",
-   "who": "/u/Sinarai25",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Should respecs be free while Leveling? Or when there's significant class tuning?",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw6jf9/should_respecs_be_free_while_leveling_or_when/",
-   "date": "2026-11-14T16:28:04Z",
-   "who": "/u/Starym",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": []
   },
   {
    "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
@@ -3886,22 +3971,6 @@
     "leveling"
    ],
    "classes": []
-  },
-  {
-   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
-   "date": "2026-11-13T13:53:40Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "rogue"
-   ]
   },
   {
    "title": "Is WoW: Forever down? How to check server status explained",

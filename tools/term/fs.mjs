@@ -202,7 +202,16 @@ emacs`,
 - write a riddle for the barrow door. make it about flasks. nobody will guess.
 - remove vim from the box
 - remove nano from the box
-- figure out who keeps running 'ed'`,
+- figure out who keeps running 'ed'
+- test summon.sh before raid night (it won't run. permissions? who even remembers chmod)`,
+    // not executable on purpose: chmod +x it, then ./summon.sh (the terminal rewards running it)
+    "/home/grumbolt/summon.sh": { c: `#!/bin/whimsh
+# summon.sh: practice for Onyxia, phase two. Do NOT run during a pull.
+# usage: ./summon.sh
+for whelp in $(seq 1 many); do
+  summon whelp --deep-breath
+done
+echo "MANY WHELPS. HANDLE IT."`, mode: "-rw-r--r--", owner: "grumbolt" },
 
     // ---------------- fizzlewick: gnome engineer ----------------
     "/home/fizzlewick/": null,

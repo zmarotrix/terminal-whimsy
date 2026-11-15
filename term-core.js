@@ -128,7 +128,7 @@ addEventListener("keydown", e => {
   if ((e.key === "`" || e.key === "~") && !inField && !e.ctrlKey && !e.altKey) { e.preventDefault(); con.hidden ? openCon() : closeCon(); }
 });
 const termLine = $(".hero .term");
-if (termLine) { termLine.classList.add("clicky"); termLine.setAttribute("data-tip", "Click to open the terminal (or press `)"); termLine.addEventListener("click", e => { e.stopPropagation(); openCon(); }); }
+if (termLine) termLine.addEventListener("click", e => { e.stopPropagation(); openCon(); });   // no hint, no glow: finding it is the point
 con.addEventListener("click", e => { if (!e.target.closest("a,button") && !getSelection().toString()) inp.focus(); });
 
 /* ---------------- readline, the Emacs way ---------------- */
@@ -976,7 +976,7 @@ cmd("theme", a => {
   const t = a[0]; if (!THEMES[t]) throw `no theme '${t}'`; if (!THEMES[t]()) return "That theme is locked. Keep exploring.";
   Object.keys(THEMES).forEach(k => con.classList.remove("th-" + k)); con.classList.add("th-" + t); flag("theme", t); award("themed"); return `Theme: ${t}.`;
 });
-cmd("achievements", () => { X.xp(); $("#achs").hidden = false; return `${Object.keys(X.got).filter(k => D.ACH[k]).length} of ${Object.keys(D.ACH).length}. Opened your list.`; });
+cmd("achievements", () => { X.xp(); $("#achs").hidden = false; return `${Object.keys(X.got).filter(k => D.ACH[k]).length} found so far. Opened your list.`; });
 cmd("name", a => { const n = a.join(" ").replace(/[^\p{L}\p{N} '\-]/gu, "").trim().slice(0, 24); if (!n) return "usage: name <your name>"; store.set("name", n); award("named"); X.xp(); return `Hello, ${X.who()}.`; });
 cmd("roll", a => { const m = Math.max(2, Math.min(1e6, parseInt(a[0]) || 100)), r = 1 + rnd(m); if (m === 100 && r === 100) award("nat100"); return `${X.store.get("name", "You")} rolls ${r} (1-${m})`; });
 

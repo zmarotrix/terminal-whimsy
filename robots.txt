@@ -2,6 +2,6 @@ User-agent: *
 Allow: /
 
 # Hello, curious human.
-# Disallow: /vault       <- not a real path. The vault is opened with seven words, in a terminal, on the page.
+# Disallow: /vault       <- not a real path. The vault opens with seven words, typed somewhere on the site.
 # Disallow: /root        <- also not a path. Grumbolt has root. He'd never say the password out loud.
-# Press ` on the site.
+# The wisp listens for a key most people never press.

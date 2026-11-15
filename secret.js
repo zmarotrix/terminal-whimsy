@@ -215,7 +215,7 @@ addEventListener("keydown", e => { if (!run || X.room !== "graveyard" || (e.targ
 X.addRoom("graveyard", { open: () => !!flags().ghost, locked: "brief", tab: "Graveyard", icon: "spell_holy_resurrection", onShow() { if (!$("#deathMsg").textContent) $("#deathMsg").textContent = "You died. It happens to the best of us. Especially Healsbarry."; } });
 
 /* =================== the Twisting Nether (404) =================== */
-section("nether", `<div class="nether"><div class="nether-sky"></div><div class="wrap"><p class="eyebrow">404 · PAGE NOT FOUND</p><h2>You have fallen into the Twisting Nether</h2><p class="lede">This page doesn't exist. Or it did, and the Legion ate it. Either way, you're floating in the void with a very small light for company.</p><div class="row" style="margin-top:1.4rem"><a class="btn" href="#brief"><img src="${ICON("spell_arcane_portaldalaran")}" alt="">Hearthstone home</a></div><p class="muted" style="margin-top:2rem">Some pages here are real, but sealed. If you're looking for one of those, the terminal knows the way in. (Press \`.)</p></div></div>`);
+section("nether", `<div class="nether"><div class="nether-sky"></div><div class="wrap"><p class="eyebrow">404 · PAGE NOT FOUND</p><h2>You have fallen into the Twisting Nether</h2><p class="lede">This page doesn't exist. Or it did, and the Legion ate it. Either way, you're floating in the void with a very small light for company.</p><div class="row" style="margin-top:1.4rem"><a class="btn" href="#brief"><img src="${ICON("spell_arcane_portaldalaran")}" alt="">Hearthstone home</a></div><p class="muted" style="margin-top:2rem">Some pages here are real, but sealed. The way to them is hidden somewhere on this site.</p></div></div>`);
 X.addRoom("nether", { open: () => true, onShow() { award("nether"); } });
 
 /* =================== things for the terminal and the curious =================== */
@@ -227,8 +227,8 @@ window.whimsy = {
     const k = [0, 1, 2, 3, 4, 5, 6].find(i => !f.includes(i));
     return k == null ? "All seven seals found. Open the terminal and type: unlock vault. (Then try su.)" : `Seal ${["I", "II", "III", "IV", "V", "VI", "VII"][k]}: ${h[k]}`;
   },
-  help() { return "whimsy.hint() gives the next seal's hint. The real fun is in the terminal: press ` on the page."; },
+  help() { return "whimsy.hint() gives the next hint, once you've found the way in. The way in is a key most people never press."; },
   toString() { return "✦ the wisp is watching your console. hello. try whimsy.hint()"; },
 };
-console.log("%c✦ Terminal Whimsy %c\nHello, inspector. The wisp sees you.\nThe real secrets live in the terminal: press ` on the page.\nStuck on the quest? Try %cwhimsy.hint()%c in this console.", "font:700 16px Cinzel,serif;color:#f2c56b", "color:#a8aec2", "color:#7cf29a;font-family:monospace", "color:#a8aec2");
+console.log("%c✦ Terminal Whimsy %c\nHello, inspector. The wisp sees you.\nThere is more to this page than the page. The green line at the top of the briefing is not just decoration.\nOnce you're in and stuck, try %cwhimsy.hint()%c here.", "font:700 16px Cinzel,serif;color:#f2c56b", "color:#a8aec2", "color:#7cf29a;font-family:monospace", "color:#a8aec2");
 })();

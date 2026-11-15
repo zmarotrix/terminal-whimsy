@@ -147,16 +147,19 @@ const title = () => (D.TITLES || []).filter(([n]) => count() >= n).pop()?.[1] ||
 const who = () => `${store.get("name", "Adventurer")} ${title()}`;
 function xp() {
   const ids = Object.keys(ACH), k = count();
+  // secret achievements don't exist, as far as the list is concerned, until you earn one
+  const shown = ids.filter(x => !ACH[x].secret || got[x]);
   $(".xpbar i").style.setProperty("--xp", (100 * k / ids.length) + "%");
-  $(".xp .v").textContent = `${k}/${ids.length}`;
+  $(".xp .v").textContent = k;
   const next = (D.TITLES || []).find(([n]) => n > k);
-  const cats = [...new Set(ids.map(x => ACH[x].cat || "Briefing"))];
-  const li = x => { const a = ACH[x], hid = a.secret && !got[x];
-    return `<li class="${got[x] ? "got" : ""}${hid ? " hid" : ""}"><img src="${ICON(hid ? "inv_misc_questionmark" : a.i)}" alt=""><div><b>${hid ? "???" : esc(a.n)}</b>${hid ? "A secret. Keep exploring." : esc(a.d)}</div></li>`; };
-  $("#achs").innerHTML = `<h3>${esc(who())}</h3><p class="achsub">${k} of ${ids.length} achievements · ${k * 10} points${next ? ` · ${next[0] - k} more for "${esc(next[1])}"` : ""}</p>` +
-    cats.map(c => { const mine = ids.filter(x => (ACH[x].cat || "Briefing") === c).sort((a, b) => (!!got[b] - !!got[a]) || (!!ACH[a].secret - !!ACH[b].secret));
-      const hiddenCat = mine.every(x => ACH[x].secret) && !mine.some(x => got[x]);     // don't even name a secret category
-      return `<h4 class="achcat">${hiddenCat ? "???" : esc(c)} <span>${mine.filter(x => got[x]).length}/${mine.length}</span></h4><ul>${mine.map(li).join("")}</ul>`; }).join("");
+  const cats = [...new Set(shown.map(x => ACH[x].cat || "Briefing"))];
+  const li = x => `<li class="${got[x] ? "got" : ""}"><img src="${ICON(ACH[x].i)}" alt=""><div><b>${esc(ACH[x].n)}</b>${esc(ACH[x].d)}</div></li>`;
+  $("#achs").innerHTML = `<h3>${esc(who())}</h3><p class="achsub">${k} achievement${k === 1 ? "" : "s"} · ${k * 10} points${next ? ` · ${next[0] - k} more for your next title` : ""}</p>` +
+    cats.map(c => {
+      const mine = shown.filter(x => (ACH[x].cat || "Briefing") === c).sort((a, b) => !!got[b] - !!got[a]);
+      const secretish = ids.some(x => (ACH[x].cat || "Briefing") === c && ACH[x].secret), n = mine.filter(x => got[x]).length;
+      return `<h4 class="achcat">${esc(c)} <span>${secretish ? `${n} found` : `${n}/${mine.length}`}</span></h4><ul>${mine.map(li).join("")}</ul>`;
+    }).join("") + (shown.length < ids.length ? `<p class="achsub" style="margin-top:1rem">✦ Some achievements only appear once you find them.</p>` : "");
 }
 $(".xp").addEventListener("click", e => { e.stopPropagation(); $("#achs").hidden = !$("#achs").hidden; });
 document.addEventListener("click", e => { if (!e.target.closest("#achs,.xp")) $("#achs").hidden = true; });

@@ -155,7 +155,8 @@ function xp() {
     return `<li class="${got[x] ? "got" : ""}${hid ? " hid" : ""}"><img src="${ICON(hid ? "inv_misc_questionmark" : a.i)}" alt=""><div><b>${hid ? "???" : esc(a.n)}</b>${hid ? "A secret. Keep exploring." : esc(a.d)}</div></li>`; };
   $("#achs").innerHTML = `<h3>${esc(who())}</h3><p class="achsub">${k} of ${ids.length} achievements · ${k * 10} points${next ? ` · ${next[0] - k} more for "${esc(next[1])}"` : ""}</p>` +
     cats.map(c => { const mine = ids.filter(x => (ACH[x].cat || "Briefing") === c).sort((a, b) => (!!got[b] - !!got[a]) || (!!ACH[a].secret - !!ACH[b].secret));
-      return `<h4 class="achcat">${esc(c)} <span>${mine.filter(x => got[x]).length}/${mine.length}</span></h4><ul>${mine.map(li).join("")}</ul>`; }).join("");
+      const hiddenCat = mine.every(x => ACH[x].secret) && !mine.some(x => got[x]);     // don't even name a secret category
+      return `<h4 class="achcat">${hiddenCat ? "???" : esc(c)} <span>${mine.filter(x => got[x]).length}/${mine.length}</span></h4><ul>${mine.map(li).join("")}</ul>`; }).join("");
 }
 $(".xp").addEventListener("click", e => { e.stopPropagation(); $("#achs").hidden = !$("#achs").hidden; });
 document.addEventListener("click", e => { if (!e.target.closest("#achs,.xp")) $("#achs").hidden = true; });

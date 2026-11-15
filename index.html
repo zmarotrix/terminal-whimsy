@@ -69,12 +69,13 @@
 <section class="room" id="changes" data-room="changes" hidden>
   <div class="banner" style="--img:url(img/excavation.jpg)"><div class="art"></div><div class="wrap cap"><h2>What changed</h2><p>How Classic did it, and what Forever does now.</p></div><span class="credit">Excavation Site · © Blizzard</span></div>
   <div class="wrap">
+    <div class="seg" id="chgMode" role="tablist" aria-label="What to show"><button role="tab" data-m="diff" aria-selected="true">Differences from Classic</button><button role="tab" data-m="hot" aria-selected="false">Hotfix log <span class="n" id="hotCount"></span></button></div>
     <div class="panel pick">
       <p class="lbl">Show me changes for</p>
       <div class="row" id="clsFilter"></div>
       <p class="clsnote" id="clsNote" hidden></p>
     </div>
-    <div class="tools">
+    <div class="tools" id="diffTools">
       <div class="row chips" id="areaChips"></div>
       <div class="row">
         <button class="toggle" id="bigOnly" aria-pressed="false"><span class="dot major"></span>Only the big ones</button>
@@ -83,6 +84,15 @@
       <p class="legend"><span><span class="dot major"></span>Big deal</span><span><span class="dot notable"></span>Worth knowing</span><span><span class="dot minor"></span>Small</span><span class="sep"></span><span class="stk official">Blizzard said</span><span class="stk datamined">In the files</span><span class="stk community">Players report</span><span class="stk rumour">Rumour</span></p>
     </div>
     <div id="ledger"></div>
+    <div id="hotlog" hidden>
+      <div class="tools">
+        <p class="muted">Every change from Blizzard's hotfix posts since launch, one line each, newest first. Picked a class above? You'll see only its lines plus the ones for everyone.</p>
+        <div class="row chips" id="hotChips"></div>
+        <div class="row"><input class="search" id="hotSearch" type="search" placeholder="Search hotfixes" aria-label="Search hotfixes"></div>
+      </div>
+      <div id="hotList"></div>
+      <button class="btn more-btn" id="hotMore" hidden>Older hotfixes</button>
+    </div>
   </div>
 </section>
 
@@ -124,10 +134,12 @@
   <div class="wrap">
     <div class="tools">
       <div class="row chips" id="wireChips"></div>
+      <div class="row chips" id="wireTopics"></div>
       <p class="fresh"><span class="led"></span><span class="ft">loading…</span></p>
     </div>
     <div id="wireList"></div>
     <button class="btn ghost more-btn" id="wireMore" hidden>Older stories</button>
+    <details class="more" id="srcHealth"><summary><span>How the sources are doing</span><small>Each source, and the last day it worked</small></summary><ul class="health" id="healthList"></ul></details>
   </div>
 </section>
 

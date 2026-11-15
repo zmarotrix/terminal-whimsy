@@ -1,4 +1,5 @@
-# Refreshes The Wire (data/news.json) every 3 hours and deploys the site to GitHub Pages.
+# Every 3 hours: refreshes The Wire (data/news.json), the hotfix log (data/hotfixes.json) and source health
+# (data/health.json), opens or closes an issue if a source breaks, and deploys the site to GitHub Pages.
 # A failed fetch keeps the last good news file, so the site never goes blank.
 name: Refresh news and deploy
 
@@ -13,6 +14,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: site
@@ -34,15 +36,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch news
+      - name: Fetch news and the hotfix log
         run: python tools/fetch_news.py --out data/news.json
+
+      - name: Report broken sources
+        if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/health_issue.py || echo "::warning::Couldn't update the source-health issue"
 
       - name: Save news to the repo
         run: |
-          if ! git diff --quiet -- data/news.json; then
+          if ! git diff --quiet -- data/; then
             git config user.name "whimsy-wire[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/news.json
+            git add data/news.json data/hotfixes.json data/health.json
             git commit -m "Refresh The Wire"
             git push || echo "::warning::Couldn't save news to the repo; the site still deploys with it"
           fi

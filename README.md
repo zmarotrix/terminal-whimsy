@@ -12,7 +12,10 @@ A guild guide to World of Warcraft: Forever: everything Blizzard has said, every
   - `tools/curated.py`: the hand-written parts (must-know list, roadmap, class notes, fixes)
 - `icons.js`: every icon the page uses, inlined. Built by the same script from `img/icons/`.
 - `data/news.json`: The Wire. `tools/fetch_news.py` reads the sources in `tools/feeds.json`, keeps Forever stories, and merges them with the last run.
-- `.github/workflows/site.yml`: every 3 hours, fetches news, commits `data/news.json` if it changed, and deploys to GitHub Pages.
+- `data/hotfixes.json`: the hotfix log. `tools/hotfixes.py` reads Blizzard's hotfix thread on the forums and splits every post into one line per change, with its section, class and developer notes.
+- `data/health.json`: when each source last worked. `tools/health_issue.py` opens a GitHub issue (label `wire-health`) when a source fails 3 runs in a row or gives nothing for 2 days, and closes it when they all work again.
+- Stories: `tools/stories.py` tags every post by topic and class (word lists in `tools/taxonomy.json`) and groups posts about the same event, headed by Blizzard's own post when there is one.
+- `.github/workflows/site.yml`: every 3 hours, runs all of the above, commits `data/` if it changed, and deploys to GitHub Pages.
 
 ## Updating
 

@@ -263,6 +263,11 @@ function changes() {
   $("#areaChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; cstate.area = b.dataset.a; $$("#areaChips .chip").forEach(x => x.setAttribute("aria-pressed", x === b)); drawChanges(); });
   $("#bigOnly").addEventListener("click", e => { cstate.big = !cstate.big; e.currentTarget.setAttribute("aria-pressed", cstate.big); drawChanges(); });
   $("#chgSearch").addEventListener("input", e => { cstate.q = e.target.value.trim().toLowerCase(); drawChanges(); });
+  $("#chgMode").addEventListener("click", e => { const b = e.target.closest("[data-m]"); if (b) setMode(b.dataset.m); });
+  $("#ledger").addEventListener("click", e => { if (e.target.closest("[data-goto-hot]")) { setMode("hot"); $("#chgMode").scrollIntoView({ behavior: REDUCE ? "auto" : "smooth" }); } });
+  $("#hotChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; hstate.area = b.dataset.a; hstate.days = 4; $$("#hotChips .chip").forEach(x => x.setAttribute("aria-pressed", x === b)); drawHot(); });
+  $("#hotSearch").addEventListener("input", e => { hstate.q = e.target.value.trim().toLowerCase(); hstate.days = 4; drawHot(); });
+  $("#hotMore").addEventListener("click", () => { hstate.days += 4; drawHot(); });
   $("#ledger").addEventListener("toggle", e => {
     if (!e.target.open) return;
     const r = store.get("read", {}); r[e.target.dataset.id] = 1; store.set("read", r);
@@ -284,6 +289,7 @@ function drawChanges() {
   const note = $("#clsNote");
   if (cstate.cls) { const c = CL[cstate.cls]; note.hidden = false; note.style.setProperty("--cc", c.c); note.innerHTML = `<b style="color:${c.c}">${esc(c.n)}:</b> ${esc(c.note)} Raid-wide changes still show below.`; }
   else note.hidden = true;
+  if (mode === "hot") { drawHot(); return; }
   const L = D.CHANGES.filter(c =>
     (cstate.area === "all" || c.area === cstate.area) &&
     (!cstate.big || c.severity === "major") &&
@@ -291,20 +297,60 @@ function drawChanges() {
     (!cstate.cls || c.class === cstate.cls || !(c.classes || []).length || c.classes.includes(cstate.cls)) &&
     (!cstate.q || (c.title + " " + c.classic + " " + c.forever + " " + c.impact).toLowerCase().includes(cstate.q)))
     .sort((a, b) => (b.class === cstate.cls && !!cstate.cls) - (a.class === cstate.cls && !!cstate.cls) || SEVR[a.severity] - SEVR[b.severity]);
-  if (!L.length) { $("#ledger").innerHTML = `<div class="empty">> no changes match. try clearing a filter.</div>`; return; }
+  // a picked class also gets its latest hotfix lines, straight under its own changes
+  const hf = cstate.cls && !cstate.q && cstate.area === "all" ? HOT.filter(l => l.classes.includes(cstate.cls)).slice(0, 6) : [];
+  const hfHtml = hf.length ? `<div class="grp"><h3><img src="${ICON("inv_misc_wrench_01")}" alt="">Latest hotfixes for ${esc(CL[cstate.cls].n)}s <span class="n">${HOT.filter(l => l.classes.includes(cstate.cls)).length}</span></h3><div class="hlines">${hf.map(l => hotLine(l, true)).join("")}</div><button class="btn more-btn" data-goto-hot>See every hotfix for ${esc(CL[cstate.cls].n)}s</button></div>` : "";
+  if (!L.length) { $("#ledger").innerHTML = hfHtml + `<div class="empty">> no changes match. try clearing a filter.</div>`; return; }
   const groups = {};
   L.forEach(c => (groups[c.area] = groups[c.area] || []).push(c));
   const order = Object.keys(AREAS).filter(k => groups[k]);
   if (cstate.cls && L.some(c => c.class === cstate.cls)) {
     const mine = L.filter(c => c.class === cstate.cls), rest = L.filter(c => c.class !== cstate.cls);
     const rg = {}; rest.forEach(c => (rg[c.area] = rg[c.area] || []).push(c));
-    $("#ledger").innerHTML = grp(CL[cstate.cls].i, "Just for " + CL[cstate.cls].n + "s", mine) + Object.keys(AREAS).filter(k => rg[k]).map(k => grp(AREAS[k].i, AREAS[k].n, rg[k])).join("");
+    $("#ledger").innerHTML = grp(CL[cstate.cls].i, "Just for " + CL[cstate.cls].n + "s", mine) + hfHtml + Object.keys(AREAS).filter(k => rg[k]).map(k => grp(AREAS[k].i, AREAS[k].n, rg[k])).join("");
   } else {
-    $("#ledger").innerHTML = order.map(k => grp(AREAS[k].i, AREAS[k].n, groups[k])).join("");
+    $("#ledger").innerHTML = hfHtml + order.map(k => grp(AREAS[k].i, AREAS[k].n, groups[k])).join("");
   }
+}
+
+/* ---------------- hotfix log (data/hotfixes.json, split from Blizzard's hotfix posts) ---------------- */
+let HOT = [], mode = "diff";
+const hstate = { area: "all", q: "", days: 4 };
+const hotLine = (l, withDate) => `<div class="hline"><div class="ht">${withDate ? `<span class="hd">${esc(fmtDate(l.date, { day: "numeric", month: "short" }))}</span>` : ""}${l.path.length > 1 ? `<span class="hp">${esc(l.path.slice(1).join(" › "))}</span>` : ""}${esc(l.text)}</div>${l.subs ? `<ul class="hs">${l.subs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${l.note ? `<p class="hn">${esc(l.note)}</p>` : ""}</div>`;
+function setMode(m) {
+  mode = m;
+  $$("#chgMode [data-m]").forEach(b => b.setAttribute("aria-selected", b.dataset.m === m));
+  $("#diffTools").hidden = $("#ledger").hidden = m === "hot";
+  $("#hotlog").hidden = m !== "hot";
+  drawChanges();
+}
+function hotfixLog(lines) {
+  HOT = lines || [];
+  $("#hotCount").textContent = HOT.length;
+  if (!HOT.length) { $("#hotList").innerHTML = `<div class="empty">> the hotfix log hasn't loaded yet.</div>`; return; }
+  const counts = {}; HOT.forEach(l => counts[l.area] = (counts[l.area] || 0) + 1);
+  $("#hotChips").innerHTML = `<button class="chip" data-a="all" aria-pressed="true">Everything <span class="n">${HOT.length}</span></button>` +
+    Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([k, n]) => `<button class="chip" data-a="${esc(k)}" aria-pressed="false">${esc(k)} <span class="n">${n}</span></button>`).join("");
+  drawChanges();
+}
+function drawHot() {
+  const q = hstate.q, cls = cstate.cls;
+  const L = HOT.filter(l => (hstate.area === "all" || l.area === hstate.area) && (!cls || !l.classes.length || l.classes.includes(cls)) &&
+    (!q || (l.path.join(" ") + " " + l.text + " " + (l.note || "")).toLowerCase().includes(q)));
+  const days = [...new Set(L.map(l => l.date))];
+  let html = "";
+  for (const d of days.slice(0, hstate.days)) {
+    const dayLines = L.filter(l => l.date === d), byPath = new Map();
+    dayLines.forEach(l => { const k = l.path.slice(0, 2).join(" › ") || "General"; if (!byPath.has(k)) byPath.set(k, []); byPath.get(k).push(l); });
+    html += `<div class="hday"><div class="month">${esc(fmtDate(d, { weekday: "long", day: "numeric", month: "long" }))} <a class="hsrc" href="${esc(dayLines[0].url)}" target="_blank" rel="noopener">Blizzard's post ↗</a></div>` +
+      [...byPath].map(([k, ls]) => `<div class="hgrp"><h4>${esc(k)} <span class="n">${ls.length}</span></h4>${ls.map(l => hotLine({ ...l, path: l.path.length > 2 ? ["", ...l.path.slice(2)] : [] })).join("")}</div>`).join("") + `</div>`;
+  }
+  $("#hotList").innerHTML = html || `<div class="empty">> no hotfixes match. try clearing a filter.</div>`;
+  $("#hotMore").hidden = days.length <= hstate.days;
 }
 const grp = (i, name, list) => `<div class="grp"><h3><img src="${ICON(i)}" alt="">${esc(name)} <span class="n">${list.length}</span></h3>${list.map(changeRow).join("")}</div>`;
 function openChange(id) {
+  if (mode !== "diff") setMode("diff");
   let el = document.getElementById(id);
   if (!el) {
     cstate.area = "all"; cstate.big = false; cstate.q = ""; cstate.cls = null; $("#chgSearch").value = "";
@@ -366,75 +412,132 @@ function gear() {
 }
 
 /* ---------------- blizzard said ---------------- */
-const KIND = { "article": "Article", "blue-post": "Blue post", "patch-notes": "Patch notes", "hotfix": "Hotfix", "interview": "Interview", "social": "Social", "faq": "FAQ" };
+const KIND = { "article": "Article", "blue-post": "Blue post", "blue-reply": "Blue reply", "patch-notes": "Patch notes", "hotfix": "Hotfix", "interview": "Interview", "social": "Social", "faq": "FAQ" };
+let SAIDALL = D.SAID.slice(), saidRedraw = () => {};
 function said() {
-  const S = D.SAID, T = D.TOPICS, counts = {};
-  S.forEach(s => counts[s.topic] = (counts[s.topic] || 0) + 1);
-  $("#saidChips").innerHTML = `<button class="chip" data-t="all" aria-pressed="true">Everything <span class="n">${S.length}</span></button>` + Object.entries(T).filter(([k]) => counts[k]).map(([k, t]) => `<button class="chip" data-t="${k}" aria-pressed="false"><img src="${ICON(t.i)}" alt="">${esc(t.n)} <span class="n">${counts[k]}</span></button>`).join("");
+  const T = D.TOPICS;
   let tp = "all", q = "", shown = 25;
+  const chips = () => {
+    const counts = {}; SAIDALL.forEach(s => counts[s.topic] = (counts[s.topic] || 0) + 1);
+    $("#saidChips").innerHTML = `<button class="chip" data-t="all" aria-pressed="${tp === "all"}">Everything <span class="n">${SAIDALL.length}</span></button>` + Object.entries(T).filter(([k]) => counts[k]).map(([k, t]) => `<button class="chip" data-t="${k}" aria-pressed="${tp === k}"><img src="${ICON(t.i)}" alt="">${esc(t.n)} <span class="n">${counts[k]}</span></button>`).join("");
+  };
   const draw = () => {
-    const L = S.filter(s => (tp === "all" || s.topic === tp) && (!q || (s.title + " " + s.summary).toLowerCase().includes(q)));
+    const L = SAIDALL.filter(s => (tp === "all" || s.topic === tp) && (!q || (s.title + " " + (s.summary || "")).toLowerCase().includes(q)));
     let html = "", month = "";
     for (const s of L.slice(0, shown)) {
       const m = fmtDate(s.date, { month: "long", year: "numeric" });
       if (m !== month) { month = m; html += `<div class="month">${esc(m)}</div>`; }
       const t = T[s.topic] || T.other;
-      html += `<details class="stm"><summary><span class="d">${esc(fmtDate(s.date, { day: "numeric", month: "short" }))}</span>${icon(t.i, "", t.n)}<h4>${esc(s.title)}</h4><span class="kind">${esc(KIND[s.kind] || s.kind)}</span></summary>
-        <div class="body"><p>${esc(s.summary)}</p><p class="srcline">${s.who ? esc(s.who) + " · " : ""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Read it on ${esc(host(s.url))} ↗</a>${s.via ? ` · <a href="${esc(s.via)}" target="_blank" rel="noopener">reported via ↗</a>` : ""}</p></div></details>`;
+      html += `<details class="stm"><summary><span class="d">${esc(fmtDate(s.date, { day: "numeric", month: "short" }))}</span>${icon(t.i, "", t.n)}<h4>${esc(s.title)}${s.auto ? ` <span class="stk community" data-tip="Picked up automatically from Blizzard's own news and forum posts. Not checked by hand yet.">new</span>` : ""}</h4><span class="kind">${esc(KIND[s.kind] || s.kind)}</span></summary>
+        <div class="body">${s.summary ? `<p>${esc(s.summary)}</p>` : ""}<p class="srcline">${s.who ? esc(s.who) + " · " : ""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Read it on ${esc(host(s.url))} ↗</a>${s.via ? ` · <a href="${esc(s.via)}" target="_blank" rel="noopener">reported via ↗</a>` : ""}</p></div></details>`;
     }
     $("#saidList").innerHTML = html || `<div class="empty">> nothing on that yet.</div>`;
     $("#saidMore").hidden = L.length <= shown;
   };
+  saidRedraw = () => { chips(); draw(); $('[data-count="said"]').textContent = SAIDALL.length; };
   $("#saidChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; tp = b.dataset.t; shown = 25; $$("#saidChips .chip").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); });
   $("#saidSearch").addEventListener("input", e => { q = e.target.value.trim().toLowerCase(); draw(); });
   $("#saidMore").addEventListener("click", () => { shown += 30; draw(); award("archive"); });
-  draw();
+  chips(); draw();
+}
+// Blizzard's own posts on The Wire that the hand-written archive doesn't have yet
+const TAG2TOPIC = { hotfix: "hotfix", raids: "raids", leveling: "leveling", classes: "classes", items: "gear", pvp: "pvp", economy: "economy", professions: "professions", realms: "realms", ui: "ui-addons", story: "lore", business: "business" };
+const postKey = u => { let m = u.match(/\/t\/[^/]+\/(\d+)/); if (m) return "t" + m[1]; m = u.match(/\/article\/(\d+)/); if (m) return "a" + m[1]; m = u.match(/blue-tracker\/topic\/\w+\/(\d+)/); if (m) return "t" + m[1]; return u.replace(/[?#].*$/, ""); };
+const titleKey = t => t.toLowerCase().replace(/blizzard replied in/g, "").replace(/(january|february|march|april|may|june|july|august|september|october|november|december)/g, "").replace(/[^a-z]+/g, "");
+function addAutoSaid(items) {
+  const keys = new Set(SAIDALL.map(s => postKey(s.url))), titles = new Set(SAIDALL.map(s => titleKey(s.title)));
+  const add = [];
+  for (const i of items) {
+    if (i.label !== "official" || i.source === "Wowhead Blue Tracker") continue;
+    const k = postKey(i.url), tk = titleKey(i.title);
+    if (keys.has(k) || titles.has(tk)) continue;
+    keys.add(k); titles.add(tk);
+    const reply = /^Blizzard replied in/.test(i.title);
+    add.push({ date: i.date.slice(0, 10), title: i.title, summary: i.summary || "", url: i.url, who: i.who, auto: true,
+      kind: i.source === "Blizzard News" ? "article" : reply ? "blue-reply" : "blue-post",
+      topic: TAG2TOPIC[(i.tags || []).find(t => TAG2TOPIC[t])] || "other" });
+  }
+  if (!add.length) return;
+  SAIDALL = SAIDALL.concat(add).sort((a, b) => (b.date > a.date) - (b.date < a.date));
+  saidRedraw();
 }
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
 
-/* ---------------- the wire ---------------- */
+/* ---------------- the wire: stories, each grouping every post about one event ---------------- */
 const LABELS = { official: { n: "Blizzard", i: "inv_letter_15" }, social: { n: "Blizzard social", i: "inv_misc_horn_01" }, press: { n: "Press & guides", i: "inv_misc_book_09" }, community: { n: "Players", i: "inv_shirt_guildtabard_01" } };
-async function loadNews() {
+const TOPIC_NAMES = { hotfix: "Hotfixes", raids: "Raids", leveling: "Leveling & dungeons", classes: "Classes", items: "Items & loot", pvp: "PvP", economy: "Economy", professions: "Professions", realms: "Realms & servers", ui: "UI & add-ons", story: "Story & media", business: "Editions & store" };
+async function loadJSON(path) {
   for (let k = 0; k < 3; k++) {
-    try { const r = await fetch("data/news.json?v=" + Math.floor(Date.now() / 6e5), { cache: "no-cache" }); if (r.ok) return await r.json(); } catch {}
+    try { const r = await fetch(path + "?v=" + Math.floor(Date.now() / 6e5), { cache: "no-cache" }); if (r.ok) return await r.json(); } catch {}
     await new Promise(z => setTimeout(z, 600 * (k + 1)));
   }
-  return window.TW_NEWS || null;
+  return null;
 }
-const postRow = (i, lastVisit) => {
-  const l = LABELS[i.label] || LABELS.press, isNew = lastVisit && new Date(i.date).getTime() > lastVisit;
-  if (i.summary) D.TIPS["n" + i._k] = `<div class="t">${esc(i.title)}</div><div class="d" style="margin-top:.3rem">${esc(i.summary)}</div>`;
-  return `<a class="post ${i.label}${isNew ? " new" : ""}" href="${esc(i.url)}" target="_blank" rel="noopener"${i.summary ? ` data-tiph="n${i._k}"` : ""}>${icon(i.icon || l.i)}<div><div class="h">${esc(i.title)}</div><div class="m"><span class="lb-${i.label}">${esc(l.n)}</span> · ${esc(i.source)}</div></div><div class="t">${ago(i.date)}</div></a>`;
+function alsoLine(also) {
+  const by = {};
+  also.forEach(a => by[a.source] = (by[a.source] || 0) + 1);
+  return Object.entries(by).map(([s, n]) => s.startsWith("r/") ? `${n} Reddit thread${n > 1 ? "s" : ""}` : n > 1 ? `${s} (${n})` : s).join(", ");
+}
+const storyRow = (s, lastVisit) => {
+  const l = LABELS[s.label] || LABELS.press, isNew = lastVisit && new Date(s.last).getTime() > lastVisit;
+  if (s.summary) D.TIPS["s" + s.id] = `<div class="t">${esc(s.title)}</div><div class="d" style="margin-top:.3rem">${esc(s.summary)}</div>`;
+  const tags = (s.tags || []).slice(0, 2).map(t => `<span class="tg">${esc(TOPIC_NAMES[t] || t)}</span>`).join("") +
+    (s.classes || []).map(c => CL[c] ? `<img class="tc" src="${ICON(CL[c].i)}" alt="${esc(CL[c].n)}" data-tip="${esc(CL[c].n)}">` : "").join("");
+  const also = s.also && s.also.length ? `<details class="also"><summary>+${s.also.length} more: ${esc(alsoLine(s.also))}</summary><ul>${s.also.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener"><span class="lb-${a.label}">${esc(a.source)}</span> · ${esc(a.title)}</a> <span class="t">${ago(a.date)}</span></li>`).join("")}</ul></details>` : "";
+  return `<div class="story${s.official ? " official" : ""}${isNew ? " new" : ""}"><a class="post ${s.official ? "official" : s.label}${isNew ? " new" : ""}" href="${esc(s.url)}" target="_blank" rel="noopener"${s.summary ? ` data-tiph="s${s.id}"` : ""}>${icon(s.icon || l.i)}<div><div class="h">${esc(s.title)}</div><div class="m"><span class="lb-${s.label}">${esc(l.n)}</span> · ${esc(s.source)}${tags ? ` <span class="tags">${tags}</span>` : ""}</div></div><div class="t"${s.last !== s.date ? ` data-tip="First posted ${esc(ago(s.date))}"` : ""}>${ago(s.last)}</div></a>${also}</div>`;
 };
+function health(h) {
+  if (!h) { $("#srcHealth").hidden = true; return; }
+  const today = new Date().toISOString().slice(0, 10), days = d => d ? Math.round((new Date(today) - new Date(d)) / DAY) : 999;
+  $("#healthList").innerHTML = Object.entries(h).sort().map(([n, e]) => {
+    const bad = e.fails >= 3 || days(e.lastItems) >= 2, warn = !bad && (e.fails > 0 || days(e.lastItems) >= 1);
+    const say = e.fails ? `failing (${e.fails} run${e.fails > 1 ? "s" : ""} in a row)` : days(e.lastItems) === 0 ? "working today" : e.lastItems ? `no new posts since ${fmtDate(e.lastItems, { day: "numeric", month: "short" })}` : "no posts yet";
+    return `<li><span class="dot ${bad ? "major" : warn ? "notable" : "ok"}"></span><b>${esc(n)}</b><span>${esc(say)}</span></li>`;
+  }).join("");
+}
 async function wire() {
-  const NEWS = await loadNews(), box = $("#wireList");
+  const [NEWS, HOTF, HEALTH] = await Promise.all([loadJSON("data/news.json"), loadJSON("data/hotfixes.json"), loadJSON("data/health.json")]);
+  hotfixLog(HOTF && HOTF.lines);
+  health(HEALTH);
+  const box = $("#wireList");
   if (!NEWS || !NEWS.items || !NEWS.items.length) { box.innerHTML = `<div class="empty">> the wire is quiet. couldn't load news right now; try again in a minute.</div>`; $("#freshList").innerHTML = box.innerHTML; return; }
-  const items = NEWS.items.slice().sort((a, b) => new Date(b.date) - new Date(a.date));
-  items.forEach((i, k) => i._k = k);
+  addAutoSaid(NEWS.items);
+  // older news files have no stories yet: show each item as its own story
+  const stories = (NEWS.stories || NEWS.items.map(i => ({ ...i, id: i.url.length + "" + i.title.length, last: i.date, n: 1, also: [], official: i.label === "official" })))
+    .slice().sort((a, b) => new Date(b.last) - new Date(a.last));
   const lastVisit = store.get("lastVisit", 0);
   store.set("lastVisit", Date.now());
   const f = $(".fresh");
-  $(".ft", f).textContent = `Refreshed ${ago(NEWS.updated)} · ${items.length} stories from ${new Set(items.map(i => i.source)).size} sources`;
+  $(".ft", f).textContent = `Refreshed ${ago(NEWS.updated)} · ${NEWS.items.length} posts grouped into ${stories.length} stories · ${new Set(NEWS.items.map(i => i.source)).size} sources`;
   if (Date.now() - new Date(NEWS.updated) > 12 * 36e5) f.classList.add("stale");
-  $('[data-count="wire"]').textContent = items.filter(i => lastVisit && new Date(i.date) > lastVisit).length ? items.filter(i => new Date(i.date) > lastVisit).length + " new" : items.length;
-  $("#freshList").innerHTML = items.filter(i => i.label === "official").slice(0, 5).map(i => postRow(i, lastVisit)).join("");
-  const c = {}; items.forEach(i => c[i.label] = (c[i.label] || 0) + 1);
-  $("#wireChips").innerHTML = `<button class="chip" data-l="all" aria-pressed="true">All <span class="n">${items.length}</span></button>` + Object.entries(LABELS).filter(([k]) => c[k]).map(([k, l]) => `<button class="chip lb-${k}" data-l="${k}" aria-pressed="false"><img src="${ICON(l.i)}" alt="">${l.n} <span class="n">${c[k]}</span></button>`).join("");
-  let lb = "all", shown = 30;
+  const fresh = stories.filter(s => lastVisit && new Date(s.last) > lastVisit).length;
+  $('[data-count="wire"]').textContent = fresh ? fresh + " new" : stories.length;
+  $("#freshList").innerHTML = stories.filter(s => s.official).slice(0, 5).map(s => storyRow(s, lastVisit)).join("");
+  // filters: who said it, what it's about, and your class
+  const lab = s => s.official ? "official" : s.label, c = {};
+  stories.forEach(s => c[lab(s)] = (c[lab(s)] || 0) + 1);
+  $("#wireChips").innerHTML = `<button class="chip" data-l="all" aria-pressed="true">All <span class="n">${stories.length}</span></button>` + Object.entries(LABELS).filter(([k]) => c[k]).map(([k, l]) => `<button class="chip lb-${k}" data-l="${k}" aria-pressed="false"><img src="${ICON(l.i)}" alt="">${l.n} <span class="n">${c[k]}</span></button>`).join("");
+  const tc = {}; stories.forEach(s => (s.tags || []).forEach(t => tc[t] = (tc[t] || 0) + 1));
+  const mine = () => myClass && CL[myClass] ? `<button class="chip" data-t="mine" aria-pressed="false"><img src="${ICON(CL[myClass].i)}" alt="">${esc(CL[myClass].n)} news <span class="n">${stories.filter(s => (s.classes || []).includes(myClass)).length}</span></button>` : "";
+  const topicChips = () => { $("#wireTopics").innerHTML = mine() + Object.entries(TOPIC_NAMES).filter(([k]) => tc[k]).map(([k, n]) => `<button class="chip" data-t="${k}" aria-pressed="false">${esc(n)} <span class="n">${tc[k]}</span></button>`).join(""); };
+  topicChips();
+  let lb = "all", tp = null, shown = 30;
   const draw = () => {
-    const L = items.filter(i => lb === "all" || i.label === lb);
+    const L = stories.filter(s => (lb === "all" || lab(s) === lb) && (!tp || (tp === "mine" ? (s.classes || []).includes(myClass) : (s.tags || []).includes(tp))));
     let html = "", day = "";
-    for (const i of L.slice(0, shown)) {
-      const d = new Date(i.date), dk = d.toDateString();
+    for (const s of L.slice(0, shown)) {
+      const d = new Date(s.last), dk = d.toDateString();
       if (dk !== day) { day = dk; const diff = Math.floor((new Date().setHours(0, 0, 0, 0) - new Date(d).setHours(0, 0, 0, 0)) / DAY); html += `<div class="day">${diff === 0 ? "Today" : diff === 1 ? "Yesterday" : d.toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" })}</div>`; }
-      html += postRow(i, lastVisit);
+      html += storyRow(s, lastVisit);
     }
-    box.innerHTML = html || `<div class="empty">> nothing from this source yet.</div>`;
+    box.innerHTML = html || `<div class="empty">> nothing matches. try another filter.</div>`;
     $("#wireMore").hidden = L.length <= shown;
   };
   $("#wireChips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; lb = b.dataset.l; shown = 30; $$("#wireChips .chip").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); });
+  $("#wireTopics").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; tp = tp === b.dataset.t ? null : b.dataset.t; shown = 30; $$("#wireTopics .chip").forEach(x => x.setAttribute("aria-pressed", x.dataset.t === tp)); draw(); });
   $("#wireMore").addEventListener("click", () => { shown += 30; draw(); });
-  document.addEventListener("click", e => { if (e.target.closest(".post")) award("wire"); });
+  document.addEventListener("click", e => { if (e.target.closest(".post,.also a")) award("wire"); });
+  addEventListener("hashchange", () => { if (location.hash === "#wire") { topicChips(); if (tp) $$("#wireTopics .chip").forEach(x => x.setAttribute("aria-pressed", x.dataset.t === tp)); } });
   draw();
 }
 

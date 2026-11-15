@@ -7,10 +7,11 @@ is left untouched so the site keeps its last good news.
 
   python tools/fetch_news.py --out data/news.json [--dry]
 """
-import argparse, datetime as dt, email.utils, html, json, os, re, sys, time, urllib.request
+import argparse, datetime as dt, email.utils, html, json, os, re, sys, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
 UA = "TerminalWhimsyWire/1.0 (+https://github.com/zmarotrix/terminal-whimsy)"
 KEEP = 220            # items kept in news.json
 MAX_AGE_DAYS = 120    # older items drop off
@@ -182,17 +183,38 @@ def matches(item, src):
     return not any(w in text for w in src.get("exclude", []))
 
 
+def fetch_raw(src):
+    accept = "application/json" if src["type"] in ("reddit", "bluesky", "discourse", "blizzard") else "application/rss+xml, application/atom+xml, application/xml, text/xml"
+    raw = get(src["url"].replace("{days}", "7"), accept)
+    pages = src.get("pages", 1)
+    if src["type"] == "discourse" and pages > 1:   # Blizzard can post more than 20 times between runs: read further back
+        posts = json.loads(raw).get("posts", [])
+        for _ in range(pages - 1):
+            if not posts:
+                break
+            oldest = min(p["created_at"] for p in posts)
+            more = json.loads(get(src["url"] + ("&" if "?" in src["url"] else "?") + "before=" + urllib.parse.quote(oldest), accept)).get("posts", [])
+            if not more:
+                break
+            ids = {q["id"] for q in posts}
+            posts += [p for p in more if p["id"] not in ids]
+            time.sleep(1)
+        raw = json.dumps({"posts": posts}).encode()
+    return raw
+
+
 def fetch_all(feeds):
-    got, ok = [], 0
+    """-> (items, number of sources that answered, {source: {"ok", "fetched", "kept", "error"}})"""
+    got, ok, status = [], 0, {}
     for src in feeds:
         if src.get("off"):
             continue
         try:
-            raw = get(src["url"].replace("{days}", "7"), "application/json" if src["type"] in ("reddit", "bluesky", "discourse", "blizzard") else "application/rss+xml, application/atom+xml, application/xml, text/xml")
-            items = PARSERS[src["type"]](raw, src)
+            items = PARSERS[src["type"]](fetch_raw(src), src)
             ok += 1
         except Exception as e:  # one bad source never stops the rest
             print("  ! %-28s %s" % (src["name"], e), file=sys.stderr)
+            status[src["name"]] = {"ok": False, "fetched": 0, "kept": 0, "error": str(e)[:200]}
             continue
         kept, seen_topics = 0, set()
         items.sort(key=lambda i: i.get("date") or "")          # first post of a thread wins
@@ -220,9 +242,35 @@ def fetch_all(feeds):
                 it.pop("summary", None)
             got.append(it)
             kept += 1
+        status[src["name"]] = {"ok": True, "fetched": len(items), "kept": kept, "error": None}
         print("  %-30s %3d fetched, %3d kept" % (src["name"], len(items), kept))
         time.sleep(1)
-    return got, ok
+    return got, ok, status
+
+
+def update_health(path, status, today):
+    """data/health.json: per source, the last day it answered, the last day it gave anything, and its failure streak.
+    Only days are stored, so a healthy source changes the file at most once a day."""
+    try:
+        h = json.load(open(path, encoding="utf-8"))
+    except (OSError, ValueError):
+        h = {}
+    for name, st in status.items():
+        e = h.setdefault(name, {"lastOk": None, "lastItems": None, "fails": 0, "error": None})
+        if st["ok"]:
+            e.update(lastOk=today, fails=0, error=None)
+            if st["fetched"]:
+                e["lastItems"] = today
+        else:
+            e["fails"] = e.get("fails", 0) + 1
+            e["error"] = st["error"]
+    for name in list(h):
+        if name not in status:
+            del h[name]
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(h, f, ensure_ascii=False, indent=1, sort_keys=True)
+        f.write("\n")
+    return h
 
 
 def norm_url(u):
@@ -274,27 +322,47 @@ def main():
     ap.add_argument("--out", default=os.path.join(HERE, "..", "data", "news.json"))
     ap.add_argument("--feeds", default=os.path.join(HERE, "feeds.json"))
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--no-hotfixes", action="store_true")
     a = ap.parse_args()
+    data_dir = os.path.dirname(os.path.abspath(a.out))
     feeds = json.load(open(a.feeds, encoding="utf-8"))["feeds"]
+    live = [f for f in feeds if not f.get("off")]
     try:
-        old = json.load(open(a.out, encoding="utf-8")).get("items", [])
+        prev = json.load(open(a.out, encoding="utf-8"))
     except (OSError, ValueError):
-        old = []
-    new, ok = fetch_all(feeds)
+        prev = {}
+    old = prev.get("items", [])
+    new, ok, status = fetch_all(feeds)
+    if not a.no_hotfixes and not a.dry:
+        import hotfixes
+        try:
+            hf_ok = hotfixes.run(os.path.join(data_dir, "hotfixes.json"))
+            status["Hotfix thread"] = {"ok": hf_ok, "fetched": 1 if hf_ok else 0, "kept": 0, "error": None if hf_ok else "every hotfix thread failed"}
+        except Exception as e:   # the hotfix log never takes the news down with it
+            print("  ! hotfix log: %s" % e, file=sys.stderr)
+            status["Hotfix thread"] = {"ok": False, "fetched": 0, "kept": 0, "error": str(e)[:200]}
+    if not a.dry:
+        today = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+        update_health(os.path.join(data_dir, "health.json"), status, today)
     if ok == 0:
         print("every source failed: keeping the old news file", file=sys.stderr)
         return 0
-    items = merge(old, new, [f for f in feeds if not f.get("off")])
+    items = merge(old, new, live)
+    import stories
+    st = stories.build(items)
+    print("%d items (%d new since last run) in %d stories, from %d/%d sources" % (
+        len(items), len({norm_url(i["url"]) for i in items} - {norm_url(i["url"]) for i in old}), len(st), ok, len(live)))
+    if a.dry:
+        return 0
+    strip = lambda L: [{k: v for k, v in i.items() if k not in ("tags", "classes")} for i in L]
+    if strip(items) == strip(old) and prev.get("stories"):     # nothing changed: don't churn the timestamp
+        return 0
     doc = {"updated": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-           "sources": [f["name"] for f in feeds if not f.get("off")], "items": items}
-    print("%d items (%d new since last run) from %d/%d sources" % (len(items), len({norm_url(i["url"]) for i in items} - {norm_url(i["url"]) for i in old}), ok, len([f for f in feeds if not f.get("off")])))
-    if not a.dry:
-        if [i for i in items] == old:                 # nothing changed: don't churn the timestamp
-            return 0
-        os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
-        with open(a.out, "w", encoding="utf-8", newline="\n") as f:
-            json.dump(doc, f, ensure_ascii=False, indent=1)
-            f.write("\n")
+           "sources": [f["name"] for f in live], "stories": st, "items": items}
+    os.makedirs(data_dir, exist_ok=True)
+    with open(a.out, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(doc, f, ensure_ascii=False, indent=1)
+        f.write("\n")
     return 0
 
 

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:10:26Z",
+ "updated": "2026-11-15T10:06:42Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -346,6 +346,24 @@
    "also": []
   },
   {
+   "title": "A level 19 twink, already have 12k+ HK",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw8p0b/a_level_19_twink_already_have_12k_hk/",
+   "date": "2026-11-14T17:54:36Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Was scrolling the HK rankings last night to see which 60s haven't slept since launch. The top spot isn't a 60. It's a level 19 Tauren Warrior with 12,150 honorable kills. The next guy is somewhere around 8k and nobody else is past 10k. He has the full 2006…",
+   "who": "/u/Makkybis",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "76bd3a2325",
+   "first": "2026-11-14T17:54:36Z",
+   "last": "2026-11-14T17:54:36Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW Forever Class Hotfixes November 13: Wild Growth, Windfury, Judgement",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSmtuWFZaaFJQaDJWdHRpR1p1RzJEU1dYbHFSbEJCbjNXd0RtRTFEbFREbE1va1VuVUZBZElhM09UWlVFdXFsU01Lci1CNnUwU0wzREN2SzZWZ1ZqcTNoMGwzcTFGbFFtZ0xpazRjVWE3enMteXN0NVhlVWN5VU91WA?oc=5",
    "date": "2026-11-14T17:08:35Z",
@@ -362,8 +380,8 @@
    ],
    "classes": [
     "paladin",
-    "shaman",
-    "druid"
+    "druid",
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -399,8 +417,8 @@
    "first": "2026-11-14T16:28:04Z",
    "last": "2026-11-14T16:28:04Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -789,23 +807,6 @@
    "also": []
   },
   {
-   "title": "Why is no one talking about this?",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvz681/why_is_no_one_talking_about_this/",
-   "date": "2026-11-14T10:25:46Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/MaxF1eld",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "f7bf2cdd8b",
-   "first": "2026-11-14T10:25:46Z",
-   "last": "2026-11-14T10:25:46Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
    "date": "2026-11-14T02:57:50Z",
@@ -953,8 +954,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -1118,6 +1119,28 @@
    "also": []
   },
   {
+   "title": "Warlock Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVjV5ZW5pTGtwODVlRy16SjJNdk4yVUU2Z2cwQ2FtNmlxYldPMjZhQngtVWgtZ0l3VTZGSVo5cWc5WTFmVlg1dnRFeWE3RFFHSjRsOVVMSmdUb004OUdJQUpWdFViZzlpWVFCLU5QNGRTdw?oc=5",
+   "date": "2026-11-13T09:55:12Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "babf906f2b",
+   "first": "2026-11-13T09:55:12Z",
+   "last": "2026-11-13T09:55:12Z",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warlock"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Explore the Drowned City: New Dungeon in WoW: Forever",
    "url": "https://www.wowhead.com/news=383825/explore-the-drowned-city-new-dungeon-in-wow-forever",
    "date": "2026-11-11T16:00:00Z",
@@ -1184,6 +1207,27 @@
    "also": []
   },
   {
+   "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
+   "date": "2026-11-13T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "c01611b84f",
+   "first": "2026-11-13T08:00:00Z",
+   "last": "2026-11-13T08:00:00Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "hunter"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
    "date": "2026-11-13T04:37:16Z",
@@ -1195,8 +1239,8 @@
    "first": "2026-11-13T04:37:16Z",
    "last": "2026-11-13T04:37:16Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "rogue"
@@ -1238,29 +1282,12 @@
    "first": "2026-11-13T03:38:58Z",
    "last": "2026-11-13T03:38:58Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "warrior"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "The Stat-Less Ring Every Skyborne Gets in WoW: Forever Starts a Hidden Questline",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUTRZSzZaRjlxTjRnNW1yYTl2cm9YTHJvMi1vRG12czJfSnFvUE9EU1FZYk9FemZPUkNuTFVoVDJRdWQ5T2JTSEZaWFpBd2piRkdYR1J0eFdHMDlaU0tJT2xoTUN2S0V4czV1bk1zSVM2ZFBySGNIX21MR3dhWEZBa0NuaGlWRmYtMVo1QXN3eFBDSmxIUTVxRndyOHBBd0xZ?oc=5",
-   "date": "2026-11-13T01:54:20Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "eGamers.io",
-   "icon": "inv_misc_spyglass_03",
-   "id": "e3f674d7f2",
-   "first": "2026-11-13T01:54:20Z",
-   "last": "2026-11-13T01:54:20Z",
-   "tags": [],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -1299,23 +1326,6 @@
     "story",
     "raids"
    ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever Review So Far",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLRUFiX21mbC1CRmxCN3Fyb2xxVTFMUnVHQkdpRzQzeWNLVTk4VTBuY2hMTHhJR0dSU1FfTU5rWkN3Y21ZTXJ0bk1GOWRBS3RfNVBoYktYZGp0bmFmYVpJZG81aGpGWkU5dFJ0UlVR?oc=5",
-   "date": "2026-11-12T20:19:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "IGN",
-   "icon": "inv_misc_spyglass_03",
-   "id": "cc604d321d",
-   "first": "2026-11-12T20:19:00Z",
-   "last": "2026-11-12T20:19:00Z",
-   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -1509,8 +1519,8 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "items",
     "professions",
+    "items",
     "hotfix"
    ],
    "classes": [],
@@ -1628,8 +1638,8 @@
    ],
    "classes": [
     "warlock",
-    "shaman",
-    "hunter"
+    "hunter",
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -1864,8 +1874,8 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
     "classes",
+    "items",
     "hotfix"
    ],
    "classes": [
@@ -1941,8 +1951,8 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "ui",
     "classes",
+    "ui",
     "hotfix"
    ],
    "classes": [
@@ -2025,8 +2035,8 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "classes",
     "leveling",
+    "classes",
     "hotfix"
    ],
    "classes": [],
@@ -2579,9 +2589,9 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
+    "leveling",
     "ui",
     "classes",
-    "leveling",
     "pvp"
    ],
    "classes": [],
@@ -2602,8 +2612,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "classes",
     "leveling",
+    "classes",
     "raids"
    ],
    "classes": [],
@@ -3196,6 +3206,18 @@
    "classes": []
   },
   {
+   "title": "A level 19 twink, already have 12k+ HK",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw8p0b/a_level_19_twink_already_have_12k_hk/",
+   "date": "2026-11-14T17:54:36Z",
+   "summary": "Was scrolling the HK rankings last night to see which 60s haven't slept since launch. The top spot isn't a 60. It's a level 19 Tauren Warrior with 12,150 honorable kills. The next guy is somewhere around 8k and nobody else is past 10k. He has the full 2006…",
+   "who": "/u/Makkybis",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "WoW Forever Class Hotfixes November 13: Wild Growth, Windfury, Judgement",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSmtuWFZaaFJQaDJWdHRpR1p1RzJEU1dYbHFSbEJCbjNXd0RtRTFEbFREbE1va1VuVUZBZElhM09UWlVFdXFsU01Lci1CNnUwU0wzREN2SzZWZ1ZqcTNoMGwzcTFGbFFtZ0xpazRjVWE3enMteXN0NVhlVWN5VU91WA?oc=5",
    "date": "2026-11-14T17:08:35Z",
@@ -3492,17 +3514,6 @@
     "hotfix",
     "leveling"
    ],
-   "classes": []
-  },
-  {
-   "title": "Why is no one talking about this?",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvz681/why_is_no_one_talking_about_this/",
-   "date": "2026-11-14T10:25:46Z",
-   "who": "/u/MaxF1eld",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
    "classes": []
   },
   {
@@ -3810,6 +3821,22 @@
    "classes": []
   },
   {
+   "title": "Warlock Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVjV5ZW5pTGtwODVlRy16SjJNdk4yVUU2Z2cwQ2FtNmlxYldPMjZhQngtVWgtZ0l3VTZGSVo5cWc5WTFmVlg1dnRFeWE3RFFHSjRsOVVMSmdUb004OUdJQUpWdFViZzlpWVFCLU5QNGRTdw?oc=5",
+   "date": "2026-11-13T09:55:12Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warlock"
+   ]
+  },
+  {
    "title": "WoW Forever Addons Guide",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fMFdyX295Smd5bWg3NVZ4U1p1X1drQ25pNWZ6QTVSbk1ZS0lubHh0R3l1M25HSm9RU2RhUWZ5WUh0Q3VVaHNTNXlTSkNVYV9HWW0yeVczWV90UTFDNkJ4M0VZV0xaY3F1cU1vVGhhS1lieXo0UDltZ1A3dWUwa1U?oc=5",
    "date": "2026-11-13T08:00:00Z",
@@ -3848,6 +3875,21 @@
     "items"
    ],
    "classes": []
+  },
+  {
+   "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
+   "date": "2026-11-13T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "hunter"
+   ]
   },
   {
    "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
@@ -3897,17 +3939,6 @@
    ]
   },
   {
-   "title": "The Stat-Less Ring Every Skyborne Gets in WoW: Forever Starts a Hidden Questline",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUTRZSzZaRjlxTjRnNW1yYTl2cm9YTHJvMi1vRG12czJfSnFvUE9EU1FZYk9FemZPUkNuTFVoVDJRdWQ5T2JTSEZaWFpBd2piRkdYR1J0eFdHMDlaU0tJT2xoTUN2S0V4czV1bk1zSVM2ZFBySGNIX21MR3dhWEZBa0NuaGlWRmYtMVo1QXN3eFBDSmxIUTVxRndyOHBBd0xZ?oc=5",
-   "date": "2026-11-13T01:54:20Z",
-   "who": "eGamers.io",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
    "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
    "date": "2026-11-13T01:10:58Z",
@@ -3945,17 +3976,6 @@
     "raids",
     "story"
    ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever Review So Far",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLRUFiX21mbC1CRmxCN3Fyb2xxVTFMUnVHQkdpRzQzeWNLVTk4VTBuY2hMTHhJR0dSU1FfTU5rWkN3Y21ZTXJ0bk1GOWRBS3RfNVBoYktYZGp0bmFmYVpJZG81aGpGWkU5dFJ0UlVR?oc=5",
-   "date": "2026-11-12T20:19:00Z",
-   "who": "IGN",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {

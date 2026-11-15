@@ -287,6 +287,10 @@ const wisp = (() => {
   return api;
 })();
 
+// the footer's rescue button: works whatever happened to him, except the pond
+const callBtn = $("#callWisp");
+if (callBtn) callBtn.addEventListener("click", () => { if (!wisp.call()) notice("Blub", "The wisp is at the bottom of the faire pond. Fish it out."); });
+
 /* ---------------- rooms (tabs) ---------------- */
 const ROOMS = ["brief", "changes", "gear", "said", "wire", "sources"];
 const SECRET = {};      // id -> { open(): bool, locked: room to show instead, tab: label, onShow() }

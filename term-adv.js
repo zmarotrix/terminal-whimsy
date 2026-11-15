@@ -83,7 +83,7 @@ function die(msg) {
 function win() {
   print(T.DATA.advEnd, "adv hl");
   award("advwin"); fx.shower(120);
-  wisp.talk("> you found my lantern memory! speak it: seal lantern", 4000);
+  wisp.talk("> you found my lantern memory!", 3000);
   s = fresh(); s.f.won = true; save();
   T.pop();
 }

@@ -54,7 +54,7 @@ function readFile(p) {
   if (!canRead(p)) throw `${p}: Permission denied`;
   if (p === "/dev/whimsy") { award("devwhimsy"); fx.shower(60); return "*sparkles*"; }
   if (p === "/dev/random" || p === "/dev/urandom") return Array.from({ length: 6 }, () => Array.from({ length: 40 }, () => String.fromCharCode(33 + rnd(90))).join("")).join("\n");
-  if (p === "/home/sprinkles/ticket.txt" && !flags.ticket) { flag("ticket"); award("ticket"); setTimeout(() => wisp.talk("> a darkmoon ticket! type faire to use it.", 3500), 300); }
+  if (p === "/home/sprinkles/ticket.txt" && !flags.ticket) { flag("ticket"); award("ticket"); setTimeout(() => wisp.talk("> ooh, a darkmoon ticket!", 3000), 300); }
   if (p === "/root/README.root" || p.startsWith("/home/leeroy/")) award("rootread");
   if (p === "/home/fizzlewick/postcard.b64") award("postcard");
   const c = node(p).c;
@@ -123,8 +123,8 @@ function refresh() {
 }
 function shPrompt() { return `${S.user}@${S.host}:${S.cwd === S.home ? "~" : S.cwd.startsWith(S.home + "/") ? "~" + S.cwd.slice(S.home.length) : S.cwd}${S.user === "root" ? "#" : "$"}`; }
 const SHELL = { name: "shell", prompt: shPrompt, line: runLine };
-function ask(promptText, secret, onAnswer) {
-  push({ name: "ask", secret, prompt: () => promptText, line(v) { pop(); onAnswer(v); } });
+function ask(promptText, secret, onAnswer, completer) {
+  push({ name: "ask", secret, prompt: () => promptText, complete: completer, cg() { pop(); }, cc() { pop(); }, line(v) { pop(); onAnswer(v); } });   // C-g / C-c cancel, like the minibuffer
 }
 
 /* ---------------- open / close ---------------- */
@@ -180,7 +180,7 @@ inp.addEventListener("keydown", e => {
   const meta = e.altKey || e.metaKey && k === "x" || (metaUntil && Date.now() < metaUntil && e.key.length === 1);
   if (meta && !e.ctrlKey) {
     metaUntil = 0;
-    if (k === "x") { e.preventDefault(); award("mx"); ask("M-x ", false, c => runMx(c.trim())); return; }
+    if (k === "x") { e.preventDefault(); award("mx"); ask("M-x ", false, c => runMx(c.trim()), mxComplete); return; }
     if (k === "b") { e.preventDefault(); const i = wordBack(v, a); inp.setSelectionRange(i, i); return; }
     if (k === "f") { e.preventDefault(); const i = wordFwd(v, a); inp.setSelectionRange(i, i); return; }
     if (k === "d") { e.preventDefault(); const i = wordFwd(v, a); kill = v.slice(a, i); setInput(v.slice(0, a) + v.slice(i), a); lastKill = true; return; }
@@ -229,7 +229,19 @@ inp.addEventListener("keydown", e => {
   else if (e.key === "ArrowDown" && !m.noHistory) { e.preventDefault(); hi = Math.min(hist.length, hi + 1); setInput(hist[hi] || ""); }
   else if (e.key === "Tab") { e.preventDefault(); complete(); }
 });
+// M-x completion: the common prefix, then the candidates; 'e-b' finds eval-buffer (Emacs's partial-completion)
+function mxComplete() {
+  const names = window.TWT && window.TWT.mxNames ? window.TWT.mxNames() : [], v = inp.value.trim();
+  let opts = names.filter(n => n.startsWith(v));
+  if (!opts.length && v.includes("-")) { const re = new RegExp("^" + v.split("-").map(s => s.replace(/[.*+?^${}()|[\]\\/]/g, "\\$&") + "[^-]*").join("-")); opts = names.filter(n => re.test(n)); }
+  if (!opts.length) { print("[No match]", "dim"); return; }
+  if (opts.length === 1) { setInput(opts[0]); return; }
+  let pre = opts[0]; for (const o of opts) while (!o.startsWith(pre)) pre = pre.slice(0, -1);
+  if (pre.length > v.length && opts.every(o => o.startsWith(v))) { setInput(pre); return; }
+  print(`${opts.length} possible completions:\n` + opts.join("  "), "dim");
+}
 function complete() {
+  if (mode().complete) return mode().complete();
   if (mode().name !== "shell") return;
   const v = inp.value, parts = v.split(/\s+/), last = parts[parts.length - 1];
   let opts;
@@ -323,9 +335,10 @@ async function run1(name, args, stdin) {
   if (name.startsWith("./") || name.startsWith("/") && !CMDS[name]) return execFile(resolve(name), args);
   if (!CMDS[name] && !ALIASES[name] && exists(resolve(name))) {     // e.g. typing .emacs.d/init.el on its own
     lastStatus = 126;
-    return isDir(resolve(name)) ? html(`<span class="err">whimsh: ${esc(name)}: Is a directory</span> <span class="dim">(cd ${esc(name)} to go in)</span>`)
+    return isDir(resolve(name)) ? html(`<span class="err">whimsh: ${esc(name)}: Is a directory</span>`)
       : html(`<span class="err">whimsh: ${esc(name)}: that's a file, not a command.</span> <span class="dim">Read it with <b>cat ${esc(name)}</b>, or open it with <b>emacs ${esc(name)}</b>.</span>`);
   }
+  if (S.host === "barrow-deeps" && /^(say|speak|shout|yell)$/.test(name)) return CMDS.answer.f(args);
   const alias = ALIASES[name];
   if (alias) { const [n, ...a] = alias.split(" "); return run1(n, [...a, ...args], stdin); }
   const c = CMDS[name] || CMDS[name.toLowerCase()];
@@ -541,6 +554,7 @@ cmd("xxd", (a, i) => {
   const f = a.filter(x => !x.startsWith("-")), t = f.length ? f.map(x => readFile(resolve(x))).join("\n") : i || "";
   if (a.includes("-r")) { const hexs = t.replace(/[^0-9a-f]/gi, ""); const r = hexs.match(/../g)?.map(h => String.fromCharCode(parseInt(h, 16))).join("") || ""; if (r.trim() === "starlight") award("hexread"); return r; }
   const bytes = [...new TextEncoder().encode(t)], rows = [];
+  if (a.some(x => /^-(p|ps|plain|postscript)$/.test(x))) return (bytes.map(b => b.toString(16).padStart(2, "0")).join("").match(/.{1,60}/g) || [""]).join("\n");   // -p: plain hex, 30 bytes a line
   for (let k = 0; k < bytes.length; k += 16) { const ch = bytes.slice(k, k + 16); rows.push(`${k.toString(16).padStart(8, "0")}: ${ch.map(b => b.toString(16).padStart(2, "0")).join(" ").padEnd(48)} ${ch.map(b => b >= 32 && b < 127 ? String.fromCharCode(b) : ".").join("")}`); }
   return rows.join("\n");
 });
@@ -702,7 +716,7 @@ cmd("neofetch", () => {
   return html(art.map((l, k) => l + "  " + (info[k] || "")).join("\n") + (info.length > art.length ? "\n" + " ".repeat(31) + info.slice(art.length).join("\n" + " ".repeat(31)) : ""));
 });
 cmd(["reboot", "/reload", "/rl"], () => { award("reboot"); const L = ["Stopping wispd... refused.", "Stopping emacs --daemon... refused.", "Rebooting anyway.", "", "[  OK  ] Started Hearthstone bootloader.", "[  OK  ] Mounted /motes.", "[  OK  ] Started wispd (it never stopped).", "[ WARN ] salvation.service not found", "[  OK  ] Reached target Whimsy.", "", "Reloading the page..."]; stream(L, 140, () => setTimeout(() => location.reload(), 500)); return ""; });
-cmd(["shutdown", "poweroff", "halt", "init"], () => { wisp.talk("> no. i like it here.", 2500); return "shutdown: the wisp refuses. Try reboot, if you must."; });
+cmd(["shutdown", "poweroff", "halt", "init"], () => { wisp.talk("> no. i like it here.", 2500); return "shutdown: the wisp refuses."; });
 cmd("crontab", () => readFile("/etc/crontab"));
 
 // ----- network -----
@@ -797,7 +811,7 @@ cmd("ssh", a => {
     award("ssh");
     sessions.push({ ...S }); Object.assign(S, { host: "barrow-deeps", user: "grumbolt", home: "/", cwd: "/", fs: BARROW, env: {} });
     print(html(`<span class="dim">Welcome to the Barrow Deeps (WhimsyOS, ring 7)\nLast login: never, legitimately.</span>\n` + esc(readFile("/welcome.txt"))));
-    refresh(); setTimeout(() => wisp.talk("> ooh, you're in the barrow deeps. it's cold down there. answer the door.", 3500), 300);
+    refresh(); setTimeout(() => wisp.talk("> ooh, the barrow deeps. it's cold down here.", 3000), 300);
   });
   return "";
 });
@@ -810,7 +824,7 @@ cmd("answer", a => {
   if (S.host !== "barrow-deeps") return "Nobody asked you a question. (Yet.)";
   const w = a.join(" ").toLowerCase().replace(/[^a-z ]/g, "").trim().replace(/s$/, "");
   return sha(w).then(h => {
-    if (h === TD.seals[4]) { award("door"); setTimeout(() => wisp.talk("> the door opened! speak the seal you saw.", 3000), 300); return html(`The door grinds open, slowly, like a raid leader getting out of bed.\nCarved on the inside, in letters as tall as a tauren:\n\n                        <span class="hl">${esc(w.toUpperCase())}</span>\n\nThe fifth seal. (Go back with <b>exit</b>, then speak it: <b>seal ${esc(w)}</b>)`); }
+    if (h === TD.seals[4]) { award("door"); setTimeout(() => wisp.talk("> the door opened!", 2500), 300); return html(`The door grinds open, slowly, like a raid leader getting out of bed.\nCarved on the inside, in letters as tall as a tauren:\n\n                        <span class="hl">${esc(w.toUpperCase())}</span>\n\nThe fifth seal.`); }
     return "The door does not budge. Somewhere in the dark, a dwarf ghost snickers.";
   });
 });
@@ -823,9 +837,8 @@ function suFail(who) {
   print("su: Authentication failure", "err");
   LOG("sufail", { who, n: suFails });
   if (suFails === 1) { wisp.talk("> nope. grumbolt would never use a password that obvious. probably.", 2500); return; }
-  if (who === "leeroy") print("(Leeroy's entry in /etc/passwd says he's AFK. It also says why. He's not a complicated man.)", "dim");
-  else if (who !== "root") print(`(${who[0].toUpperCase() + who.slice(1)}'s password isn't anywhere you can find. Root's is. Eventually.)`, "dim");
-  else print(suFails <= 3 ? "(Root's password can't be guessed. Somebody on this box knows it, and keeps it in a vault sealed with seven words. seals shows how far you've got.)" : "(Still no. It's in the vault. seals shows how far you've got.)", "dim");
+  // one nudge, once: impossible accounts say so, and root's points (vaguely) at the seals
+  if (suFails === 2 && who !== "leeroy") print(who === "root" ? "(Root's password can't be guessed. It's kept somewhere sealed.)" : `(${who[0].toUpperCase() + who.slice(1)}'s password can't be found here.)`, "dim");
 }
 function charge() {
   award("leeroysu");
@@ -1139,7 +1152,7 @@ cmd("change", () => { const c = pick(D.CHANGES.filter(c => c.severity === "major
 cmd("said", () => { const s = D.SAID[0]; return `${s.date}: ${s.title}\n${s.summary}`; });
 cmd("class", a => { const k = Object.keys(CL).find(c => c.startsWith((a[0] || "").toLowerCase())); if (!a[0] || !k) return `classes: ${Object.keys(CL).join(", ")}`; X.setClass(k); return `Class set to ${CL[k].n}.`; });
 cmd("loot", () => { const r = X.lootRoll ? X.lootRoll(true) : null; return r ? html(r.replace(/<br>/g, "\n")) : "No loot today."; });
-cmd(["look", "examine"], () => html(`You look around. You're in a terminal on the guild's box. <span class="dim">(<b>ls</b> shows what's here. Somewhere on this machine there's a game with much more to look at.)</span>`), { hidden: true });
+cmd(["look", "examine"], () => html(`You look around. You're in a terminal on the guild's box. <span class="dim">(Somewhere on this machine there's a game with much more to look at.)</span>`), { hidden: true });
 cmd(["go", "open", "xdg-open"], a => {
   const t = (a[0] || "").toLowerCase().replace(/^#/, "");
   const known = ["brief", "changes", "gear", "said", "wire", "sources", "vault", "darkmoon", "patchnotes", "credits", "graveyard", "nether"];
@@ -1149,7 +1162,7 @@ cmd(["go", "open", "xdg-open"], a => {
   if (!t || !r) return `places: brief, changes, gear, said, wire, sources (and some you'll have to earn)`;
   location.hash = r; setTimeout(closeCon, 200); return "";
 });
-cmd("faire", () => { if (!flags.ticket) return "A gnome at the gate asks for your ticket. You don't have one. (Somebody on this box does.)"; flag("darkmoon"); award("faire"); X.secretTabs(); setTimeout(() => { location.hash = "darkmoon"; closeCon(); }, 700); return "The gnome punches your ticket. The Darkmoon Faire opens before you..."; });
+cmd("faire", () => { if (!flags.ticket) return "A gnome at the gate asks for your ticket. You don't have one."; flag("darkmoon"); award("faire"); X.secretTabs(); setTimeout(() => { location.hash = "darkmoon"; closeCon(); }, 700); return "The gnome punches your ticket. The Darkmoon Faire opens before you..."; });
 const THEMES = { green: () => true, amber: () => store.get("vault", false), ice: () => store.get("vault", false), fel: () => store.get("vault", false), gold: () => store.get("motes", []).length >= 7, paper: () => Object.keys(X.got).length >= 30 };
 cmd("theme", a => {
   if (!a[0]) return "themes: " + Object.entries(THEMES).map(([k, ok]) => ok() ? k : `${k} (locked)`).join(", ");

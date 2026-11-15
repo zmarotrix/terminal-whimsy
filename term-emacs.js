@@ -348,6 +348,7 @@ function mx(c) {
   print(`[No match]${near.length ? "  Did you mean: " + near.slice(0, 4).join(", ") : ""}`, "dim");
 }
 T.runMx = mx;
+T.mxNames = () => Object.keys(MX).sort();
 
 /* =================== M-x doctor =================== */
 const REFLECT = { i: "you", me: "you", my: "your", am: "are", "i'm": "you're", you: "I", your: "my", mine: "yours", myself: "yourself", was: "were" };

@@ -9,8 +9,7 @@ export const MOTD = `WhimsyOS 1.60.1-forever (GNU/Linux 6.9.0-whimsy x86_64)
  * Management:     the wisp
  * Support:        an officer, probably
 
-3 packages can be upgraded. 1 wisp is missing its memories.
-You have new mail.`;
+3 packages can be upgraded. 1 wisp is missing its memories.`;
 
 export const MAIL = [
   {

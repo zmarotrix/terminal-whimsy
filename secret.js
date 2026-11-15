@@ -331,7 +331,7 @@ function die(msg) {
   ghost(true); award("died");
   $("#deathMsg").textContent = msg || "You have died.";
   if (T()) T().close();
-  setTimeout(() => { location.hash = "graveyard"; wisp.talk("> oh no. you're a ghost. the spirit healer can help, or you can run back.", 4000); }, 300);
+  setTimeout(() => { location.hash = "graveyard"; wisp.talk("> oh no. you're a ghost.", 3000); }, 300);
 }
 function resurrect(clean) {
   ghost(false);

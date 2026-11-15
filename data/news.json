@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T10:18:58Z",
+ "updated": "2026-11-15T10:37:49Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,24 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Kicked out of a group for needing on fang set",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwqrbn/kicked_out_of_a_group_for_needing_on_fang_set/",
+   "date": "2026-11-15T08:53:45Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Apparently people don’t agree that healer druids can need on it. Worth it. Just need the boots. Check out this cool flower I found today too kinda looks like me",
+   "who": "/u/Frea_ks",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "e380e795ad",
+   "first": "2026-11-15T08:53:45Z",
+   "last": "2026-11-15T08:53:45Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Drowned city took 5 hours and 46 minutes for us.",
    "url": "https://www.reddit.com/r/wowforever/comments/1xwlclh/drowned_city_took_5_hours_and_46_minutes_for_us/",
@@ -399,8 +417,8 @@
     "classes"
    ],
    "classes": [
-    "shaman",
     "paladin",
+    "shaman",
     "druid"
    ],
    "n": 1,
@@ -437,8 +455,8 @@
    "first": "2026-11-14T16:28:04Z",
    "last": "2026-11-14T16:28:04Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -475,8 +493,8 @@
    "first": "2026-11-14T16:00:10Z",
    "last": "2026-11-14T16:00:10Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -786,26 +804,6 @@
    ]
   },
   {
-   "title": "Why do only NEs get access to these alternate moonkin forms and not Tauren?",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvzxai/why_do_only_nes_get_access_to_these_alternate/",
-   "date": "2026-11-14T11:12:07Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Is it only because of the horns? When I saw the alternate moonkin forms I figured everyone could use them, then I find out at lvl 40 that it’s night elf exclusive? So lame man. I was really looking forward to mixing it up. Come on blizzard the antlers do not…",
-   "who": "/u/BlightO",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "f928e65dea",
-   "first": "2026-11-14T11:12:07Z",
-   "last": "2026-11-14T11:12:07Z",
-   "tags": [],
-   "classes": [
-    "druid"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
    "date": "2026-11-14T02:57:50Z",
@@ -932,8 +930,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1129,8 +1127,8 @@
    "first": "2026-11-13T09:55:12Z",
    "last": "2026-11-13T09:55:12Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "warlock"
@@ -1238,8 +1236,8 @@
    "first": "2026-11-13T04:37:16Z",
    "last": "2026-11-13T04:37:16Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "rogue"
@@ -1281,8 +1279,8 @@
    "first": "2026-11-13T03:38:58Z",
    "last": "2026-11-13T03:38:58Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "warrior"
@@ -1322,8 +1320,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1440,9 +1438,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "realms",
     "pvp",
-    "story"
+    "story",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1518,8 +1516,8 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "items",
     "hotfix",
+    "items",
     "professions"
    ],
    "classes": [],
@@ -1577,8 +1575,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "classes",
-    "economy"
+    "economy",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1636,9 +1634,9 @@
     "hotfix"
    ],
    "classes": [
-    "warlock",
     "shaman",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -1854,8 +1852,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -1974,8 +1972,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2588,10 +2586,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "ui",
-    "classes",
     "pvp",
-    "leveling"
+    "leveling",
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2611,9 +2609,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "classes",
+    "leveling",
     "raids",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2968,6 +2966,18 @@
   }
  ],
  "items": [
+  {
+   "title": "Kicked out of a group for needing on fang set",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwqrbn/kicked_out_of_a_group_for_needing_on_fang_set/",
+   "date": "2026-11-15T08:53:45Z",
+   "summary": "Apparently people don’t agree that healer druids can need on it. Worth it. Just need the boots. Check out this cool flower I found today too kinda looks like me",
+   "who": "/u/Frea_ks",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
   {
    "title": "Drowned city took 5 hours and 46 minutes for us.",
    "url": "https://www.reddit.com/r/wowforever/comments/1xwlclh/drowned_city_took_5_hours_and_46_minutes_for_us/",
@@ -3499,20 +3509,6 @@
    "icon": "inv_shirt_guildtabard_01",
    "tags": [],
    "classes": []
-  },
-  {
-   "title": "Why do only NEs get access to these alternate moonkin forms and not Tauren?",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvzxai/why_do_only_nes_get_access_to_these_alternate/",
-   "date": "2026-11-14T11:12:07Z",
-   "summary": "Is it only because of the horns? When I saw the alternate moonkin forms I figured everyone could use them, then I find out at lvl 40 that it’s night elf exclusive? So lame man. I was really looking forward to mixing it up. Come on blizzard the antlers do not…",
-   "who": "/u/BlightO",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": [
-    "druid"
-   ]
   },
   {
    "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",

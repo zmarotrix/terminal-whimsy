@@ -1830,13 +1830,17 @@
  {
   "area": "economy",
   "class": null,
-  "title": "Modern AH; 1 copper minimum deposit",
+  "title": "Modern Auction House; 1 copper minimum deposit from 17 Nov",
   "classic": "Classic AH UI with deposits.",
-  "forever": "Newer Auction House interface; minimum deposit 1 copper (10 Nov).",
+  "forever": "A newer Auction House interface. Fan sites describe the modern one: separate buy and sell tabs, with materials sold as commodities, cheapest first. The minimum deposit drops from 1 silver to 1 copper with the 17 Nov maintenance, and stays 1 silver until then.",
   "impact": "Easier selling of mats for raid funds.",
   "severity": "minor",
   "confidence": "community",
   "sources": [
+   {
+    "name": "Blizzard forums (Kaivax)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/2403040/7"
+   },
    {
     "name": "Warcraft Tavern",
     "url": "https://www.warcrafttavern.com/forever/guides/overview/"
@@ -1844,6 +1848,10 @@
    {
     "name": "Warcraft Tavern",
     "url": "https://www.warcrafttavern.com/forever/news/class-economy-changes-wow-forever-hotfixes-for-november-10/"
+   },
+   {
+    "name": "ConquestCapped",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-auction-house/"
    }
   ]
  },

@@ -8,7 +8,7 @@ LEDE = ("Everything Blizzard has said about WoW Forever, every change from Class
 COUNTDOWNS = [
     {"label": "Raids open", "sub": "9 Dec, time TBA · counting to midnight PST", "at": "2026-12-09T08:00:00Z", "i": "achievement_boss_onyxia"},
     {"label": "Since launch", "sub": "Live since 4 Nov, 3 p.m. PST", "at": "2026-11-04T23:00:00Z", "since": True, "i": "spell_arcane_portaldalaran"},
-    {"label": "Auction House changes", "sub": "17 Nov maintenance", "at": "2026-11-17T15:00:00Z", "i": "inv_misc_coin_01"},
+    {"label": "1 copper AH deposits", "sub": "Minimum deposit drops from 1 silver · 17 Nov maintenance", "at": "2026-11-17T15:00:00Z", "i": "inv_misc_coin_01"},
 ]
 
 CLASSES = {
@@ -148,14 +148,14 @@ ROAD = [
     {"date": "2026-10-21", "when": "21 Oct", "t": "Stress test", "d": "One day on the production hardware, open to any WoW account.", "i": ["inv_misc_wrench_01"]},
     {"date": "2026-10-27", "when": "27 Oct", "t": "Name reservation", "d": "Three characters per account, until 3 November.", "i": ["inv_misc_note_01"]},
     {"date": "2026-11-04", "when": "4 Nov", "t": "Launch", "d": "Live in every region at 3 p.m. PST.", "i": ["spell_arcane_portaldalaran"]},
-    {"date": "2026-11-17", "when": "17 Nov", "t": "Auction House changes", "d": "Moved to this maintenance after launch week.", "i": ["inv_misc_coin_01"]},
+    {"date": "2026-11-17", "when": "17 Nov", "t": "Auction House deposit drops to 1 copper", "d": "The minimum Auction House deposit goes from 1 silver to 1 copper. It was in the 10 Nov hotfix notes, then pulled to this maintenance, so it's still 1 silver until then.", "i": ["inv_misc_coin_01"]},
     {"date": "2026-12-09", "when": "9 Dec", "t": "Raids open", "d": "Barrow Deeps, Hyjal Summit and Onyxia's Lair, weekly resets.", "i": ["inv_misc_head_dwarf_01", "spell_nature_regeneration", "inv_misc_head_dragon_black"],
      "src": [{"name": "Blizzard raid overview", "url": "https://news.blizzard.com/en-gb/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement"}]},
     {"date": None, "when": "Winter 2026–27", "t": "Hardcore", "d": "Blizzard confirms Hardcore after launch. Fan sites say this winter.", "i": ["spell_holy_resurrection"]},
     {"date": None, "when": "Early 2027", "t": "Skyborne visual update", "d": "Updated Skyborne models and druid forms.", "i": ["spell_nature_polymorph"],
      "src": [{"name": "Blizzard", "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"}]},
     {"date": None, "when": "Spring 2027 (reported)", "t": "Next raid tier", "d": "Reported: two raids, two dungeons and a legendary questline.", "i": ["achievement_boss_ragnaros"]},
-    {"date": None, "when": "Summer 2027 (reported)", "t": "A revamped iconic raid", "d": "Blizzard has promised a revamped iconic raid. Fan sites put it in summer.", "i": ["inv_hammer_unique_sulfuras"]},
+    {"date": None, "when": "Summer 2027 (reported)", "t": "A revamped iconic raid", "d": "Blizzard has promised a revamped iconic raid but hasn't said which one. Fan sites put it in summer.", "i": ["inv_hammer_unique_sulfuras"]},
 ]
 ROAD_TLDR = ("We're past launch and in the leveling month. Raids open on 9 December. After that Blizzard plans Hardcore, "
              "a visual update for Skyborne, and new raids in 2027. Dates marked 'reported' come from fan sites, not Blizzard.")

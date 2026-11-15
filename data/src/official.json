@@ -55,8 +55,8 @@
  },
  {
   "date": "2026-11-11",
-  "title": "Auction House changes moved to Nov 17 maintenance",
-  "summary": "Auction House changes were pulled from the November 11 update. They will go live with weekly maintenance on November 17 and be listed in the hotfix thread afterwards.",
+  "title": "Auction House deposit change moved to Nov 17 maintenance",
+  "summary": "The change drops the minimum Auction House deposit from 1 silver to 1 copper. It was listed in the November 10 hotfix notes but never went live, so Blizzard pulled it from that update. It now goes live with weekly maintenance on November 17 and will be listed in the hotfix notes afterwards.",
   "topic": "economy",
   "kind": "blue-post",
   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/7",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T10:06:42Z",
+ "updated": "2026-11-15T10:18:58Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -88,43 +88,21 @@
    "who": "Kaivax (Community Manager)",
    "icon": "inv_scroll_03",
    "id": "f87c0b1c9f",
-   "first": "2026-11-14T16:16:46Z",
+   "first": "2026-11-14T16:20:58Z",
    "last": "2026-11-15T01:18:23.191000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
-   "n": 5,
+   "n": 2,
    "official": true,
    "also": [
     {
-     "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-14T16:16:46Z"
-    },
-    {
-     "title": "WoW Forever Players Reporting Dungeons Giving No Exp After Recent Change",
-     "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
-     "source": "Warcraft Tavern",
-     "label": "press",
-     "date": "2026-11-14T19:25:06Z"
-    },
-    {
-     "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmlMMXlBeUl1dzVkajFPZ0duNHpUazRqcjZEWUNnblFIQkxlNVRVclRVMGJlU3hFbzRjbHlBcktUM2NDMWdZcERyaWtBU1B6R3Bzb1BJMElFQ1VJSFAzcDJReHdMYXdTYTFMVl9XRHJ2eVZId0ppRkdzM3Btb0w3TVp3Z015UmlKT3BGMEZRSWZ4ZWNNTE13OXhwaVo3SjM4a2pnUmdON2l3R09wQndVYmFTa2pWMzJOMXdIYkQyUVZIMVgyR3dJRDAxSmNNY1k?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-14T22:17:19Z"
-    },
-    {
-     "title": "Dungeon XP is dead and the new grey mob rule just made it worse",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xwbdo0/dungeon_xp_is_dead_and_the_new_grey_mob_rule_just/",
+     "title": "Not getting invited to dungeons because I'm too high level.",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xw6d9k/not_getting_invited_to_dungeons_because_im_too/",
      "source": "r/wowforever",
      "label": "community",
-     "date": "2026-11-14T19:43:16Z"
+     "date": "2026-11-14T16:20:58Z"
     }
    ]
   },
@@ -185,6 +163,48 @@
    "n": 1,
    "official": false,
    "also": []
+  },
+  {
+   "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
+   "date": "2026-11-14T16:16:46Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "In last night's hotfixes, Blizzard announced that if any party member in a dungeon is too high-level, no one in the party will receive experience. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "56b49d6e3b",
+   "first": "2026-11-14T16:16:46Z",
+   "last": "2026-11-14T22:17:19Z",
+   "tags": [
+    "leveling",
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 4,
+   "official": false,
+   "also": [
+    {
+     "title": "WoW Forever Players Reporting Dungeons Giving No Exp After Recent Change",
+     "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-14T19:25:06Z"
+    },
+    {
+     "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmlMMXlBeUl1dzVkajFPZ0duNHpUazRqcjZEWUNnblFIQkxlNVRVclRVMGJlU3hFbzRjbHlBcktUM2NDMWdZcERyaWtBU1B6R3Bzb1BJMElFQ1VJSFAzcDJReHdMYXdTYTFMVl9XRHJ2eVZId0ppRkdzM3Btb0w3TVp3Z015UmlKT3BGMEZRSWZ4ZWNNTE13OXhwaVo3SjM4a2pnUmdON2l3R09wQndVYmFTa2pWMzJOMXdIYkQyUVZIMVgyR3dJRDAxSmNNY1k?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-14T22:17:19Z"
+    },
+    {
+     "title": "Dungeon XP is dead and the new grey mob rule just made it worse",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xwbdo0/dungeon_xp_is_dead_and_the_new_grey_mob_rule_just/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-14T19:43:16Z"
+    }
+   ]
   },
   {
    "title": "The Newest Update to Dungeon XP is awful.",
@@ -375,13 +395,13 @@
    "first": "2026-11-14T17:08:35Z",
    "last": "2026-11-14T17:08:35Z",
    "tags": [
-    "classes",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [
+    "shaman",
     "paladin",
-    "druid",
-    "shaman"
+    "druid"
    ],
    "n": 1,
    "official": false,
@@ -417,8 +437,8 @@
    "first": "2026-11-14T16:28:04Z",
    "last": "2026-11-14T16:28:04Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -624,8 +644,8 @@
    "first": "2026-11-14T14:49:42Z",
    "last": "2026-11-14T14:49:42Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -749,8 +769,8 @@
    "last": "2026-11-14T12:12:47Z",
    "tags": [
     "leveling",
-    "classes",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -781,27 +801,6 @@
    "classes": [
     "druid"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "XP hotfix also apply for all group in the overworld.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvzhj7/xp_hotfix_also_apply_for_all_group_in_the/",
-   "date": "2026-11-14T10:45:36Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Did some test with friend. If I kill a green mob with a friend in the group where this mob is gray, I don't get XP at all. And we only have 1 level difference, Edit: New change:…",
-   "who": "/u/azokal",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "8bfdab4254",
-   "first": "2026-11-14T10:45:36Z",
-   "last": "2026-11-14T10:45:36Z",
-   "tags": [
-    "leveling",
-    "hotfix"
-   ],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -954,8 +953,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -1130,8 +1129,8 @@
    "first": "2026-11-13T09:55:12Z",
    "last": "2026-11-13T09:55:12Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warlock"
@@ -1239,8 +1238,8 @@
    "first": "2026-11-13T04:37:16Z",
    "last": "2026-11-13T04:37:16Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "rogue"
@@ -1282,8 +1281,8 @@
    "first": "2026-11-13T03:38:58Z",
    "last": "2026-11-13T03:38:58Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warrior"
@@ -1323,8 +1322,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1441,9 +1440,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "story",
     "realms",
-    "pvp"
+    "pvp",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1519,9 +1518,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "professions",
     "items",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1638,8 +1637,8 @@
    ],
    "classes": [
     "warlock",
-    "hunter",
-    "shaman"
+    "shaman",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -1752,8 +1751,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1874,9 +1873,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "classes",
     "items",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [
     "shaman"
@@ -1951,9 +1950,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "classes",
     "ui",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [
     "druid"
@@ -1996,8 +1995,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2035,9 +2034,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "hotfix",
     "leveling",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2302,8 +2301,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2589,10 +2588,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "leveling",
     "ui",
     "classes",
-    "pvp"
+    "pvp",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2612,9 +2611,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "leveling",
     "classes",
-    "raids"
+    "raids",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3262,6 +3261,20 @@
    "classes": []
   },
   {
+   "title": "Not getting invited to dungeons because I'm too high level.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw6d9k/not_getting_invited_to_dungeons_because_im_too/",
+   "date": "2026-11-14T16:20:58Z",
+   "summary": "Great dungeon xp change blizzard. I got refused to multiple BFD groups because I accidentally did too many quests in Ashenvale and now I'm too high a level. It already felt difficult to find groups as a DPS. I used to offset this by leveling slightly ahead…",
+   "who": "/u/TallAfternoon2",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
    "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
    "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
    "date": "2026-11-14T16:16:46Z",
@@ -3500,21 +3513,6 @@
    "classes": [
     "druid"
    ]
-  },
-  {
-   "title": "XP hotfix also apply for all group in the overworld.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvzhj7/xp_hotfix_also_apply_for_all_group_in_the/",
-   "date": "2026-11-14T10:45:36Z",
-   "summary": "Did some test with friend. If I kill a green mob with a friend in the group where this mob is gray, I don't get XP at all. And we only have 1 level difference, Edit: New change:…",
-   "who": "/u/azokal",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "hotfix",
-    "leveling"
-   ],
-   "classes": []
   },
   {
    "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",

@@ -172,8 +172,59 @@ ACH = {
     "wire": {"n": "Plugged In", "d": "Opened a story from The Wire.", "i": "inv_letter_15"},
     "end": {"n": "Grand Tour", "d": "Visited every room.", "i": "spell_nature_timestop"},
     "wisp": {"n": "Wisp Whisperer", "d": "Poked the wisp five times. It liked it.", "i": "spell_nature_starfall"},
-    "secret": {"n": "sudo whimsy", "d": "Found the secret. Type it again anytime.", "i": "inv_misc_gift_01"},
+    "secret": {"n": "sudo whimsy", "d": "Typed the guild's middle name. Type it again anytime.", "i": "inv_misc_gift_01", "secret": True},
+    # the terminal
+    "term": {"n": "Hello, World", "d": "Opened the hidden terminal.", "i": "inv_misc_enggizmos_20"},
+    "poweruser": {"n": "Power User", "d": "Ran ten terminal commands.", "i": "inv_misc_note_02"},
+    "named": {"n": "Nameplate", "d": "Told the terminal your name.", "i": "inv_scroll_08"},
+    "fortune": {"n": "Fortunate", "d": "Drew a Darkmoon fortune.", "i": "inv_misc_ticket_tarot_lunacy"},
+    "nicetry": {"n": "Nice Try", "d": "Tried to delete the whole site.", "i": "inv_misc_bomb_04", "secret": True},
+    "xyzzy": {"n": "Nothing Happens", "d": "Said the magic word from an older game.", "i": "spell_arcane_mindmastery", "secret": True},
+    # loot
+    "nat100": {"n": "Natural 100", "d": "Rolled a perfect 100.", "i": "inv_misc_dice_02"},
+    "lootwin": {"n": "Loot Goblin", "d": "Won a practice loot roll.", "i": "inv_misc_coin_05"},
+    "lootloss": {"n": "Bad Luck Protection", "d": "Lost five loot rolls. It builds character.", "i": "inv_misc_dice_01"},
+    # the wisp
+    "wrangler": {"n": "Wisp Wrangler", "d": "Dragged the wisp somewhere new.", "i": "spell_holy_mindvision"},
+    "dizzy": {"n": "Too Much Poking", "d": "Poked the wisp until it got dizzy.", "i": "spell_shadow_charm", "secret": True},
+    "golden": {"n": "Gilded", "d": "Turned the wisp gold.", "i": "inv_crown_02", "secret": True},
+    # the hunt
+    "mote1": {"n": "Shiny!", "d": "Found a lost mote.", "i": "inv_misc_gem_diamond_01"},
+    "motes": {"n": "Mote Collector", "d": "Found all seven lost motes.", "i": "inv_enchant_shardbrilliantlarge"},
+    # typed and timed secrets
+    "leeroy": {"n": "At Least I Have Chicken", "d": "Charged in without a plan.", "i": "ability_warrior_charge", "secret": True},
+    "whelps": {"n": "Handle It", "d": "Summoned many whelps.", "i": "inv_misc_head_dragon_black", "secret": True},
+    "konami": {"n": "Old School", "d": "Entered a very old code.", "i": "inv_misc_toy_07", "secret": True},
+    "nightowl": {"n": "Night Owl", "d": "Visited between midnight and 4 a.m.", "i": "spell_holy_elunesgrace", "secret": True},
+    "raidnight": {"n": "It's Raid Night", "d": "Visited on 9 December.", "i": "achievement_boss_onyxia"},
+    "crest": {"n": "Crest Fallen", "d": "Clicked the guild crest seven times.", "i": "inv_misc_key_03", "secret": True},
+    "hotread": {"n": "Patch Notes Enjoyer", "d": "Opened the hotfix log.", "i": "inv_misc_wrench_01"},
+    "maxx": {"n": "Whimsymaxxing", "d": "Earned 25 achievements.", "i": "spell_arcane_starfire", "secret": True},
 }
+
+# titles earned by achievement count (WoW-style: shown after your name)
+TITLES = [(0, "the Newcomer"), (5, "the Curious"), (10, "the Whimsical"), (15, "Wisp-Whisperer"), (20, "of the Terminal"), (25, "the Whimsymaxxed")]
+
+# Darkmoon-style fortunes for the terminal's `fortune` (originals, a little silly, a little useful)
+FORTUNES = [
+    "A tank who watches threat will never need Salvation. Neither will you.",
+    "Your next drop has hidden stats. So does your future.",
+    "Someone in your raid has not repaired. It may be you.",
+    "The weekly reset comes for us all, Onyxia included.",
+    "Fortune favours the player who read the hotfix notes.",
+    "A wisp in the corner is worth two in the bush.",
+    "Beware the warlock who says 'one more Life Tap'.",
+    "Your hit is capped. Your enthusiasm is not.",
+    "Today you will find a mote. Or a mote will find you.",
+    "Great loot awaits the one who shows up on time with flasks.",
+    "The shaman's totem is mightier than the sword. Also, place it closer.",
+    "Not all who wander Hyjal are lost. Some are just looking for the next pull.",
+    "You will roll a 1 on something you really wanted. It builds character.",
+    "A friendly druid will battle-rez you, eventually, after the fight.",
+]
+
+# seven lost motes, hidden across the rooms: id -> where the site tucks it (see whimsy.js)
+MOTES = ["brief-road", "brief-footer", "changes-legend", "gear-secret", "said-banner", "wire-health", "sources-head"]
 
 # the wisp: a small guide in the corner. Lowercase, terminal voice, a little smug.
 WISP = {
@@ -198,7 +249,22 @@ WISP = {
         "> tip: try typing a certain word anywhere on this page. it's the guild's middle name.",
         "> i'm made of 4% arcane, 96% vibes.",
         "> ok, that's enough poking. (it isn't. keep going.)",
+        "> psst. press the ` key. there's a terminal in here.",
+        "> i lost seven motes somewhere on this site. if you find them... i'd be very grateful.",
+        "> you can drag me, you know. i like the view from the other corner.",
     ],
+    "dizzy": "> whoa. whoa. the room is spinning. please stop poking.",
+    "sleepy": "> zzz... oh! it's late. raiders should sleep. i should sleep. zzz.",
+    "mote": "> you found one of my motes! {n} of 7. keep looking.",
+    "motes": "> all seven! look at me. LOOK AT ME. i'm golden now.",
+    "lootwin": "> you won the roll! the loot council is furious.",
+    "lootloss": "> lost the roll. the dice are cursed. probably the warlock's fault.",
+    "term": "> ooh, the terminal. type help. or don't. i'm not your raid leader.",
+    "raidnight": "> IT'S RAID NIGHT. flasks? repaired? bio break taken? go go go.",
+    "konami": "> up up down down... you're old enough to remember that? respect.",
+    "crest": "> you broke the crest. it's fine. it does that.",
+    "leeroy": "> ...at least you have chicken.",
+    "whelps": "> MANY WHELPS. HANDLE IT.",
     "sky": ["> ✦ wheee", "> you poked the sky. it sparkled back.", "> careful, that's dalaran's good sky."],
 }
 

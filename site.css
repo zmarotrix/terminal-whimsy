@@ -396,3 +396,87 @@ footer b{color:var(--ink)}
 .health li{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:.6rem;align-items:center;font-size:.92rem}
 .health li span:last-child{font:500 .74rem/1.2 var(--f-mono);color:var(--dim);text-align:right}
 .dot.ok{background:var(--term);box-shadow:0 0 8px var(--term)}
+
+/* =================== whimsymaxxing =================== */
+/* the hidden terminal */
+.console{position:fixed;z-index:97;left:0;right:0;top:0;height:min(58vh,460px);display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + .8rem) var(--gr) .8rem var(--gl);background:rgba(6,8,12,.96);border-bottom:2px solid var(--term);box-shadow:0 20px 60px rgba(0,0,0,.7),0 0 40px -10px var(--term);font:500 .92rem/1.55 var(--f-mono);color:#c9f5d6;transform:translateY(-102%);transition:transform .22s ease-out}
+.console.on{transform:none}
+.con-out{flex:1;overflow-y:auto;max-width:1100px;width:100%;margin:0 auto;scrollbar-color:var(--bg4) transparent}
+.con-out .ln{padding:.12rem 0;white-space:pre-wrap;word-break:break-word}
+.con-out .cmd{color:var(--ink);margin-top:.5rem}
+.con-out .dim,.console .dim{color:var(--dim)}
+.con-out .err{color:var(--rose)}
+.con-out .win{color:var(--term);font-weight:700}
+.con-out .dir{color:var(--sky)}
+.con-out .fortune{color:var(--gold)}
+.con-out a{color:var(--gold)}
+.con-out b{color:#fff}
+.con-in{display:flex;align-items:center;gap:.6rem;max-width:1100px;width:100%;margin:.5rem auto 0;border-top:1px solid #1d2a22;padding-top:.6rem}
+.ps{color:var(--term);white-space:nowrap}
+.con-in input{flex:1;min-width:0;background:none;border:0;outline:0;color:#fff;font:inherit;caret-color:var(--term)}
+.term.clicky{cursor:pointer}
+.term.clicky:hover{text-shadow:0 0 18px rgba(124,242,154,.9)}
+/* lost motes */
+.mote{display:inline-grid;place-items:center;width:20px;height:20px;margin-left:.35rem;padding:0;border:0;background:none;cursor:pointer;color:var(--gold);font:700 .8rem/1 var(--f-sans);opacity:.42;vertical-align:middle;animation:twinkle 3.2s ease-in-out infinite;transition:opacity .2s,transform .2s}
+.mote:hover{opacity:1;transform:scale(1.5) rotate(20deg);text-shadow:0 0 10px var(--gold)}
+.mote.got{animation:none;transform:scale(2.4);opacity:0;transition:transform .4s,opacity .4s}
+.wave{position:relative}
+.wave>.mote{position:absolute;right:0;top:-4px;margin:0}
+/* loot roll */
+.loot{margin-top:.9rem}
+.loot .lh{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.loot .lh .muted{font-size:.94rem;max-width:52ch}
+.loot .btn img{width:22px;height:22px;border-radius:5px}
+.lootout:empty{display:none}
+.lootout{margin-top:1rem;display:flex;flex-direction:column;gap:.7rem}
+.lootout .drop{display:flex;align-items:center;gap:.8rem}
+.lootout .drop .ic{width:48px;height:48px}
+.lootout .nm{font:700 1.05rem/1.2 var(--f-sans)}
+.rolls{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.2rem;max-width:340px;font:500 .88rem/1.4 var(--f-mono)}
+.rolls li{display:flex;justify-content:space-between;padding:.25rem .55rem;border-radius:6px;background:var(--bg);animation:rollin .35s both}
+.rolls li.me{color:var(--ink);box-shadow:inset 0 0 0 1px var(--rule)}
+.rolls li.top{background:color-mix(in srgb,var(--gold) 14%,var(--bg));color:var(--gold2)}
+@keyframes rollin{from{opacity:0;transform:translateX(-12px)}}
+.lootout .win{color:var(--term);font-weight:700}
+.lootout .err{color:var(--rose)}
+/* secret toasts and the achievement list */
+.toast.secret{background:linear-gradient(180deg,#2a1d33,#140d1a);border-color:var(--whim);box-shadow:0 0 0 1px #000,0 12px 40px rgba(0,0,0,.6),0 0 34px -6px var(--whim)}
+.toast.secret .a{color:var(--whim)}
+.achsub{font:500 .74rem/1.4 var(--f-mono);color:var(--muted);margin:-.4rem 0 .8rem}
+.achs{max-height:min(70vh,560px);overflow-y:auto}
+.achs li.hid b{color:var(--dim);letter-spacing:.2em}
+/* the wisp's moods */
+.wisp.left{flex-direction:row-reverse}
+.wisp.left .bubble{border-radius:12px 12px 12px 4px}
+.wisp .orb{touch-action:none}
+.wisp.held .orb{cursor:grabbing;transform:scale(1.12);animation:none}
+.wisp.dizzy .orb{animation:spin .5s linear infinite}
+.wisp.dizzy .eye{width:8px;height:8px;background:none;border-radius:0;animation:none;position:relative}
+.wisp.dizzy .eye::before,.wisp.dizzy .eye::after{content:"";position:absolute;left:50%;top:50%;width:10px;height:2px;background:#0a0c13;transform:translate(-50%,-50%) rotate(45deg)}
+.wisp.dizzy .eye::after{transform:translate(-50%,-50%) rotate(-45deg)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.wisp.sleep .eye{height:2px;border-radius:2px;animation:none}
+.wisp.sleep .orb{animation:bob 6s ease-in-out infinite;filter:saturate(.7) brightness(.85)}
+.wisp.sleep .orb::before{content:"z";width:auto;height:auto;background:none;box-shadow:none;color:var(--sky);font:800 .9rem/1 var(--f-sans);animation:zzz 2.4s ease-out infinite}
+.wisp.sleep .orb::after{display:none}
+@keyframes zzz{0%{transform:translate(10px,-10px);opacity:0}30%{opacity:1}100%{transform:translate(26px,-40px) scale(1.4);opacity:0}}
+.wisp.gold .orb{background:radial-gradient(circle at 38% 32%,#fffbe8 0 8%,#ffe3a1 20%,#f2c56b 42%,rgba(255,138,122,.55) 70%,rgba(255,138,122,0) 72%);box-shadow:0 0 24px 6px rgba(242,197,107,.55),0 0 60px 12px rgba(255,138,122,.25)}
+/* page tricks */
+.dance .ic,.dance .cls,.dance .tabs a img{animation:wiggle .4s ease-in-out infinite alternate}
+.dance .ic:nth-child(odd){animation-delay:.2s}
+@keyframes wiggle{from{transform:rotate(-8deg) translateY(0)}to{transform:rotate(8deg) translateY(-4px)}}
+.shake{animation:shakey .5s}
+@keyframes shakey{20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}
+.brand.spin .crest{animation:crestspin .9s cubic-bezier(.2,1.4,.4,1)}
+@keyframes crestspin{from{transform:rotate(0) scale(1)}50%{transform:rotate(540deg) scale(1.6)}to{transform:rotate(720deg) scale(1)}}
+.sprite{position:fixed;z-index:93;pointer-events:none}
+.leeroy{left:-160px;top:42vh;display:flex;align-items:center;gap:.8rem;animation:charge 2.4s cubic-bezier(.5,0,.8,.5) forwards}
+.leeroy img{width:72px;height:72px;border-radius:10px;box-shadow:0 0 0 2px #000,0 0 30px var(--rose)}
+.leeroy b{font:900 2.4rem/1 var(--f-display);color:var(--gold);text-shadow:0 4px 14px #000;white-space:nowrap}
+@keyframes charge{to{transform:translateX(calc(100vw + 420px))}}
+.whelp{right:-60px;width:44px;height:44px;border-radius:8px;box-shadow:0 0 0 1px #000;animation:whelp 3s linear forwards}
+@keyframes whelp{0%{transform:translateX(0) translateY(0) rotate(0)}25%{transform:translateX(-30vw) translateY(-6vh) rotate(-10deg)}50%{transform:translateX(-60vw) translateY(5vh) rotate(8deg)}100%{transform:translateX(calc(-100vw - 120px)) translateY(-4vh) rotate(-6deg)}}
+/* Konami: an old green terminal for a few seconds */
+.crt body{filter:sepia(1) hue-rotate(70deg) saturate(2.4) brightness(.95) contrast(1.15)}
+.crt body::after{content:"";position:fixed;inset:0;z-index:99;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.28) 0 1px,transparent 1px 3px);animation:flicker .15s steps(2) infinite}
+@keyframes flicker{50%{opacity:.85}}

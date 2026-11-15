@@ -242,10 +242,13 @@ def title_key(t):
 def merge(old, new, feeds):
     order = {f["name"]: k for k, f in enumerate(feeds)}
     caps = {f["name"]: f.get("cap", 60) for f in feeds}
-    by = {}
-    for it in old + new:                       # new wins over old for the same URL
+    by, first = {}, {norm_url(i["url"]): i["date"] for i in old}
+    for it in old + new:                       # new wins over old for the same URL...
         if it["source"] in order:
-            by[norm_url(it["url"])] = it
+            k = norm_url(it["url"])
+            if k in first:                     # ...but keeps the date we first saw (Google News re-dates stories)
+                it = dict(it, date=min(first[k], it["date"]))
+            by[k] = it
     # same headline from two places: keep the official one, then the source listed first, then the earliest
     seen, out, per = {}, [], {}
     rank = {"official": 0, "social": 1, "press": 2, "community": 3}
@@ -284,7 +287,7 @@ def main():
     items = merge(old, new, [f for f in feeds if not f.get("off")])
     doc = {"updated": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
            "sources": [f["name"] for f in feeds if not f.get("off")], "items": items}
-    print("%d items (%d new this run) from %d/%d sources" % (len(items), len(new), ok, len([f for f in feeds if not f.get("off")])))
+    print("%d items (%d new since last run) from %d/%d sources" % (len(items), len({norm_url(i["url"]) for i in items} - {norm_url(i["url"]) for i in old}), ok, len([f for f in feeds if not f.get("off")])))
     if not a.dry:
         if [i for i in items] == old:                 # nothing changed: don't churn the timestamp
             return 0

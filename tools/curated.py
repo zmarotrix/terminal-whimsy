@@ -177,6 +177,8 @@ ACH = {
     # ---- Whimsy: the wisp, the motes, the page ----
     "wisp": {"n": "Wisp Whisperer", "d": "Poked the wisp five times. It liked it.", "i": "spell_nature_starfall", "cat": "Whimsy", "secret": True},
     "wrangler": {"n": "Wisp Wrangler", "d": "Dragged the wisp somewhere new.", "i": "spell_holy_mindvision", "cat": "Whimsy", "secret": True},
+    "shaken": {"n": "Shaken, Not Stirred", "d": "Shook the wisp. Violently.", "i": "spell_shadow_charm", "cat": "Whimsy", "secret": True},
+    "shaken3": {"n": "Snow Globe", "d": "Shook the wisp three times. It gave you sparkles to make it stop.", "i": "spell_arcane_starfire", "cat": "Whimsy", "secret": True},
     "dizzy": {"n": "Too Much Poking", "d": "Poked the wisp until it got dizzy.", "i": "spell_shadow_charm", "cat": "Whimsy", "secret": True},
     "mote1": {"n": "Shiny!", "d": "Found a lost mote.", "i": "inv_misc_gem_diamond_01", "cat": "Whimsy", "secret": True},
     "motes": {"n": "Mote Collector", "d": "Found all seven lost motes.", "i": "inv_enchant_shardbrilliantlarge", "cat": "Whimsy", "secret": True},
@@ -302,6 +304,7 @@ ACH = {
     "murloc": {"n": "Mrglglgl", "d": "Fed the hungry murloc.", "i": "inv_misc_head_murloc_01", "cat": "Adventure", "secret": True},
     "advdoor": {"n": "LEEROY!", "d": "Shouted the name that opens the barrow.", "i": "ability_warrior_charge", "cat": "Adventure", "secret": True},
     "advdeath": {"n": "Eaten by a Whelp", "d": "Wandered into the dark without a light.", "i": "inv_misc_head_dragon_black", "cat": "Adventure", "secret": True},
+    "romance": {"n": "Inn-appropriate", "d": "Tried to romance someone in a text adventure.", "i": "inv_valentinescandy", "cat": "Adventure", "secret": True},
     "advwin": {"n": "Summit", "d": "Reached the top of Hyjal in the adventure.", "i": "spell_nature_regeneration", "cat": "Adventure", "secret": True},
     "ticket": {"n": "Admit One", "d": "Got a Darkmoon ticket.", "i": "inv_misc_ticket_darkmoon_01", "cat": "Adventure", "secret": True},
     # ---- Secret pages ----
@@ -422,7 +425,8 @@ ITEM_ICONS = [
 DUNGEON_SET_ICON = "inv_helmet_08"
 
 # icons the secret pages and terminal use that aren't referenced anywhere else
-EXTRA_ICONS = ["inv_boots_09", "inv_jewelry_ring_01", "inv_misc_fish_02", "inv_misc_fish_08", "inv_misc_fish_13", "inv_misc_fish_14",
+EXTRA_ICONS = ["fish_smallfish", "fish_longjaw", "fish_catfish", "fish_trout", "fish_stonescale", "fish_salmon", "fish_bottle",
+               "inv_boots_09", "inv_jewelry_ring_01", "inv_misc_fish_02", "inv_misc_fish_08", "inv_misc_fish_13", "inv_misc_fish_14",
                "inv_misc_fish_18", "inv_misc_fish_31", "inv_misc_shell_02", "inv_drink_05", "ability_hunter_pet_crab", "inv_misc_head_murloc_01",
                "ability_hunter_pet_turtle", "inv_fishingpole_02", "inv_misc_ticket_darkmoon_01", "spell_holy_resurrection", "inv_scroll_05",
                "inv_misc_ticket_tarot_madness", "inv_misc_ticket_tarot_lunacy", "spell_arcane_starfire", "inv_misc_key_03", "inv_scroll_08",

@@ -166,6 +166,7 @@ $(".xp").addEventListener("click", e => { e.stopPropagation(); $("#achs").hidden
 document.addEventListener("click", e => { if (!e.target.closest("#achs,.xp")) $("#achs").hidden = true; });
 
 /* ---------------- the wisp: pokeable, draggable, gets dizzy, sleeps at night, can turn gold ---------------- */
+const pick = a => a[Math.floor(Math.random() * a.length)];
 const wisp = (() => {
   const el = document.createElement("div");
   el.className = "wisp"; el.hidden = store.get("wispGone", false);
@@ -220,10 +221,31 @@ const wisp = (() => {
     if (!drag) return;
     if (!drag.moved && Math.hypot(e.clientX - drag.sx, e.clientY - drag.sy) < 7) return;
     drag.moved = true; el.classList.add("held"); hideTip();
+    // shaking: count quick reversals of direction (either axis) while held
+    const ax = Math.abs(e.clientX - (drag.lx ?? e.clientX)) >= Math.abs(e.clientY - (drag.ly ?? e.clientY)) ? "x" : "y";
+    const d = ax === "x" ? e.clientX - (drag.lx ?? e.clientX) : e.clientY - (drag.ly ?? e.clientY), now = Date.now();
+    if (Math.abs(d) > 5) { const sg = Math.sign(d); if (drag.sg && sg !== drag.sg) (drag.flips = drag.flips || []).push(now); drag.sg = sg; }
+    drag.lx = e.clientX; drag.ly = e.clientY;
+    drag.flips = (drag.flips || []).filter(t => now - t < 900);
+    if (drag.flips.length >= 5) { drag.flips = []; shaken(); }
     drag.p = { x: (e.clientX - drag.ox) / innerWidth, y: (e.clientY - drag.oy) / innerHeight };
     place(drag.p);
   });
   orb.addEventListener("pointercancel", () => { drag = null; el.classList.remove("held"); });
+  // shaken, not stirred
+  let shakes = 0, lastShake = 0, dizzyT = 0;
+  const SHAKE_LINES = ["> WHOA. WHOA. WHOA.", "> i am not a snow globe!", "> everything is spinning and also sparkly", "> please. i have a delicate arcane constitution.", "> put me DOWN. the room is a blender.", "> i can see the Twisting Nether from here"];
+  function shaken() {
+    const now = Date.now(); if (now - lastShake < 700) return; lastShake = now;
+    shakes++;
+    el.classList.add("dizzy", "shook");
+    const r = orb.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + r.height / 2, 14 + Math.min(40, shakes * 6), .9);
+    award("shaken");
+    if (shakes === 3) { award("shaken3"); talk("> FINE. here. take some sparkles. now please stop.", 3000); fx.shower(60); }
+    else talk(SHAKE_LINES[(shakes - 1) % SHAKE_LINES.length], 1800);
+    clearTimeout(dizzyT);
+    dizzyT = setTimeout(() => { el.classList.remove("dizzy", "shook"); if (!drag) talk(pick(["> ...okay. i'm okay. the floor is where i left it.", "> i'll be seeing two of you for a while.", "> never do that again. (do it again.)"]), 2500); }, 2600);
+  }
   orb.addEventListener("pointerup", e => {
     if (!drag) return;
     const d = drag; drag = null; el.classList.remove("held");

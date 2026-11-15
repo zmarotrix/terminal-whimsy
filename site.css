@@ -618,3 +618,8 @@ html.ressick main{filter:blur(.6px) saturate(.6);transition:filter 2s}
 .con-grip::after{content:"";position:absolute;left:50%;top:5px;width:56px;height:4px;margin-left:-28px;border-radius:4px;background:var(--term);opacity:.45;transition:opacity .2s,width .2s,margin .2s}
 .con-grip:hover::after,.console.resizing .con-grip::after{opacity:1;width:90px;margin-left:-45px}
 .console.resizing{transition:none;user-select:none}
+
+/* the wisp, being shaken */
+.wisp.shook .orb{animation:shook .12s linear infinite}
+.wisp.held.shook .orb{transform:none}
+@keyframes shook{0%{transform:rotate(-14deg) scale(1.05)}50%{transform:rotate(14deg) scale(.95)}100%{transform:rotate(-14deg) scale(1.05)}}

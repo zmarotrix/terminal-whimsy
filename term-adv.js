@@ -8,7 +8,7 @@ const { print, html, esc, award } = T;
 const { store, wisp, fx } = X;
 
 const ROOMS = {
-  inn: { name: "Lion's Pride Inn, Goldshire", desc: s => `A warm inn. A bard is singing, badly, about a paladin named Leeroy. A fire crackles in the hearth.${s.items.inn.length ? " On the bar: " + s.items.inn.map(a).join(", ") + "." : ""} The door leads out (south).`, exits: { south: "road", out: "road" } },
+  inn: { name: "Lion's Pride Inn, Goldshire", desc: s => `A warm inn. A bard is singing, badly, about a paladin named Leeroy. Behind the bar, an innkeeper polishes the same mug she has been polishing since launch. A fire crackles in the hearth.${s.items.inn.length ? " On the bar: " + s.items.inn.map(a).join(", ") + "." : ""} The door leads out (south).`, exits: { south: "road", out: "road" } },
   road: { name: "Elwynn crossroads", desc: s => `A signpost points west (the Barrow Deeps), north (Hyjal), and east (the Darkmoon Faire). The inn is back north-ish; call it 'in'.${s.f.murlocFed ? " The murloc is napping, full and happy." : " A murloc sits by the stream, sulking. It looks hungry."}`, exits: { west: "gate", north: "path", east: "faire", in: "inn" } },
   faire: { name: "Darkmoon Faire grounds", desc: s => `Tents, music, and the smell of fried things. A gnome vendor sells fishing poles${s.f.pole ? " (you already have one)" : " for one coin"}. Sayge's tent is here (in). A pond glimmers to the east. The road is west.`, exits: { west: "road", in: "tent", east: "pond" } },
   tent: { name: "Sayge's tent", desc: () => "Incense, velvet, and a fortune teller with very knowing eyebrows. Sayge watches you. (Try: talk to sayge.) The way out is out.", exits: { out: "faire", west: "faire" } },
@@ -57,6 +57,42 @@ function win() {
   s = fresh(); s.f.won = true; save();
   T.pop();
 }
+// who's in each room, and the names players call them
+const PEOPLE = { inn: ["bard", "innkeeper"], road: ["murloc"], faire: ["gnome"], tent: ["sayge"] };
+const ALIAS = { bartender: "innkeeper", barkeep: "innkeeper", barkeeper: "innkeeper", barmaid: "innkeeper", barman: "innkeeper", keeper: "innkeeper", inkeeper: "innkeeper", host: "innkeeper", hostess: "innkeeper",
+  minstrel: "bard", singer: "bard", musician: "bard", vendor: "gnome", merchant: "gnome", shopkeeper: "gnome", teller: "sayge", fortune: "sayge", fortuneteller: "sayge", mystic: "sayge", mrgl: "murloc", fishman: "murloc" };
+const INNKEEPER = [
+  "The innkeeper doesn't look up from her mug. 'Welcome to the Lion's Pride. That coin on the bar? Some adventurer left it. Take it. I'm not your mum.'",
+  "'Make yourself at home,' says the innkeeper. 'The hearth's warm. Good for drying socks. And lighting things, if you're the lighting-things type.'",
+  "'That bard,' sighs the innkeeper, 'has been singing about Leeroy since launch. The chorus is just the name, shouted. Doors in the barrow probably know it by heart.'",
+  "The innkeeper leans in. 'Murloc at the crossroads looked hungry this morning. Fish, I'd guess. Murlocs always want fish.'",
+];
+const SOCIAL = {
+  romance: { innkeeper: "You lean on the bar and attempt romance. The innkeeper sets down the mug, looks at you for a long, long moment, and says: 'Rested XP is the only thing I give out for free, love.'", bard: "You gaze at the bard meaningfully. He takes this as a request and plays 'Leeroy' again, louder.", murloc: "You attempt romance with the murloc. It says 'Mrgl?' with the confusion of a creature who only wanted a fish.", gnome: "The gnome hands you a coupon for 10% off fishing poles. It's the most romantic thing she owns.", sayge: "Sayge already knew you'd try that. He's flattered. The answer is still no." },
+  kiss: { innkeeper: "The innkeeper turns her cheek just in time and you kiss a freshly polished mug. It's very clean.", bard: "The bard blushes and changes key mid-song. It's an improvement.", murloc: "You kiss the murloc. It is damp. You are now also damp.", gnome: "The gnome dodges with engineering-grade reflexes.", sayge: "Sayge saw that coming. Literally." },
+  hug: { innkeeper: "The innkeeper allows a brief hug, then hands you a rag. 'Since you're back here anyway.'", bard: "The bard hugs you back without missing a note. Professional.", murloc: "Mrgl! The murloc hugs you back. Slime is a love language.", gnome: "You hug the gnome. Something in her pocket ticks ominously.", sayge: "Sayge pats your back. 'There, there. You'll find the door's word.'" },
+  hit: "Violence is not the answer here. (You're also level one, in a text adventure, armed with a candle.)",
+  dance: "You dance. The bard speeds up to keep tempo. Somewhere, a gnome claps.",
+  wave: "You wave. They wave back. Lovely, all round.",
+  pet: { murloc: "You pet the murloc. It purrs, which you didn't know murlocs could do.", default: "They look at you as if you've just tried to pet them. Which you have." },
+};
+const VERBS = { romance: "romance", flirt: "romance", woo: "romance", seduce: "romance", court: "romance", wink: "romance", love: "romance", marry: "romance", propose: "romance", compliment: "romance",
+  kiss: "kiss", smooch: "kiss", hug: "hug", cuddle: "hug", embrace: "hug", hit: "hit", attack: "hit", kill: "hit", punch: "hit", fight: "hit", slap: "hit", stab: "hit",
+  dance: "dance", wave: "wave", greet: "wave", hello: "wave", pet: "pet", tickle: "pet", poke: "pet" };
+const nm = p => p === "sayge" ? "Sayge" : "the " + p, Nm = p => p === "sayge" ? "Sayge" : "The " + p;
+function who(words) {
+  for (const w of words) { const n = ALIAS[w] || w; if (["bard", "innkeeper", "murloc", "gnome", "sayge"].includes(n)) return n; }
+  return null;
+}
+function social(v, words) {
+  const kind = VERBS[v], here = PEOPLE[s.room] || [], target = who(words) || (here.length === 1 && !words.length ? here[0] : null);
+  if (words.length && !target) return say(here.length ? `There's no ${words.join(" ")} here. Here you see: ${here.map(nm).join(" and ")}.` : "There's nobody here to do that with. Just you, and the scenery.");
+  if (target && !here.includes(target)) return say(`${Nm(target)} isn't here. ${here.length ? "Here you see: " + here.map(nm).join(" and ") + "." : "There's nobody here."}`);
+  if (!target) return say(here.length ? `${v[0].toUpperCase() + v.slice(1)} whom? Here you see: ${here.map(nm).join(" and ")}.` : "There's nobody here.");
+  if (kind === "romance" || kind === "kiss") award("romance");
+  const r = SOCIAL[kind];
+  return say(typeof r === "string" ? r : r[target] || r.default || `You ${v} ${nm(target)}. They seem unsure how to respond.`);
+}
 const SAYGE = [
   "Sayge peers at you. 'The door in the barrow listens only for one name. The name of the one who charged in without a plan, while his friends were still doing maths.'",
   "Sayge shuffles his cards. 'The murloc at the crossroads? Hungry. Murlocs are always hungry. Feed it something from the pond.'",
@@ -67,9 +103,10 @@ function act(line) {
   if (/^\s*(seal|seals|unlock)/i.test(line)) { T.runLine(line); return; }   // the shell's quest commands work in here too
   const w = line.toLowerCase().replace(/[^a-z' ]/g, " ").replace(/\b(the|a|an|at|to|with|on|into|from)\b/g, " ").trim().split(/\s+/).filter(Boolean);
   if (!w.length) return;
-  const [v, ...rest] = w, obj = rest.join(" ");
+  const [v, ...rest] = w; let obj = rest.join(" ");
   if (DIR[v]) return move(DIR[v]);
   if (v === "go" || v === "walk" || v === "run") return DIR[rest[0]] ? move(DIR[rest[0]]) : say("Go where?");
+  if (VERBS[v]) return social(v, rest);
   const here = s.items[s.room] || (s.items[s.room] = []), r = ROOMS[s.room], dark = r.dark && !s.f.lit;
   switch (v) {
     case "look": case "l": if (rest[0] && rest[0] !== "around") return examine(obj); return look();
@@ -88,12 +125,16 @@ function act(line) {
       if (s.f.lit) return say("The candle is already lit. It's doing its best.");
       if (s.room !== "inn") return say("You need a flame. The inn's hearth would do.");
       s.f.lit = true; save(); award("advlight"); return say("You light the candle from the hearth. It gives a brave little glow.");
-    case "talk": case "ask": case "speak": {
+    case "talk": case "ask": case "speak": case "chat": {
+      const t = who(rest) || ((PEOPLE[s.room] || []).length === 1 && !rest.length ? PEOPLE[s.room][0] : null);
+      if (t === "innkeeper" && s.room === "inn") { const k = s.f.inn || 0; s.f.inn = k + 1; save(); return say(INNKEEPER[k % INNKEEPER.length]); }
+      if (t && !(PEOPLE[s.room] || []).includes(t)) return say(`${Nm(t)} isn't here. ${(PEOPLE[s.room] || []).length ? "Here you see: " + PEOPLE[s.room].map(nm).join(" and ") + "." : "There's nobody here to talk to."}`);
+      if (t) obj = t;
       if (/sayge/.test(obj) && s.room === "tent") { const k = s.f.sayge || 0; say(SAYGE[k % SAYGE.length]); if (!s.f.ticketGiven) { s.f.ticketGiven = true; s.inv.push("ticket"); say("Sayge presses a Darkmoon ticket into your hand. 'You'll want the real faire, too.' (In the terminal, outside this game: faire)"); T.flag("ticket"); award("ticket"); } s.f.sayge = k + 1; save(); return; }
       if (/bard/.test(obj) && s.room === "inn") return say("The bard stops mid-verse. 'Leeroy? Oh, he charged into a dragon's lair. Never had a plan. Great name, though. Doors love a good name.'");
       if (/murloc/.test(obj) && s.room === "road") return say(s.f.murlocFed ? "The murloc opens one eye. 'Mrgl.' It goes back to sleep." : "The murloc says 'Mrglglgl!' and points at its belly, then at the faire pond.");
       if (/gnome|vendor/.test(obj) && s.room === "faire") return say("The gnome says: 'Fishing pole! One coin! Satisfaction approximately guaranteed!'");
-      return say("Nobody here answers. The silence is very attentive.");
+      return say((PEOPLE[s.room] || []).length ? `Talk to whom? Here you see: ${PEOPLE[s.room].map(nm).join(" and ")}.` : "Nobody here answers. The silence is very attentive.");
     }
     case "say": case "answer": case "shout": case "yell":
       if (s.room === "gate" && /leeroy/.test(obj)) { if (s.f.doorOpen) return say("The door is already open. It remembers you fondly."); s.f.doorOpen = true; save(); award("advdoor"); return say("You shout 'LEEROY!'. Somewhere, a chicken is dropped. The great stone door grinds open to the west."); }

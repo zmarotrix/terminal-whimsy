@@ -153,7 +153,7 @@ const wisp = (() => {
   const el = document.createElement("div");
   el.className = "wisp"; el.hidden = store.get("wispGone", false);
   el.innerHTML = `<div class="bubble" role="status" aria-live="polite"><span class="say"></span><button class="x" aria-label="Send the wisp away" data-tip="Send the wisp away">×</button></div>
-    <button class="orb" aria-label="Poke the wisp"><span class="eye"></span><span class="eye"></span></button>`;
+    <button class="orb" aria-label="Poke the wisp" data-tip="The wisp: our guide. Poke it for raid tips."><span class="face"><span class="eye"></span><span class="eye"></span><span class="mouth"></span></span></button>`;
   document.body.append(el);
   const say = $(".say", el), bub = $(".bubble", el);
   let typing = 0, hideT = 0, pokes = 0;

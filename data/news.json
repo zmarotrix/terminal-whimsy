@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T10:37:49Z",
+ "updated": "2026-11-15T10:43:09Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -413,13 +413,13 @@
    "first": "2026-11-14T17:08:35Z",
    "last": "2026-11-14T17:08:35Z",
    "tags": [
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [
-    "paladin",
     "shaman",
-    "druid"
+    "druid",
+    "paladin"
    ],
    "n": 1,
    "official": false,
@@ -455,8 +455,8 @@
    "first": "2026-11-14T16:28:04Z",
    "last": "2026-11-14T16:28:04Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -787,8 +787,8 @@
    "last": "2026-11-14T12:12:47Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 2,
@@ -951,8 +951,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -1127,8 +1127,8 @@
    "first": "2026-11-13T09:55:12Z",
    "last": "2026-11-13T09:55:12Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warlock"
@@ -1225,6 +1225,27 @@
    "also": []
   },
   {
+   "title": "Shadow Priest Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5d0Y0N1BDczJKdzdHYWR3MDBXeEU4eWxnOXhsektVYUpsN19EV3JDQVEyeEwtendBeHVJX2hYYktPMUgxdWZhTURENDBBamVLYzI3X0VqUFp1TjhxSGVLWEV3V0lUNTlRRHRHNjNB?oc=5",
+   "date": "2026-11-13T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "9cc67a9d36",
+   "first": "2026-11-13T08:00:00Z",
+   "last": "2026-11-13T08:00:00Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "priest"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
    "date": "2026-11-13T04:37:16Z",
@@ -1236,8 +1257,8 @@
    "first": "2026-11-13T04:37:16Z",
    "last": "2026-11-13T04:37:16Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "rogue"
@@ -1262,28 +1283,6 @@
    ],
    "classes": [
     "warlock"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-13T03:38:58Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "59e25fb230",
-   "first": "2026-11-13T03:38:58Z",
-   "last": "2026-11-13T03:38:58Z",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
    ],
    "n": 1,
    "official": false,
@@ -1320,8 +1319,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1575,8 +1574,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1634,9 +1633,9 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
     "hunter",
-    "warlock"
+    "warlock",
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -1749,8 +1748,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1871,9 +1870,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
+    "classes",
     "hotfix",
-    "classes"
+    "items"
    ],
    "classes": [
     "shaman"
@@ -1948,9 +1947,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "ui",
+    "classes",
     "hotfix",
-    "classes"
+    "ui"
    ],
    "classes": [
     "druid"
@@ -2032,9 +2031,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "classes",
     "hotfix",
-    "leveling",
-    "classes"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2070,8 +2069,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "ui",
-    "items"
+    "items",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2408,8 +2407,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -2586,9 +2585,9 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
+    "classes",
     "pvp",
     "leveling",
-    "classes",
     "ui"
    ],
    "classes": [],
@@ -2609,9 +2608,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "leveling",
+    "classes",
     "raids",
-    "classes"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3886,6 +3885,21 @@
    ]
   },
   {
+   "title": "Shadow Priest Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5d0Y0N1BDczJKdzdHYWR3MDBXeEU4eWxnOXhsektVYUpsN19EV3JDQVEyeEwtendBeHVJX2hYYktPMUgxdWZhTURENDBBamVLYzI3X0VqUFp1TjhxSGVLWEV3V0lUNTlRRHRHNjNB?oc=5",
+   "date": "2026-11-13T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "priest"
+   ]
+  },
+  {
    "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
    "date": "2026-11-13T04:37:16Z",
@@ -3914,22 +3928,6 @@
    ],
    "classes": [
     "warlock"
-   ]
-  },
-  {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-13T03:38:58Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
    ]
   },
   {

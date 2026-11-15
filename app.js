@@ -132,6 +132,7 @@ const ACH = D.ACH, got = store.get("ach", {}), toasts = $(".toasts");
 function award(id) {
   if (got[id] || !ACH[id]) return;
   got[id] = Date.now(); store.set("ach", got);
+  if (window.TWLOG) window.TWLOG.push("found", { id, n: Object.keys(got).length });
   const a = ACH[id], t = document.createElement("div");
   t.className = "toast" + (a.secret ? " secret" : "");
   t.innerHTML = `<img src="${ICON(a.i)}" alt=""><div><div class="a">${a.secret ? "SECRET FOUND" : "ACHIEVEMENT EARNED"}</div><div class="b">${esc(a.n)}</div><div class="c">${esc(a.d)}</div></div>`;

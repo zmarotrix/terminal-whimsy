@@ -186,7 +186,7 @@ function evalString(src, ielm = true) {
     if (typeof r === "string" && r === "willow") award("willow");
     return (messages.length ? messages.join("\n") + "\n" : "") + (ielm ? ielmShow(r) : pr(r));
   } catch (e) {
-    if (e instanceof LispError) { award("elisperror"); return (messages.length ? messages.join("\n") + "\n" : "") + `*** Eval error ***  ${e.m}`; }
+    if (e instanceof LispError) { award("elisperror"); window.TWLOG && window.TWLOG.push("elisperror", { line: src, err: e.m }); return (messages.length ? messages.join("\n") + "\n" : "") + `*** Eval error ***  ${e.m}`; }
     throw e;
   }
 }

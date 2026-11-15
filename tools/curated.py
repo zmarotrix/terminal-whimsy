@@ -229,6 +229,7 @@ ACH = {
     "cg": {"n": "Keyboard Quit", "d": "Pressed C-g. Everything's fine now.", "i": "spell_nature_timestop", "cat": "Emacs", "secret": True},
     "homesick": {"n": "Homesick", "d": "Pressed C-x C-c in a plain shell.", "i": "inv_misc_note_06", "cat": "Emacs", "secret": True},
     "named": {"n": "Nameplate", "d": "Told the terminal your name.", "i": "inv_scroll_08", "cat": "Terminal", "secret": True},
+    "resize": {"n": "Bigger Window", "d": "Resized the terminal.", "i": "trade_engineering", "cat": "Terminal", "secret": True},
     "themed": {"n": "Interior Decorator", "d": "Changed the terminal's theme.", "i": "inv_misc_gem_02", "cat": "Terminal", "secret": True},
     # ---- Fun ----
     "fortune": {"n": "Fortunate", "d": "Drew a Darkmoon fortune.", "i": "inv_misc_ticket_tarot_lunacy", "cat": "Fun", "secret": True},

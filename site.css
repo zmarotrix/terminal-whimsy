@@ -612,3 +612,9 @@ html.ressick main{filter:blur(.6px) saturate(.6);transition:filter 2s}
 .nether h2{font-size:clamp(2rem,6vw,3.4rem);margin:.5rem 0 1rem;color:#c6ff7a;text-shadow:0 0 30px rgba(142,245,59,.5)}
 .nether .lede{max-width:56ch;color:#d7dbe8;font-size:1.1rem}
 .nether .btn img{width:22px;height:22px;border-radius:5px}
+
+/* terminal resize grip */
+.con-grip{position:absolute;left:0;right:0;bottom:-7px;height:14px;cursor:ns-resize;touch-action:none;z-index:2}
+.con-grip::after{content:"";position:absolute;left:50%;top:5px;width:56px;height:4px;margin-left:-28px;border-radius:4px;background:var(--term);opacity:.45;transition:opacity .2s,width .2s,margin .2s}
+.con-grip:hover::after,.console.resizing .con-grip::after{opacity:1;width:90px;margin-left:-45px}
+.console.resizing{transition:none;user-select:none}

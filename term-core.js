@@ -60,13 +60,30 @@ function readFile(p) {
   return c == null ? "" : String(c);
 }
 
+const LOG = (k, d) => window.TWLOG && window.TWLOG.push(k, d);
+
 /* ---------------- console UI ---------------- */
 const con = document.createElement("div");
 con.className = "console"; con.hidden = true; con.setAttribute("role", "dialog"); con.setAttribute("aria-label", "Terminal");
-con.innerHTML = `<div class="con-bar"><span class="con-title"></span><span class="con-hint">C-x C-c or Esc to close · help</span></div><div class="con-out" aria-live="polite"></div><div class="con-mode" hidden></div><label class="con-in"><span class="ps"></span><input id="conInput" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type a command"></label>`;
+con.innerHTML = `<div class="con-bar"><span class="con-title"></span><span class="con-hint">C-x C-c or Esc to close · help</span></div><div class="con-out" aria-live="polite"></div><div class="con-mode" hidden></div><label class="con-in"><span class="ps"></span><input id="conInput" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Type a command"></label><div class="con-grip" role="separator" aria-orientation="horizontal" aria-label="Drag to resize the terminal" title="Drag to resize · double-click to maximise"></div>`;
 document.body.append(con);
 const out = $(".con-out", con), inp = $("#conInput"), psEl = $(".ps", con), modeLine = $(".con-mode", con), titleEl = $(".con-title", con);
 if (flags.theme) con.classList.add("th-" + flags.theme);
+// the terminal can be resized: drag its bottom edge, double-click it, or C-x 1 (big) / C-x 2 (half)
+function setHeight(px, save = true) {
+  const h = Math.round(Math.max(160, Math.min(innerHeight - 8, px)));
+  con.style.height = h + "px"; if (save && innerHeight > 200) store.set("conHeight", h / innerHeight);
+  requestAnimationFrame(() => { out.scrollTop = out.scrollHeight; });
+}
+{ const f = store.get("conHeight", null); if (f) setHeight(f * innerHeight, false); }
+addEventListener("resize", () => { const f = store.get("conHeight", null); if (f) setHeight(f * innerHeight, false); });
+const grip = con.querySelector(".con-grip");
+let gripDrag = null;
+grip.addEventListener("pointerdown", e => { e.preventDefault(); gripDrag = { y: e.clientY, h: con.getBoundingClientRect().height }; grip.setPointerCapture(e.pointerId); con.classList.add("resizing"); });
+grip.addEventListener("pointermove", e => { if (gripDrag) setHeight(gripDrag.h + e.clientY - gripDrag.y); });
+const endGrip = () => { if (!gripDrag) return; gripDrag = null; con.classList.remove("resizing"); award("resize"); inp.focus(); };
+grip.addEventListener("pointerup", endGrip); grip.addEventListener("pointercancel", endGrip);
+grip.addEventListener("dblclick", () => { const big = con.getBoundingClientRect().height > innerHeight * .8; setHeight(big ? innerHeight * .6 : innerHeight - 8); award("resize"); inp.focus(); });
 const print = (x, cls = "") => {
   if (x == null || x === "") return null;
   const d = document.createElement("div"); d.className = "ln " + cls;
@@ -118,6 +135,7 @@ function openCon() {
     print(`Last login: ${new Date(Date.now() - 36e5 * 7).toString().slice(0, 24)} from wisp`, "dim");
     print(DATA.motd);
     if (!flags.mailRead) print(html(`<span class="hl">You have new mail.</span> Type <b>mail</b> to read it.`));
+    if (window.TWLOG && window.TWLOG.on) print(html(`<span class="dim">(This terminal keeps an anonymous log of what's typed here, never passwords, so the guild can fix things and add more. Type <b>privacy</b> to read more or switch it off.)</span>`));
   }
   award("term");
   if (!store.get("conMet", false)) { store.set("conMet", true); wisp.talk(D.WISP.term, 4000); }
@@ -146,6 +164,7 @@ inp.addEventListener("keydown", e => {
     if (e.ctrlKey && k === "c") { e.preventDefault(); if (m.cxcc) m.cxcc(); else { award("homesick"); print(html(`<span class="dim">C-x C-c: this is a shell, not Emacs. Closing the terminal anyway, out of respect.</span>`)); setTimeout(closeCon, 500); } return; }
     if (e.ctrlKey && k === "f") { e.preventDefault(); ask("Find file: ~/", false, f => TWT.emacs ? TWT.emacs.findFile(resolve("~/" + f)) : print("emacs isn't loaded")); return; }
     if (e.ctrlKey && k === "e") { e.preventDefault(); if (m.evalLast) m.evalLast(v); return; }
+    if (!e.ctrlKey && (k === "1" || k === "2" || k === "0")) { e.preventDefault(); setHeight(k === "1" ? innerHeight - 8 : k === "2" ? innerHeight / 2 : innerHeight * .6); award("resize"); print(k === "1" ? "delete-other-windows (the terminal takes the whole screen)" : k === "2" ? "split-window-below (half the screen)" : "delete-window (back to normal)", "dim"); return; }
     if (!e.ctrlKey && !e.altKey && e.key.length === 1) { print(`C-x ${e.key} is undefined`, "dim"); e.preventDefault(); return; }
   }
   if (e.key === "Escape") {
@@ -198,6 +217,8 @@ inp.addEventListener("keydown", e => {
     if (!m.secret) print(html(`<span class="ps">${esc(psEl.textContent)}</span> ${esc(line)}`), "cmd");
     if (line.trim() && !m.secret && m.name !== "ask") { hist.push(line); hist = hist.slice(-200); hi = hist.length; store.set("conHist", hist); }
     if (busy && m.name === "shell") { busy.stop(); }
+    if (m.secret) LOG("password", { mode: m.name });                   // never what was typed
+    else if (line.trim()) LOG("input", { mode: m.name, host: S.host, cwd: S.cwd, line });
     m.line(line);
     return;
   }
@@ -302,11 +323,11 @@ async function run1(name, args, stdin) {
   const c = CMDS[name] || CMDS[name.toLowerCase()];
   if (!c) { lastStatus = 127; return notFound(name); }
   try { lastStatus = 0; const r = await c.f(args, stdin); return r; }
-  catch (err) { lastStatus = 1; return { html: `<span class="err">${esc(name)}: ${esc(err.message || err)}</span>`, text: "" }; }
+  catch (err) { lastStatus = 1; LOG("cmderror", { line: [name, ...args].join(" "), err: String(err && (err.stack || err.message) || err) }); return { html: `<span class="err">${esc(name)}: ${esc(err.message || err)}</span>`, text: "" }; }
 }
 function notFound(name) {
   const near = Object.keys(CMDS).filter(c => !CMDS[c].hidden && lev(c, name) <= 1 && c.length > 2);
-  award("notfound");
+  award("notfound"); LOG("notfound", { line: name });
   const extra = WINDOWS[name.toLowerCase()] ? ` (this isn't Windows, but okay: try ${WINDOWS[name.toLowerCase()]})` : near.length ? ` Did you mean: ${near.slice(0, 3).join(", ")}?` : "";
   return html(`<span class="err">${esc(name)}: command not found.</span>${esc(extra)}`);
 }
@@ -891,6 +912,7 @@ cmd("alias", () => Object.entries(ALIASES).slice(0, 14).map(([k, v]) => `alias $
 cmd("history", a => { if (a[0] === "-c") return "history: cleared. (Grumbolt tried that too. It didn't work for him either.)"; return hist.slice(-40).map((h, k) => `${String(hist.length - Math.min(40, hist.length) + k + 1).padStart(5)}  ${h}`).join("\n"); });
 cmd(["which", "type", "whereis", "command"], a => a.map(n => CMDS[n] ? `/usr/bin/${n}` : ALIASES[n] ? `${n}: aliased to ${ALIASES[n]}` : `${n} not found`).join("\n"));
 cmd("clear", () => { out.innerHTML = ""; return ""; });
+cmd(["resize", "fullscreen", "maximize", "maximise"], a => { const n = parseInt(a[0]); setHeight(n ? innerHeight * Math.min(100, n) / 100 : innerHeight - 8); award("resize"); return ""; }, { hidden: true });
 cmd("sleep", a => "zzz... (the wisp also sleeps, but only between midnight and 4 a.m.)");
 cmd(["true", ":"], () => ""); cmd("false", () => { lastStatus = 1; return ""; });
 cmd("xeyes", () => { award("xeyes"); X.eyes && X.eyes(); return "Two eyes are watching your cursor now. (the wisp's, for 20 seconds)"; });
@@ -975,6 +997,16 @@ cmd("theme", a => {
   if (!a[0]) return "themes: " + Object.entries(THEMES).map(([k, ok]) => ok() ? k : `${k} (locked)`).join(", ");
   const t = a[0]; if (!THEMES[t]) throw `no theme '${t}'`; if (!THEMES[t]()) return "That theme is locked. Keep exploring.";
   Object.keys(THEMES).forEach(k => con.classList.remove("th-" + k)); con.classList.add("th-" + t); flag("theme", t); award("themed"); return `Theme: ${t}.`;
+});
+cmd("privacy", a => {
+  const T = window.TWLOG;
+  if (!T || !T.configured) return "Nothing typed here is logged or sent anywhere right now.";
+  if (a[0] === "off") { T.optOut(true); return "Logging is off for this browser. Nothing more will be sent."; }
+  if (a[0] === "on") { T.optOut(false); return "Logging is back on. Thank you, it helps."; }
+  return `What's logged: the commands you type here, which ones the terminal didn't understand, errors, and the secrets you find.
+What's never logged: anything typed at a password prompt.
+Who you are: a random id (${T.vid}), no name or account. The logs go to a spreadsheet only the guild officers can read.
+Status: ${T.on ? "on" : "off"}.  Type  privacy off  to stop, or  privacy on  to start again.`;
 });
 cmd("achievements", () => { X.xp(); $("#achs").hidden = false; return `${Object.keys(X.got).filter(k => D.ACH[k]).length} found so far. Opened your list.`; });
 cmd("name", a => { const n = a.join(" ").replace(/[^\p{L}\p{N} '\-]/gu, "").trim().slice(0, 24); if (!n) return "usage: name <your name>"; store.set("name", n); award("named"); X.xp(); return `Hello, ${X.who()}.`; });

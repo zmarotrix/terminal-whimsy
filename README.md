@@ -44,5 +44,8 @@ whimsy@forever, with a quest called the Seven Seals, an Emacs with a small Lisp,
   `tools/term/vault.html`. The files are lightly scrambled; the Vault is AES-GCM encrypted with the seven seal words,
   and the seals are checked by hash, so View Source doesn't give the answers away.
 - After changing any script or style, run `python tools/stamp.py` so browsers fetch the new version.
+- `log.js` + `config.js`: an anonymous log of what people type in the terminal (never passwords), unknown commands,
+  errors and secrets found, sent to a Google Sheet. Off until `config.js` has a `logUrl`; setup in `tools/logger/README.md`.
+  Players see a notice in the terminal and can turn it off with `privacy off`.
 
 Game art and icons come from the WoW Forever client and are © Blizzard Entertainment. Not affiliated with Blizzard.

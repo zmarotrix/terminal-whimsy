@@ -140,7 +140,7 @@ function act(line) {
     case "sleep": return say("You nap on the spot. When you wake, nothing has changed, except you're well rested.");
     case "dance": return say("You dance. Nobody here judges you. Except Sayge. Sayge always judges.");
     case "eat": return has("fish") ? say("You consider eating the fish. The murloc, somewhere, senses this and weeps.") : say("You have nothing edible.");
-    default: return say(["I don't know how to do that.", "That doesn't seem to work here.", `You can't "${v}" here.`][s.moves % 3]);
+    default: window.TWLOG && window.TWLOG.push("advunknown", { line, room: s.room }); return say(["I don't know how to do that.", "That doesn't seem to work here.", `You can't "${v}" here.`][s.moves % 3]);
   }
 }
 function examine(obj) {

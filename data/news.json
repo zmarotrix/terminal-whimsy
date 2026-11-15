@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T10:43:09Z",
+ "updated": "2026-11-15T11:01:18Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -26,6 +26,23 @@
    "id": "e380e795ad",
    "first": "2026-11-15T08:53:45Z",
    "last": "2026-11-15T08:53:45Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Ohhhh I get it now. They call it WoW Forever because that's how long you play it for in one sitting.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwnr4s/ohhhh_i_get_it_now_they_call_it_wow_forever/",
+   "date": "2026-11-15T05:49:37Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/jojoswoon",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "3b7721c4a4",
+   "first": "2026-11-15T05:49:37Z",
+   "last": "2026-11-15T05:49:37Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -417,9 +434,9 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
     "druid",
-    "paladin"
+    "paladin",
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -591,7 +608,7 @@
     "leveling"
    ],
    "classes": [],
-   "n": 3,
+   "n": 2,
    "official": false,
    "also": [
     {
@@ -600,13 +617,6 @@
      "source": "Google News",
      "label": "press",
      "date": "2026-11-14T15:06:17Z"
-    },
-    {
-     "title": "We may have met if you’ve done a sleeping bag quest",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xw0iln/we_may_have_met_if_youve_done_a_sleeping_bag_quest/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-14T11:47:59Z"
     }
    ]
   },
@@ -968,6 +978,23 @@
    ]
   },
   {
+   "title": "After A Week With WoW: Forever, Classic WoW Feels New Again",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTXFuLXZ6cVJlX1VIRmhUbWdxNm84TDd2NDFqNWN0Qnd0NXN1ejAydl9IaDJwMGJONldHUXdCTUY5d00wYWowZTkyVVV3a2RCMVN2LXB6bGM3eUJFb19LQWVDaWJXcGctQWdOMGhpYVBBQVlNSXFNbE0tTG9zZDNxaTRxSW1CTFAxQnREdWJqQkFaQ1IyNnBB?oc=5",
+   "date": "2026-11-13T17:50:04Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "GameSpot",
+   "icon": "inv_misc_spyglass_03",
+   "id": "8b524faef9",
+   "first": "2026-11-13T17:50:04Z",
+   "last": "2026-11-13T17:50:04Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW Forever Legacy Points explained",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0VTZ0aDdVb0d2N2FOZzkzQ1hxeXlfdVNkX19ud2pnZ0cyZlFKUmVxQ180d196UkJjYlJRTVNPLVowdUpmWU9VbC1XQmUwajVNbWEyaVZpSUhHa3pSdktMLWZWNWtjak5LUERaQlYxYw?oc=5",
    "date": "2026-11-13T17:32:24Z",
@@ -1116,6 +1143,28 @@
    "also": []
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-13T10:31:24Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "59e25fb230",
+   "first": "2026-11-13T10:31:24Z",
+   "last": "2026-11-13T10:31:24Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Warlock Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVjV5ZW5pTGtwODVlRy16SjJNdk4yVUU2Z2cwQ2FtNmlxYldPMjZhQngtVWgtZ0l3VTZGSVo5cWc5WTFmVlg1dnRFeWE3RFFHSjRsOVVMSmdUb004OUdJQUpWdFViZzlpWVFCLU5QNGRTdw?oc=5",
    "date": "2026-11-13T09:55:12Z",
@@ -1246,49 +1295,6 @@
    "also": []
   },
   {
-   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
-   "date": "2026-11-13T04:37:16Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ba18526e01",
-   "first": "2026-11-13T04:37:16Z",
-   "last": "2026-11-13T04:37:16Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "rogue"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Demonology Warlock Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-13T03:52:55Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "7650134c20",
-   "first": "2026-11-13T03:52:55Z",
-   "last": "2026-11-13T03:52:55Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "warlock"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
    "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out",
    "date": "2026-11-12T22:45:42Z",
@@ -1319,8 +1325,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1437,8 +1443,8 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
     "story",
+    "pvp",
     "realms"
    ],
    "classes": [],
@@ -1515,9 +1521,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "professions",
     "hotfix",
-    "items",
-    "professions"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1633,8 +1639,8 @@
     "hotfix"
    ],
    "classes": [
-    "hunter",
     "warlock",
+    "hunter",
     "shaman"
    ],
    "n": 1,
@@ -2069,8 +2075,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2586,8 +2592,8 @@
    "last": "2026-11-03T18:00:00Z",
    "tags": [
     "classes",
-    "pvp",
     "leveling",
+    "pvp",
     "ui"
    ],
    "classes": [],
@@ -2971,6 +2977,17 @@
    "date": "2026-11-15T08:53:45Z",
    "summary": "Apparently people don’t agree that healer druids can need on it. Worth it. Just need the boots. Check out this cool flower I found today too kinda looks like me",
    "who": "/u/Frea_ks",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Ohhhh I get it now. They call it WoW Forever because that's how long you play it for in one sitting.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xwnr4s/ohhhh_i_get_it_now_they_call_it_wow_forever/",
+   "date": "2026-11-15T05:49:37Z",
+   "who": "/u/jojoswoon",
    "source": "r/wowforever",
    "label": "community",
    "icon": "inv_shirt_guildtabard_01",
@@ -3499,17 +3516,6 @@
    "classes": []
   },
   {
-   "title": "We may have met if you’ve done a sleeping bag quest",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xw0iln/we_may_have_met_if_youve_done_a_sleeping_bag_quest/",
-   "date": "2026-11-14T11:47:59Z",
-   "who": "/u/WhatIfSkynet_",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
    "date": "2026-11-14T02:57:50Z",
@@ -3722,6 +3728,17 @@
    "classes": []
   },
   {
+   "title": "After A Week With WoW: Forever, Classic WoW Feels New Again",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTXFuLXZ6cVJlX1VIRmhUbWdxNm84TDd2NDFqNWN0Qnd0NXN1ejAydl9IaDJwMGJONldHUXdCTUY5d00wYWowZTkyVVV3a2RCMVN2LXB6bGM3eUJFb19LQWVDaWJXcGctQWdOMGhpYVBBQVlNSXFNbE0tTG9zZDNxaTRxSW1CTFAxQnREdWJqQkFaQ1IyNnBB?oc=5",
+   "date": "2026-11-13T17:50:04Z",
+   "who": "GameSpot",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "WoW Forever Legacy Points explained",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0VTZ0aDdVb0d2N2FOZzkzQ1hxeXlfdVNkX19ud2pnZ0cyZlFKUmVxQ180d196UkJjYlJRTVNPLVowdUpmWU9VbC1XQmUwajVNbWEyaVZpSUhHa3pSdktMLWZWNWtjak5LUERaQlYxYw?oc=5",
    "date": "2026-11-13T17:32:24Z",
@@ -3814,6 +3831,22 @@
    "classes": []
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-13T10:31:24Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
+  {
    "title": "Warlock Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVjV5ZW5pTGtwODVlRy16SjJNdk4yVUU2Z2cwQ2FtNmlxYldPMjZhQngtVWgtZ0l3VTZGSVo5cWc5WTFmVlg1dnRFeWE3RFFHSjRsOVVMSmdUb004OUdJQUpWdFViZzlpWVFCLU5QNGRTdw?oc=5",
    "date": "2026-11-13T09:55:12Z",
@@ -3897,37 +3930,6 @@
    ],
    "classes": [
     "priest"
-   ]
-  },
-  {
-   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
-   "date": "2026-11-13T04:37:16Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "rogue"
-   ]
-  },
-  {
-   "title": "Demonology Warlock Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-13T03:52:55Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "warlock"
    ]
   },
   {

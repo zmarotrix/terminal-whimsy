@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:58:41Z",
+ "updated": "2026-11-15T09:10:26Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -224,6 +224,25 @@
    "also": []
   },
   {
+   "title": "WoW Forever Deadmines: Toxic Soil Quest Chain, Bosses and Loot",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yLUwtSUI4UEsxWmJDeXZmYV9FeDNtMFFIdFFRTjE4QVIzZDZhYjNudGtBcDIxdkdhUm9sOVFnVl9YS1U0dmNzR25sYkNwc1RONzMwV3RmaUptT0M4YTdoZ1BkUXF0TXkzbTJiSnMyQXotdlE?oc=5",
+   "date": "2026-11-14T20:04:13Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "4f0e47d29e",
+   "first": "2026-11-14T20:04:13Z",
+   "last": "2026-11-14T20:04:13Z",
+   "tags": [
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW: Forever Hotfixes - November 13, 2026",
    "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-13-2026",
    "date": "2026-11-14T01:53:01Z",
@@ -327,6 +346,30 @@
    "also": []
   },
   {
+   "title": "WoW Forever Class Hotfixes November 13: Wild Growth, Windfury, Judgement",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSmtuWFZaaFJQaDJWdHRpR1p1RzJEU1dYbHFSbEJCbjNXd0RtRTFEbFREbE1va1VuVUZBZElhM09UWlVFdXFsU01Lci1CNnUwU0wzREN2SzZWZ1ZqcTNoMGwzcTFGbFFtZ0xpazRjVWE3enMteXN0NVhlVWN5VU91WA?oc=5",
+   "date": "2026-11-14T17:08:35Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "cc47c6b75a",
+   "first": "2026-11-14T17:08:35Z",
+   "last": "2026-11-14T17:08:35Z",
+   "tags": [
+    "classes",
+    "hotfix"
+   ],
+   "classes": [
+    "paladin",
+    "shaman",
+    "druid"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "This is a bad change and hurts the community far more than a small amount of boosters",
    "url": "https://www.reddit.com/r/wowforever/comments/1xw7e2b/this_is_a_bad_change_and_hurts_the_community_far/",
    "date": "2026-11-14T17:02:19Z",
@@ -356,8 +399,8 @@
    "first": "2026-11-14T16:28:04Z",
    "last": "2026-11-14T16:28:04Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -394,8 +437,8 @@
    "first": "2026-11-14T16:00:10Z",
    "last": "2026-11-14T16:00:10Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -441,6 +484,41 @@
    "n": 1,
    "official": false,
    "also": []
+  },
+  {
+   "title": "Lost Training Purchase Refunds - November 13",
+   "url": "https://us.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-november-13/2415068/1",
+   "date": "2026-11-14T01:36:48.839000Z",
+   "label": "official",
+   "source": "Blizzard forums (US)",
+   "summary": "With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers…",
+   "who": "Kaivax (Community Manager)",
+   "icon": "inv_scroll_03",
+   "id": "b551c766ee",
+   "first": "2026-11-14T01:36:48.839000Z",
+   "last": "2026-11-14T15:11:04Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [],
+   "n": 3,
+   "official": true,
+   "also": [
+    {
+     "title": "WoW: Forever - Lost Training Purchase Refunds",
+     "url": "https://www.mmo-champion.com/content/14695-WoW-Forever-Lost-Training-Purchase-Refunds",
+     "source": "MMO-Champion",
+     "label": "press",
+     "date": "2026-11-14T01:40:00Z"
+    },
+    {
+     "title": "WoW Forever Refund: Gold for Lost Skills Sent by Mail",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtTWFpUjUxYTVydnU5elJfV002RENFZEpHZ0RlX1hvaWJNaERpeUVqcUNtTktxc2VSSWxZWEstWmtsYU9QcWtuMXh4MzNFNmlYcXY5RHYxY2NiSzBHYndhMXRFcjVGMVBLOC1yeEo3czctNy1tOXc?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-14T15:11:04Z"
+    }
+   ]
   },
   {
    "title": "Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever",
@@ -528,8 +606,8 @@
    "first": "2026-11-14T14:49:42Z",
    "last": "2026-11-14T14:49:42Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -653,8 +731,8 @@
    "last": "2026-11-14T12:12:47Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 2,
@@ -702,8 +780,8 @@
    "first": "2026-11-14T10:45:36Z",
    "last": "2026-11-14T10:45:36Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -766,32 +844,6 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "Lost Training Purchase Refunds - November 13",
-   "url": "https://us.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-november-13/2415068/1",
-   "date": "2026-11-14T01:36:48.839000Z",
-   "label": "official",
-   "source": "Blizzard forums (US)",
-   "summary": "With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers…",
-   "who": "Kaivax (Community Manager)",
-   "icon": "inv_scroll_03",
-   "id": "b551c766ee",
-   "first": "2026-11-14T01:36:48.839000Z",
-   "last": "2026-11-14T01:40:00Z",
-   "tags": [],
-   "classes": [],
-   "n": 2,
-   "official": true,
-   "also": [
-    {
-     "title": "WoW: Forever - Lost Training Purchase Refunds",
-     "url": "https://www.mmo-champion.com/content/14695-WoW-Forever-Lost-Training-Purchase-Refunds",
-     "source": "MMO-Champion",
-     "label": "press",
-     "date": "2026-11-14T01:40:00Z"
-    }
-   ]
   },
   {
    "title": "Riverglades is One of the Best Leveling Zones in WoW: Forever",
@@ -880,8 +932,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -901,8 +953,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -1143,8 +1195,8 @@
    "first": "2026-11-13T04:37:16Z",
    "last": "2026-11-13T04:37:16Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "rogue"
@@ -1186,8 +1238,8 @@
    "first": "2026-11-13T03:38:58Z",
    "last": "2026-11-13T03:38:58Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warrior"
@@ -1263,23 +1315,6 @@
    "id": "cc604d321d",
    "first": "2026-11-12T20:19:00Z",
    "last": "2026-11-12T20:19:00Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever Players Discover Its First Major Secret",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHJIajhnM2EydVdsQ3JvR2hOa2NEbElDeTd3ckFyQTdsbTMzUFFvQjNvYW5uZXFVeDdmNl9GeF9kMDRHVmpDcGxJOVhaSDY4U09XUTdBdVR1SGZpbVYxdnN6TWJ3YXpZTkxLZ05XR2hjNUZjQmF0czU2NlphQ2s3WUM5N29qeUt2VFJKMkxnM2lHaFFfUVIzdEFHdVMyWmsw?oc=5",
-   "date": "2026-11-12T19:26:01Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "OpenCritic",
-   "icon": "inv_misc_spyglass_03",
-   "id": "d4b93e36ae",
-   "first": "2026-11-12T19:26:01Z",
-   "last": "2026-11-12T19:26:01Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -1396,46 +1431,10 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
     "story",
-    "realms"
+    "realms",
+    "pvp"
    ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Dungeon XP: What Blizzard Says and What Players Write",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MMlFtVVZZc0Z5V1N6U0FrTE5fbko2QWQ4UkoyQ0hBQ29SdGZVb05aRXB4SWZnSi01bzFBcU1KNE9NV3ROOENJaGxDME9VRzFBY1JhUUlaVGxGVmhjaHY1T1dyUWZlZmF3THpKRGpDVlNocHhw?oc=5",
-   "date": "2026-11-12T17:25:03Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "74e0581303",
-   "first": "2026-11-12T17:25:03Z",
-   "last": "2026-11-12T17:25:03Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW: Forever Is For Everyone, And Launch Just Proved It",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObW83VXdOOXZWeE91WXBKd3hoaEFtckJuN1pkSlk4cG5VZjFCRUNCcVdXWkhEeTFURjkwcHZfbWhqWkhvQlcyQTNFZHI5anBWUTRNTW1IX180OURDTm9GZTBVbEw1Q0h1MDVSMllyX1QwMzFqN08xTm1UdUNGdUJXV0tSR1VUbU5vanV5VFJUMXpuUQ?oc=5",
-   "date": "2026-11-12T16:40:24Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GameSpot",
-   "icon": "inv_misc_spyglass_03",
-   "id": "d241c334eb",
-   "first": "2026-11-12T16:40:24Z",
-   "last": "2026-11-12T16:40:24Z",
-   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -1510,9 +1509,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "items",
     "professions",
-    "hotfix",
-    "items"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1569,8 +1568,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1865,9 +1864,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "hotfix",
     "items",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -1942,9 +1941,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "hotfix",
     "ui",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [
     "druid"
@@ -1966,8 +1965,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1987,8 +1986,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2026,9 +2025,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "hotfix",
+    "classes",
     "leveling",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2293,8 +2292,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2580,10 +2579,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
-    "leveling",
     "ui",
-    "classes"
+    "classes",
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2603,9 +2602,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
+    "classes",
     "leveling",
-    "classes"
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3089,6 +3088,19 @@
    "classes": []
   },
   {
+   "title": "WoW Forever Deadmines: Toxic Soil Quest Chain, Bosses and Loot",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yLUwtSUI4UEsxWmJDeXZmYV9FeDNtMFFIdFFRTjE4QVIzZDZhYjNudGtBcDIxdkdhUm9sOVFnVl9YS1U0dmNzR25sYkNwc1RONzMwV3RmaUptT0M4YTdoZ1BkUXF0TXkzbTJiSnMyQXotdlE?oc=5",
+   "date": "2026-11-14T20:04:13Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "items"
+   ],
+   "classes": []
+  },
+  {
    "title": "We've got the most recent #WoWForever hotfixes that address various issues in the game. Some hotfixes may be immediate while others take a…",
    "url": "https://bsky.app/profile/support.blizzard.com/post/3n2cbyqxybu2a",
    "date": "2026-11-14T20:00:01.260000Z",
@@ -3184,6 +3196,24 @@
    "classes": []
   },
   {
+   "title": "WoW Forever Class Hotfixes November 13: Wild Growth, Windfury, Judgement",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSmtuWFZaaFJQaDJWdHRpR1p1RzJEU1dYbHFSbEJCbjNXd0RtRTFEbFREbE1va1VuVUZBZElhM09UWlVFdXFsU01Lci1CNnUwU0wzREN2SzZWZ1ZqcTNoMGwzcTFGbFFtZ0xpazRjVWE3enMteXN0NVhlVWN5VU91WA?oc=5",
+   "date": "2026-11-14T17:08:35Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "hotfix",
+    "classes"
+   ],
+   "classes": [
+    "paladin",
+    "shaman",
+    "druid"
+   ]
+  },
+  {
    "title": "This is a bad change and hurts the community far more than a small amount of boosters",
    "url": "https://www.reddit.com/r/wowforever/comments/1xw7e2b/this_is_a_bad_change_and_hurts_the_community_far/",
    "date": "2026-11-14T17:02:19Z",
@@ -3275,6 +3305,19 @@
    "label": "community",
    "icon": "inv_shirt_guildtabard_01",
    "tags": [],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever Refund: Gold for Lost Skills Sent by Mail",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtTWFpUjUxYTVydnU5elJfV002RENFZEpHZ0RlX1hvaWJNaERpeUVqcUNtTktxc2VSSWxZWEstWmtsYU9QcWtuMXh4MzNFNmlYcXY5RHYxY2NiSzBHYndhMXRFcjVGMVBLOC1yeEo3czctNy1tOXc?oc=5",
+   "date": "2026-11-14T15:11:04Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
    "classes": []
   },
   {
@@ -3916,17 +3959,6 @@
    "classes": []
   },
   {
-   "title": "World of Warcraft: Forever Players Discover Its First Major Secret",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHJIajhnM2EydVdsQ3JvR2hOa2NEbElDeTd3ckFyQTdsbTMzUFFvQjNvYW5uZXFVeDdmNl9GeF9kMDRHVmpDcGxJOVhaSDY4U09XUTdBdVR1SGZpbVYxdnN6TWJ3YXpZTkxLZ05XR2hjNUZjQmF0czU2NlphQ2s3WUM5N29qeUt2VFJKMkxnM2lHaFFfUVIzdEFHdVMyWmsw?oc=5",
-   "date": "2026-11-12T19:26:01Z",
-   "who": "OpenCritic",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "New High Level Battle Mage Weapon Discovered in WoW: Forever",
    "url": "https://www.wowhead.com/news=383860/new-high-level-battle-mage-weapon-discovered-in-wow-forever",
    "date": "2026-11-12T19:25:01Z",
@@ -4039,19 +4071,6 @@
    "classes": []
   },
   {
-   "title": "WoW Forever Dungeon XP: What Blizzard Says and What Players Write",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MMlFtVVZZc0Z5V1N6U0FrTE5fbko2QWQ4UkoyQ0hBQ29SdGZVb05aRXB4SWZnSi01bzFBcU1KNE9NV3ROOENJaGxDME9VRzFBY1JhUUlaVGxGVmhjaHY1T1dyUWZlZmF3THpKRGpDVlNocHhw?oc=5",
-   "date": "2026-11-12T17:25:03Z",
-   "who": "space4games",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
    "title": "Watch the WoW: Forever Podcast – The Lore Episode",
    "url": "https://news.blizzard.com/en-us/article/24316981/watch-the-wow-forever-podcast-the-lore-episode",
    "date": "2026-11-12T17:15:00Z",
@@ -4062,17 +4081,6 @@
    "tags": [
     "story"
    ],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever Is For Everyone, And Launch Just Proved It",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObW83VXdOOXZWeE91WXBKd3hoaEFtckJuN1pkSlk4cG5VZjFCRUNCcVdXWkhEeTFURjkwcHZfbWhqWkhvQlcyQTNFZHI5anBWUTRNTW1IX180OURDTm9GZTBVbEw1Q0h1MDVSMllyX1QwMzFqN08xTm1UdUNGdUJXV0tSR1VUbU5vanV5VFJUMXpuUQ?oc=5",
-   "date": "2026-11-12T16:40:24Z",
-   "who": "GameSpot",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {

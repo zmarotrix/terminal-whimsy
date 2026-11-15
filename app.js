@@ -336,7 +336,7 @@ function renderChanges() {
   $("#ledger").innerHTML = L.map(c => {
     const a = AREAS[c.area] || {}, ic = c.class ? CL[c.class].i : (c.i || a.i || "inv_misc_questionmark");
     return `<details class="chg" id="c-${c.id}" data-id="${c.id}"><summary>${icon(ic)}<div><h3>${esc(c.title)}${read[c.id] ? "" : ""}</h3>
-      <div class="diff">${c.classic ? `<span class="was">${esc(c.classic)}</span><span class="arrow">→</span>` : ""}<span class="now">${esc(c.forever)}</span></div></div>
+      <div class="diff">${c.classic ? `<span class="tg was-t">Classic</span><span class="was">${esc(c.classic)}</span>` : ""}<span class="tg now-t">Forever</span><span class="now">${esc(c.forever)}</span></div></div>
       <div class="tags"><span class="badge sev-${c.severity}">${c.severity}</span><span class="badge cf-${c.confidence}">${c.confidence}</span></div></summary>
       <div class="body"><div class="impact"><b>WHY YOUR RAID CARES</b>${esc(c.impact)}</div>
       ${c.more ? `<p>${esc(c.more)}</p>` : ""}

@@ -184,7 +184,7 @@ WISP = {
         "must": "> start here. eleven things, sixty seconds. i timed it.",
         "road": "> raids open 9 december. i've been counting. obsessively.",
         "you": "> pick your class. i won't tell anyone if it's a hunter.",
-        "changes": "> classic is struck through, forever is not. that's the whole trick.",
+        "changes": "> how classic did it, then how forever does it. that's the whole trick.",
         "gear": "> click the armour pieces. the set bonuses glow. very satisfying.",
         "said": "> everything blizzard said, with receipts. every line links to the source.",
         "wire": "> fresh news every three hours. gold means blizzard said it.",

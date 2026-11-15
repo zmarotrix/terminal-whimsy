@@ -160,9 +160,11 @@ section.ch{padding-block:clamp(3.5rem,9vw,6.5rem);border-bottom:1px solid var(--
 .chg>summary::-webkit-details-marker{display:none}
 .chg>summary:hover{background:var(--bg2)}
 .chg h3{font:700 1.06rem/1.25 var(--f-sans)}
-.chg .diff{display:flex;flex-wrap:wrap;gap:.25rem .6rem;font-size:.95rem;margin-top:.25rem;color:var(--muted)}
-.chg .diff .was{text-decoration:line-through;text-decoration-color:var(--rose);color:var(--dim)}
-.chg .diff .arrow{color:var(--term)}
+.chg .diff{display:grid;grid-template-columns:auto minmax(0,1fr);gap:.35rem .65rem;align-items:baseline;font-size:.95rem;line-height:1.45;margin-top:.45rem}
+.chg .diff .tg{font:700 .62rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.28rem .4rem;border-radius:4px;text-align:center;position:relative;top:-.08em}
+.chg .diff .was-t{color:#c3b6a6;background:rgba(195,182,166,.1);border:1px solid rgba(195,182,166,.28)}
+.chg .diff .now-t{color:var(--term);background:rgba(124,242,154,.1);border:1px solid rgba(124,242,154,.35)}
+.chg .diff .was{color:#b4b9cb}
 .chg .diff .now{color:var(--ink)}
 .chg .tags{display:flex;flex-direction:column;align-items:flex-end;gap:.3rem}
 .chg .body{padding:0 .3rem 1.2rem calc(44px + 1.3rem);display:flex;flex-direction:column;gap:.7rem}

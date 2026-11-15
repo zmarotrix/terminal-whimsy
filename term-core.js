@@ -157,7 +157,8 @@ function setInput(v, caret = v.length) { inp.value = v; inp.setSelectionRange(ca
 inp.addEventListener("keydown", e => {
   const m = mode(), v = inp.value, a = inp.selectionStart, b = inp.selectionEnd;
   if (m.key && m.key(e) === true) { e.preventDefault(); return; }
-  const k = e.key.toLowerCase();
+  // the physical key, so Option on a Mac (which types ≈ for x) still works as Meta
+  const k = e.code && /^Key[A-Z]$/.test(e.code) ? e.code.slice(3).toLowerCase() : e.code && /^Digit\d$/.test(e.code) && (e.altKey || e.ctrlKey) ? e.code.slice(5) : e.key.toLowerCase();
   // C-x prefix (C-x C-c quits, C-x C-f finds a file, C-x C-e evaluates)
   if (cx) {
     cx = false;
@@ -174,7 +175,7 @@ inp.addEventListener("keydown", e => {
     setTimeout(() => { if (metaUntil && Date.now() >= metaUntil) { metaUntil = 0; if (mode().escape) mode().escape(); else closeCon(); } }, 700);
     return;
   }
-  const meta = e.altKey || (metaUntil && Date.now() < metaUntil && e.key.length === 1);
+  const meta = e.altKey || e.metaKey && k === "x" || (metaUntil && Date.now() < metaUntil && e.key.length === 1);
   if (meta && !e.ctrlKey) {
     metaUntil = 0;
     if (k === "x") { e.preventDefault(); award("mx"); ask("M-x ", false, c => runMx(c.trim())); return; }
@@ -318,6 +319,11 @@ async function runPipeline(toks) {
 async function run1(name, args, stdin) {
   if (/^[A-Z_]+=/.test(name)) { const [k, ...v] = name.split("="); S.env[k] = v.join("="); return ""; }
   if (name.startsWith("./") || name.startsWith("/") && !CMDS[name]) return execFile(resolve(name), args);
+  if (!CMDS[name] && !ALIASES[name] && exists(resolve(name))) {     // e.g. typing .emacs.d/init.el on its own
+    lastStatus = 126;
+    return isDir(resolve(name)) ? html(`<span class="err">whimsh: ${esc(name)}: Is a directory</span> <span class="dim">(cd ${esc(name)} to go in)</span>`)
+      : html(`<span class="err">whimsh: ${esc(name)}: that's a file, not a command.</span> <span class="dim">Read it with <b>cat ${esc(name)}</b>, or open it with <b>emacs ${esc(name)}</b>.</span>`);
+  }
   const alias = ALIASES[name];
   if (alias) { const [n, ...a] = alias.split(" "); return run1(n, [...a, ...args], stdin); }
   const c = CMDS[name] || CMDS[name.toLowerCase()];
@@ -882,7 +888,7 @@ const COWS = {
 };
 cmd(["cowsay", "cowthink"], (a, i) => {
   award("cowsay");
-  const fi = a.indexOf("-f"), kind = fi >= 0 ? a[fi + 1] : "cow", words = a.filter((x, k) => k !== fi && k !== fi + 1).join(" ") || i || "moo";
+  const fi = a.indexOf("-f"), kind = fi >= 0 ? a[fi + 1] : "cow", words = (fi >= 0 ? a.filter((x, k) => k !== fi && k !== fi + 1) : a).join(" ") || i || "moo";
   const art = COWS[kind] || COWS.cow; const t = words.replace(/\s+/g, " ").trim(), w = Math.min(40, t.length);
   const lines = t.match(new RegExp(`.{1,${w}}(\\s|$)`, "g")) || [t];
   const box = lines.length === 1 ? `< ${lines[0].trim()} >` : lines.map((l, k) => `${k === 0 ? "/" : k === lines.length - 1 ? "\\" : "|"} ${l.trim().padEnd(w)} ${k === 0 ? "\\" : k === lines.length - 1 ? "/" : "|"}`).join("\n");

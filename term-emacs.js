@@ -206,8 +206,15 @@ const EMACS = {
     if (!cur.pending && /^(exit|quit|ls|cd|help|q|:q!?)$/.test(src.trim())) { print(`You're in Emacs. C-x C-c (or (kill-emacs)) takes you back to the shell. M-x for commands.`, "dim"); return; }
     if (!balanced(src)) { cur.pending = src; T.refresh(); return; }
     cur.pending = ""; T.refresh();
+    // a bare command name (eval-buffer, doctor...) at the Lisp prompt: real ielm would error; we run it and say how Emacs does it
+    const word = src.trim();
+    if (/^[a-z][\w-]*$/.test(word) && MX[word] && !G.has(sym(word))) { print(`(${word} is a command. In Emacs: M-x ${word}, or (${word}). Running it.)`, "dim"); mx(word); return; }
     const r = evalString(src);
     print(r, r.startsWith("*** Eval error") ? "err" : "elisp");
+    if (/^[a-z][\w-]*$/.test(word) && r.startsWith("*** Eval error")) {
+      const near = Object.keys(MX).filter(c => c.startsWith(word.split("-")[0]) || lev(c, word) <= 3).slice(0, 3);
+      print(near.length ? `Did you mean M-x ${near.join(", M-x ")}?` : "That's read as a variable. Commands go after M-x; Lisp goes in parentheses, like (+ 1 2).", "dim");
+    }
   },
   evalLast(v) { if (v.trim()) print(evalString(v, false), "elisp"); },
   cxcc() { exitEmacs(); },
@@ -237,7 +244,7 @@ function findFile(p) {
   try { text = T.readFile(p); } catch (e) { print(`${String(e)}`, "err"); return; }
   cur.file = p; cur.buf = p.split("/").pop(); cur.text = text;
   cur.major = p.endsWith(".el") ? "Emacs-Lisp" : p.endsWith(".org") ? "Org" : p.endsWith(".b64") ? "Fundamental" : "Text";
-  print(html(`<div class="ebuf">${text.split("\n").map((l, k) => `<span class="lnum">${String(k + 1).padStart(3)}</span> ${cur.major === "Emacs-Lisp" ? lispColor(l) : cur.major === "Org" ? orgColor(l) : esc(l)}`).join("\n")}</div><span class="dim">${esc(cur.buf)} is open. ${cur.major === "Emacs-Lisp" ? "M-x eval-buffer evaluates it. " : ""}C-x C-c quits.</span>`));
+  print(html(`<div class="ebuf">${text.split("\n").map((l, k) => `<span class="lnum">${String(k + 1).padStart(3)}</span> ${cur.major === "Emacs-Lisp" ? lispColor(l) : cur.major === "Org" ? orgColor(l) : esc(l)}`).join("\n")}</div><span class="dim">${esc(cur.buf)} is open. ${cur.major === "Emacs-Lisp" ? "Evaluate it with M-x eval-buffer (Alt+x, or Esc then x, or just type it), or (eval-buffer). " : ""}C-x C-c quits.</span>`));
   T.refresh();
 }
 // colour one raw line of Lisp: find the comment outside strings, then escape each part before wrapping it
@@ -322,7 +329,15 @@ modified   wisp.el   (+7 seals, -0 vim)
   "keyboard-quit": () => print("Quit", "dim"),
   "undo": () => print("Undo! (there was nothing to undo. the wisp undid itself anyway.)", "dim"),
   "vi-mode": () => MX["evil-mode"](), "viper-mode": () => MX["evil-mode"](),
+  // themes: Emacs's theme commands drive the terminal's colour themes
+  "customize-themes": () => T.runLine("theme"),
+  "load-theme": a => a ? T.runLine("theme " + a.replace(/^'/, "")) : ask("Load custom theme: ", false, t => T.runLine("theme " + t.trim())),
+  "disable-theme": () => T.runLine("theme green"),
+  "customize": () => print("Customize: try M-x customize-themes. (Everything else is customised by Grumbolt, in person.)", "dim"),
 };
+const lev = (a, b) => { const d = Array.from({ length: a.length + 1 }, (_, i) => [i]); for (let j = 1; j <= b.length; j++) d[0][j] = j; for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); return d[a.length][b.length]; };
+// every M-x command is also a Lisp function, like in Emacs: (eval-buffer), (doctor), (load-theme 'amber)
+setTimeout(() => { for (const name of Object.keys(MX)) if (!FN.has(sym(name))) def(name, (...a) => { mx([name, ...a.map(x => pr(x, true))].join(" ")); return NIL; }); });
 function mx(c) {
   const [name, ...rest] = c.split(/\s+/);
   if (!name) return;

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:16:10Z",
+ "updated": "2026-11-15T08:58:41Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -394,8 +394,8 @@
    "first": "2026-11-14T16:00:10Z",
    "last": "2026-11-14T16:00:10Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -528,8 +528,8 @@
    "first": "2026-11-14T14:49:42Z",
    "last": "2026-11-14T14:49:42Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -702,8 +702,8 @@
    "first": "2026-11-14T10:45:36Z",
    "last": "2026-11-14T10:45:36Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -843,6 +843,25 @@
    "last": "2026-11-13T19:37:09Z",
    "tags": [
     "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "You Can Probably Guess WoW: Forever’s Most Popular Race, Class, And Faction",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbG1NT2JnRkc1MU5MYVE1di1wbHdHU2ZpcVcyS1NUTS1ITEdBWWF1UUo4NHlQRFhReVkxZDBaTE5kM0JKZHVWOTF5WnZLOF9tYURhZGE0TmFOWHRSakhTcVd6RlhxcE5FT2hqQjN1UEs1SDM3YzVwSzFDZzZGam5Kci04UnR6ZDFtb2Y1Y0REcFRfOF9WOWR3NkV0YkZtbHFpNVFodFpDV1hIdw?oc=5",
+   "date": "2026-11-13T19:15:27Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "GameSpot",
+   "icon": "inv_misc_spyglass_03",
+   "id": "87c17d9bb8",
+   "first": "2026-11-13T19:15:27Z",
+   "last": "2026-11-13T19:15:27Z",
+   "tags": [
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1225,8 +1244,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1377,9 +1396,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "realms",
+    "pvp",
     "story",
-    "pvp"
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1416,23 +1435,6 @@
    "id": "d241c334eb",
    "first": "2026-11-12T16:40:24Z",
    "last": "2026-11-12T16:40:24Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever players in Australia and New Zealand are struggling to get sunlight, and not for the usual MMO reasons",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91aDFTXzBCanVkTldZbThBNHlEV2VENlJqZXgyVkZBWWkwcnVXRFRoSkFSTEk0Z0EtWWZmaElnSWJiTmNCa0VITG45bEkzcVR0ODg4WHQybk45WXlJNmNjMWFaYzNwYnpJTlNrQXowdkozbFZWRkc0?oc=5",
-   "date": "2026-11-12T16:30:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Eurogamer.net",
-   "icon": "inv_misc_spyglass_03",
-   "id": "1a3ae1e076",
-   "first": "2026-11-12T16:30:00Z",
-   "last": "2026-11-12T16:30:00Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -1626,9 +1628,9 @@
     "hotfix"
    ],
    "classes": [
+    "warlock",
     "shaman",
-    "hunter",
-    "warlock"
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -1844,8 +1846,8 @@
     "classes"
    ],
    "classes": [
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -1863,8 +1865,8 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
     "hotfix",
+    "items",
     "classes"
    ],
    "classes": [
@@ -1940,8 +1942,8 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "ui",
     "hotfix",
+    "ui",
     "classes"
    ],
    "classes": [
@@ -1964,8 +1966,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1985,8 +1987,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2024,8 +2026,8 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "leveling",
     "hotfix",
+    "leveling",
     "classes"
    ],
    "classes": [],
@@ -2291,8 +2293,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2578,10 +2580,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
+    "pvp",
     "leveling",
     "ui",
-    "classes",
-    "pvp"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2601,8 +2603,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "leveling",
     "raids",
+    "leveling",
     "classes"
    ],
    "classes": [],
@@ -3578,6 +3580,19 @@
    "classes": []
   },
   {
+   "title": "You Can Probably Guess WoW: Forever’s Most Popular Race, Class, And Faction",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbG1NT2JnRkc1MU5MYVE1di1wbHdHU2ZpcVcyS1NUTS1ITEdBWWF1UUo4NHlQRFhReVkxZDBaTE5kM0JKZHVWOTF5WnZLOF9tYURhZGE0TmFOWHRSakhTcVd6RlhxcE5FT2hqQjN1UEs1SDM3YzVwSzFDZzZGam5Kci04UnR6ZDFtb2Y1Y0REcFRfOF9WOWR3NkV0YkZtbHFpNVFodFpDV1hIdw?oc=5",
+   "date": "2026-11-13T19:15:27Z",
+   "who": "GameSpot",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": []
+  },
+  {
    "title": "New WoW Forever Short Story: The Cost of Honor",
    "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-short-story-the-cost-of-honor/",
    "date": "2026-11-13T18:45:50Z",
@@ -4054,17 +4069,6 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObW83VXdOOXZWeE91WXBKd3hoaEFtckJuN1pkSlk4cG5VZjFCRUNCcVdXWkhEeTFURjkwcHZfbWhqWkhvQlcyQTNFZHI5anBWUTRNTW1IX180OURDTm9GZTBVbEw1Q0h1MDVSMllyX1QwMzFqN08xTm1UdUNGdUJXV0tSR1VUbU5vanV5VFJUMXpuUQ?oc=5",
    "date": "2026-11-12T16:40:24Z",
    "who": "GameSpot",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever players in Australia and New Zealand are struggling to get sunlight, and not for the usual MMO reasons",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91aDFTXzBCanVkTldZbThBNHlEV2VENlJqZXgyVkZBWWkwcnVXRFRoSkFSTEk0Z0EtWWZmaElnSWJiTmNCa0VITG45bEkzcVR0ODg4WHQybk45WXlJNmNjMWFaYzNwYnpJTlNrQXowdkozbFZWRkc0?oc=5",
-   "date": "2026-11-12T16:30:00Z",
-   "who": "Eurogamer.net",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",

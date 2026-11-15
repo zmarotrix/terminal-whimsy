@@ -95,7 +95,7 @@ function lootRoll(text) {
   setTimeout(() => wisp.talk(won ? D.WISP.lootwin : D.WISP.lootloss, 2500), 400);
   if (won) setTimeout(() => { const el = $("#lootOut .ic") || wisp.el; const r = el.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + r.height / 2, 40, 1.2); }, 150);
   const item = `<span class="q-epic-t">[${esc(slot.raid.name)}]</span>`;
-  const rows = all.map(p => `${p.me ? "<b>" : ""}${esc(p.n)} rolls ${p.r} (Need)${p.me ? "</b>" : ""}`).join("<br>");
+  const rows = all.map(p => `${p.me ? "<b>" : ""}${esc(p.n)} ${p.me && !store.get("name", null) ? "roll" : "rolls"} ${p.r} (Need)${p.me ? "</b>" : ""}`).join("<br>");
   if (text) return `Loot: ${item}<br>${rows}<br>${won ? `<span class="win">You won ${item}!</span>` : `<span class="err">${esc(all[0].n)} won ${item}.</span>`}`;
   return { set, slot, all, won, item, cls };
 }

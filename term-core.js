@@ -990,7 +990,8 @@ cmd("hotfix", a => { const k = a[0] ? Object.keys(CL).find(c => c.startsWith(a[0
 cmd("change", () => { const c = pick(D.CHANGES.filter(c => c.severity === "major")); return html(`<a href="#c-${c.id}">${esc(c.title)}</a>\n${esc(c.forever)}`); });
 cmd("said", () => { const s = D.SAID[0]; return `${s.date}: ${s.title}\n${s.summary}`; });
 cmd("class", a => { const k = Object.keys(CL).find(c => c.startsWith((a[0] || "").toLowerCase())); if (!a[0] || !k) return `classes: ${Object.keys(CL).join(", ")}`; X.setClass(k); return `Class set to ${CL[k].n}.`; });
-cmd("loot", () => X.lootRoll ? X.lootRoll(true) : "No loot today.");
+cmd("loot", () => { const r = X.lootRoll ? X.lootRoll(true) : null; return r ? html(r.replace(/<br>/g, "\n")) : "No loot today."; });
+cmd(["look", "examine"], () => html(`You look around. You're in a terminal on the guild's box. <span class="dim">(<b>ls</b> shows what's here. Somewhere on this machine there's a game with much more to look at.)</span>`), { hidden: true });
 cmd(["go", "open", "xdg-open"], a => {
   const t = (a[0] || "").toLowerCase().replace(/^#/, "");
   const known = ["brief", "changes", "gear", "said", "wire", "sources", "vault", "darkmoon", "patchnotes", "credits", "graveyard", "nether"];

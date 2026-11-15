@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T07:56:57Z",
+ "updated": "2026-11-15T08:16:10Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -88,15 +88,45 @@
    "who": "Kaivax (Community Manager)",
    "icon": "inv_scroll_03",
    "id": "f87c0b1c9f",
-   "first": "2026-11-15T01:18:23.191000Z",
+   "first": "2026-11-14T16:16:46Z",
    "last": "2026-11-15T01:18:23.191000Z",
    "tags": [
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
-   "n": 1,
+   "n": 5,
    "official": true,
-   "also": []
+   "also": [
+    {
+     "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-14T16:16:46Z"
+    },
+    {
+     "title": "WoW Forever Players Reporting Dungeons Giving No Exp After Recent Change",
+     "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-14T19:25:06Z"
+    },
+    {
+     "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmlMMXlBeUl1dzVkajFPZ0duNHpUazRqcjZEWUNnblFIQkxlNVRVclRVMGJlU3hFbzRjbHlBcktUM2NDMWdZcERyaWtBU1B6R3Bzb1BJMElFQ1VJSFAzcDJReHdMYXdTYTFMVl9XRHJ2eVZId0ppRkdzM3Btb0w3TVp3Z015UmlKT3BGMEZRSWZ4ZWNNTE13OXhwaVo3SjM4a2pnUmdON2l3R09wQndVYmFTa2pWMzJOMXdIYkQyUVZIMVgyR3dJRDAxSmNNY1k?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-14T22:17:19Z"
+    },
+    {
+     "title": "Dungeon XP is dead and the new grey mob rule just made it worse",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xwbdo0/dungeon_xp_is_dead_and_the_new_grey_mob_rule_just/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-14T19:43:16Z"
+    }
+   ]
   },
   {
    "title": "Watch the WoW: Forever Short Story, “Cost of Honor”",
@@ -155,48 +185,6 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
-   "date": "2026-11-14T16:16:46Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "In last night's hotfixes, Blizzard announced that if any party member in a dungeon is too high-level, no one in the party will receive experience. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "56b49d6e3b",
-   "first": "2026-11-14T16:16:46Z",
-   "last": "2026-11-14T22:17:19Z",
-   "tags": [
-    "leveling",
-    "hotfix"
-   ],
-   "classes": [],
-   "n": 4,
-   "official": false,
-   "also": [
-    {
-     "title": "WoW Forever Players Reporting Dungeons Giving No Exp After Recent Change",
-     "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
-     "source": "Warcraft Tavern",
-     "label": "press",
-     "date": "2026-11-14T19:25:06Z"
-    },
-    {
-     "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmlMMXlBeUl1dzVkajFPZ0duNHpUazRqcjZEWUNnblFIQkxlNVRVclRVMGJlU3hFbzRjbHlBcktUM2NDMWdZcERyaWtBU1B6R3Bzb1BJMElFQ1VJSFAzcDJReHdMYXdTYTFMVl9XRHJ2eVZId0ppRkdzM3Btb0w3TVp3Z015UmlKT3BGMEZRSWZ4ZWNNTE13OXhwaVo3SjM4a2pnUmdON2l3R09wQndVYmFTa2pWMzJOMXdIYkQyUVZIMVgyR3dJRDAxSmNNY1k?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-14T22:17:19Z"
-    },
-    {
-     "title": "Dungeon XP is dead and the new grey mob rule just made it worse",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xwbdo0/dungeon_xp_is_dead_and_the_new_grey_mob_rule_just/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-14T19:43:16Z"
-    }
-   ]
   },
   {
    "title": "The Newest Update to Dungeon XP is awful.",
@@ -368,8 +356,8 @@
    "first": "2026-11-14T16:28:04Z",
    "last": "2026-11-14T16:28:04Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -406,8 +394,8 @@
    "first": "2026-11-14T16:00:10Z",
    "last": "2026-11-14T16:00:10Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -508,6 +496,26 @@
    "also": []
   },
   {
+   "title": "Am I the only one who wishes shaman heals had water spell effects?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw48g4/am_i_the_only_one_who_wishes_shaman_heals_had/",
+   "date": "2026-11-14T14:50:57Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "anyone else wish shaman heals had the water spell visuals from Cataclysm? I'm a classic player and I haven't touched retail since Cataclysm, but one of the spell visual updates I absolutely loved back then was giving shaman heals like Healing Wave that water…",
+   "who": "/u/Pesplou",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "ac4a1c62cc",
+   "first": "2026-11-14T14:50:57Z",
+   "last": "2026-11-14T14:50:57Z",
+   "tags": [],
+   "classes": [
+    "shaman"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Dungeon Exp Hotfix",
    "url": "https://www.reddit.com/r/wowforever/comments/1xw47ev/dungeon_exp_hotfix/",
    "date": "2026-11-14T14:49:42Z",
@@ -520,8 +528,8 @@
    "first": "2026-11-14T14:49:42Z",
    "last": "2026-11-14T14:49:42Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -694,8 +702,8 @@
    "first": "2026-11-14T10:45:36Z",
    "last": "2026-11-14T10:45:36Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -713,24 +721,6 @@
    "id": "f7bf2cdd8b",
    "first": "2026-11-14T10:25:46Z",
    "last": "2026-11-14T10:25:46Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Yes, I report names like \"Your Mama\", \"SmellMy Farts\" or \"Youtube Troll\" on the roleplay server",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvwzhw/yes_i_report_names_like_your_mama_smellmy_farts/",
-   "date": "2026-11-14T08:06:48Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "No, I will not take questions. May the earthmother guide you.",
-   "who": "/u/StopMarminMySparm",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "ea80344cb5",
-   "first": "2026-11-14T08:06:48Z",
-   "last": "2026-11-14T08:06:48Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -892,8 +882,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -1134,8 +1124,8 @@
    "first": "2026-11-13T04:37:16Z",
    "last": "2026-11-13T04:37:16Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "rogue"
@@ -1177,8 +1167,8 @@
    "first": "2026-11-13T03:38:58Z",
    "last": "2026-11-13T03:38:58Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "warrior"
@@ -1387,9 +1377,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
+    "realms",
     "story",
-    "realms"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1518,9 +1508,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "professions",
     "hotfix",
-    "items",
-    "professions"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1577,8 +1567,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "classes",
-    "economy"
+    "economy",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1636,9 +1626,9 @@
     "hotfix"
    ],
    "classes": [
-    "warlock",
+    "shaman",
     "hunter",
-    "shaman"
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -1751,8 +1741,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1854,8 +1844,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -1873,8 +1863,8 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "hotfix",
     "items",
+    "hotfix",
     "classes"
    ],
    "classes": [
@@ -1950,9 +1940,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
+    "ui",
     "hotfix",
-    "classes",
-    "ui"
+    "classes"
    ],
    "classes": [
     "druid"
@@ -1974,8 +1964,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1995,8 +1985,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2034,9 +2024,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "leveling",
     "hotfix",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2072,8 +2062,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2301,8 +2291,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2410,8 +2400,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -2588,10 +2578,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
+    "leveling",
     "ui",
-    "pvp",
     "classes",
-    "leveling"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2611,9 +2601,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
+    "leveling",
     "raids",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3310,6 +3300,20 @@
    "classes": []
   },
   {
+   "title": "Am I the only one who wishes shaman heals had water spell effects?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xw48g4/am_i_the_only_one_who_wishes_shaman_heals_had/",
+   "date": "2026-11-14T14:50:57Z",
+   "summary": "anyone else wish shaman heals had the water spell visuals from Cataclysm? I'm a classic player and I haven't touched retail since Cataclysm, but one of the spell visual updates I absolutely loved back then was giving shaman heals like Healing Wave that water…",
+   "who": "/u/Pesplou",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": [
+    "shaman"
+   ]
+  },
+  {
    "title": "Dungeon Exp Hotfix",
    "url": "https://www.reddit.com/r/wowforever/comments/1xw47ev/dungeon_exp_hotfix/",
    "date": "2026-11-14T14:49:42Z",
@@ -3450,18 +3454,6 @@
    "url": "https://www.reddit.com/r/wowforever/comments/1xvz681/why_is_no_one_talking_about_this/",
    "date": "2026-11-14T10:25:46Z",
    "who": "/u/MaxF1eld",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Yes, I report names like \"Your Mama\", \"SmellMy Farts\" or \"Youtube Troll\" on the roleplay server",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xvwzhw/yes_i_report_names_like_your_mama_smellmy_farts/",
-   "date": "2026-11-14T08:06:48Z",
-   "summary": "No, I will not take questions. May the earthmother guide you.",
-   "who": "/u/StopMarminMySparm",
    "source": "r/wowforever",
    "label": "community",
    "icon": "inv_shirt_guildtabard_01",

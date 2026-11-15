@@ -43,12 +43,20 @@ function kids(dir, fs = S.fs) {
   for (const k of Object.keys(fs.map)) if (k !== base && k.startsWith(base)) { const rest = k.slice(base.length); const n = rest.split("/")[0]; if (n) out.add(n + (rest.includes("/") ? "/" : "")); }
   return [...out].sort((a, b) => a.replace(/^\./, "").localeCompare(b.replace(/^\./, "")));
 }
+function canReach(p, fs = S.fs) {
+  if (S.user === "root") return true;
+  const parts = p.split("/").filter(Boolean);
+  for (let k = 1; k < parts.length; k++) { const d = "/" + parts.slice(0, k).join("/"); if (isDir(d, fs) && !canRead(d, fs)) return false; }
+  return true;
+}
+const canList = (d, fs = S.fs) => isDir(d, fs) && canReach(d, fs) && canRead(d, fs);
 function canRead(p, fs = S.fs) {
   if (S.user === "root") return true;
   const n = node(p, fs);
   return !n.mode || n.owner === S.user || n.mode[7] === "r";    // the "others may read" bit
 }
 function readFile(p) {
+  if (!canReach(p)) throw `${p}: Permission denied`;
   if (!exists(p)) throw `${p}: No such file or directory`;
   if (isDir(p)) throw `${p}: Is a directory`;
   if (!canRead(p)) throw `${p}: Permission denied`;
@@ -248,7 +256,7 @@ function complete() {
   if (parts.length === 1) opts = Object.keys(CMDS).filter(c => !CMDS[c].hidden && c.startsWith(last));
   else {
     const base = last.includes("/") ? last.slice(0, last.lastIndexOf("/") + 1) : "", dir = resolve(base || ".");
-    opts = isDir(dir) ? kids(dir).filter(n => n.startsWith(last.slice(base.length)) && (!n.startsWith(".") || last.slice(base.length).startsWith("."))).map(n => base + n) : [];
+    opts = canList(dir) ? kids(dir).filter(n => n.startsWith(last.slice(base.length)) && (!n.startsWith(".") || last.slice(base.length).startsWith("."))).map(n => base + n) : [];
   }
   if (opts.length === 1) { parts[parts.length - 1] = opts[0] + (opts[0].endsWith("/") ? "" : " "); setInput(parts.join(" ")); }
   else if (opts.length > 1) {
@@ -283,7 +291,7 @@ function glob(arg) {
   const base = arg.includes("/") ? arg.slice(0, arg.lastIndexOf("/") + 1) : "", pat = arg.slice(base.length);
   const rx = new RegExp("^" + pat.replace(/[.+^${}()|[\]\\]/g, "\\$&").replace(/\*/g, ".*").replace(/\?/g, ".") + "$");
   const dir = resolve(base || ".");
-  const hits = isDir(dir) ? kids(dir).map(n => n.replace(/\/$/, "")).filter(n => rx.test(n) && (!n.startsWith(".") || pat.startsWith("."))).map(n => base + n) : [];
+  const hits = canList(dir) ? kids(dir).map(n => n.replace(/\/$/, "")).filter(n => rx.test(n) && (!n.startsWith(".") || pat.startsWith("."))).map(n => base + n) : [];
   return hits.length ? hits : [arg];
 }
 const unesc = h => { const t = document.createElement("textarea"); t.innerHTML = h.replace(/<[^>]+>/g, ""); return t.value; };
@@ -333,7 +341,7 @@ async function runPipeline(toks) {
 async function run1(name, args, stdin) {
   if (/^[A-Z_]+=/.test(name)) { const [k, ...v] = name.split("="); S.env[k] = v.join("="); return ""; }
   if (name.startsWith("./") || name.startsWith("/") && !CMDS[name]) return execFile(resolve(name), args);
-  if (!CMDS[name] && !ALIASES[name] && exists(resolve(name))) {     // e.g. typing .emacs.d/init.el on its own
+  if (!CMDS[name] && !ALIASES[name] && canReach(resolve(name)) && exists(resolve(name))) {     // e.g. typing .emacs.d/init.el on its own
     lastStatus = 126;
     return isDir(resolve(name)) ? html(`<span class="err">whimsh: ${esc(name)}: Is a directory</span>`)
       : html(`<span class="err">whimsh: ${esc(name)}: that's a file, not a command.</span> <span class="dim">Read it with <b>cat ${esc(name)}</b>, or open it with <b>emacs ${esc(name)}</b>.</span>`);
@@ -356,6 +364,7 @@ function notFound(name) {
 function lev(a, b) { const d = Array.from({ length: a.length + 1 }, (_, i) => [i]); for (let j = 1; j <= b.length; j++) d[0][j] = j; for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); return d[a.length][b.length]; }
 const WINDOWS = { dir: "ls", cls: "clear", type: "cat", del: "rm (please don't)", copy: "cp", move: "mv", tasklist: "ps", taskkill: "kill", systeminfo: "uname -a", ver: "uname -r", tracert: "traceroute" };
 function execFile(p, args) {
+  if (!canReach(p)) return html(`<span class="err">whimsh: ${esc(p)}: Permission denied</span>`);
   if (!exists(p)) return html(`<span class="err">whimsh: ${esc(p)}: No such file or directory</span>`);
   const n = node(p);
   if (!/x/.test((n.mode || "-rw-r--r--").slice(1, 4)) && !chmodded.has(p)) return html(`<span class="err">whimsh: ${esc(p)}: Permission denied</span> <span class="dim">(it isn't executable. chmod +x?)</span>`);
@@ -449,6 +458,7 @@ cmd("man", a => {
 cmd("pwd", () => S.cwd);
 cmd("cd", a => {
   const t = a[0] === "-" ? (S.oldpwd || S.cwd) : resolve(a[0] || "~");
+  if (!canReach(t)) throw `${a[0]}: Permission denied`;
   if (!exists(t)) throw `${a[0]}: No such file or directory`;
   if (!isDir(t)) throw `${a[0]}: Not a directory`;
   if (!canRead(t)) { if (t === "/home/leeroy") return html(`<span class="err">cd: /home/leeroy: Permission denied</span> <span class="dim">(Leeroy is AFK. Chicken.)</span>`); throw `${a[0]}: Permission denied`; }
@@ -461,6 +471,7 @@ cmd("ls", a => {
   if (all) award("dotfiles");
   const one = t => {
     const p = resolve(t);
+    if (!canReach(p)) throw `cannot access '${t}': Permission denied`;
     if (!exists(p)) throw `cannot access '${t}': No such file or directory`;
     if (!isDir(p)) return long ? lsLong(p, t) : t;
     if (!canRead(p)) throw `cannot open directory '${t}': Permission denied`;
@@ -515,7 +526,7 @@ cmd(["grep", "egrep", "rg", "ag"], (a, i) => {
   if (hits.some(h => /seal of the wisp/i.test(h))) award("grepseal");
   return html(hits.map(h => esc(h).replace(new RegExp(esc(pat).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi"), m => `<span class="hl">${m}</span>`)).join("\n"));
 });
-function walk(dir) { const out = []; for (const k of Object.keys(S.fs.map)) { const p = k.replace(/\/$/, ""); if (p.startsWith(dir === "/" ? "/" : dir + "/") && canRead(p)) out.push(p); } return out.sort(); }
+function walk(dir) { const out = []; for (const k of Object.keys(S.fs.map)) { const p = k.replace(/\/$/, ""); if (p.startsWith(dir === "/" ? "/" : dir + "/") && canReach(p) && canRead(p)) out.push(p); } return out.sort(); }
 cmd("find", a => {
   const start = resolve(a[0] && !a[0].startsWith("-") ? a[0] : "."), ni = a.indexOf("-name"), pat = ni >= 0 ? a[ni + 1] : null;
   const rx = pat ? new RegExp("^" + pat.replace(/[.+^${}()|[\]\\]/g, "\\$&").replace(/\*/g, ".*").replace(/\?/g, ".") + "$") : null;
@@ -524,11 +535,12 @@ cmd("find", a => {
 });
 cmd("tree", a => {
   const root = resolve(a.find(x => !x.startsWith("-")) || "."), all = a.includes("-a"); let nd = 0, nf = 0;
+  if (isDir(root) && !canList(root) || !canReach(root)) return `${a.find(x => !x.startsWith("-")) || "."} [error opening dir]\n\n0 directories, 0 files`;
   const lines = [a.find(x => !x.startsWith("-")) || "."];
-  const rec = (p, pre) => { if (!canRead(p)) return; const ks = kids(p).filter(n => all || !n.startsWith(".")); ks.forEach((n, k) => { const last = k === ks.length - 1, full = p.replace(/\/$/, "") + "/" + n.replace(/\/$/, ""); lines.push(pre + (last ? "└── " : "├── ") + n.replace(/\/$/, "")); if (n.endsWith("/")) { nd++; rec(full, pre + (last ? "    " : "│   ")); } else nf++; }); };
+  const rec = (p, pre) => { if (!canReach(p) || !canRead(p)) return; const ks = kids(p).filter(n => all || !n.startsWith(".")); ks.forEach((n, k) => { const last = k === ks.length - 1, full = p.replace(/\/$/, "") + "/" + n.replace(/\/$/, ""); lines.push(pre + (last ? "└── " : "├── ") + n.replace(/\/$/, "")); if (n.endsWith("/")) { nd++; rec(full, pre + (last ? "    " : "│   ")); } else nf++; }); };
   rec(root, ""); lines.push(`\n${nd} directories, ${nf} files`); return lines.join("\n");
 });
-cmd("file", a => a.map(f => { const p = resolve(f); if (!exists(p)) return `${f}: cannot open`; if (isDir(p)) return `${f}: directory`; const c = node(p).c || ""; return `${f}: ${f.endsWith(".gz") ? "gzip compressed data, was \"PATCHNOTES\"" : f.endsWith(".b64") ? "ASCII text (base64, probably)" : f.endsWith(".el") ? "Lisp/Scheme program, ASCII text" : f.endsWith(".org") ? "Org-mode document, the finest of formats" : /^#!/.test(c) ? "a whimsh script, ASCII text executable" : /^[0-9a-f ]+\n?$/.test(c) ? "ASCII text (looks like hex)" : p === "/dev/whimsy" ? "character special (pure whimsy)" : "ASCII text"}`; }).join("\n"));
+cmd("file", a => a.map(f => { const p = resolve(f); if (!canReach(p) || exists(p) && !isDir(p) && !canRead(p)) return `${f}: cannot open (Permission denied)`; if (!exists(p)) return `${f}: cannot open`; if (isDir(p)) return `${f}: directory`; const c = node(p).c || ""; return `${f}: ${f.endsWith(".gz") ? "gzip compressed data, was \"PATCHNOTES\"" : f.endsWith(".b64") ? "ASCII text (base64, probably)" : f.endsWith(".el") ? "Lisp/Scheme program, ASCII text" : f.endsWith(".org") ? "Org-mode document, the finest of formats" : /^#!/.test(c) ? "a whimsh script, ASCII text executable" : /^[0-9a-f ]+\n?$/.test(c) ? "ASCII text (looks like hex)" : p === "/dev/whimsy" ? "character special (pure whimsy)" : "ASCII text"}`; }).join("\n"));
 cmd("wc", (a, i) => { const t = a.filter(x => !x.startsWith("-")).length ? a.filter(x => !x.startsWith("-")).map(f => readFile(resolve(f))).join("\n") : i || ""; const l = t ? t.split("\n").length : 0, w = t.split(/\s+/).filter(Boolean).length, c = t.length; return a.includes("-l") ? String(l) : a.includes("-w") ? String(w) : a.includes("-c") ? String(c) : `${String(l).padStart(7)} ${String(w).padStart(7)} ${String(c).padStart(7)}`; });
 cmd("sort", (a, i) => { const t = a.filter(x => !x.startsWith("-")).length ? catLike(a, i) : i || ""; let L = t.split("\n").sort((x, y) => a.includes("-n") ? parseFloat(x) - parseFloat(y) : x.localeCompare(y)); if (a.includes("-r")) L.reverse(); if (a.includes("-u")) L = [...new Set(L)]; return L.join("\n"); });
 cmd("uniq", (a, i) => { const L = (i || "").split("\n"), outL = []; let c = 0; L.forEach((l, k) => { c++; if (l !== L[k + 1]) { outL.push(a.includes("-c") ? `${String(c).padStart(7)} ${l}` : l); c = 0; } }); return outL.join("\n"); });
@@ -561,6 +573,7 @@ cmd("xxd", (a, i) => {
 cmd("strings", (a, i) => catLike(a, i));
 cmd(["zcat", "gunzip", "gzip"], a => {
   const p = resolve(a.filter(x => !x.startsWith("-"))[0] || "");
+  if (!canReach(p)) throw `${a[0] || ""}: Permission denied`;
   if (!exists(p)) throw `${a[0] || ""}: No such file or directory`;
   if (p.endsWith("PATCHNOTES.gz")) { flag("patchnotes"); award("patchnotes"); X.secretTabs(); setTimeout(() => { location.hash = "patchnotes"; }, 900); return "Decompressing... it's not a file. It's a whole page. Opening it."; }
   throw "not in gzip format";
@@ -579,7 +592,7 @@ cmd("rm", a => {
 });
 cmd("chmod", a => {
   const f = a.filter(x => !/^[+-]|^\d+$/.test(x))[0], m = a.find(x => /^[+-]|^\d+$/.test(x));
-  const p = resolve(f || ""); if (!exists(p)) throw `cannot access '${f}': No such file or directory`;
+  const p = resolve(f || ""); if (!canReach(p)) throw `cannot access '${f}': Permission denied`; if (!exists(p)) throw `cannot access '${f}': No such file or directory`;
   if (m && /x|7|5/.test(m)) { chmodded.add(p); award("chmod"); }
   return "";
 });

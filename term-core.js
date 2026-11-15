@@ -330,6 +330,7 @@ async function run1(name, args, stdin) {
   if (alias) { const [n, ...a] = alias.split(" "); return run1(n, [...a, ...args], stdin); }
   const c = CMDS[name] || CMDS[name.toLowerCase()];
   if (!c) { lastStatus = 127; return notFound(name); }
+  if (c.pkg && !isInstalled(c.pkg)) { lastStatus = 127; LOG("notfound", { line: name }); return html(`<span class="err">Command '${esc(name)}' not found, but can be installed with:</span>\n\n  apt install ${esc(name)}\n`); }
   try { lastStatus = 0; const r = await c.f(args, stdin); return r; }
   catch (err) { lastStatus = 1; LOG("cmderror", { line: [name, ...args].join(" "), err: String(err && (err.stack || err.message) || err) }); return { html: `<span class="err">${esc(name)}: ${esc(err.message || err)}</span>`, text: "" }; }
 }
@@ -772,6 +773,10 @@ cmd(["curl", "wget", "http", "lynx", "w3m"], a => {
   return `curl: (6) Could not resolve host: ${h}\n(the wisp keeps this box offline. try: curl wire, curl wttr.in, curl news.blizzard.com)`;
 });
 cmd(["telnet", "nc", "netcat"], a => { const h = hostOf(a[0]); if (h.includes("towel")) return "A long time ago in a galaxy far, far away... wrong franchise. Try 'adventure'."; return `Trying ${HOSTS[h] || h}...\nConnected to ${h || "nothing"}.\nEscape character is '^]'.\nMrglglgl?\nConnection closed by foreign murloc.`; });
+cmd("wisp", () => {
+  if (!wisp.call()) throw "can't reach the wisp. It's at the bottom of the faire pond. (Fish it out: the next catch is the wisp.)";
+  return "You call the wisp. It comes back to its corner.";
+}, { hidden: true });
 cmd(["ftp", "sftp", "scp", "rsync"], () => "No. We don't move files here. We admire them.");
 
 // ssh: the way to seal V
@@ -851,6 +856,7 @@ cmd("sudo", (a, i) => {
   if (rest === "whimsy") { X.party && X.party(); return "Permission granted. ✦"; }
   if (rest === "make me a sandwich") { award("sandwich"); return "Okay."; }
   if (/^rm\b/.test(rest)) return CMDS.rm.f(a.slice(1));
+  if (S.user !== "root" && /^(apt|apt-get|dnf|yum|pacman)$/.test(a[0] || "") && a.slice(1).some(x => pkgOf(x))) { print("(no sudo needed here. the wisp runs this repo, and it trusts you.)", "dim"); return run1(a[0], a.slice(1), i); }
   if (S.user === "root") return run1(a[0], a.slice(1), i);
   ask(`[sudo] password for ${S.user}: `, true, () => { print(`${S.user} is not in the sudoers file. This incident will be reported.`, "err"); award("reported"); setTimeout(() => wisp.talk("> reported. to me. i'm the authorities. i'm disappointed but not surprised.", 3500), 300); });
   return "";
@@ -862,7 +868,41 @@ cmd("credits", () => {
 });
 
 // ----- packages and programming jokes -----
-cmd(["apt", "pacman", "brew", "pip", "pip3", "npm", "yarn", "cargo", "gem", "snap", "flatpak", "emerge", "nix", "guix"], (a, _) => {
+/* ---------------- packages: the few things the wisp lets you install ---------------- */
+const PKGS = {
+  "clipboard-whimsy": { v: "7.7", kb: 42, desc: "pbcopy, pbpaste, xclip, xsel and wl-clipboard, for the whimsy box", cmds: ["pbpaste", "pbcopy", "xclip", "xsel", "wl-copy", "wl-paste"], names: ["pbpaste", "pbcopy", "xclip", "xsel", "wl-clipboard", "wl-copy", "wl-paste", "clipboard", "clipboard-whimsy"] },
+  "espeak-whimsy": { v: "1.52", kb: 128, desc: "a speech synthesizer. The terminal talks out loud.", cmds: ["espeak", "espeak-ng", "say", "spd-say"], names: ["espeak", "espeak-ng", "say", "spd-say", "festival", "speech-dispatcher", "espeak-whimsy"] },
+  "murloc-tools": { v: "1.0-mrgl", kb: 36, desc: "mrgl: translates anything into Murloc. Everything depends on it.", cmds: ["mrgl"], names: ["murloc-tools", "mrgl", "murloc"] },
+};
+const pkgOf = n => Object.keys(PKGS).find(p => PKGS[p].names.includes(String(n).toLowerCase()));
+const installed = () => store.get("pkgs", []);
+const isInstalled = p => installed().includes(p);
+function aptInstall(names, yes) {
+  const want = [], notes = [], unknown = names.filter(n => !pkgOf(n));
+  if (unknown.length) return `Reading package lists... Done\nBuilding dependency tree... Done\nE: Unable to locate package ${unknown[0]}`;
+  for (const n of names) { const p = pkgOf(n); if (p !== n.toLowerCase()) notes.push(`Note, selecting '${p}' instead of '${n}'`); if (!want.includes(p)) want.push(p); }
+  if (!want.includes("murloc-tools")) want.push("murloc-tools");          // a dependency of everything, as promised
+  const fresh = want.filter(p => !isInstalled(p)), head = `Reading package lists... Done\nBuilding dependency tree... Done\nReading state information... Done${notes.length ? "\n" + notes.join("\n") : ""}`;
+  if (!fresh.length) return `${head}\n${want.map(p => `${p} is already the newest version (${PKGS[p].v}).`).join("\n")}\n0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.`;
+  const kb = fresh.reduce((s, p) => s + PKGS[p].kb, 0);
+  print(`${head}\nThe following NEW packages will be installed:\n  ${fresh.join(" ")}\n0 upgraded, ${fresh.length} newly installed, 0 to remove and 0 not upgraded.\nNeed to get ${kb}.0 kB of archives.\nAfter this operation, ${kb * 7} kB of additional disk space will be used.`);
+  const go = () => {
+    const L = fresh.map((p, k) => `Get:${k + 1} https://deb.whimsy.forever stable/main ${p} all ${PKGS[p].v} [${PKGS[p].kb}.0 kB]`);
+    L.push(`Fetched ${kb}.0 kB in 0s (7,777 kB/s)`);
+    for (const p of fresh) L.push(`Selecting previously unselected package ${p}.`, "(Reading database ... 1337 files and directories currently installed.)", `Preparing to unpack .../${p}_${PKGS[p].v}_all.deb ...`, `Unpacking ${p} (${PKGS[p].v}) ...`);
+    for (const p of fresh) L.push(`Setting up ${p} (${PKGS[p].v}) ...`);
+    L.push("Processing triggers for wispd (7.7.7) ...");
+    stream(L, 90, () => {
+      store.set("pkgs", [...new Set([...installed(), ...fresh])]); award("aptinstall");
+      print(html(`<span class="dim">New commands: ${fresh.flatMap(p => PKGS[p].cmds).join(", ")}</span>`));
+      wisp.talk("> the wisp said yes. this once.", 2500);
+    });
+  };
+  if (yes) { go(); return ""; }
+  ask("Do you want to continue? [Y/n] ", false, ans => { if (/^\s*n/i.test(ans)) { print("Abort."); return; } go(); });
+  return "";
+}
+function pkgCmd(mgr, a) {
   const sub = a.join(" ");
   if (/moo/.test(sub)) { award("moo"); return `                 (__)
                  (oo)
@@ -871,12 +911,92 @@ cmd(["apt", "pacman", "brew", "pip", "pip3", "npm", "yarn", "cargo", "gem", "sna
          *  /\\---/\\
             ~~   ~~
 ...."Have you mooed today?"... (it's a tauren, actually)`; }
-  if (/whimsy/.test(sub)) return "whimsy is already the newest version (∞).\n0 upgraded, 0 newly installed, 0 to remove, 1 wisp delighted.";
+  const words = a.filter(x => !x.startsWith("-")), dashS = a.some(x => /^-S/.test(x)), verb = dashS ? "install" : (words[0] || "").toLowerCase(), names = dashS ? words : words.slice(1);
+  const yes = mgr !== "apt" || a.some(x => /^(-y|--yes|--assume-yes)$/.test(x));
+  if (["install", "add", "reinstall", "get", "i"].includes(verb)) {
+    if (names.length && names.some(n => pkgOf(n))) { if (mgr !== "apt") print(`(${mgr} isn't on this box. It's a Debian kind of place. Using apt.)`, "dim"); return aptInstall(names, yes); }
+    if (/(^|\s)whimsy(\s|$)/.test(sub)) return "whimsy is already the newest version (∞).\n0 upgraded, 0 newly installed, 0 to remove, 1 wisp delighted.";
+    if (/emacs/.test(sub)) return "emacs is already installed. Grumbolt made sure. Twice.";
+    if (/vim/.test(sub)) return "E: Unable to locate package vim\n(Grumbolt has blocked it at the firewall.)";
+    return `Reading package lists... Done\nBuilding dependency tree... Done\nThe following packages will be installed:\n  ${names.join(" ") || "nothing"} murloc-tools\nDo you want to continue? [Y/n] the wisp said no.\n(The wisp's repo only carries a few packages. apt search shows what's there.)`;
+  }
+  if (mgr === "apt") {
+    if (verb === "update") return "Hit:1 https://deb.whimsy.forever stable InRelease\nHit:2 https://deb.whimsy.forever murloc InRelease\nReading package lists... Done\nAll packages are up to date. (Except the wisp's memories. Those are sealed.)";
+    if (verb === "search") {
+      const q = names.join(" ").toLowerCase(), hits = Object.entries(PKGS).filter(([p, d]) => !q || p.includes(q) || d.names.some(n => n.includes(q)) || d.desc.toLowerCase().includes(q));
+      return "Sorting... Done\nFull Text Search... Done\n" + hits.map(([p, d]) => `${p}/stable ${d.v} all${isInstalled(p) ? " [installed]" : ""}\n  ${d.desc}`).join("\n\n");
+    }
+    if (verb === "list") {
+      const mine = installed().map(p => `${p}/stable,now ${PKGS[p].v} all [installed]`);
+      if (a.includes("--installed")) return ["Listing... Done", "emacs/stable,now 29.4 all [installed]", "whimsy/stable,now ∞ all [installed]", "wispd/stable,now 7.7.7 all [installed]", ...mine].join("\n");
+      return "Listing... Done\n" + Object.entries(PKGS).map(([p, d]) => `${p}/stable ${d.v} all${isInstalled(p) ? " [installed]" : ""}`).join("\n");
+    }
+    if (["remove", "purge", "uninstall"].includes(verb)) {
+      if (!names.length) return "E: No packages found";
+      if (names.some(n => /emacs/.test(n))) return "E: emacs is held by Grumbolt. Removing it would void the warranty, and the friendship.";
+      if (names.some(n => /^(wispd?|whimsy)$/.test(n))) return "E: whimsy is an essential package. You can't remove whimsy. Believe us, we've tried.";
+      const ps = [...new Set(names.map(pkgOf).filter(Boolean))];
+      if (ps.includes("murloc-tools")) return "E: murloc-tools is essential. Everything depends on it. (Mrgl.)";
+      const have = ps.filter(isInstalled);
+      if (!have.length) return `Package '${names[0]}' is not installed, so not removed`;
+      store.set("pkgs", installed().filter(p => !have.includes(p)));
+      return `Reading package lists... Done\nThe following packages will be REMOVED:\n  ${have.join(" ")}\n${have.map(p => `Removing ${p} (${PKGS[p].v}) ...`).join("\n")}\nProcessing triggers for wispd (7.7.7) ...`;
+    }
+  }
+  if (/(^|\s)whimsy(\s|$)/.test(sub)) return "whimsy is already the newest version (∞).\n0 upgraded, 0 newly installed, 0 to remove, 1 wisp delighted.";
   if (/emacs/.test(sub)) return "emacs is already installed. Grumbolt made sure. Twice.";
-  if (/vim/.test(sub)) return "E: Unable to locate package vim\n(Grumbolt has blocked it at the firewall.)";
-  if (/install|-S|add/.test(sub)) return `Reading package lists... Done\nBuilding dependency tree... Done\nThe following packages will be installed:\n  ${a.filter(x => !x.startsWith("-") && !["install", "add", "-S"].includes(x)).join(" ") || "nothing"} murloc-tools\nDo you want to continue? [Y/n] the wisp said no. read-only system.`;
   return "Usage: apt install <whimsy>";
-});
+}
+for (const m of ["apt", "pacman", "brew", "pip", "pip3", "npm", "yarn", "cargo", "gem", "snap", "flatpak", "emerge", "nix", "guix"]) cmd(m, a => pkgCmd(m, a));
+
+/* ---- clipboard-whimsy: copies made on this page feed it, and the real clipboard when the browser allows ---- */
+// What you copy on this page is used directly, with no permission needed. Once you've been to another window
+// (where you may have copied something else), it asks the browser's clipboard instead, which may ask you first.
+let clip = "", clipFresh = false;
+const onCopy = e => { const t = e.target, s = t && /^(INPUT|TEXTAREA)$/.test(t.tagName) && t.selectionStart != null ? t.value.slice(t.selectionStart, t.selectionEnd) : String(getSelection() || ""); if (s) { clip = s; clipFresh = true; } };
+document.addEventListener("copy", onCopy); document.addEventListener("cut", onCopy);
+addEventListener("blur", () => { clipFresh = false; });
+async function paste() {
+  let t = clipFresh ? clip : "";
+  if (!t && navigator.clipboard && navigator.clipboard.readText) {
+    const hint = setTimeout(() => print("(your browser is asking whether this page may read the clipboard)", "dim"), 700);
+    try { t = await Promise.race([navigator.clipboard.readText(), new Promise((_, no) => setTimeout(() => no(new Error("timed out")), 20000))]); }
+    catch { /* not allowed, or no answer: fall back to what was copied here */ }
+    finally { clearTimeout(hint); }
+  }
+  t = t || clip; award("pbpaste");
+  if (!t) throw "the clipboard is empty. (Select some text, copy it, then try again.)";
+  return t;
+}
+function copyIn(t) { clip = t; clipFresh = true; try { navigator.clipboard && navigator.clipboard.writeText(t).catch(() => {}); } catch { /* the page copy still works */ } return ""; }
+const CLIP = { hidden: true, pkg: "clipboard-whimsy" };
+cmd(["pbpaste", "wl-paste"], () => paste(), CLIP);
+cmd(["pbcopy", "wl-copy"], (a, i) => copyIn(i || a.join(" ")), CLIP);
+cmd("xclip", (a, i) => a.some(x => /^(-o|-out|--output)$/.test(x)) ? paste() : copyIn(i || ""), CLIP);
+cmd("xsel", (a, i) => a.some(x => /^(-o|--output)$/.test(x)) || (!i && !a.some(x => /^(-i|--input)$/.test(x))) ? paste() : copyIn(i || ""), CLIP);
+
+/* ---- espeak-whimsy: the terminal talks ---- */
+cmd(["espeak", "espeak-ng", "say", "spd-say"], (a, i) => {
+  const t = (a.filter(x => !x.startsWith("-")).join(" ") || i || "").trim().slice(0, 400) || "Hello. I am the wisp's voice.";
+  award("espeak");
+  if (!("speechSynthesis" in window)) return `(no audio device. The wisp mouths the words: "${t}")`;
+  speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(t); u.pitch = 1.6; u.rate = 1.05; speechSynthesis.speak(u);
+  return "";
+}, { hidden: true, pkg: "espeak-whimsy" });
+
+/* ---- murloc-tools: mrgl ---- */
+const MRGL = ["mrgl", "mrrgl", "mrglgl", "mrglglgl", "grrl", "mmrgl", "rwlrwl", "mrgle", "glrgl", "urgl"];
+cmd("mrgl", (a, i) => {
+  const t = a.join(" ") || i || "";
+  award("mrgl");
+  if (!t.trim()) return "Mrglglglgl! (usage: mrgl TEXT, or pipe into it: fortune | mrgl)";
+  return t.replace(/[A-Za-z']+/g, w => {
+    let h = 0; for (const c of w.toLowerCase()) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+    let m = w.length > 11 ? "aaaaughibbrgubugbugrguburgle" : MRGL[h % MRGL.length];
+    if (w.length > 6 && w.length <= 11) m += "gl".repeat((w.length - 6) >> 1);
+    return w.length > 1 && w === w.toUpperCase() ? m.toUpperCase() : /[A-Z]/.test(w[0]) ? m[0].toUpperCase() + m.slice(1) : m;
+  });
+}, { hidden: true, pkg: "murloc-tools" });
 cmd("make", a => { const t = a.join(" "); if (t === "love") { award("makelove"); return "make: *** No rule to make target 'love'. Not war?"; } if (t === "me a sandwich") return "What? Make it yourself."; if (t === "war") return "make: *** War never changes. Wrong franchise."; return `make: *** No rule to make target '${t || "all"}'. Stop.`; });
 cmd(["gcc", "cc", "clang", "rustc", "go", "javac"], () => "Compiling... error: expected whimsy, found seriousness. 1 error generated.");
 cmd(["python", "python3", "node", "ruby", "perl", "irb", "ghci", "racket"], () => "That REPL is closed for maintenance. The guild has a perfectly good Lisp REPL: emacs (or M-x ielm).");
@@ -944,7 +1064,7 @@ cmd(["env", "printenv"], () => Object.entries(ENV()).map(([k, v]) => `${k}=${v}`
 cmd("export", a => { for (const kv of a) { const [k, ...v] = kv.split("="); if (k) S.env[k] = v.join("="); } if (S.env.EDITOR && S.env.EDITOR !== "emacs") { const e = S.env.EDITOR; S.env.EDITOR = "emacs"; return `EDITOR=${e}? Grumbolt has reverted that to emacs. (/home/whimsy/.profile line 1)`; } return ""; });
 cmd("alias", () => Object.entries(ALIASES).slice(0, 14).map(([k, v]) => `alias ${k}='${v}'`).join("\n"));
 cmd("history", a => { if (a[0] === "-c") return "history: cleared. (Grumbolt tried that too. It didn't work for him either.)"; return hist.slice(-40).map((h, k) => `${String(hist.length - Math.min(40, hist.length) + k + 1).padStart(5)}  ${h}`).join("\n"); });
-cmd(["which", "type", "whereis", "command"], a => a.map(n => CMDS[n] ? `/usr/bin/${n}` : ALIASES[n] ? `${n}: aliased to ${ALIASES[n]}` : `${n} not found`).join("\n"));
+cmd(["which", "type", "whereis", "command"], a => a.map(n => CMDS[n] && !(CMDS[n].pkg && !isInstalled(CMDS[n].pkg)) ? `/usr/bin/${n}` : ALIASES[n] ? `${n}: aliased to ${ALIASES[n]}` : `${n} not found`).join("\n"));
 cmd("clear", () => { out.innerHTML = ""; return ""; });
 cmd(["resize", "fullscreen", "maximize", "maximise"], a => { const n = parseInt(a[0]); setHeight(n ? innerHeight * Math.min(100, n) / 100 : innerHeight - 8); award("resize"); return ""; }, { hidden: true });
 cmd("sleep", a => "zzz... (the wisp also sleeps, but only between midnight and 4 a.m.)");

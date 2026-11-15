@@ -165,12 +165,19 @@ function xp() {
 $(".xp").addEventListener("click", e => { e.stopPropagation(); $("#achs").hidden = !$("#achs").hidden; });
 document.addEventListener("click", e => { if (!e.target.closest("#achs,.xp")) $("#achs").hidden = true; });
 
+// a plain toast, for news that isn't an achievement
+function notice(head, body, icon = "spell_holy_mindvision") {
+  const t = document.createElement("div"); t.className = "toast";
+  t.innerHTML = `<img src="${ICON(icon)}" alt=""><div><div class="a">${esc(head)}</div><div class="c">${esc(body)}</div></div>`;
+  toasts.append(t); setTimeout(() => t.remove(), 4300);
+}
+
 /* ---------------- the wisp: pokeable, draggable, gets dizzy, sleeps at night, can turn gold ---------------- */
 const pick = a => a[Math.floor(Math.random() * a.length)];
 const wisp = (() => {
   const el = document.createElement("div");
   el.className = "wisp"; el.hidden = store.get("wispGone", false);
-  el.innerHTML = `<div class="bubble" role="status" aria-live="polite"><span class="say"></span><button class="x" aria-label="Send the wisp away" data-tip="Send the wisp away">×</button></div>
+  el.innerHTML = `<div class="bubble" role="status" aria-live="polite"><span class="say"></span><button class="x" aria-label="Send the wisp away" data-tip="Send the wisp away (type wisp to call it back)">×</button></div>
     <button class="orb" aria-label="Poke the wisp, or drag it somewhere"><span class="eye"></span><span class="eye"></span></button>`;
   document.body.append(el);
   const say = $(".say", el), bub = $(".bubble", el), orb = $(".orb", el);
@@ -264,6 +271,15 @@ const wisp = (() => {
     sleep() { el.classList.add("sleep"); },
     gold(on = true) { el.classList.toggle("gold", on); store.set("wispGold", on); },
     show() { el.hidden = false; store.set("wispGone", false); },
+    // bring the wisp back from wherever it went, whatever went wrong. Not out of the pond, though: that takes a fishing pole
+    call() {
+      if (store.get("wispInPond", null)) return false;
+      store.set("wispGone", false); el.hidden = false;
+      el.classList.remove("sleep", "dizzy", "shook", "sink", "held"); this.home();
+      el.classList.remove("boing"); void el.offsetWidth; el.classList.add("boing");
+      setTimeout(() => talk("> you called? i'm here!", 3000), 150);
+      return true;
+    },
     home() { store.set("wispPos", null); el.style.left = el.style.top = el.style.right = el.style.bottom = ""; el.classList.remove("left", "low"); },
     moveTo(x, y) { place({ x: x / innerWidth, y: y / innerHeight }); },       // for /follow and friends
     restore() { const p = store.get("wispPos", null); if (p && p.x != null) place(p); else this.home(); },
@@ -674,7 +690,7 @@ function sources() {
 })();
 
 /* ---------------- what whimsy.js needs ---------------- */
-window.TWX = { D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE, star,
+window.TWX = { notice, D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE, star,
   addRoom(id, r) { SECRET[id] = r; secretTabs(); }, secretTabs, get room() { return room; },
   setClass(k) { myClass = k; store.set("class", k); award("class"); }, get myClass() { return myClass; }, get hot() { return HOT; } };
 

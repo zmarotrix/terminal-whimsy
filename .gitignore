@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+# private owner's walkthrough: full spoilers, never commit
+GUIDE.private.html

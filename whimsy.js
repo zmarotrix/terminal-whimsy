@@ -141,6 +141,7 @@ addEventListener("keydown", e => {
   typed = (typed + e.key.toLowerCase()).slice(-16);
   if (typed.endsWith("leeroy")) { leeroy(); typed = ""; }
   else if (typed.endsWith("many whelps")) { whelps(); typed = ""; }
+  else if (typed.endsWith("wisp")) { typed = ""; if (!wisp.call()) window.TWX.notice("Blub", "The wisp is at the bottom of the faire pond. Fish it out."); }
 });
 // the crest dislikes being clicked repeatedly
 let crestClicks = [];

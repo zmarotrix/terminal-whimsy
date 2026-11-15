@@ -54,6 +54,7 @@ function award(id) {
   t.className = "toast";
   t.innerHTML = `<img src="${ICON(a.i)}" alt=""><div><div class="a">ACHIEVEMENT EARNED</div><div class="b">${esc(a.n)}</div><div class="c">${esc(a.d)}</div></div>`;
   toasts.append(t); setTimeout(() => t.remove(), 4300);
+  setTimeout(() => { const r = t.getBoundingClientRect(); burst(r.left + 32, r.top + r.height / 2, 30); }, 250);
   xp();
 }
 function xp() {
@@ -99,28 +100,152 @@ function hero() {
     });
   }
   tickCd(); setInterval(tickCd, 1000);
-  // drifting arcane motes
-  const cv = $(".motes"), cx = cv.getContext("2d");
-  let W, H, P = [];
-  const size = () => { const r = cv.getBoundingClientRect(); W = cv.width = r.width * devicePixelRatio; H = cv.height = r.height * devicePixelRatio; };
-  size(); addEventListener("resize", size);
-  const cols = ["124,242,154", "232,137,255", "124,200,255", "242,197,107"];
-  for (let k = 0; k < 46; k++) P.push({ x: Math.random(), y: Math.random(), r: .6 + Math.random() * 2.2, v: .0004 + Math.random() * .0012, c: cols[k % 4], p: Math.random() * 6 });
-  let vis = true;
-  new IntersectionObserver(e => { vis = e[0].isIntersecting; }).observe(cv);
+  motes($(".motes"), innerWidth < 600 ? 60 : 110, true);
+  // tap the sky: it sparkles
+  $(".hero").addEventListener("click", e => { if (!e.target.closest("a,button")) { burst(e.clientX, e.clientY, 26); poke("sky"); } });
+}
+
+/* ---------------- whimsy: motes, sparkle fx, the wisp ---------------- */
+const REDUCE = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const COLS = ["124,242,154", "232,137,255", "124,200,255", "242,197,107"];
+function star(cx, x, y, r, rot = 0) {      // a four-point twinkle
+  cx.beginPath();
+  for (let k = 0; k < 8; k++) {
+    const a = rot + k * Math.PI / 4, rr = k % 2 ? r * .32 : r;
+    cx.lineTo(x + Math.cos(a) * rr, y + Math.sin(a) * rr);
+  }
+  cx.closePath(); cx.fill();
+}
+// drifting arcane motes over an image; the whole parent box, shy of the cursor when interactive
+function motes(cv, n, interactive) {
+  if (!cv) return;
+  const cx = cv.getContext("2d"), box = cv.parentElement, dpr = Math.min(2, devicePixelRatio || 1);
+  let W = 1, H = 1, vis = false, mx = -1e4, my = -1e4;
+  const size = () => { const r = box.getBoundingClientRect(); W = cv.width = Math.max(1, r.width * dpr); H = cv.height = Math.max(1, r.height * dpr); };
+  size(); new ResizeObserver(size).observe(box);
+  const P = Array.from({ length: n }, (_, k) => ({ x: Math.random(), y: Math.random(), r: .7 + Math.random() * 2.3, v: .00025 + Math.random() * .0011,
+    c: COLS[k % 4], p: Math.random() * 6, s: Math.random() < .16, dx: 0, dy: 0 }));
+  new IntersectionObserver(e => { vis = e[0].isIntersecting; }).observe(box);
+  if (interactive) {
+    box.addEventListener("pointermove", e => { const r = cv.getBoundingClientRect(); mx = (e.clientX - r.left) * dpr; my = (e.clientY - r.top) * dpr; });
+    box.addEventListener("pointerleave", () => { mx = my = -1e4; });
+  }
+  if (REDUCE) { // one still frame
+    P.forEach(q => { cx.fillStyle = `rgba(${q.c},.6)`; cx.beginPath(); cx.arc(q.x * W, q.y * H, q.r * dpr, 0, 7); cx.fill(); });
+    return;
+  }
   (function frame(t) {
-    if (vis && !reduce) {
+    if (vis) {
       cx.clearRect(0, 0, W, H);
       for (const q of P) {
-        q.y -= q.v; q.x += Math.sin(t / 2400 + q.p) * .0004; if (q.y < -.05) { q.y = 1.05; q.x = Math.random(); }
-        const a = .35 + .35 * Math.sin(t / 600 + q.p);
-        cx.beginPath(); cx.arc(q.x * W, q.y * H, q.r * devicePixelRatio, 0, 7);
-        cx.fillStyle = `rgba(${q.c},${a})`; cx.shadowColor = `rgba(${q.c},1)`; cx.shadowBlur = 10; cx.fill();
+        q.y -= q.v; q.x += Math.sin(t / 2400 + q.p) * .00035;
+        if (q.y < -.04) { q.y = 1.04; q.x = Math.random(); }
+        let px = q.x * W + q.dx, py = q.y * H + q.dy;
+        const d = Math.hypot(px - mx, py - my), R = 140 * dpr;
+        if (d < R) { const f = (1 - d / R) * 3.2; q.dx += (px - mx) / (d || 1) * f; q.dy += (py - my) / (d || 1) * f; }
+        q.dx *= .94; q.dy *= .94;
+        const near = d < R ? 1 - d / R : 0;
+        const a = Math.min(1, .3 + .35 * Math.sin(t / 650 + q.p) + near * .6);
+        cx.fillStyle = `rgba(${q.c},${a})`; cx.shadowColor = `rgba(${q.c},1)`; cx.shadowBlur = 12 * dpr;
+        if (q.s) star(cx, px, py, (q.r * 2.6 + near * 3) * dpr, t / 1800 + q.p);
+        else { cx.beginPath(); cx.arc(px, py, (q.r + near * 1.2) * dpr, 0, 7); cx.fill(); }
       }
     }
     requestAnimationFrame(frame);
   })(0);
 }
+// page-wide sparkle layer: bursts, showers, and a faint cursor trail
+const fx = (() => {
+  const cv = document.createElement("canvas"); cv.className = "fx"; cv.setAttribute("aria-hidden", "true"); document.body.append(cv);
+  const cx = cv.getContext("2d"), dpr = Math.min(2, devicePixelRatio || 1);
+  const size = () => { cv.width = innerWidth * dpr; cv.height = innerHeight * dpr; };
+  size(); addEventListener("resize", size);
+  const P = []; let running = false;
+  function loop() {
+    cx.clearRect(0, 0, cv.width, cv.height);
+    for (let k = P.length - 1; k >= 0; k--) {
+      const q = P[k];
+      q.x += q.vx; q.y += q.vy; q.vy += q.g; q.vx *= .985; q.life -= q.decay; q.rot += q.spin;
+      if (q.life <= 0) { P.splice(k, 1); continue; }
+      cx.globalAlpha = Math.min(1, q.life * 1.4); cx.fillStyle = `rgb(${q.c})`; cx.shadowColor = `rgb(${q.c})`; cx.shadowBlur = 10 * dpr;
+      star(cx, q.x * dpr, q.y * dpr, q.r * dpr * (.6 + q.life * .4), q.rot);
+    }
+    cx.globalAlpha = 1;
+    if (P.length) requestAnimationFrame(loop); else running = false;
+  }
+  const add = q => { P.push(q); if (!running) { running = true; requestAnimationFrame(loop); } };
+  return {
+    burst(x, y, n = 22, spread = 1) {
+      if (REDUCE) return;
+      for (let k = 0; k < n; k++) { const a = Math.random() * Math.PI * 2, s = (1.5 + Math.random() * 4.5) * spread;
+        add({ x, y, vx: Math.cos(a) * s, vy: Math.sin(a) * s - 1.5, g: .09, r: 3 + Math.random() * 5, c: COLS[k % 4], life: 1, decay: .012 + Math.random() * .016, rot: Math.random() * 3, spin: (Math.random() - .5) * .2 }); }
+    },
+    shower(n = 160) {
+      if (REDUCE) return;
+      for (let k = 0; k < n; k++) add({ x: Math.random() * innerWidth, y: -20 - Math.random() * innerHeight * .8, vx: (Math.random() - .5) * 1.2, vy: 1.5 + Math.random() * 3, g: .02, r: 3 + Math.random() * 6, c: COLS[k % 4], life: 1, decay: .0045 + Math.random() * .004, rot: Math.random() * 3, spin: (Math.random() - .5) * .15 });
+    },
+    trail(x, y) {
+      add({ x: x + (Math.random() - .5) * 8, y: y + (Math.random() - .5) * 8, vx: (Math.random() - .5) * .6, vy: .2 + Math.random() * .6, g: .01, r: 1.6 + Math.random() * 2.4, c: COLS[(Math.random() * 4) | 0], life: .8, decay: .03, rot: Math.random() * 3, spin: .05 });
+    }
+  };
+})();
+const burst = fx.burst;
+if (!REDUCE && matchMedia("(pointer: fine)").matches) {
+  let last = 0, lx = 0, ly = 0;
+  addEventListener("pointermove", e => {
+    const now = performance.now();
+    if (now - last < 34 || Math.hypot(e.clientX - lx, e.clientY - ly) < 14) return;
+    last = now; lx = e.clientX; ly = e.clientY;
+    if (store.get("trail", true)) fx.trail(e.clientX, e.clientY);
+  }, { passive: true });
+}
+
+// the wisp: a small guide in the corner that has something to say about each section
+const wisp = (() => {
+  const el = document.createElement("div");
+  el.className = "wisp"; el.hidden = store.get("wispGone", false);
+  el.innerHTML = `<div class="bubble" role="status" aria-live="polite"><span class="say"></span><button class="x" aria-label="Send the wisp away" data-tip="Send the wisp away">×</button></div>
+    <button class="orb" aria-label="Poke the wisp"><span class="eye"></span><span class="eye"></span></button>`;
+  document.body.append(el);
+  const say = $(".say", el), bub = $(".bubble", el);
+  let typing = 0, hideT = 0, pokes = 0, said = new Set();
+  function talk(text, hold = 6500) {
+    if (el.hidden) return;
+    clearTimeout(typing); clearTimeout(hideT);
+    bub.classList.add("on"); say.textContent = "";
+    let i = 0;
+    const step = () => { say.textContent = text.slice(0, ++i); if (i < text.length) typing = setTimeout(step, REDUCE ? 0 : 22); };
+    step();
+    hideT = setTimeout(() => bub.classList.remove("on"), hold + text.length * 22);
+  }
+  $(".orb", el).addEventListener("click", e => {
+    const r = e.currentTarget.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + r.height / 2, 18);
+    el.classList.remove("boing"); void el.offsetWidth; el.classList.add("boing");
+    pokes++; if (pokes >= 5) award("wisp");
+    const tips = D.WISP.poke;
+    talk(pokes === 1 ? D.WISP.hello : tips[(pokes - 2 + tips.length) % tips.length]);
+  });
+  $(".x", el).addEventListener("click", () => { el.hidden = true; store.set("wispGone", true); });
+  // a line for each section, the first time you reach it
+  const lines = D.WISP.sections;
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting && lines[e.target.id] && !said.has(e.target.id)) { said.add(e.target.id); talk(lines[e.target.id]); }
+  }), { rootMargin: "-40% 0px -50% 0px" });
+  $$("section.ch").forEach(s => io.observe(s));
+  setTimeout(() => { if (!said.size) talk(D.WISP.hello); }, 4500);
+  return { talk, el };
+})();
+function poke(what) { if (what === "sky" && Math.random() < .25) wisp.talk(D.WISP.sky[(Math.random() * D.WISP.sky.length) | 0], 3000); }
+
+// type "whimsy" anywhere (outside a text box) for a surprise
+(() => {
+  let buf = "";
+  addEventListener("keydown", e => {
+    if (e.target.closest("input,textarea") || e.key.length !== 1) return;
+    buf = (buf + e.key.toLowerCase()).slice(-6);
+    if (buf === "whimsy") { fx.shower(); document.documentElement.classList.add("party"); setTimeout(() => document.documentElement.classList.remove("party"), 6000); award("secret"); wisp.talk(D.WISP.secret, 5000); buf = ""; }
+  });
+})();
 
 /* ---------------- must know ---------------- */
 function must() {
@@ -263,7 +388,16 @@ function gear() {
     drawSets(); award("gear");
     if (tipOn) { tip.classList.remove("on"); tipOn = null; }
     const after = [...$$("#tierSets .tset")].find(t => t.querySelector(`[data-set="${CSS.escape(k)}"]`));
-    if (after && $$(".bon li.lit", after).length > before) { const li = $$(".bon li.lit", after).pop(); li.classList.add("pop"); }
+    if (after && $$(".bon li.lit", after).length > before) {
+      const li = $$(".bon li.lit", after).pop(); li.classList.add("pop");
+      const r = li.getBoundingClientRect(); burst(r.left + 40, r.top + r.height / 2, 16);
+    }
+    const sl = after && after.querySelector(`.slot[data-slot="${b.dataset.slot}"]`);
+    if (sl && sl.classList.contains("on")) { const r = sl.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + r.height / 2 - 8, 10, .6); }
+    if (after && $$(".slot.on", after).length === 6) {
+      const r = after.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + 60, 70, 1.6);
+      wisp.talk(D.WISP.fullset, 4000);
+    }
   });
   drawSets();
   // other items
@@ -370,6 +504,7 @@ function sources() {
 $$("img[src^='img/icons/']").forEach(i => { const k = i.getAttribute("src").slice(10, -4); if (window.TW_ICONS && TW_ICONS[k]) i.src = TW_ICONS[k]; });
 D.TIPS = D.TIPS || {};
 $("#lede").textContent = D.LEDE;
+$$(".banner").forEach(b => { const c = document.createElement("canvas"); c.className = "motes"; c.setAttribute("aria-hidden", "true"); b.querySelector(".art").after(c); motes(c, innerWidth < 600 ? 22 : 40, true); });
 $("#roadTldr").textContent = D.ROAD_TLDR;
 hero(); must(); road(); spotlight(); changes(); gear(); said(); sources(); xp(); onScroll();
 wire();

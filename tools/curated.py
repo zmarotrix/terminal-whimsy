@@ -171,6 +171,37 @@ ACH = {
     "archive": {"n": "Archivist", "d": "Dug into older Blizzard statements.", "i": "inv_scroll_03"},
     "wire": {"n": "Plugged In", "d": "Opened a story from The Wire.", "i": "inv_letter_15"},
     "end": {"n": "Terminal Reached", "d": "Made it to the very end.", "i": "spell_nature_timestop"},
+    "wisp": {"n": "Wisp Whisperer", "d": "Poked the wisp five times. It liked it.", "i": "spell_nature_starfall"},
+    "secret": {"n": "sudo whimsy", "d": "Found the secret. Type it again anytime.", "i": "inv_misc_gift_01"},
+}
+
+# the wisp: a small guide in the corner. Lowercase, terminal voice, a little smug.
+WISP = {
+    "hello": "> hi. i'm the wisp. i live in the corner and know things about forever. poke me.",
+    "secret": "> sudo whimsy: permission granted. ✦",
+    "fullset": "> full set! you look incredible. stats still hidden, but incredible.",
+    "sections": {
+        "must": "> start here. eleven things, sixty seconds. i timed it.",
+        "road": "> raids open 9 december. i've been counting. obsessively.",
+        "you": "> pick your class. i won't tell anyone if it's a hunter.",
+        "changes": "> classic is struck through, forever is not. that's the whole trick.",
+        "gear": "> click the armour pieces. the set bonuses glow. very satisfying.",
+        "said": "> everything blizzard said, with receipts. every line links to the source.",
+        "wire": "> fresh news every three hours. gold means blizzard said it.",
+        "sources": "> every claim links somewhere. trust, but verify.",
+    },
+    "poke": [
+        "> salvation is gone. watch your own threat, dps. i believe in you.",
+        "> world buffs don't work in raids. sleep in on raid day.",
+        "> nobody knows the loot yet. write down what drops. be the archive.",
+        "> battle shout reaches all twenty of you now. hug a warrior.",
+        "> hit is one stat now. about 8% melee, 17% spells against bosses.",
+        "> onyxia still wants some fire resistance. she's old-fashioned.",
+        "> tip: try typing a certain word anywhere on this page. it's the guild's middle name.",
+        "> i'm made of 4% arcane, 96% vibes.",
+        "> ok, that's enough poking. (it isn't. keep going.)",
+    ],
+    "sky": ["> ✦ wheee", "> you poked the sky. it sparkled back.", "> careful, that's dalaran's good sky."],
 }
 
 # Gear: which class each set name belongs to, and armour type for slot icons

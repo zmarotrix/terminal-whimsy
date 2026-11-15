@@ -2,6 +2,14 @@
 
 A guild guide to World of Warcraft: Forever: everything Blizzard has said, every change from Classic that matters to a raid, the new Tier 1 gear, and The Wire, a news feed that refreshes itself.
 
+> **⚠ Looking for the terminal's secrets?**
+>
+> None of the secrets are in this repository.
+>
+> ...is what the wisp would say, if the wisp could lie. It can't. The seal words, the passwords and the Vault's key are all in here somewhere. Reading them won't break anything. It will only spoil the hunt for you.
+>
+> If you want the real thing, close this tab, open the site, and press <kbd>`</kbd>. Start with your mail.
+
 ## How it fits together
 
 - `index.html`, `site.css`, `app.js`: the page. Static, no build step for the browser.

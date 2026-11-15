@@ -153,7 +153,7 @@ const wisp = (() => {
   const el = document.createElement("div");
   el.className = "wisp"; el.hidden = store.get("wispGone", false);
   el.innerHTML = `<div class="bubble" role="status" aria-live="polite"><span class="say"></span><button class="x" aria-label="Send the wisp away" data-tip="Send the wisp away">×</button></div>
-    <button class="orb" aria-label="Poke the wisp" data-tip="The wisp: our guide. Poke it for raid tips."><span class="face"><span class="eye"></span><span class="eye"></span><span class="mouth"></span></span></button>`;
+    <button class="orb" aria-label="Poke the wisp"><span class="eye"></span><span class="eye"></span></button>`;
   document.body.append(el);
   const say = $(".say", el), bub = $(".bubble", el);
   let typing = 0, hideT = 0, pokes = 0;
@@ -277,7 +277,7 @@ function changeRow(c) {
   return `<details class="chg" id="c-${c.id}" data-id="${c.id}"><summary>${icon(ic)}<h4>${esc(c.title)}</h4>
     <span class="tags"><span class="dot ${c.severity}" data-tip="${SEVN[c.severity]}"></span><span class="stk ${c.confidence}">${CONF[c.confidence] || c.confidence}</span><span class="chev" aria-hidden="true">›</span></span></summary>
     <div class="body"><div class="cmp">${c.classic ? `<div class="was"><b>Classic</b>${esc(c.classic)}</div>` : ""}<div class="now"><b>Forever</b>${esc(c.forever)}</div></div>
-    <div class="why"><span class="mini-wisp happy" aria-hidden="true"></span><div><b>WHY YOUR RAID CARES</b>${esc(c.impact)}${c.more ? " " + esc(c.more) : ""}</div></div>
+    <div class="why"><span class="mini-wisp" aria-hidden="true"></span><div><b>WHY YOUR RAID CARES</b>${esc(c.impact)}${c.more ? " " + esc(c.more) : ""}</div></div>
     <p class="srcline">${a.n ? esc(a.n) + " · " : ""}${c.class ? esc(CL[c.class].n) + " · " : ""}Sources: ${src(c.sources)}</p></div></details>`;
 }
 function drawChanges() {

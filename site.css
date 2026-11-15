@@ -213,8 +213,9 @@ button{font:inherit;color:inherit}
 .cmp b{display:block;font:700 .64rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.4rem}
 .cmp .was b{color:var(--dim)}.cmp .now b{color:var(--term)}
 .why{display:flex;gap:.65rem;align-items:flex-start}
-.why .mini-wisp{width:26px;height:26px;animation:none;margin-top:.1rem}
-.why .mini-wisp::before,.why .mini-wisp::after{width:3px;height:4px}
+.why .mini-wisp{width:30px;height:30px;animation:none;margin-top:.1rem}
+.why .mini-wisp::before,.why .mini-wisp::after{width:4px;height:6px;top:40%}
+.why .mini-wisp::before{left:31%}.why .mini-wisp::after{right:27%}
 .why b{color:var(--term);font:700 .66rem/1 var(--f-mono);letter-spacing:.12em;display:block;margin-bottom:.25rem}
 .srcline{font:500 .78rem/1.5 var(--f-mono);color:var(--dim)}
 @media (max-width:640px){.cmp{grid-template-columns:1fr}.chg .body{padding-left:.4rem}.chg .tags .stk{display:none}}
@@ -334,16 +335,12 @@ footer b{color:var(--ink)}
 /* ---------- whimsy: sparkles + the wisp ---------- */
 .fx{position:fixed;inset:0;width:100vw;height:100vh;z-index:88;pointer-events:none}
 .wisp{position:fixed;z-index:92;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;align-items:flex-end;gap:.6rem;pointer-events:none}
-.wisp .orb{pointer-events:auto;position:relative;width:54px;height:54px;border-radius:50%;border:0;cursor:pointer;flex:none;display:flex;align-items:center;justify-content:center;padding:0;
+.wisp .orb{pointer-events:auto;position:relative;width:54px;height:54px;border-radius:50%;border:0;cursor:pointer;flex:none;display:flex;align-items:center;justify-content:center;gap:9px;padding-top:4px;
   background:radial-gradient(circle at 38% 32%,#f4fff7 0 8%,#9cf7b5 20%,#5bd6a0 42%,rgba(232,137,255,.55) 70%,rgba(232,137,255,0) 72%);
   box-shadow:0 0 22px 6px rgba(124,242,154,.45),0 0 60px 10px rgba(232,137,255,.25);animation:bob 3.4s ease-in-out infinite}
 .wisp .orb::before,.wisp .orb::after{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:#e889ff;box-shadow:0 0 10px #e889ff;animation:orbit 4s linear infinite}
 .wisp .orb::after{background:var(--sky);box-shadow:0 0 10px var(--sky);width:7px;height:7px;animation-duration:2.7s;animation-direction:reverse}
-.wisp .face{position:relative;width:26px;height:20px;margin-top:4px}
-.wisp .eye{position:absolute;top:0;width:8px;height:10px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 1.6px,#0a0c13 2.2px);animation:blinky 5s infinite}
-.wisp .eye:first-child{left:1px}.wisp .eye:nth-child(2){right:1px}
-.wisp .mouth{position:absolute;left:50%;bottom:0;width:8px;height:4px;margin-left:-4px;border:2px solid #0a0c13;border-top:0;border-radius:0 0 8px 8px}
-.wisp .orb:hover .mouth{height:6px;width:10px;margin-left:-5px;background:#0a0c13}
+.wisp .eye{width:6px;height:9px;border-radius:50%;background:#0a0c13;animation:blinky 5s infinite}
 .wisp.boing .orb{animation:boing .5s cubic-bezier(.2,1.8,.4,1),bob 3.4s ease-in-out .5s infinite}
 @keyframes orbit{from{transform:rotate(0) translateX(34px) rotate(0)}to{transform:rotate(360deg) translateX(34px) rotate(-360deg)}}
 @keyframes blinky{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}

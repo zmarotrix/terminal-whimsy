@@ -310,6 +310,13 @@ ACH = {
     # ---- Secret pages ----
     "faire": {"n": "Step Right Up", "d": "Used your ticket at the faire gate.", "i": "inv_misc_ticket_darkmoon_01", "cat": "Secret pages", "secret": True},
     "faireseen": {"n": "Faire-goer", "d": "Visited the Darkmoon Faire page.", "i": "inv_misc_ticket_darkmoon_01", "cat": "Secret pages", "secret": True},
+    "bottle": {"n": "Message Received", "d": "Uncorked a message in a bottle.", "i": "fish_bottle", "cat": "Secret pages", "secret": True},
+    "bottles": {"n": "Pen Pals", "d": "Read every letter the pond has to give.", "i": "inv_letter_15", "cat": "Secret pages", "secret": True},
+    "pearl": {"n": "Pearl of Wisdom", "d": "Found a golden pearl in a Darkmoon Shell.", "i": "pearl_golden", "cat": "Secret pages", "secret": True},
+    "wishes": {"n": "Careful What You Wish For", "d": "Used all three of Mr. Pinchy's wishes.", "i": "ability_hunter_pet_crab", "cat": "Secret pages", "secret": True},
+    "wispdunk": {"n": "Blub", "d": "Dropped the wisp in the pond.", "i": "spell_frost_summonwaterelemental", "cat": "Whimsy", "secret": True},
+    "wispfished": {"n": "Catch of the Day", "d": "Fished the wisp back out of the pond.", "i": "inv_fishingpole_02", "cat": "Whimsy", "secret": True},
+    "leeroysu": {"n": "At Least You Have Chicken", "d": "Logged in as Leeroy. Briefly.", "i": "ability_warrior_charge", "cat": "Terminal", "secret": True},
     "fish1": {"n": "Gone Fishin'", "d": "Caught something at the faire pond.", "i": "trade_fishing", "cat": "Secret pages", "secret": True},
     "fishboot": {"n": "If the Boot Fits", "d": "Fished up a boot at the faire.", "i": "inv_boots_09", "cat": "Secret pages", "secret": True},
     "fish25": {"n": "Angler", "d": "Caught 25 things.", "i": "inv_misc_fish_08", "cat": "Secret pages", "secret": True},
@@ -425,7 +432,8 @@ ITEM_ICONS = [
 DUNGEON_SET_ICON = "inv_helmet_08"
 
 # icons the secret pages and terminal use that aren't referenced anywhere else
-EXTRA_ICONS = ["fish_smallfish", "fish_longjaw", "fish_catfish", "fish_trout", "fish_stonescale", "fish_salmon", "fish_bottle",
+EXTRA_ICONS = ["pearl_small", "pearl_iridescent", "pearl_black", "pearl_golden", "inv_misc_bag_10", "spell_frost_summonwaterelemental",
+               "fish_smallfish", "fish_longjaw", "fish_catfish", "fish_trout", "fish_stonescale", "fish_salmon", "fish_bottle",
                "inv_boots_09", "inv_jewelry_ring_01", "inv_misc_fish_02", "inv_misc_fish_08", "inv_misc_fish_13", "inv_misc_fish_14",
                "inv_misc_fish_18", "inv_misc_fish_31", "inv_misc_shell_02", "inv_drink_05", "ability_hunter_pet_crab", "inv_misc_head_murloc_01",
                "ability_hunter_pet_turtle", "inv_fishingpole_02", "inv_misc_ticket_darkmoon_01", "spell_holy_resurrection", "inv_scroll_05",

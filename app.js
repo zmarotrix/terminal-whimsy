@@ -250,6 +250,8 @@ const wisp = (() => {
     if (!drag) return;
     const d = drag; drag = null; el.classList.remove("held");
     if (!d.moved) { poke(); return; }
+    // dropped onto something that wants it (the faire pond, say)?
+    if (api.onDrop) { orb.style.pointerEvents = "none"; const under = document.elementFromPoint(e.clientX, e.clientY); orb.style.pointerEvents = ""; if (api.onDrop(under, e.clientX, e.clientY)) return; }
     store.set("wispPos", d.p); award("wrangler");
     el.classList.remove("boing"); void el.offsetWidth; el.classList.add("boing");
     talk(["> wheee!", "> ooh, nice view from here.", "> put me down gently next time.", "> i live here now."][Math.random() * 4 | 0], 2500);
@@ -257,7 +259,7 @@ const wisp = (() => {
   orb.addEventListener("click", e => e.preventDefault());
   orb.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); poke(); } });
   $(".x", el).addEventListener("click", () => { el.hidden = true; store.set("wispGone", true); hideTip(); });
-  return {
+  const api = {
     talk, poke, el,
     sleep() { el.classList.add("sleep"); },
     gold(on = true) { el.classList.toggle("gold", on); store.set("wispGold", on); },
@@ -266,6 +268,7 @@ const wisp = (() => {
     moveTo(x, y) { place({ x: x / innerWidth, y: y / innerHeight }); },       // for /follow and friends
     restore() { const p = store.get("wispPos", null); if (p && p.x != null) place(p); else this.home(); },
   };
+  return api;
 })();
 
 /* ---------------- rooms (tabs) ---------------- */

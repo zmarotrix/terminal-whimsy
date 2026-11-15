@@ -230,7 +230,7 @@ a:hover .ic::after,summary:hover .ic::after,.slot:hover .ic::after,.item:hover .
 .ic.q-rare{box-shadow:0 0 0 1px #000,0 0 0 2px var(--q-rare),0 0 14px -2px var(--q-rare)}
 .ic.q-uncommon{box-shadow:0 0 0 1px #000,0 0 0 2px var(--q-uncommon)}
 .ic.q-common{box-shadow:0 0 0 1px #000,0 0 0 2px #9d9d9d}
-#tip{position:fixed;z-index:96;max-width:320px;padding:.7rem .85rem;border-radius:6px;background:linear-gradient(180deg,rgba(9,12,32,.97),rgba(5,6,18,.97));border:1px solid #6a6f86;box-shadow:0 0 0 1px #000,0 10px 30px rgba(0,0,0,.6);font:400 .9rem/1.4 var(--f-sans);pointer-events:none;opacity:0;transform:translateY(4px);transition:opacity .12s,transform .12s}
+#tip{position:fixed;z-index:100;max-width:320px;padding:.7rem .85rem;border-radius:6px;background:linear-gradient(180deg,rgba(9,12,32,.97),rgba(5,6,18,.97));border:1px solid #6a6f86;box-shadow:0 0 0 1px #000,0 10px 30px rgba(0,0,0,.6);font:400 .9rem/1.4 var(--f-sans);pointer-events:none;opacity:0;transform:translateY(4px);transition:opacity .12s,transform .12s}
 #tip.on{opacity:1;transform:none}
 #tip .t{font:700 1rem/1.25 var(--f-sans)}
 #tip .s{color:#fff}#tip .g{color:var(--q-uncommon)}#tip .y{color:#ffd100}#tip .d{color:var(--muted);font-size:.82rem}
@@ -334,7 +334,7 @@ footer b{color:var(--ink)}
 
 /* ---------- whimsy: sparkles + the wisp ---------- */
 .fx{position:fixed;inset:0;width:100vw;height:100vh;z-index:88;pointer-events:none}
-.wisp{position:fixed;z-index:92;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;align-items:flex-end;gap:.6rem;pointer-events:none}
+.wisp{position:fixed;z-index:98;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;align-items:flex-end;gap:.6rem;pointer-events:none}
 .wisp .orb{pointer-events:auto;position:relative;width:54px;height:54px;border-radius:50%;border:0;cursor:pointer;flex:none;display:flex;align-items:center;justify-content:center;gap:9px;padding-top:4px;
   background:radial-gradient(circle at 38% 32%,#f4fff7 0 8%,#9cf7b5 20%,#5bd6a0 42%,rgba(232,137,255,.55) 70%,rgba(232,137,255,0) 72%);
   box-shadow:0 0 22px 6px rgba(124,242,154,.45),0 0 60px 10px rgba(232,137,255,.25);animation:bob 3.4s ease-in-out infinite}
@@ -623,3 +623,31 @@ html.ressick main{filter:blur(.6px) saturate(.6);transition:filter 2s}
 .wisp.shook .orb{animation:shook .12s linear infinite}
 .wisp.held.shook .orb{transform:none}
 @keyframes shook{0%{transform:rotate(-14deg) scale(1.05)}50%{transform:rotate(14deg) scale(.95)}100%{transform:rotate(-14deg) scale(1.05)}}
+
+/* the faire bag */
+.bagbox{display:flex;flex-direction:column;gap:.55rem}
+.baghead{display:flex;align-items:center;gap:.5rem;font:600 .95rem/1 var(--f-sans)}
+.baghead img{width:24px;height:24px;border-radius:5px}
+.purse{margin-left:auto;display:inline-flex;align-items:center;gap:.25rem;font:600 .85rem/1 var(--f-mono);color:#e6a76a}
+.purse .cu{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;background:radial-gradient(circle at 35% 35%,#f3c08e,#b8682f 70%);box-shadow:0 0 0 1px rgba(0,0,0,.5)}
+.bag{display:grid;grid-template-columns:repeat(4,40px);gap:.5rem;padding:.65rem;border-radius:10px;background:rgba(0,0,0,.28);border:1px solid var(--rule);width:max-content;max-width:100%}
+.bag .slot{position:relative;width:40px;height:40px;border-radius:7px;background:rgba(0,0,0,.35);box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+.bag button.slot{padding:0;border:0;cursor:pointer;transition:filter .12s,transform .12s}
+.bag button.slot:hover{filter:brightness(1.25);transform:translateY(-1px)}
+.bag .slot b{position:absolute;right:3px;bottom:2px;font:700 .72rem/1 var(--f-sans);color:#fff;text-shadow:0 0 2px #000,0 0 2px #000,1px 1px 0 #000}
+.baghint{margin:0;font-size:.85rem}
+.bagout{margin-top:1.1rem;display:flex;flex-direction:column;gap:.75rem}
+.bagmsg{margin:0}
+.letter{max-width:34rem;padding:1rem 1.25rem;border-radius:3px;background:linear-gradient(180deg,#efe2bf,#d6c393);color:#3b2a14;font:italic 400 1.05rem/1.5 var(--f-sans);box-shadow:0 8px 20px rgba(0,0,0,.45);transform:rotate(-.5deg)}
+.letter p{margin:0}
+.letter .from{margin-top:.5rem;text-align:right;font-size:.92rem}
+.q-legendary-t{color:#ff8000}
+/* the wisp, dropped in the pond */
+.wisp.sink .orb{animation:sink .65s ease-in forwards}
+@keyframes sink{0%{transform:none;opacity:1}30%{transform:translateY(-8px) scale(1.05)}100%{transform:translateY(34px) scale(.2);opacity:0}}
+.wispglow{position:absolute;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(232,137,255,.6),rgba(124,200,255,.18) 55%,transparent 70%);animation:wglow 2.4s ease-in-out infinite}
+.wispglow::before,.wispglow::after{content:"";position:absolute;left:50%;top:2px;width:6px;height:6px;border-radius:50%;border:1px solid rgba(232,137,255,.8);animation:wbub 2.2s ease-out infinite}
+.wispglow::after{left:28%;animation-delay:1.1s}
+@keyframes wglow{50%{transform:scale(1.3);opacity:.7}}
+@keyframes wbub{from{transform:translateY(0);opacity:1}to{transform:translateY(-44px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.wisp.sink .orb,.wispglow,.wispglow::before,.wispglow::after{animation:none}}

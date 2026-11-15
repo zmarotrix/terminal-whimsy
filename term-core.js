@@ -809,10 +809,36 @@ cmd("answer", a => {
 });
 
 // su / sudo / passwd
+const SU_USERS = ["root", "grumbolt", "fizzlewick", "saltshaker", "sprinkles", "leeroy", "wisp", "whimsy"];
+let suFails = 0;
+function suFail(who) {
+  suFails++;
+  print("su: Authentication failure", "err");
+  LOG("sufail", { who, n: suFails });
+  if (suFails === 1) { wisp.talk("> nope. grumbolt would never use a password that obvious. probably.", 2500); return; }
+  if (who === "leeroy") print("(Leeroy's entry in /etc/passwd says he's AFK. It also says why. He's not a complicated man.)", "dim");
+  else if (who !== "root") print(`(${who[0].toUpperCase() + who.slice(1)}'s password isn't anywhere you can find. Root's is. Eventually.)`, "dim");
+  else print(suFails <= 3 ? "(Root's password can't be guessed. Somebody on this box knows it, and keeps it in a vault sealed with seven words. seals shows how far you've got.)" : "(Still no. It's in the vault. seals shows how far you've got.)", "dim");
+}
+function charge() {
+  award("leeroysu");
+  print("Password accepted. Starting leeroy's login shell, /bin/charge...", "dim");
+  setTimeout(() => { print(html(`leeroy@forever:~$ <span class="hl">LEEEEEEROOOOOOY JEEEEENKINS!</span>`)); X.leeroy && X.leeroy(); }, 500);
+  setTimeout(() => { print("/bin/charge: ran into a room full of whelps without a plan. Exit status 1 (wipe).", "err"); print("You're whimsy again. At least you have chicken.", "dim"); }, 1800);
+}
 cmd("su", a => {
-  if (S.user === "root") return "You're already root. Power has gone to your head.";
+  const who = (a.filter(x => !/^-/.test(x))[0] || "root").toLowerCase();
+  if (!SU_USERS.includes(who)) {
+    const near = SU_USERS.find(u => lev(u, who) <= 2);
+    return html(`<span class="err">su: user ${esc(who)} does not exist or the user entry does not contain all the required fields</span>${near ? `\n<span class="dim">Did you mean ${near}?</span>` : ""}`);
+  }
+  if (who === "root" && S.user === "root") return "You're already root. Power has gone to your head.";
+  if (who === S.user) return `You're already ${who}. (You contain multitudes.)`;
+  if (who === "wisp") { setTimeout(() => wisp.talk("> i don't log in. i simply am.", 2500), 200); return "This account is currently not available."; }
+  if (S.user === "root") { if (who === "leeroy") { charge(); return ""; } return who === "whimsy" ? "Type exit to go back to being whimsy." : `Root has no need to be ${who}. (Root has every need to be root.)`; }
   ask("Password: ", true, async pw => {
-    if (await sha(pw) !== TD.root) { print("su: Authentication failure", "err"); wisp.talk("> nope. grumbolt would never use a password that obvious. probably.", 2500); return; }
+    if (who === "leeroy") return pw.trim().toLowerCase() === "chicken" ? charge() : suFail(who);
+    if (who !== "root" || await sha(pw) !== TD.root) return suFail(who);
     sessions.push({ ...S }); Object.assign(S, { user: "root", home: "/root", cwd: "/root" });
     award("root"); print("You are root. Everything glows slightly more ominously.", "hl"); refresh();
   });
@@ -995,7 +1021,10 @@ cmd(["look", "examine"], () => html(`You look around. You're in a terminal on th
 cmd(["go", "open", "xdg-open"], a => {
   const t = (a[0] || "").toLowerCase().replace(/^#/, "");
   const known = ["brief", "changes", "gear", "said", "wire", "sources", "vault", "darkmoon", "patchnotes", "credits", "graveyard", "nether"];
-  const r = known.find(k => k.startsWith(t)); if (!t || !r) return `places: brief, changes, gear, said, wire, sources (and some you'll have to earn)`;
+  const r = known.find(k => k.startsWith(t));
+  const bi = !r && X.bag && a.length ? X.bag.find(a.join(" ")) : null;     // open bottle, open shell
+  if (bi) return html(X.bag.term(bi));
+  if (!t || !r) return `places: brief, changes, gear, said, wire, sources (and some you'll have to earn)`;
   location.hash = r; setTimeout(closeCon, 200); return "";
 });
 cmd("faire", () => { if (!flags.ticket) return "A gnome at the gate asks for your ticket. You don't have one. (Somebody on this box does.)"; flag("darkmoon"); award("faire"); X.secretTabs(); setTimeout(() => { location.hash = "darkmoon"; closeCon(); }, 700); return "The gnome punches your ticket. The Darkmoon Faire opens before you..."; });

@@ -33,16 +33,46 @@ function look() {
   say(`${r.name}\n${r.desc(s)}`);
 }
 const DIR = { n: "north", s: "south", e: "east", w: "west", u: "up", d: "down", north: "north", south: "south", east: "east", west: "west", in: "in", inside: "in", enter: "in", out: "out", outside: "out", leave: "out", up: "up", down: "down" };
-function move(d) {
+// returns true if you arrived somewhere (quiet: don't describe it; used when walking a route)
+function move(d, quiet) {
   const r = ROOMS[s.room];
-  if (r.dark && !s.f.lit && d !== "east") return die("You stumble deeper into the dark. Something small, scaly and numerous finds you first. You have been eaten by a whelp.");
+  if (r.dark && !s.f.lit && d !== "east") { die("You stumble deeper into the dark. Something small, scaly and numerous finds you first. You have been eaten by a whelp."); return false; }
   const to = r.exits[d];
-  if (!to) return say("You can't go that way.");
-  if (s.room === "gate" && to === "hall" && !s.f.doorOpen) return say("The stone door doesn't move. It wants a name spoken aloud.");
-  if (s.room === "path" && to === "summit" && !s.f.dug) return say("The roots are too thick. You'd need to dig.");
-  s.room = to; s.moves++;
-  if (to === "summit") return win();
-  look();
+  if (!to) { say(`You can't go that way. From here: ${Object.keys(r.exits).join(", ")}.`); return false; }
+  if (s.room === "gate" && to === "hall" && !s.f.doorOpen) { say("The stone door doesn't move. It wants a name spoken aloud."); return false; }
+  if (s.room === "path" && to === "summit" && !s.f.dug) { say("The roots are too thick. You'd need to dig."); return false; }
+  s.room = to; s.moves++; save();
+  if (to === "summit") { win(); return false; }
+  if (!quiet) look();
+  return true;
+}
+// places by name: 'go faire', 'go to the inn', or just 'pond'
+const PLACES = { inn: ["inn", "tavern", "goldshire", "lion", "lions", "pride", "bar", "hearth"], road: ["road", "crossroads", "crossroad", "signpost", "sign", "elwynn", "stream"],
+  faire: ["faire", "fair", "darkmoon", "carnival", "fairground", "fairgrounds", "grounds"], tent: ["tent", "sayge"], pond: ["pond", "lake", "water"],
+  gate: ["gate", "barrow", "barrows", "deeps", "door"], hall: ["hall", "chest", "bones"], path: ["path", "roots", "hyjal", "mountain"], summit: ["summit", "top", "peak"] };
+const placeOf = ws => { for (const x of ws) for (const r in PLACES) if (PLACES[r].includes(x)) return r; return null; };
+function route(from, to) {
+  const q = [[from, []]], seen = new Set([from]);
+  while (q.length) { const [r, p] = q.shift(); if (r === to) return p; for (const [d, n] of Object.entries((ROOMS[r] || {}).exits || {})) if (!seen.has(n)) { seen.add(n); q.push([n, [...p, d]]); } }
+  return null;
+}
+function goTo(r) {
+  if (r === s.room) return say(`You're already here: ${ROOMS[r].name}.`);
+  const p = route(s.room, r); if (!p) return say("You can't see a way there from here.");
+  if (p.length > 1) say(`You head ${p.join(", then ")}.`);
+  for (let k = 0; k < p.length; k++) if (!move(p[k], k < p.length - 1)) return;
+}
+// your bag: what you've found in here, plus anything you fished out of the real faire pond
+const BAGW = ["bag", "bags", "backpack", "pack", "pockets", "pocket", "satchel", "inventory", "inv", "items", "belongings", "knapsack", "rucksack", "pouch", "purse"];
+const BAGV = ["look", "l", "open", "search", "check", "examine", "x", "inspect", "empty", "rummage", "show", "list", "view", "see", "read", "i"];
+const FAIRE = /\b(bottle|message|shell|clam|seashell|pinchy|crab|plushie|plush|pearls?|lustrous|iridescent|golden|snapper|longjaw|smallfish|catfish|trout|eel|salmon)\b/;
+const ITEMV = ["open", "use", "read", "uncork", "squeeze", "wish", "sell", "toss", "admire", "unroll", "pry"];
+function inventory() {
+  say(s.inv.length ? "You are carrying: " + s.inv.map(a).join(", ") + (s.f.lit ? " (the candle is lit)" : "") + "." : "You are empty-handed. Mostly pockets.");
+  const b = X.bag ? X.bag.list() : [];
+  if (!b.length) return;
+  const tryW = b.some(([n]) => /Bottle/.test(n)) ? "open bottle" : b.some(([n]) => /Shell/.test(n)) ? "open shell" : null;
+  print(html(`From the faire pond, in your real bag: ${b.map(([n, c]) => X.bag.tag(n) + (c > 1 ? " x" + c : "")).join(", ")}.\n<span class="dim">Those work in here too${tryW ? `: try <b>${tryW}</b>` : ""}. Outside the game, <b>bag</b> shows them.</span>`), "adv");
 }
 function die(msg) {
   say(msg + "\n\n    ****  You have died  ****");
@@ -104,14 +134,23 @@ function act(line) {
   const w = line.toLowerCase().replace(/[^a-z' ]/g, " ").replace(/\b(the|a|an|at|to|with|on|into|from)\b/g, " ").trim().split(/\s+/).filter(Boolean);
   if (!w.length) return;
   const [v, ...rest] = w; let obj = rest.join(" ");
+  // 'i', 'look in bag', 'open backpack', 'search pockets'
+  if ((BAGW.includes(v) && !rest.length) || (BAGV.includes(v) && rest.some(x => BAGW.includes(x)))) return inventory();
+  // things fished out of the real faire pond: 'open bottle', 'read message', 'use pinchy'
+  if (X.bag && rest.length && ITEMV.includes(v) && FAIRE.test(obj)) { const n = X.bag.find(obj); if (n) return print(html(X.bag.term(n)), "adv"); }
   if (DIR[v]) return move(DIR[v]);
-  if (v === "go" || v === "walk" || v === "run") return DIR[rest[0]] ? move(DIR[rest[0]]) : say("Go where?");
+  if (["go", "walk", "run", "head", "travel", "visit", "return", "goto"].includes(v)) {
+    if (DIR[rest[0]]) return move(DIR[rest[0]]);
+    const pl = placeOf(rest); if (pl) return goTo(pl);
+    return say(`${rest.length ? `You don't know the way to "${obj}".` : "Go where?"} From here: ${Object.keys(ROOMS[s.room].exits).join(", ")}.${rest.length ? " Or name a place: inn, crossroads, faire, tent, pond, gate, hyjal." : ""}`);
+  }
   if (VERBS[v]) return social(v, rest);
   const here = s.items[s.room] || (s.items[s.room] = []), r = ROOMS[s.room], dark = r.dark && !s.f.lit;
   switch (v) {
     case "look": case "l": if (rest[0] && rest[0] !== "around") return examine(obj); return look();
+    case "search": case "check": case "rummage": case "explore": return rest.length ? examine(obj) : look();
     case "examine": case "x": case "inspect": case "read": return examine(obj);
-    case "i": case "inv": case "inventory": return say(s.inv.length ? "You are carrying: " + s.inv.map(a).join(", ") + (s.f.lit ? " (the candle is lit)" : "") + "." : "You are empty-handed. Mostly pockets.");
+    case "i": case "inv": case "inventory": return inventory();
     case "take": case "get": case "grab": case "pick": {
       const it = rest.find(x => ITEMS[x] || x === "all");
       if (dark) return say("You fumble in the dark and find nothing but more dark.");
@@ -162,7 +201,7 @@ function act(line) {
       if (dark) return say("You can't see anything to open.");
       if (s.room === "hall" && /chest/.test(obj || "chest")) { if (s.f.chestOpen) return say("It's already open."); if (!has("key")) return say("The chest is locked. There's a rusty keyhole."); s.f.chestOpen = true; (s.items.hall = s.items.hall || []).push("shovel", "note"); save(); return say("The rusty key turns with a groan. Inside: a silver shovel and a crumpled note."); }
       if (s.room === "gate") return say("There's no handle. It wants a name.");
-      return say("There's nothing here to open.");
+      return say(`There's nothing here to open.${s.inv.length || (X.bag && X.bag.list().length) ? " (To see what you're carrying: i.)" : ""}`);
     case "dig": case "shovel":
       if (!has("shovel")) return say("You dig with your hands for a bit. It's undignified.");
       if (s.room !== "path") return say("You dig a small, pointless hole. You fill it back in, out of politeness.");
@@ -172,7 +211,7 @@ function act(line) {
       if (/pole/.test(obj)) return act("fish"); if (/shovel/.test(obj)) return act("dig"); if (/key/.test(obj)) return act("open chest"); if (/candle/.test(obj)) return act("light candle"); if (/fish/.test(obj)) return act("give fish");
       return say("You can't think how to use that here.");
     }
-    case "help": case "h": case "?": return say("Commands: look, n/s/e/w/in/out, take X, drop X, inventory, examine X, talk to X, say X, give X, buy X, light X, fish, open X, dig, use X, score, quit.\n(Stuck? The people here like to talk.)");
+    case "help": case "h": case "?": return say("Commands: look, n/s/e/w/in/out, go <place>, take X, drop X, inventory (i), examine X, talk to X, say X, give X, buy X, light X, fish, open X, dig, use X, score, quit.\n(Stuck? The people here like to talk.)");
     case "score": return say(`You have made ${s.moves} moves. Whimsy points: ${[s.f.lit, s.f.pole, s.f.murlocFed, s.f.doorOpen, s.f.chestOpen, s.f.dug].filter(Boolean).length} of 7.`);
     case "hint": return say(["Light first. The hearth at the inn is warm.", "The murloc is hungry; the pond has food; the gnome has poles; the inn had a coin.", "Sayge knows the door's word. So does the bard.", "The barrow's chest holds something for digging."][Math.min(3, [s.f.lit, s.f.murlocFed, s.f.doorOpen, s.f.chestOpen].filter(Boolean).length)]);
     case "quit": case "q": case "exit": save(); T.pop(); return print("You leave the dungeon. Your progress is saved. Type adventure to return.", "dim");
@@ -181,11 +220,14 @@ function act(line) {
     case "sleep": return say("You nap on the spot. When you wake, nothing has changed, except you're well rested.");
     case "dance": return say("You dance. Nobody here judges you. Except Sayge. Sayge always judges.");
     case "eat": return has("fish") ? say("You consider eating the fish. The murloc, somewhere, senses this and weeps.") : say("You have nothing edible.");
-    default: window.TWLOG && window.TWLOG.push("advunknown", { line, room: s.room }); return say(["I don't know how to do that.", "That doesn't seem to work here.", `You can't "${v}" here.`][s.moves % 3]);
+    default: if (!rest.length && placeOf([v])) return goTo(placeOf([v]));
+      window.TWLOG && window.TWLOG.push("advunknown", { line, room: s.room }); return say(["I don't know how to do that.", "That doesn't seem to work here.", `You can't "${v}" here.`][s.moves % 3]);
   }
 }
 function examine(obj) {
+  obj = (obj || "").replace(/^(in|inside|under|behind|around)\s+/, "");
   if (!obj) return look();
+  if (X.bag && FAIRE.test(obj)) { const n = X.bag.find(obj); if (n) return print(html(X.bag.describe(n)), "adv"); }
   if (/note/.test(obj) && has("note")) return say("The note reads: 'The roots of Hyjal block the way. Dig where the path is choked. -- a dwarf who should have brought a flask'");
   if (/ticket/.test(obj) && has("ticket")) return say("A Darkmoon ticket. ADMIT ONE. (Type 'faire' in the terminal, outside this game.)");
   if (/candle/.test(obj) && has("candle")) return say(s.f.lit ? "A brave little flame." : "A stubby candle. Unlit. The inn's hearth would light it.");

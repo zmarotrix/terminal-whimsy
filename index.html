@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Terminal Whimsy Forever Briefing</title>
-<meta name="description" content="Terminal Whimsy's guide to WoW Forever: what changed, the new gear, everything Blizzard has said, and a news wire that refreshes itself.">
+<meta name="description" content="Terminal Whimsy's notes on WoW Forever. What we've worked out so far, so nobody turns up to raids with a Classic spec.">
 <meta name="theme-color" content="#0a0c13">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 58 12v20c0 15-11 25-26 29C17 57 6 47 6 32V12z' fill='%2310131d' stroke='%23f2c56b' stroke-width='3'/%3E%3Cpath d='M19 24l9 8-9 8' fill='none' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M32 41h13' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,13 +39,13 @@
     <div class="hero-in">
       <p class="term" aria-hidden="true"><span class="txt"></span><span class="cur"></span></p>
       <h1>Terminal Whimsy<span class="spark" aria-hidden="true">✦</span><small>The Forever Briefing</small></h1>
-      <p class="lede">Our guild's cheat sheet for WoW&nbsp;Forever: what changed, what to wear, and what Blizzard said.</p>
+      <p class="lede">What we've worked out about WoW&nbsp;Forever so far, so nobody turns up on 9&nbsp;December with a Classic spec.</p>
       <div class="count"></div>
     </div>
   </div>
 
   <div class="wrap">
-    <div class="rhead"><span class="mini-wisp happy" aria-hidden="true"></span><div><h2>The 60-second version</h2><p>Read these eleven before raid night. Tap any one for the full story.</p></div></div>
+    <div class="rhead"><span class="mini-wisp happy" aria-hidden="true"></span><div><h2>The 60-second version</h2><p>If you only read one bit of this site, read this. Click one for the details.</p></div></div>
     <ol class="must" id="mustList"></ol>
 
     <div class="wave" aria-hidden="true"></div>
@@ -55,24 +55,24 @@
 
     <div class="wave" aria-hidden="true"></div>
 
-    <div class="rhead"><span class="mini-wisp wow" aria-hidden="true"></span><div><h2>Fresh from Blizzard</h2><p>The newest official posts. The full feed lives in <a href="#wire">The Wire</a>.</p></div></div>
+    <div class="rhead"><span class="mini-wisp wow" aria-hidden="true"></span><div><h2>New from Blizzard</h2><p>Their latest posts. News sites and players are over in <a href="#wire">The Wire</a>.</p></div></div>
     <div class="feed" id="freshList"></div>
 
     <div class="wave" aria-hidden="true"></div>
 
-    <div class="rhead"><span class="mini-wisp happy" aria-hidden="true"></span><div><h2>Pick a room</h2><p>Everything else is one tap away.</p></div></div>
+    <div class="rhead"><span class="mini-wisp happy" aria-hidden="true"></span><div><h2>The rest of the site</h2><p>Pick your class on Changes and it hides whatever doesn't apply to you.</p></div></div>
     <div class="doors">
-      <a class="door" href="#changes" style="--img:url(img/excavation.jpg);--tint:var(--mint)"><b>Changes</b><span>Every difference from Classic, filtered to your class</span><i class="n" data-count="changes"></i></a>
-      <a class="door" href="#gear" style="--img:url(img/thanes.jpg);--tint:var(--lilac)"><b>Gear</b><span>Try on every class's Tier 1 set</span><i class="n" data-count="gear"></i></a>
-      <a class="door" href="#said" style="--img:url(img/lordaeron.jpg);--tint:var(--butter)"><b>Blizzard said</b><span>Every official statement, with sources</span><i class="n" data-count="said"></i></a>
-      <a class="door" href="#wire" style="--img:url(img/gilneas-map.jpg);--tint:var(--sky)"><b>The Wire</b><span>News that refreshes itself</span><i class="n" data-count="wire"></i></a>
+      <a class="door" href="#changes" style="--img:url(img/excavation.jpg);--tint:var(--mint)"><b>Changes</b><span>What's different from Classic, by class</span><i class="n" data-count="changes"></i></a>
+      <a class="door" href="#gear" style="--img:url(img/thanes.jpg);--tint:var(--lilac)"><b>Gear</b><span>Try on the new Tier 1 sets</span><i class="n" data-count="gear"></i></a>
+      <a class="door" href="#said" style="--img:url(img/lordaeron.jpg);--tint:var(--butter)"><b>Blizzard said</b><span>What Blizzard has posted, with links</span><i class="n" data-count="said"></i></a>
+      <a class="door" href="#wire" style="--img:url(img/gilneas-map.jpg);--tint:var(--sky)"><b>The Wire</b><span>Headlines, pulled in a few times a day</span><i class="n" data-count="wire"></i></a>
     </div>
   </div>
 </section>
 
 <!-- ================= CHANGES ================= -->
 <section class="room" id="changes" data-room="changes" hidden>
-  <div class="banner" style="--img:url(img/excavation.jpg)"><div class="art"></div><div class="wrap cap"><h2>What changed</h2><p>How Classic did it, and what Forever does now.</p></div><span class="credit">Excavation Site · © Blizzard</span></div>
+  <div class="banner" style="--img:url(img/excavation.jpg)"><div class="art"></div><div class="wrap cap"><h2>What changed</h2><p>What Forever does differently from Classic, and where we read about it.</p></div><span class="credit">Excavation Site · © Blizzard</span></div>
   <div class="wrap">
     <div class="seg" id="chgMode" role="tablist" aria-label="What to show"><button role="tab" data-m="diff" aria-selected="true">Differences from Classic</button><button role="tab" data-m="hot" aria-selected="false">Hotfix log <span class="n" id="hotCount"></span></button></div>
     <div class="panel pick">
@@ -91,7 +91,7 @@
     <div id="ledger"></div>
     <div id="hotlog" hidden>
       <div class="tools">
-        <p class="muted">Every change from Blizzard's hotfix posts since launch, one line each, newest first. Picked a class above? You'll see only its lines plus the ones for everyone.</p>
+        <p class="muted">One line per fix from Blizzard's hotfix posts, newest first. If you've picked a class, you'll only see its fixes and the ones for everyone.</p>
         <div class="row chips" id="hotChips"></div>
         <div class="row"><input class="search" id="hotSearch" type="search" placeholder="Search hotfixes" aria-label="Search hotfixes"></div>
       </div>
@@ -122,7 +122,7 @@
 
 <!-- ================= BLIZZARD SAID ================= -->
 <section class="room" id="said" data-room="said" hidden>
-  <div class="banner" style="--img:url(img/lordaeron.jpg)"><div class="art"></div><div class="wrap cap"><h2>Blizzard said</h2><p>Every official statement we found. Tap one to read it.</p></div><span class="credit">Ruins of Lordaeron · © Blizzard</span></div>
+  <div class="banner" style="--img:url(img/lordaeron.jpg)"><div class="art"></div><div class="wrap cap"><h2>Blizzard said</h2><p>Official posts we've found, newest first. Click one to read it.</p></div><span class="credit">Ruins of Lordaeron · © Blizzard</span></div>
   <div class="wrap">
     <div class="tools">
       <div class="row chips" id="saidChips"></div>
@@ -135,7 +135,7 @@
 
 <!-- ================= THE WIRE ================= -->
 <section class="room" id="wire" data-room="wire" hidden>
-  <div class="banner" style="--img:url(img/gilneas-map.jpg)"><div class="art"></div><div class="wrap cap"><h2>The Wire</h2><p>News from Blizzard, the press and players. Refreshes every three hours.</p></div><span class="credit">WoW Forever loading screen · © Blizzard</span></div>
+  <div class="banner" style="--img:url(img/gilneas-map.jpg)"><div class="art"></div><div class="wrap cap"><h2>The Wire</h2><p>Headlines pulled in automatically a few times a day. The gold ones are from Blizzard.</p></div><span class="credit">WoW Forever loading screen · © Blizzard</span></div>
   <div class="wrap">
     <div class="tools">
       <div class="row chips" id="wireChips"></div>
@@ -151,7 +151,7 @@
 <!-- ================= SOURCES ================= -->
 <section class="room" id="sources" data-room="sources" hidden>
   <div class="wrap" style="padding-top:2.5rem">
-    <div class="rhead"><span class="mini-wisp wow" aria-hidden="true"></span><div><h2>Sources</h2><p>Every claim on this site links to where we read it. All <span id="srcCount"></span> of them, by site.</p></div></div>
+    <div class="rhead"><span class="mini-wisp wow" aria-hidden="true"></span><div><h2>Sources</h2><p>Where we read everything here, grouped by website. <span id="srcCount"></span> links in all.</p></div></div>
     <ul class="srcs" id="srcList"></ul>
   </div>
 </section>
@@ -172,7 +172,7 @@
 <script src="config.js?v=e650831c"></script>
 <script src="log.js?v=ab76afca"></script>
 <script src="icons.js?v=e9305ddd"></script>
-<script src="data.js?v=e6136eb4"></script>
+<script src="data.js?v=69d00347"></script>
 <script src="term-data.js?v=c7f84b6f"></script>
 <script src="app.js?v=5affd7a8"></script>
 <script src="whimsy.js?v=9a596a6f"></script>

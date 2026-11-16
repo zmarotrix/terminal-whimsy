@@ -2,8 +2,7 @@
 Edit here, then run: python tools/build_data.py"""
 
 HERO_CMD = "whimsy --brief forever --raid-night 2026-12-09"
-LEDE = ("Everything Blizzard has said about WoW Forever, every change from Classic that matters to a raid, "
-        "the new tier gear, and a news wire that refreshes itself. Built for raid night: 9 December.")
+LEDE = "What we've worked out about WoW Forever so far, so nobody turns up on 9 December with a Classic spec."
 
 COUNTDOWNS = [
     {"label": "Raids open", "sub": "9 Dec, time TBA · counting to midnight PST", "at": "2026-12-09T08:00:00Z", "i": "achievement_boss_onyxia"},
@@ -157,8 +156,8 @@ ROAD = [
     {"date": None, "when": "Spring 2027 (reported)", "t": "Next raid tier", "d": "Reported: two raids, two dungeons and a legendary questline.", "i": ["achievement_boss_ragnaros"]},
     {"date": None, "when": "Summer 2027 (reported)", "t": "A revamped iconic raid", "d": "Blizzard has promised a revamped iconic raid but hasn't said which one. Fan sites put it in summer.", "i": ["inv_hammer_unique_sulfuras"]},
 ]
-ROAD_TLDR = ("We're past launch and in the leveling month. Raids open on 9 December. After that Blizzard plans Hardcore, "
-             "a visual update for Skyborne, and new raids in 2027. Dates marked 'reported' come from fan sites, not Blizzard.")
+ROAD_TLDR = ("Launch was 4 November and raids open 9 December, so for now it's leveling and dungeons. Further out, "
+             "Blizzard has confirmed Hardcore and updated Skyborne models. The 2027 raid dates come from fan sites, so they're marked 'reported'.")
 
 ACH = {
     # ---- Briefing: reading the site ----
@@ -370,7 +369,7 @@ WISP = {
         "changes": "> pick your class up top and i'll hide everything that isn't yours.",
         "gear": "> click the armour pieces. the set bonuses glow. very satisfying.",
         "said": "> everything blizzard said, with receipts. click a line to read it.",
-        "wire": "> fresh news every three hours. gold means blizzard said it.",
+        "wire": "> new headlines a few times a day. gold means blizzard said it.",
         "sources": "> every claim links somewhere. trust, but verify.",
     },
     "poke": [

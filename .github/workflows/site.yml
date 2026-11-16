@@ -1,13 +1,15 @@
-# Every 3 hours: refreshes The Wire (data/news.json), the hotfix log (data/hotfixes.json) and source health
+# Every hour: refreshes The Wire (data/news.json), the hotfix log (data/hotfixes.json) and source health
 # (data/health.json), opens or closes an issue if a source breaks, and deploys the site to GitHub Pages.
 # A failed fetch keeps the last good news file, so the site never goes blank.
+# GitHub runs schedules on a best-effort basis and skips many slots when busy (every 3 hours gave gaps of up
+# to 13 hours), so this asks hourly to keep the real gaps short.
 name: Refresh news and deploy
 
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "23 */3 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:

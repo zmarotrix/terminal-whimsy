@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:06:22Z",
+ "updated": "2026-11-16T23:17:49Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -28,6 +28,24 @@
    "tags": [
     "leveling"
    ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "(New Player) Is this the only black lion?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy1qd5/new_player_is_this_the_only_black_lion/",
+   "date": "2026-11-16T21:24:02Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "I tamed this super cool black lion on my way back from wailing caverns since i have been using just a regular cat from the night elf area for a while, a couple other hunters showed up not too long after i tamed him and i got some quite angry messages. I…",
+   "who": "/u/momtookmynods",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "06898f4837",
+   "first": "2026-11-16T21:24:02Z",
+   "last": "2026-11-16T21:24:02Z",
+   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -477,8 +495,8 @@
    "first": "2026-11-16T11:51:12Z",
    "last": "2026-11-16T11:51:12Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -514,9 +532,9 @@
    "first": "2026-11-16T10:45:45Z",
    "last": "2026-11-16T10:45:45Z",
    "tags": [
-    "leveling",
     "classes",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -803,26 +821,6 @@
    "also": []
   },
   {
-   "title": "Fishing, first aid, and cooking should give legacy points.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxcnzs/fishing_first_aid_and_cooking_should_give_legacy/",
-   "date": "2026-11-16T01:31:26Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Since devs watch this space I just want to add to any discussion that may be going on with this specific topic. I have cooking and fishing at 150, and on my way to 225 with my warrior and frankly I find it weird that these aren't worth points. Skinning is…",
-   "who": "/u/alwaysonesteptoofar",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "88fccd7fb6",
-   "first": "2026-11-16T01:31:26Z",
-   "last": "2026-11-16T01:31:26Z",
-   "tags": [
-    "professions"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "World of Warcraft: Forever Update Officially Breaks Dungeon XP",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdlVMUUdKOVRvaDZLVlViSTQ0cm56QjBlWkhNeDdzc21jWWRfUm1hSGFwMGFJSldPQmdiN0J6SWFoVlhIRzlyeTVrM0lxZnZPNWdIYzRnTkZDY3NWbUo4bm9VNFRIdDZnaXRieHR6cllCZ1FLeFVhNEUtOEtTZ3NiVDVPNlE5Y3dUZU5pUDU0VzVhcDNvdlZMTTlLYw?oc=5",
    "date": "2026-11-15T21:37:15Z",
@@ -875,8 +873,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -1218,9 +1216,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "leveling",
     "classes",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1374,8 +1372,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1395,8 +1393,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -1497,8 +1495,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1615,8 +1613,8 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "story",
     "pvp",
+    "story",
     "realms"
    ],
    "classes": [],
@@ -1849,9 +1847,9 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
+    "warlock",
     "hunter",
-    "warlock"
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -2079,8 +2077,8 @@
     "classes"
    ],
    "classes": [
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2175,8 +2173,8 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "ui",
     "classes",
+    "ui",
     "hotfix"
    ],
    "classes": [
@@ -2220,8 +2218,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2259,9 +2257,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "leveling",
     "classes",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2526,8 +2524,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2635,8 +2633,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -2813,9 +2811,9 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
-    "ui",
     "classes",
+    "ui",
+    "pvp",
     "leveling"
    ],
    "classes": [],
@@ -2836,8 +2834,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
     "classes",
+    "raids",
     "leveling"
    ],
    "classes": [],
@@ -3204,6 +3202,18 @@
    "tags": [
     "leveling"
    ],
+   "classes": []
+  },
+  {
+   "title": "(New Player) Is this the only black lion?",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy1qd5/new_player_is_this_the_only_black_lion/",
+   "date": "2026-11-16T21:24:02Z",
+   "summary": "I tamed this super cool black lion on my way back from wailing caverns since i have been using just a regular cat from the night elf area for a while, a couple other hunters showed up not too long after i tamed him and i got some quite angry messages. I…",
+   "who": "/u/momtookmynods",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
    "classes": []
   },
   {
@@ -3736,20 +3746,6 @@
    "label": "community",
    "icon": "inv_shirt_guildtabard_01",
    "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Fishing, first aid, and cooking should give legacy points.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxcnzs/fishing_first_aid_and_cooking_should_give_legacy/",
-   "date": "2026-11-16T01:31:26Z",
-   "summary": "Since devs watch this space I just want to add to any discussion that may be going on with this specific topic. I have cooking and fishing at 150, and on my way to 225 with my warrior and frankly I find it weird that these aren't worth points. Skinning is…",
-   "who": "/u/alwaysonesteptoofar",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "professions"
-   ],
    "classes": []
   },
   {

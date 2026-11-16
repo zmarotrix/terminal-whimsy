@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:42:23Z",
+ "updated": "2026-11-16T20:28:44Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,6 +15,33 @@
  ],
  "stories": [
   {
+   "title": "WoW Forever Group Finder: How to Find a Dungeon Group",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82N3p6NDB0eldGS1ZtQmVDbDRuMkFQSlJDVlktRmE4dkRINEQ0UlZDcWoxWno2b3gxcDAyRW9QT3pZUzhIOVFwRG91RHliQm1JSlNNeTM1ZWlYdU5FbG5zTTUtQnlwV04xVWFKenZn?oc=5",
+   "date": "2026-11-16T18:11:37Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "b05f6f05c9",
+   "first": "2026-11-16T18:11:37Z",
+   "last": "2026-11-16T19:24:25Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Your daily dungeon reminder…",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xxyjmb/your_daily_dungeon_reminder/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-16T19:24:25Z"
+    }
+   ]
+  },
+  {
    "title": "Blizzard Walks Back WoW: Forever’s Dungeon XP Rule After 24 Hours, With the Cutoff Now 12 Levels",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMFgteDVIX3FOanBiZGstZlI1S3N2b2hSNHFLc0FJc21GNVhWOXhwSk56WkpVandMNEdTY0VPUU9tS1l5cmVyLVJhWUpjLTNDdko0OTJxMVlxRzlKbEE4MkJqRFI4b1ZWNEx1c1RmUjlKN3UzNjNGV0FDVWlYRTdIWERkMzA1R0hkNV9IZTZhR0ZPNUhSZnRFR0YzMF82VFJGaVRPUFA4Slp1RHAzZU5aUjNjMWpmM1Y3S1I2TUNnTko0dw?oc=5",
    "date": "2026-11-16T18:28:32Z",
@@ -25,25 +52,6 @@
    "id": "c34f5d02ee",
    "first": "2026-11-16T18:28:32Z",
    "last": "2026-11-16T18:28:32Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Group Finder: How to Find a Dungeon Group",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82N3p6NDB0eldGS1ZtQmVDbDRuMkFQSlJDVlktRmE4dkRINEQ0UlZDcWoxWno2b3gxcDAyRW9QT3pZUzhIOVFwRG91RHliQm1JSlNNeTM1ZWlYdU5FbG5zTTUtQnlwV04xVWFKenZn?oc=5",
-   "date": "2026-11-16T18:11:37Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "b05f6f05c9",
-   "first": "2026-11-16T18:11:37Z",
-   "last": "2026-11-16T18:11:37Z",
    "tags": [
     "leveling"
    ],
@@ -97,6 +105,24 @@
    "id": "7b417e1433",
    "first": "2026-11-16T16:43:10Z",
    "last": "2026-11-16T16:43:10Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "I deleted 5 books before learning you shouldn't do it and now i'm sad",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxtwqu/i_deleted_5_books_before_learning_you_shouldnt_do/",
+   "date": "2026-11-16T16:31:43Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "womp womp :( Unfortunately, those cannot be restored either and i am now locked out from getting an awesome upgrade at 50. That's about it, thank you for coming to my CRY talk. Don't burn books, kids. EDIT: you only need 25 books for the final quest, crisis…",
+   "who": "/u/arturb1",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "ad2df3e082",
+   "first": "2026-11-16T16:31:43Z",
+   "last": "2026-11-16T16:31:43Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -206,6 +232,23 @@
    "id": "2e182672df",
    "first": "2026-11-16T14:55:00Z",
    "last": "2026-11-16T14:55:00Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Taliesin & Evitel judge your World of Warcraft: Forever clips",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0NJZGtqRWlfQjRpbnJaMmpaT3R4UXRkYmFUWjgzdU9NenVva3llQ3pvb25LQndLcGZKWHNDdm1OaS1yZ2ZDVUgwRUEzenZieW9PdFUtQ2libUNpekZzMGZONkdlSi1zMmlERURTSV9JTEVEVXpkQVZ2QVc4ZjJWSUR2R1lxam5r?oc=5",
+   "date": "2026-11-16T14:47:52Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Yahoo Tech",
+   "icon": "inv_misc_spyglass_03",
+   "id": "c514e7fbc2",
+   "first": "2026-11-16T14:47:52Z",
+   "last": "2026-11-16T14:47:52Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -774,44 +817,6 @@
    "also": []
   },
   {
-   "title": "Unhinged Hunter",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xx4vxg/unhinged_hunter/",
-   "date": "2026-11-15T19:49:45Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "I'm still not sure if they were trolling or not. These loot goblins are going to be a menace if they ever make it to 60 and are rolling on your pre-raid BiS. Edit: Since people seem unaware, they're re-itemized as a healing item in Forever. +4 Str +4 Stam…",
-   "who": "/u/Selkhartha",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "7a15e3dd89",
-   "first": "2026-11-15T19:49:45Z",
-   "last": "2026-11-15T19:49:45Z",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Just got to the Riverglades and found this shit. Immersion ruined",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xx4uto/just_got_to_the_riverglades_and_found_this_shit/",
-   "date": "2026-11-15T19:48:30Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "How are the lumberjacks supposed to gain a mechanical advantage to use in their mill with the wheel running against the river??",
-   "who": "/u/Rywogadog",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "0186ccf9d7",
-   "first": "2026-11-15T19:48:30Z",
-   "last": "2026-11-15T19:48:30Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
    "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
    "date": "2026-11-15T19:00:00Z",
@@ -1166,34 +1171,13 @@
    "first": "2026-11-14T17:08:35Z",
    "last": "2026-11-14T17:08:35Z",
    "tags": [
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [
-    "shaman",
     "druid",
+    "shaman",
     "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Survival Hunter Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NTkZuSHZ3VkZBWFlQN0h3RHhDd2Z6YXFJRThUMGNmV2pHdlpuSHZOVVpFNl9nNHdZZjdzSEFqNk5iU3NVTlhMZGtHVTk4aV80Rk5zZm5MT1NkTVZub1hLcVFXOVRaYVYtSWxvY29Ebi0?oc=5",
-   "date": "2026-11-14T16:02:23Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "50a7392bf0",
-   "first": "2026-11-14T16:02:23Z",
-   "last": "2026-11-14T16:02:23Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -1386,8 +1370,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1407,8 +1391,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -1509,8 +1493,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1628,8 +1612,8 @@
    "last": "2026-11-12T17:58:03Z",
    "tags": [
     "realms",
-    "pvp",
-    "story"
+    "story",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1724,9 +1708,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "items",
     "professions",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1783,8 +1767,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1862,8 +1846,8 @@
    ],
    "classes": [
     "shaman",
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2079,8 +2063,8 @@
     "classes"
    ],
    "classes": [
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2098,9 +2082,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
+    "classes",
     "hotfix",
-    "classes"
+    "items"
    ],
    "classes": [
     "shaman"
@@ -2175,9 +2159,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
+    "classes",
     "ui",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [
     "druid"
@@ -2297,8 +2281,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2635,8 +2619,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -2815,8 +2799,8 @@
    "tags": [
     "classes",
     "ui",
-    "pvp",
-    "leveling"
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2836,9 +2820,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "classes",
+    "raids",
     "leveling",
-    "raids"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3194,6 +3178,20 @@
  ],
  "items": [
   {
+   "title": "Your daily dungeon reminder…",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxyjmb/your_daily_dungeon_reminder/",
+   "date": "2026-11-16T19:24:25Z",
+   "summary": "If you’re more than 5 minutes away from a dungeon, don’t be in the finder. Edit: glad this is well received. We need to continue to call these people out or kick them from the group immediately.",
+   "who": "/u/unconvincedhuman",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
    "title": "Blizzard Walks Back WoW: Forever’s Dungeon XP Rule After 24 Hours, With the Cutoff Now 12 Levels",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMFgteDVIX3FOanBiZGstZlI1S3N2b2hSNHFLc0FJc21GNVhWOXhwSk56WkpVandMNEdTY0VPUU9tS1l5cmVyLVJhWUpjLTNDdko0OTJxMVlxRzlKbEE4MkJqRFI4b1ZWNEx1c1RmUjlKN3UzNjNGV0FDVWlYRTdIWERkMzA1R0hkNV9IZTZhR0ZPNUhSZnRFR0YzMF82VFJGaVRPUFA4Slp1RHAzZU5aUjNjMWpmM1Y3S1I2TUNnTko0dw?oc=5",
    "date": "2026-11-16T18:28:32Z",
@@ -3249,6 +3247,18 @@
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "I deleted 5 books before learning you shouldn't do it and now i'm sad",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxtwqu/i_deleted_5_books_before_learning_you_shouldnt_do/",
+   "date": "2026-11-16T16:31:43Z",
+   "summary": "womp womp :( Unfortunately, those cannot be restored either and i am now locked out from getting an awesome upgrade at 50. That's about it, thank you for coming to my CRY talk. Don't burn books, kids. EDIT: you only need 25 books for the final quest, crisis…",
+   "who": "/u/arturb1",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
    "tags": [],
    "classes": []
   },
@@ -3319,6 +3329,17 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTVZiUm1XSGFCVmF3VFJBS3EteXRIRldhc0JKQ2R3aEhmY2tFajliT3hvb2drbGxGZGFOcWR5YUM1eVZOb2VkUlYzOU1KOHN0U1J0UEdfWExzcEI1N0lvZ0dYcHRLbWswa2l5cUJWbUI0WWdFRkFxSEozcjdQblVhcFlCYno0RzA3ODRGNS1qV0Z0TkM0X2Y0ZWtSR09ZbjFUY3hueFZha2Q0TWFr?oc=5",
    "date": "2026-11-16T14:55:00Z",
    "who": "Notebookcheck",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Taliesin & Evitel judge your World of Warcraft: Forever clips",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0NJZGtqRWlfQjRpbnJaMmpaT3R4UXRkYmFUWjgzdU9NenVva3llQ3pvb25LQndLcGZKWHNDdm1OaS1yZ2ZDVUgwRUEzenZieW9PdFUtQ2libUNpekZzMGZONkdlSi1zMmlERURTSV9JTEVEVXpkQVZ2QVc4ZjJWSUR2R1lxam5r?oc=5",
+   "date": "2026-11-16T14:47:52Z",
+   "who": "Yahoo Tech",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
@@ -3707,32 +3728,6 @@
    "classes": []
   },
   {
-   "title": "Unhinged Hunter",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xx4vxg/unhinged_hunter/",
-   "date": "2026-11-15T19:49:45Z",
-   "summary": "I'm still not sure if they were trolling or not. These loot goblins are going to be a menace if they ever make it to 60 and are rolling on your pre-raid BiS. Edit: Since people seem unaware, they're re-itemized as a healing item in Forever. +4 Str +4 Stam…",
-   "who": "/u/Selkhartha",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ]
-  },
-  {
-   "title": "Just got to the Riverglades and found this shit. Immersion ruined",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xx4uto/just_got_to_the_riverglades_and_found_this_shit/",
-   "date": "2026-11-15T19:48:30Z",
-   "summary": "How are the lumberjacks supposed to gain a mechanical advantage to use in their mill with the wheel running against the river??",
-   "who": "/u/Rywogadog",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
    "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
    "date": "2026-11-15T19:00:00Z",
@@ -4008,21 +4003,6 @@
     "leveling"
    ],
    "classes": []
-  },
-  {
-   "title": "Survival Hunter Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NTkZuSHZ3VkZBWFlQN0h3RHhDd2Z6YXFJRThUMGNmV2pHdlpuSHZOVVpFNl9nNHdZZjdzSEFqNk5iU3NVTlhMZGtHVTk4aV80Rk5zZm5MT1NkTVZub1hLcVFXOVRaYVYtSWxvY29Ebi0?oc=5",
-   "date": "2026-11-14T16:02:23Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "hunter"
-   ]
   },
   {
    "title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",

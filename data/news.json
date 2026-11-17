@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:26:09Z",
+ "updated": "2026-11-17T13:30:13Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,6 +15,142 @@
  ],
  "stories": [
   {
+   "title": "Blizzard, here's an easy win for Forever:",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyj9ec/blizzard_heres_an_easy_win_for_forever/",
+   "date": "2026-11-17T12:32:06Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Permanently ban Ziqo and Sodapoppin. Give them the full Reckful treatment. Prevent them from making a battle net account under their names. Remove all gold.",
+   "who": "/u/downtownrooff",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "1d012e5222",
+   "first": "2026-11-17T12:32:06Z",
+   "last": "2026-11-17T12:32:06Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW: Forever's economy has a problem, as a now-hotfixed grind rakes in thousands of gold for the people who got in early",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPd3FiNmVaQU1RRHVjSk1kVm8xZXRHZ2FKWW96ZnU3Y21CZS1FSDJUbnBNVW9NVkRWOW10Q05BYmUza2VsNzhzM0J6MzV5ZmdKeE1RZ0hqMmZDX0o3X3FGZVU3UGNQQ2trWmJBeDY1NG1INWVMTEFPdldKNkNGaFR5dFpyTUFJZ3dsbDV1V244S2E3WXlGaDBFNTF3V2w3QS1tWTR4RGZIVjJ0MTcxNVhHSmJ4NmpmSjBYVnI3R2JIUmJEWmNhaWxKejZCUkFieTFaU21WRk5lcWJlSDBHV3cybHZSVnVacTg4VTMxS1hVTDdDcmI5aFlwakx3?oc=5",
+   "date": "2026-11-17T11:56:46Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "PC Gamer",
+   "icon": "inv_misc_spyglass_03",
+   "id": "30a6834ef3",
+   "first": "2026-11-17T11:56:46Z",
+   "last": "2026-11-17T11:56:46Z",
+   "tags": [
+    "hotfix",
+    "economy"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever Travel Routes: Ships, Zeppelins and Teleports",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Od2tCUUhNd3BiZ2tTbVBGRGx5OWh5N1NlNTF1a1RsV05JTUd6NmVLeWRSUy1PZ09aSGVTT1FvVWQ3WXU3VFRpMmpVREJVck5WZ0ZJd1NKVmJySzlGZEFMTDA2V3FZZw?oc=5",
+   "date": "2026-11-17T09:01:26Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "e64cc87769",
+   "first": "2026-11-17T09:01:26Z",
+   "last": "2026-11-17T09:01:26Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Deadmines LFG post",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyfkx1/deadmines_lfg_post/",
+   "date": "2026-11-17T08:56:42Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/loopingtoon",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "06a310f672",
+   "first": "2026-11-17T08:56:42Z",
+   "last": "2026-11-17T08:56:42Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Blizzard needs to take one hard action. Just Ban them permanently for exploiting.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyf5jh/blizzard_needs_to_take_one_hard_action_just_ban/",
+   "date": "2026-11-17T08:29:21Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Nothing less is acceptable. And mods don't try to control the narrative. This is a serious issue.",
+   "who": "/u/icyice9",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "0b1be16fdc",
+   "first": "2026-11-17T08:29:21Z",
+   "last": "2026-11-17T08:29:21Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Maybe it's time for Blizzard to give streamers their own realm",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyf2da/maybe_its_time_for_blizzard_to_give_streamers/",
+   "date": "2026-11-17T08:23:34Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "I know there's already a megathread about the latest exploit, but I think this raises a much bigger question: how healthy is it for a server to have major streamers and their communities on it? Ever since the beta, we've had one streamer-related controversy…",
+   "who": "/u/jambaberg",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "549a962bce",
+   "first": "2026-11-17T08:23:34Z",
+   "last": "2026-11-17T08:23:34Z",
+   "tags": [
+    "realms"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Idea for the Blackmaw Hold exploiters, don't ban them, just wipe them",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyavlh/idea_for_the_blackmaw_hold_exploiters_dont_ban/",
+   "date": "2026-11-17T04:17:49Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "I'm a brand new player coming from OSRS. This Blackmaw Hold thing took the wind out of my sails. I spent 6 hours grinding gold for my mount and selling stuff on the AH. Then I see people made thousands in a few runs off an exploit. This started as me raging,…",
+   "who": "/u/Drewbtube7",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "2674c0a2ed",
+   "first": "2026-11-17T04:17:49Z",
+   "last": "2026-11-17T07:04:34Z",
+   "tags": [],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Blackmaw Hold Farm Megathread",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xydtpi/blackmaw_hold_farm_megathread/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-17T07:04:34Z"
+    }
+   ]
+  },
+  {
    "title": "Fishing Rack Adjustments: WoW Forever Hotfixes for November 16",
    "url": "https://www.warcrafttavern.com/forever/news/fishing-rack-adjustments-wow-forever-hotfixes-for-november-16/",
    "date": "2026-11-17T02:36:53Z",
@@ -27,10 +163,30 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "professions",
     "hotfix",
+    "classes",
     "items",
-    "classes"
+    "professions"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Time to see if Blizzard actually cares about the economy",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy8rvm/time_to_see_if_blizzard_actually_cares_about_the/",
+   "date": "2026-11-17T02:33:05Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "If these people are not suspended and all gold/items bought removed then the precedent will be set.",
+   "who": "/u/PM_Me_Elf_Porn",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "f8e9e9ff84",
+   "first": "2026-11-17T02:33:05Z",
+   "last": "2026-11-17T02:33:05Z",
+   "tags": [
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -50,8 +206,8 @@
    "last": "2026-11-17T02:23:22Z",
    "tags": [
     "hotfix",
-    "items",
     "classes",
+    "items",
     "leveling"
    ],
    "classes": [],
@@ -60,49 +216,39 @@
    "also": []
   },
   {
-   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
-   "date": "2026-11-16T21:04:18Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "13b85724cd",
-   "first": "2026-11-16T21:04:18Z",
+   "title": "So the nerfed AOE farm did crazy damage to the server economy.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy8d84/so_the_nerfed_aoe_farm_did_crazy_damage_to_the/",
+   "date": "2026-11-17T02:13:36Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "And now people that did abuse it are even trying to manipulate the AH on a mega server... So what are we going to do? Does the casual gamer now get fucked over? They should remove the gold... I also know about a couple ppl from my guild swimming in gold atm;…",
+   "who": "/u/LazyMakara",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "dacd1a50a9",
+   "first": "2026-11-17T02:13:36Z",
    "last": "2026-11-17T02:13:36Z",
    "tags": [
     "economy"
    ],
    "classes": [],
-   "n": 2,
+   "n": 1,
    "official": false,
-   "also": [
-    {
-     "title": "So the nerfed AOE farm did crazy damage to the server economy.",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xy8d84/so_the_nerfed_aoe_farm_did_crazy_damage_to_the/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-17T02:13:36Z"
-    }
-   ]
+   "also": []
   },
   {
-   "title": "Protection Paladin Guide | Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjQtRmk2akJWYldmOVdzSDA1cUl2NmZmNmJtWGgzM1hTOGJDQUJ1YjhUOEZTT2FBSkNoOXpTTWVDcldZbURMVHZ6cHJtTEhEcURuSVlEQ3hqbTBiQURxRmR6N1pGcWE4aXFDN2wtT211aTI1ZXBFYVdoUnpVbkZmeg?oc=5",
-   "date": "2026-11-17T00:58:23Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "a16d2a8882",
-   "first": "2026-11-17T00:58:23Z",
-   "last": "2026-11-17T00:58:23Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
+   "title": "A question of etiquette.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy7zbs/a_question_of_etiquette/",
+   "date": "2026-11-17T01:55:22Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "I was in the Riverlands and Ghostmaw spawns near me. I ask if anyone else needed to kill him for the quest. At this point a made comes up and starts the fight. I attempt to invite him so we can do it and he declines the invitation. A few moments into the…",
+   "who": "/u/Tharendril",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "2ecbbe8772",
+   "first": "2026-11-17T01:55:22Z",
+   "last": "2026-11-17T01:55:22Z",
+   "tags": [],
+   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -248,6 +394,23 @@
    "also": []
   },
   {
+   "title": "Stormwind's citizens every 3 minutes or so:",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy25jl/stormwinds_citizens_every_3_minutes_or_so/",
+   "date": "2026-11-16T21:40:39Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/Perepere11",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "7e8130c7a7",
+   "first": "2026-11-16T21:40:39Z",
+   "last": "2026-11-16T21:40:39Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "(New Player) Is this the only black lion?",
    "url": "https://www.reddit.com/r/wowforever/comments/1xy1qd5/new_player_is_this_the_only_black_lion/",
    "date": "2026-11-16T21:24:02Z",
@@ -259,6 +422,61 @@
    "id": "06898f4837",
    "first": "2026-11-16T21:24:02Z",
    "last": "2026-11-16T21:24:02Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
+   "date": "2026-11-16T21:04:18Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "13b85724cd",
+   "first": "2026-11-16T21:04:18Z",
+   "last": "2026-11-16T21:04:18Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "This thing would've been a cool World Boss.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy105r/this_thing_wouldve_been_a_cool_world_boss/",
+   "date": "2026-11-16T20:56:15Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Such a cool model just sitting there.",
+   "who": "/u/Minx-Boo",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "0ee692901e",
+   "first": "2026-11-16T20:56:15Z",
+   "last": "2026-11-16T20:56:15Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Chest Lid Shield",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy0pbq/chest_lid_shield/",
+   "date": "2026-11-16T20:44:50Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Hear me out. We have thousands of armor pieces and weapons in WoW, but somehow we still can’t strap a treasure chest lid to our arms and charge into battle. Just look at this absolute unit of a Tauren Warrior. Blizzard, please make this happen. We need…",
+   "who": "/u/Yungducc",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "2ad0464f0d",
+   "first": "2026-11-16T20:44:50Z",
+   "last": "2026-11-16T20:44:50Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -437,6 +655,23 @@
    "tags": [
     "leveling"
    ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "What about second WoW: Forever.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxt8ve/what_about_second_wow_forever/",
+   "date": "2026-11-16T16:06:47Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/pantherghast",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "86f5692eeb",
+   "first": "2026-11-16T16:06:47Z",
+   "last": "2026-11-16T16:06:47Z",
+   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -645,57 +880,18 @@
    "also": []
   },
   {
-   "title": "My first WoW Forever dungeon experience at lvl 13...",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxp5d7/my_first_wow_forever_dungeon_experience_at_lvl_13/",
-   "date": "2026-11-16T13:19:18Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "As soon as we entered the dungeon, our hunter asked: \"Anyone got any arrows to spare?\" I told him to go outside quickly and get some while we waited. After the first boss, our shaman asked: \"does anyone have any extra milk?\" Then I realized he's actually our…",
-   "who": "/u/Ladybung",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "248c0b6b8e",
-   "first": "2026-11-16T13:19:18Z",
-   "last": "2026-11-16T13:19:18Z",
+   "title": "Cooking Guide: How to Unlock, Level, Best Recipes",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RZUdqOG9kWjRtYldPQnh0VTUyU2p5UFktTmk2WVMyamhabXVLdWJkdUxQemZSZXZrbmJOSjNRMzlaLW41SmtxZTNHb2hlLUpqSGd5Z25Oci1lYU83ZjhyVg?oc=5",
+   "date": "2026-11-16T13:52:03Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "IGN",
+   "icon": "inv_misc_spyglass_03",
+   "id": "2d7f85dc4a",
+   "first": "2026-11-16T13:52:03Z",
+   "last": "2026-11-16T13:52:03Z",
    "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "My brother and me teaming up again after 17 years:",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxoyld/my_brother_and_me_teaming_up_again_after_17_years/",
-   "date": "2026-11-16T13:10:27Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/cyborg_priest",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "2a23a938b4",
-   "first": "2026-11-16T13:10:27Z",
-   "last": "2026-11-16T13:10:27Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "An absolutely gold and unexpected moment for me. Will go down as my first memorable experience as a new player to WoW.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxoth0/an_absolutely_gold_and_unexpected_moment_for_me/",
-   "date": "2026-11-16T13:03:22Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Some context. I had wandered to this area looking for a dungeon, not realizing it was entirely Horde. I had seen over 15 hordes roaming around earlier, and stayed to see what was up. After they killed me, I came back and sneaked around, hoping to maybe grab…",
-   "who": "/u/PangolinThick1802",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "64b720ce00",
-   "first": "2026-11-16T13:03:22Z",
-   "last": "2026-11-16T13:03:22Z",
-   "tags": [
-    "economy",
-    "leveling"
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -713,24 +909,6 @@
    "id": "7c8923e602",
    "first": "2026-11-16T12:07:17Z",
    "last": "2026-11-16T12:07:17Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW: Forever Graphics are Ridiculous",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxno3v/wow_forever_graphics_are_ridiculous/",
-   "date": "2026-11-16T12:04:32Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "I'm basically just sightseeing now. Sunsets and sunrises are now worthy of desktop wallpapers and calendar photos.",
-   "who": "/u/Steel-Tempered",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "f215d34b81",
-   "first": "2026-11-16T12:04:32Z",
-   "last": "2026-11-16T12:04:32Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -758,23 +936,6 @@
    "also": []
   },
   {
-   "title": "this is terrifying..",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxnf05/this_is_terrifying/",
-   "date": "2026-11-16T11:50:59Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/Anxious-Buddy-3830",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "aa379f5e17",
-   "first": "2026-11-16T11:50:59Z",
-   "last": "2026-11-16T11:50:59Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "WoW: Forever Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
    "date": "2026-11-16T10:45:45Z",
@@ -796,102 +957,6 @@
    "also": []
   },
   {
-   "title": "To the female gnome rogue in Wetlands on EU pvp",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxlujp/to_the_female_gnome_rogue_in_wetlands_on_eu_pvp/",
-   "date": "2026-11-16T10:16:50Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Im only making this post for the slight chance the person im referring to sees it. To the female gnome rogue i came across in wetlands who initially killed me while my silly ass was trying to get the sleeping bag quests done with my level 15 undead paladin…",
-   "who": "/u/dantinasm",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "915af59c6e",
-   "first": "2026-11-16T10:16:50Z",
-   "last": "2026-11-16T10:16:50Z",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [
-    "rogue"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "People dont understand the AH",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxkpdf/people_dont_understand_the_ah/",
-   "date": "2026-11-16T09:03:25Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "The AH atm is an absolute fiesta on the buyers side and complete and utter disaster as a seller. Do people not understand, that they DO get the deposit back, but they pay 5% of the total sales price as AH fee and not 5% of the deposit. There are people…",
-   "who": "/u/Aggravating-Drop7676",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "b08b7a6e47",
-   "first": "2026-11-16T09:03:25Z",
-   "last": "2026-11-16T09:03:25Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Got kicked out for rolling on a healer belt as resto shaman",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxkooj/got_kicked_out_for_rolling_on_a_healer_belt_as/",
-   "date": "2026-11-16T09:02:09Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Last night i was doing a Ruins of Lordaeron and 3 packs in the healer-set belt dropped. I and a mage rolled need on it, i won. After i won the leader (druid) started to argue that it wasnt loot for resto/ele shaman because it is cloth.... after we killed 2…",
-   "who": "/u/Individual-Guava9619",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "8892e02483",
-   "first": "2026-11-16T09:02:09Z",
-   "last": "2026-11-16T09:02:09Z",
-   "tags": [],
-   "classes": [
-    "shaman"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Im once again asking, Please give OCE its own timezone",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxk9mc/im_once_again_asking_please_give_oce_its_own/",
-   "date": "2026-11-16T08:34:39Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "I know, I know, another post about the timezones, but this seriously needs to be addressed, and the more noise, the more likely we actually get something done. I know its been mentioned in the podcasts. We're sick of playing at night submitted by…",
-   "who": "/u/Additional_Wheel6331",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "f3952dd645",
-   "first": "2026-11-16T08:34:39Z",
-   "last": "2026-11-16T08:34:39Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "You cant be serious Blizzard? Unlimited sap... W...T...F",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxk6e1/you_cant_be_serious_blizzard_unlimited_sap_wtf/",
-   "date": "2026-11-16T08:28:45Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "A rogue was mad he kept losing a battle in the open world so he resorted to this. Unlimited sap NO DR.... WTF Blizzard were you smoking crack when you thought unlimited sap would be a great idea!? I would be locked for 3-4 minutes until my bubble came up to…",
-   "who": "/u/craazz_",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "96502e9974",
-   "first": "2026-11-16T08:28:45Z",
-   "last": "2026-11-16T08:28:45Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "WoW Forever Weekly Quest Level 60: Gold from Booty Bay",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nM0Uxam1NY0xRU2J1c3M5LUhSRW9hRWhGTHZTRl95OHlZQlNLbjBPZ0xaeXF1ZnJMdzJCX3NQMjc5NDdFU2tsZ1FYVTJHYmNGa0FRQU5oZTZlOC1PZE9HQ0lkN1prWGdwd0pKQlRTdkdOc0J4RjJmeTNB?oc=5",
    "date": "2026-11-16T08:22:40Z",
@@ -905,42 +970,6 @@
    "tags": [
     "economy"
    ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Reminder that you are not behind on levels",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxj7br/reminder_that_you_are_not_behind_on_levels/",
-   "date": "2026-11-16T07:26:37Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "We took time off from work and played the game as total newbies with my friends. We have like 5+ days game time and we sit around 30-35 levels. That's like over 10h average everyday! I see lots of people reaching higher levels with half the playtime. We do…",
-   "who": "/u/anilisfaitnesto",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "0e7f018c00",
-   "first": "2026-11-16T07:26:37Z",
-   "last": "2026-11-16T07:26:37Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "If you are level 38 and not in Riverglades, stop, go there immediately.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxiefd/if_you_are_level_38_and_not_in_riverglades_stop/",
-   "date": "2026-11-16T06:37:18Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "A lot of people are going to STV as they normally would. You are missing out on a new landscape, music and questing experience. There are way less people here than in STV.",
-   "who": "/u/Molly_Matters",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "a6118d7cbd",
-   "first": "2026-11-16T06:37:18Z",
-   "last": "2026-11-16T06:37:18Z",
-   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -1058,47 +1087,6 @@
    "last": "2026-11-15T15:00:00Z",
    "tags": [],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-15T14:19:17Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "5acfc62b6f",
-   "first": "2026-11-15T14:19:17Z",
-   "last": "2026-11-15T14:19:17Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWWS0yOWlQbWNlbl93bzczLXZjcHBDbWdicmtEXzJCUXVHSVlXYl9LWS01MWZRNkdoZTdUVkxnQlYzQ2w4dTU3anJtcmpyeUdGQVNTdnBYSklSS3lmWjI5ZFEwU2RNYThJQU9VRUZiRjBrazZXVk1n?oc=5",
-   "date": "2026-11-15T03:10:44Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "da354bc80a",
-   "first": "2026-11-15T03:10:44Z",
-   "last": "2026-11-15T03:10:44Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "priest"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -1693,9 +1681,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
     "story",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1928,8 +1916,8 @@
    ],
    "classes": [
     "shaman",
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2157,8 +2145,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2177,8 +2165,8 @@
    "last": "2026-11-10T19:12:35Z",
    "tags": [
     "hotfix",
-    "items",
-    "classes"
+    "classes",
+    "items"
    ],
    "classes": [
     "shaman"
@@ -2254,8 +2242,8 @@
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
     "hotfix",
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [
     "druid"
@@ -2277,8 +2265,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2713,8 +2701,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -2891,10 +2879,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
     "classes",
+    "leveling",
     "ui",
-    "leveling"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3272,6 +3260,104 @@
  ],
  "items": [
   {
+   "title": "Blizzard, here's an easy win for Forever:",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyj9ec/blizzard_heres_an_easy_win_for_forever/",
+   "date": "2026-11-17T12:32:06Z",
+   "summary": "Permanently ban Ziqo and Sodapoppin. Give them the full Reckful treatment. Prevent them from making a battle net account under their names. Remove all gold.",
+   "who": "/u/downtownrooff",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "WoW: Forever's economy has a problem, as a now-hotfixed grind rakes in thousands of gold for the people who got in early",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPd3FiNmVaQU1RRHVjSk1kVm8xZXRHZ2FKWW96ZnU3Y21CZS1FSDJUbnBNVW9NVkRWOW10Q05BYmUza2VsNzhzM0J6MzV5ZmdKeE1RZ0hqMmZDX0o3X3FGZVU3UGNQQ2trWmJBeDY1NG1INWVMTEFPdldKNkNGaFR5dFpyTUFJZ3dsbDV1V244S2E3WXlGaDBFNTF3V2w3QS1tWTR4RGZIVjJ0MTcxNVhHSmJ4NmpmSjBYVnI3R2JIUmJEWmNhaWxKejZCUkFieTFaU21WRk5lcWJlSDBHV3cybHZSVnVacTg4VTMxS1hVTDdDcmI5aFlwakx3?oc=5",
+   "date": "2026-11-17T11:56:46Z",
+   "who": "PC Gamer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "hotfix",
+    "economy"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever Travel Routes: Ships, Zeppelins and Teleports",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Od2tCUUhNd3BiZ2tTbVBGRGx5OWh5N1NlNTF1a1RsV05JTUd6NmVLeWRSUy1PZ09aSGVTT1FvVWQ3WXU3VFRpMmpVREJVck5WZ0ZJd1NKVmJySzlGZEFMTDA2V3FZZw?oc=5",
+   "date": "2026-11-17T09:01:26Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Deadmines LFG post",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyfkx1/deadmines_lfg_post/",
+   "date": "2026-11-17T08:56:42Z",
+   "who": "/u/loopingtoon",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Blizzard needs to take one hard action. Just Ban them permanently for exploiting.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyf5jh/blizzard_needs_to_take_one_hard_action_just_ban/",
+   "date": "2026-11-17T08:29:21Z",
+   "summary": "Nothing less is acceptable. And mods don't try to control the narrative. This is a serious issue.",
+   "who": "/u/icyice9",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Maybe it's time for Blizzard to give streamers their own realm",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyf2da/maybe_its_time_for_blizzard_to_give_streamers/",
+   "date": "2026-11-17T08:23:34Z",
+   "summary": "I know there's already a megathread about the latest exploit, but I think this raises a much bigger question: how healthy is it for a server to have major streamers and their communities on it? Ever since the beta, we've had one streamer-related controversy…",
+   "who": "/u/jambaberg",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "realms"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Blackmaw Hold Farm Megathread",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xydtpi/blackmaw_hold_farm_megathread/",
+   "date": "2026-11-17T07:04:34Z",
+   "summary": "Please use this Megathread to discuss the nerfed Blackmaw Hold farm, the consequences for the AH economy and anything in between. New posts will be removed unless they contain new information relevant to the news story, at which point the post will be linked…",
+   "who": "/u/BloodKnightSalandria",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Idea for the Blackmaw Hold exploiters, don't ban them, just wipe them",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xyavlh/idea_for_the_blackmaw_hold_exploiters_dont_ban/",
+   "date": "2026-11-17T04:17:49Z",
+   "summary": "I'm a brand new player coming from OSRS. This Blackmaw Hold thing took the wind out of my sails. I spent 6 hours grinding gold for my mount and selling stuff on the AH. Then I see people made thousands in a few runs off an exploit. This started as me raging,…",
+   "who": "/u/Drewbtube7",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Fishing Rack Adjustments: WoW Forever Hotfixes for November 16",
    "url": "https://www.warcrafttavern.com/forever/news/fishing-rack-adjustments-wow-forever-hotfixes-for-november-16/",
    "date": "2026-11-17T02:36:53Z",
@@ -3285,6 +3371,20 @@
     "classes",
     "items",
     "professions"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Time to see if Blizzard actually cares about the economy",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy8rvm/time_to_see_if_blizzard_actually_cares_about_the/",
+   "date": "2026-11-17T02:33:05Z",
+   "summary": "If these people are not suspended and all gold/items bought removed then the precedent will be set.",
+   "who": "/u/PM_Me_Elf_Porn",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "economy"
    ],
    "classes": []
   },
@@ -3319,19 +3419,16 @@
    "classes": []
   },
   {
-   "title": "Protection Paladin Guide | Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjQtRmk2akJWYldmOVdzSDA1cUl2NmZmNmJtWGgzM1hTOGJDQUJ1YjhUOEZTT2FBSkNoOXpTTWVDcldZbURMVHZ6cHJtTEhEcURuSVlEQ3hqbTBiQURxRmR6N1pGcWE4aXFDN2wtT211aTI1ZXBFYVdoUnpVbkZmeg?oc=5",
-   "date": "2026-11-17T00:58:23Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ]
+   "title": "A question of etiquette.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy7zbs/a_question_of_etiquette/",
+   "date": "2026-11-17T01:55:22Z",
+   "summary": "I was in the Riverlands and Ghostmaw spawns near me. I ask if anyone else needed to kill him for the quest. At this point a made comes up and starts the fight. I attempt to invite him so we can do it and he declines the invitation. A few moments into the…",
+   "who": "/u/Tharendril",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
   },
   {
    "title": "Following on from the 'exploit early...exploit often post' - Streamer Ziqo already starting to manipulate AH prices",
@@ -3436,6 +3533,17 @@
    "classes": []
   },
   {
+   "title": "Stormwind's citizens every 3 minutes or so:",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy25jl/stormwinds_citizens_every_3_minutes_or_so/",
+   "date": "2026-11-16T21:40:39Z",
+   "who": "/u/Perepere11",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "(New Player) Is this the only black lion?",
    "url": "https://www.reddit.com/r/wowforever/comments/1xy1qd5/new_player_is_this_the_only_black_lion/",
    "date": "2026-11-16T21:24:02Z",
@@ -3458,6 +3566,30 @@
    "tags": [
     "economy"
    ],
+   "classes": []
+  },
+  {
+   "title": "This thing would've been a cool World Boss.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy105r/this_thing_wouldve_been_a_cool_world_boss/",
+   "date": "2026-11-16T20:56:15Z",
+   "summary": "Such a cool model just sitting there.",
+   "who": "/u/Minx-Boo",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Chest Lid Shield",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy0pbq/chest_lid_shield/",
+   "date": "2026-11-16T20:44:50Z",
+   "summary": "Hear me out. We have thousands of armor pieces and weapons in WoW, but somehow we still can’t strap a treasure chest lid to our arms and charge into battle. Just look at this absolute unit of a Tauren Warrior. Blizzard, please make this happen. We need…",
+   "who": "/u/Yungducc",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
    "classes": []
   },
   {
@@ -3590,6 +3722,17 @@
    "tags": [
     "leveling"
    ],
+   "classes": []
+  },
+  {
+   "title": "What about second WoW: Forever.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxt8ve/what_about_second_wow_forever/",
+   "date": "2026-11-16T16:06:47Z",
+   "who": "/u/pantherghast",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
    "classes": []
   },
   {
@@ -3729,42 +3872,15 @@
    "classes": []
   },
   {
-   "title": "My first WoW Forever dungeon experience at lvl 13...",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxp5d7/my_first_wow_forever_dungeon_experience_at_lvl_13/",
-   "date": "2026-11-16T13:19:18Z",
-   "summary": "As soon as we entered the dungeon, our hunter asked: \"Anyone got any arrows to spare?\" I told him to go outside quickly and get some while we waited. After the first boss, our shaman asked: \"does anyone have any extra milk?\" Then I realized he's actually our…",
-   "who": "/u/Ladybung",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
+   "title": "Cooking Guide: How to Unlock, Level, Best Recipes",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RZUdqOG9kWjRtYldPQnh0VTUyU2p5UFktTmk2WVMyamhabXVLdWJkdUxQemZSZXZrbmJOSjNRMzlaLW41SmtxZTNHb2hlLUpqSGd5Z25Oci1lYU83ZjhyVg?oc=5",
+   "date": "2026-11-16T13:52:03Z",
+   "who": "IGN",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
    "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "My brother and me teaming up again after 17 years:",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxoyld/my_brother_and_me_teaming_up_again_after_17_years/",
-   "date": "2026-11-16T13:10:27Z",
-   "who": "/u/cyborg_priest",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "An absolutely gold and unexpected moment for me. Will go down as my first memorable experience as a new player to WoW.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxoth0/an_absolutely_gold_and_unexpected_moment_for_me/",
-   "date": "2026-11-16T13:03:22Z",
-   "summary": "Some context. I had wandered to this area looking for a dungeon, not realizing it was entirely Horde. I had seen over 15 hordes roaming around earlier, and stayed to see what was up. After they killed me, I came back and sneaked around, hoping to maybe grab…",
-   "who": "/u/PangolinThick1802",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "leveling",
-    "economy"
+    "professions"
    ],
    "classes": []
   },
@@ -3776,18 +3892,6 @@
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever Graphics are Ridiculous",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxno3v/wow_forever_graphics_are_ridiculous/",
-   "date": "2026-11-16T12:04:32Z",
-   "summary": "I'm basically just sightseeing now. Sunsets and sunrises are now worthy of desktop wallpapers and calendar photos.",
-   "who": "/u/Steel-Tempered",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
    "tags": [],
    "classes": []
   },
@@ -3806,17 +3910,6 @@
    "classes": []
   },
   {
-   "title": "this is terrifying..",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxnf05/this_is_terrifying/",
-   "date": "2026-11-16T11:50:59Z",
-   "who": "/u/Anxious-Buddy-3830",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "WoW: Forever Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
    "date": "2026-11-16T10:45:45Z",
@@ -3832,72 +3925,6 @@
    "classes": []
   },
   {
-   "title": "To the female gnome rogue in Wetlands on EU pvp",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxlujp/to_the_female_gnome_rogue_in_wetlands_on_eu_pvp/",
-   "date": "2026-11-16T10:16:50Z",
-   "summary": "Im only making this post for the slight chance the person im referring to sees it. To the female gnome rogue i came across in wetlands who initially killed me while my silly ass was trying to get the sleeping bag quests done with my level 15 undead paladin…",
-   "who": "/u/dantinasm",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [
-    "rogue"
-   ]
-  },
-  {
-   "title": "People dont understand the AH",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxkpdf/people_dont_understand_the_ah/",
-   "date": "2026-11-16T09:03:25Z",
-   "summary": "The AH atm is an absolute fiesta on the buyers side and complete and utter disaster as a seller. Do people not understand, that they DO get the deposit back, but they pay 5% of the total sales price as AH fee and not 5% of the deposit. There are people…",
-   "who": "/u/Aggravating-Drop7676",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Got kicked out for rolling on a healer belt as resto shaman",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxkooj/got_kicked_out_for_rolling_on_a_healer_belt_as/",
-   "date": "2026-11-16T09:02:09Z",
-   "summary": "Last night i was doing a Ruins of Lordaeron and 3 packs in the healer-set belt dropped. I and a mage rolled need on it, i won. After i won the leader (druid) started to argue that it wasnt loot for resto/ele shaman because it is cloth.... after we killed 2…",
-   "who": "/u/Individual-Guava9619",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": [
-    "shaman"
-   ]
-  },
-  {
-   "title": "Im once again asking, Please give OCE its own timezone",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxk9mc/im_once_again_asking_please_give_oce_its_own/",
-   "date": "2026-11-16T08:34:39Z",
-   "summary": "I know, I know, another post about the timezones, but this seriously needs to be addressed, and the more noise, the more likely we actually get something done. I know its been mentioned in the podcasts. We're sick of playing at night submitted by…",
-   "who": "/u/Additional_Wheel6331",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "You cant be serious Blizzard? Unlimited sap... W...T...F",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxk6e1/you_cant_be_serious_blizzard_unlimited_sap_wtf/",
-   "date": "2026-11-16T08:28:45Z",
-   "summary": "A rogue was mad he kept losing a battle in the open world so he resorted to this. Unlimited sap NO DR.... WTF Blizzard were you smoking crack when you thought unlimited sap would be a great idea!? I would be locked for 3-4 minutes until my bubble came up to…",
-   "who": "/u/craazz_",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "WoW Forever Weekly Quest Level 60: Gold from Booty Bay",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nM0Uxam1NY0xRU2J1c3M5LUhSRW9hRWhGTHZTRl95OHlZQlNLbjBPZ0xaeXF1ZnJMdzJCX3NQMjc5NDdFU2tsZ1FYVTJHYmNGa0FRQU5oZTZlOC1PZE9HQ0lkN1prWGdwd0pKQlRTdkdOc0J4RjJmeTNB?oc=5",
    "date": "2026-11-16T08:22:40Z",
@@ -3908,30 +3935,6 @@
    "tags": [
     "economy"
    ],
-   "classes": []
-  },
-  {
-   "title": "Reminder that you are not behind on levels",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxj7br/reminder_that_you_are_not_behind_on_levels/",
-   "date": "2026-11-16T07:26:37Z",
-   "summary": "We took time off from work and played the game as total newbies with my friends. We have like 5+ days game time and we sit around 30-35 levels. That's like over 10h average everyday! I see lots of people reaching higher levels with half the playtime. We do…",
-   "who": "/u/anilisfaitnesto",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "If you are level 38 and not in Riverglades, stop, go there immediately.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxiefd/if_you_are_level_38_and_not_in_riverglades_stop/",
-   "date": "2026-11-16T06:37:18Z",
-   "summary": "A lot of people are going to STV as they normally would. You are missing out on a new landscape, music and questing experience. There are way less people here than in STV.",
-   "who": "/u/Molly_Matters",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
    "classes": []
   },
   {
@@ -4013,35 +4016,6 @@
    "icon": "inv_misc_book_09",
    "tags": [],
    "classes": []
-  },
-  {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-15T14:19:17Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWWS0yOWlQbWNlbl93bzczLXZjcHBDbWdicmtEXzJCUXVHSVlXYl9LWS01MWZRNkdoZTdUVkxnQlYzQ2w4dTU3anJtcmpyeUdGQVNTdnBYSklSS3lmWjI5ZFEwU2RNYThJQU9VRUZiRjBrazZXVk1n?oc=5",
-   "date": "2026-11-15T03:10:44Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "priest"
-   ]
   },
   {
    "title": "Dungeon Kill Experience Changed Again in WoW Forever",

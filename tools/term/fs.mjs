@@ -230,9 +230,7 @@ Burn after reading. (Not literally. Last time I burned something it was the inn.
 - Discombobulator Ray .............. discombobulated me
 - Postcard encoder ................. base64, then rot13. unbreakable!!
 - Wisp nightlight .................. the wisp said no
-- Wisp toybox ...................... DONE!! it's a surprise, don't tell the wisp.
-                                     packaged it properly this time: wisp-toybox_1.0_all.deb
-                                     (install it the way a civilised gnome would. with dpkg.)`,
+- Wisp toybox ...................... done. shh. dpkg -i the .deb`,
     "/home/fizzlewick/wisp-toybox_1.0_all.deb": { c: `!<arch>
 debian-binary   2.0
 control.tar.xz  ... (a Debian package. It rattles. Something inside is ticking.)`, mode: "-rw-r--r--", owner: "fizzlewick" },

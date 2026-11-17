@@ -987,7 +987,7 @@ const toyState = () => store.get("toy", null);
 const toyIn = () => !!(toyState() && toyState().unlocked);
 function installDeb(f) {
   const p = resolve(f);
-  if (!canReach(p) || !exists(p)) return html(`<span class="err">dpkg: error: cannot access archive '${esc(f)}': No such file or directory</span>`);
+  if (!canReach(p) || !exists(p)) return html(`<span class="err">dpkg: error: cannot access archive '${esc(f)}': No such file or directory</span>${/wisp-toybox/i.test(f) ? ` <span class="dim">(it isn't in this folder. try where you found it.)</span>` : ""}`);
   if (isDir(p)) return html(`<span class="err">dpkg-deb: error: '${esc(f)}' is a directory</span>`);
   if (p !== DEB) return html(`<span class="err">dpkg-deb: error: '${esc(f)}' is not a Debian format archive</span>`);
   if (toyIn()) return "wisp-toybox (1.0) is already installed. (toybox shows how it's going.)";
@@ -1005,6 +1005,9 @@ cmd("dpkg", a => {
   if (op === "-l" || op === "--list") return ["Desired=Install/Remove  Status=Inst  Name           Version   Description", "ii  emacs          29.4      the editor (Grumbolt's)", "ii  whimsy         ∞         essential", "ii  wispd          7.7.7     the whimsy daemon", ...installed().map(q => `ii  ${q.padEnd(15)}${PKGS[q].v.padEnd(10)}${PKGS[q].desc.slice(0, 40)}`), ...(toyIn() ? ["ii  wisp-toybox    1.0       toys for the wisp (by Fizzlewick)"] : [])].join("\n");
   if (["-r", "--remove", "-p", "-P", "--purge"].includes(op)) return /toybox/.test(rest.join(" ")) && toyIn() ? "dpkg: the wisp is holding on to wisp-toybox with both motes. (toybox off puts the toys away instead.)" : `dpkg: warning: ignoring request to remove ${rest[0] || "nothing"}, which isn't installed`;
   if (op === "-c" || op === "--contents" || op === "-I" || op === "--info") return rest[0] && resolve(rest[0]) === DEB ? "Package: wisp-toybox\nVersion: 1.0\nMaintainer: Fizzlewick <boom@forever>\nDepends: wispd (>= 7.7.7), murloc-tools\nDescription: toys for the wisp\n A bar of toys, a purse, and a shop. Mostly safe. Some explosions." : "dpkg-deb: error: that isn't a package archive";
+  // a .deb with no action (dpkg file.deb, dpkg install file.deb): real dpkg refuses; this one assumes -i
+  const deb = a.find(x => /\.deb$/i.test(x));
+  if (deb) { print("(dpkg needs -i to install a .deb. taking that as a yes.)", "dim"); return installDeb(deb); }
   return "usage: dpkg -i <file.deb>   install a package from a file\n       dpkg -l              list what's installed";
 });
 cmd("toybox", a => {

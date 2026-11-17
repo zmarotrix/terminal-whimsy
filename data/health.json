@@ -66,8 +66,8 @@
   "lastOk": "2026-11-17"
  },
  "r/wowforever": {
-  "error": null,
-  "fails": 0,
+  "error": "HTTP Error 404: Not Found",
+  "fails": 1,
   "lastItems": "2026-11-17",
   "lastOk": "2026-11-17"
  }

@@ -676,9 +676,12 @@ html.ressick main{filter:blur(.6px) saturate(.6);transition:filter 2s}
 .coins .cg::after{background:radial-gradient(circle at 35% 30%,#fff3b0,#e7b32c 55%,#9a6b09)}
 .coins .cs::after{background:radial-gradient(circle at 35% 30%,#fff,#c3c7cf 55%,#6f747e)}
 .coins .cc::after{background:radial-gradient(circle at 35% 30%,#ffd2b0,#c46a2c 55%,#6e3410)}
-/* how the wisp feels about you: half-shut eyes when Unfriendly, its back turned when Hostile */
+/* how the wisp feels about you: half-shut eyes when Unfriendly. When Hostile it turns half away: the face slides round
+   to the rim, the eyes narrow (the far one more), and now and then it glances back to check you're still there.
+   Position uses `left` because wispmind.js drives the eyes' `translate` and blinky owns `transform`. */
 .wisp.grumpy .eye{height:5px;border-radius:1px 1px 6px 6px;margin-top:3px}
 .wisp.grumpy .orb{filter:saturate(.8)}
-.wisp.sulk .eye{opacity:0}
-.wisp.sulk .orb{filter:saturate(.55) brightness(.85)}
-.wisp.sulk.happy .eye,.wisp.sulk.wow .eye{opacity:0}
+.wisp.sulk .orb{gap:5px;filter:saturate(.55) brightness(.85)}
+.wisp.sulk:where(:not(.dizzy,.sleep)) .eye{position:relative;left:16px;width:4px;height:6px;margin-top:2px;background:#0a0c13;border:0;border-radius:1px 1px 4px 4px;animation:blinky 5s infinite,sulkpeek 8s ease-in-out infinite}
+.wisp.sulk:where(:not(.dizzy,.sleep)) .eye+.eye{width:3px}
+@keyframes sulkpeek{0%,78%,100%{left:16px}84%,92%{left:7px}}

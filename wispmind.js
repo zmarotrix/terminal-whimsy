@@ -42,7 +42,7 @@ flush();
 const STAND = [[95, "Exalted"], [80, "Revered"], [60, "Honored"], [40, "Friendly"], [20, "Neutral"], [10, "Unfriendly"], [0, "Hostile"]];
 // whether it flies about on its own (the footer switch, the terminal's wisp stay / wisp roam)
 const roams = () => !REDUCE && store.get("wispRoam", true) !== false;
-// how it feels about you shows on its face: half-shut eyes when Unfriendly, its back turned when Hostile
+// how it feels about you shows on its face: half-shut eyes when Unfriendly, turned half away when Hostile
 function sour() { wisp.el.classList.toggle("grumpy", M.trust < 20 && M.trust >= 10); wisp.el.classList.toggle("sulk", M.trust < 10); }
 const standing = (t = M.trust) => STAND.find(([n]) => t >= n)[1];
 function mood() {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:53:40Z",
+ "updated": "2026-11-17T01:51:14Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,26 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Exploit early, exploit often ... almost 5k gold",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy5ncr/exploit_early_exploit_often_almost_5k_gold/",
+   "date": "2026-11-17T00:06:22Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Not sure what to say. The fact that he did this all offstream says enough that he (and others) knew, that this is not intended and 100% considered an exploit. Personally, I think there should be some kind of punishment and definitely all the gold revoked.…",
+   "who": "/u/FInrodi",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "cbbf18ccb0",
+   "first": "2026-11-17T00:06:22Z",
+   "last": "2026-11-17T00:06:22Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
    "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
@@ -45,6 +65,25 @@
    "last": "2026-11-17T00:00:00.397000Z",
    "tags": [
     "realms"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "The new Alcaz Prison dungeon has a quest that gives 25g.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy38yh/the_new_alcaz_prison_dungeon_has_a_quest_that/",
+   "date": "2026-11-16T22:24:49Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/sideflanker",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "1c68e0b0d7",
+   "first": "2026-11-16T22:24:49Z",
+   "last": "2026-11-16T22:24:49Z",
+   "tags": [
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -299,6 +338,27 @@
     "leveling"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Enhancement Shaman Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Vc29VZnRCc1p5SFV2a2JwZTBiQnFkSTh0UzJIdXVvNlBmZEVMdEtDakZ5TWplOXNRbDRjRGpmOUtYbmhWYktyZ2RTSXhfc3lfUml4RWdXdGt2azFvRXhLbEk0cUpCMEx5SVhqT09LVnhhUmJ3?oc=5",
+   "date": "2026-11-16T16:01:18Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "5a6d130d5d",
+   "first": "2026-11-16T16:01:18Z",
+   "last": "2026-11-16T16:01:18Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "shaman"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -840,37 +900,23 @@
    "also": []
   },
   {
-   "title": "Please tell me why I suck.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxdh14/please_tell_me_why_i_suck/",
-   "date": "2026-11-16T02:11:00Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Every time I’m 1v2 never once have won. Even with the same level grizzly Bear. It kills me every single time like I can’t even do that quest and it’s the same level as me. My only attack is fireball and that’s about it. I know I’m a low level but this kind…",
-   "who": "/u/alwaysboard17",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "180da08c43",
-   "first": "2026-11-16T02:11:00Z",
-   "last": "2026-11-16T02:11:00Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Im in your city",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxcyf6/im_in_your_city/",
-   "date": "2026-11-16T01:45:20Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Took me a while but I did it I broke into Stormwind as a horde player sadly I cant chat with alliance but im here watching you guys.",
-   "who": "/u/Federal_Avocado8265",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "6fad4c0cc6",
-   "first": "2026-11-16T01:45:20Z",
-   "last": "2026-11-16T01:45:20Z",
-   "tags": [],
-   "classes": [],
+   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
+   "date": "2026-11-16T00:13:30Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "ba18526e01",
+   "first": "2026-11-16T00:13:30Z",
+   "last": "2026-11-16T00:13:30Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "rogue"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -928,8 +974,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -985,27 +1031,6 @@
     "leveling"
    ],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Beast Mastery Hunter Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iam4waW41UVZIZ1hFU0hWQzVSUW1MRGZBTzVrWWVOX0l3RkRXUFQ1S0RNMEpSVGp2bVlHWXZpZjBOczNtMkdvTXBuSkJjWFJfY0FYNUx0TEhYNnhCMjAwNE5UTmdpdks1c3VHR21GT3cxMjAwRkJB?oc=5",
-   "date": "2026-11-15T12:48:32Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "9259b119ae",
-   "first": "2026-11-15T12:48:32Z",
-   "last": "2026-11-15T12:48:32Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "hunter"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -1110,7 +1135,7 @@
     "hotfix"
    ],
    "classes": [],
-   "n": 4,
+   "n": 3,
    "official": true,
    "also": [
     {
@@ -1126,13 +1151,6 @@
      "source": "Warcraft Tavern",
      "label": "press",
      "date": "2026-11-14T19:25:06Z"
-    },
-    {
-     "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmlMMXlBeUl1dzVkajFPZ0duNHpUazRqcjZEWUNnblFIQkxlNVRVclRVMGJlU3hFbzRjbHlBcktUM2NDMWdZcERyaWtBU1B6R3Bzb1BJMElFQ1VJSFAzcDJReHdMYXdTYTFMVl9XRHJ2eVZId0ppRkdzM3Btb0w3TVp3Z015UmlKT3BGMEZRSWZ4ZWNNTE13OXhwaVo3SjM4a2pnUmdON2l3R09wQndVYmFTa2pWMzJOMXdIYkQyUVZIMVgyR3dJRDAxSmNNY1k?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-14T22:17:19Z"
     }
    ]
   },
@@ -1215,8 +1233,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1410,8 +1428,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1748,9 +1766,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "hotfix",
     "items",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2134,9 +2152,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
+    "items",
     "classes",
-    "hotfix",
-    "items"
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -2333,8 +2351,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "ui",
-    "items"
+    "items",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2671,8 +2689,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -2849,9 +2867,9 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
+    "pvp",
     "classes",
     "ui",
-    "pvp",
     "leveling"
    ],
    "classes": [],
@@ -3230,6 +3248,20 @@
  ],
  "items": [
   {
+   "title": "Exploit early, exploit often ... almost 5k gold",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy5ncr/exploit_early_exploit_often_almost_5k_gold/",
+   "date": "2026-11-17T00:06:22Z",
+   "summary": "Not sure what to say. The fact that he did this all offstream says enough that he (and others) knew, that this is not intended and 100% considered an exploit. Personally, I think there should be some kind of punishment and definitely all the gold revoked.…",
+   "who": "/u/FInrodi",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "economy"
+   ],
+   "classes": []
+  },
+  {
    "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
    "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
    "date": "2026-11-17T00:00:20Z",
@@ -3251,6 +3283,19 @@
    "icon": "spell_holy_heal",
    "tags": [
     "realms"
+   ],
+   "classes": []
+  },
+  {
+   "title": "The new Alcaz Prison dungeon has a quest that gives 25g.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy38yh/the_new_alcaz_prison_dungeon_has_a_quest_that/",
+   "date": "2026-11-16T22:24:49Z",
+   "who": "/u/sideflanker",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "leveling"
    ],
    "classes": []
   },
@@ -3436,6 +3481,21 @@
     "leveling"
    ],
    "classes": []
+  },
+  {
+   "title": "Enhancement Shaman Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Vc29VZnRCc1p5SFV2a2JwZTBiQnFkSTh0UzJIdXVvNlBmZEVMdEtDakZ5TWplOXNRbDRjRGpmOUtYbmhWYktyZ2RTSXhfc3lfUml4RWdXdGt2azFvRXhLbEk0cUpCMEx5SVhqT09LVnhhUmJ3?oc=5",
+   "date": "2026-11-16T16:01:18Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "shaman"
+   ]
   },
   {
    "title": "Anyone else can't decide on a main?",
@@ -3800,28 +3860,20 @@
    "classes": []
   },
   {
-   "title": "Please tell me why I suck.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxdh14/please_tell_me_why_i_suck/",
-   "date": "2026-11-16T02:11:00Z",
-   "summary": "Every time I’m 1v2 never once have won. Even with the same level grizzly Bear. It kills me every single time like I can’t even do that quest and it’s the same level as me. My only attack is fireball and that’s about it. I know I’m a low level but this kind…",
-   "who": "/u/alwaysboard17",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Im in your city",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxcyf6/im_in_your_city/",
-   "date": "2026-11-16T01:45:20Z",
-   "summary": "Took me a while but I did it I broke into Stormwind as a horde player sadly I cant chat with alliance but im here watching you guys.",
-   "who": "/u/Federal_Avocado8265",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
+   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
+   "date": "2026-11-16T00:13:30Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "rogue"
+   ]
   },
   {
    "title": "World of Warcraft: Forever Update Officially Breaks Dungeon XP",
@@ -3902,21 +3954,6 @@
    "classes": []
   },
   {
-   "title": "Beast Mastery Hunter Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iam4waW41UVZIZ1hFU0hWQzVSUW1MRGZBTzVrWWVOX0l3RkRXUFQ1S0RNMEpSVGp2bVlHWXZpZjBOczNtMkdvTXBuSkJjWFJfY0FYNUx0TEhYNnhCMjAwNE5UTmdpdks1c3VHR21GT3cxMjAwRkJB?oc=5",
-   "date": "2026-11-15T12:48:32Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "hunter"
-   ]
-  },
-  {
    "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWWS0yOWlQbWNlbl93bzczLXZjcHBDbWdicmtEXzJCUXVHSVlXYl9LWS01MWZRNkdoZTdUVkxnQlYzQ2w4dTU3anJtcmpyeUdGQVNTdnBYSklSS3lmWjI5ZFEwU2RNYThJQU9VRUZiRjBrazZXVk1n?oc=5",
    "date": "2026-11-15T12:43:05Z",
@@ -3984,19 +4021,6 @@
    "source": "Blizzard forums (US)",
    "label": "official",
    "icon": "inv_scroll_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmlMMXlBeUl1dzVkajFPZ0duNHpUazRqcjZEWUNnblFIQkxlNVRVclRVMGJlU3hFbzRjbHlBcktUM2NDMWdZcERyaWtBU1B6R3Bzb1BJMElFQ1VJSFAzcDJReHdMYXdTYTFMVl9XRHJ2eVZId0ppRkdzM3Btb0w3TVp3Z015UmlKT3BGMEZRSWZ4ZWNNTE13OXhwaVo3SjM4a2pnUmdON2l3R09wQndVYmFTa2pWMzJOMXdIYkQyUVZIMVgyR3dJRDAxSmNNY1k?oc=5",
-   "date": "2026-11-14T22:17:19Z",
-   "who": "PC Gamer",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
    "tags": [
     "leveling"
    ],

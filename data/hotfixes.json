@@ -4,6 +4,531 @@
  ],
  "lines": [
   {
+   "id": "e175d3810224",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Camping"
+   ],
+   "text": "The Fishing Rack now provides lures for everyone.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Camping",
+   "who": "Kaivax"
+  },
+  {
+   "id": "981e51b76240",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Camping"
+   ],
+   "text": "Bloated Fish caught from the Fishing Rack effect have had their drop chance increased and their loot tables adjusted accordingly.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Camping",
+   "who": "Kaivax"
+  },
+  {
+   "id": "7dc2df20a368",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Druid"
+   ],
+   "text": "Fixed an issue where ranks of Wild Growth were not going on cooldown.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "druid"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "acf39b3d4135",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Druid",
+    "Balance"
+   ],
+   "text": "Fixed an issue where the Genesis talent was not increasing the damage of Pounce’s bleed.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "druid"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "548d857d0b82",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Priest"
+   ],
+   "text": "Fixed an issue where Dark Inspiration was stacking if there were multiple Shadow priests in the same party.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "priest"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "5c41e44b7126",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Priest"
+   ],
+   "text": "[With scheduled weekly maintenance] Vampiric Embrace healing is now based on 10% of the Shadow damage done by the casting Priest (was 20%). The casting Priest receives 100% increased healing from this effect.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "priest"
+   ],
+   "area": "Classes",
+   "who": "Kaivax",
+   "note": "Developers’ notes: This change results in no difference for Priest solo play."
+  },
+  {
+   "id": "cab0a07ecadf",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Rogue"
+   ],
+   "text": "Rogue Poison ranks can no longer go above the maximum rank.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "rogue"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "0f3903ae7328",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Rogue"
+   ],
+   "text": "Fixed an issue where using Shank on a target that didn’t have your combo points active on them would remove your combo points on other targets, even if Boot Knife wasn’t talented.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "rogue"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "b3d87ffc633c",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Shaman"
+   ],
+   "text": "Fixed an issue where Windfury Totem attacks were ignoring armor and had no internal cooldown.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "shaman"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "04a0ed0e4271",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Shaman"
+   ],
+   "text": "Fixed an issue causing Windfury Totem extra attacks to not generate Rage.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "shaman"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "b564f65855ce",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Shaman"
+   ],
+   "text": "Fixed an issue where Mutilate and Execute would have an extra attempt to activate Windfury Totem.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "shaman"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "6972e9e69f84",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Shaman"
+   ],
+   "text": "Fixed an issue where Shield Slam, Shield Bash, and Shieldworn empowered Holy Strikes could attempt to activate Windfury Totem.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "shaman"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "1ccd7fadce02",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Shaman",
+    "Enhancement"
+   ],
+   "text": "Fixed an issue where Maelstrom Weapon could benefit two casts.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "shaman"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "60201cf05fea",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Shaman",
+    "Enhancement"
+   ],
+   "text": "Fixed an issue where the Thundering Strikes talent required a weapon equipped to grant its critical strike chance.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "shaman"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "99cdeafb835c",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Warrior"
+   ],
+   "text": "Fixed an issue that prevented the Revered Champion from offering Legacy of Valor to qualified Warriors.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "warrior"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "f4edf87a5aea",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Warrior",
+    "Fury"
+   ],
+   "text": "Fixed an issue where Unbridled Wrath was not activated by Cleave or Heroic Strike.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "warrior"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "f8d2df68f07e",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Warrior",
+    "Fury"
+   ],
+   "text": "Fixed an issue where Flurry stacks were consumed by Cleave or Heroic Strike.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "warrior"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "44943e70982b",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Warrior",
+    "Fury"
+   ],
+   "text": "Fixed an issue where Reckless Swings was not activated by Cleave or Heroic Strike.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "warrior"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "701efc64292e",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Classes",
+    "Warrior",
+    "Fury"
+   ],
+   "text": "Reckless Swings adjusted in the cooldown manager for tracking.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [
+    "warrior"
+   ],
+   "area": "Classes",
+   "who": "Kaivax"
+  },
+  {
+   "id": "7fdbf1d2b9ce",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Dungeons",
+    "The Drowned City"
+   ],
+   "text": "Captain Dreadrise is no longer immune to stun effects.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Dungeons",
+   "who": "Kaivax"
+  },
+  {
+   "id": "bd04775a9d4f",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Dungeons",
+    "The Drowned City"
+   ],
+   "text": "The rare spawn “Pyromancer” Braxton is now less focused on his duties and will respond to combat.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Dungeons",
+   "who": "Kaivax"
+  },
+  {
+   "id": "c1bb77f7b075",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Dungeons",
+    "The Drowned City"
+   ],
+   "text": "The Abyssal Bubble summoned by Captain Dreadrise can no longer block, dodge or parry.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Dungeons",
+   "who": "Kaivax"
+  },
+  {
+   "id": "d2bb223c6ad3",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Dungeons",
+    "Sunken Temple"
+   ],
+   "text": "Fixed an issue that stopped the Atal’alarion serpent statues in the Pit of Refuse to become non-interactive if activated in the wrong order.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Dungeons",
+   "who": "Kaivax"
+  },
+  {
+   "id": "21f5f1907667",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Items"
+   ],
+   "text": "Formula: Enchant Boots - Speed from reputation is now bind-on-pickup, as intended.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Items",
+   "who": "Kaivax"
+  },
+  {
+   "id": "9fb39e94311a",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Items"
+   ],
+   "text": "Outrider’s Gloves now work correctly.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Items",
+   "who": "Kaivax"
+  },
+  {
+   "id": "fbba69b50d17",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Items"
+   ],
+   "text": "The Violet Tragan no longer breaks crowd control effects.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Items",
+   "who": "Kaivax"
+  },
+  {
+   "id": "00af27379e81",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Player versus Player"
+   ],
+   "text": "Dying in Arathi Basin Gold Mine should no longer port you to a graveyard in Riverglades.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Player versus Player",
+   "who": "Kaivax"
+  },
+  {
+   "id": "d977c14b8b74",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Quests"
+   ],
+   "text": "The drop rate of “Blood Red Bandanas” has been increased.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Quests",
+   "who": "Kaivax"
+  },
+  {
+   "id": "eb1c76776d1c",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Quests"
+   ],
+   "text": "Resolved an issue where Witch Doctor Zum’rah may not spawn properly during “The Talisman of Kazdor”.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Quests",
+   "who": "Kaivax"
+  },
+  {
+   "id": "d4f9a525835e",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Quests"
+   ],
+   "text": "Scout prisoners in Twilight’s Shroud will now grant credit for “No Soldier Left Behind” for the entire party.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Quests",
+   "who": "Kaivax"
+  },
+  {
+   "id": "aa268124929b",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Quests"
+   ],
+   "text": "Vale Screamers have found a new home on the Isle of Dread coastline for “Screecher Spirits”.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Quests",
+   "who": "Kaivax"
+  },
+  {
+   "id": "4a513eb2405b",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Quests"
+   ],
+   "text": "The repeatable quest “Water Pouch Bounty” no longer grants experience.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Quests",
+   "who": "Kaivax"
+  },
+  {
+   "id": "6ec4a6b7da86",
+   "post": "2403040/11",
+   "date": "2026-11-16",
+   "posted": "2026-11-17T02:17:43.460Z",
+   "path": [
+    "Quests"
+   ],
+   "text": "Fixed an issue that could halt progress on the Theramore quest “The Return of the King?”.",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/11",
+   "classes": [],
+   "area": "Quests",
+   "who": "Kaivax"
+  },
+  {
    "id": "e7e8d06d5c4b",
    "post": "2403040/10",
    "date": "2026-11-13",
@@ -12,7 +537,7 @@
     "Classes"
    ],
    "text": "Fixed a bug causing players to have no diminishing returns against creature stuns.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Classes",
    "who": "Kaivax"
@@ -26,7 +551,7 @@
     "Classes"
    ],
    "text": "Fixed a bug causing players to have no diminishing returns when using stuns against creatures.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Classes",
    "who": "Kaivax"
@@ -42,7 +567,7 @@
     "Restoration"
    ],
    "text": "Fixed a bug incorrectly allowing Wild Growth to be cast while moving.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "druid"
    ],
@@ -60,7 +585,7 @@
     "Restoration"
    ],
    "text": "Wild Growth spell healing coefficient increased to 6.6% (was 3.3%).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "druid"
    ],
@@ -77,7 +602,7 @@
     "Mage"
    ],
    "text": "Frost Nova is now correctly broken by damage from procs and damage from Blizzard.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "mage"
    ],
@@ -94,7 +619,7 @@
     "Paladin"
    ],
    "text": "Judgement of Command now activates on-hit effects and counts as a melee attack.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "paladin"
    ],
@@ -112,7 +637,7 @@
     "Priest"
    ],
    "text": "The Legacy Perk The Quick and the Dead will now correctly reduce the Mana cost of Divine Spirit.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "priest"
    ],
@@ -129,7 +654,7 @@
     "Shaman"
    ],
    "text": "Windfury Totem is now correctly activated by all melee abilities even if it doesn’t involve your main hand weapon.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "shaman"
    ],
@@ -147,7 +672,7 @@
     "Warlock"
    ],
    "text": "Siphon Life Rank 1 can no longer be cast while silenced.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "warlock"
    ],
@@ -164,7 +689,7 @@
     "Warrior"
    ],
    "text": "Fixed an issue where Berserker Rage was not removing Sap.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "warrior"
    ],
@@ -180,7 +705,7 @@
     "Dungeons"
    ],
    "text": "Killing enemies in dungeons now awards zero experience to all party members if the level of the enemy is trivial to the level of one or more of the party members.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -195,7 +720,7 @@
     "The Deadmines"
    ],
    "text": "Sneed should now properly eject if the Sneed’s Shredder is stunned when reaching 0% health.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -210,7 +735,7 @@
     "The Drowned City"
    ],
    "text": "Non-boss enemies now respawn 2 hours after being killed (was 1 hour).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -225,7 +750,7 @@
     "Stratholme"
    ],
    "text": "Defeating Balnazzar should now correctly count toward the Legacy Challenge Master Spelunker.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -239,7 +764,7 @@
     "Enemies and NPCs"
    ],
    "text": "Gnomeregan - Techbot’s respawn time reduced for the quest “Save Techbot’s Brain!”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -253,7 +778,7 @@
     "Enemies and NPCs"
    ],
    "text": "Badlands - Lesser Rock Elemental spawns should now appear more frequently.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -267,7 +792,7 @@
     "Enemies and NPCs"
    ],
    "text": "Eastern Plaguelands - Fixed an issue that caused enemies to sometimes aggro unexpectedly in Stratholme and Eastern Plaguelands, particularly when resurrecting.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -281,7 +806,7 @@
     "Enemies and NPCs"
    ],
    "text": "Mulgore - Quillboar spawning rates have been reduced in the starting area and should now be less aggressive.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -295,7 +820,7 @@
     "Enemies and NPCs"
    ],
    "text": "Mulgore - Venture Co. spawn rates have been reduced in the starting area and should now be less aggressive.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -309,7 +834,7 @@
     "Enemies and NPCs"
    ],
    "text": "Blasted Lands - Nethergarde Keep guards no longer drop loot and should have behavior consistent with other guards.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -323,7 +848,7 @@
     "Enemies and NPCs"
    ],
    "text": "Stranglethorn Vale - Tiger, panther, and raptor spawns should now appear more frequently.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -337,7 +862,7 @@
     "Enemies and NPCs"
    ],
    "text": "Zephras Isle - Nyalah Brightfire in Valanaar should now provide a more extensive array of cooking supplies for aspiring culinary artists.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -351,7 +876,7 @@
     "Items"
    ],
    "text": "Gloves of Holy Might now have the correct text description. Gloves of Holy Might is now only activated by spells and abilities that are harmful and deal damage.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -365,7 +890,7 @@
     "Items"
    ],
    "text": "The Glimmering Mithril Insignia trinket no longer requires the ability to wear Mail armor.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -379,7 +904,7 @@
     "Items"
    ],
    "text": "Fixed an issue where Cloak of the Fleshborer had no texture.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -393,7 +918,7 @@
     "Items"
    ],
    "text": "Taran Icebreaker now correctly behaves as a 2-handed Mace (was incorrectly behaving as a 1-handed Mace).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -407,7 +932,7 @@
     "Items"
    ],
    "text": "Darkspear signet rings have had their Mp5 corrected and now match Alliance-equivalent rings.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -421,7 +946,7 @@
     "Items"
    ],
    "text": "Everstaring Abomination Eye’s Spirit stats corrected.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -435,7 +960,7 @@
     "Items"
    ],
    "text": "The Bad Hat no longer provides an incorrect amount of spell power.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -449,7 +974,7 @@
     "Items"
    ],
    "text": "The Souvenir Sea Shell’s stats have been corrected.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -463,7 +988,7 @@
     "Items"
    ],
    "text": "Blessed Band of Light’s Hit stat has been removed.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -477,7 +1002,7 @@
     "Items"
    ],
    "text": "Channeler’s Ring now has Spell Power (was Spirit).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Items",
    "who": "Kaivax",
@@ -492,7 +1017,7 @@
     "Quests"
    ],
    "text": "Fixed an issue during the quest “The Talisman of Kazdor” where rogues would enter the wrong version of Zul’Farrak.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [
     "rogue"
    ],
@@ -508,7 +1033,7 @@
     "Quests"
    ],
    "text": "Deadwood Key, Drop of Stolen Life, Ring of the Fallen Soldier, Venom-dripping heart, and Blackthorne Intelligence should now drop for all players in the party who have the associated quest(s).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -522,7 +1047,7 @@
     "Quests"
    ],
    "text": "On “A Quick Grocery Run”, Skonk’s list can be read by everyone.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -536,7 +1061,7 @@
     "Quests"
    ],
    "text": "Pix Xizzix’s weekly dungeon quests are now properly removed from the quest log on weekly reset.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -550,7 +1075,7 @@
     "Quests"
    ],
    "text": "When you’re “Coyote Huntin’”, Sootfur’s pelt should now be shared for all members of your party.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -564,7 +1089,7 @@
     "Quests"
    ],
    "text": "The Crow Effigy should now be visible if you meet the quest requirements to interact with it on Mount Hyjal.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -578,7 +1103,7 @@
     "Quests"
    ],
    "text": "Unstable Package should no longer have a chance to proc while on a taxi during “Crate Expectations” and the misfire damage has been reduced.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -592,7 +1117,7 @@
     "Quests"
    ],
    "text": "Fixed a bug that caused a player picking up the quest “Return to the Port” to delete nearby players’ quest items for “The Cook in the Cage”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -606,7 +1131,7 @@
     "Quests"
    ],
    "text": "Doomguard Xarkul kill credit should now be granted to healers who assist Yashiro on “Yashiro’s Windwalk”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -620,7 +1145,7 @@
     "Quests"
    ],
    "text": "Riverglades - Resolved an issue with Jezap Jinglesprocket refusing to offer quests to players attempting the Bloodmaster’s Ring.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -634,7 +1159,7 @@
     "Quests"
    ],
    "text": "Feralas - Fixed several issues during the quest “Gordunni Cobalt.”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -648,7 +1173,7 @@
     "Quests"
    ],
    "text": "Riverglades - “Gaseous Gold” now denotes the correct amount required for the quest.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -662,7 +1187,7 @@
     "Quests"
    ],
    "text": "Riverglades woodpiles are no longer lootable when not on the associated quests.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -676,7 +1201,7 @@
     "Quests"
    ],
    "text": "Undercity and Stormwind - Fixed an issue where Owen Thadd and Garion Wendell would refuse to accept any books. Our outstanding library fees have been paid and we’re all back in good standing!",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -690,7 +1215,7 @@
     "Stranglethorn Fishing Extravaganza"
    ],
    "text": "Improved the weekly fishing tournament by greatly increasing the number of players per ruleset who can win.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "Stranglethorn Fishing Extravaganza",
    "who": "Kaivax",
@@ -705,7 +1230,7 @@
     "User Interface"
    ],
    "text": "Fixed a bug that caused Action Bar settings to reset every time players who acquired Secondary Talents logged out of the game.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10",
    "classes": [],
    "area": "User Interface",
    "who": "Kaivax"
@@ -720,7 +1245,7 @@
     "Shaman"
    ],
    "text": "Weapon imbues and Weapon totems can now be used at the same time.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/9",
    "classes": [
     "shaman"
    ],
@@ -738,7 +1263,7 @@
     "Enhancement"
    ],
    "text": "Stormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/9",
    "classes": [
     "shaman"
    ],
@@ -756,7 +1281,7 @@
     "Enhancement"
    ],
    "text": "Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/9",
    "classes": [
     "shaman"
    ],
@@ -774,7 +1299,7 @@
     "Enhancement"
    ],
    "text": "Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/9",
    "classes": [
     "shaman"
    ],
@@ -792,7 +1317,7 @@
     "Enhancement"
    ],
    "text": "Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/9",
    "classes": [
     "shaman"
    ],
@@ -810,7 +1335,7 @@
     "Feral"
    ],
    "text": "Rend and Tear now works on Pounce Bleed.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "druid"
    ],
@@ -827,7 +1352,7 @@
     "Hunter"
    ],
    "text": "Fixed an issue where Volley was activating procs.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "hunter"
    ],
@@ -844,7 +1369,7 @@
     "Hunter"
    ],
    "text": "Fixed an issue where Volley would continue to channel even when the Hunter had started moving.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "hunter"
    ],
@@ -861,7 +1386,7 @@
     "Paladin"
    ],
    "text": "Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "paladin"
    ],
@@ -879,7 +1404,7 @@
     "Retribution"
    ],
    "text": "With the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "paladin"
    ],
@@ -896,7 +1421,7 @@
     "Priest"
    ],
    "text": "Confounding Flash (Gnome) can now correctly be used while in Shadowform.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "priest"
    ],
@@ -914,7 +1439,7 @@
     "Holy"
    ],
    "text": "The Twilight Focus talent will now correctly work while in Shadowform.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "priest"
    ],
@@ -931,7 +1456,7 @@
     "Shaman"
    ],
    "text": "Fixed a bug where Flametongue Totem Rank 2 was not working.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [
     "shaman"
    ],
@@ -947,7 +1472,7 @@
     "Customer Support"
    ],
    "text": "The Item Restoration service has been disabled while we investigate and address a critical bug.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Customer Support",
    "who": "Kaivax"
@@ -961,7 +1486,7 @@
     "Enemies and NPCs"
    ],
    "text": "Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -975,7 +1500,7 @@
     "Enemies and NPCs"
    ],
    "text": "Riverglades - Lowered the damage dealt by Executioner Morg.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -989,7 +1514,7 @@
     "Enemies and NPCs"
    ],
    "text": "Riverglades - Twilight Forgemaster’s “Mark of Flames” now increases damage dealt by 50 (was 1000).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -1003,7 +1528,7 @@
     "Items"
    ],
    "text": "Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -1017,7 +1542,7 @@
     "Items"
    ],
    "text": "Earthen Silk Slippers no longer give more spell damage than intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -1032,7 +1557,7 @@
     "Tailoring"
    ],
    "text": "Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax",
@@ -1053,7 +1578,7 @@
     "Quests"
    ],
    "text": "Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1067,7 +1592,7 @@
     "Quests"
    ],
    "text": "Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1081,7 +1606,7 @@
     "Quests"
    ],
    "text": "Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1095,7 +1620,7 @@
     "World"
    ],
    "text": "Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/8",
    "classes": [],
    "area": "World",
    "who": "Kaivax"
@@ -1109,7 +1634,7 @@
     "Classes"
    ],
    "text": "Druid",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "druid"
    ],
@@ -1129,7 +1654,7 @@
     "Classes"
    ],
    "text": "Hunter",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "hunter"
    ],
@@ -1150,7 +1675,7 @@
     "Classes"
    ],
    "text": "Paladin",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "paladin"
    ],
@@ -1169,7 +1694,7 @@
     "Classes"
    ],
    "text": "Priest",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "priest"
    ],
@@ -1189,7 +1714,7 @@
     "Classes"
    ],
    "text": "Shaman",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "shaman"
    ],
@@ -1210,7 +1735,7 @@
     "Classes"
    ],
    "text": "Warlock",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "warlock"
    ],
@@ -1235,7 +1760,7 @@
     "Classes"
    ],
    "text": "Warrior",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "warrior"
    ],
@@ -1254,7 +1779,7 @@
     "Enemies and NPCs"
    ],
    "text": "Shatterspear Trolls no longer grant XP on kill. They’re dancers, not fighters!",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -1268,7 +1793,7 @@
     "Enemies and NPCs"
    ],
    "text": "Innkeepers now provide better responses when asked “Tell me about the dungeons I can explore”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -1282,7 +1807,7 @@
     "Items"
    ],
    "text": "All racial vendor mounts are now Bind-on-Pickup.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -1296,7 +1821,7 @@
     "Items"
    ],
    "text": "Sparklance Wand now does Arcane damage (was Nature damage).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -1310,7 +1835,7 @@
     "Items"
    ],
    "text": "Rage of the Storm (Shaman quest reward) now has 16 Strength (was 16 Intellect), and weapon speed decreased to 3.6 (was 3.2 seconds).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "shaman"
    ],
@@ -1326,7 +1851,7 @@
     "Items"
    ],
    "text": "Reduced the price vendors pay for some crafted armor items from Leatherworking, Tailoring, and Blacksmithing.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Items",
    "who": "Kaivax",
@@ -1342,7 +1867,7 @@
     "Alchemy"
    ],
    "text": "Minor Arcane Elixir sell value reduced to 5 copper (was 25 copper).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1357,7 +1882,7 @@
     "Alchemy"
    ],
    "text": "Corrected the name of “Recipe: Elixir of Greater Firepower” to “Recipe: Elixir of Holy Power”, and the elixir’s aura is now called “Holy Power”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1372,7 +1897,7 @@
     "Blacksmithing"
    ],
    "text": "Coarse Grinding Stone now provides skill-ups to 90 (was 75).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1387,7 +1912,7 @@
     "Cooking"
    ],
    "text": "Journeyman Campfire Kit now requires Cooking 90 to place, matching its recipe skill requirement (was Cooking 140).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1402,7 +1927,7 @@
     "Enchanting"
    ],
    "text": "Arcane Salvager now requires the Runed Golden Rod tool to craft (was Runed Truesilver Rod).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1417,7 +1942,7 @@
     "Enchanting"
    ],
    "text": "Arcane Salvager now correctly applies its disenchanting bonus to lower-level enchanters.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1432,7 +1957,7 @@
     "Enchanting"
    ],
    "text": "Enchant Boots - Lesser Spirit and Enchant Bracer - Lesser Spirit now correctly give their stated bonus to Spirit (was Resist All).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1447,7 +1972,7 @@
     "Engineering"
    ],
    "text": "Iron Grenades vendor price reduced to 1 silver 25 copper (was 5 silver).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -1462,7 +1987,7 @@
     "Engineering"
    ],
    "text": "Swiftstrike Shot and Swiftfeather Arrow are no longer Bind-on-Pickup.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax",
@@ -1478,7 +2003,7 @@
     "Fishing"
    ],
    "text": "Fixed a condition mismatch that sometimes caused Fishing Racks to fail to provide lures to eligible players.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax",
@@ -1493,7 +2018,7 @@
     "Quests"
    ],
    "text": "Most quests level 48 and higher now additionally reward gold.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax",
@@ -1508,7 +2033,7 @@
     "Quests"
    ],
    "text": "Fixed an issue for the “Call of Water” quests where the events of the final quests would not play out properly consistently.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1522,7 +2047,7 @@
     "Quests"
    ],
    "text": "Fixed an issue where Sovik would not offer the quest “Chief Engineer Scooty” after selecting his gossip option.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1536,7 +2061,7 @@
     "Quests"
    ],
    "text": "Fixed multiple issues with the quest “Helping Hands.”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1550,7 +2075,7 @@
     "Quests"
    ],
    "text": "Zephras Isle - “Camping 101: Herbalism” now completes in Shen’dar Village instead of Valanaar.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1564,7 +2089,7 @@
     "Quests"
    ],
    "text": "The Broken Frond of Celastrus quest item dropped by “Celastrus the Bitter” should now properly drop for all eligible members of the party.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1578,7 +2103,7 @@
     "Quests"
    ],
    "text": "Feralas - Fixed an issue where players could not start the quest “Rescue OOX-22/FE!”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1592,7 +2117,7 @@
     "Quests"
    ],
    "text": "Riverglades - There are now significantly more Glade Vipers available for the quest “Poison Tips.”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [
     "rogue"
    ],
@@ -1608,7 +2133,7 @@
     "Quests"
    ],
    "text": "Duskwood - There are now more Nightbane Vile Fang and Nightbane Tainted Ones available for the quest “Worgen in the Woods.”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1622,7 +2147,7 @@
     "Quests"
    ],
    "text": "Fixed an issue where Murloc Tideskimmers would not drop the Saltwater Murloc Eyes for the quest “A Taste of the Sea”. Mmmmm, murloc eyes.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -1636,7 +2161,7 @@
     "World"
    ],
    "text": "Fixed issues causing players to be sent to an incorrect graveyard when they died.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "World",
    "who": "Kaivax"
@@ -1650,7 +2175,7 @@
     "World"
    ],
    "text": "Fixed an issue where the denizens of Pyrewood Village would not spawn around Dawn and Dusk for periods of time. Probably nothing to worry about; the villagers seem fine and love howling at night.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/6",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/6",
    "classes": [],
    "area": "World",
    "who": "Kaivax"
@@ -1665,7 +2190,7 @@
     "Druid"
    ],
    "text": "The Cooldown Manager no longer shows Berserk, and now correctly shows Lacerate when learned.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "druid"
    ],
@@ -1682,7 +2207,7 @@
     "Druid"
    ],
    "text": "Idol of Ferocity no longer lists Mangle as an ability it discounts.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "druid"
    ],
@@ -1700,7 +2225,7 @@
     "Feral"
    ],
    "text": "Fixed an issue where Feral Charge (Cat) was not putting the Druid in combat right away.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "druid"
    ],
@@ -1718,7 +2243,7 @@
     "Feral"
    ],
    "text": "Fixed an issue where Natural Instinct was not applying correctly to Lacerate or Pounce.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "druid"
    ],
@@ -1736,7 +2261,7 @@
     "Feral"
    ],
    "text": "Fixed an issue where the Pounce Stun debuff was not showing in the enemy debuffs while active.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "druid"
    ],
@@ -1753,7 +2278,7 @@
     "Hunter"
    ],
    "text": "Vulgara the Insatiable and the Shrieklings of Zephras should now belong to the correct hunter pet families.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "hunter"
    ],
@@ -1770,7 +2295,7 @@
     "Hunter"
    ],
    "text": "Fixed an issue causing Hunters to sometimes aggro enemies from very far away by targeting them.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "hunter"
    ],
@@ -1787,7 +2312,7 @@
     "Mage"
    ],
    "text": "Flamestirke’s ticks on the ground no longer incorrectly consume clearcasting.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "mage"
    ],
@@ -1804,7 +2329,7 @@
     "Mage"
    ],
    "text": "Arcane Concentration’s activation chance now correctly splits across the cast and every bolt (was granting 10% on cast and per bolt).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "mage"
    ],
@@ -1821,7 +2346,7 @@
     "Paladin"
    ],
    "text": "Fixed an issue where Consecration could stop dealing increased damage to enemies if targets inside of the Consecration despawned previously.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "paladin"
    ],
@@ -1838,7 +2363,7 @@
     "Paladin"
    ],
    "text": "Fixed an issue where Cooldown Manager wasn’t showing Seals correctly.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "paladin"
    ],
@@ -1855,7 +2380,7 @@
     "Priest"
    ],
    "text": "Shadowform no longer breaks when casting Fear Ward.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "priest"
    ],
@@ -1872,7 +2397,7 @@
     "Priest"
    ],
    "text": "Power Infusion will now correctly persist when used on allies.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "priest"
    ],
@@ -1889,7 +2414,7 @@
     "Shaman"
    ],
    "text": "Updated the visual effect for Lightning Mastery.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "shaman"
    ],
@@ -1906,7 +2431,7 @@
     "Shaman"
    ],
    "text": "Lightning Overload now deals the correct amount of damage for Lightning Bolt.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "shaman"
    ],
@@ -1923,7 +2448,7 @@
     "Shaman"
    ],
    "text": "Fixed an issue causing Improved Ghost Wolf to not hold the Night Watchman’s Torch in its mouth.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "shaman"
    ],
@@ -1940,7 +2465,7 @@
     "Warlock"
    ],
    "text": "Completing “Summon Felsteed” will correctly grant the player the appropriate riding skill.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "warlock"
    ],
@@ -1958,7 +2483,7 @@
     "Warlock"
    ],
    "text": "Fixed an issue allowing Incinerate to be available to non-Destruction specializations.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "warlock"
    ],
@@ -1975,7 +2500,7 @@
     "Warrior"
    ],
    "text": "Thunderclap no longer tracks its duration on the target via Cooldown Manager and now only shows its cooldown.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "warrior"
    ],
@@ -1991,7 +2516,7 @@
     "Dungeons"
    ],
    "text": "Experience rewarded for all enemy kills in dungeons increased by 50%.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2006,7 +2531,7 @@
     "Alcaz Prison"
    ],
    "text": "Defeating Zarla Ober will now drop loot.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2021,7 +2546,7 @@
     "Blackfathom Deeps"
    ],
    "text": "Fixed an issue that could cause players to become unable to release after dying in Blackfathom Deeps.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2036,7 +2561,7 @@
     "Blackrock Depths"
    ],
    "text": "Fixed an issue that prevented the throne room doors from opening if the party wiped while fighting Emperor Thaurissan.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2051,7 +2576,7 @@
     "Blackrock Depths"
    ],
    "text": "Heart of the Mountain can now be looted more than once.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2066,7 +2591,7 @@
     "The Drowned City"
    ],
    "text": "Fixed an issue that was causing creatures inside the Drowned City to do about 30% more damage than intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2082,7 +2607,7 @@
     "Deathless Marrow"
    ],
    "text": "Lowered the health of the creatures in the Deathless Marrow encounter by 25%.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2098,7 +2623,7 @@
     "Deathless Marrow"
    ],
    "text": "Lowered the damage of the Deathless Sorcerer’s Fireball by 25%.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2114,7 +2639,7 @@
     "Deathless Marrow"
    ],
    "text": "Lowered the damage of the Deathless Watcher’s Charge by 50%.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2130,7 +2655,7 @@
     "Deathless Marrow"
    ],
    "text": "Reduced the cast frequency of the Deathless Guardian’s Shield Slam ability by about 50%.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2145,7 +2670,7 @@
     "The Shaper’s Terrace"
    ],
    "text": "The Shaper’s Terrace: Vitrix, Snowtalon, and Cinder now correctly drop loot and higher-level skinning materials.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2160,7 +2685,7 @@
     "The Shaper’s Terrace"
    ],
    "text": "Cinder should now correctly spawn after players use the Archival Panel.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2175,7 +2700,7 @@
     "Stratholme"
    ],
    "text": "Fixed an issue that allowed players to mount inside Stratholme.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2189,7 +2714,7 @@
     "Enemies and NPCs"
    ],
    "text": "Silverpine Forest - Fixed an issue where Ivar the Foul was respawning more slowly than intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2203,7 +2728,7 @@
     "Enemies and NPCs"
    ],
    "text": "Teldrassil - Spawn time reduced for Ferocitas the Dream Eater.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2217,7 +2742,7 @@
     "Enemies and NPCs"
    ],
    "text": "Un’goro Crater - Fixed an issue that was causing Young Diemetradons to spawn at level 58 (rather than 51 to 52).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2231,7 +2756,7 @@
     "Enemies and NPCs"
    ],
    "text": "Zephras - Malduko Cloudcrush now respawns slightly more slowly.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2245,7 +2770,7 @@
     "Items"
    ],
    "text": "Fixed an issue with the Pouch of Violet Dust preventing players from receiving an extra hour of duration of the Camp Benefits aura as intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -2259,7 +2784,7 @@
     "Items"
    ],
    "text": "Fixed a bug that prevented Waylaid Crates and Craftsman’s Writs from dropping inside dungeons.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -2273,7 +2798,7 @@
     "Items"
    ],
    "text": "Berdun’s Trusty Rifle no longer has random stats and is not Bind-on-Equip.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -2287,7 +2812,7 @@
     "Items"
    ],
    "text": "Fixed a bug causing Nifty Stopwatch to share a cooldown with Dash, Blink, Sprint, and other movement abilities.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -2301,7 +2826,7 @@
     "Items"
    ],
    "text": "Zephrali Greatstaff and Fallen Dragon’s Scepter now appear correctly oriented when sheathed on the player’s back.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -2315,7 +2840,7 @@
     "Items"
    ],
    "text": "Gloves of Holy Might now work as intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -2329,7 +2854,7 @@
     "Player versus Player"
    ],
    "text": "Removed an invisible wall that was incorrectly blocking the roof of the Alliance base in Warsong Gulch. Please be careful up there.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Player versus Player",
    "who": "Kaivax"
@@ -2343,7 +2868,7 @@
     "Quests"
    ],
    "text": "“The Monster Surfaces” quest item is now available to all players in a party.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2357,7 +2882,7 @@
     "Quests"
    ],
    "text": "“Croaky’s Head” is now available to all players in a party.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2371,7 +2896,7 @@
     "Quests"
    ],
    "text": "“Elmpaw’s Head” is now available to all players in a party.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2385,7 +2910,7 @@
     "Quests"
    ],
    "text": "Mistreating Astor Hadren during the quest “The Deathstalkers” should now properly anger him, allowing you to fight him.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2399,7 +2924,7 @@
     "Quests"
    ],
    "text": "Fixed a bug preventing Jom-jom from continuing his escape on “Jom-jom’s Escape”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2413,7 +2938,7 @@
     "Quests"
    ],
    "text": "The door available after the quest “Ever After” should now correctly teleport players who interact with the door.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2427,7 +2952,7 @@
     "Quests"
    ],
    "text": "Fixed a bug keeping Terry Longdrink alive during the quest “Unwelcome Guests”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2441,7 +2966,7 @@
     "Quests"
    ],
    "text": "Fixed an issue where the quest “Find Bingles” was incorrectly categorized in Ironforge, rather than Loch Modan.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2455,7 +2980,7 @@
     "Quests"
    ],
    "text": "Updated Skonk’s list to be readable by everyone going on “A Quick Grocery Run”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2469,7 +2994,7 @@
     "Quests"
    ],
    "text": "Henrig Lonebrow’s Journal now respawns more quickly, so that more players can get started on “Lonebrow’s Journal”. It has also moved slightly down the road. Look for a similar skeleton to mark the location.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2483,7 +3008,7 @@
     "Quests"
    ],
    "text": "Addressed an issue that could prevent players from looting Berard’s Journal from Berard’s Bookshelf for “A Recipe for Death”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2497,7 +3022,7 @@
     "Quests"
    ],
    "text": "Resolved an issue preventing completion of “Fetch ‘n’ Fletch”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2511,7 +3036,7 @@
     "Quests"
    ],
    "text": "Fixed an issue where restarting the Rogue quest “Mission: Possible not Probable” was much less possible than intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [
     "rogue"
    ],
@@ -2527,7 +3052,7 @@
     "Quests"
    ],
    "text": "Resolved an issue where Jezap Jinglesprocket could fail to provide players a “Bloodmaster’s Ring”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2541,7 +3066,7 @@
     "Quests"
    ],
    "text": "Fixed an issue during the quest “Feathers in Flight” where players below level 60 could not loot the Hyjal Owl Nests.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2556,7 +3081,7 @@
     "Tauren"
    ],
    "text": "Cultivation now correctly only goes on cooldown after completing the cast.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "Races",
    "who": "Kaivax"
@@ -2570,7 +3095,7 @@
     "World"
    ],
    "text": "Lowered the population of players in various zones where there was significant congestion.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "World",
    "who": "Kaivax",
@@ -2585,7 +3110,7 @@
     "World"
    ],
    "text": "Resolved an issue where the flight path from Camp Taurajo to Thunder Bluff could unintentionally go through objects.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/5",
    "classes": [],
    "area": "World",
    "who": "Kaivax"
@@ -2599,7 +3124,7 @@
     "Classes"
    ],
    "text": "Fixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Classes",
    "who": "Kaivax"
@@ -2614,7 +3139,7 @@
     "Cooldown Manager"
    ],
    "text": "The Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when diminishing returns or mechanic reductions (like orc stun reduction) are factors.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Classes",
    "who": "Kaivax"
@@ -2629,7 +3154,7 @@
     "Druid"
    ],
    "text": "Bloom will now correctly heal the target.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "druid"
    ],
@@ -2646,7 +3171,7 @@
     "Druid"
    ],
    "text": "Fixed a bug where the tooltip of Bear Form claimed an incorrect health value increase. The functionality was correct, but the wrong value was reported.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "druid"
    ],
@@ -2663,7 +3188,7 @@
     "Druid"
    ],
    "text": "The tooltip for Ravage reported an incorrect value for its damage, and the tooltip has been corrected. There was no change made to damage done.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "druid"
    ],
@@ -2680,7 +3205,7 @@
     "Druid"
    ],
    "text": "Fixed the tooltip for Swiftmend to no longer incorrectly mention consuming the effect.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "druid"
    ],
@@ -2697,7 +3222,7 @@
     "Mage"
    ],
    "text": "Fixed an issue where Mages were still learning the Research spell and then losing it upon relogging. This spell should not exist, and you should only have the Study spell after completing the relevant quest.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "mage"
    ],
@@ -2714,7 +3239,7 @@
     "Mage"
    ],
    "text": "Fixed an issue with Arcane Blast where its duration was not properly 18 seconds.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "mage"
    ],
@@ -2731,7 +3256,7 @@
     "Rogue"
    ],
    "text": "Shank will now display Rank 1 and Rank 2 in the tooltips.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "rogue"
    ],
@@ -2748,7 +3273,7 @@
     "Rogue"
    ],
    "text": "While Boot Knife is talented, Shank will now correctly display the number of Combo Points it grants.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "rogue"
    ],
@@ -2765,7 +3290,7 @@
     "Warlock"
    ],
    "text": "Voidwalker base health increased by about 40 at all levels.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "warlock"
    ],
@@ -2782,7 +3307,7 @@
     "Warlock"
    ],
    "text": "The Soul Siphon talent no longer incorrectly causes Wrack to increase its own damage.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "warlock"
    ],
@@ -2799,7 +3324,7 @@
     "Warrior"
    ],
    "text": "Fixed the tooltip for Reckless Swings to mention that it activates Gore Drinker.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "warrior"
    ],
@@ -2815,7 +3340,7 @@
     "Dungeons"
    ],
    "text": "Fixed an issue that would prevent Zaetar’s Spirit from spawning after defeating Princess Theradras in Maraudon.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2829,7 +3354,7 @@
     "Dungeons"
    ],
    "text": "Fixed an issue that could cause some creatures inside Blackmaw Hold and The Drowned City to erroneously disengage.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2843,7 +3368,7 @@
     "Dungeons"
    ],
    "text": "The instance portal should now correctly teleport you inside The Drowned City",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Dungeons",
    "who": "Kaivax"
@@ -2857,7 +3382,7 @@
     "Enemies and NPCs"
    ],
    "text": "Dun Morogh - Fixed an issue where the troggs in Grol’bolar Quarry would respawn too quickly.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2871,7 +3396,7 @@
     "Enemies and NPCs"
    ],
    "text": "Durotar - Ridgeshade Lurkers now correctly have loot.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2885,7 +3410,7 @@
     "Enemies and NPCs"
    ],
    "text": "Riverglades - Krek the Noxious now has correct loot when defeated.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2899,7 +3424,7 @@
     "Enemies and NPCs"
    ],
    "text": "Swamp of Sorrows - Fixed an issue where Pelluk would sometimes not spawn.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2913,7 +3438,7 @@
     "Enemies and NPCs"
    ],
    "text": "Teldrassil - Fixed an issue where Lasher Sproutlings, Blooming Lashers, and Wrathvine were immune to nature damage.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -2927,7 +3452,7 @@
     "Items"
    ],
    "text": "Searing Dagger is now only activated by spells that have a damaging component.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -2942,7 +3467,7 @@
     "Leatherworking"
    ],
    "text": "Tanning Rack skill requirement lowered to 125 (was 140). This prevents it from being an obstacle to crafting various Leatherworking patterns that require 125 skill. Tanning Rack skill-ups lowered by 15 skill points to account for this.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Professions",
    "who": "Kaivax"
@@ -2956,7 +3481,7 @@
     "Quests"
    ],
    "text": "Resolved an issue with the quest “Vorsha the Lasher” rudely lashing everyone in the zone.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2970,7 +3495,7 @@
     "Quests"
    ],
    "text": "Brewed a fresh pot of Darnassus’s finest coffee for Kerlonian Evershade so he falls asleep less often during “The Sleeper Has Awakened”. Players now also start with the Horn of Awakening item to wake him up when needed.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2984,7 +3509,7 @@
     "Quests"
    ],
    "text": "The quest “Rough Wolf Pelts” is now automatically cancelled if you unlearn the Skinning skill.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -2998,7 +3523,7 @@
     "Quests"
    ],
    "text": "Resolved an issue with “Rediscovering the Light” where players were sometimes unable to heal NPCs.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -3012,7 +3537,7 @@
     "Quests"
    ],
    "text": "Fixed an issue during the quest “Ammo for Rumbleshot” where players could not see loot if interacting immediately following another player.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -3026,7 +3551,7 @@
     "Quests"
    ],
    "text": "Resolved an issue where some quest item drops in Riverglades were not shared by players in a party.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -3040,7 +3565,7 @@
     "Quests"
    ],
    "text": "“Never Saddle on Quality” spawns and quest item drops should now be more plentiful.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -3054,7 +3579,7 @@
     "Quests"
    ],
    "text": "The Abomimable Head dropped from The Baron in the Ruins of Lordaeron dungeon will now properly offer the quest “Unending Torment” for Horde players at level 15 (was level 16).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -3068,7 +3593,7 @@
     "Quests"
    ],
    "text": "Damp Note drop rate increased. Eww.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -3083,7 +3608,7 @@
     "Night Elf"
    ],
    "text": "Fixed a bug granting Shadowmelded Druids access to Ravage and Pounce.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "druid"
    ],
@@ -3100,7 +3625,7 @@
     "Orc"
    ],
    "text": "Fixes an issue where some Warlock pet abilities were benefitting too much from the Orc Command racial ability.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [
     "warlock"
    ],
@@ -3116,7 +3641,7 @@
     "World"
    ],
    "text": "Deployed some improvements to the visibility of other players and their targets across relatively large distances.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "World",
    "who": "Kaivax"
@@ -3130,7 +3655,7 @@
     "World"
    ],
    "text": "Thunder Bluff - Fixed an issue where the Barbershop was darker than intended. We moooved the lights around.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/4",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/4",
    "classes": [],
    "area": "World",
    "who": "Kaivax"
@@ -3144,7 +3669,7 @@
     "Enemies and NPCs"
    ],
    "text": "Durotar - Fixed an issue where Yarrog Baneshadow was respawning more slowly than intended.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -3158,7 +3683,7 @@
     "Enemies and NPCs"
    ],
    "text": "Zephras - Lotheluum Starbreeze now offers training to Druids as expected.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [
     "druid"
    ],
@@ -3174,7 +3699,7 @@
     "Enemies and NPCs"
    ],
    "text": "Dustwallow Marsh - Fixed an issue where some murlocs in Dustwallow Marsh were respawning too quickly.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -3188,7 +3713,7 @@
     "Enemies and NPCs"
    ],
    "text": "Swamp of Sorrows - Fixed an issue where Pelluk would sometimes not spawn.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Enemies and NPCs",
    "who": "Kaivax"
@@ -3202,7 +3727,7 @@
     "Items"
    ],
    "text": "Fixed an issue where trade supply vendors on Zephras Isle didn’t sell apprentice tradeskill bags.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -3216,7 +3741,7 @@
     "Items"
    ],
    "text": "Mild Spices now sell to vendors for 1 copper each (was 2 copper).",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Items",
    "who": "Kaivax"
@@ -3230,7 +3755,7 @@
     "Player versus Player"
    ],
    "text": "Fixed an issue where Plainsrunning could be stacked in a battleground’s preparation phase.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Player versus Player",
    "who": "Kaivax"
@@ -3244,7 +3769,7 @@
     "Player versus Player"
    ],
    "text": "Plainsrunning can no longer stack and stacks will be cancelled when carrying a flag in a battleground.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Player versus Player",
    "who": "Kaivax"
@@ -3258,7 +3783,7 @@
     "Quests"
    ],
    "text": "Fixed an issue with incorrect text in “The Sisterhood of Elune”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"
@@ -3272,7 +3797,7 @@
     "Quests"
    ],
    "text": "Deathstalker Erland respawns much more quickly for the quest “Escorting Erland”.",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/1",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/1",
    "classes": [],
    "area": "Quests",
    "who": "Kaivax"

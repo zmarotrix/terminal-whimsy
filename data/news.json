@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T01:51:14Z",
+ "updated": "2026-11-17T03:57:06Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,6 +15,99 @@
  ],
  "stories": [
   {
+   "title": "Fishing Rack Adjustments: WoW Forever Hotfixes for November 16",
+   "url": "https://www.warcrafttavern.com/forever/news/fishing-rack-adjustments-wow-forever-hotfixes-for-november-16/",
+   "date": "2026-11-17T02:36:53Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "A round of hotfixes has gone out for WoW Forever to address some issues with classes, items, and quests. Included in the fixes is a notable change for the Fishing Rack Camping object, which should now provide lures to everyone nearby as intended. There are…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "0955f1d605",
+   "first": "2026-11-17T02:36:53Z",
+   "last": "2026-11-17T02:36:53Z",
+   "tags": [
+    "classes",
+    "professions",
+    "hotfix",
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026",
+   "url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026",
+   "date": "2026-11-17T02:23:22Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has announced hotfixes for today, which includes a lot of changes for classes, quests, items and dungeons! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "0bba54fb1a",
+   "first": "2026-11-17T02:23:22Z",
+   "last": "2026-11-17T02:23:22Z",
+   "tags": [
+    "classes",
+    "hotfix",
+    "leveling",
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
+   "date": "2026-11-16T21:04:18Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "13b85724cd",
+   "first": "2026-11-16T21:04:18Z",
+   "last": "2026-11-17T02:13:36Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "So the nerfed AOE farm did crazy damage to the server economy.",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xy8d84/so_the_nerfed_aoe_farm_did_crazy_damage_to_the/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-17T02:13:36Z"
+    }
+   ]
+  },
+  {
+   "title": "Protection Paladin Guide | Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjQtRmk2akJWYldmOVdzSDA1cUl2NmZmNmJtWGgzM1hTOGJDQUJ1YjhUOEZTT2FBSkNoOXpTTWVDcldZbURMVHZ6cHJtTEhEcURuSVlEQ3hqbTBiQURxRmR6N1pGcWE4aXFDN2wtT211aTI1ZXBFYVdoUnpVbkZmeg?oc=5",
+   "date": "2026-11-17T00:58:23Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "a16d2a8882",
+   "first": "2026-11-17T00:58:23Z",
+   "last": "2026-11-17T00:58:23Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Exploit early, exploit often ... almost 5k gold",
    "url": "https://www.reddit.com/r/wowforever/comments/1xy5ncr/exploit_early_exploit_often_almost_5k_gold/",
    "date": "2026-11-17T00:06:22Z",
@@ -25,10 +118,36 @@
    "icon": "inv_shirt_guildtabard_01",
    "id": "cbbf18ccb0",
    "first": "2026-11-17T00:06:22Z",
-   "last": "2026-11-17T00:06:22Z",
+   "last": "2026-11-17T00:56:23Z",
    "tags": [
     "economy"
    ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Following on from the 'exploit early...exploit often post' - Streamer Ziqo already starting to manipulate AH prices",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xy6qey/following_on_from_the_exploit_earlyexploit_often/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-17T00:56:23Z"
+    }
+   ]
+  },
+  {
+   "title": "The sleeping bag is way better than most people realize.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy6bb8/the_sleeping_bag_is_way_better_than_most_people/",
+   "date": "2026-11-17T00:36:51Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "I see people complaining about the “1% XP buff” from the sleeping bag in this sub, but I want to inform you guys about the benefits of the sleeping bag. 1) The 3% (2 hour buff) XP increase - also counts towards the XP gained from quest turn ins. If you are…",
+   "who": "/u/its322somewhere",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "9b7e088fd9",
+   "first": "2026-11-17T00:36:51Z",
+   "last": "2026-11-17T00:36:51Z",
+   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -141,25 +260,6 @@
    "first": "2026-11-16T21:24:02Z",
    "last": "2026-11-16T21:24:02Z",
    "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
-   "date": "2026-11-16T21:04:18Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "13b85724cd",
-   "first": "2026-11-16T21:04:18Z",
-   "last": "2026-11-16T21:04:18Z",
-   "tags": [
-    "economy"
-   ],
    "classes": [],
    "n": 1,
    "official": false,
@@ -413,6 +513,27 @@
    "last": "2026-11-16T15:44:15Z",
    "tags": [],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
+   "date": "2026-11-16T15:10:34Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "ebfb657fbd",
+   "first": "2026-11-16T15:10:34Z",
+   "last": "2026-11-16T15:10:34Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -826,75 +947,22 @@
    "also": []
   },
   {
-   "title": "Me and my hubby in game vs irl 💙 We had our guild pic today to celebrate Nation du Québec in WoW Forever!",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxge1m/me_and_my_hubby_in_game_vs_irl_we_had_our_guild/",
-   "date": "2026-11-16T04:42:37Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "who": "/u/Tsarina_Cosplay",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "3e1cae8927",
-   "first": "2026-11-16T04:42:37Z",
-   "last": "2026-11-16T04:42:37Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Frost Mage Guide - Talents, Rotations & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50VzJHUi13YnlvTjkwdUpCTmNZeGZlYTJOUHg0U0VqaER5M3dHVlJhUHBOUkstbHRTemZRUEF0SURlME9HZHRMRU9ZYlpXMU91Szd0R2JScHdaNEtMbFRiZExDek1CTHFLSmc?oc=5",
-   "date": "2026-11-16T04:07:07Z",
+   "date": "2026-11-16T01:52:17Z",
    "label": "press",
    "source": "Google News",
    "who": "Mobalytics",
    "icon": "inv_misc_spyglass_03",
    "id": "3f9bb948f2",
-   "first": "2026-11-16T04:07:07Z",
-   "last": "2026-11-16T04:07:07Z",
+   "first": "2026-11-16T01:52:17Z",
+   "last": "2026-11-16T01:52:17Z",
    "tags": [
     "classes"
    ],
    "classes": [
     "mage"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "First Time Player. First Time Mount.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxezlh/first_time_player_first_time_mount/",
-   "date": "2026-11-16T03:27:04Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "I joined WoW for the first time during the Forever Beta. Had a ton of fun and I jumped head first into launch. Finally was able to get my first ever mount. Holy hell it was tough getting all that gold. My poor skills haven’t seen the gentle caress of a gold…",
-   "who": "/u/No_Foundation_9466",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "3ea48a3426",
-   "first": "2026-11-16T03:27:04Z",
-   "last": "2026-11-16T03:27:04Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Bud traveled one and half a continent just to fish in Moonglade",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxdq34/bud_traveled_one_and_half_a_continent_just_to/",
-   "date": "2026-11-16T02:23:05Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Bottom text.",
-   "who": "/u/menaria",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "ad785e9537",
-   "first": "2026-11-16T02:23:05Z",
-   "last": "2026-11-16T02:23:05Z",
-   "tags": [],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -974,8 +1042,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -1036,28 +1104,6 @@
    "also": []
   },
   {
-   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWWS0yOWlQbWNlbl93bzczLXZjcHBDbWdicmtEXzJCUXVHSVlXYl9LWS01MWZRNkdoZTdUVkxnQlYzQ2w4dTU3anJtcmpyeUdGQVNTdnBYSklSS3lmWjI5ZFEwU2RNYThJQU9VRUZiRjBrazZXVk1n?oc=5",
-   "date": "2026-11-15T12:43:05Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "da354bc80a",
-   "first": "2026-11-15T12:43:05Z",
-   "last": "2026-11-15T12:43:05Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "priest"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Dungeon Kill Experience Changed Again in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
    "date": "2026-11-15T02:49:15Z",
@@ -1073,28 +1119,6 @@
     "leveling"
    ],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-15T02:28:15Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "9a8d6dfccc",
-   "first": "2026-11-15T02:28:15Z",
-   "last": "2026-11-15T02:28:15Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "mage"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -1449,8 +1473,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -1670,8 +1694,8 @@
    "last": "2026-11-12T17:58:03Z",
    "tags": [
     "pvp",
-    "story",
-    "realms"
+    "realms",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1825,8 +1849,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "classes",
-    "economy"
+    "economy",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1903,9 +1927,9 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
+    "warlock",
     "hunter",
-    "warlock"
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -2152,9 +2176,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
     "classes",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "shaman"
@@ -2689,8 +2713,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -2867,10 +2891,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
     "classes",
-    "ui",
-    "leveling"
+    "pvp",
+    "leveling",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2891,8 +2915,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "classes",
-    "raids",
-    "leveling"
+    "leveling",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3248,6 +3272,92 @@
  ],
  "items": [
   {
+   "title": "Fishing Rack Adjustments: WoW Forever Hotfixes for November 16",
+   "url": "https://www.warcrafttavern.com/forever/news/fishing-rack-adjustments-wow-forever-hotfixes-for-november-16/",
+   "date": "2026-11-17T02:36:53Z",
+   "summary": "A round of hotfixes has gone out for WoW Forever to address some issues with classes, items, and quests. Included in the fixes is a notable change for the Fishing Rack Camping object, which should now provide lures to everyone nearby as intended. There are…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "hotfix",
+    "classes",
+    "items",
+    "professions"
+   ],
+   "classes": []
+  },
+  {
+   "title": "More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026",
+   "url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026",
+   "date": "2026-11-17T02:23:22Z",
+   "summary": "Blizzard has announced hotfixes for today, which includes a lot of changes for classes, quests, items and dungeons! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "hotfix",
+    "leveling",
+    "classes",
+    "items"
+   ],
+   "classes": []
+  },
+  {
+   "title": "So the nerfed AOE farm did crazy damage to the server economy.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy8d84/so_the_nerfed_aoe_farm_did_crazy_damage_to_the/",
+   "date": "2026-11-17T02:13:36Z",
+   "summary": "And now people that did abuse it are even trying to manipulate the AH on a mega server... So what are we going to do? Does the casual gamer now get fucked over? They should remove the gold... I also know about a couple ppl from my guild swimming in gold atm;…",
+   "who": "/u/LazyMakara",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [
+    "economy"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Protection Paladin Guide | Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjQtRmk2akJWYldmOVdzSDA1cUl2NmZmNmJtWGgzM1hTOGJDQUJ1YjhUOEZTT2FBSkNoOXpTTWVDcldZbURMVHZ6cHJtTEhEcURuSVlEQ3hqbTBiQURxRmR6N1pGcWE4aXFDN2wtT211aTI1ZXBFYVdoUnpVbkZmeg?oc=5",
+   "date": "2026-11-17T00:58:23Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
+  },
+  {
+   "title": "Following on from the 'exploit early...exploit often post' - Streamer Ziqo already starting to manipulate AH prices",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy6qey/following_on_from_the_exploit_earlyexploit_often/",
+   "date": "2026-11-17T00:56:23Z",
+   "summary": "Pretty sad if you ask me. It's hard enough to even acquire gold, and people like him have 4k+.... Initial post: https://www.reddit.com/r/wowforever/comments/1xy5ncr/exploit_early_exploit_often_almost_5k_gold/ Edit:…",
+   "who": "/u/imadade",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "The sleeping bag is way better than most people realize.",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy6bb8/the_sleeping_bag_is_way_better_than_most_people/",
+   "date": "2026-11-17T00:36:51Z",
+   "summary": "I see people complaining about the “1% XP buff” from the sleeping bag in this sub, but I want to inform you guys about the benefits of the sleeping bag. 1) The 3% (2 hour buff) XP increase - also counts towards the XP gained from quest turn ins. If you are…",
+   "who": "/u/its322somewhere",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Exploit early, exploit often ... almost 5k gold",
    "url": "https://www.reddit.com/r/wowforever/comments/1xy5ncr/exploit_early_exploit_often_almost_5k_gold/",
    "date": "2026-11-17T00:06:22Z",
@@ -3534,6 +3644,21 @@
    "classes": []
   },
   {
+   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
+   "date": "2026-11-16T15:10:34Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
+  },
+  {
    "title": "Should WoW: Forever Dungeons Let Players Complete Quests in One Run?",
    "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run",
    "date": "2026-11-16T15:00:00Z",
@@ -3810,20 +3935,9 @@
    "classes": []
   },
   {
-   "title": "Me and my hubby in game vs irl 💙 We had our guild pic today to celebrate Nation du Québec in WoW Forever!",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxge1m/me_and_my_hubby_in_game_vs_irl_we_had_our_guild/",
-   "date": "2026-11-16T04:42:37Z",
-   "who": "/u/Tsarina_Cosplay",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "Frost Mage Guide - Talents, Rotations & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50VzJHUi13YnlvTjkwdUpCTmNZeGZlYTJOUHg0U0VqaER5M3dHVlJhUHBOUkstbHRTemZRUEF0SURlME9HZHRMRU9ZYlpXMU91Szd0R2JScHdaNEtMbFRiZExDek1CTHFLSmc?oc=5",
-   "date": "2026-11-16T04:07:07Z",
+   "date": "2026-11-16T01:52:17Z",
    "who": "Mobalytics",
    "source": "Google News",
    "label": "press",
@@ -3834,30 +3948,6 @@
    "classes": [
     "mage"
    ]
-  },
-  {
-   "title": "First Time Player. First Time Mount.",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxezlh/first_time_player_first_time_mount/",
-   "date": "2026-11-16T03:27:04Z",
-   "summary": "I joined WoW for the first time during the Forever Beta. Had a ton of fun and I jumped head first into launch. Finally was able to get my first ever mount. Holy hell it was tough getting all that gold. My poor skills haven’t seen the gentle caress of a gold…",
-   "who": "/u/No_Foundation_9466",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Bud traveled one and half a continent just to fish in Moonglade",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxdq34/bud_traveled_one_and_half_a_continent_just_to/",
-   "date": "2026-11-16T02:23:05Z",
-   "summary": "Bottom text.",
-   "who": "/u/menaria",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
   },
   {
    "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
@@ -3954,22 +4044,6 @@
    "classes": []
   },
   {
-   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWWS0yOWlQbWNlbl93bzczLXZjcHBDbWdicmtEXzJCUXVHSVlXYl9LWS01MWZRNkdoZTdUVkxnQlYzQ2w4dTU3anJtcmpyeUdGQVNTdnBYSklSS3lmWjI5ZFEwU2RNYThJQU9VRUZiRjBrazZXVk1n?oc=5",
-   "date": "2026-11-15T12:43:05Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "priest"
-   ]
-  },
-  {
    "title": "Dungeon Kill Experience Changed Again in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
    "date": "2026-11-15T02:49:15Z",
@@ -3982,22 +4056,6 @@
     "leveling"
    ],
    "classes": []
-  },
-  {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-15T02:28:15Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "mage"
-   ]
   },
   {
    "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",

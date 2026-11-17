@@ -24,8 +24,8 @@
   "lastOk": "2026-11-17"
  },
  "Google News": {
-  "error": "HTTP Error 429: Too Many Requests",
-  "fails": 1,
+  "error": null,
+  "fails": 0,
   "lastItems": "2026-11-17",
   "lastOk": "2026-11-17"
  },

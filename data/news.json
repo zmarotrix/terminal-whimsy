@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:57:06Z",
+ "updated": "2026-11-17T04:26:09Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -27,10 +27,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "classes",
     "professions",
     "hotfix",
-    "items"
+    "items",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -49,10 +49,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "classes",
     "hotfix",
-    "leveling",
-    "items"
+    "items",
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -786,8 +786,8 @@
    "first": "2026-11-16T10:45:45Z",
    "last": "2026-11-16T10:45:45Z",
    "tags": [
-    "classes",
     "hotfix",
+    "classes",
     "leveling"
    ],
    "classes": [],
@@ -1009,28 +1009,6 @@
    "also": []
   },
   {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-15T21:35:12Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "59e25fb230",
-   "first": "2026-11-15T21:35:12Z",
-   "last": "2026-11-15T21:35:12Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
    "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
    "date": "2026-11-15T19:00:00Z",
@@ -1099,6 +1077,28 @@
     "leveling"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWWS0yOWlQbWNlbl93bzczLXZjcHBDbWdicmtEXzJCUXVHSVlXYl9LWS01MWZRNkdoZTdUVkxnQlYzQ2w4dTU3anJtcmpyeUdGQVNTdnBYSklSS3lmWjI5ZFEwU2RNYThJQU9VRUZiRjBrazZXVk1n?oc=5",
+   "date": "2026-11-15T03:10:44Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "da354bc80a",
+   "first": "2026-11-15T03:10:44Z",
+   "last": "2026-11-15T03:10:44Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "priest"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -1257,8 +1257,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1296,8 +1296,8 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "classes",
     "hotfix",
+    "classes",
     "leveling"
    ],
    "classes": [],
@@ -1452,8 +1452,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1473,8 +1473,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -1575,8 +1575,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1694,8 +1694,8 @@
    "last": "2026-11-12T17:58:03Z",
    "tags": [
     "pvp",
-    "realms",
-    "story"
+    "story",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1790,9 +1790,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "hotfix",
     "items",
-    "professions",
-    "hotfix"
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1927,9 +1927,9 @@
     "hotfix"
    ],
    "classes": [
+    "shaman",
     "warlock",
-    "hunter",
-    "shaman"
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2157,8 +2157,8 @@
     "classes"
    ],
    "classes": [
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2176,9 +2176,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "classes",
     "hotfix",
-    "items"
+    "items",
+    "classes"
    ],
    "classes": [
     "shaman"
@@ -2253,9 +2253,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "classes",
     "hotfix",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [
     "druid"
@@ -2337,8 +2337,8 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "classes",
     "hotfix",
+    "classes",
     "leveling"
    ],
    "classes": [],
@@ -2713,8 +2713,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -2891,10 +2891,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "classes",
     "pvp",
-    "leveling",
-    "ui"
+    "classes",
+    "ui",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2914,9 +2914,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
+    "raids",
     "classes",
-    "leveling",
-    "raids"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3979,22 +3979,6 @@
    "classes": []
   },
   {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-15T21:35:12Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
-   ]
-  },
-  {
    "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
    "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
    "date": "2026-11-15T19:00:00Z",
@@ -4042,6 +4026,22 @@
     "leveling"
    ],
    "classes": []
+  },
+  {
+   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWWS0yOWlQbWNlbl93bzczLXZjcHBDbWdicmtEXzJCUXVHSVlXYl9LWS01MWZRNkdoZTdUVkxnQlYzQ2w4dTU3anJtcmpyeUdGQVNTdnBYSklSS3lmWjI5ZFEwU2RNYThJQU9VRUZiRjBrazZXVk1n?oc=5",
+   "date": "2026-11-15T03:10:44Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "priest"
+   ]
   },
   {
    "title": "Dungeon Kill Experience Changed Again in WoW Forever",

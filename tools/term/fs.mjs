@@ -229,7 +229,13 @@ Burn after reading. (Not literally. Last time I burned something it was the inn.
 - Goblin Rocket Boots .............. works, cannot stop
 - Discombobulator Ray .............. discombobulated me
 - Postcard encoder ................. base64, then rot13. unbreakable!!
-- Wisp nightlight .................. the wisp said no`,
+- Wisp nightlight .................. the wisp said no
+- Wisp toybox ...................... DONE!! it's a surprise, don't tell the wisp.
+                                     packaged it properly this time: wisp-toybox_1.0_all.deb
+                                     (install it the way a civilised gnome would. with dpkg.)`,
+    "/home/fizzlewick/wisp-toybox_1.0_all.deb": { c: `!<arch>
+debian-binary   2.0
+control.tar.xz  ... (a Debian package. It rattles. Something inside is ticking.)`, mode: "-rw-r--r--", owner: "fizzlewick" },
 
     // ---------------- saltshaker: loot council, org-mode fan ----------------
     "/home/saltshaker/": null,
@@ -307,7 +313,8 @@ tmpfs        /tmp      tmpfs     size=7motes       0 0`,
 [  0.021] wispd: memory dump written to /proc/wisp/memory (hex, raw)
 [  0.022] wispd: note to self: xxd -r -p turns hex back into words
 [  3.141] wispd: user poked the wisp. mood: delighted
-[ 60.000] wispd: still sealed. glowing anxiously.`,
+[ 60.000] wispd: still sealed. glowing anxiously.
+[ 77.000] wispd: bored. fizzlewick says he's building me something. i'm not supposed to know.`,
     "/var/mail/": null,
     "/proc/": null,
     "/proc/wisp/": null,

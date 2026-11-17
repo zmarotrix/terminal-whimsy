@@ -128,10 +128,12 @@ function motes(cv, n) {
 }
 
 /* ---------------- achievements (secret ones stay "???" until found; counts unlock titles) ---------------- */
+// small page events the wisp's mind (wispmind.js) and the toybox listen for: tw:award, tw:wisp
+const emit = (type, detail) => dispatchEvent(new CustomEvent("tw:" + type, { detail }));
 const ACH = D.ACH, got = store.get("ach", {}), toasts = $(".toasts");
 function award(id) {
   if (got[id] || !ACH[id]) return;
-  got[id] = Date.now(); store.set("ach", got);
+  got[id] = Date.now(); store.set("ach", got); emit("award", id);
   if (window.TWLOG) window.TWLOG.push("found", { id, n: Object.keys(got).length });
   const a = ACH[id], t = document.createElement("div");
   t.className = "toast" + (a.secret ? " secret" : "");
@@ -204,6 +206,8 @@ const wisp = (() => {
     hideT = setTimeout(() => bub.classList.remove("on"), hold + text.length * 22);
   }
   function poke() {
+    if (api.onPoke && api.onPoke()) return;        // the toybox's ice block and sheep take pokes their own way
+    emit("wisp", { type: "poke" });
     if (el.classList.contains("sleep")) { el.classList.remove("sleep"); talk("> mm? oh, hello. i was resting my eyes."); return; }
     const r = orb.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + r.height / 2, 18);
     el.classList.remove("boing"); void el.offsetWidth; el.classList.add("boing");
@@ -221,8 +225,9 @@ const wisp = (() => {
   orb.addEventListener("pointerdown", e => {
     const r = el.getBoundingClientRect();
     // remember where on the orb you grabbed it, so the orb stays exactly under the pointer
-    drag = { sx: e.clientX, sy: e.clientY, ox: e.clientX - r.left, oy: e.clientY - r.top, moved: false };
+    drag = { sx: e.clientX, sy: e.clientY, ox: e.clientX - r.left, oy: e.clientY - r.top, moved: false, trail: [] };
     orb.setPointerCapture(e.pointerId);
+    emit("wisp", { type: "grab" });
   });
   orb.addEventListener("pointermove", e => {
     if (!drag) return;
@@ -237,6 +242,7 @@ const wisp = (() => {
     if (drag.flips.length >= 5) { drag.flips = []; shaken(); }
     drag.p = { x: (e.clientX - drag.ox) / innerWidth, y: (e.clientY - drag.oy) / innerHeight };
     place(drag.p);
+    drag.trail.push([performance.now(), e.clientX, e.clientY]); if (drag.trail.length > 6) drag.trail.shift();   // for throwing
   });
   orb.addEventListener("pointercancel", () => { drag = null; el.classList.remove("held"); });
   // shaken, not stirred
@@ -247,7 +253,7 @@ const wisp = (() => {
     shakes++;
     el.classList.add("dizzy", "shook");
     const r = orb.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + r.height / 2, 14 + Math.min(40, shakes * 6), .9);
-    award("shaken");
+    award("shaken"); emit("wisp", { type: "shake" });
     if (shakes === 3) { award("shaken3"); talk("> FINE. here. take some sparkles. now please stop.", 3000); fx.shower(60); }
     else talk(SHAKE_LINES[(shakes - 1) % SHAKE_LINES.length], 1800);
     clearTimeout(dizzyT);
@@ -259,6 +265,10 @@ const wisp = (() => {
     if (!d.moved) { poke(); return; }
     // dropped onto something that wants it (the faire pond, say)?
     if (api.onDrop) { orb.style.pointerEvents = "none"; const under = document.elementFromPoint(e.clientX, e.clientY); orb.style.pointerEvents = ""; if (api.onDrop(under, e.clientX, e.clientY)) return; }
+    // let go while moving fast: thrown, if the toybox is out (velocity in px per ms over the last few moves)
+    const tr = d.trail.filter(s => performance.now() - s[0] < 120), a = tr[0], b = tr[tr.length - 1];
+    if (api.onFling && a && b && b[0] > a[0]) { const r = el.getBoundingClientRect(); if (api.onFling((b[1] - a[1]) / (b[0] - a[0]), (b[2] - a[2]) / (b[0] - a[0]), r.left, r.top)) return; }
+    emit("wisp", { type: "drop" });
     store.set("wispPos", d.p); award("wrangler");
     el.classList.remove("boing"); void el.offsetWidth; el.classList.add("boing");
     talk(["> wheee!", "> ooh, nice view from here.", "> put me down gently next time.", "> i live here now."][Math.random() * 4 | 0], 2500);
@@ -694,7 +704,7 @@ function sources() {
 })();
 
 /* ---------------- what whimsy.js needs ---------------- */
-window.TWX = { notice, D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE, star,
+window.TWX = { notice, D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE, star, emit,
   addRoom(id, r) { SECRET[id] = r; secretTabs(); }, secretTabs, get room() { return room; },
   setClass(k) { myClass = k; store.set("class", k); award("class"); }, get myClass() { return myClass; }, get hot() { return HOT; } };
 

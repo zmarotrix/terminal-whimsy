@@ -132,6 +132,8 @@ for i in ["inv_letter_15", "inv_misc_horn_01", "inv_misc_book_09", "inv_shirt_gu
     use(i)
 for i in getattr(C, "EXTRA_ICONS", []):
     use(i)
+for t in getattr(C, "TOYS", []):
+    use(t["i"])
 for f in json.load(open(os.path.join(HERE, "feeds.json"), encoding="utf-8"))["feeds"]:
     if f.get("icon"):
         use(f["icon"])
@@ -145,7 +147,7 @@ for m in C.MUST:
 doc = {
     "HERO_CMD": C.HERO_CMD, "LEDE": C.LEDE, "COUNTDOWNS": C.COUNTDOWNS, "CLASSES": C.CLASSES, "AREAS": C.AREAS,
     "TOPICS": C.TOPICS, "ACH": C.ACH, "MUST": MUST, "ROAD": C.ROAD, "ROAD_TLDR": C.ROAD_TLDR,
-    "WISP": C.WISP, "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "TIPS": {},
+    "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "TIPS": {},
 }
 with open(os.path.join(ROOT, "data.js"), "w", encoding="utf-8", newline="\n") as f:
     f.write("/* Built by tools/build_data.py from data/src/*.json + tools/curated.py. Don't edit by hand. */\n")

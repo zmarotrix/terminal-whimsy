@@ -32,9 +32,9 @@ function matrix() {
 // the wisp's eyes follow the cursor (xeyes)
 function eyes() {
   const els = $$(".wisp .eye");
-  const mv = e => { const r = wisp.el.getBoundingClientRect(), dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2), d = Math.hypot(dx, dy) || 1; els.forEach(el => el.style.transform = `translate(${dx / d * 3}px, ${dy / d * 3}px)`); };
+  const mv = e => { const r = wisp.el.getBoundingClientRect(), dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2), d = Math.hypot(dx, dy) || 1; els.forEach(el => el.style.translate = `${dx / d * 3}px ${dy / d * 3}px`); };
   addEventListener("pointermove", mv);
-  setTimeout(() => { removeEventListener("pointermove", mv); els.forEach(el => el.style.transform = ""); }, 20000);
+  setTimeout(() => { removeEventListener("pointermove", mv); els.forEach(el => el.style.translate = ""); }, 20000);
 }
 // the wisp follows the cursor for a while (oneko, /follow)
 function follow() {

@@ -9,7 +9,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 58 12v20c0 15-11 25-26 29C17 57 6 47 6 32V12z' fill='%2310131d' stroke='%23f2c56b' stroke-width='3'/%3E%3Cpath d='M19 24l9 8-9 8' fill='none' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M32 41h13' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Cinzel:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=4446f79e">
+<link rel="stylesheet" href="site.css?v=c02c70ce">
 </head>
 <body>
 <!--
@@ -163,6 +163,8 @@
     <p>Game art and icons come from the WoW Forever client, © Blizzard Entertainment. Not affiliated with Blizzard. News headlines link to their publishers.</p>
     <p>Compiled and built with help from Claude. Spotted something wrong? Tell an officer.</p>
     <p class="callwisp-row"><button class="chip callwisp" id="callWisp" type="button"><span class="mini-wisp happy" aria-hidden="true"></span>Call the wisp</button><span>Lost the wisp? This brings it back to its corner.</span></p>
+    <p class="callwisp-row"><button class="chip callwisp" id="roamToggle" type="button" aria-pressed="true"><span class="mini-wisp wow" aria-hidden="true"></span><span>Let it roam: on</span></button><span>Turn it off if the wisp flying about gets in the way. It stays in its corner but still talks and naps.</span></p>
+    <p class="callwisp-row" id="toyRow" hidden><button class="chip callwisp" id="toyToggle" type="button" aria-pressed="true"><img src="img/icons/inv_misc_bag_10.png" alt=""><span>Toybox: on</span></button><span>The wisp's toys. Turned off, the bar goes away. Your coins and toys are kept.</span></p>
   </div>
 </footer>
 
@@ -171,14 +173,16 @@
 <div class="toasts" aria-live="polite"></div>
 <script src="config.js?v=e650831c"></script>
 <script src="log.js?v=ab76afca"></script>
-<script src="icons.js?v=e9305ddd"></script>
-<script src="data.js?v=69d00347"></script>
-<script src="term-data.js?v=c7f84b6f"></script>
-<script src="app.js?v=5affd7a8"></script>
-<script src="whimsy.js?v=9a596a6f"></script>
-<script src="term-core.js?v=507ed4ab"></script>
+<script src="icons.js?v=039ae561"></script>
+<script src="data.js?v=f89b8008"></script>
+<script src="term-data.js?v=797b8522"></script>
+<script src="app.js?v=7d063704"></script>
+<script src="whimsy.js?v=1efd03ee"></script>
+<script src="term-core.js?v=fd584413"></script>
 <script src="term-emacs.js?v=834c5890"></script>
 <script src="term-adv.js?v=9b673aaa"></script>
-<script src="secret.js?v=c5b6a2d5"></script>
+<script src="secret.js?v=1b56d5ba"></script>
+<script id="toyboxJs" data-src="toybox.js?v=6ae9111f"></script>
+<script src="wispmind.js?v=72fa7325"></script>
 </body>
 </html>

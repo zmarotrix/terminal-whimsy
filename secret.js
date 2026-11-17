@@ -101,8 +101,13 @@ const fstate = () => {
   const f = store.get("fish", { skill: 1, caught: 0, log: [], misses: 0 });
   // older saves only kept a log of catches; their bag is whatever that log holds
   if (!f.bag) { f.bag = {}; for (const n of f.log || []) if (BYN[n] && !BYN[n].release) f.bag[n] = (f.bag[n] || 0) + 1; }
-  f.notes = f.notes || []; f.copper = f.copper || 0; return f;
+  f.notes = f.notes || [];
+  if (f.copper) { store.set("purse", store.get("purse", 0) + f.copper); f.copper = 0; store.set("fish", f); }   // older saves kept their copper here
+  return f;
 };
+// one purse for the whole site: the faire gnome's copper and the wisp's toybox share it
+const purse = () => store.get("purse", 0);
+const purseAdd = c => { store.set("purse", purse() + c); X.emit && X.emit("purse", c); };
 const bagAdd = (f, n, k = 1) => { f.bag[n] = (f.bag[n] || 0) + k; };
 const bagTake = (f, n) => { if (!(--f.bag[n] > 0)) delete f.bag[n]; };
 function drawFishSide() {
@@ -115,7 +120,7 @@ function drawFishSide() {
     const [n, c] = e, it = BYN[n]; TIPS["bag:" + n] = tipFor(n, c);
     return `<button class="slot ic q-${it.q}" data-use="${esc(n)}" data-tiph="bag:${esc(n)}" aria-label="${esc(n)}${c > 1 ? ", " + c : ""}"><img src="${ICON(it.i)}" alt="">${c > 1 ? `<b>${c}</b>` : ""}</button>`;
   }).join("");
-  $("#purse").innerHTML = f.copper ? `${f.copper}<i class="cu" title="copper"></i>` : "";
+  $("#purse").innerHTML = X.coins ? X.coins(purse()) : purse() ? `${purse()}<i class="cu" title="copper"></i>` : "";
   $("#bagHint").textContent = ents.length ? "Click an item to use it." : "Empty. Go catch something.";
   const lb = $("#lettersBtn"); lb.hidden = !f.notes.length; lb.textContent = `Letters from the pond: ${f.notes.length} of ${LETTERS.length}`;
 }
@@ -141,7 +146,7 @@ function reel() {
     const f = fstate(); f.caught++; store.set("fish", f); store.set("wispInPond", null);
     const b = $("#bobber").getBoundingClientRect(); burst(b.left + b.width / 2, b.top + b.height / 2, 70, 1.1);
     msg.innerHTML = `You caught <span class="q-legendary-t">[The Wisp]</span>! Soggy, glowing, and absolutely delighted.`;
-    award("wispfished"); end(); drawFishSide(); drawWispGlow();
+    award("wispfished"); X.emit && X.emit("wisp", { type: "fished" }); end(); drawFishSide(); drawWispGlow();
     setTimeout(() => { const w = wisp.el; w.hidden = false; w.classList.remove("boing"); void w.offsetWidth; w.classList.add("boing"); wisp.talk(pick(["> blub. BLUB. i saw a fish wearing a hat down there.", "> i'm fine. i'm FINE. i have pond in my eyes.", "> there's a whole guild of murlocs down there. they have loot council too.", "> never do that again. (it was quite nice actually.)"]), 4000); }, 500);
     return;
   }
@@ -205,7 +210,7 @@ function useItem(n) {
   } else if (k === "pearl") {
     h = esc(pick([`You hold the ${n} up to the light. It's lovely, and it knows it.`, `You admire the ${n}. It admires you back.`, `The ${n} gleams. Somewhere, a jeweller senses it.`]));
   } else if (k === "junk") {
-    bagTake(f, n); const c = SELL[n] || 1; f.copper += c;
+    bagTake(f, n); const c = SELL[n] || 1; purseAdd(c);
     h = `The gnome buys your ${tag(it)} for ${c} copper. ${esc(pick(["'A fine specimen!' she lies.", "'I know a guy,' she says.", "'Collectors love these,' she says, to nobody in particular."]))}`;
   } else {
     bagTake(f, n);
@@ -226,7 +231,10 @@ function termUse(n) {
   const r = useItem(n);
   return r.html + (r.letter != null ? `\n\n    <span class="hl">${esc(LETTERS[r.letter][0])}</span>\n        <span class="dim">— ${esc(LETTERS[r.letter][1])}</span>` : "");
 }
-X.bag = { find: findItem, use: useItem, term: termUse, describe, list: () => Object.entries(fstate().bag), tag: n => tag(BYN[n]) };
+// take one thing out of the bag without using it (the toybox feeds fish to the wisp this way)
+function takeItem(n) { const f = fstate(); if (!f.bag[n]) return null; bagTake(f, n); store.set("fish", f); if (X.room === "darkmoon") drawFishSide(); return BYN[n]; }
+const isFish = n => !!BYN[n] && kind(BYN[n]) === "fish";
+X.bag = { find: findItem, use: useItem, term: termUse, describe, list: () => Object.entries(fstate().bag), tag: n => tag(BYN[n]), take: takeItem, isFish, icon: n => BYN[n] && BYN[n].i, purse, purseAdd };
 
 /* ---- the wisp, dropped in the pond, sinks; the next thing you catch is the wisp ---- */
 const wispDown = () => !!store.get("wispInPond", null) && wisp.el.hidden;
@@ -241,7 +249,7 @@ wisp.onDrop = (under, x, y) => {
   wisp.el.classList.add("sink"); burst(x, y, 30, .8); X.hideTip && X.hideTip();
   setTimeout(() => { wisp.el.hidden = true; wisp.el.classList.remove("sink"); wisp.home(); drawWispGlow(); }, 650);
   if (!fishing) $("#pondMsg").textContent = "Blub. The wisp sinks out of sight. A few glowing bubbles rise. Better fish it out.";
-  award("wispdunk"); return true;
+  award("wispdunk"); X.emit && X.emit("wisp", { type: "dunk" }); return true;
 };
 // still down there from last time? Keep it there, unless the pond's been locked away since
 if (store.get("wispInPond", null)) { if (flags().darkmoon || flags().ticket) wisp.el.hidden = true; else store.set("wispInPond", null); }
@@ -371,7 +379,7 @@ if (TW) {
     const f = fstate(), ents = Object.entries(f.bag);
     if (!ents.length) return f.caught ? "Your bag is empty. Everything's been opened, sold or tossed back." : "Your bags are empty.";
     return TW.html(`<b>Your bag</b> <span class="dim">(from the faire pond)</span>\n` + ents.map(([n, c]) => `  ${tag(BYN[n])}${c > 1 ? " x" + c : ""}${how(n) ? `   <span class="dim">${how(n)}</span>` : ""}`).join("\n")
-      + (f.copper ? `\n  <span class="dim">Purse: ${f.copper} copper</span>` : "") + (f.notes.length ? `\n  <span class="dim">Letters read: ${f.notes.length} of ${LETTERS.length} (letters shows them)</span>` : "")
+      + (purse() ? `\n  <span class="dim">Purse: ${X.coinsText ? X.coinsText(purse()) : purse() + " copper"}</span>` : "") + (f.notes.length ? `\n  <span class="dim">Letters read: ${f.notes.length} of ${LETTERS.length} (letters shows them)</span>` : "")
       + `\n<span class="dim">Anything here: use &lt;name&gt;.</span>`);
   }, { hidden: true });
   for (const [v, d] of [["use", ""], ["uncork", "bottle"], ["squeeze", "plushie"], ["wish", "pinchy"], ["sell", ""], ["toss", ""], ["admire", "pearl"]])

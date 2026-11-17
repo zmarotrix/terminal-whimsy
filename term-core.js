@@ -65,6 +65,7 @@ function readFile(p) {
   if (p === "/home/sprinkles/ticket.txt" && !flags.ticket) { flag("ticket"); award("ticket"); setTimeout(() => wisp.talk("> ooh, a darkmoon ticket!", 3000), 300); }
   if (p === "/root/README.root" || p.startsWith("/home/leeroy/")) award("rootread");
   if (p === "/home/fizzlewick/postcard.b64") award("postcard");
+  if (p === "/proc/wisp/status" && X.mind) return X.mind.status();
   const c = node(p).c;
   return c == null ? "" : String(c);
 }
@@ -677,7 +678,7 @@ cmd(["kill", "pkill", "killall"], a => {
   const pid = /^\d+$/.test(id) ? +id : (PROCS().find(([, , c]) => c.includes(id)) || [])[0];
   if (pid == null) throw `${id}: no such process`;
   if (pid === 4242) { if (flags.goldbotDead) throw "(4242) - No such process"; flag("goldbotDead"); award("banned"); setTimeout(() => wisp.talk("> the goldbot is gone. trade chat is 4% quieter. thank you.", 3500), 300); return "goldbot (4242) terminated. Trade chat is 4% quieter. A distant 'WTS gold cheap' fades away."; }
-  if (pid === 7) { wisp.el.classList.add("dizzy"); setTimeout(() => wisp.el.classList.remove("dizzy"), 2500); wisp.talk("> hey! i'm a daemon. of WHIMSY. you can't kill whimsy.", 3000); award("killwisp"); throw "(7) - Operation not permitted: wispd is immortal"; }
+  if (pid === 7) { X.emit && X.emit("wisp", { type: "kill" }); wisp.el.classList.add("dizzy"); setTimeout(() => wisp.el.classList.remove("dizzy"), 2500); wisp.talk("> hey! i'm a daemon. of WHIMSY. you can't kill whimsy.", 3000); award("killwisp"); throw "(7) - Operation not permitted: wispd is immortal"; }
   if (pid === 9001) return "leeroy ignores all signals. He's already charging.";
   if (pid === 42) return "emacs --daemon cannot be killed, only paused for tea. (Grumbolt has been notified.)";
   if (pid === 1) throw "(1) - init refuses. It's turtles all the way down.";
@@ -800,7 +801,11 @@ cmd(["curl", "wget", "http", "lynx", "w3m"], a => {
   return `curl: (6) Could not resolve host: ${h}\n(the wisp keeps this box offline. try: curl wire, curl wttr.in, curl news.blizzard.com)`;
 });
 cmd(["telnet", "nc", "netcat"], a => { const h = hostOf(a[0]); if (h.includes("towel")) return "A long time ago in a galaxy far, far away... wrong franchise. Try 'adventure'."; return `Trying ${HOSTS[h] || h}...\nConnected to ${h || "nothing"}.\nEscape character is '^]'.\nMrglglgl?\nConnection closed by foreign murloc.`; });
-cmd("wisp", () => {
+cmd("wisp", a => {
+  const v = (a[0] || "").toLowerCase();
+  if (X.mind && /^(stay|sit|still|corner|off)$/.test(v)) { X.mind.setRoam(false); return "The wisp will stay where it is. It still talks and naps. (wisp roam lets it fly about again.)"; }
+  if (X.mind && /^(roam|go|free|wander|on)$/.test(v)) { X.mind.setRoam(true); return "The wisp is free to fly about again."; }
+  if (X.mind && /^(status|mood|how)$/.test(v)) return readFile("/proc/wisp/status");
   if (!wisp.call()) throw "can't reach the wisp. It's at the bottom of the faire pond. (Fish it out: the next catch is the wisp.)";
   return "You call the wisp. It comes back to its corner.";
 }, { hidden: true });
@@ -882,7 +887,7 @@ cmd("sudo", (a, i) => {
   if (rest === "whimsy") { X.party && X.party(); return "Permission granted. ✦"; }
   if (rest === "make me a sandwich") { award("sandwich"); return "Okay."; }
   if (/^rm\b/.test(rest)) return CMDS.rm.f(a.slice(1));
-  if (S.user !== "root" && /^(apt|apt-get|dnf|yum|pacman)$/.test(a[0] || "") && a.slice(1).some(x => pkgOf(x))) { print("(no sudo needed here. the wisp runs this repo, and it trusts you.)", "dim"); return run1(a[0], a.slice(1), i); }
+  if (S.user !== "root" && (/^(apt|apt-get|dnf|yum|pacman)$/.test(a[0] || "") && a.slice(1).some(x => pkgOf(x) || /\.deb$/.test(x)) || a[0] === "dpkg")) { print("(no sudo needed here. the wisp runs this repo, and it trusts you.)", "dim"); return run1(a[0], a.slice(1), i); }
   if (S.user === "root") return run1(a[0], a.slice(1), i);
   ask(`[sudo] password for ${S.user}: `, true, () => { print(`${S.user} is not in the sudoers file. This incident will be reported.`, "err"); award("reported"); setTimeout(() => wisp.talk("> reported. to me. i'm the authorities. i'm disappointed but not surprised.", 3500), 300); });
   return "";
@@ -940,6 +945,9 @@ function pkgCmd(mgr, a) {
   const words = a.filter(x => !x.startsWith("-")), dashS = a.some(x => /^-S/.test(x)), verb = dashS ? "install" : (words[0] || "").toLowerCase(), names = dashS ? words : words.slice(1);
   const yes = mgr !== "apt" || a.some(x => /^(-y|--yes|--assume-yes)$/.test(x));
   if (["install", "add", "reinstall", "get", "i"].includes(verb)) {
+    const deb = names.find(n => /\.deb$/i.test(n));
+    if (deb && mgr === "apt") return installDeb(deb);
+    if (names.some(n => /toybox/i.test(n)) && !names.some(n => pkgOf(n))) return `Reading package lists... Done\nBuilding dependency tree... Done\nE: Unable to locate package ${names.find(n => /toybox/i.test(n))}\n(It isn't in the wisp's repo. Whoever built it should still have the .deb file.)`;
     if (names.length && names.some(n => pkgOf(n))) { if (mgr !== "apt") print(`(${mgr} isn't on this box. It's a Debian kind of place. Using apt.)`, "dim"); return aptInstall(names, yes); }
     if (/(^|\s)whimsy(\s|$)/.test(sub)) return "whimsy is already the newest version (∞).\n0 upgraded, 0 newly installed, 0 to remove, 1 wisp delighted.";
     if (/emacs/.test(sub)) return "emacs is already installed. Grumbolt made sure. Twice.";
@@ -973,6 +981,41 @@ function pkgCmd(mgr, a) {
   if (/emacs/.test(sub)) return "emacs is already installed. Grumbolt made sure. Twice.";
   return "Usage: apt install <whimsy>";
 }
+/* ---- the wisp's toybox: Fizzlewick built it as a .deb and left it in his home ---- */
+const DEB = "/home/fizzlewick/wisp-toybox_1.0_all.deb";
+const toyState = () => store.get("toy", null);
+const toyIn = () => !!(toyState() && toyState().unlocked);
+function installDeb(f) {
+  const p = resolve(f);
+  if (!canReach(p) || !exists(p)) return html(`<span class="err">dpkg: error: cannot access archive '${esc(f)}': No such file or directory</span>`);
+  if (isDir(p)) return html(`<span class="err">dpkg-deb: error: '${esc(f)}' is a directory</span>`);
+  if (p !== DEB) return html(`<span class="err">dpkg-deb: error: '${esc(f)}' is not a Debian format archive</span>`);
+  if (toyIn()) return "wisp-toybox (1.0) is already installed. (toybox shows how it's going.)";
+  stream(["Selecting previously unselected package wisp-toybox.", "(Reading database ... 1337 files and directories currently installed.)", "Preparing to unpack .../wisp-toybox_1.0_all.deb ...", "Unpacking wisp-toybox (1.0) ...",
+    "Setting up wisp-toybox (1.0) ...", "Processing triggers for wispd (7.7.7) ...", "wispd[7]: new toys detected. checking them for bombs. found one. keeping it."], 260, () => {
+    if (X.mind) X.mind.unlockToybox();
+    award("toybox"); flag("toybox");
+    print(html(`<span class="hl">A toy bar has appeared at the bottom of the page.</span> <span class="dim">(toybox off puts it away. The footer has a switch too.)</span>`));
+  });
+  return "";
+}
+cmd("dpkg", a => {
+  const op = (a[0] || "").toLowerCase(), rest = a.slice(1).filter(x => !x.startsWith("-"));
+  if (op === "-i" || op === "--install") return rest[0] ? installDeb(rest[0]) : "dpkg: error: --install needs at least one package archive file argument";
+  if (op === "-l" || op === "--list") return ["Desired=Install/Remove  Status=Inst  Name           Version   Description", "ii  emacs          29.4      the editor (Grumbolt's)", "ii  whimsy         ∞         essential", "ii  wispd          7.7.7     the whimsy daemon", ...installed().map(q => `ii  ${q.padEnd(15)}${PKGS[q].v.padEnd(10)}${PKGS[q].desc.slice(0, 40)}`), ...(toyIn() ? ["ii  wisp-toybox    1.0       toys for the wisp (by Fizzlewick)"] : [])].join("\n");
+  if (["-r", "--remove", "-p", "-P", "--purge"].includes(op)) return /toybox/.test(rest.join(" ")) && toyIn() ? "dpkg: the wisp is holding on to wisp-toybox with both motes. (toybox off puts the toys away instead.)" : `dpkg: warning: ignoring request to remove ${rest[0] || "nothing"}, which isn't installed`;
+  if (op === "-c" || op === "--contents" || op === "-I" || op === "--info") return rest[0] && resolve(rest[0]) === DEB ? "Package: wisp-toybox\nVersion: 1.0\nMaintainer: Fizzlewick <boom@forever>\nDepends: wispd (>= 7.7.7), murloc-tools\nDescription: toys for the wisp\n A bar of toys, a purse, and a shop. Mostly safe. Some explosions." : "dpkg-deb: error: that isn't a package archive";
+  return "usage: dpkg -i <file.deb>   install a package from a file\n       dpkg -l              list what's installed";
+});
+cmd("toybox", a => {
+  if (!toyIn()) return notFound("toybox");
+  const v = (a[0] || "").toLowerCase(), T = X.toybox;
+  if (v === "off") { X.mind.setToybox(false); return "The toys are put away. Your coins and toys are kept. (toybox on brings them back.)"; }
+  if (v === "on") { X.mind.setToybox(true); return "The toy bar is back at the bottom of the page."; }
+  if (v === "shop" || v === "wares") { if (!X.mind.toyOn) return "The toys are put away. toybox on first."; T && T.shop(); return "Fizzlewick's Wares are open, at the bottom of the page."; }
+  const st = T ? T.status() : null, on = X.mind.toyOn;
+  return html(`<b>wisp-toybox 1.0</b>  <span class="dim">(by Fizzlewick)</span>\n  Status:     ${on ? "on" : "off"}   <span class="dim">(toybox ${on ? "off" : "on"} to switch)</span>\n  Purse:      ${esc(X.coinsText(store.get("purse", 0)))}\n  Reputation: ${esc(X.mind.standing())} with the wisp\n  Mood:       ${esc(X.mind.mood())}` + (st ? `\n  Toys:       ${esc(st.toys.join(", "))}\n  Loves:      ${esc(st.likes || "??? (watch how it reacts)")}\n  Can't stand: ${esc(st.dislikes || "???")}` : "") + `\n<span class="dim">toybox shop opens Fizzlewick's Wares. cat /proc/wisp/status for the details.</span>`);
+}, { hidden: true });
 for (const m of ["apt", "pacman", "brew", "pip", "pip3", "npm", "yarn", "cargo", "gem", "snap", "flatpak", "emerge", "nix", "guix"]) cmd(m, a => pkgCmd(m, a));
 
 /* ---- clipboard-whimsy: copies made on this page feed it, and the real clipboard when the browser allows ---- */
@@ -1201,7 +1244,7 @@ const EMOTE = { dance: "You dance. The icons dance with you.", cheer: "You cheer
 for (const k of Object.keys(EMOTE)) cmd("/" + k, a => {
   award("slash");
   if (k === "dance") { X.dance && X.dance(); }
-  if (k === "hug" || k === "pet" || k === "kiss") { const r = wisp.el.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + 20, 30, .8); }
+  if (k === "hug" || k === "pet" || k === "kiss" || k === "love") { const r = wisp.el.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + 20, 30, .8); X.emit && X.emit("wisp", { type: "hug" }); }
   if (k === "kiss") { wisp.el.classList.add("blush"); setTimeout(() => wisp.el.classList.remove("blush"), 1500); }
   if (k === "sleep") { wisp.sleep(); }
   if (k === "chicken") { award("chicken"); }
@@ -1212,7 +1255,7 @@ for (const k of Object.keys(EMOTE)) cmd("/" + k, a => {
   if (k === "y" || k === "yell") return `[${X.store.get("name", "You")}] yells: ${a.join(" ").toUpperCase()}!`;
   return EMOTE[k];
 }, { hidden: true });
-cmd("/hug", () => { const r = wisp.el.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + 20, 30, .8); wisp.talk("> aww. hug received. hug returned.", 2500); award("slash"); return "You hug the wisp. It is warm and slightly sparkly."; }, { hidden: true });
+cmd("/hug", () => { const r = wisp.el.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + 20, 30, .8); X.emit && X.emit("wisp", { type: "hug" }); wisp.talk("> aww. hug received. hug returned.", 2500); award("slash"); return "You hug the wisp. It is warm and slightly sparkly."; }, { hidden: true });
 cmd("/roll", a => CMDS.roll.f(a), { hidden: true });
 cmd(["/run", "/script"], a => { const m = a.join(" ").match(/print\((["'])(.*)\1\)/); return m ? m[2] : "/run: the wisp only understands print(\"...\") in Lua."; }, { hidden: true });
 cmd(["/help", "/?"], () => "WoW commands: /dance /cheer /wave /hug /pet /kiss /flex /cry /lol /sit /sleep /train /chicken /joke /roll /random /played /who /g /s /y /1 /afk /camp /reload /run /follow", { hidden: true });

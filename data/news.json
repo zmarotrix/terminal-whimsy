@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:17:49Z",
+ "updated": "2026-11-17T00:53:40Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,62 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
+   "date": "2026-11-17T00:00:20Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "A new cosmetic Hearthstone has been found in WoW: Forever! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "b538799c89",
+   "first": "2026-11-17T00:00:20Z",
+   "last": "2026-11-17T00:00:20Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "If the rulesets are greyed out, or you're receving a \"No Server Available\" error when trying to log into #WoWForever, you may need to…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3n2hqdq53tq22",
+   "date": "2026-11-17T00:00:00.397000Z",
+   "label": "social",
+   "source": "BlizzardCS on Bluesky",
+   "summary": "If the rulesets are greyed out, or you're receving a \"No Server Available\" error when trying to log into #WoWForever, you may need to patch your client, Instructions on how to do so can be found here: blizz.ly/48ZEXXa",
+   "who": "@support.blizzard.com",
+   "icon": "spell_holy_heal",
+   "id": "a5f0cceeb0",
+   "first": "2026-11-17T00:00:00.397000Z",
+   "last": "2026-11-17T00:00:00.397000Z",
+   "tags": [
+    "realms"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
+   "date": "2026-11-16T21:48:31Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "34ea7b832e",
+   "first": "2026-11-16T21:48:31Z",
+   "last": "2026-11-16T21:48:31Z",
+   "tags": [
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Blizzard Tries 2 World of Warcraft Dungeon Fixes Over the Weekend to Stop Boosting Services",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUFhdXVWbTN1QU5qU1FWaUNOb3BETURQakc5eHhfZHNpTHAxX2dpTDFXR2psOXp0SUxvWjRPR2Z5SkpyNWNfOVJleFByUEpBUGZlZWFINEVqTkNha2lIZmh1cWk3dU4yN2V3aGI5alc5Mk9iOUNkaTkzVVdTUG5xTWQzcktFSHpNcE9oeF9weE5ib3pCVkRvMUhtaHBCMXRUUTNtaWxFS2RKOGVSSFdtWWFYeTRQTWY4b0kybktTRQ?oc=5",
@@ -331,6 +387,23 @@
    "id": "2e182672df",
    "first": "2026-11-16T14:55:00Z",
    "last": "2026-11-16T14:55:00Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "It has begun...",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxr9wk/it_has_begun/",
+   "date": "2026-11-16T14:50:24Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "who": "/u/Useful_Window7054",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "f02aff340d",
+   "first": "2026-11-16T14:50:24Z",
+   "last": "2026-11-16T14:50:24Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -803,24 +876,6 @@
    "also": []
   },
   {
-   "title": "You guys are all liars",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxcqsj/you_guys_are_all_liars/",
-   "date": "2026-11-16T01:34:53Z",
-   "label": "community",
-   "source": "r/wowforever",
-   "summary": "Everyone told me Hunter is dumbass easy mode. However. I copied my comment from another post and wanted to discuss. I played hunter until level 35 and you have to upkeep your pet training, taming the right pet, manage your ammo, manage aggro with pet growls,…",
-   "who": "/u/SenzuYT",
-   "icon": "inv_shirt_guildtabard_01",
-   "id": "169fe1749e",
-   "first": "2026-11-16T01:34:53Z",
-   "last": "2026-11-16T01:34:53Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "World of Warcraft: Forever Update Officially Breaks Dungeon XP",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdlVMUUdKOVRvaDZLVlViSTQ0cm56QjBlWkhNeDdzc21jWWRfUm1hSGFwMGFJSldPQmdiN0J6SWFoVlhIRzlyeTVrM0lxZnZPNWdIYzRnTkZDY3NWbUo4bm9VNFRIdDZnaXRieHR6cllCZ1FLeFVhNEUtOEtTZ3NiVDVPNlE5Y3dUZU5pUDU0VzVhcDNvdlZMTTlLYw?oc=5",
    "date": "2026-11-15T21:37:15Z",
@@ -1082,23 +1137,6 @@
    ]
   },
   {
-   "title": "WoW: Forever Really Appeals to This Older Gamer",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kNEZ2UnRqNGFpd3FZQ3Q2cjVwSW5GNHZqbGUxY0hvRzRvVUk4TlRkZDRLOUJYSmw2SmxBaFBBVmZ5STdFdWhCOFI5YU8zd3A5MkpFR01aTUpReGVyWVg1dkMzV0RzUEVtUEhVRmZkRmJWc2FrVUtJX0NpSQ?oc=5",
-   "date": "2026-11-14T21:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Comics Gaming Magazine",
-   "icon": "inv_misc_spyglass_03",
-   "id": "c1c1909f82",
-   "first": "2026-11-14T21:00:00Z",
-   "last": "2026-11-14T21:00:00Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "WoW: Forever Hotfixes - November 13, 2026",
    "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-13-2026",
    "date": "2026-11-14T01:53:01Z",
@@ -1177,8 +1215,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1393,8 +1431,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -1710,9 +1748,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "professions",
+    "hotfix",
     "items",
-    "hotfix"
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1847,9 +1885,9 @@
     "hotfix"
    ],
    "classes": [
-    "warlock",
+    "shaman",
     "hunter",
-    "shaman"
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2077,8 +2115,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2097,8 +2135,8 @@
    "last": "2026-11-10T19:12:35Z",
    "tags": [
     "classes",
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "shaman"
@@ -2174,8 +2212,8 @@
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
     "classes",
-    "ui",
-    "hotfix"
+    "hotfix",
+    "ui"
    ],
    "classes": [
     "druid"
@@ -3192,6 +3230,44 @@
  ],
  "items": [
   {
+   "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
+   "date": "2026-11-17T00:00:20Z",
+   "summary": "A new cosmetic Hearthstone has been found in WoW: Forever! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "If the rulesets are greyed out, or you're receving a \"No Server Available\" error when trying to log into #WoWForever, you may need to…",
+   "url": "https://bsky.app/profile/support.blizzard.com/post/3n2hqdq53tq22",
+   "date": "2026-11-17T00:00:00.397000Z",
+   "summary": "If the rulesets are greyed out, or you're receving a \"No Server Available\" error when trying to log into #WoWForever, you may need to patch your client, Instructions on how to do so can be found here: blizz.ly/48ZEXXa",
+   "who": "@support.blizzard.com",
+   "source": "BlizzardCS on Bluesky",
+   "label": "social",
+   "icon": "spell_holy_heal",
+   "tags": [
+    "realms"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
+   "date": "2026-11-16T21:48:31Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "items"
+   ],
+   "classes": []
+  },
+  {
    "title": "Blizzard Tries 2 World of Warcraft Dungeon Fixes Over the Weekend to Stop Boosting Services",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUFhdXVWbTN1QU5qU1FWaUNOb3BETURQakc5eHhfZHNpTHAxX2dpTDFXR2psOXp0SUxvWjRPR2Z5SkpyNWNfOVJleFByUEpBUGZlZWFINEVqTkNha2lIZmh1cWk3dU4yN2V3aGI5alc5Mk9iOUNkaTkzVVdTUG5xTWQzcktFSHpNcE9oeF9weE5ib3pCVkRvMUhtaHBCMXRUUTNtaWxFS2RKOGVSSFdtWWFYeTRQTWY4b0kybktTRQ?oc=5",
    "date": "2026-11-16T21:43:41Z",
@@ -3418,6 +3494,17 @@
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "It has begun...",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxr9wk/it_has_begun/",
+   "date": "2026-11-16T14:50:24Z",
+   "who": "/u/Useful_Window7054",
+   "source": "r/wowforever",
+   "label": "community",
+   "icon": "inv_shirt_guildtabard_01",
    "tags": [],
    "classes": []
   },
@@ -3737,18 +3824,6 @@
    "classes": []
   },
   {
-   "title": "You guys are all liars",
-   "url": "https://www.reddit.com/r/wowforever/comments/1xxcqsj/you_guys_are_all_liars/",
-   "date": "2026-11-16T01:34:53Z",
-   "summary": "Everyone told me Hunter is dumbass easy mode. However. I copied my comment from another post and wanted to discuss. I played hunter until level 35 and you have to upkeep your pet training, taming the right pet, manage your ammo, manage aggro with pet growls,…",
-   "who": "/u/SenzuYT",
-   "source": "r/wowforever",
-   "label": "community",
-   "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "World of Warcraft: Forever Update Officially Breaks Dungeon XP",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdlVMUUdKOVRvaDZLVlViSTQ0cm56QjBlWkhNeDdzc21jWWRfUm1hSGFwMGFJSldPQmdiN0J6SWFoVlhIRzlyeTVrM0lxZnZPNWdIYzRnTkZDY3NWbUo4bm9VNFRIdDZnaXRieHR6cllCZ1FLeFVhNEUtOEtTZ3NiVDVPNlE5Y3dUZU5pUDU0VzVhcDNvdlZMTTlLYw?oc=5",
    "date": "2026-11-15T21:37:15Z",
@@ -3925,17 +4000,6 @@
    "tags": [
     "leveling"
    ],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever Really Appeals to This Older Gamer",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kNEZ2UnRqNGFpd3FZQ3Q2cjVwSW5GNHZqbGUxY0hvRzRvVUk4TlRkZDRLOUJYSmw2SmxBaFBBVmZ5STdFdWhCOFI5YU8zd3A5MkpFR01aTUpReGVyWVg1dkMzV0RzUEVtUEhVRmZkRmJWc2FrVUtJX0NpSQ?oc=5",
-   "date": "2026-11-14T21:00:00Z",
-   "who": "Comics Gaming Magazine",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {

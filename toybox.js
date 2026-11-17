@@ -35,7 +35,7 @@ body.toyon .wisp{bottom:calc(16px + var(--toylift) + env(safe-area-inset-bottom,
 .tb-needs i{display:block;width:74px;height:5px;border-radius:3px;background:#05070c;box-shadow:0 0 0 1px #000;overflow:hidden}
 .tb-needs s{display:block;height:100%;width:var(--v,50%);transition:width .6s}
 .tb-needs .fed s{background:linear-gradient(90deg,#1f9e46,#4fe07a)}.tb-needs .fun s{background:linear-gradient(90deg,#b04cd6,#e889ff)}.tb-needs .rest s{background:linear-gradient(90deg,#1c5fc4,#5aa8ff)}
-.tb-slots{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:3px 2px}
+.tb-slots{display:flex;flex:none;gap:4px;overflow-x:auto;scrollbar-width:none;padding:3px 2px}
 .tb-slots::-webkit-scrollbar{display:none}
 .tb-slot{position:relative;flex:none;width:40px;height:40px;padding:0;border:0;border-radius:6px;background:#05070c;cursor:pointer;box-shadow:0 0 0 1px #000,0 0 0 2px #4b5064;transition:transform .08s,box-shadow .15s}
 .tb-slot img{display:block;width:100%;height:100%;border-radius:5px}
@@ -49,12 +49,23 @@ body.toyon .wisp{bottom:calc(16px + var(--toylift) + env(safe-area-inset-bottom,
 .tb-slot .cd{position:absolute;inset:0;border-radius:5px;display:flex;align-items:center;justify-content:center;font:800 .8rem/1 var(--f-sans);color:#ffd36b;text-shadow:0 1px 0 #000;background:conic-gradient(rgba(0,0,0,.68) var(--p,0%),rgba(0,0,0,0) 0)}
 .tb-slot .cd:empty{display:none}
 .tb-slot.locked{filter:grayscale(1) brightness(.5)}
+.tb-slot.empty{display:block;cursor:default;background:linear-gradient(180deg,#0b0e16,#04060a);box-shadow:inset 0 0 0 1px #000,inset 0 2px 6px rgba(0,0,0,.7),0 0 0 1px #000,0 0 0 2px #2c3144}
+.tb-slot.empty:hover{box-shadow:inset 0 0 0 1px #000,inset 0 2px 6px rgba(0,0,0,.7),0 0 0 1px #000,0 0 0 2px #3a4157}
+.tb-slot.empty .kb{color:#6b7184}
+.tb-slot.drop,.tb-slot.empty.drop{box-shadow:0 0 0 1px #000,0 0 0 2px var(--term),0 0 12px rgba(124,242,154,.55)}
+.tb-slot img,.tb-ware img{-webkit-user-drag:none;user-select:none}
+.tb-ghost{position:fixed;left:0;top:0;z-index:100;width:40px;height:40px;pointer-events:none;border-radius:6px;box-shadow:0 0 0 1px #000,0 0 0 2px var(--gold),0 8px 18px rgba(0,0,0,.6);opacity:.92}
+.tb-ghost img{display:block;width:100%;height:100%;border-radius:5px}
+body.tb-dragging,body.tb-dragging *{cursor:grabbing!important}
 .tb-purse{flex:none;padding:0 .3rem;font-size:.86rem}
 .tb-btn{flex:none;width:34px;height:34px;padding:0;border:0;border-radius:7px;background:#05070c;cursor:pointer;color:var(--muted);font:700 1rem/1 var(--f-sans);box-shadow:0 0 0 1px #000,0 0 0 2px #3a3f52}
 .tb-btn img{width:100%;height:100%;border-radius:6px}
 .tb-btn:hover{color:var(--ink);box-shadow:0 0 0 1px #000,0 0 0 2px #c9b27a}
 .tb-btn.sm{width:24px;height:24px;font-size:.8rem}
 .toybar.min .tb-slots,.toybar.min .tb-shopbtn,.toybar.min .tb-needs{display:none}
+/* all twelve slots always show: when the bar won't fit on one line, the slots get a row of their own (two rows of six on a phone) */
+@media (max-width:980px){.toybar{flex-wrap:wrap;row-gap:.3rem}.tb-purse{margin-right:auto}.tb-slots{order:9;flex:1 1 100%;justify-content:center}}
+@media (max-width:560px){.tb-slots{display:grid;grid-template-columns:repeat(6,36px);justify-content:center}}
 @media (max-width:640px){.toybar{flex-wrap:wrap;row-gap:.3rem;width:calc(100vw - 16px)}.tb-purse{margin-right:auto}.tb-slots{order:9;flex:1 1 100%}.tb-who{display:none}.tb-unit{padding-right:.35rem}.tb-slot{width:36px;height:36px}.tb-btn{width:30px;height:30px}.tb-purse{font-size:.8rem}.toybar.min{width:auto}}
 .tb-shop{position:fixed;z-index:96;left:50%;bottom:calc(var(--toybar) + 8px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);width:min(580px,calc(100vw - 16px));max-height:min(64vh,540px);display:flex;flex-direction:column;border-radius:12px;
   background:linear-gradient(180deg,rgba(28,24,18,.98),rgba(12,11,10,.98));border:1px solid #7a6233;box-shadow:0 16px 44px rgba(0,0,0,.7),0 0 0 1px #000,inset 0 1px 0 rgba(255,220,150,.08);animation:tbpop .2s ease-out}
@@ -246,17 +257,36 @@ function err(msg) { $$(".tb-err").forEach(e => e.remove()); const e = document.c
 /* =================== the bar =================== */
 let bar = null, shop = null, cdTimer = 0;
 const TABS = [["care", "Care"], ["toys", "Toys"], ["gear", "Gadgets"], ["spell", "Spells"]];
-function pages() {
-  const out = [];
-  for (const [tab, name] of TABS) {
-    const ids = TOYS.filter(t => t.k !== "wear" && (t.tab || "care") === tab && owns(t.id)).map(t => t.id);
-    for (let k = 0; k < ids.length; k += 12) out.push({ tab, name: ids.length > 12 ? `${name} ${k / 12 + 1}` : name, ids: ids.slice(k, k + 12) });
+// The bar is the player's own, like WoW's action bars: PAGES pages of SLOTS slots, each a toy id or empty (null).
+// Saves from before this had pages built from what they owned, grouped by kind; those become the first pages, so nothing moves.
+const SLOTS = 12, PAGES = 5;
+function ensureBar() {
+  if (Array.isArray(S.bar) && S.bar.length) {
+    while (S.bar.length < PAGES) S.bar.push(Array(SLOTS).fill(null));
+    S.bar.forEach(p => { while (p.length < SLOTS) p.push(null); });
+    return;
   }
-  return out.length ? out : [{ tab: "care", name: "Care", ids: [] }];
+  const old = [];
+  for (const [tb] of TABS) {
+    const ids = TOYS.filter(t => t.k !== "wear" && (t.tab || "care") === tb && owns(t.id)).map(t => t.id);
+    for (let k = 0; k < ids.length; k += SLOTS) old.push(ids.slice(k, k + SLOTS));
+  }
+  S.bar = Array.from({ length: Math.max(PAGES, old.length) }, (_, p) => Array.from({ length: SLOTS }, (_, k) => (old[p] || [])[k] || null));
+  if (!(S.page < S.bar.length)) S.page = 0;
+  save();
 }
-const curPage = () => { const L = pages(); S.page = (((S.page || 0) % L.length) + L.length) % L.length; return L[S.page]; };
-const slotIds = () => curPage().ids;
-function turnPage(d) { const n = pages().length; S.page = ((S.page || 0) + d + n) % n; save(); endAim(); unequip(); drawSlots(); X.hideTip(); }
+const onBar = id => { ensureBar(); for (let p = 0; p < S.bar.length; p++) { const k = S.bar[p].indexOf(id); if (k >= 0) return { p, k }; } return null; };
+// a new toy goes in the first empty slot, starting with the page you're looking at
+function place(id) {
+  if (onBar(id)) return true;
+  const here = S.page || 0;
+  for (const p of [here, ...S.bar.map((_, i) => i).filter(i => i !== here)]) {
+    const k = S.bar[p].indexOf(null); if (k >= 0) { S.bar[p][k] = id; save(); return true; }
+  }
+  return false;
+}
+const slotIds = () => { ensureBar(); const n = S.bar.length; S.page = (((S.page || 0) % n) + n) % n; return S.bar[S.page]; };
+function turnPage(d) { ensureBar(); const n = S.bar.length; S.page = ((S.page || 0) + d + n) % n; save(); endAim(); unequip(); drawSlots(); X.hideTip(); }
 function buildBar() {
   bar = document.createElement("div"); bar.className = "toybar" + (S.open === false ? " min" : ""); bar.setAttribute("role", "toolbar"); bar.setAttribute("aria-label", "The wisp's toys");
   bar.innerHTML = `<div class="tb-unit" data-tiph="toy:unit" tabindex="0" aria-label="The wisp: how it's doing"><span class="mini-wisp happy" aria-hidden="true"></span><div class="tb-who"><b>The Wisp</b><small class="tb-rep"></small><div class="tb-needs"><i class="fed"><s></s></i><i class="fun"><s></s></i><i class="rest"><s></s></i></div></div></div>
@@ -267,10 +297,16 @@ function buildBar() {
   document.body.append(bar);
   bar.addEventListener("animationend", layout);
   bar.addEventListener("wheel", e => { if (!e.target.closest(".tb-slots, .tb-page") || Math.abs(e.deltaY) < 20 || e.shiftKey) return; e.preventDefault(); turnPage(e.deltaY > 0 ? 1 : -1); }, { passive: false });
+  bar.addEventListener("pointerdown", e => { const s = e.target.closest(".tb-slot[data-id]"); if (s) dragFrom(e, s.dataset.id, { p: S.page, k: +s.dataset.k }); });
   bar.addEventListener("click", e => {
+    if (now() - dragEnd < 350) return;            // that was a drag, not a click
     const pg = e.target.closest(".tb-pg"); if (pg) { turnPage(pg.classList.contains("up") ? -1 : 1); return; }
     if (e.target.closest(".tb-unit")) { mind.setRoam(!mind.roams); drawUnit(); return; }
-    const s = e.target.closest(".tb-slot"); if (s) { use(s.dataset.id); return; }
+    const s = e.target.closest(".tb-slot"); if (s) {
+      const id = s.dataset.id; if (!id) return;
+      if (!owns(id)) { err(id === "fish" ? "No fish. Catch some at the faire pond." : "You don't have that one."); return; }
+      use(id); return;
+    }
     if (e.target.closest(".tb-shopbtn")) { toggleShop(); return; }
     if (e.target.closest(".tb-min")) { S.open = S.open === false; save(); bar.classList.toggle("min", S.open === false); drawMin(); if (S.open === false) closeShop(); onResize(); return; }
     if (e.target.closest(".tb-off")) { X.hideTip(); mind.setToybox(false); }
@@ -280,22 +316,62 @@ function buildBar() {
 function drawMin() { const b = $(".tb-min", bar); b.textContent = S.open === false ? "▴" : "▾"; b.setAttribute("aria-label", S.open === false ? "Show the toys" : "Tuck the toys away"); b.dataset.tip = b.getAttribute("aria-label"); }
 function drawSlots() {
   if (!bar) return;
+  if (owns("fish") && !S.stats.fishPlaced) { S.stats.fishPlaced = 1; place("fish"); }      // fish from the faire, the first time there are some
   const ids = slotIds(), TIPS = D.TIPS;
   $(".tb-slots", bar).innerHTML = ids.map((id, k) => {
-    const t = BY[id]; TIPS["toy:" + id] = tipFor(t);
+    const kb = KEYS[k] ? `<span class="kb">${KEYS[k]}</span>` : "", t = id && BY[id];
+    if (!t) return `<span class="tb-slot empty" data-k="${k}" data-tip="Empty slot. Drag a toy here, from the bar or from Fizzlewick's Wares.">${kb}</span>`;
+    TIPS["toy:" + id] = tipFor(t);
     const icon = id === "fish" ? fishIcon() : t.i;
-    return `<button class="tb-slot" type="button" data-id="${id}" data-tiph="toy:${id}" aria-label="${esc(t.n)}${KEYS[k] ? ` (${KEYS[k]})` : ""}"><img src="${ICON(icon)}" alt="">${KEYS[k] ? `<span class="kb">${KEYS[k]}</span>` : ""}<span class="cd"></span>${id === "fish" ? `<span class="ct">${fishCount()}</span>` : ""}</button>`;
+    return `<button class="tb-slot${owns(id) ? "" : " locked"}" type="button" data-id="${id}" data-k="${k}" data-tiph="toy:${id}" aria-label="${esc(t.n)}${KEYS[k] ? ` (${KEYS[k]})` : ""}"><img src="${ICON(icon)}" alt="" draggable="false">${kb}<span class="cd"></span>${id === "fish" ? `<span class="ct">${fishCount()}</span>` : ""}</button>`;
   }).join("");
-  const L = pages(), pg = curPage(), pe = $(".tb-page", bar);
-  $(".tb-pn", bar).textContent = S.page + 1; pe.hidden = L.length < 2; pe.dataset.tip = `${pg.name} (page ${S.page + 1} of ${L.length}). The arrows or the mouse wheel turn the page.`;
+  const pe = $(".tb-page", bar);
+  $(".tb-pn", bar).textContent = S.page + 1; pe.hidden = false; pe.dataset.tip = `Bar ${S.page + 1} of ${S.bar.length}. The arrows or the mouse wheel turn the page. Drag toys to arrange them; drag one off the bar to take it off.`;
   drawCds(); layout();
 }
+/* ---- arranging the bar: drag a toy between slots, off the bar, or onto it from the Wares ---- */
+let drag = null, dragEnd = 0;
+function dragFrom(e, id, from) {        // from: { p, k } for a slot on the bar, null for the Wares
+  if (e.button !== 0 || !BY[id] || BY[id].k === "wear") return;
+  drag = { id, from, x: e.clientX, y: e.clientY, on: false };
+}
+const slotAt = (x, y) => { const el = document.elementFromPoint(x, y); return el && el.closest ? el.closest(".toybar .tb-slot") : null; };
+function onDragMove(e) {
+  if (!drag) return;
+  if (!drag.on) {
+    if (Math.hypot(e.clientX - drag.x, e.clientY - drag.y) < 6) return;
+    drag.on = true; X.hideTip(); endAim(); unequip();
+    const g = drag.g = document.createElement("div"); g.className = "tb-ghost";
+    g.innerHTML = `<img src="${ICON(drag.id === "fish" ? fishIcon() : BY[drag.id].i)}" alt="">`; document.body.append(g); document.body.classList.add("tb-dragging");
+  }
+  drag.g.style.transform = `translate(${e.clientX - 20}px,${e.clientY - 20}px)`;
+  const over = slotAt(e.clientX, e.clientY);
+  if (bar) $$(".tb-slot.drop", bar).forEach(s => { if (s !== over) s.classList.remove("drop"); });
+  if (over) over.classList.add("drop");
+}
+function endDrag() { if (drag && drag.g) drag.g.remove(); drag = null; document.body.classList.remove("tb-dragging"); if (bar) $$(".tb-slot.drop", bar).forEach(s => s.classList.remove("drop")); }
+function onDragUp(e) {
+  if (!drag) return;
+  const d = drag; if (!d.on) { drag = null; return; }      // a plain click: the click handler uses the toy
+  endDrag(); dragEnd = now();
+  const over = slotAt(e.clientX, e.clientY), P = slotIds(), under = document.elementFromPoint(e.clientX, e.clientY);
+  if (over) {
+    const k = +over.dataset.k, there = P[k];
+    if (d.from) { S.bar[d.from.p][d.from.k] = there; P[k] = d.id; }                   // slot to slot: they swap
+    else { const was = onBar(d.id); if (was) S.bar[was.p][was.k] = there; P[k] = d.id; } // from the Wares: a toy already on the bar moves; whatever it lands on swaps or comes off
+  } else if (d.from && !(under && under.closest && under.closest(".toybar"))) {
+    S.bar[d.from.p][d.from.k] = null;                                                    // dropped off the bar: off it, but still yours
+    if (!S.stats.offHint) { S.stats.offHint = 1; notice("Off the bar", "It's still yours. Drag it back from Fizzlewick's Wares.", BY[d.id].i); }
+  } else return;
+  save(); drawSlots(); drawShop();
+}
+const onDragCancel = () => endDrag();
 function fishIcon() { const f = X.bag && X.bag.list().find(([n]) => X.bag.isFish(n)); return (f && X.bag.icon(f[0])) || "fish_smallfish"; }
 function drawPurse() { const h = X.coins(purse()); if (bar) $(".tb-purse", bar).innerHTML = h; if (shop) $(".tb-purse2", shop).innerHTML = "Purse: " + h; }
 const cdLeft = id => Math.max(0, (S.cd[id] || 0) - now());
 function drawCds() {
   if (!bar) return; let any = false;
-  for (const b of $$(".tb-slot", bar)) {
+  for (const b of $$(".tb-slot[data-id]", bar)) {
     const t = BY[b.dataset.id], left = cdLeft(t.id), el = $(".cd", b);
     if (left > 0) { any = true; el.style.setProperty("--p", (100 * left / (t.cd * 1000)) + "%"); el.textContent = Math.ceil(left / 1000); } else el.textContent = "";
   }
@@ -347,7 +423,9 @@ function openShop() {
     <div class="tb-tabs" role="tablist">${[...TABS, ["wardrobe", "Wardrobe"]].map(([k, n]) => `<button role="tab" type="button" data-t="${k}">${n}</button>`).join("")}</div>
     <div class="tb-wares"></div><div class="tb-shopfoot"><span class="tb-purse2"></span><span class="msg"></span><button class="chip tb-off2" type="button">Put the toys away</button></div>`;
   document.body.append(shop);
+  shop.addEventListener("pointerdown", e => { const w = e.target.closest(".tb-ware.own[data-buy]"); if (w) dragFrom(e, w.dataset.buy, null); });
   shop.addEventListener("click", e => {
+    if (now() - dragEnd < 350) return;
     if (e.target.closest(".tb-x")) { closeShop(); return; }
     const tb = e.target.closest("[data-t]"); if (tb) { tab = tb.dataset.t; drawShop(); return; }
     const w = e.target.closest("[data-buy]"); if (w) { buy(w.dataset.buy); return; }
@@ -359,20 +437,26 @@ function openShop() {
 function drawShop() {
   if (!shop) return;
   $$(".tb-tabs [data-t]", shop).forEach(b => b.setAttribute("aria-selected", b.dataset.t === tab));
-  const list = TOYS.filter(t => !t.start && t.id !== "fish" && (tab === "wardrobe" ? t.k === "wear" : t.k !== "wear" && (t.tab || "care") === tab));
+  // starter toys and faire fish aren't for sale, but they're listed once yours, so they can go back on the bar
+  const list = TOYS.filter(t => (t.id === "fish" ? owns("fish") : !t.start || S.owned[t.id]) && (tab === "wardrobe" ? t.k === "wear" : t.k !== "wear" && (t.tab || "care") === tab));
   $(".tb-wares", shop).innerHTML = list.map(t => {
     D.TIPS["toy:" + t.id] = tipFor(t);
-    const own = S.owned[t.id], worn = t.k === "wear" && S.wear[t.slot || "hat"] === t.id, poor = !own && purse() < t.p;
-    const pr = own ? (t.k === "wear" ? (worn ? "Wearing it. Click to take it off." : "Yours. Click to wear it.") : "Yours. It's on the bar.") : X.coins(t.p);
-    return `<button class="tb-ware${own ? " own" : ""}${poor ? " poor" : ""}" type="button" data-buy="${t.id}" data-tiph="toy:${t.id}"><span class="ic q-${t.q}"><img src="${ICON(t.i)}" alt=""></span><span><span class="nm q-${t.q}-t">${esc(t.n)}</span><span class="pr">${pr}</span></span></button>`;
+    const own = owns(t.id), worn = t.k === "wear" && S.wear[t.slot || "hat"] === t.id, poor = !own && purse() < t.p;
+    const pr = own ? (t.k === "wear" ? (worn ? "Wearing it. Click to take it off." : "Yours. Click to wear it.") : onBar(t.id) ? "Yours. On the bar." : "Yours. Click or drag it onto the bar.") : X.coins(t.p);
+    return `<button class="tb-ware${own ? " own" : ""}${poor ? " poor" : ""}" type="button" data-buy="${t.id}" data-tiph="toy:${t.id}"><span class="ic q-${t.q}"><img src="${ICON(t.i)}" alt="" draggable="false"></span><span><span class="nm q-${t.q}-t">${esc(t.n)}</span><span class="pr">${pr}</span></span></button>`;
   }).join("");
   $(".msg", shop).textContent = shopMsg;
 }
 function buy(id) {
   const t = BY[id]; if (!t) return;
-  if (S.owned[id]) { if (t.k === "wear") wear(t); return; }
+  if (owns(id)) {
+    if (t.k === "wear") wear(t);
+    else if (!onBar(id)) { if (place(id)) { drawSlots(); drawShop(); } else err("The bar is full. Drag something off it first."); }
+    return;
+  }
   if (purse() < t.p) { shopMsg = pick(SHOP.poor) || "Not enough money."; err("You don't have enough money."); drawShop(); return; }
   store.set("purse", purse() - t.p); S.owned[id] = 1; save();
+  if (t.k !== "wear" && !place(id)) err("Bought. The bar is full, so drag it on from here when there's room.");
   shopMsg = pick(SHOP.buy) || ""; drawPurse(); drawSlots(); drawShop();
   notice("You bought", `[${t.n}]`, t.i);
   if (t.k === "wear") { wear(t); if (TOYS.filter(x => x.k === "wear" && x.slot === "hat" && S.owned[x.id]).length >= 3) award("hattrick"); if (id === "sulfuras") award("legendary"); }
@@ -703,15 +787,20 @@ const EFFECT = {
   },
   pole() {
     if (M.trust < 10) { say(pick(TL.no), { gap: 0, hold: 1800 }); return false; }
-    let [px, py] = mind.pointer(); const s = mind.osz();
-    if (px < 0 || py > FLOOR.top - 20) { px = innerWidth / 2; py = innerHeight * .45; }
+    const s = mind.osz();
+    // the line runs from your pointer (you're holding the pole) to the wisp, and reels it toward wherever the pointer
+    // is now, every frame. Only if the pointer hasn't been seen yet does it start from the pole's slot on the bar.
     const slot = bar && $('.tb-slot[data-id="pole"]', bar), sr = slot ? slot.getBoundingClientRect() : { left: innerWidth / 2, top: innerHeight - 40, width: 0 };
+    const hand = () => { const [px, py] = mind.pointer(); return px < 0 ? [sr.left + sr.width / 2, sr.top] : [px, py]; };
     const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg"); svg.setAttribute("class", "tb-line"); svg.innerHTML = `<path fill="none" stroke="rgba(230,230,230,.85)" stroke-width="1.4"/>`; document.body.append(svg);
-    const path = svg.firstChild, ax = sr.left + sr.width / 2, ay = sr.top;
+    const path = svg.firstChild;
     mind.stop(false); mind.hold(true);
-    const r = wisp.el.getBoundingClientRect(), x0 = r.left, y0 = r.top, tx = clamp(px - s / 2, 4, innerWidth - s - 4), ty = clamp(py - s / 2, 4, FLOOR.top - s - 4), t0 = performance.now();
+    const r = wisp.el.getBoundingClientRect(), x0 = r.left, y0 = r.top, t0 = performance.now();
+    let tx = x0, ty = y0;
     const step = t => {
       const k = Math.min(1, (t - t0) / 1100), e = k < .2 ? 0 : (k - .2) / .8, ee = 1 - (1 - e) ** 3;
+      const [ax, ay] = hand();
+      tx = clamp(ax - s / 2, 4, innerWidth - s - 4); ty = clamp(ay - s / 2, 4, FLOOR.top - s - 4);
       const x = x0 + (tx - x0) * ee, y = y0 + (ty - y0) * ee + Math.sin(e * 9) * 6 * (1 - e);
       wisp.moveTo(x, y);
       const cx = x + s / 2, cy = y + s / 2;
@@ -1430,7 +1519,7 @@ const onKey = e => {
   if (e.target.closest && e.target.closest("input,textarea,select,[contenteditable]")) return;
   if ($(".console.on")) return;
   const i = KEYS.indexOf(e.key); if (i < 0 || !bar || S.open === false) return;
-  const id = slotIds()[i]; if (id) { e.preventDefault(); use(id, true); }
+  const id = slotIds()[i]; if (id && BY[id] && owns(id)) { e.preventDefault(); use(id, true); }
 };
 const onAward = e => { const id = e.detail; if (!S.on || S.paid[id] || !D.ACH[id]) return; S.paid[id] = 1; save(); const r = $(".xp"); const b = r ? r.getBoundingClientRect() : { left: innerWidth - 80, bottom: 60 }; earn(500, b.left, b.bottom + 6, true); };
 let lastFc = -1;
@@ -1440,13 +1529,14 @@ const onRoom = () => { if (bar) drawSlots(); };
 function enable() {
   if (!document.head.contains(css)) document.head.append(css);
   S.on = true; firstRun();
-  if (X.bag && X.bag.list().some(([n]) => n === "Murloc Plushie") && !S.owned.plush) { S.owned.plush = 1; save(); setTimeout(() => notice("Murloc Plushie", "The one you fished out of the faire pond is on your toy bar now.", "inv_misc_head_murloc_01"), 2500); }
+  if (X.bag && X.bag.list().some(([n]) => n === "Murloc Plushie") && !S.owned.plush) { S.owned.plush = 1; save(); place("plush"); setTimeout(() => notice("Murloc Plushie", "The one you fished out of the faire pond is on your toy bar now.", "inv_misc_head_murloc_01"), 2500); }
   document.body.classList.add("toyon");
   if (!bar) buildBar();
   dress(); layout(); requestAnimationFrame(layout);
   // toys pull it about the page only while it's allowed to roam; eating handles that itself
   added = OPTS.map((f, k) => mind.addOption(k === 0 ? f : M => mind.roams ? f(M) : null));
   addEventListener("pointerup", onToolUp); addEventListener("blur", onToolUp);
+  addEventListener("pointermove", onDragMove); addEventListener("pointerup", onDragUp); addEventListener("pointercancel", onDragCancel); addEventListener("blur", onDragCancel);
   addEventListener("keydown", onKey); addEventListener("pointermove", onAimMove, { passive: true });
   document.addEventListener("pointerdown", onAimDown, true); document.addEventListener("click", onAimClick, true); document.addEventListener("contextmenu", onMenu);
   addEventListener("tw:award", onAward); addEventListener("resize", onResize); addEventListener("hashchange", onRoom);
@@ -1466,6 +1556,7 @@ function disable() {
   document.body.classList.remove("toyon"); layout();
   added.forEach(f => mind.removeOption(f)); added = [];
   removeEventListener("keydown", onKey); removeEventListener("pointermove", onAimMove); removeEventListener("pointerup", onToolUp); removeEventListener("blur", onToolUp);
+  endDrag(); removeEventListener("pointermove", onDragMove); removeEventListener("pointerup", onDragUp); removeEventListener("pointercancel", onDragCancel); removeEventListener("blur", onDragCancel);
   document.removeEventListener("pointerdown", onAimDown, true); document.removeEventListener("click", onAimClick, true); document.removeEventListener("contextmenu", onMenu);
   removeEventListener("tw:award", onAward); removeEventListener("resize", onResize); removeEventListener("hashchange", onRoom);
   wisp.restore();

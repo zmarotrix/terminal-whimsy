@@ -96,10 +96,12 @@ addEventListener("keydown", active);
 addEventListener("pointerdown", active, { passive: true });
 let sdist = 0, swin = 0, sy = scrollY;
 const ON_PAGE = new Set(["inspect", "graze", "company"]);       // activities about something on the page (toys stay put when it scrolls)
+// what it was looking at moved (you scrolled, or changed rooms): it stops and flies home, rather than jumping there
+const leave = () => { if (act && ON_PAGE.has(act.name)) { stop(false); begin("home", async () => {}); } };
 addEventListener("scroll", () => {
   const t = now(); if (t - swin > 2000) { swin = t; sdist = 0; }
   sdist += Math.abs(scrollY - sy); sy = scrollY; lastScroll = t; active();
-  if (act && ON_PAGE.has(act.name)) stop(true);                  // what it was looking at moved: go home
+  leave();
   if (sdist > innerHeight * 5 && !M.mem._scrollSaid) { M.mem._scrollSaid = 1; say(pick(L.scroll), { gap: 60e3 }); }
 }, { passive: true });
 const idleFor = () => now() - lastAct;
@@ -290,7 +292,7 @@ document.addEventListener("visibilitychange", () => {
   if (hiddenAt && gone > 20 * 6e4) setTimeout(() => say(pick(L.back), { gap: 30e3, hold: 3000 }), 900);
   schedule(2000);
 });
-addEventListener("hashchange", () => { if (act && ON_PAGE.has(act.name)) stop(true); });
+addEventListener("hashchange", leave);
 addEventListener("tw:award", () => { feel({ fun: 3 }); face("happy", 2500); });
 addEventListener("tw:wisp", e => {
   const t = e.detail && e.detail.type;

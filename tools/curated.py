@@ -186,16 +186,16 @@ CHANGE_FIXES = {
                     'reward.',
          'add_sources': [{'name': 'Blizzard: Forever hotfixes',
                           'url': 'https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-17-2026'}]},  # 18 Nov refresh
-    91: {'forever': "In a 6 Nov interview with MrGM, Kris Zierhut and Josh Greenfield reportedly said Forever's add-on limits are like Midnight's, with much "
-                    "of it locked down in combat, so fights can be played without add-ons. We've only seen this through write-ups, not the video itself. In "
-                    'September, developers said Forever uses the modern add-on API, which blocks add-ons that play the game for you. Blizzard built in a '
-                    'Cooldown Manager, Damage Meter, Edit Mode, nameplate options and mouseover casting.',
-         'confidence': 'community',
-         'add_sources': [{'name': 'Kami-Labs: MrGM and Joardee interviews',
+    91: {'forever': "In a 6 Nov interview with MrGM, Kris Zierhut and Josh Greenfield said Forever's add-on limits work like Midnight's, with much of it "
+                    'locked down in combat, so boss fights can be played without add-ons. In September, developers said Forever uses the modern add-on API, '
+                    'which blocks add-ons that play the game for you. Blizzard built in a Cooldown Manager, Damage Meter, Edit Mode, nameplate options and '
+                    'mouseover casting.',
+         'confidence': 'official',
+         'add_sources': [{'name': 'MrGM: developer interview (video)', 'url': 'https://www.youtube.com/watch?v=eeAb7GeOePY'},
+                         {'name': 'Kami-Labs: MrGM and Joardee interviews',
                           'url': 'https://kami-labs.fr/en/wow-forever/raids-wow-forever-joardee-difficulte-unique/'},
-                         {'name': 'MrGM: developer interview (video)', 'url': 'https://www.youtube.com/watch?v=eeAb7GeOePY'},
                          {'name': 'Warcraft Tavern: developer Q&A',
-                          'url': 'https://www.warcrafttavern.com/forever/news/wow-forever-developer-qa-elf-races-character-models-gdkp/'}]},  # 18 Nov refresh
+                          'url': 'https://www.warcrafttavern.com/forever/news/wow-forever-developer-qa-elf-races-character-models-gdkp/'}]},  # 18 Nov refresh; interview checked by the guild
 }
 
 MUST = [  # one short line each: the page is for skimming
@@ -217,8 +217,8 @@ MUST = [  # one short line each: the page is for skimming
      "d": "New sets per role. Four slots can be crafted from disenchanted raid loot."},
     {"t": "Classic guides don't apply", "i": "inv_misc_book_11", "ref": 43,
      "d": "Talents were rebuilt and every class got new tools."},
-    {"t": "Add-ons may be limited", "i": "inv_misc_enggizmos_20", "ref": 91,
-     "d": "Learn Blizzard's own Cooldown Manager and Damage Meter."},
+    {"t": "Add-ons are limited in combat", "i": "inv_misc_enggizmos_20", "ref": 91,
+     "d": "Devs say it works like Midnight. Learn Blizzard's own Cooldown Manager and Damage Meter."},
     {"t": "Skip the resistance farm", "i": "spell_fire_fire", "ref": 10,
      "d": "Opening raids don't need sets. Keep a little fire resistance for Onyxia."},
 ]
@@ -498,22 +498,28 @@ WISP = {
         "brief": "> eleven things, sixty seconds. i timed it.",
         "changes": "> pick your class up top and i'll hide everything that isn't yours.",
         "gear": "> click the armour pieces. the set bonuses glow. very satisfying.",
-        "said": "> everything blizzard said, with receipts. click a line to read it.",
+        "said": "> what blizzard said, with receipts. click a line to read it.",
         "wire": "> new headlines a few times a day. gold means blizzard said it.",
         "sources": "> every claim links somewhere. trust, but verify.",
     },
+    # poke tips, in order from the second poke. News first; refresh these when the news moves on (last: 18 Nov).
+    # Keep the hunt's hints where they are: the guild's-middle-name hint is the 8th poke.
     "poke": [
-        "> salvation is gone. watch your own threat, dps. i believe in you.",
-        "> world buffs don't work in raids. sleep in on raid day.",
-        "> nobody knows the loot yet. write down what drops. be the archive.",
-        "> battle shout reaches all twenty of you now. hug a warrior.",
-        "> hit is one stat now. about 8% melee, 17% spells against bosses.",
-        "> onyxia still wants some fire resistance. she's old-fashioned.",
-        "> tip: try typing a certain word anywhere on this page. it's the guild's middle name.",
-        "> i'm made of 4% arcane, 96% vibes.",
+        "> blackmaw hold gold is being taken back. if a farm looks too good, it's a bug.",
+        "> paladin tanks want spell power now, not strength. blizzard said so on the 17th.",
+        "> gdkp isn't allowed in forever. we'll want our own loot rules by 9 december.",
         "> ok, that's enough poking. (it isn't. keep going.)",
+        "> ubrs hits hard again since the 17th. bring a full group and a plan.",
+        "> world buffs don't work in raids, and now they end when you die. so, don't.",
+        "> tip: try typing a certain word anywhere on this page. it's the guild's middle name.",
+        "> casters: you can swap a blessed band of light for a channeler's ring until raids open. not after.",
+        "> salvation is gone. watch your own threat, dps. i believe in you.",
         "> sometimes, late at night, i hear typing behind the page. just left of the 1 key.",
+        "> nobody knows the loot yet. write down what drops. be the archive.",
+        "> hit is one stat now. about 8% melee, 17% spells against bosses.",
+        "> add-ons are locked down in combat, like midnight. learn the built-in cooldown manager.",
         "> i lost seven motes somewhere on this site. if you find them... i'd be very grateful.",
+        "> i'm made of 4% arcane, 96% vibes.",
         "> you can drag me, you know. i like the view from the other corner.",
     ],
     "dizzy": "> whoa. whoa. the room is spinning. please stop poking.",
@@ -532,15 +538,15 @@ WISP = {
     # wispmind.js: what the wisp says on its own, about what you're doing. Rare by design (a couple of minutes apart).
     "mind": {
         "cls": {
-            "warrior": ["> a warrior. battle shout reaches all twenty of you now. hug your raid.", "> warrior. you pull, they follow. no pressure."],
-            "paladin": ["> a paladin. bubble responsibly.", "> paladin. the raid will want your blessings. all of them."],
+            "warrior": ["> a warrior. battle shout reaches all twenty of you now. hug your raid.", "> warrior. you pull, they follow. no pressure.", "> fury? cleave and heroic strike proc unbridled wrath now. small win."],
+            "paladin": ["> a paladin. bubble responsibly.", "> paladin. tanking? blizzard wants you on spell power now."],
             "hunter": ["> a hunter. i'm not a pet. (i'm a little bit a pet.)", "> hunter. feed your pet. it's watching you."],
             "rogue": ["> a rogue. i didn't see you pick that. that's the point.", "> rogue. from behind, please."],
-            "priest": ["> a priest. the raid likes you more already.", "> priest. the tank thanks you in advance."],
-            "shaman": ["> a shaman. name your totems. i won't tell.", "> shaman. drop a totem. drop all the totems."],
+            "priest": ["> a priest. the raid likes you more already.", "> priest. the tank thanks you in advance.", "> shadow? vampiric embrace heals the group half as much now. you get double."],
+            "shaman": ["> a shaman. name your totems. i won't tell.", "> shaman. drop a totem. drop all the totems.", "> shaman. windfury totem respects armor now. your meter will notice."],
             "mage": ["> a mage. table, please. i'm peckish.", "> mage. polymorph the goldbot for me."],
             "warlock": ["> a warlock. i'm keeping an eye on your life tap.", "> warlock. summon the late ones. bless you."],
-            "druid": ["> a druid. pick a form. any form. i'll wait.", "> druid. you can do everything. pick one for raid night."],
+            "druid": ["> a druid. pick a form. any form. i'll wait.", "> druid. you can do everything. pick one for raid night.", "> resto? wild growth needs you standing still now. it heals twice as hard."],
         },
         "search_none": ["> nothing for '{q}'. try one shorter word.", "> no luck with '{q}'. a class filter might be hiding it."],
         "search": ["> '{q}'. good thing to check.", "> looking up '{q}'. i'd have done the same."],
@@ -566,10 +572,10 @@ WISP = {
         "wary": ["> not right now.", "> personal space, please."],
         "inspect": ["> reading over your shoulder.", "> hm. good to know.", "> i've read this one. it holds up."],
         "room": {
-            "brief": ["> i check the countdown every day. still counting.", "> the 60-second version. i timed it again."],
-            "changes": ["> purple means epic means big deal. that's the rule.", "> pick your class and half of these vanish. very tidy."],
-            "gear": ["> i'd wear tier 1. if i had shoulders.", "> stats are secret. i've tried asking."],
-            "said": ["> gold means blizzard said it.", "> receipts. i love receipts."],
+            "brief": ["> i check the countdown every day. still counting.", "> the 60-second version. i timed it again.", "> 15,160,147 characters made so far. blizzard counted. i didn't."],
+            "changes": ["> purple means epic means big deal. that's the rule.", "> pick your class and half of these vanish. very tidy.", "> boosting's done. no dungeon xp if anyone's 13 levels over the mobs."],
+            "gear": ["> i'd wear tier 1. if i had shoulders.", "> stats are secret. i've tried asking.", "> the soulforge tank set has spell power now. paladins, take note."],
+            "said": ["> gold means blizzard said it.", "> receipts. i love receipts.", "> blue names are blizzard staff. kaivax writes a lot of these."],
             "wire": ["> fresh headlines. the gold ones are blizzard's.", "> lots of people talking. blizzard's posts are the gold ones."],
             "darkmoon": ["> i know this pond. personally.", "> the fish here know me by name."],
             "vault": ["> my memories. skip the embarrassing ones."],

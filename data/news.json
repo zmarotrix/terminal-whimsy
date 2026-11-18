@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:00:00Z",
+ "updated": "2026-11-18T08:06:46Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -73,9 +73,9 @@
    "first": "2026-11-18T04:02:56Z",
    "last": "2026-11-18T04:02:56Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -230,8 +230,8 @@
    "first": "2026-11-17T22:50:58Z",
    "last": "2026-11-17T22:50:58Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warrior"
@@ -269,9 +269,9 @@
    "first": "2026-11-17T21:33:45Z",
    "last": "2026-11-17T21:33:45Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -396,8 +396,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -520,8 +520,8 @@
    "first": "2026-11-17T14:54:41Z",
    "last": "2026-11-17T14:54:41Z",
    "tags": [
-    "classes",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [
     "shaman"
@@ -542,8 +542,8 @@
    "first": "2026-11-17T13:36:49Z",
    "last": "2026-11-17T13:36:49Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -580,8 +580,27 @@
    "first": "2026-11-17T11:56:46Z",
    "last": "2026-11-17T11:56:46Z",
    "tags": [
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "World of Warcraft: Forever's in-game economy has been ravaged by an exploit that allowed players to farm thousands of gold, and players are demanding action",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtV2ZQSUdsMWhTTGhubEtIS2RfYXpOWnlyVDROdjd1YWp2OFh0RE9qZ2VacVRObF9RcTJvNk9YRDBSX1N1dTE0Zmk4OXQxQ2RDWkJsMDFlUHdEZ1I0eGZaT1pDZ3l6VGhUOF9XQ01sU0lsdmNFMENRaw?oc=5",
+   "date": "2026-11-17T09:51:30Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Eurogamer.net",
+   "icon": "inv_misc_spyglass_03",
+   "id": "910b17dcee",
+   "first": "2026-11-17T09:51:30Z",
+   "last": "2026-11-17T09:51:30Z",
+   "tags": [
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -752,10 +771,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
-    "professions",
+    "hotfix",
     "classes",
-    "hotfix"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -794,10 +813,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "leveling",
-    "items",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1071,25 +1090,6 @@
    ]
   },
   {
-   "title": "Blizzard Walks Back WoW: Forever’s Dungeon XP Rule After 24 Hours, With the Cutoff Now 12 Levels",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMFgteDVIX3FOanBiZGstZlI1S3N2b2hSNHFLc0FJc21GNVhWOXhwSk56WkpVandMNEdTY0VPUU9tS1l5cmVyLVJhWUpjLTNDdko0OTJxMVlxRzlKbEE4MkJqRFI4b1ZWNEx1c1RmUjlKN3UzNjNGV0FDVWlYRTdIWERkMzA1R0hkNV9IZTZhR0ZPNUhSZnRFR0YzMF82VFJGaVRPUFA4Slp1RHAzZU5aUjNjMWpmM1Y3S1I2TUNnTko0dw?oc=5",
-   "date": "2026-11-16T18:28:32Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GameFront - Mods",
-   "icon": "inv_misc_spyglass_03",
-   "id": "c34f5d02ee",
-   "first": "2026-11-16T18:28:32Z",
-   "last": "2026-11-16T18:28:32Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "First timer? Or just need a refresher? Start here 👇 Watch ‘Forever 101’ on YouTube! blizz.ly/4CaOmJ6",
    "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3n2h4jxyoj32v",
    "date": "2026-11-16T18:05:28.760000Z",
@@ -1243,8 +1243,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1422,8 +1422,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1461,9 +1461,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1858,9 +1858,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "story",
+    "realms",
     "pvp",
-    "realms"
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1955,9 +1955,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "hotfix",
     "items",
-    "professions",
-    "hotfix"
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2092,9 +2092,9 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
+    "warlock",
     "hunter",
-    "warlock"
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -2183,8 +2183,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2204,8 +2204,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2341,9 +2341,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
+    "hotfix",
     "classes",
-    "hotfix"
+    "items"
    ],
    "classes": [
     "shaman"
@@ -2418,9 +2418,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
+    "hotfix",
     "ui",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [
     "druid"
@@ -2442,8 +2442,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2463,8 +2463,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2502,9 +2502,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2540,8 +2540,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2769,8 +2769,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2878,8 +2878,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -3056,10 +3056,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
+    "pvp",
     "ui",
-    "leveling",
     "classes",
-    "pvp"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3079,9 +3079,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
     "classes",
-    "leveling"
+    "leveling",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3822,6 +3822,19 @@
    "classes": []
   },
   {
+   "title": "World of Warcraft: Forever's in-game economy has been ravaged by an exploit that allowed players to farm thousands of gold, and players are demanding action",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtV2ZQSUdsMWhTTGhubEtIS2RfYXpOWnlyVDROdjd1YWp2OFh0RE9qZ2VacVRObF9RcTJvNk9YRDBSX1N1dTE0Zmk4OXQxQ2RDWkJsMDFlUHdEZ1I0eGZaT1pDZ3l6VGhUOF9XQ01sU0lsdmNFMENRaw?oc=5",
+   "date": "2026-11-17T09:51:30Z",
+   "who": "Eurogamer.net",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
+   "classes": []
+  },
+  {
    "title": "WoW Forever Travel Routes: Ships, Zeppelins and Teleports",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Od2tCUUhNd3BiZ2tTbVBGRGx5OWh5N1NlNTF1a1RsV05JTUd6NmVLeWRSUy1PZ09aSGVTT1FvVWQ3WXU3VFRpMmpVREJVck5WZ0ZJd1NKVmJySzlGZEFMTDA2V3FZZw?oc=5",
    "date": "2026-11-17T09:01:26Z",
@@ -4206,19 +4219,6 @@
    "label": "press",
    "icon": "inv_misc_spyglass_03",
    "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Blizzard Walks Back WoW: Forever’s Dungeon XP Rule After 24 Hours, With the Cutoff Now 12 Levels",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMFgteDVIX3FOanBiZGstZlI1S3N2b2hSNHFLc0FJc21GNVhWOXhwSk56WkpVandMNEdTY0VPUU9tS1l5cmVyLVJhWUpjLTNDdko0OTJxMVlxRzlKbEE4MkJqRFI4b1ZWNEx1c1RmUjlKN3UzNjNGV0FDVWlYRTdIWERkMzA1R0hkNV9IZTZhR0ZPNUhSZnRFR0YzMF82VFJGaVRPUFA4Slp1RHAzZU5aUjNjMWpmM1Y3S1I2TUNnTko0dw?oc=5",
-   "date": "2026-11-16T18:28:32Z",
-   "who": "GameFront - Mods",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
    "classes": []
   },
   {

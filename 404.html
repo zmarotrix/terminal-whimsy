@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Off the map · Terminal Whimsy</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0a0c13">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 58 12v20c0 15-11 25-26 29C17 57 6 47 6 32V12z' fill='%2310131d' stroke='%23f2c56b' stroke-width='3'/%3E%3Cpath d='M19 24l9 8-9 8' fill='none' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M32 41h13' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Cinzel:wght@700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0a0c13;--ink:#eef0f7;--muted:#a8aec2;--gold:#f2c56b;--term:#7cf29a;--whim:#e889ff;--sky:#7cc8ff;color-scheme:dark}
+  *{box-sizing:border-box}
+  html,body{margin:0;min-height:100%;background:var(--bg);color:var(--ink)}
+  body{min-height:100svh;display:grid;place-items:center;padding:2rem max(16px,env(safe-area-inset-right,0px)) 2rem max(16px,env(safe-area-inset-left,0px));
+    font:400 1.05rem/1.5 "Alegreya Sans","Segoe UI",system-ui,sans-serif;
+    background:radial-gradient(60% 50% at 50% 35%,rgba(124,242,154,.08),transparent 70%),radial-gradient(40% 40% at 70% 70%,rgba(232,137,255,.07),transparent 70%),var(--bg)}
+  main{display:flex;flex-direction:column;align-items:center;gap:1.4rem;text-align:center;max-width:34rem}
+  .scene{position:relative;width:220px;height:150px}
+  .pond{position:absolute;left:10px;right:10px;bottom:0;height:46px;border-radius:50%;background:radial-gradient(closest-side,#1d3a5a,#11243a 70%,transparent 72%);box-shadow:0 0 30px rgba(124,200,255,.12)}
+  .ripple{position:absolute;left:50%;bottom:16px;width:70px;height:16px;margin-left:-35px;border:2px solid rgba(124,200,255,.5);border-radius:50%;animation:ripple 2.8s ease-out infinite}
+  .ripple+.ripple{animation-delay:1.4s}
+  @keyframes ripple{from{transform:scale(.3);opacity:.9}to{transform:scale(1.6);opacity:0}}
+  .orb{position:absolute;left:50%;top:18px;width:54px;height:54px;margin-left:-27px;border-radius:50%;display:flex;align-items:center;justify-content:center;gap:9px;padding-top:4px;
+    background:radial-gradient(circle at 38% 32%,#f4fff7 0 8%,#9cf7b5 20%,#5bd6a0 42%,rgba(232,137,255,.55) 70%,rgba(232,137,255,0) 72%);
+    box-shadow:0 0 22px 6px rgba(124,242,154,.45),0 0 60px 10px rgba(232,137,255,.25);animation:bob 3.4s ease-in-out infinite}
+  .eye{width:6px;height:9px;border-radius:50%;background:#0a0c13;animation:look 6s ease-in-out infinite}
+  @keyframes bob{50%{transform:translateY(-8px)}}
+  @keyframes look{0%,40%,100%{translate:0 2px}50%,90%{translate:3px 3px}}
+  .bubble{font:500 .92rem/1.45 "JetBrains Mono",ui-monospace,Consolas,monospace;color:var(--term);background:rgba(10,12,19,.94);border:1px solid #2f5c40;border-radius:12px;padding:.7rem .95rem;box-shadow:0 0 24px -6px var(--term)}
+  h1{margin:0;font:700 clamp(1.7rem,6vw,2.4rem)/1.1 "Cinzel",Georgia,serif;background:linear-gradient(180deg,#fff 10%,#ffe3a1 55%,var(--gold) 90%);-webkit-background-clip:text;background-clip:text;color:transparent;text-wrap:balance}
+  p{margin:0;color:var(--muted)}
+  a.home{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.1rem;border-radius:10px;border:1px solid #2f5c40;background:#10131d;color:var(--ink);font-weight:700;text-decoration:none}
+  a.home:hover{border-color:var(--term);box-shadow:0 0 18px -6px var(--term)}
+  a.home:focus-visible{outline:2px solid var(--term);outline-offset:3px}
+  @media (prefers-reduced-motion:reduce){.orb,.eye,.ripple{animation:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="scene" aria-hidden="true"><div class="pond"></div><div class="ripple"></div><div class="ripple"></div><div class="orb"><span class="eye"></span><span class="eye"></span></div></div>
+  <p class="bubble">&gt; no page here. i checked the faire pond too.</p>
+  <h1>Off the map</h1>
+  <p>That address isn't part of the site. The briefing is still where you left it.</p>
+  <a class="home" href="/terminal-whimsy/">Back to the briefing</a>
+</main>
+<script>
+// the main page hands out the achievement next time it loads (this page can't show it)
+try {
+  const got = JSON.parse(localStorage.getItem("tw.ach") || "{}"), pend = JSON.parse(localStorage.getItem("tw.pendingAch") || "[]");
+  if (!got.lost && !pend.includes("lost")) localStorage.setItem("tw.pendingAch", JSON.stringify(pend.concat("lost")));
+} catch (e) {}
+</script>
+</body>
+</html>

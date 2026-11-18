@@ -685,3 +685,75 @@ html.ressick main{filter:blur(.6px) saturate(.6);transition:filter 2s}
 .wisp.sulk:where(:not(.dizzy,.sleep)) .eye{position:relative;left:16px;width:4px;height:6px;margin-top:2px;background:#0a0c13;border:0;border-radius:1px 1px 4px 4px;animation:blinky 5s infinite,sulkpeek 8s ease-in-out infinite}
 .wisp.sulk:where(:not(.dizzy,.sleep)) .eye+.eye{width:3px}
 @keyframes sulkpeek{0%,78%,100%{left:16px}84%,92%{left:7px}}
+
+/* ---------- the living world (world.js): sky, critters, quest marks, cast bar ---------- */
+:root{--blue:#4fc3ff;--love:#ff8fbf}
+::selection{background:rgba(124,242,154,.32);color:#fff}
+/* the sky over every banner follows your clock: data-sky on <html> is dawn, day, dusk or night */
+.hero .art::before,.hero .art::after,.banner .art::before,.banner .art::after{content:"";position:absolute;inset:0;pointer-events:none}
+[data-sky=dawn] :is(.hero,.banner) .art::after{background:linear-gradient(180deg,rgba(255,140,170,.42),rgba(255,206,140,.2) 45%,transparent 80%);mix-blend-mode:soft-light}
+[data-sky=dusk] :is(.hero,.banner) .art::after{background:linear-gradient(180deg,rgba(255,110,50,.45),rgba(170,60,170,.22) 50%,transparent 85%);mix-blend-mode:soft-light}
+[data-sky=night] :is(.hero,.banner) .art::after{background:linear-gradient(180deg,rgba(14,24,70,.5),rgba(10,12,40,.25) 60%,transparent);mix-blend-mode:multiply}
+[data-sky=night] :is(.hero,.banner) .art::before{bottom:45%;z-index:1;opacity:.9;animation:stars 5s ease-in-out infinite alternate;background:
+  radial-gradient(1.4px 1.4px at 8% 22%,#fff,transparent),radial-gradient(1px 1px at 17% 64%,#fff,transparent),radial-gradient(1.8px 1.8px at 27% 12%,#fff,transparent),
+  radial-gradient(1px 1px at 38% 48%,#dfe8ff,transparent),radial-gradient(1.5px 1.5px at 49% 18%,#fff,transparent),radial-gradient(1px 1px at 58% 70%,#fff,transparent),
+  radial-gradient(1.8px 1.8px at 66% 30%,#e8f0ff,transparent),radial-gradient(1px 1px at 74% 8%,#fff,transparent),radial-gradient(1.4px 1.4px at 83% 52%,#fff,transparent),
+  radial-gradient(1px 1px at 91% 24%,#fff,transparent),radial-gradient(1.2px 1.2px at 96% 76%,#dfe8ff,transparent),radial-gradient(1px 1px at 3% 80%,#fff,transparent)}
+@keyframes stars{from{opacity:.45}to{opacity:1}}
+/* Feast of Winter Veil (15 Dec to 2 Jan): snow. 400px of travel is two whole tiles, so the loop doesn't jump */
+.veil :is(.hero,.banner)::after{content:"";position:absolute;left:0;right:0;top:-400px;height:calc(100% + 400px);z-index:-1;pointer-events:none;opacity:.85;animation:snow 18s linear infinite;background-size:300px 200px;background-image:
+  radial-gradient(circle at 20px 30px,#fff 0 1.6px,transparent 2.6px),radial-gradient(circle at 92px 118px,#fff 0 1.2px,transparent 2.2px),radial-gradient(circle at 160px 62px,#fff 0 2.2px,transparent 3.4px),
+  radial-gradient(circle at 222px 168px,#eef4ff 0 1.4px,transparent 2.4px),radial-gradient(circle at 276px 22px,#fff 0 1.8px,transparent 3px),radial-gradient(circle at 128px 186px,#fff 0 1px,transparent 2px),
+  radial-gradient(circle at 54px 150px,#eef4ff 0 1.3px,transparent 2.3px),radial-gradient(circle at 200px 96px,#fff 0 1px,transparent 1.9px)}
+@keyframes snow{to{transform:translateY(400px)}}
+
+/* nav: the icons perk up, and a gold "!" marks rooms with something new since your last visit */
+.tabs a{position:relative}
+.tabs a:hover img{animation:wiggle .3s ease-in-out 2 alternate}
+.qmark{position:absolute;top:3px;left:calc(.7rem + 14px);font:800 .95rem/1 var(--f-display);color:#ffd200;pointer-events:auto;cursor:help;
+  text-shadow:0 0 2px #000,0 0 2px #000,0 1px 1px #000,0 0 10px rgba(255,210,0,.75);animation:qbob 1.6s ease-in-out infinite}
+.seg button{position:relative}
+.seg .qmark{left:auto;right:2px;top:-7px}
+@keyframes qbob{50%{transform:translateY(-2px)}}
+@media (max-width:620px){.tabs .qmark{left:calc(.4rem + 18px);top:2px}}
+.newpill{display:inline-block;font:800 .6rem/1 var(--f-mono);color:#0a0c13;background:var(--term);padding:.18rem .3rem;border-radius:3px;margin-left:.45rem;vertical-align:.2em;text-transform:uppercase;letter-spacing:.04em}
+.stm.new>summary{box-shadow:inset 3px 0 0 var(--term)}
+
+/* Blizzard said: blue posts in blue, the way the forums show them */
+.stm .kind.k-blue-post,.stm .kind.k-blue-reply{color:var(--blue)}
+.who.blue{color:var(--blue);font-weight:700}
+
+/* Changes: severity borrows item quality, so the dots match the icon borders */
+#changes{--major:var(--q-epic);--notable:var(--q-rare);--minor:var(--q-uncommon)}
+#changes .dot.minor{box-shadow:0 0 6px rgba(30,255,0,.45)}
+
+/* countdowns: icons twitch when you hover, and the raid countdown is a cast bar */
+.cd:hover img{animation:wiggle .28s ease-in-out 2 alternate}
+.cd.casting{min-width:min(100%,250px)}
+.cd.casting>div{flex:1;min-width:0}
+.castbar{position:relative;height:15px;margin-top:.45rem;border-radius:3px;background:rgba(0,0,0,.65);box-shadow:0 0 0 1px #000,0 0 0 2px #5a4a2a;overflow:hidden;cursor:help}
+.castbar i{position:absolute;left:0;top:0;bottom:0;width:calc(var(--p,0) * 100%);background:linear-gradient(180deg,#ffe9a0,#f2b33d 45%,#b9740f);box-shadow:inset 0 1px 0 rgba(255,255,255,.45)}
+.castbar i::after{content:"";position:absolute;right:-5px;top:-3px;bottom:-3px;width:10px;border-radius:50%;background:radial-gradient(closest-side,#fff,rgba(255,236,170,.6) 55%,transparent);animation:spark 1.1s ease-in-out infinite alternate}
+.castbar span{position:relative;display:block;text-align:center;font:700 .66rem/15px var(--f-sans);color:#fff;letter-spacing:.03em;text-shadow:0 1px 2px #000,0 0 3px #000}
+@keyframes spark{to{opacity:.45;transform:scaleY(.7)}}
+
+/* critters: they walk the bottom edge of the banners. Click one for /love */
+.critter{position:absolute;left:0;bottom:2px;z-index:2;width:var(--cw,30px);padding:0;border:0;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.critter .g{display:block;transform-origin:50% 100%}
+.critter svg{display:block;width:100%;height:auto;overflow:visible;filter:drop-shadow(0 2px 2px rgba(0,0,0,.65))}
+.critter.left svg{transform:scaleX(-1)}
+.critter.walk.hop .g{animation:chop .44s ease-in-out infinite}
+.critter.walk.scurry .g{animation:cscurry .14s linear infinite alternate}
+.critter.walk.waddle .g{animation:cwaddle .36s ease-in-out infinite alternate}
+.critter.loved .g{animation:clove .45s ease-out 2}
+.critter:focus-visible{outline:2px solid var(--term);outline-offset:3px;border-radius:6px}
+@keyframes chop{0%,100%{transform:translateY(0)}45%{transform:translateY(-8px) rotate(-5deg)}}
+@keyframes cscurry{to{transform:translateY(-1.5px)}}
+@keyframes cwaddle{from{transform:rotate(-8deg)}to{transform:rotate(8deg)}}
+@keyframes clove{40%{transform:translateY(-11px) scale(1.12)}}
+.heart{position:fixed;z-index:97;pointer-events:none;color:var(--love);font:700 15px/1 var(--f-sans);font-style:normal;text-shadow:0 0 8px rgba(255,143,191,.8);animation:heartup 1.3s ease-out both}
+@keyframes heartup{from{transform:translate(-50%,0) scale(.6);opacity:0}20%{opacity:1}to{transform:translate(calc(-50% + var(--hx,0px)),-52px) scale(1.35);opacity:0}}
+.emote{position:fixed;z-index:97;pointer-events:none;translate:-50% 0;font:700 .82rem/1 var(--f-sans);color:var(--love);white-space:nowrap;text-shadow:0 1px 3px #000,0 0 2px #000;animation:emoteup 2.2s ease-out both}
+.emote.murloc{color:#9ff0b0;font-family:var(--f-mono)}
+@keyframes emoteup{0%{opacity:0;transform:translateY(6px)}15%{opacity:1;transform:none}75%{opacity:1}to{opacity:0;transform:translateY(-18px)}}
+@media (prefers-reduced-motion:reduce){.qmark,.castbar i::after,[data-sky=night] :is(.hero,.banner) .art::before{animation:none}.veil :is(.hero,.banner)::after{display:none}}

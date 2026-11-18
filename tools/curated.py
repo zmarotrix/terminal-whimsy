@@ -5,7 +5,8 @@ HERO_CMD = "whimsy --brief forever --raid-night 2026-12-09"
 LEDE = "What we've worked out about WoW Forever so far, so nobody turns up on 9 December with a Classic spec."
 
 COUNTDOWNS = [
-    {"label": "Raids open", "sub": "9 Dec, time TBA · counting to midnight PST", "at": "2026-12-09T08:00:00Z", "i": "achievement_boss_onyxia"},
+    {"label": "Raids open", "sub": "9 Dec, time TBA · counting to midnight PST", "at": "2026-12-09T08:00:00Z", "i": "achievement_boss_onyxia",
+     "from": "2026-11-04T23:00:00Z", "cast": "Summoning the raid"},
     {"label": "Since launch", "sub": "Live since 4 Nov, 3 p.m. PST", "at": "2026-11-04T23:00:00Z", "since": True, "i": "spell_arcane_portaldalaran"},
     {"label": "1 copper AH deposits", "sub": "Minimum deposit drops from 1 silver · 17 Nov maintenance", "at": "2026-11-17T15:00:00Z", "i": "inv_misc_coin_01"},
 ]
@@ -173,6 +174,7 @@ ACH = {
     "end": {"n": "Grand Tour", "d": "Visited every room.", "i": "spell_nature_timestop", "cat": "Briefing"},
     "hotread": {"n": "Patch Notes Enjoyer", "d": "Opened the hotfix log.", "i": "inv_misc_wrench_01", "cat": "Briefing"},
     "raidnight": {"n": "It's Raid Night", "d": "Visited on 9 December.", "i": "achievement_boss_onyxia", "cat": "Briefing"},
+    "caughtup": {"n": "Caught Up", "d": "Cleared the ! from every tab that had one.", "i": "inv_misc_note_06", "cat": "Briefing"},
     # ---- Whimsy: the wisp, the motes, the page ----
     "wisp": {"n": "Wisp Whisperer", "d": "Poked the wisp five times. It liked it.", "i": "spell_nature_starfall", "cat": "Whimsy", "secret": True},
     "wrangler": {"n": "Wisp Wrangler", "d": "Dragged the wisp somewhere new.", "i": "spell_holy_mindvision", "cat": "Whimsy", "secret": True},
@@ -193,6 +195,11 @@ ACH = {
     "crest": {"n": "Crest Fallen", "d": "Clicked the guild crest seven times.", "i": "inv_misc_key_03", "cat": "Whimsy", "secret": True},
     "inspector": {"n": "Inspector", "d": "Asked the browser console for a hint.", "i": "inv_misc_spyglass_03", "cat": "Whimsy", "secret": True},
     "maxx": {"n": "Whimsymaxxing", "d": "Earned 25 achievements.", "i": "spell_arcane_starfire", "cat": "Whimsy", "secret": True},
+    "dawn": {"n": "First Light", "d": "Visited at dawn and saw the sky go pink.", "i": "spell_holy_holybolt", "cat": "Whimsy", "secret": True},
+    "critter": {"n": "Critter Love", "d": "Gave a critter some /love.", "i": "inv_valentinescandy", "cat": "Whimsy", "secret": True},
+    "critters": {"n": "To All the Critters", "d": "Loved a rabbit, a squirrel, a toad and a rat.", "i": "inv_misc_flower_02", "cat": "Whimsy", "secret": True},
+    "murloc": {"n": "Mrglglgl", "d": "Caught the murloc that wanders the banners, and loved it.", "i": "inv_misc_head_murloc_01", "cat": "Whimsy", "secret": True},
+    "lost": {"n": "Off the Map", "d": "Found a page that doesn't exist.", "i": "spell_shadow_teleport", "cat": "Whimsy", "secret": True},
     # ---- Terminal ----
     "term": {"n": "Hello, World", "d": "Opened the hidden terminal.", "i": "inv_misc_enggizmos_20", "cat": "Terminal", "secret": True},
     "notfound": {"n": "Command Not Found", "d": "Typed something the terminal didn't know.", "i": "inv_misc_questionmark", "cat": "Terminal", "secret": True},
@@ -457,6 +464,15 @@ WISP = {
         "scroll": ["> slow down. the hotfixes aren't going anywhere.", "> whee. you scroll faster than i fly."],
         "back": ["> you're back. i kept your spot.", "> oh, hello again. i didn't move. (i moved a little.)"],
         "backnews": ["> welcome back. {n} new on the wire since you left."],
+        # world.js: what you missed (the ! on the tabs shows where), critters on the banners
+        "away": {
+            "both": ["> while you were out: {said} from blizzard and {hot}. the ! tabs have them.", "> you missed {said} from blizzard and {hot}. follow the !s."],
+            "said": ["> blizzard made {said} while you were out. the ! tab has it."],
+            "hot": ["> {hot} landed while you were out. changes, then hotfix log."],
+            "wire": ["> {wire} new headlines since you were here. nothing official, mind."],
+        },
+        "critter": ["> a {k}. don't pull it.", "> {k} spotted. not on the loot table.", "> leave the {k} alone. (pet it.)", "> no aoe near the {k}, please."],
+        "murloc": ["> was that a murloc? in my banner?", "> mrgl. i don't speak it either."],
         "wake": ["> mm. i was resting my eyes.", "> oh! hi. i was guarding the page. with my eyes shut."],
         "hungry": ["> snack break. the motes up top look tasty.", "> a bit peckish. back in a second."],
         "nom": ["> nom. banner motes taste like starlight.", "> crunchy. a bit arcane."],
@@ -466,7 +482,7 @@ WISP = {
         "inspect": ["> reading over your shoulder.", "> hm. good to know.", "> i've read this one. it holds up."],
         "room": {
             "brief": ["> i check the countdown every day. still counting.", "> the 60-second version. i timed it again."],
-            "changes": ["> big red dot, big deal. that's the rule.", "> pick your class and half of these vanish. very tidy."],
+            "changes": ["> purple means epic means big deal. that's the rule.", "> pick your class and half of these vanish. very tidy."],
             "gear": ["> i'd wear tier 1. if i had shoulders.", "> stats are secret. i've tried asking."],
             "said": ["> gold means blizzard said it.", "> receipts. i love receipts."],
             "wire": ["> fresh headlines. the gold ones are blizzard's.", "> lots of people talking. blizzard's posts are the gold ones."],

@@ -26,6 +26,22 @@ const icon = (name, cls = "", tipText = "") => `<span class="ic ${cls}"${tipText
 const src = arr => (arr || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(" · ");
 const CL = D.CLASSES, AREAS = D.AREAS;
 
+/* ---------------- what's new since your last visit ---------------- */
+// A visit ends after 30 minutes away. "New" means newer than the end of your last visit, so a reload doesn't
+// wipe the markers. First visit ever: nothing is new. (lastVisit is the old per-load key, read once to migrate.)
+const VISIT = (() => {
+  const last = store.get("lastSeen", 0) || store.get("lastVisit", 0);
+  const fresh = !last || Date.now() - last > 30 * 6e4, since = fresh ? last : store.get("since", 0);
+  store.set("since", since);
+  const touch = () => { if (!document.hidden) store.set("lastSeen", Date.now()); };
+  touch(); setInterval(touch, 6e4); addEventListener("pagehide", () => store.set("lastSeen", Date.now()));
+  return { since, fresh: fresh && !!last };
+})();
+const SINCE = VISIT.since;
+// when something happened, for "is it new": date-only rows count as midday
+const when = x => { const d = x.at || x.last || x.date; return d ? new Date(d.length === 10 ? d + "T12:00:00" : d).getTime() : 0; };
+const isNew = x => SINCE > 0 && when(x) > SINCE;
+
 /* ---------------- tooltip ---------------- */
 const tip = $("#tip");
 let tipOn = null;
@@ -331,6 +347,7 @@ function go(hash, scroll = true) {
     if (!visited.has(id)) { visited.add(id); store.set("rooms", [...visited]); setTimeout(() => wisp.talk(D.WISP.sections[id]), 600); }
     if (["brief", "changes", "gear", "said", "wire"].every(r => visited.has(r))) award("end");
     hideTip();
+    emit("room", id);
   }
   if (item) openChange(item);
 }
@@ -342,10 +359,12 @@ function hero() {
   let i = 0;
   if (REDUCE) line.textContent = cmd;
   else (function step() { line.textContent = cmd.slice(0, ++i); if (i < cmd.length) setTimeout(step, 38 + Math.random() * 60); })();
-  $(".count").innerHTML = D.COUNTDOWNS.map((c, k) => `<div class="cd" id="cd${k}"><img src="${ICON(c.i)}" alt=""><div><div class="n">–</div><div class="l"><b>${esc(c.label)}</b>${esc(c.sub)}</div></div></div>`).join("");
+  // a countdown with a start ("from") gets a cast bar under it, filling up like a spell being cast
+  $(".count").innerHTML = D.COUNTDOWNS.map((c, k) => `<div class="cd${c.from ? " casting" : ""}" id="cd${k}"><img src="${ICON(c.i)}" alt=""><div><div class="n">–</div><div class="l"><b>${esc(c.label)}</b>${esc(c.sub)}</div>${c.from ? `<div class="castbar" aria-hidden="true"><i></i><span>${esc(c.cast || c.label)}</span></div>` : ""}</div></div>`).join("");
   function tickCd() {
     D.COUNTDOWNS.forEach((c, k) => {
       const el = $("#cd" + k), d = new Date(c.at).getTime() - Date.now(), n = $(".n", el);
+      if (c.from) { const a = new Date(c.from).getTime(), p = Math.max(0, Math.min(1, (Date.now() - a) / (new Date(c.at).getTime() - a))); const b = $(".castbar", el); b.style.setProperty("--p", p); b.dataset.tip = `${Math.floor(p * 100)}% cast`; }
       if (c.since) { n.textContent = Math.max(0, Math.floor(-d / DAY)) + " days"; el.classList.add("live"); return; }
       if (d <= 0) { n.textContent = "Now"; el.classList.add("live"); return; }
       const dd = Math.floor(d / DAY), hh = Math.floor(d % DAY / 36e5), mm = Math.floor(d % 36e5 / 6e4);
@@ -389,7 +408,8 @@ function classButtons(el, cur, withEveryone, onPick) {
 }
 const SEVR = { major: 0, notable: 1, minor: 2 };
 const CONF = { official: "Blizzard said", datamined: "In the files", community: "Players report", rumour: "Rumour" };
-const SEVN = { major: "Big deal", notable: "Worth knowing", minor: "Small" };
+const SEVN = { major: "Big deal (epic)", notable: "Worth knowing (rare)", minor: "Small (uncommon)" };
+const SEVQ = { major: "q-epic", notable: "q-rare", minor: "q-uncommon" };     // the ledger borrows item quality colours
 function changes() {
   classButtons($("#clsFilter"), cstate.cls, true, k => {
     cstate.cls = k; if (k) { myClass = k; store.set("class", k); award("class"); }
@@ -417,7 +437,7 @@ function changes() {
 }
 function changeRow(c) {
   const a = AREAS[c.area] || {}, ic = c.class ? CL[c.class].i : (c.i || a.i);
-  return `<details class="chg" id="c-${c.id}" data-id="${c.id}"><summary>${icon(ic)}<h4>${esc(c.title)}</h4>
+  return `<details class="chg" id="c-${c.id}" data-id="${c.id}"><summary>${icon(ic, SEVQ[c.severity] || "")}<h4>${esc(c.title)}</h4>
     <span class="tags"><span class="dot ${c.severity}" data-tip="${SEVN[c.severity]}"></span><span class="stk ${c.confidence}">${CONF[c.confidence] || c.confidence}</span><span class="chev" aria-hidden="true">›</span></span></summary>
     <div class="body"><div class="cmp">${c.classic ? `<div class="was"><b>Classic</b>${esc(c.classic)}</div>` : ""}<div class="now"><b>Forever</b>${esc(c.forever)}</div></div>
     <div class="why"><span class="mini-wisp happy" aria-hidden="true"></span><div><b>WHY YOUR RAID CARES</b>${esc(c.impact)}${c.more ? " " + esc(c.more) : ""}</div></div>
@@ -481,7 +501,7 @@ function drawHot() {
   for (const d of days.slice(0, hstate.days)) {
     const dayLines = L.filter(l => l.date === d), byPath = new Map();
     dayLines.forEach(l => { const k = l.path.slice(0, 2).join(" › ") || "General"; if (!byPath.has(k)) byPath.set(k, []); byPath.get(k).push(l); });
-    html += `<div class="hday"><div class="month">${esc(fmtDate(d, { weekday: "long", day: "numeric", month: "long" }))} <a class="hsrc" href="${esc(dayLines[0].url)}" target="_blank" rel="noopener">Blizzard's post ↗</a></div>` +
+    html += `<div class="hday"><div class="month">${esc(fmtDate(d, { weekday: "long", day: "numeric", month: "long" }))}${isNew({ date: d }) ? ` <span class="newpill" data-tip="New since your last visit">new</span>` : ""} <a class="hsrc" href="${esc(dayLines[0].url)}" target="_blank" rel="noopener">Blizzard's post ↗</a></div>` +
       [...byPath].map(([k, ls]) => `<div class="hgrp"><h4>${esc(k)} <span class="n">${ls.length}</span></h4>${ls.map(l => hotLine({ ...l, path: l.path.length > 2 ? ["", ...l.path.slice(2)] : [] })).join("")}</div>`).join("") + `</div>`;
   }
   $("#hotList").innerHTML = html || `<div class="empty">> no hotfixes match. try clearing a filter.</div>`;
@@ -567,8 +587,9 @@ function said() {
       const m = fmtDate(s.date, { month: "long", year: "numeric" });
       if (m !== month) { month = m; html += `<div class="month">${esc(m)}</div>`; }
       const t = T[s.topic] || T.other;
-      html += `<details class="stm"><summary><span class="d">${esc(fmtDate(s.date, { day: "numeric", month: "short" }))}</span>${icon(t.i, "", t.n)}<h4>${esc(s.title)}${s.auto ? ` <span class="stk community" data-tip="Picked up automatically from Blizzard's own news and forum posts. Not checked by hand yet.">new</span>` : ""}</h4><span class="kind">${esc(KIND[s.kind] || s.kind)}</span></summary>
-        <div class="body">${s.summary ? `<p>${esc(s.summary)}</p>` : ""}<p class="srcline">${s.who ? esc(s.who) + " · " : ""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Read it on ${esc(host(s.url))} ↗</a>${s.via ? ` · <a href="${esc(s.via)}" target="_blank" rel="noopener">reported via ↗</a>` : ""}</p></div></details>`;
+      const blue = s.kind === "blue-post" || s.kind === "blue-reply";
+      html += `<details class="stm${isNew(s) ? " new" : ""}"><summary><span class="d">${esc(fmtDate(s.date, { day: "numeric", month: "short" }))}</span>${icon(t.i, "", t.n)}<h4>${esc(s.title)}${isNew(s) ? ` <span class="newpill" data-tip="New since your last visit">new</span>` : ""}${s.auto ? ` <span class="stk community" data-tip="Picked up automatically from Blizzard's own news and forum posts. Not checked by hand yet.">unchecked</span>` : ""}</h4><span class="kind k-${esc(s.kind)}">${esc(KIND[s.kind] || s.kind)}</span></summary>
+        <div class="body">${s.summary ? `<p>${esc(s.summary)}</p>` : ""}<p class="srcline">${s.who ? `<span class="who${blue ? " blue" : ""}">${esc(s.who)}</span> · ` : ""}<a href="${esc(s.url)}" target="_blank" rel="noopener">Read it on ${esc(host(s.url))} ↗</a>${s.via ? ` · <a href="${esc(s.via)}" target="_blank" rel="noopener">reported via ↗</a>` : ""}</p></div></details>`;
     }
     $("#saidList").innerHTML = html || `<div class="empty">> nothing on that yet.</div>`;
     $("#saidMore").hidden = L.length <= shown;
@@ -592,7 +613,7 @@ function addAutoSaid(items) {
     if (keys.has(k) || titles.has(tk)) continue;
     keys.add(k); titles.add(tk);
     const reply = /^Blizzard replied in/.test(i.title);
-    add.push({ date: i.date.slice(0, 10), title: i.title, summary: i.summary || "", url: i.url, who: i.who, auto: true,
+    add.push({ date: i.date.slice(0, 10), at: i.date, title: i.title, summary: i.summary || "", url: i.url, who: i.who, auto: true,
       kind: i.source === "Blizzard News" ? "article" : reply ? "blue-reply" : "blue-post",
       topic: TAG2TOPIC[(i.tags || []).find(t => TAG2TOPIC[t])] || "other" });
   }
@@ -617,13 +638,13 @@ function alsoLine(also) {
   also.forEach(a => by[a.source] = (by[a.source] || 0) + 1);
   return Object.entries(by).map(([s, n]) => s.startsWith("r/") ? `${n} Reddit thread${n > 1 ? "s" : ""}` : n > 1 ? `${s} (${n})` : s).join(", ");
 }
-const storyRow = (s, lastVisit) => {
-  const l = LABELS[s.label] || LABELS.press, isNew = lastVisit && new Date(s.last).getTime() > lastVisit;
+const storyRow = s => {
+  const l = LABELS[s.label] || LABELS.press, fresh = isNew(s);
   if (s.summary) D.TIPS["s" + s.id] = `<div class="t">${esc(s.title)}</div><div class="d" style="margin-top:.3rem">${esc(s.summary)}</div>`;
   const tags = (s.tags || []).slice(0, 2).map(t => `<span class="tg">${esc(TOPIC_NAMES[t] || t)}</span>`).join("") +
     (s.classes || []).map(c => CL[c] ? `<img class="tc" src="${ICON(CL[c].i)}" alt="${esc(CL[c].n)}" data-tip="${esc(CL[c].n)}">` : "").join("");
   const also = s.also && s.also.length ? `<details class="also"><summary>+${s.also.length} more: ${esc(alsoLine(s.also))}</summary><ul>${s.also.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener"><span class="lb-${a.label}">${esc(a.source)}</span> · ${esc(a.title)}</a> <span class="t">${ago(a.date)}</span></li>`).join("")}</ul></details>` : "";
-  return `<div class="story${s.official ? " official" : ""}${isNew ? " new" : ""}"><a class="post ${s.official ? "official" : s.label}${isNew ? " new" : ""}" href="${esc(s.url)}" target="_blank" rel="noopener"${s.summary ? ` data-tiph="s${s.id}"` : ""}>${icon(s.icon || l.i)}<div><div class="h">${esc(s.title)}</div><div class="m"><span class="lb-${s.label}">${esc(l.n)}</span> · ${esc(s.source)}${tags ? ` <span class="tags">${tags}</span>` : ""}</div></div><div class="t"${s.last !== s.date ? ` data-tip="First posted ${esc(ago(s.date))}"` : ""}>${ago(s.last)}</div></a>${also}</div>`;
+  return `<div class="story${s.official ? " official" : ""}${fresh ? " new" : ""}"><a class="post ${s.official ? "official" : s.label}${fresh ? " new" : ""}" href="${esc(s.url)}" target="_blank" rel="noopener"${s.summary ? ` data-tiph="s${s.id}"` : ""}>${icon(s.icon || l.i)}<div><div class="h">${esc(s.title)}</div><div class="m"><span class="lb-${s.label}">${esc(l.n)}</span> · ${esc(s.source)}${tags ? ` <span class="tags">${tags}</span>` : ""}</div></div><div class="t"${s.last !== s.date ? ` data-tip="First posted ${esc(ago(s.date))}"` : ""}>${ago(s.last)}</div></a>${also}</div>`;
 };
 function health(h) {
   if (!h) { $("#srcHealth").hidden = true; return; }
@@ -639,20 +660,18 @@ async function wire() {
   hotfixLog(HOTF && HOTF.lines);
   health(HEALTH);
   const box = $("#wireList");
-  if (!NEWS || !NEWS.items || !NEWS.items.length) { box.innerHTML = `<div class="empty">> the wire is quiet. couldn't load news right now; try again in a minute.</div>`; $("#freshList").innerHTML = box.innerHTML; return; }
+  if (!NEWS || !NEWS.items || !NEWS.items.length) { box.innerHTML = `<div class="empty">> the wire is quiet. couldn't load news right now; try again in a minute.</div>`; $("#freshList").innerHTML = box.innerHTML; window.TWX.news = { stories: [] }; emit("news", { stories: [] }); return; }
   addAutoSaid(NEWS.items);
   // older news files have no stories yet: show each item as its own story
   const stories = (NEWS.stories || NEWS.items.map(i => ({ ...i, id: i.url.length + "" + i.title.length, last: i.date, n: 1, also: [], official: i.label === "official" })))
     .slice().sort((a, b) => new Date(b.last) - new Date(a.last));
   if (window.TWX) window.TWX.newsTop = n => stories.slice(0, n);
-  const lastVisit = store.get("lastVisit", 0);
-  store.set("lastVisit", Date.now());
   const f = $(".fresh");
   $(".ft", f).textContent = `Refreshed ${ago(NEWS.updated)} · ${NEWS.items.length} posts grouped into ${stories.length} stories · ${new Set(NEWS.items.map(i => i.source)).size} sources`;
   if (Date.now() - new Date(NEWS.updated) > 12 * 36e5) f.classList.add("stale");
-  const fresh = stories.filter(s => lastVisit && new Date(s.last) > lastVisit).length;
+  const fresh = stories.filter(isNew).length;
   $('[data-count="wire"]').textContent = fresh ? fresh + " new" : stories.length;
-  $("#freshList").innerHTML = stories.filter(s => s.official).slice(0, 5).map(s => storyRow(s, lastVisit)).join("");
+  $("#freshList").innerHTML = stories.filter(s => s.official).slice(0, 5).map(storyRow).join("");
   // filters: who said it, what it's about, and your class
   const lab = s => s.official ? "official" : s.label, c = {};
   stories.forEach(s => c[lab(s)] = (c[lab(s)] || 0) + 1);
@@ -668,7 +687,7 @@ async function wire() {
     for (const s of L.slice(0, shown)) {
       const d = new Date(s.last), dk = d.toDateString();
       if (dk !== day) { day = dk; const diff = Math.floor((new Date().setHours(0, 0, 0, 0) - new Date(d).setHours(0, 0, 0, 0)) / DAY); html += `<div class="day">${diff === 0 ? "Today" : diff === 1 ? "Yesterday" : d.toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" })}</div>`; }
-      html += storyRow(s, lastVisit);
+      html += storyRow(s);
     }
     box.innerHTML = html || `<div class="empty">> nothing matches. try another filter.</div>`;
     $("#wireMore").hidden = L.length <= shown;
@@ -679,6 +698,8 @@ async function wire() {
   document.addEventListener("click", e => { if (e.target.closest(".post,.also a")) award("wire"); });
   addEventListener("hashchange", () => { if (location.hash === "#wire") { topicChips(); if (tp) $$("#wireTopics .chip").forEach(x => x.setAttribute("aria-pressed", x.dataset.t === tp)); } });
   draw();
+  window.TWX.news = { stories };      // for scripts that load after the news does
+  emit("news", { stories });
 }
 
 /* ---------------- sources ---------------- */
@@ -706,7 +727,8 @@ function sources() {
 /* ---------------- what whimsy.js needs ---------------- */
 window.TWX = { notice, D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE, star, emit,
   addRoom(id, r) { SECRET[id] = r; secretTabs(); }, secretTabs, get room() { return room; },
-  setClass(k) { myClass = k; store.set("class", k); award("class"); }, get myClass() { return myClass; }, get hot() { return HOT; } };
+  setClass(k) { myClass = k; store.set("class", k); award("class"); }, get myClass() { return myClass; }, get hot() { return HOT; },
+  get said() { return SAIDALL; }, visit: VISIT, isNew, when };
 
 /* ---------------- init ---------------- */
 $$("img[src^='img/icons/']").forEach(i => { const k = i.getAttribute("src").slice(10, -4); if (window.TW_ICONS && TW_ICONS[k]) i.src = TW_ICONS[k]; });
@@ -715,4 +737,7 @@ hero(); changes(); gear(); said(); sources(); xp();
 document.addEventListener("DOMContentLoaded", () => go(location.hash, false));
 wire();
 setTimeout(() => { award("hello"); if (!store.get("wispMet", false)) { store.set("wispMet", true); wisp.talk(D.WISP.hello); } }, 2500);
+// achievements earned on a page that can't show them (404.html) wait here
+const pend = store.get("pendingAch", []);
+if (pend.length) { store.set("pendingAch", []); setTimeout(() => pend.forEach(award), 3500); }
 })();

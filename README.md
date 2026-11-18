@@ -13,6 +13,7 @@ A guild guide to World of Warcraft: Forever: everything Blizzard has said, every
 ## How it fits together
 
 - `index.html`, `site.css`, `app.js`: the page. Static, no build step for the browser.
+- `world.js`: the living world. The sky over the banners follows the visitor's clock, critters wander the banners, a `!` on a tab means something new since your last visit, and the wisp says what you missed. `404.html` is the lost page.
 - `data.js`: everything except the news. Built by `python tools/build_data.py` from:
   - `data/src/official.json`: Blizzard's statements (articles, blue posts, hotfixes, interviews)
   - `data/src/changes.json`: changes from Classic, with confidence and sources
@@ -23,7 +24,7 @@ A guild guide to World of Warcraft: Forever: everything Blizzard has said, every
 - `data/hotfixes.json`: the hotfix log. `tools/hotfixes.py` reads Blizzard's hotfix thread on the forums and splits every post into one line per change, with its section, class and developer notes.
 - `data/health.json`: when each source last worked. `tools/health_issue.py` opens a GitHub issue (label `wire-health`) when a source fails 3 runs in a row or gives nothing for 2 days, and closes it when they all work again.
 - Stories: `tools/stories.py` tags every post by topic and class (word lists in `tools/taxonomy.json`) and groups posts about the same event, headed by Blizzard's own post when there is one.
-- `.github/workflows/site.yml`: every 3 hours, runs all of the above, commits `data/` if it changed, and deploys to GitHub Pages.
+- `.github/workflows/site.yml`: hourly (GitHub skips some runs), and on every push, runs all of the above, commits `data/` if it changed, and deploys to GitHub Pages.
 
 ## Updating
 

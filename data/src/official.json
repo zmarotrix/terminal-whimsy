@@ -1,5 +1,59 @@
 [
  {
+  "date": "2026-11-17",
+  "title": "Hotfixes: UBRS back to full strength, Soulforge set gets Spell Power",
+  "summary": "Upper Blackrock Spire enemies had far less health and damage than intended. That's fixed, and Blizzard says UBRS again needs a full group of careful players. The Soulforge Armor tank set now has Spell Power instead of Strength, because Blizzard wants tank Paladins using Spell Power for damage. The Cozy Sleeping Bag can now be placed at a chosen spot like a hunter trap and shows a Resting aura, Battle for Alterac Valley quests need level 58, and several Shen'dralas quests now share progress and drops with the party.",
+  "topic": "hotfix",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/12",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-17",
+  "title": "By the numbers: 15,160,147 characters created",
+  "summary": "Blizzard's 'By the numbers' post counted 15,160,147 characters, 1,480,343,357 quests completed, 140,764 guilds and 196,851,761 player deaths so far. Archmage Arugal is the deadliest boss. The post gives no race, class or player counts.",
+  "topic": "launch",
+  "kind": "social",
+  "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3n2kaspxp622w",
+  "who": "Blizzard Entertainment (Bluesky)"
+ },
+ {
+  "date": "2026-11-17",
+  "title": "Blackmaw Hold farm: exploit gold removed, heavy abusers suspended",
+  "summary": "Over the weekend players found a large pack of non-elite enemies in Blackmaw Hold that dropped full elite dungeon loot. A hotfix went in early on November 16, and the accounts of a couple hundred players who farmed it on purpose were economy-locked that day. On November 17 Blizzard started removing the gold made from the farm, including gold from vendoring the drops, and suspending significant abusers. Players who ran the dungeon normally and got the extra loot by chance aren't at risk.",
+  "topic": "economy",
+  "kind": "blue-post",
+  "url": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757/1",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-16",
+  "title": "Hotfixes: Windfury Totem now respects armor, Vampiric Embrace halved for the group",
+  "summary": "Windfury Totem's extra attacks were ignoring armor and had no internal cooldown. Both are fixed, and the attacks now generate Rage. With the November 17 maintenance, Vampiric Embrace heals the group for 10% of the Priest's Shadow damage instead of 20%, and the Priest gets double the healing, so solo play doesn't change. Captain Dreadrise in The Drowned City can now be stunned, and Fury Warriors' Cleave and Heroic Strike now trigger Unbridled Wrath and Reckless Swings.",
+  "topic": "hotfix",
+  "kind": "hotfix",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/11",
+  "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-16",
+  "title": "Greyed-out rulesets usually mean the client needs patching",
+  "summary": "BlizzardCS said that if rulesets are greyed out or you get a 'No Server Available' error when logging in to Forever, your game client may need patching, and linked the steps.",
+  "topic": "realms",
+  "kind": "social",
+  "url": "https://bsky.app/profile/support.blizzard.com/post/3n2hqdq53tq22",
+  "who": "BlizzardCS (Bluesky)"
+ },
+ {
+  "date": "2026-11-16",
+  "title": "Forever 101 video for new players",
+  "summary": "Blizzard posted 'Forever 101: Getting Started in Azeroth', a video overview of the game for first-time players and anyone who wants a refresher.",
+  "topic": "other",
+  "kind": "social",
+  "url": "https://www.youtube.com/watch?v=7P-i2zipbeM",
+  "who": "Blizzard Entertainment (YouTube)"
+ },
+ {
   "date": "2026-11-14",
   "title": "Dungeon XP block now needs a 12-level gap",
   "summary": "The day-old rule that cancelled dungeon kill XP when a high-level player is in the group missed the mark in some dungeons. A hotfix now applies it only when the high-level player is more than 12 levels above the enemies. Instances already in progress keep the old rule.",
@@ -151,6 +205,15 @@
   "kind": "blue-post",
   "url": "https://us.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-november-8/2406595/1",
   "who": "Kaivax"
+ },
+ {
+  "date": "2026-11-06",
+  "title": "Biggest WoW launch ever by peak concurrent players",
+  "summary": "Blizzard said Forever had the biggest launch in WoW's history by peak concurrent players, and the most returning players WoW has ever had. It didn't give any figures.",
+  "topic": "launch",
+  "kind": "social",
+  "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzoudcfxws2t",
+  "who": "Blizzard Entertainment (Bluesky)"
  },
  {
   "date": "2026-11-06",
@@ -810,6 +873,15 @@
   "kind": "blue-post",
   "url": "https://us.forums.blizzard.com/en/wow/t/unable-to-launch-wow-forever/2352142/130",
   "who": "Kaivax"
+ },
+ {
+  "date": "2026-09-17",
+  "title": "GDKP runs won't be allowed",
+  "summary": "At a developer Q&A on September 17, Josh Greenfield said Forever won't allow GDKP raids. He wants raid groups built around guilds, and said bidding gold on loot pushes new players toward buying gold. He also promised tougher penalties for gold buyers, up to losing long-standing accounts.",
+  "topic": "raids",
+  "kind": "interview",
+  "url": "https://www.invenglobal.com/articles/26259/wow-forever-bans-gdkp-runs",
+  "who": "Josh Greenfield (developer Q&A, reported by Inven Global)"
  },
  {
   "date": "2026-09-17",

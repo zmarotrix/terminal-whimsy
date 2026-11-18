@@ -5,17 +5,19 @@ HERO_CMD = "whimsy --brief forever --raid-night 2026-12-09"
 LEDE = "What we've worked out about WoW Forever so far, so nobody turns up on 9 December with a Classic spec."
 
 COUNTDOWNS = [
-    {"label": "Raids open", "sub": "9 Dec, time TBA · counting to midnight PST", "at": "2026-12-09T08:00:00Z", "i": "achievement_boss_onyxia",
+    # Time still unannounced. Blizzard's Korean pages say 10 Dec, so not before 00:00 KST, which is 7 a.m. PST on 9 Dec
+    {"label": "Raids open", "sub": "9 Dec, time TBA · counting to 7 a.m. PST", "at": "2026-12-09T15:00:00Z", "i": "achievement_boss_onyxia",
      "from": "2026-11-04T23:00:00Z", "cast": "Summoning the raid"},
     {"label": "Since launch", "sub": "Live since 4 Nov, 3 p.m. PST", "at": "2026-11-04T23:00:00Z", "since": True, "i": "spell_arcane_portaldalaran"},
-    {"label": "1 copper AH deposits", "sub": "Minimum deposit drops from 1 silver · 17 Nov maintenance", "at": "2026-11-17T15:00:00Z", "i": "inv_misc_coin_01"},
+    # weekly: worked out in the browser each time (Tuesday 7 a.m. in Los Angeles, so it follows PST/PDT); "Now" during the hour
+    {"label": "Weekly maintenance", "sub": "NA realms · usually Tuesday 7 a.m. PST, about an hour", "weekly": {"dow": 2, "h": 7, "tz": "America/Los_Angeles", "mins": 60}, "i": "inv_misc_wrench_01"},
 ]
 
 CLASSES = {
     "warrior": {"n": "Warrior", "c": "#C69B6D", "i": "classicon_warrior",
                 "note": "Rage is normalised and tank threat went up to cover the loss of Salvation. Battle Shout now reaches the whole raid."},
     "paladin": {"n": "Paladin", "c": "#F48CBA", "i": "classicon_paladin",
-                "note": "Paladins can tank now. Blessings of Salvation and Light are gone, and only the resistance auras reach the whole raid."},
+                "note": "Paladins can tank, and Blizzard wants tank Paladins on Spell Power. Salvation and Blessing of Light are gone, and only resistance auras reach the whole raid."},
     "hunter": {"n": "Hunter", "c": "#AAD372", "i": "classicon_hunter",
                "note": "Aimed Shot is baseline, Auto Shot needs you standing still, and pets no longer take player buffs."},
     "rogue": {"n": "Rogue", "c": "#FFF468", "i": "classicon_rogue",
@@ -103,9 +105,6 @@ CHANGE_FIXES = {
     11: {"title": "First legendary revealed: Taldramir, the Whispering Wood",
          "forever": "Blizzard has shown Forever's first legendary, Taldramir, the Whispering Wood. How to get it isn't revealed; fan sites tie it to Hyjal Summit and a later legendary questline.",
          "add_sources": [{"name": "Blizzard: Forging Forever", "url": "https://news.blizzard.com/en-us/article/24317865/wow-forever-watch-forging-forever"}]},
-    78: {"title": "Raid epics bind to the looter; the loot method isn't announced",
-         "forever": "Blizzard says raid epics bind to whoever loots them. Whether raids use master, group or personal loot hasn't been announced.",
-         "add_sources": [{"name": "Blizzard: Deep Dive panel recap", "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap"}]},
     94: {"title": "Dungeon XP: 60% of Classic Era, and none when boosted",
          "forever": "Dungeon kill XP went from 40% to 60% of Classic Era on 8 Nov. Since 14 Nov a kill gives no XP if anyone in the group is more than 12 levels above the enemy.",
          "impact": "Recruits level a bit faster in dungeons, but boosting alts through dungeons no longer works.",
@@ -114,6 +113,89 @@ CHANGE_FIXES = {
                          {"name": "Blizzard forums: 12-level gap", "url": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343/1"}]},
     96: {"forever": "Blizzard's roadmap lists more raids, dungeons, PvP, Hardcore and a revamped iconic raid. Fan sites add dates: Hardcore this winter, then spring 2027 (2 raids, 2 dungeons, a legendary questline) and summer 2027.",
          "confidence": "community"},
+    19: {'forever': 'Windfury and Flametongue Totems are aura buffs (raid-wide per dev notes), persistent-buff totems last 5 minutes, totem GCD is 1 s, and '
+                    'totem presets via Call of the Elements. Since 12 Nov imbues and weapon totems work together. Since 13 Nov melee abilities can proc '
+                    "Windfury Totem, but off-hand strikes can't. Since 16 Nov its extra attacks respect armor, have an internal cooldown and generate Rage.",
+         'impact': "Shamans no longer need to sit in melee groups, and Windfury reaches the whole raid's melee. It hit harder than intended before 16 Nov, "
+                   'so early meter numbers overstate it.',
+         'add_sources': [{'name': 'Blizzard forums: 12 Nov Enhancement changes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9'},
+                         {'name': 'Blizzard forums: 13 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10'},
+                         {'name': 'Blizzard forums: 16 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/11'}]},  # 18 Nov refresh
+    31: {'forever': "Rend's buff is now also delivered at Razor Hill/Crossroads (Horde) and Goldshire, Lakeshire, Sentinel Hill (Alliance). A 17 Nov hotfix "
+                    "makes Warchief's Blessing and Might of Stormwind always end when you die and stops them landing on non-players.",
+         'add_sources': [{'name': 'Blizzard forums: 17 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/12'}]},  # 18 Nov refresh
+    48: {'forever': 'Seal of Fury (level 10, absorb shield; its Judgement taunts at range), Holy Strike (level 6), Righteous Fury from level 10 (+33% all '
+                    "threat, +90% Holy), Consecration baseline but only 4 targets take full damage, Templar's Bulwark (100% health absorb). Since 17 Nov the "
+                    "Soulforge Armor tank set has Spell Power instead of Strength, and Blizzard says it is leaning into Spell Power as the tank Paladin's "
+                    'main damage stat.',
+         'impact': 'Paladins are viable main tanks, but Consecration is weak on big packs. Gear tank Paladins for Spell Power, not Strength.',
+         'add_sources': [{'name': 'Blizzard forums: 17 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/12'}]},  # 18 Nov refresh
+    49: {'forever': "Judgement no longer consumes the seal; baseline seal twisting removed in favour of Retribution's Twist of Light; Judgement debuffs last "
+                    '40 s; Judgement of the Crusader 15% stronger. Judgements count as ranged attacks, except Judgement of Command, which since 13 Nov '
+                    'counts as melee and triggers on-hit effects.',
+         'add_sources': [{'name': 'Blizzard forums: 13 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10'}]},  # 18 Nov refresh
+    53: {'forever': 'Shadowform allows non-healing spells, halves shadow mana cost, doubles shadow crit bonus; Vampiric Embrace 30 s cooldown; Shadow '
+                    "Weaving self-only. Since the 17 Nov maintenance, Vampiric Embrace heals the group for 10% of the Priest's Shadow damage (was 20%) and "
+                    'the Priest gets 100% more healing from it.',
+         'impact': 'Shadow priests become solo DPS rather than warlock support, and Vampiric Embrace now heals the rest of the group half as much.',
+         'add_sources': [{'name': 'Blizzard forums: 16 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/11'}]},  # 18 Nov refresh
+    55: {'forever': "Wild Growth (31-point), Swiftmend no longer consumes the HoT, Gift of the Earthmother replaced by Bloom, Nature's Swiftness also works "
+                    "on Wild Growth. Since 13 Nov Wild Growth can't be cast while moving and its healing coefficient doubled to 6.6%. Since 16 Nov each rank "
+                    'goes on cooldown as intended.',
+         'add_sources': [{'name': 'Blizzard forums: 13 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10'},
+                         {'name': 'Blizzard forums: 16 Nov hotfixes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/11'}]},  # 18 Nov refresh
+    59: {'forever': 'Lava Burst removed and replaced by Call of Thunder (3 Nov); Riptide (12 s), Water Shield, Maelstrom Weapon, Rage of the Farseer; '
+                    'Stormstrike 100% weapon damage on an 8 s cooldown since the 12 Nov Enhancement rework; Enhancement moved to Strength.',
+         'add_sources': [{'name': 'Blizzard forums: 12 Nov Enhancement changes',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9'}]},  # 18 Nov refresh
+    78: {'title': "Raid epics bind to the looter; GDKP isn't allowed",
+         'forever': "Blizzard says raid epics bind to whoever loots them. At a 17 Sep developer Q&A, Josh Greenfield said GDKP runs won't be allowed, so "
+                    "raiding stays guild-based and new players aren't pushed to buy gold. Whether raids use master, group or personal loot still hasn't been "
+                    'announced.',
+         'impact': 'Settle our own loot rules before 9 December. Gold-bid raids are off the table.',
+         'confidence': 'community',
+         'severity': 'notable',
+         'add_sources': [{'name': 'Blizzard: Deep Dive panel recap',
+                          'url': 'https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap'},
+                         {'name': 'Inven Global: GDKP ban', 'url': 'https://www.invenglobal.com/articles/26259/wow-forever-bans-gdkp-runs'},
+                         {'name': 'Warcraft Tavern: developer Q&A',
+                          'url': 'https://www.warcrafttavern.com/forever/news/wow-forever-developer-qa-elf-races-character-models-gdkp/'}]},  # 18 Nov refresh
+    85: {'title': 'Modern Auction House; 1 copper deposits reported since 17 Nov',
+         'forever': 'A newer Auction House interface. Fan sites describe the modern one, with separate buy and sell tabs and materials sold as commodities, '
+                    "cheapest first. Blizzard moved the 1 copper minimum deposit to the 17 Nov maintenance but didn't list it in that day's hotfix notes, as "
+                    "it said it would. Players on the forums say deposits now drop into copper for cheap items, and one says items still can't be listed for "
+                    'under 1 silver.',
+         'impact': 'Cheap leveling mats may be worth listing again instead of vendoring. Check the deposit shown before you post.',
+         'confidence': 'community',
+         'severity': 'minor',
+         'add_sources': [{'name': 'Blizzard forums: player report, 18 Nov',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/auction-house-minimum-deposit-still-1-silver-after-nov-10-hotfix/2411315/16'},
+                         {'name': 'Blizzard forums: player report, 18 Nov',
+                          'url': 'https://us.forums.blizzard.com/en/wow/t/auction-house-min-deposit-not-adjusted/2411380/12'}]},  # 18 Nov refresh
+    86: {'forever': "Azeroth Commerce Authority and Durotar Supply and Logistics sell crafting recipes for Merchant's Favor. Waylaid Crates and Craftsman's "
+                    'Writs also drop inside dungeons since 9 Nov, and a 17 Nov fix lets players with a wrongly converted crate turn it in for the intended '
+                    'reward.',
+         'add_sources': [{'name': 'Blizzard: Forever hotfixes',
+                          'url': 'https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-17-2026'}]},  # 18 Nov refresh
+    91: {'forever': "In a 6 Nov interview with MrGM, Kris Zierhut and Josh Greenfield reportedly said Forever's add-on limits are like Midnight's, with much "
+                    "of it locked down in combat, so fights can be played without add-ons. We've only seen this through write-ups, not the video itself. In "
+                    'September, developers said Forever uses the modern add-on API, which blocks add-ons that play the game for you. Blizzard built in a '
+                    'Cooldown Manager, Damage Meter, Edit Mode, nameplate options and mouseover casting.',
+         'confidence': 'community',
+         'add_sources': [{'name': 'Kami-Labs: MrGM and Joardee interviews',
+                          'url': 'https://kami-labs.fr/en/wow-forever/raids-wow-forever-joardee-difficulte-unique/'},
+                         {'name': 'MrGM: developer interview (video)', 'url': 'https://www.youtube.com/watch?v=eeAb7GeOePY'},
+                         {'name': 'Warcraft Tavern: developer Q&A',
+                          'url': 'https://www.warcrafttavern.com/forever/news/wow-forever-developer-qa-elf-races-character-models-gdkp/'}]},  # 18 Nov refresh
 }
 
 MUST = [  # one short line each: the page is for skimming
@@ -148,12 +230,15 @@ ROAD = [
     {"date": "2026-10-21", "when": "21 Oct", "t": "Stress test", "d": "One day on the production hardware, open to any WoW account.", "i": ["inv_misc_wrench_01"]},
     {"date": "2026-10-27", "when": "27 Oct", "t": "Name reservation", "d": "Three characters per account, until 3 November.", "i": ["inv_misc_note_01"]},
     {"date": "2026-11-04", "when": "4 Nov", "t": "Launch", "d": "Live in every region at 3 p.m. PST.", "i": ["spell_arcane_portaldalaran"]},
-    {"date": "2026-11-17", "when": "17 Nov", "t": "Auction House deposit drops to 1 copper", "d": "The minimum Auction House deposit goes from 1 silver to 1 copper. It was in the 10 Nov hotfix notes, then pulled to this maintenance, so it's still 1 silver until then.", "i": ["inv_misc_coin_01"]},
-    {"date": "2026-12-09", "when": "9 Dec", "t": "Raids open", "d": "Barrow Deeps, Hyjal Summit and Onyxia's Lair, weekly resets.", "i": ["inv_misc_head_dwarf_01", "spell_nature_regeneration", "inv_misc_head_dragon_black"],
-     "src": [{"name": "Blizzard raid overview", "url": "https://news.blizzard.com/en-gb/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement"}]},
+    {"date": "2026-11-17", "when": "17 Nov", "t": "Auction House deposit change due", "d": "Blizzard moved the 1 copper minimum deposit to this maintenance. The day's hotfix notes don't mention it, but players report smaller deposits since.", "i": ["inv_misc_coin_01"],
+     "src": [{"name": "Blizzard forums", "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/2403040/7"},
+             {"name": "Player report", "url": "https://us.forums.blizzard.com/en/wow/t/auction-house-minimum-deposit-still-1-silver-after-nov-10-hotfix/2411315/16"}]},
+    {"date": "2026-12-09", "when": "9 Dec", "t": "Raids open", "d": "Barrow Deeps, Hyjal Summit and Onyxia's Lair, weekly resets. No opening time yet. Swapping a Blessed Band of Light for a Channeler's Ring only works until then.", "i": ["inv_misc_head_dwarf_01", "spell_nature_regeneration", "inv_misc_head_dragon_black"],
+     "src": [{"name": "Blizzard raid overview", "url": "https://news.blizzard.com/en-gb/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement"},
+             {"name": "Blizzard forums: Blessed Band swap", "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10"}]},
     {"date": None, "when": "Winter 2026–27", "t": "Hardcore", "d": "Blizzard confirms Hardcore after launch. Fan sites say this winter.", "i": ["spell_holy_resurrection"]},
     {"date": None, "when": "Early 2027", "t": "Skyborne visual update", "d": "Updated Skyborne models and druid forms.", "i": ["spell_nature_polymorph"],
-     "src": [{"name": "Blizzard", "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"}]},
+     "src": [{"name": "Blizzard", "url": "https://news.blizzard.com/en-us/article/24302546/world-of-warcraft-forever-the-future-of-skyborne-visual-updates"}]},
     {"date": None, "when": "Spring 2027 (reported)", "t": "Next raid tier", "d": "Reported: two raids, two dungeons and a legendary questline.", "i": ["achievement_boss_ragnaros"]},
     {"date": None, "when": "Summer 2027 (reported)", "t": "A revamped iconic raid", "d": "Blizzard has promised a revamped iconic raid but hasn't said which one. Fan sites put it in summer.", "i": ["inv_hammer_unique_sulfuras"]},
 ]

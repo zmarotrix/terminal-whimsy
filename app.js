@@ -361,9 +361,22 @@ function hero() {
   else (function step() { line.textContent = cmd.slice(0, ++i); if (i < cmd.length) setTimeout(step, 38 + Math.random() * 60); })();
   // a countdown with a start ("from") gets a cast bar under it, filling up like a spell being cast
   $(".count").innerHTML = D.COUNTDOWNS.map((c, k) => `<div class="cd${c.from ? " casting" : ""}" id="cd${k}"><img src="${ICON(c.i)}" alt=""><div><div class="n">–</div><div class="l"><b>${esc(c.label)}</b>${esc(c.sub)}</div>${c.from ? `<div class="castbar" aria-hidden="true"><i></i><span>${esc(c.cast || c.label)}</span></div>` : ""}</div></div>`).join("");
+  // the next weekly slot (e.g. Tuesday 7:00 in Los Angeles) as a timestamp; stays on it for its duration
+  const zoneOffset = (t, tz) => { const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" }).formatToParts(t).map(x => [x.type, x.value])); return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second) - t; };
+  function nextWeekly({ dow, h, tz, mins = 60 }) {
+    const now = Date.now(), DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    for (let k = -1; k <= 8; k++) {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", weekday: "short" }).formatToParts(now + k * DAY).map(x => [x.type, x.value]));
+      if (DOW.indexOf(p.weekday) !== dow) continue;
+      const wall = Date.UTC(+p.year, +p.month - 1, +p.day, h), t = wall - zoneOffset(wall, tz);
+      if (t + mins * 6e4 > now) return t;
+    }
+    return now + 7 * DAY;
+  }
   function tickCd() {
     D.COUNTDOWNS.forEach((c, k) => {
-      const el = $("#cd" + k), d = new Date(c.at).getTime() - Date.now(), n = $(".n", el);
+      const el = $("#cd" + k), n = $(".n", el), d = (c.weekly ? nextWeekly(c.weekly) : new Date(c.at).getTime()) - Date.now();
+      if (c.weekly) el.classList.toggle("live", d <= 0);
       if (c.from) { const a = new Date(c.from).getTime(), p = Math.max(0, Math.min(1, (Date.now() - a) / (new Date(c.at).getTime() - a))); const b = $(".castbar", el); b.style.setProperty("--p", p); b.dataset.tip = `${Math.floor(p * 100)}% cast`; }
       if (c.since) { n.textContent = Math.max(0, Math.floor(-d / DAY)) + " days"; el.classList.add("live"); return; }
       if (d <= 0) { n.textContent = "Now"; el.classList.add("live"); return; }

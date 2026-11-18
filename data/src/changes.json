@@ -2094,5 +2094,25 @@
     "url": "https://rankedboost.com/world-of-warcraft/forever/raids/"
    }
   ]
+ },
+ {
+  "area": "economy",
+  "class": null,
+  "title": "Exploit gold and bought gold get taken back",
+  "classic": "Temporary Economy Holds didn't exist. Blizzard says the system starts in Forever and may reach other versions later.",
+  "forever": "Accounts suspected of real-money trading can be put on a Temporary Economy Hold that blocks trade, mail, guild banks and the Auction House while Blizzard investigates, with no lasting strike if cleared. After the Blackmaw Hold farm, Blizzard economy-locked a couple hundred accounts on 16 Nov, then from 17 Nov removed the gold they made and suspended significant abusers.",
+  "impact": "Don't take gold from strangers or farm an obvious bug. The gold can vanish and the account can be locked.",
+  "severity": "notable",
+  "confidence": "official",
+  "sources": [
+   {
+    "name": "Blizzard forums: Blackmaw Hold actions",
+    "url": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757/1"
+   },
+   {
+    "name": "Blizzard forums: Temporary Economy Holds",
+    "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433/1"
+   }
+  ]
  }
 ]

@@ -360,19 +360,38 @@ footer b{color:var(--ink)}
 .seg button{border:0;background:none;color:var(--muted);font:700 .92rem/1 var(--f-sans);padding:.6rem .95rem;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:.45rem}
 .seg button[aria-selected="true"]{background:var(--bg4);color:var(--ink);box-shadow:inset 0 -2px 0 var(--term)}
 .seg .n{font:600 .7rem/1 var(--f-mono);color:var(--dim)}
-/* hotfix lines */
-.hlines{display:flex;flex-direction:column}
-.hline{padding:.5rem .4rem;border-bottom:1px solid var(--rule)}
-.hline .ht{font-size:.98rem;line-height:1.45}
+/* hotfix lines: a small diamond bullet per fix, the text kept to a readable width */
+.hlines{display:flex;flex-direction:column;gap:.1rem}
+.hline{position:relative;padding:.32rem .5rem .32rem 1.55rem;border-radius:6px;transition:background .15s}
+.hline::before{content:"";position:absolute;left:.6rem;top:.86rem;width:5px;height:5px;border-radius:1px;transform:rotate(45deg);background:var(--dim);transition:background .15s}
+.hline:hover{background:rgba(255,255,255,.025)}
+.hline:hover::before{background:var(--gold)}
+.hline .ht{font-size:.97rem;line-height:1.5;max-width:80ch;color:#dfe2ec}
 .hline .hd{font:600 .72rem/1 var(--f-mono);color:var(--gold);margin-right:.5rem}
 .hline .hp{font:600 .72rem/1 var(--f-mono);color:var(--term);margin-right:.45rem;letter-spacing:.02em}
-.hline .hs{margin:.3rem 0 0;padding-left:1.2rem;color:#c9cddb;font-size:.92rem}
-.hline .hn{margin-top:.3rem;padding-left:.7rem;border-left:2px solid var(--whim);color:var(--muted);font-size:.9rem;font-style:italic}
-.hday .month{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
-.hsrc{font:500 .7rem/1 var(--f-mono);letter-spacing:0;text-transform:none}
-.hgrp{margin-top:.9rem}
-.hgrp h4{font:700 .95rem/1.2 var(--f-sans);color:var(--ink);padding:0 .4rem .2rem}
-.hgrp h4 .n{font:600 .7rem/1 var(--f-mono);color:var(--dim)}
+.hline .hs{margin:.3rem 0 0;padding-left:1.2rem;color:#c9cddb;font-size:.92rem;max-width:78ch}
+.hline .hn{margin:.45rem 0 .25rem;padding:.55rem .75rem .6rem;max-width:78ch;border-radius:8px;background:rgba(232,137,255,.06);border:1px solid rgba(232,137,255,.2);color:#d9d2e6;font-size:.9rem;line-height:1.5}
+.hline .hn b{display:block;margin-bottom:.25rem;font:700 .62rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--whim)}
+/* the hotfix log: one card per Blizzard post */
+.hday{margin-top:1.25rem;border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;background:linear-gradient(180deg,var(--bg2),var(--bg) 220px)}
+.hday.new{border-color:rgba(124,242,154,.35);box-shadow:0 10px 34px -22px rgba(124,242,154,.55)}
+.hhead{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .85rem;padding:.8rem 1rem;border-bottom:1px solid var(--rule);background:linear-gradient(90deg,rgba(242,197,107,.07),transparent 60%)}
+.hdate{font:700 .8rem/1.2 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.hmeta{display:inline-flex;align-items:center;gap:.5rem;font:500 .74rem/1 var(--f-mono);color:var(--dim)}
+.hmeta .newpill{margin:0;vertical-align:0}
+.hhead .hsrc{margin-left:auto;padding:.38rem .65rem;border:1px solid rgba(242,197,107,.32);border-radius:999px;font:600 .72rem/1 var(--f-mono);color:var(--gold);text-decoration:none;white-space:nowrap;transition:background .15s,border-color .15s}
+.hhead .hsrc:hover{background:rgba(242,197,107,.1);border-color:var(--gold)}
+.hbody{padding:.2rem .6rem .7rem}
+.hgrp{padding:.75rem .4rem .2rem}
+.hgrp+.hgrp{border-top:1px solid rgba(37,43,61,.7)}
+.hgrp h4{display:flex;align-items:center;flex-wrap:wrap;gap:.2rem .55rem;margin-bottom:.3rem;font:800 .72rem/1.2 var(--f-sans);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.hgrp h4 .ic{width:24px;height:24px;border-radius:5px}
+.hgrp h4 .hb{font:700 .98rem/1.2 var(--f-sans);letter-spacing:0;text-transform:none;color:var(--ink)}
+.hgrp h4.solo .ha,.hgrp h4 .hb{font:700 .98rem/1.2 var(--f-sans);letter-spacing:0;text-transform:none;color:var(--ink)}
+.hgrp h4 .hb::before{content:"›";margin-right:.5rem;color:var(--dim);font-weight:400}
+.hgrp h4 .n{padding:.15rem .4rem;border-radius:999px;background:var(--bg3);font:600 .66rem/1 var(--f-mono);letter-spacing:0;color:var(--dim)}
+.hgrp .hline{margin-left:.15rem}
+@media (max-width:600px){.hhead{padding:.7rem .75rem}.hhead .hsrc{margin-left:0}.hbody{padding:.1rem .2rem .5rem}.hgrp{padding-inline:.35rem}}
 /* wire stories */
 .story{border-bottom:1px solid var(--rule)}
 .story .post{border-bottom:0}

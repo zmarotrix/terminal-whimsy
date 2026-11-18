@@ -39,7 +39,7 @@ const VISIT = (() => {
 })();
 const SINCE = VISIT.since;
 // when something happened, for "is it new": date-only rows count as midday
-const when = x => { const d = x.at || x.last || x.date; return d ? new Date(d.length === 10 ? d + "T12:00:00" : d).getTime() : 0; };
+const when = x => { const d = x.at || x.posted || x.last || x.date; return d ? new Date(d.length === 10 ? d + "T12:00:00" : d).getTime() : 0; };
 const isNew = x => SINCE > 0 && when(x) > SINCE;
 
 /* ---------------- tooltip ---------------- */
@@ -487,7 +487,19 @@ function drawChanges() {
 /* ---------------- hotfix log (data/hotfixes.json, split from Blizzard's hotfix posts) ---------------- */
 let HOT = [], mode = "diff";
 const hstate = { area: "all", q: "", days: 4 };
-const hotLine = (l, withDate) => `<div class="hline"><div class="ht">${withDate ? `<span class="hd">${esc(fmtDate(l.date, { day: "numeric", month: "short" }))}</span>` : ""}${l.path.length > 1 ? `<span class="hp">${esc(l.path.slice(1).join(" › "))}</span>` : ""}${esc(l.text)}</div>${l.subs ? `<ul class="hs">${l.subs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${l.note ? `<p class="hn">${esc(l.note)}</p>` : ""}</div>`;
+const devNote = n => n.replace(/^developers?['’]?\s*notes?:\s*/i, "");
+const hotLine = (l, withDate) => `<div class="hline"><div class="ht">${withDate ? `<span class="hd">${esc(fmtDate(l.date, { day: "numeric", month: "short" }))}</span>` : ""}${l.path.length > 1 ? `<span class="hp">${esc(l.path.slice(1).join(" › "))}</span>` : ""}${esc(l.text)}</div>${l.subs ? `<ul class="hs">${l.subs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${l.note ? `<p class="hn"><b>Developers' note</b>${esc(devNote(l.note))}</p>` : ""}</div>`;
+// each section of a hotfix post gets an icon; a class section gets the class's icon and colour
+const HOT_ICON = { "Classes": "achievement_character_human_male", "Quests": "inv_scroll_03", "Items": "inv_box_01", "Enemies and NPCs": "inv_misc_bone_humanskull_01",
+  "Dungeons": "inv_misc_key_14", "Professions": "trade_blacksmithing", "World": "inv_misc_map_01", "Player versus Player": "inv_bannerpvp_02", "Camping": "inv_misc_bag_10",
+  "User Interface": "inv_misc_enggizmos_20", "Races": "achievement_character_human_male", "Legacy": "inv_misc_book_07", "Customer Support": "inv_letter_15" };
+const HOT_PROF = { Blacksmithing: "trade_blacksmithing", Herbalism: "trade_herbalism", Mining: "trade_mining", Tailoring: "trade_tailoring", Alchemy: "trade_alchemy",
+  Engineering: "trade_engineering", Fishing: "trade_fishing", Leatherworking: "trade_leatherworking", Skinning: "trade_leatherworking", Cooking: "inv_misc_food_15", "First Aid": "inv_misc_bandage_15" };
+function hotHead(path, n) {
+  const [a = "General", b] = path, cls = b && Object.keys(CL).find(k => CL[k].n === b);
+  const ic = cls ? CL[cls].i : (a === "Professions" && HOT_PROF[b]) || (/fish/i.test(a) ? "inv_fishingpole_02" : HOT_ICON[a] || "inv_misc_wrench_01");
+  return `<h4${b ? "" : ' class="solo"'}>${icon(ic)}<span class="ha">${esc(a)}</span>${b ? `<span class="hb"${cls ? ` style="color:${CL[cls].c}"` : ""}>${esc(b)}</span>` : ""}<span class="n">${n}</span></h4>`;
+}
 function setMode(m) {
   mode = m;
   if (m === "hot") award("hotread");
@@ -514,8 +526,12 @@ function drawHot() {
   for (const d of days.slice(0, hstate.days)) {
     const dayLines = L.filter(l => l.date === d), byPath = new Map();
     dayLines.forEach(l => { const k = l.path.slice(0, 2).join(" › ") || "General"; if (!byPath.has(k)) byPath.set(k, []); byPath.get(k).push(l); });
-    html += `<div class="hday"><div class="month">${esc(fmtDate(d, { weekday: "long", day: "numeric", month: "long" }))}${isNew({ date: d }) ? ` <span class="newpill" data-tip="New since your last visit">new</span>` : ""} <a class="hsrc" href="${esc(dayLines[0].url)}" target="_blank" rel="noopener">Blizzard's post ↗</a></div>` +
-      [...byPath].map(([k, ls]) => `<div class="hgrp"><h4>${esc(k)} <span class="n">${ls.length}</span></h4>${ls.map(l => hotLine({ ...l, path: l.path.length > 2 ? ["", ...l.path.slice(2)] : [] })).join("")}</div>`).join("") + `</div>`;
+    // one card per Blizzard post: the date, whether it's new to you, how many fixes, then each section
+    const fresh = dayLines.some(isNew), who = dayLines[0].who;
+    html += `<section class="hday${fresh ? " new" : ""}"><header class="hhead"><span class="hdate">${esc(fmtDate(d, { weekday: "long", day: "numeric", month: "long" }))}</span>` +
+      `<span class="hmeta">${fresh ? `<span class="newpill" data-tip="New since your last visit">new</span>` : ""}<span>${dayLines.length} fix${dayLines.length === 1 ? "" : "es"}${who ? ` · ${esc(who)}` : ""}</span></span>` +
+      `<a class="hsrc" href="${esc(dayLines[0].url)}" target="_blank" rel="noopener">Blizzard's post ↗</a></header><div class="hbody">` +
+      [...byPath].map(([, ls]) => `<div class="hgrp">${hotHead(ls[0].path.slice(0, 2), ls.length)}${ls.map(l => hotLine({ ...l, path: l.path.length > 2 ? ["", ...l.path.slice(2)] : [] })).join("")}</div>`).join("") + `</div></section>`;
   }
   $("#hotList").innerHTML = html || `<div class="empty">> no hotfixes match. try clearing a filter.</div>`;
   $("#hotMore").hidden = days.length <= hstate.days;

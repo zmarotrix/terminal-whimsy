@@ -198,7 +198,7 @@ ACH = {
     "dawn": {"n": "First Light", "d": "Visited at dawn and saw the sky go pink.", "i": "spell_holy_holybolt", "cat": "Whimsy", "secret": True},
     "critter": {"n": "Critter Love", "d": "Gave a critter some /love.", "i": "inv_valentinescandy", "cat": "Whimsy", "secret": True},
     "critters": {"n": "To All the Critters", "d": "Loved a rabbit, a squirrel, a toad and a rat.", "i": "inv_misc_flower_02", "cat": "Whimsy", "secret": True},
-    "murloc": {"n": "Mrglglgl", "d": "Caught the murloc that wanders the banners, and loved it.", "i": "inv_misc_head_murloc_01", "cat": "Whimsy", "secret": True},
+    "bannermurloc": {"n": "Fish Out of Water", "d": "Caught the murloc that wanders the banners, and loved it.", "i": "inv_misc_head_murloc_01", "cat": "Whimsy", "secret": True},
     "lost": {"n": "Off the Map", "d": "Found a page that doesn't exist.", "i": "spell_shadow_teleport", "cat": "Whimsy", "secret": True},
     # ---- Terminal ----
     "term": {"n": "Hello, World", "d": "Opened the hidden terminal.", "i": "inv_misc_enggizmos_20", "cat": "Terminal", "secret": True},
@@ -465,7 +465,7 @@ WISP = {
         "back": ["> you're back. i kept your spot.", "> oh, hello again. i didn't move. (i moved a little.)"],
         "backnews": ["> welcome back. {n} new on the wire since you left."],
         # world.js: what you missed (the ! on the tabs shows where), critters on the banners
-        "away": {
+        "missed": {
             "both": ["> while you were out: {said} from blizzard and {hot}. the ! tabs have them.", "> you missed {said} from blizzard and {hot}. follow the !s."],
             "said": ["> blizzard made {said} while you were out. the ! tab has it."],
             "hot": ["> {hot} landed while you were out. changes, then hotfix log."],

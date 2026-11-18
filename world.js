@@ -7,7 +7,7 @@
 const X = window.TWX;
 if (!X) return;
 const { D, $, store, award, REDUCE } = X;
-const W = D.WISP || {};
+const W = (D.WISP && D.WISP.mind) || {};     // its own lines (tools/curated.py, WISP["mind"])
 const pick = a => Array.isArray(a) ? a[Math.random() * a.length | 0] : a;
 const fill = (s, o = {}) => String(s || "").replace(/\{(\w+)\}/g, (_, k) => o[k] ?? "");
 const plural = (n, one, many) => n + " " + (n === 1 ? one : many);
@@ -71,11 +71,12 @@ function news(list) {
   marks();
   if (!X.visit.fresh || X.visit.since <= 0) return;
   const said = X.said.filter(X.isNew).length, hot = X.hot.filter(X.isNew).length, wire = stories.filter(X.isNew).length;
-  const A = W.away || {}, o = { said: plural(said, "post", "posts"), hot: plural(hot, "hotfix", "hotfixes"), wire };
+  const A = W.missed || {}, o = { said: plural(said, "post", "posts"), hot: plural(hot, "hotfix", "hotfixes"), wire };
   const line = said && hot ? A.both : said ? A.said : hot ? A.hot : wire >= 5 ? A.wire : null;
   if (!line) return;
   let tries = 0;
-  (function tell() { if (!say(fill(pick(line), o), { gap: 1, hold: 6000 }) && ++tries < 4) setTimeout(tell, 6000); })();
+  // it waits its turn: the night-time yawn or a toast line can hold the bubble for a while
+  (function tell() { if (!say(fill(pick(line), o), { gap: 1, hold: 6000 }) && ++tries < 12) setTimeout(tell, 5000); })();
 }
 
 /* =================== critters along the bottom of the banners =================== */
@@ -145,7 +146,7 @@ function critter(host, kind) {
     state = "pause"; until = performance.now() + 1300;
     const L = store.get("critterLove", {}); L[kind] = (L[kind] || 0) + 1; store.set("critterLove", L);
     award("critter");
-    if (kind === "murloc") award("murloc");
+    if (kind === "murloc") award("bannermurloc");
     if (COMMON.every(k => L[k])) award("critters");
     if (X.mind) X.mind.feel({ fun: 2 });
     setTimeout(() => { el.classList.remove("loved"); v = K.v * 2.4; }, 1000);     // then off it goes, happy

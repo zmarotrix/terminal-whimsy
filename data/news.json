@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:06:46Z",
+ "updated": "2026-11-18T08:44:40Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,40 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
+   "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
+   "date": "2026-11-17T15:38:22Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "faaeb1547b",
+   "first": "2026-11-17T07:04:34Z",
+   "last": "2026-11-18T06:27:26Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [],
+   "n": 3,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Removes Blackmaw Hold Farm Gold in WoW: Forever",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTC11Y3pPaUV5Y21sWmdOa0p0UENpNGlfbmJmSE1aU1NMcC1adk14SzlyMk1WblpQQWRnMWFhWlk5WjlxUXBfQ1BtX2dHWWFBWEJ5WXo5NFRfRktDUjZJVE1ZYXhTRTVobFBhLW12Mkp3WTFzY0NwRV9LNEtmOVdGSA?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-18T06:27:26Z"
+    },
+    {
+     "title": "Blackmaw Hold Farm Megathread",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xydtpi/blackmaw_hold_farm_megathread/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-17T07:04:34Z"
+    }
+   ]
+  },
   {
    "title": "World of Warcraft Forever gets two anti-boosting dungeon XP changes in one weekend",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMXNrVll3NWd0TVZINXVCTG9RNi0yemVqMU9TSVJzbmo2MFBuVE5TbjViM1dLb1FrMHVDWVFFMElZbUdweUJCdEsyYkZPdXQ5cDVqcnJSUzVuX0ZxMGVxN1hiVFBONmxYNmZaRVFGN1pjS1BaWm1jWnllcmpfcnpINkVKa1pTU1lWUFQ5bDkwZFQ4Rkt5RHNNOElwdWlpWnhHdThDWg?oc=5",
@@ -74,8 +108,8 @@
    "last": "2026-11-18T04:02:56Z",
    "tags": [
     "hotfix",
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -202,8 +236,8 @@
    "last": "2026-11-17T22:51:22Z",
    "tags": [
     "economy",
-    "pvp",
-    "leveling"
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 2,
@@ -270,8 +304,8 @@
    "last": "2026-11-17T21:33:45Z",
    "tags": [
     "hotfix",
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -396,8 +430,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -462,33 +496,6 @@
    "also": []
   },
   {
-   "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
-   "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
-   "date": "2026-11-17T15:38:22Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "faaeb1547b",
-   "first": "2026-11-17T07:04:34Z",
-   "last": "2026-11-17T15:38:22Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "Blackmaw Hold Farm Megathread",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xydtpi/blackmaw_hold_farm_megathread/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-17T07:04:34Z"
-    }
-   ]
-  },
-  {
    "title": "NA WoW: Forever Servers Down for Scheduled Maintenance for 1 Hour",
    "url": "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour",
    "date": "2026-11-17T14:54:56Z",
@@ -500,8 +507,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -771,10 +778,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "hotfix",
-    "classes",
     "items",
-    "professions"
+    "hotfix",
+    "professions",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -813,10 +820,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
+    "items",
     "hotfix",
-    "classes",
     "leveling",
-    "items"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1074,20 +1081,12 @@
    "icon": "inv_misc_book_09",
    "id": "99d576cd68",
    "first": "2026-11-16T18:10:00Z",
-   "last": "2026-11-16T18:29:12Z",
+   "last": "2026-11-16T18:10:00Z",
    "tags": [],
    "classes": [],
-   "n": 2,
+   "n": 1,
    "official": false,
-   "also": [
-    {
-     "title": "World of Warcraft: Forever - Official Getting Started in Azeroth Overview",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnNVazdqcVlBM0Ytdno3d19hZEZ6UzNYVU1rLTNXdkVfTVVDdUJjbjZjWDNkOXpWOW83SlFZblpidWFHcWluVlVhVmYzWEtFQjF3R3hVankxTmNLOFoyLWRDZ0s5a2RCX1Njc2Zsbm1SeGFyM1JzT21rbTdqTnoyU2JXTEdGLXBsNUJGMTZxY2E2YklfVzFGM3hSYXRoZw?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-16T18:29:12Z"
-    }
-   ]
+   "also": []
   },
   {
    "title": "First timer? Or just need a refresher? Start here 👇 Watch ‘Forever 101’ on YouTube! blizz.ly/4CaOmJ6",
@@ -1462,8 +1461,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "hotfix",
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1617,8 +1616,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1740,8 +1739,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1859,8 +1858,8 @@
    "last": "2026-11-12T17:58:03Z",
    "tags": [
     "realms",
-    "pvp",
-    "story"
+    "story",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1955,8 +1954,8 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "hotfix",
     "items",
+    "hotfix",
     "professions"
    ],
    "classes": [],
@@ -2014,8 +2013,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2093,8 +2092,8 @@
    ],
    "classes": [
     "warlock",
-    "hunter",
-    "shaman"
+    "shaman",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2341,9 +2340,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
+    "items",
     "hotfix",
-    "classes",
-    "items"
+    "classes"
    ],
    "classes": [
     "shaman"
@@ -2418,8 +2417,8 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "hotfix",
     "ui",
+    "hotfix",
     "classes"
    ],
    "classes": [
@@ -2503,8 +2502,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "hotfix",
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3056,9 +3055,9 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
     "ui",
     "classes",
+    "pvp",
     "leveling"
    ],
    "classes": [],
@@ -3080,8 +3079,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "classes",
-    "leveling",
-    "raids"
+    "raids",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3436,6 +3435,19 @@
   }
  ],
  "items": [
+  {
+   "title": "Blizzard Removes Blackmaw Hold Farm Gold in WoW: Forever",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTC11Y3pPaUV5Y21sWmdOa0p0UENpNGlfbmJmSE1aU1NMcC1adk14SzlyMk1WblpQQWRnMWFhWlk5WjlxUXBfQ1BtX2dHWWFBWEJ5WXo5NFRfRktDUjZJVE1ZYXhTRTVobFBhLW12Mkp3WTFzY0NwRV9LNEtmOVdGSA?oc=5",
+   "date": "2026-11-18T06:27:26Z",
+   "who": "GodisaGeek.com",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
+   "classes": []
+  },
   {
    "title": "World of Warcraft Forever gets two anti-boosting dungeon XP changes in one weekend",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMXNrVll3NWd0TVZINXVCTG9RNi0yemVqMU9TSVJzbmo2MFBuVE5TbjViM1dLb1FrMHVDWVFFMElZbUdweUJCdEsyYkZPdXQ5cDVqcnJSUzVuX0ZxMGVxN1hiVFBONmxYNmZaRVFGN1pjS1BaWm1jWnllcmpfcnpINkVKa1pTU1lWUFQ5bDkwZFQ4Rkt5RHNNOElwdWlpWnhHdThDWg?oc=5",
@@ -4207,17 +4219,6 @@
    "source": "r/wowforever",
    "label": "community",
    "icon": "inv_shirt_guildtabard_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever - Official Getting Started in Azeroth Overview",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnNVazdqcVlBM0Ytdno3d19hZEZ6UzNYVU1rLTNXdkVfTVVDdUJjbjZjWDNkOXpWOW83SlFZblpidWFHcWluVlVhVmYzWEtFQjF3R3hVankxTmNLOFoyLWRDZ0s5a2RCX1Njc2Zsbm1SeGFyM1JzT21rbTdqTnoyU2JXTEdGLXBsNUJGMTZxY2E2YklfVzFGM3hSYXRoZw?oc=5",
-   "date": "2026-11-16T18:29:12Z",
-   "who": "IGN",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
    "tags": [],
    "classes": []
   },

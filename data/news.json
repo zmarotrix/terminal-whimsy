@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:26:10Z",
+ "updated": "2026-11-18T08:00:00Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,25 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "World of Warcraft Forever gets two anti-boosting dungeon XP changes in one weekend",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMXNrVll3NWd0TVZINXVCTG9RNi0yemVqMU9TSVJzbmo2MFBuVE5TbjViM1dLb1FrMHVDWVFFMElZbUdweUJCdEsyYkZPdXQ5cDVqcnJSUzVuX0ZxMGVxN1hiVFBONmxYNmZaRVFGN1pjS1BaWm1jWnllcmpfcnpINkVKa1pTU1lWUFQ5bDkwZFQ4Rkt5RHNNOElwdWlpWnhHdThDWg?oc=5",
+   "date": "2026-11-18T05:58:13Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "eGamers.io",
+   "icon": "inv_misc_spyglass_03",
+   "id": "3d46f9b5d6",
+   "first": "2026-11-18T05:58:13Z",
+   "last": "2026-11-18T05:58:13Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",
    "url": "https://www.warcrafttavern.com/forever/news/cozy-sleeping-bag-shendralas-wow-forever-hotfixes-for-november-17/",
@@ -54,9 +73,9 @@
    "first": "2026-11-18T04:02:56Z",
    "last": "2026-11-18T04:02:56Z",
    "tags": [
+    "leveling",
     "classes",
-    "hotfix",
-    "leveling"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -154,7 +173,7 @@
    "also": []
   },
   {
-   "title": "4 Things To Know If WoW: Forever Is Your First Time Playing World Of Warcraft",
+   "title": "4 Things to Know If WoW: Forever Is Your First Time Playing World of Warcraft",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ25pWTEyZVE3Si1UdlY0Zzh0ZURiVEJMQTA4WThyWGJoQ0MwczZLVktmeDZ1WmZsYlRJOVlrWTV2WTI4Z0llNW1xWXhsZ1U1QUZlMXFqSzNEY014SFVWYTBLQW9zNWpWTzR3bGt0Y0ZiOTV2a0UyczJVQ0xEWFVSYWtCWHZHU09lUm00T3BqVzhjR1M4TzU1dmV3bTdqalBKWHRfVTFjYw?oc=5",
    "date": "2026-11-18T00:00:00Z",
    "label": "press",
@@ -200,6 +219,28 @@
    ]
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-17T22:50:58Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "59e25fb230",
+   "first": "2026-11-17T22:50:58Z",
+   "last": "2026-11-17T22:50:58Z",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "World of Warcraft Forever posts a guide to getting started fresh in the game",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRE96LUpDdFc3NEw4Y0xtTzVWWk1ITmpuXzhCcmZjVDFFTEI2REJtNDA1dEl2MDdFd1dGZU4zVFlVU3ZPVGhBYmlBNHMzeEJ6SlVkMHVMZVdvanFHUnlKbG9DWEZ6S0hHTmF6eHU2Um45NklaaTBCYzd3RWQ1WlZOMWFYVnVhXzIwOUVEX01KSFZ1M1Z4WTZMRVNnanhyLUZLRFhaMmhUYlJuMjlKa0p0TmNR?oc=5",
    "date": "2026-11-17T22:00:55Z",
@@ -228,9 +269,9 @@
    "first": "2026-11-17T21:33:45Z",
    "last": "2026-11-17T21:33:45Z",
    "tags": [
+    "leveling",
     "classes",
-    "hotfix",
-    "leveling"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -355,8 +396,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -459,8 +500,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -479,8 +520,8 @@
    "first": "2026-11-17T14:54:41Z",
    "last": "2026-11-17T14:54:41Z",
    "tags": [
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -501,8 +542,8 @@
    "first": "2026-11-17T13:36:49Z",
    "last": "2026-11-17T13:36:49Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -539,8 +580,8 @@
    "first": "2026-11-17T11:56:46Z",
    "last": "2026-11-17T11:56:46Z",
    "tags": [
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -639,6 +680,27 @@
    "also": []
   },
   {
+   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
+   "date": "2026-11-17T06:31:26Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "ebfb657fbd",
+   "first": "2026-11-17T06:31:26Z",
+   "last": "2026-11-17T06:31:26Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Idea for the Blackmaw Hold exploiters, don't ban them, just wipe them",
    "url": "https://www.reddit.com/r/wowforever/comments/1xyavlh/idea_for_the_blackmaw_hold_exploiters_dont_ban/",
    "date": "2026-11-17T04:17:49Z",
@@ -657,6 +719,27 @@
    "also": []
   },
   {
+   "title": "Enhancement Shaman Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Vc29VZnRCc1p5SFV2a2JwZTBiQnFkSTh0UzJIdXVvNlBmZEVMdEtDakZ5TWplOXNRbDRjRGpmOUtYbmhWYktyZ2RTSXhfc3lfUml4RWdXdGt2azFvRXhLbEk0cUpCMEx5SVhqT09LVnhhUmJ3?oc=5",
+   "date": "2026-11-17T03:28:58Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "5a6d130d5d",
+   "first": "2026-11-17T03:28:58Z",
+   "last": "2026-11-17T03:28:58Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "shaman"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Fishing Rack Adjustments: WoW Forever Hotfixes for November 16",
    "url": "https://www.warcrafttavern.com/forever/news/fishing-rack-adjustments-wow-forever-hotfixes-for-november-16/",
    "date": "2026-11-17T02:36:53Z",
@@ -669,10 +752,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
+    "items",
     "professions",
-    "hotfix",
     "classes",
-    "items"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -711,10 +794,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "classes",
-    "hotfix",
     "leveling",
-    "items"
+    "items",
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -792,27 +875,6 @@
     "realms"
    ],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Protection Paladin Leveling Guide - 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUHVVc0lialViUDhIQzJxaU9uQVpERDc3b1U3U0pGR1ZpQzZGaGR2S2ZfUjdFMXBDZUFVTGJpSkU2bUlOQnNYNVFEV09YamczSm1ndlVlVWF0NXdwcURlSk41SC0wM3VsMFZfOVowY0JidXAxQ1NNX19DT1JjNlN0YkdXcDhMYjRPd3FIYnJqeWpValAwdVVVQg?oc=5",
-   "date": "2026-11-16T23:52:42Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "299de83770",
-   "first": "2026-11-16T23:52:42Z",
-   "last": "2026-11-16T23:52:42Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [
-    "paladin"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -946,31 +1008,24 @@
    "also": []
   },
   {
-   "title": "WoW Forever Group Finder: How to Find a Dungeon Group",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82N3p6NDB0eldGS1ZtQmVDbDRuMkFQSlJDVlktRmE4dkRINEQ0UlZDcWoxWno2b3gxcDAyRW9QT3pZUzhIOVFwRG91RHliQm1JSlNNeTM1ZWlYdU5FbG5zTTUtQnlwV04xVWFKenZn?oc=5",
-   "date": "2026-11-16T18:11:37Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "b05f6f05c9",
-   "first": "2026-11-16T18:11:37Z",
+   "title": "Your daily dungeon reminder…",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xxyjmb/your_daily_dungeon_reminder/",
+   "date": "2026-11-16T19:24:25Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "If you’re more than 5 minutes away from a dungeon, don’t be in the finder. Edit: glad this is well received. We need to continue to call these people out or kick them from the group immediately.",
+   "who": "/u/unconvincedhuman",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "c63fc297eb",
+   "first": "2026-11-16T19:24:25Z",
    "last": "2026-11-16T19:24:25Z",
    "tags": [
     "leveling"
    ],
    "classes": [],
-   "n": 2,
+   "n": 1,
    "official": false,
-   "also": [
-    {
-     "title": "Your daily dungeon reminder…",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xxyjmb/your_daily_dungeon_reminder/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-16T19:24:25Z"
-    }
-   ]
+   "also": []
   },
   {
    "title": "When you're level 43, 25g away from affording mount, and the RNG gods absolutely bless you",
@@ -1069,23 +1124,6 @@
    "also": []
   },
   {
-   "title": "World of Warcraft: Forever completionists push back as Blizzard gives them a powerful toy and then prepares to take it away",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2NjOEh2dzBDOUlqbFJsX2dPaU1mSTRjWTlkZmdkbzdwTkpiTmJiYUU0V09ETkZTTDRQeHdOSXI3S1F4QWo5ekhJTEc2dFFyMWdyRFJUTXpQY2ViOS1udEtmckl1LTNmX1dqX1ZZVTlmcmdURWY0M1FvdW11N19tQ3JmRQ?oc=5",
-   "date": "2026-11-16T16:43:10Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Eurogamer.net",
-   "icon": "inv_misc_spyglass_03",
-   "id": "7b417e1433",
-   "first": "2026-11-16T16:43:10Z",
-   "last": "2026-11-16T16:43:10Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "I deleted 5 books before learning you shouldn't do it and now i'm sad",
    "url": "https://www.reddit.com/r/wowforever/comments/1xxtwqu/i_deleted_5_books_before_learning_you_shouldnt_do/",
    "date": "2026-11-16T16:31:43Z",
@@ -1098,25 +1136,6 @@
    "first": "2026-11-16T16:31:43Z",
    "last": "2026-11-16T16:31:43Z",
    "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft Forever tries to shut down dungeon boosting but riles up the playerbase in the process",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX3NKSlpobEJKdDg3Y0lsMTdRV3FqSVduaDM3Z1Z2X2ZGeXJRa0RiLTJUMFVOUl8wclNBTVVZV2hNWmlzd1Z5N19NcGk4djRCT2drQUFOOGlHUWpRTUduTWZYWll2eEVhYWRQUDhuOEhDTDRmY0dRMkNYX0E3U19OZVZaVTk1WGtxNVphRDYxOVdGQl9QenRtWnVaZVZUcS0wZlB6MXJoQ1RyRUJVUEh4aWNrLUI3anlNUkRVR1hrVWpUaDBhenNfQ0U4MlFUeFhaVUZ3M0k1SQ?oc=5",
-   "date": "2026-11-16T16:30:36Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "28ec5573f4",
-   "first": "2026-11-16T16:30:36Z",
-   "last": "2026-11-16T16:30:36Z",
-   "tags": [
-    "leveling"
-   ],
    "classes": [],
    "n": 1,
    "official": false,
@@ -1224,8 +1243,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -1442,9 +1461,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "leveling",
     "classes",
-    "hotfix",
-    "leveling"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1598,8 +1617,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1619,8 +1638,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -1721,8 +1740,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1839,9 +1858,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
+    "story",
     "pvp",
-    "realms",
-    "story"
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1936,9 +1955,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "items",
     "professions",
-    "hotfix",
-    "items"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2074,8 +2093,8 @@
    ],
    "classes": [
     "shaman",
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2164,8 +2183,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2185,8 +2204,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -2322,9 +2341,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "hotfix",
+    "items",
     "classes",
-    "items"
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -2400,8 +2419,8 @@
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
     "ui",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [
     "druid"
@@ -2444,8 +2463,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2483,9 +2502,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "leveling",
     "classes",
-    "hotfix",
-    "leveling"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2521,8 +2540,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "ui",
-    "items"
+    "items",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2750,8 +2769,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2859,8 +2878,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -3037,9 +3056,9 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "classes",
     "ui",
     "leveling",
+    "classes",
     "pvp"
    ],
    "classes": [],
@@ -3060,9 +3079,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
+    "raids",
     "classes",
-    "leveling",
-    "raids"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3418,6 +3437,19 @@
  ],
  "items": [
   {
+   "title": "World of Warcraft Forever gets two anti-boosting dungeon XP changes in one weekend",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMXNrVll3NWd0TVZINXVCTG9RNi0yemVqMU9TSVJzbmo2MFBuVE5TbjViM1dLb1FrMHVDWVFFMElZbUdweUJCdEsyYkZPdXQ5cDVqcnJSUzVuX0ZxMGVxN1hiVFBONmxYNmZaRVFGN1pjS1BaWm1jWnllcmpfcnpINkVKa1pTU1lWUFQ5bDkwZFQ4Rkt5RHNNOElwdWlpWnhHdThDWg?oc=5",
+   "date": "2026-11-18T05:58:13Z",
+   "who": "eGamers.io",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
    "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",
    "url": "https://www.warcrafttavern.com/forever/news/cozy-sleeping-bag-shendralas-wow-forever-hotfixes-for-november-17/",
    "date": "2026-11-18T04:06:27Z",
@@ -3507,7 +3539,7 @@
    "classes": []
   },
   {
-   "title": "4 Things To Know If WoW: Forever Is Your First Time Playing World Of Warcraft",
+   "title": "4 Things to Know If WoW: Forever Is Your First Time Playing World of Warcraft",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ25pWTEyZVE3Si1UdlY0Zzh0ZURiVEJMQTA4WThyWGJoQ0MwczZLVktmeDZ1WmZsYlRJOVlrWTV2WTI4Z0llNW1xWXhsZ1U1QUZlMXFqSzNEY014SFVWYTBLQW9zNWpWTzR3bGt0Y0ZiOTV2a0UyczJVQ0xEWFVSYWtCWHZHU09lUm00T3BqVzhjR1M4TzU1dmV3bTdqalBKWHRfVTFjYw?oc=5",
    "date": "2026-11-18T00:00:00Z",
    "who": "GameTyrant",
@@ -3531,6 +3563,22 @@
     "economy"
    ],
    "classes": []
+  },
+  {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-17T22:50:58Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ]
   },
   {
    "title": "World of Warcraft Forever posts a guide to getting started fresh in the game",
@@ -3847,6 +3895,21 @@
    "classes": []
   },
   {
+   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
+   "date": "2026-11-17T06:31:26Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
+  },
+  {
    "title": "Idea for the Blackmaw Hold exploiters, don't ban them, just wipe them",
    "url": "https://www.reddit.com/r/wowforever/comments/1xyavlh/idea_for_the_blackmaw_hold_exploiters_dont_ban/",
    "date": "2026-11-17T04:17:49Z",
@@ -3857,6 +3920,21 @@
    "icon": "inv_shirt_guildtabard_01",
    "tags": [],
    "classes": []
+  },
+  {
+   "title": "Enhancement Shaman Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Vc29VZnRCc1p5SFV2a2JwZTBiQnFkSTh0UzJIdXVvNlBmZEVMdEtDakZ5TWplOXNRbDRjRGpmOUtYbmhWYktyZ2RTSXhfc3lfUml4RWdXdGt2azFvRXhLbEk0cUpCMEx5SVhqT09LVnhhUmJ3?oc=5",
+   "date": "2026-11-17T03:28:58Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "shaman"
+   ]
   },
   {
    "title": "Fishing Rack Adjustments: WoW Forever Hotfixes for November 16",
@@ -3993,21 +4071,6 @@
     "realms"
    ],
    "classes": []
-  },
-  {
-   "title": "Protection Paladin Leveling Guide - 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUHVVc0lialViUDhIQzJxaU9uQVpERDc3b1U3U0pGR1ZpQzZGaGR2S2ZfUjdFMXBDZUFVTGJpSkU2bUlOQnNYNVFEV09YamczSm1ndlVlVWF0NXdwcURlSk41SC0wM3VsMFZfOVowY0JidXAxQ1NNX19DT1JjNlN0YkdXcDhMYjRPd3FIYnJqeWpValAwdVVVQg?oc=5",
-   "date": "2026-11-16T23:52:42Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [
-    "paladin"
-   ]
   },
   {
    "title": "The new Alcaz Prison dungeon has a quest that gives 25g.",
@@ -4159,19 +4222,6 @@
    "classes": []
   },
   {
-   "title": "WoW Forever Group Finder: How to Find a Dungeon Group",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82N3p6NDB0eldGS1ZtQmVDbDRuMkFQSlJDVlktRmE4dkRINEQ0UlZDcWoxWno2b3gxcDAyRW9QT3pZUzhIOVFwRG91RHliQm1JSlNNeTM1ZWlYdU5FbG5zTTUtQnlwV04xVWFKenZn?oc=5",
-   "date": "2026-11-16T18:11:37Z",
-   "who": "space4games",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
    "title": "Forever 101: Blizzard Releases New Player Overview Video for WoW: Forever",
    "url": "https://www.wowhead.com/news=383897/forever-101-blizzard-releases-new-player-overview-video-for-wow-forever",
    "date": "2026-11-16T18:10:00Z",
@@ -4205,17 +4255,6 @@
    "classes": []
   },
   {
-   "title": "World of Warcraft: Forever completionists push back as Blizzard gives them a powerful toy and then prepares to take it away",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2NjOEh2dzBDOUlqbFJsX2dPaU1mSTRjWTlkZmdkbzdwTkpiTmJiYUU0V09ETkZTTDRQeHdOSXI3S1F4QWo5ekhJTEc2dFFyMWdyRFJUTXpQY2ViOS1udEtmckl1LTNmX1dqX1ZZVTlmcmdURWY0M1FvdW11N19tQ3JmRQ?oc=5",
-   "date": "2026-11-16T16:43:10Z",
-   "who": "Eurogamer.net",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "I deleted 5 books before learning you shouldn't do it and now i'm sad",
    "url": "https://www.reddit.com/r/wowforever/comments/1xxtwqu/i_deleted_5_books_before_learning_you_shouldnt_do/",
    "date": "2026-11-16T16:31:43Z",
@@ -4225,19 +4264,6 @@
    "label": "community",
    "icon": "inv_shirt_guildtabard_01",
    "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft Forever tries to shut down dungeon boosting but riles up the playerbase in the process",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX3NKSlpobEJKdDg3Y0lsMTdRV3FqSVduaDM3Z1Z2X2ZGeXJRa0RiLTJUMFVOUl8wclNBTVVZV2hNWmlzd1Z5N19NcGk4djRCT2drQUFOOGlHUWpRTUduTWZYWll2eEVhYWRQUDhuOEhDTDRmY0dRMkNYX0E3U19OZVZaVTk1WGtxNVphRDYxOVdGQl9QenRtWnVaZVZUcS0wZlB6MXJoQ1RyRUJVUEh4aWNrLUI3anlNUkRVR1hrVWpUaDBhenNfQ0U4MlFUeFhaVUZ3M0k1SQ?oc=5",
-   "date": "2026-11-16T16:30:36Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
    "classes": []
   },
   {

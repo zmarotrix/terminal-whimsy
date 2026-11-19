@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:58:53Z",
+ "updated": "2026-11-19T21:39:36Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,72 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
+   "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
+   "date": "2026-11-19T21:23:45Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Motes of Unstable Magic are now soulbound, preventing high-level players from selling them on the Auction House. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "191633e900",
+   "first": "2026-11-19T21:23:45Z",
+   "last": "2026-11-19T21:23:45Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW: Forever Hits 15-Year Weekly Player High",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMzZ6Yl9pWUR3RUtfNXVnRDJfaHlJa3oyYllwaE5OanZ2U0prR1NlTHlIMUowanJiN1NzZk0wMDZCbXdqZi0tRzc1UWxPOTEyd1dSVzlFX3Zqc3p1Z1E0S3BOWnI2WFdTRkt5M3dIQWk?oc=5",
+   "date": "2026-11-19T20:04:56Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "GodisaGeek.com",
+   "icon": "inv_misc_spyglass_03",
+   "id": "2590141be9",
+   "first": "2026-11-19T20:04:56Z",
+   "last": "2026-11-19T20:04:56Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "“I Essentially Want to Get Rid of BiS:” Raid Itemization in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/i-essentially-want-to-get-rid-of-bis-raid-itemization-in-wow-forever/",
+   "date": "2026-11-19T18:58:48Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "Following a general discussion of flavor items in WoW Forever in this week’s episode of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, went on to talk about how the developers are approaching endgame gearing. He said their goal is to…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "7db3cb1f61",
+   "first": "2026-11-19T18:58:48Z",
+   "last": "2026-11-19T19:19:21Z",
+   "tags": [
+    "items",
+    "story",
+    "raids"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-19T19:19:21Z"
+    }
+   ]
+  },
   {
    "title": "Largest Weekly Player Count in 15 Years: WoW Forever by the Numbers",
    "url": "https://www.warcrafttavern.com/forever/news/largest-weekly-player-count-in-15-years-wow-forever-by-the-numbers/",
@@ -53,8 +119,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -113,9 +179,9 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-19T17:53:00Z",
    "tags": [
-    "items",
     "leveling",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -153,11 +219,11 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "story",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
-   "n": 3,
+   "n": 2,
    "official": true,
    "also": [
     {
@@ -166,7 +232,29 @@
      "source": "Blizzard forums (US)",
      "label": "official",
      "date": "2026-11-19T17:35:02.043000Z"
-    },
+    }
+   ]
+  },
+  {
+   "title": "WoW: Forever Podcast Episode 8: Classes, Itemization, and BiS",
+   "url": "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis",
+   "date": "2026-11-19T17:24:03Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The latest episode of the WoW: Forever podcast has been released, and this week it covers classes, itemization, BiS, and more! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "6bcfce7e3c",
+   "first": "2026-11-19T17:24:03Z",
+   "last": "2026-11-19T17:30:08Z",
+   "tags": [
+    "classes",
+    "story",
+    "items"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
     {
      "title": "Episode 8 of the WoW Forever Podcast Returns to Classes",
      "url": "https://www.warcrafttavern.com/forever/news/episode-8-of-the-wow-forever-podcast-returns-to-classes/",
@@ -188,27 +276,6 @@
    "first": "2026-11-19T17:28:38Z",
    "last": "2026-11-19T17:28:38Z",
    "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW: Forever Podcast Episode 8: Classes, Itemization, and BiS",
-   "url": "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis",
-   "date": "2026-11-19T17:24:03Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The latest episode of the WoW: Forever podcast has been released, and this week it covers classes, itemization, BiS, and more! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "6bcfce7e3c",
-   "first": "2026-11-19T17:24:03Z",
-   "last": "2026-11-19T17:24:03Z",
-   "tags": [
-    "items",
-    "story",
-    "classes"
-   ],
    "classes": [],
    "n": 1,
    "official": false,
@@ -401,8 +468,8 @@
    "first": "2026-11-19T01:35:38Z",
    "last": "2026-11-19T01:35:38Z",
    "tags": [
-    "items",
     "leveling",
+    "items",
     "economy"
    ],
    "classes": [],
@@ -617,6 +684,27 @@
    "also": []
   },
   {
+   "title": "Protection Warrior Guide (1-60) - Talents, Rotations & More",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNU1NDbVFwVjVFSGIzaGdBdTc1YkQtYWlhMmFzNldtTURhSDF3NlZuaUR1bTVRQWZEcTk5bVF3RW9fLUhkbzlqYlh0YnNOTmZoMjZZM212LUFkMkJpZHZIOE5ROTZrZ2VqQUFYQlFtakJtWU9hNl9GNXNLNlNmcnB6Vm1xd2pBWU5KZ3BGS2Y3ZmNEUmpTZ1hSTzJYOHZxeFhKMHdSUWR5bmh3dw?oc=5",
+   "date": "2026-11-18T19:44:50Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "194a3da306",
+   "first": "2026-11-18T19:44:50Z",
+   "last": "2026-11-18T19:44:50Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "World of Warcraft: Forever’s Favorite Race and Class Combo is Now Official",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN1BodzlGNUdZVXRGQXRMMERtRERhQ0RmcDhzZ0FHT3JQdDRaRklXbXZXY2ptYWZnQjYyb0FmLWVHd0szbVRTYkZMMGtIdFl5WlJmQTJDMThIdkNaTWUwTnNPN0xMVXN2YlV5aGE0S1YxS0dzY1JYWkJZTVdMcDRZOFZONHY3QmxmLXJZUU4wbVRPVjVQVURiNEdCSmNIN1AyRDdsaWpQWFd3M1k?oc=5",
    "date": "2026-11-18T19:39:37Z",
@@ -728,40 +816,6 @@
    "classes": [
     "hunter"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Casually Classic: Can Blizzard resist making the same mistakes with WoW Forever?",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaGJTcm50ZXJGekFreWRhR1h0UjdqZGF5RTh6UGNEWFFaOEQ0UmhSSXk0czIxN1dDU3F4SUlzRE5mMHByWjIxRE1scDU2SEZmLXNiVHpWdzlldm5NYXlvbEU4Yy0yU04xTzVQUGRhOWdtRG9PVUhnbXRYM1lNUnlTbnYwN09iZDFQaXB5blpZS3ZvZE1ST3VTWmNZX1NSYnlFWnhRQTZFWnU1YWt4QmhLNFZLM2w?oc=5",
-   "date": "2026-11-18T17:00:37Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "010521e487",
-   "first": "2026-11-18T17:00:37Z",
-   "last": "2026-11-18T17:00:37Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World Of WarCraft: Forever Guide – How To Get The Ring, Malignant Root",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQl9LOWozeWF1S1E3RTdKNGNwb0ZCNUJaeGJJVHJGeG5sZ0pjUXd2WlFCbEw5bjJOcjJmazczb3hrcEhzam84QmdvdExxNkpWS3UtdW96Q3ROblBCOE1zOEN3R3NpREVTbjFubXRMTTcxUFlGdndEeXlnSDItUGRIMXVEeEJYMS1ORlNWUkZpblpNd2M?oc=5",
-   "date": "2026-11-18T16:49:02Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GamingBolt",
-   "icon": "inv_misc_spyglass_03",
-   "id": "43efa313c6",
-   "first": "2026-11-18T16:49:02Z",
-   "last": "2026-11-18T16:49:02Z",
-   "tags": [],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -948,8 +1002,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1060,8 +1114,8 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
     "classes",
+    "items",
     "professions",
     "hotfix"
    ],
@@ -1102,9 +1156,9 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "items",
     "leveling",
     "classes",
+    "items",
     "hotfix"
    ],
    "classes": [],
@@ -1533,8 +1587,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -1559,24 +1613,31 @@
    "also": []
   },
   {
-   "title": "Dungeon Kill Experience Changed Again in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
-   "date": "2026-11-15T02:49:15Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "In their ongoing effort to balance out the experience gained from dungeons in WoW Forever, Blizzard has once again adjusted the amount of XP granted from enemy kills. A recent change had effectively disabled experience for the entire party for mobs that were…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "f1d2e5f082",
-   "first": "2026-11-15T02:49:15Z",
+   "title": "The majority WANTS increased dungeon XP",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2406555",
+   "date": "2026-11-14T18:22:16Z",
+   "label": "official",
+   "source": "Wowhead Blue Tracker",
+   "summary": "This obviously isnt the entire game, but just going off the people in the forums there are significantly more people in favor of reverting dungeon xp to how it was in classic than those who dont want... By Metuyomatch on 2026/11/14 at 12:22 PM",
+   "icon": "inv_scroll_03",
+   "id": "aab506c7e6",
+   "first": "2026-11-14T18:22:16Z",
    "last": "2026-11-15T02:49:15Z",
    "tags": [
     "leveling"
    ],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
+   "n": 2,
+   "official": true,
+   "also": [
+    {
+     "title": "Dungeon Kill Experience Changed Again in WoW Forever",
+     "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-15T02:49:15Z"
+    }
+   ]
   },
   {
    "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
@@ -1678,25 +1739,6 @@
    "classes": [],
    "n": 1,
    "official": false,
-   "also": []
-  },
-  {
-   "title": "The majority WANTS increased dungeon XP",
-   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2406555",
-   "date": "2026-11-14T18:22:16Z",
-   "label": "official",
-   "source": "Wowhead Blue Tracker",
-   "summary": "This obviously isnt the entire game, but just going off the people in the forums there are significantly more people in favor of reverting dungeon xp to how it was in classic than those who dont want... By Metuyomatch on 2026/11/14 at 12:22 PM",
-   "icon": "inv_scroll_03",
-   "id": "aab506c7e6",
-   "first": "2026-11-14T18:22:16Z",
-   "last": "2026-11-14T18:22:16Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": true,
    "also": []
   },
   {
@@ -1907,8 +1949,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1928,8 +1970,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2030,8 +2072,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -2245,8 +2287,8 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "items",
     "professions",
+    "items",
     "hotfix"
    ],
    "classes": [],
@@ -2304,8 +2346,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "classes",
-    "economy"
+    "economy",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2383,8 +2425,8 @@
    ],
    "classes": [
     "warlock",
-    "hunter",
-    "shaman"
+    "shaman",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2631,49 +2673,13 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "items",
     "classes",
+    "items",
     "hotfix"
    ],
    "classes": [
     "shaman"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
-   "url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch",
-   "date": "2026-11-10T16:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The hunt for secrets is on in WoW: Forever, and to jump in, you'll need to find the Night Watchman's Torch in Duskwood. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "d8a7b7e9b1",
-   "first": "2026-11-10T16:00:00Z",
-   "last": "2026-11-10T16:00:00Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Every Quest for Level 20 to 30 Dungeons in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever",
-   "date": "2026-11-10T15:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Here are all the quests for the level 20 to 30 dungeons to help you level faster in WoW: Forever! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "0838be9752",
-   "first": "2026-11-10T15:00:00Z",
-   "last": "2026-11-10T15:00:00Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -2691,8 +2697,8 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "ui",
     "classes",
+    "ui",
     "hotfix"
    ],
    "classes": [
@@ -3329,10 +3335,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
     "leveling",
     "classes",
-    "ui"
+    "ui",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3709,6 +3715,60 @@
   }
  ],
  "items": [
+  {
+   "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
+   "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
+   "date": "2026-11-19T21:23:45Z",
+   "summary": "Motes of Unstable Magic are now soulbound, preventing high-level players from selling them on the Auction House. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "economy"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW: Forever Hits 15-Year Weekly Player High",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMzZ6Yl9pWUR3RUtfNXVnRDJfaHlJa3oyYllwaE5OanZ2U0prR1NlTHlIMUowanJiN1NzZk0wMDZCbXdqZi0tRzc1UWxPOTEyd1dSVzlFX3Zqc3p1Z1E0S3BOWnI2WFdTRkt5M3dIQWk?oc=5",
+   "date": "2026-11-19T20:04:56Z",
+   "who": "GodisaGeek.com",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
+   "date": "2026-11-19T19:19:21Z",
+   "summary": "In the latest episode of the WoW: Forever Podcast, Senior Game Designer Aidan Moon says he wants to get rid of the idea of BiS in WoW: Forever. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "items",
+    "story"
+   ],
+   "classes": []
+  },
+  {
+   "title": "“I Essentially Want to Get Rid of BiS:” Raid Itemization in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/i-essentially-want-to-get-rid-of-bis-raid-itemization-in-wow-forever/",
+   "date": "2026-11-19T18:58:48Z",
+   "summary": "Following a general discussion of flavor items in WoW Forever in this week’s episode of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, went on to talk about how the developers are approaching endgame gearing. He said their goal is to…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "raids",
+    "items",
+    "story"
+   ],
+   "classes": []
+  },
   {
    "title": "World of Warcraft: Forever’s player count just hit a 15-year high, and Blizzard’s stats are wild",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PcVJIb1U2ZW40aDFwVnp3NWExa2hyUWNZOTc2WnI0R2dNSURFdzN0Z3RIdVJETjhLVTRGOG9YVHhjTTM2MVhNS291eng2eHZrY0lrQXdqVkRzSWhhUHphRVVQTHVpWmhaWmlIT2Rn?oc=5",
@@ -4150,6 +4210,21 @@
    "classes": []
   },
   {
+   "title": "Protection Warrior Guide (1-60) - Talents, Rotations & More",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNU1NDbVFwVjVFSGIzaGdBdTc1YkQtYWlhMmFzNldtTURhSDF3NlZuaUR1bTVRQWZEcTk5bVF3RW9fLUhkbzlqYlh0YnNOTmZoMjZZM212LUFkMkJpZHZIOE5ROTZrZ2VqQUFYQlFtakJtWU9hNl9GNXNLNlNmcnB6Vm1xd2pBWU5KZ3BGS2Y3ZmNEUmpTZ1hSTzJYOHZxeFhKMHdSUWR5bmh3dw?oc=5",
+   "date": "2026-11-18T19:44:50Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
+  {
    "title": "World of Warcraft: Forever’s Favorite Race and Class Combo is Now Official",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN1BodzlGNUdZVXRGQXRMMERtRERhQ0RmcDhzZ0FHT3JQdDRaRklXbXZXY2ptYWZnQjYyb0FmLWVHd0szbVRTYkZMMGtIdFl5WlJmQTJDMThIdkNaTWUwTnNPN0xMVXN2YlV5aGE0S1YxS0dzY1JYWkJZTVdMcDRZOFZONHY3QmxmLXJZUU4wbVRPVjVQVURiNEdCSmNIN1AyRDdsaWpQWFd3M1k?oc=5",
    "date": "2026-11-18T19:39:37Z",
@@ -4241,28 +4316,6 @@
    "classes": [
     "hunter"
    ]
-  },
-  {
-   "title": "Casually Classic: Can Blizzard resist making the same mistakes with WoW Forever?",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaGJTcm50ZXJGekFreWRhR1h0UjdqZGF5RTh6UGNEWFFaOEQ0UmhSSXk0czIxN1dDU3F4SUlzRE5mMHByWjIxRE1scDU2SEZmLXNiVHpWdzlldm5NYXlvbEU4Yy0yU04xTzVQUGRhOWdtRG9PVUhnbXRYM1lNUnlTbnYwN09iZDFQaXB5blpZS3ZvZE1ST3VTWmNZX1NSYnlFWnhRQTZFWnU1YWt4QmhLNFZLM2w?oc=5",
-   "date": "2026-11-18T17:00:37Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World Of WarCraft: Forever Guide – How To Get The Ring, Malignant Root",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQl9LOWozeWF1S1E3RTdKNGNwb0ZCNUJaeGJJVHJGeG5sZ0pjUXd2WlFCbEw5bjJOcjJmazczb3hrcEhzam84QmdvdExxNkpWS3UtdW96Q3ROblBCOE1zOEN3R3NpREVTbjFubXRMTTcxUFlGdndEeXlnSDItUGRIMXVEeEJYMS1ORlNWUkZpblpNd2M?oc=5",
-   "date": "2026-11-18T16:49:02Z",
-   "who": "GamingBolt",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
   },
   {
    "title": "Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever",
@@ -5772,30 +5825,6 @@
    "classes": [
     "shaman"
    ]
-  },
-  {
-   "title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
-   "url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch",
-   "date": "2026-11-10T16:00:00Z",
-   "summary": "The hunt for secrets is on in WoW: Forever, and to jump in, you'll need to find the Night Watchman's Torch in Duskwood. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Every Quest for Level 20 to 30 Dungeons in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever",
-   "date": "2026-11-10T15:00:00Z",
-   "summary": "Here are all the quests for the level 20 to 30 dungeons to help you level faster in WoW: Forever! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
   },
   {
    "title": "Blizzard replied in “WoW: Forever Hotfixes - November 13, 2026”",

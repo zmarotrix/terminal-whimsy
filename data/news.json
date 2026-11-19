@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:29:05Z",
+ "updated": "2026-11-19T08:20:36Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -159,8 +159,8 @@
    "first": "2026-11-18T12:12:19Z",
    "last": "2026-11-18T19:52:08Z",
    "tags": [
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 2,
@@ -209,6 +209,28 @@
     "economy"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
+   "date": "2026-11-18T17:51:09Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "ba18526e01",
+   "first": "2026-11-18T17:51:09Z",
+   "last": "2026-11-18T17:51:09Z",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "rogue"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -484,6 +506,28 @@
    "also": []
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-18T09:03:08Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "59e25fb230",
+   "first": "2026-11-18T09:03:08Z",
+   "last": "2026-11-18T09:03:08Z",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "World of Warcraft: Forever Hits More Milestones Following Biggest Launch",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHdnSHA0dk1fbDVmMXdNZGMwOXdpSlhYdFBOLUFuOFNKdmFWX21iZjlZQlpCU1g4c1JGcDRUTXdqd09aSkQ5UDB0cllyLS1ieDRyWlJlMnJCUVZ2QnFMaURSYnFBNnlHeDNTQzd2WWFSd3JWVGE4R2ZLQWlFZWlLU09wQnpKZ2pqQjhtSVNDRzZWRUtHWkxjclJ6S3JfcW5fbkE?oc=5",
    "date": "2026-11-18T08:38:26Z",
@@ -579,25 +623,6 @@
    "also": []
   },
   {
-   "title": "Marksmanship Hunter | Staedt",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
-   "date": "2026-11-18T05:53:12Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "0ac2c8204a",
-   "first": "2026-11-18T05:53:12Z",
-   "last": "2026-11-18T05:53:12Z",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
    "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
    "date": "2026-11-16T21:04:18Z",
@@ -625,27 +650,6 @@
      "date": "2026-11-18T04:36:37Z"
     }
    ]
-  },
-  {
-   "title": "WoW: Forever Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
-   "date": "2026-11-18T04:02:56Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Maxroll",
-   "icon": "inv_misc_spyglass_03",
-   "id": "8090421b8c",
-   "first": "2026-11-18T04:02:56Z",
-   "last": "2026-11-18T04:02:56Z",
-   "tags": [
-    "hotfix",
-    "leveling",
-    "classes"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
   },
   {
    "title": "UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026",
@@ -706,8 +710,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -728,8 +732,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -840,10 +844,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "hotfix",
     "professions",
+    "classes",
     "items",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -882,10 +886,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "hotfix",
-    "items",
     "leveling",
-    "classes"
+    "classes",
+    "items",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1473,8 +1477,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1512,9 +1516,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "hotfix",
     "leveling",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1668,8 +1672,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1909,9 +1913,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
+    "realms",
     "story",
-    "realms"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2006,9 +2010,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "hotfix",
     "professions",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2144,8 +2148,8 @@
    ],
    "classes": [
     "hunter",
-    "warlock",
-    "shaman"
+    "shaman",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2392,9 +2396,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "hotfix",
+    "classes",
     "items",
-    "classes"
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -2469,9 +2473,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "hotfix",
+    "classes",
     "ui",
-    "classes"
+    "hotfix"
    ],
    "classes": [
     "druid"
@@ -2493,8 +2497,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2514,8 +2518,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2553,9 +2557,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "hotfix",
     "leveling",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2591,8 +2595,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2820,8 +2824,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2929,8 +2933,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -3108,9 +3112,9 @@
    "last": "2026-11-03T18:00:00Z",
    "tags": [
     "leveling",
-    "pvp",
+    "classes",
     "ui",
-    "classes"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3130,9 +3134,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
     "leveling",
-    "classes"
+    "classes",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3628,6 +3632,22 @@
    "classes": []
   },
   {
+   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
+   "date": "2026-11-18T17:51:09Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "rogue"
+   ]
+  },
+  {
    "title": "World of Warcraft: Forever isn't mere nostalgia bait - it's rebuilding the MMO social architecture that Blizzard spent years dismantling",
    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNOEhET2kxbmZpb1pCUmpEajBvSGFxalI2TkZSekZkalNJWFpFTEkzaWszSWpRMlZxRUpnVEtCVVM3bXBfYnZseDJ1OFJvLVRJcVJ2N09PQUpTSkZoa1NxRGlHVHZkaS1weEhWZzZMYTl4elJoTkpzUG0yV0g0QVFTT2t0SFFEaWZhemkxX1J0WTZPeDZ2YmdlY3RuUk9KWWJyNjZUMmNPMG8zRk9uQWF0d3N5ek5sbDVDMnRfbEpvQmRXb1I4NUtEWndNeEtxaVVSRWI2TzlZaW1JWGF6U0lsVzFtdmFIQTFzYWN3RWp2MFJwOTNJTTRN?oc=5",
    "date": "2026-11-18T17:44:10Z",
@@ -3798,6 +3818,22 @@
    "classes": []
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-18T09:03:08Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
+  {
    "title": "World of Warcraft: Forever Hits More Milestones Following Biggest Launch",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHdnSHA0dk1fbDVmMXdNZGMwOXdpSlhYdFBOLUFuOFNKdmFWX21iZjlZQlpCU1g4c1JGcDRUTXdqd09aSkQ5UDB0cllyLS1ieDRyWlJlMnJCUVZ2QnFMaURSYnFBNnlHeDNTQzd2WWFSd3JWVGE4R2ZLQWlFZWlLU09wQnpKZ2pqQjhtSVNDRzZWRUtHWkxjclJ6S3JfcW5fbkE?oc=5",
    "date": "2026-11-18T08:38:26Z",
@@ -3846,19 +3882,6 @@
    "classes": []
   },
   {
-   "title": "Marksmanship Hunter | Staedt",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
-   "date": "2026-11-18T05:53:12Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ]
-  },
-  {
    "title": "WoW Forever News: Gold Farm Nerfed, Dungeon XP Changed Again, PvP Chaos and More",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb2VmY3kyYmUyOWRRWHNuTFlkMjVBNVJhb0FIRTJCeDRZX195TXE4YkFBd1NGVXExUWRpcFZzU1BZTVRvZG5xSks0ZVctMGE4LUZIWDVGNUJEVEJyRFlXTnJpQTREWnNtUGFpelBNNE9faXJEZjlGbGQ1Y3MtaFdzbzZLdlZzUzMtM3hKV1daVElhYnZudmJlQVdfcENCT2hxMVdWNXRoNmRZMmhlMFEwNE41WlJPZFE?oc=5",
    "date": "2026-11-18T04:36:37Z",
@@ -3884,21 +3907,6 @@
    "icon": "inv_misc_food_15",
    "tags": [
     "hotfix"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
-   "date": "2026-11-18T04:02:56Z",
-   "who": "Maxroll",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix",
-    "leveling",
-    "classes"
    ],
    "classes": []
   },

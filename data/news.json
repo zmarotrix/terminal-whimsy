@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:26:16Z",
+ "updated": "2026-11-19T18:40:16Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,27 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Fun Over Optimization: Flavor Items are Here to Stay in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/fun-over-optimization-flavor-items-are-here-to-stay-in-wow-forever/",
+   "date": "2026-11-19T18:37:59Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "In a packed Episode 8 of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, gave an impassioned defense of flavor items in WoW Forever, stating that “optimization, to some degree, is the enemy of fun with itemization.” The discussion…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "99addb30b8",
+   "first": "2026-11-19T18:37:59Z",
+   "last": "2026-11-19T18:37:59Z",
+   "tags": [
+    "items",
+    "story"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Blizzard “Taking a Hard Look” at Merchant’s Favor Factions in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/blizzard-taking-a-hard-look-at-merchants-favor-factions-in-wow-forever/",
@@ -66,9 +87,9 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-19T17:53:00Z",
    "tags": [
+    "leveling",
     "items",
-    "story",
-    "leveling"
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -106,8 +127,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "story",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
    "n": 3,
@@ -159,8 +180,8 @@
    "last": "2026-11-19T17:24:03Z",
    "tags": [
     "items",
-    "story",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -354,9 +375,9 @@
    "first": "2026-11-19T01:35:38Z",
    "last": "2026-11-19T01:35:38Z",
    "tags": [
+    "leveling",
     "items",
-    "economy",
-    "leveling"
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -435,8 +456,8 @@
    "first": "2026-11-19T00:08:40Z",
    "last": "2026-11-19T00:08:40Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "warrior"
@@ -636,8 +657,8 @@
    "first": "2026-11-18T17:51:09Z",
    "last": "2026-11-18T17:51:09Z",
    "tags": [
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [
     "rogue"
@@ -703,6 +724,41 @@
    "also": []
   },
   {
+   "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",
+   "url": "https://www.warcrafttavern.com/forever/news/cozy-sleeping-bag-shendralas-wow-forever-hotfixes-for-november-17/",
+   "date": "2026-11-18T04:06:27Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "Blizzard has posted a new list of hotfixes with quite a variety of changes included. The Cozy Sleeping Bag can now be placed in a specific location, rather than being unrolled right at your feet. This should help with all those times you’ve accidentally…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "e06445f7ab",
+   "first": "2026-11-17T00:36:51Z",
+   "last": "2026-11-18T16:49:02Z",
+   "tags": [
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 3,
+   "official": false,
+   "also": [
+    {
+     "title": "World Of WarCraft: Forever Guide – How To Get The Cozy Sleeping Bag",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUG15eHBzSWYzWHJPZ3AyU0RaSzBTTHlwRk9XNXNpcXA2UWlwdGR2MmZHQ3lLLVY2SXJabWtTZzlzMk5IOEl2Q0NVWkpBRHNYb3JLNUhXWTF5UmdZSlpsb2xWeDAwSkpYTjFKZ21tQlJlWTVHQjhKbnpoeFRISEhnVmRvOGlJZGg4UVlqcjEzS1Y?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-18T16:49:02Z"
+    },
+    {
+     "title": "The sleeping bag is way better than most people realize.",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xy6bb8/the_sleeping_bag_is_way_better_than_most_people/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-17T00:36:51Z"
+    }
+   ]
+  },
+  {
    "title": "World Of WarCraft: Forever Guide – How To Get The Ring, Malignant Root",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQl9LOWozeWF1S1E3RTdKNGNwb0ZCNUJaeGJJVHJGeG5sZ0pjUXd2WlFCbEw5bjJOcjJmazczb3hrcEhzam84QmdvdExxNkpWS3UtdW96Q3ROblBCOE1zOEN3R3NpREVTbjFubXRMTTcxUFlGdndEeXlnSDItUGRIMXVEeEJYMS1ORlNWUkZpblpNd2M?oc=5",
    "date": "2026-11-18T16:49:02Z",
@@ -715,29 +771,6 @@
    "last": "2026-11-18T16:49:02Z",
    "tags": [],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Demonology Warlock Guide - Talents, Rotations, Pre Raid BiS Gear & More",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-18T16:41:46Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "7650134c20",
-   "first": "2026-11-18T16:41:46Z",
-   "last": "2026-11-18T16:41:46Z",
-   "tags": [
-    "items",
-    "classes",
-    "raids"
-   ],
-   "classes": [
-    "warlock"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -760,34 +793,6 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",
-   "url": "https://www.warcrafttavern.com/forever/news/cozy-sleeping-bag-shendralas-wow-forever-hotfixes-for-november-17/",
-   "date": "2026-11-18T04:06:27Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "Blizzard has posted a new list of hotfixes with quite a variety of changes included. The Cozy Sleeping Bag can now be placed in a specific location, rather than being unrolled right at your feet. This should help with all those times you’ve accidentally…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "e06445f7ab",
-   "first": "2026-11-17T00:36:51Z",
-   "last": "2026-11-18T04:06:27Z",
-   "tags": [
-    "hotfix"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "The sleeping bag is way better than most people realize.",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xy6bb8/the_sleeping_bag_is_way_better_than_most_people/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-17T00:36:51Z"
-    }
-   ]
   },
   {
    "title": "UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026",
@@ -1054,9 +1059,9 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "hotfix",
     "professions",
     "items",
+    "hotfix",
     "classes"
    ],
    "classes": [],
@@ -1096,9 +1101,9 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
+    "items",
     "hotfix",
     "classes",
-    "items",
     "leveling"
    ],
    "classes": [],
@@ -1527,8 +1532,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1706,8 +1711,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1922,8 +1927,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2142,9 +2147,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
+    "realms",
     "story",
-    "realms"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2239,8 +2244,8 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "hotfix",
     "professions",
+    "hotfix",
     "items"
    ],
    "classes": [],
@@ -2298,8 +2303,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2376,8 +2381,8 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
     "hunter",
+    "shaman",
     "warlock"
    ],
    "n": 1,
@@ -2467,8 +2472,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2488,8 +2493,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -2625,8 +2630,8 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "hotfix",
     "items",
+    "hotfix",
     "classes"
    ],
    "classes": [
@@ -2686,8 +2691,8 @@
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
     "hotfix",
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [
     "druid"
@@ -2709,8 +2714,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3145,8 +3150,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -3323,10 +3328,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
+    "leveling",
     "classes",
     "ui",
-    "leveling"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3703,6 +3708,21 @@
   }
  ],
  "items": [
+  {
+   "title": "Fun Over Optimization: Flavor Items are Here to Stay in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/fun-over-optimization-flavor-items-are-here-to-stay-in-wow-forever/",
+   "date": "2026-11-19T18:37:59Z",
+   "summary": "In a packed Episode 8 of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, gave an impassioned defense of flavor items in WoW Forever, stating that “optimization, to some degree, is the enemy of fun with itemization.” The discussion…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "items",
+    "story"
+   ],
+   "classes": []
+  },
   {
    "title": "Blizzard “Taking a Hard Look” at Merchant’s Favor Factions in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/blizzard-taking-a-hard-look-at-merchants-favor-factions-in-wow-forever/",
@@ -4233,21 +4253,15 @@
    "classes": []
   },
   {
-   "title": "Demonology Warlock Guide - Talents, Rotations, Pre Raid BiS Gear & More",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-18T16:41:46Z",
-   "who": "Mobalytics",
+   "title": "World Of WarCraft: Forever Guide – How To Get The Cozy Sleeping Bag",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUG15eHBzSWYzWHJPZ3AyU0RaSzBTTHlwRk9XNXNpcXA2UWlwdGR2MmZHQ3lLLVY2SXJabWtTZzlzMk5IOEl2Q0NVWkpBRHNYb3JLNUhXWTF5UmdZSlpsb2xWeDAwSkpYTjFKZ21tQlJlWTVHQjhKbnpoeFRISEhnVmRvOGlJZGg4UVlqcjEzS1Y?oc=5",
+   "date": "2026-11-18T16:49:02Z",
+   "who": "GamingBolt",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "raids",
-    "classes",
-    "items"
-   ],
-   "classes": [
-    "warlock"
-   ]
+   "tags": [],
+   "classes": []
   },
   {
    "title": "Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever",

@@ -1,15 +1,29 @@
 {
   "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text mark it on the site and are stripped from the Discord copy: {a} a quest you pick up (gold !), {t} a quest you hand in (gold ?), {q} a quest mentioned, {n} friendly NPC, {h} hostile (skull), {i} item. unsure: things nobody has confirmed on Forever; at lists the steps they belong to as part.step (parts count from 0). 'at' is when the book went on the shelf (it gets a ! until you've seen it).",
-  "noMap": {"_why": "They stand inside Blackrock Mountain; the zone maps would only show its edge, under another zone's name.", "npcs": ["Lothos Riftwaker", "Franclorn Forgewright"]},
+  "noMap": {
+    "_why": "They stand inside Blackrock Mountain; the zone maps would only show its edge, under another zone's name.",
+    "npcs": [
+      "Lothos Riftwaker",
+      "Franclorn Forgewright"
+    ]
+  },
   "places": {
-    "Velarok Windblade": {"zone": 51, "x": 39.06, "y": 38.99, "_note": "Not in NorgannonDB. This is the spot NorgannonDB gives Kalaran Windblade, who starts Divine Retribution there; the guide's coordinates match it."}
+    "Velarok Windblade": {
+      "zone": 51,
+      "x": 39.06,
+      "y": 38.99,
+      "_note": "Not in NorgannonDB. This is the spot NorgannonDB gives Kalaran Windblade, who starts Divine Retribution there; the guide's coordinates match it."
+    }
   },
   "guides": [
     {
       "id": "brd",
       "file": "kb/brd-alliance.md",
       "title": "Ultimate BRD Quest Guide",
-      "cover": ["Blackrock Depths", "Alliance quests"],
+      "cover": [
+        "Blackrock Depths",
+        "Alliance quests"
+      ],
       "kicker": "Blackrock Depths · Alliance · levels 48 to 60",
       "blurb": "The Alliance BRD quests in two runs, with one trip back to Ironforge in between.",
       "call": "917.BRD ALL",
@@ -21,28 +35,304 @@
       "checked": "2026-11-18",
       "unsure": [
         "BRD wasn't in the Forever beta, so this leans on Forever's quest data and Blizzard's hotfixes more than on anyone's run.",
-        {"text": "Nobody has confirmed the Frenzied Black Drake still turns up at Cyrus. If it doesn't, do the Searing Gorge chain.", "at": ["2.5"]},
-        {"text": "The Spectral Chalice needed Mining 230 in Classic. Forever's quest page doesn't say.", "at": ["0.2", "7.11"]},
-        {"text": "Attunement to the Core is in Forever's quest data, but Molten Core isn't open yet. If Lothos doesn't offer it, it isn't switched on.", "at": ["3.2", "7.12"]}
+        {
+          "text": "Nobody has confirmed the Frenzied Black Drake still turns up at Cyrus. If it doesn't, do the Searing Gorge chain.",
+          "at": [
+            "2.5"
+          ]
+        },
+        {
+          "text": "The Spectral Chalice needed Mining 230 in Classic. Forever's quest page doesn't say.",
+          "at": [
+            "0.2",
+            "7.11"
+          ]
+        },
+        {
+          "text": "Attunement to the Core is in Forever's quest data, but Molten Core isn't open yet. If Lothos doesn't offer it, it isn't switched on.",
+          "at": [
+            "3.2",
+            "7.12"
+          ]
+        }
       ],
       "sources": [
-        {"name": "Warcraft Tavern: Forever BRD quests", "url": "https://www.warcrafttavern.com/forever/guides/blackrock-depths-quests/"},
-        {"name": "Warcraft Tavern: Forever BRD dungeon guide", "url": "https://www.warcrafttavern.com/forever/guides/blackrock-depths/"},
-        {"name": "ConquestCapped: Forever BRD quests", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-blackrock-depths-quests/"},
-        {"name": "ConquestCapped: Forever BRD guide", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-blackrock-depths-guide/"},
-        {"name": "WCLBox Forever database: BRD quests", "url": "https://wowforever.wclbox.com/en/renwu/blackrock-depths"},
-        {"name": "Wowhead Forever: The Love Potion", "url": "https://www.wowhead.com/forever/quest=4201"},
-        {"name": "Wowhead Forever: A Shred of Hope", "url": "https://www.wowhead.com/forever/quest=4282"},
-        {"name": "Wowhead Forever: Jail Break!", "url": "https://www.wowhead.com/forever/quest=4322"},
-        {"name": "Wowhead Forever: Attunement to the Core", "url": "https://www.wowhead.com/forever/quest=7848"},
-        {"name": "Blizzard: Forever hotfixes (Heart of the Mountain, throne room doors)", "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040"},
-        {"name": "Blizzard: Forever raid overview", "url": "https://news.blizzard.com/en-gb/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement"},
-        {"name": "Jame's BRD Guide (WoW-Pro, Classic)", "url": "https://www.wow-pro.com/48-60-james-blackrock-depths-guide-brd/"},
-        {"name": "ExpCarry: Forever BRD keys and quest routes", "url": "https://expcarry.com/wow-forever-brd-keys-quest-routes-bosses"},
-        {"name": "warcraft.wiki.gg: Frenzied Black Drake", "url": "https://warcraft.wiki.gg/wiki/Frenzied_Black_Drake"},
-        {"name": "warcraft.wiki.gg: Divine Retribution", "url": "https://warcraft.wiki.gg/wiki/Divine_Retribution"},
-        {"name": "warcraft.wiki.gg: The Challenge", "url": "https://warcraft.wiki.gg/wiki/The_Challenge_(quest)"},
-        {"name": "warcraft.wiki.gg: The Love Potion", "url": "https://warcraft.wiki.gg/wiki/The_Love_Potion"}
+        {
+          "name": "Warcraft Tavern: Forever BRD quests",
+          "url": "https://www.warcrafttavern.com/forever/guides/blackrock-depths-quests/"
+        },
+        {
+          "name": "Warcraft Tavern: Forever BRD dungeon guide",
+          "url": "https://www.warcrafttavern.com/forever/guides/blackrock-depths/"
+        },
+        {
+          "name": "ConquestCapped: Forever BRD quests",
+          "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-blackrock-depths-quests/"
+        },
+        {
+          "name": "ConquestCapped: Forever BRD guide",
+          "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-blackrock-depths-guide/"
+        },
+        {
+          "name": "WCLBox Forever database: BRD quests",
+          "url": "https://wowforever.wclbox.com/en/renwu/blackrock-depths"
+        },
+        {
+          "name": "Wowhead Forever: The Love Potion",
+          "url": "https://www.wowhead.com/forever/quest=4201"
+        },
+        {
+          "name": "Wowhead Forever: A Shred of Hope",
+          "url": "https://www.wowhead.com/forever/quest=4282"
+        },
+        {
+          "name": "Wowhead Forever: Jail Break!",
+          "url": "https://www.wowhead.com/forever/quest=4322"
+        },
+        {
+          "name": "Wowhead Forever: Attunement to the Core",
+          "url": "https://www.wowhead.com/forever/quest=7848"
+        },
+        {
+          "name": "Blizzard: Forever hotfixes (Heart of the Mountain, throne room doors)",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040"
+        },
+        {
+          "name": "Blizzard: Forever raid overview",
+          "url": "https://news.blizzard.com/en-gb/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement"
+        },
+        {
+          "name": "Jame's BRD Guide (WoW-Pro, Classic)",
+          "url": "https://www.wow-pro.com/48-60-james-blackrock-depths-guide-brd/"
+        },
+        {
+          "name": "ExpCarry: Forever BRD keys and quest routes",
+          "url": "https://expcarry.com/wow-forever-brd-keys-quest-routes-bosses"
+        },
+        {
+          "name": "warcraft.wiki.gg: Frenzied Black Drake",
+          "url": "https://warcraft.wiki.gg/wiki/Frenzied_Black_Drake"
+        },
+        {
+          "name": "warcraft.wiki.gg: Divine Retribution",
+          "url": "https://warcraft.wiki.gg/wiki/Divine_Retribution"
+        },
+        {
+          "name": "warcraft.wiki.gg: The Challenge",
+          "url": "https://warcraft.wiki.gg/wiki/The_Challenge_(quest)"
+        },
+        {
+          "name": "warcraft.wiki.gg: The Love Potion",
+          "url": "https://warcraft.wiki.gg/wiki/The_Love_Potion"
+        }
+      ],
+      "chains": [
+        {
+          "id": "onyxia",
+          "name": "Onyxia attunement",
+          "quests": [
+            "Dragonkin Menace",
+            "The True Masters",
+            "Marshal Windsor",
+            "Abandoned Hope",
+            "A Crumpled Up Note",
+            "A Shred of Hope",
+            "Jail Break!",
+            "Stormwind Rendezvous",
+            "The Great Masquerade",
+            "The Dragon's Eye",
+            "Drakefire Amulet"
+          ],
+          "items": [
+            "A Crumpled Up Note",
+            "Marshal Windsor's Lost Information",
+            "Lost Information",
+            "Drakefire Amulet",
+            "Blood of the Black Dragon Champion"
+          ],
+          "note": "The BRD part of the Onyxia attunement. Onyxia opens on 9 December."
+        },
+        {
+          "id": "princess",
+          "name": "The princess chain",
+          "quests": [
+            "The Smoldering Ruins of Thaurissan",
+            "Kharan Mighthammer",
+            "Kharan's Tale",
+            "The Bearer of Bad News",
+            "The Fate of the Kingdom",
+            "The Princess's Surprise"
+          ],
+          "items": [
+            "Magni's Will",
+            "Songstone of Ironforge"
+          ],
+          "note": "Starts with Royal Historian Archesonus in Ironforge and ends with a ring from Magni."
+        },
+        {
+          "id": "legacy",
+          "name": "Dark Iron Legacy",
+          "quests": [
+            "Dark Iron Legacy"
+          ],
+          "items": [
+            "Ironfel",
+            "Shadowforge Key"
+          ],
+          "note": "Gives you the Shadowforge Key, which opens the way to Angerforge and Argelmach."
+        },
+        {
+          "id": "pyron",
+          "name": "Pyron and Incendius",
+          "quests": [
+            "Overmaster Pyron",
+            "Incendius!"
+          ],
+          "note": "Pyron is outside the portal, so kill him on the way in."
+        },
+        {
+          "id": "taste",
+          "name": "A Taste of Flame",
+          "quests": [
+            "A Taste of Flame",
+            "Divine Retribution"
+          ],
+          "items": [
+            "Black Dragonflight Molt",
+            "Altered Black Dragonflight Molt",
+            "Encased Fiery Essence"
+          ],
+          "note": "Cyrus won't give you the quest until you show him a Black Dragonflight Molt."
+        },
+        {
+          "id": "heart",
+          "name": "The Heart of the Mountain",
+          "quests": [
+            "The Heart of the Mountain"
+          ],
+          "items": [
+            "The Heart of the Mountain",
+            "Relic Coffer Keys"
+          ]
+        },
+        {
+          "id": "good",
+          "name": "The Good Stuff",
+          "quests": [
+            "The Good Stuff"
+          ],
+          "items": [
+            "Dark Iron Fanny Packs"
+          ]
+        },
+        {
+          "id": "hurley",
+          "name": "Hurley Blackbreath",
+          "quests": [
+            "Hurley Blackbreath",
+            "Ragnar Thunderbrew"
+          ],
+          "items": [
+            "Lost Thunderbrew Recipe"
+          ]
+        },
+        {
+          "id": "ribbly",
+          "name": "Ribbly Screwspigot",
+          "quests": [
+            "Ribbly Screwspigot",
+            "Yuka Screwspigot"
+          ],
+          "items": [
+            "Ribbly's Head"
+          ]
+        },
+        {
+          "id": "love",
+          "name": "The Love Potion",
+          "quests": [
+            "The Love Potion"
+          ],
+          "items": [
+            "Nagmara's Vial",
+            "Nagmara's Filled Vial",
+            "Gromsblood",
+            "Giant Silver Vein"
+          ],
+          "tag": "Skippable",
+          "note": "Very skippable. It needs mats from Azshara and Un'Goro and a second trip, and most groups don't bother."
+        },
+        {
+          "id": "chalice",
+          "name": "The Spectral Chalice",
+          "quests": [
+            "The Spectral Chalice"
+          ],
+          "items": [
+            "Star Ruby",
+            "Gold Bar",
+            "Truesilver Bar"
+          ],
+          "tag": "Miners",
+          "note": "Miners only (skill 230). It teaches Smelt Dark Iron."
+        },
+        {
+          "id": "attune",
+          "name": "Attunement to the Core",
+          "quests": [
+            "Attunement to the Core"
+          ],
+          "items": [
+            "Core Fragment"
+          ],
+          "note": "Molten Core isn't open yet. Grab it now so you're attuned when it is."
+        },
+        {
+          "id": "challenge",
+          "name": "The Challenge",
+          "quests": [
+            "The Challenge",
+            "Anthion's Old Friend",
+            "The Instigator's Enchantment"
+          ],
+          "items": [
+            "Banner of Provocation",
+            "Top Piece of Lord Valthalak's Amulet"
+          ],
+          "tag": "58+",
+          "off": true,
+          "note": "Only if you're already on the Dungeon Set 2 chain from Dire Maul West. If you haven't done The Instigator's Enchantment, leave it for now."
+        }
+      ],
+      "core": [
+        "4.1",
+        "4.2",
+        "4.6",
+        "6.2",
+        "7.11",
+        "7.13",
+        "7.14",
+        "7.15"
+      ],
+      "tips": [
+        {
+          "at": "6.1",
+          "text": "Right-click the note in your bags to start its quest."
+        },
+        {
+          "at": "4.6",
+          "text": "Hearth or run out. Either works."
+        },
+        {
+          "at": "6.3",
+          "text": "You need all 12 Relic Coffer Keys, so keep every key the dwarves drop."
+        }
+      ],
+      "before": [
+        "Do the Onyxia attunement chain up to Marshal Windsor first. It starts with Helendis Riverhorn at Morgan's Vigil.",
+        "Miners need skill 230 for The Spectral Chalice.",
+        "The Challenge needs level 58 and the Dire Maul West chain. Skip it unless you're already on that chain.",
+        "Quests of level 48 and up also pay gold in Forever."
       ]
     }
   ]

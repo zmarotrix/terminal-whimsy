@@ -63,11 +63,38 @@ function itemHTML(txt) {
   const it = KBI[txt];
   return it ? `<a class="ki q${it.q}" href="${WHI}${it.id}" target="_blank" rel="noopener" data-tip="Item. Opens Wowhead.">${itemIcon(it)}[${esc(txt)}]</a>` : `<span class="ki">[${esc(txt)}]</span>`;
 }
+/* ---- quests: level, required level and rewards, from Wowhead's Forever pages (data/src/kb_quests.json) ---- */
+const KBQ = D.KBQ || { parts: {}, rewards: {} };
+const QPARTS = {};                                    // quest name -> its parts (some quests come in several)
+for (const [id, p] of Object.entries(KBQ.parts)) (QPARTS[p.name] = QPARTS[p.name] || []).push({ id: +id, ...p });
+// the quest a tag means: "3. The Love Potion (anyone) — needs…" -> "The Love Potion"
+const qname = t => strip(t).replace(/^\d+\.\s+/, "").replace(/:$/, "").split(/ \(| —/)[0].trim();
+const qreq = n => QPARTS[n] ? Math.min(...QPARTS[n].map(p => p.req || 99)) : null;
+const QTIP = {};                                      // tooltip keys already built
+function questTip(n) {
+  const P = QPARTS[n]; if (!P) return "";
+  const k = "kbq:" + n;
+  if (!QTIP[k]) {
+    const lv = [...new Set(P.map(p => p.level))].sort((a, b) => a - b), rq = Math.min(...P.map(p => p.req));
+    const rep = {};
+    P.forEach(p => (p.rep || []).forEach(r => { const m = r.match(/^(\d+) reputation with (.+)$/); if (m) rep[m[2]] = (rep[m[2]] || 0) + +m[1]; }));
+    const it = id => { const R = KBQ.rewards[id] || {}; return `<div class="kqi q${R.q || 1}">${R.icon ? `<img src="${ICON(R.icon)}" alt="">` : ""}<span><b>${esc(R.name || "")}</b>${(R.lines || []).length ? `<small>${esc(R.lines.slice(0, 3).join(" · ").replace(/ · · /g, " · ").replace(/\s·\s*$/, ""))}</small>` : ""}</span></div>`; };
+    const choice = P.flatMap(p => p.choice || []), items = P.flatMap(p => p.items || []);
+    D.TIPS[k] = `<div class="kqt"><div class="kqh"><b>${esc(n)}</b><span>Level ${lv.length > 1 ? lv[0] + "–" + lv[lv.length - 1] : lv[0]}</span></div>`
+      + `<div class="kqr">Requires level ${rq}${P.length > 1 ? ` · ${P.length} parts` : ""}</div>`
+      + (choice.length ? `<div class="kqs">Choose one reward:</div>${choice.map(c => it(c.id)).join("")}` : "")
+      + (items.length ? `<div class="kqs">You get:</div>${items.map(c => it(c.id)).join("")}` : "")
+      + (Object.keys(rep).length ? `<div class="kqp">${Object.entries(rep).map(([f, v]) => `+${v} reputation with ${esc(f)}`).join("<br>")}</div>` : "")
+      + (!choice.length && !items.length && !Object.keys(rep).length ? `<div class="kqp dim">No item rewards.</div>` : "") + `</div>`;
+    QTIP[k] = 1;
+  }
+  return k;
+}
 function tag(txt, bold, k) {
   if (k === "q" || k === "a" || k === "t") {   // quests read like an NPC's quest list: ! to pick up, ? to hand in
     const name = txt.replace(/:$/, ""), g = k === "a" ? `<i class="g">!</i>` : k === "t" ? `<i class="g">?</i>` : "";
-    const what = k === "a" ? "Quest to pick up" : k === "t" ? "Quest to hand in" : "Quest";
-    return `<a class="kq" href="${WH}${encodeURIComponent(name)}" target="_blank" rel="noopener" data-tip="${what}. Opens a Wowhead search.">${g}[${esc(name)}]</a>${txt.endsWith(":") ? ":" : ""}`;
+    const what = k === "a" ? "Quest to pick up" : k === "t" ? "Quest to hand in" : "Quest", tk = questTip(qname(name)), rq = k === "a" ? qreq(qname(name)) : null;
+    return `<a class="kq" href="${WH}${encodeURIComponent(name)}" target="_blank" rel="noopener" ${tk ? `data-tiph="${esc(tk)}"` : `data-tip="${what}. Opens a Wowhead search."`}>${g}[${esc(name)}]</a>${rq ? `<span class="qlv" aria-label="needs level ${rq}">${rq}+</span>` : ""}${txt.endsWith(":") ? ":" : ""}`;
   }
   if (k === "i") return itemHTML(txt);
   if (k === "h") return `<b class="kh"><i class="sk">${SKULL}</i>${esc(txt)}</b>`;
@@ -108,8 +135,8 @@ function parse(raw, pi) {
     }
     m = ln.match(/^\*([^*].*)\*$/);
     if (m) { P.blocks.push({ t: "goal", h: inline(m[1]) }); continue; }
-    if (step) { step.body.push({ t: "p", h: inline(ln) }); step.raw += "\n" + ln; }
-    else P.blocks.push({ t: "p", h: inline(ln) });
+    if (step) { step.body.push({ t: "p", h: inline(ln), raw: ln }); step.raw += "\n" + ln; }
+    else P.blocks.push({ t: "p", h: inline(ln), raw: ln });
   }
   return P;
 }
@@ -126,7 +153,34 @@ const stepsOf = (P) => P.blocks.filter(b => b.t === "step");
 const allSteps = g => model(g).flatMap(stepsOf);
 const key = g => "kb." + g.id;
 const ticks = g => new Set(store.get(key(g), []));
-const tally = (g, t = ticks(g)) => { const a = allSteps(g); return { n: a.filter(s => t.has(s.id)).length, of: a.length }; };
+
+/* ---- quest chains: skip one and every step and line that's only about it greys out ---- */
+function chainMaps(g) {
+  if (g._c) return g._c;
+  const q = {}, it = {};
+  (g.chains || []).forEach(c => { (c.quests || []).forEach(n => q[n] = c.id); (c.items || []).forEach(n => it[n] = c.id); });
+  return (g._c = { q, it, by: Object.fromEntries((g.chains || []).map(c => [c.id, c])), core: new Set(g.core || []) });
+}
+// which chains a line is about: its quests, its items, and the mats on a "Requires" line
+function chainsOf(g, raw) {
+  const C = chainMaps(g), out = new Set(), add = c => c && out.add(c);
+  for (const m of String(raw || "").matchAll(/(\*\*|\*)(.+?)\1(?:\{([qnhiat])\})?|\{i:([^}]+)\}/g)) {
+    if (m[4]) add(C.it[m[4]]);
+    else if (m[3] && "qat".includes(m[3])) add(C.q[qname(m[2])]);
+    else if (m[3] === "i") add(C.it[qname(m[2])]);
+  }
+  for (const m of String(raw || "").matchAll(/\b\d+x ([^,(\n]+?)(?= \(|,|$)/gm)) add(C.it[m[1].trim()]);
+  return out;
+}
+const stepChains = (g, s) => s._ch || (s._ch = chainsOf(g, s.raw));
+const runKey = g => "kb." + g.id + ".run";
+// chains switched off: what you chose, else the guide's default (The Challenge starts off)
+function skipSet(g) {
+  const o = store.get(runKey(g), {});
+  return new Set((g.chains || []).filter(c => o[c.id] !== undefined ? !o[c.id] : !!c.off).map(c => c.id));
+}
+const stepSkipped = (g, s, skip) => { const ch = stepChains(g, s); return !chainMaps(g).core.has(s.id) && ch.size > 0 && [...ch].every(c => skip.has(c)); };
+const tally = (g, t = ticks(g), skip = skipSet(g)) => { const a = allSteps(g).filter(s => !stepSkipped(g, s, skip)); return { n: a.filter(s => t.has(s.id)).length, of: a.length }; };
 
 /* =================== the banner: a bookshelf, or the open book's cover =================== */
 function shelfArt() {
@@ -245,36 +299,39 @@ function mapThumb(npc, pin) {
   return `<button class="wmap" type="button" data-npc="${esc(npc)}" data-pin="${esc(pin)}" aria-label="Show ${esc(npc)} on the ${esc(P.zoneName)} map" style="background-image:url(img/maps/${P.zone}.jpg);background-size:${Z * 100}% ${Z * 100}%;background-position:${(ox / (1 - 1 / Z) * 100).toFixed(1)}% ${(oy / (1 - 1 / Z) * 100).toFixed(1)}%">`
     + `<i class="pin${pin ? "" : " dot"}" style="left:${((fx - ox) * Z * 100).toFixed(1)}%;top:${((fy - oy) * Z * 100).toFixed(1)}%">${pin}</i><span class="wz">${esc(P.zoneName)}</span></button>`;
 }
+// data-ch: the quest chains a line belongs to, so skipping a chain can grey it out
+let G = null;
+const chAttr = raw => { const c = G ? [...chainsOf(G, raw)] : []; return c.length ? ` data-ch="${c.join(" ")}"` : ""; };
 function whoHTML(raw) {
   const w = whoParts(raw), pin = pinOf(raw), thumb = w.k === "n" ? mapThumb(w.name, pin) : "";
-  return `<div class="who k-${w.k}${thumb ? " has-map" : ""}">${thumb}<div class="wb">
+  return `<div class="who k-${w.k}${thumb ? " has-map" : ""}"${chAttr(raw)}>${thumb}<div class="wb">
     <p class="wh"><span class="wi">${w.k === "h" ? SKULL : BUBBLE}</span><b class="${KIND[w.k]}">${esc(w.name)}</b></p>
     ${w.where ? `<p class="ww">${inline(w.where)}</p>` : ""}<p class="wt">${inline(cap1(w.rest), w.name)}</p></div></div>`;
 }
 function bringHTML(raw) {
   const list = raw.replace(/^\*\*Requires:\*\*\s*/, "").split(", ").map(p => p.trim().match(/^(\d+)x (.+?)(?: \((.*)\))?$/)).filter(Boolean);
-  return `<div class="bring"><p class="bh"><img src="${ICON("inv_misc_bag_08")}" alt="">Bring these</p><div class="bgrid">${list.map(([, n, name, note]) => {
+  return `<div class="bring"${chAttr(raw)}><p class="bh"><img src="${ICON("inv_misc_bag_08")}" alt="">Bring these</p><div class="bgrid">${list.map(([, n, name, note]) => {
     const it = KBI[name], tagName = it ? "a" : "span";
     return `<${tagName} class="islot q${it ? it.q : 1}"${it ? ` href="${WHI}${it.id}" target="_blank" rel="noopener"` : ""}><span class="ib">${it ? `<img src="${ICON(it.icon)}" alt="" loading="lazy">` : ""}</span><span class="in"><b>${esc(name)}</b>${note ? `<small>${esc(note)}</small>` : ""}</span><span class="ix">×${n}</span></${tagName}>`;
   }).join("")}</div></div>`;
 }
 function wayHTML(raw) {
   const m = raw.match(WAYS), kind = m[1].split(" ")[0].toLowerCase();
-  return `<div class="way"><p class="wyh"><img src="${ICON(WAY_ICON[kind] || "inv_misc_map_01")}" alt="">${esc(m[1])}</p><p>${inline(cap1(m[2]))}</p></div>`;
+  return `<div class="way"${chAttr(raw)}><p class="wyh"><img src="${ICON(WAY_ICON[kind] || "inv_misc_map_01")}" alt="">${esc(m[1])}</p><p>${inline(cap1(m[2]))}</p></div>`;
 }
 function details(items) {
   let h = "", i = 0;
   while (i < items.length) {
     const b = items[i];
-    if (b.t === "p") { h += `<p class="sd">${b.h}</p>`; i++; continue; }
+    if (b.t === "p") { h += `<p class="sd"${chAttr(b.raw)}>${b.h}</p>`; i++; continue; }
     if (b.t === "warn") { const m = b.raw.match(/^\*\*(.+?)\*\*\s*(.*)$/); h += `<div class="rw" role="note">${m ? `<b>${esc(m[1])}</b><span>${inline(m[2])}</span>` : `<span>${inline(b.raw)}</span>`}</div>`; i++; continue; }
     const k = liKind(b.raw), run = [];
     while (i < items.length && items[i].t === "li" && liKind(items[i].raw) === k) run.push(items[i++].raw);
     if (k === "bring") h += run.map(bringHTML).join("");
     else if (k === "way") h += `<div class="ways">${run.map(wayHTML).join(`<span class="or" aria-hidden="true">or</span>`)}</div>`;
     else if (k === "who") h += `<div class="whos">${run.map(whoHTML).join("")}</div>`;
-    else if (k === "opt") h += run.map(r => `<p class="opt"><span class="optag">Optional</span>${inline(r.replace(/^\*Optional:\*\s*/, ""))}</p>`).join("");
-    else h += `<ul class="tips">${run.map(r => `<li>${inline(r)}</li>`).join("")}</ul>`;
+    else if (k === "opt") h += run.map(r => `<p class="opt"${chAttr(r)}><span class="optag">Optional</span>${inline(r.replace(/^\*Optional:\*\s*/, ""))}</p>`).join("");
+    else h += `<ul class="tips">${run.map(r => `<li${chAttr(r)}>${inline(r)}</li>`).join("")}</ul>`;
   }
   return h;
 }
@@ -297,33 +354,61 @@ function headHTML(s) {
   else if (/[:.]$/.test(title) || !rest.trim()) desc = rest.trim();
   else tail = rest;                                             // "**5. Keep** any…": one line, as written
   const npc = s.k === "n" ? title.replace(/[:.]$/, "") : null, it = s.k === "i" ? KBI[title.replace(/[:.]$/, "")] : null;
-  const tt = `${itemIcon(it)}<b class="stt ${s.k ? KIND[s.k] : ""}">${plain(tail ? title : title.replace(/[:.]$/, ""))}</b>${tail ? inline(tail) : ""}`;
+  const tk = s.k && "qat".includes(s.k) ? questTip(qname(title)) : "";
+  const tt = `${itemIcon(it)}<b class="stt ${s.k ? KIND[s.k] : ""}"${tk ? ` data-tiph="${esc(tk)}"` : ""}>${plain(tail ? title : title.replace(/[:.]$/, ""))}</b>${tail ? inline(tail) : ""}`;
   return `<p class="sh">${mks}${tt}${where ? `<span class="where">${inline(where, npc)}</span>` : ""}</p>${desc ? `<p class="sd">${inline(cap1(desc), npc)}</p>` : ""}`;
 }
+// the first step that's only about a chain carries the guide's word on it ("very skippable"), and its Skip button
+let firstNote = new Set();
 function stepHTML(s, done, notes) {
   const un = notes.filter(u => u.at.includes(s.id)).map(u => `<p class="unsure"><b>Not confirmed on Forever</b>${esc(u.text)}</p>`).join("");
-  return `<div class="step${done ? " done" : ""}${s.warn ? " warned" : ""}" data-s="${esc(s.id)}"><button class="tick" type="button" role="checkbox" aria-checked="${done}" aria-label="${esc(s.label)}">${s.n ? `<span class="tn">${s.n}</span>` : ""}</button><div class="sx">${headHTML(s)}${body(s.body)}${un}</div></div>`;
+  const C = chainMaps(G), ch = [...stepChains(G, s)], one = ch.length === 1 && !C.core.has(s.id) ? C.by[ch[0]] : null;
+  let note = "";
+  if (one && one.note && !firstNote.has(one.id)) { firstNote.add(one.id); note = `<p class="cnote">${one.tag ? `<span class="ctag">${esc(one.tag)}</span>` : ""}${esc(one.note)}</p>`; }
+  const tips = (G.tips || []).filter(t => t.at === s.id).map(t => `<p class="tipnote"><img src="${ICON("inv_misc_note_01")}" alt=""><span><b>Tip</b>${esc(t.text)}</span></p>`).join("");
+  const skip = one ? `<button class="skipb" type="button" data-chain="${esc(one.id)}" data-tip="Skip ${esc(one.name)}. Its other steps grey out too."><span>Skip</span></button>` : "";
+  return `<div class="step${done ? " done" : ""}${s.warn ? " warned" : ""}${skip ? " can-skip" : ""}" data-s="${esc(s.id)}"${ch.length ? ` data-ch="${ch.join(" ")}"` : ""}><button class="tick" type="button" role="checkbox" aria-checked="${done}" aria-label="${esc(s.label)}">${s.n ? `<span class="tn">${s.n}</span>` : ""}</button><div class="sx">${headHTML(s)}${note}${body(s.body)}${tips}${un}</div>${skip}<span class="skiptag" aria-hidden="true">Skipped</span></div>`;
 }
 function pageHTML(g, P, i, t) {
   const H = heading(P.head), st = stepsOf(P), d = st.filter(s => t.has(s.id)).length, chars = strip(g.posts[i]).length;
   const notes = (g.unsure || []).filter(u => u && Array.isArray(u.at));
   const blocks = P.blocks.map(b => b.t === "step" ? stepHTML(b, t.has(b.id), notes) : b.t === "grp" ? `<h4 class="kgrp">${b.h}</h4>` : b.t === "sub" ? `<p class="sub">${b.h}</p>`
-    : b.t === "goal" ? `<p class="goal">${b.h}</p>` : b.t === "warn" ? body([b]) : `<p>${b.h}</p>`).join("");
+    : b.t === "goal" ? `<p class="goal">${b.h}</p>` : b.t === "warn" ? body([b]) : `<p${chAttr(b.raw)}>${b.h}</p>`).join("");
+  const ptips = (G.tips || []).filter(x => x.at === "p" + i).map(x => `<p class="tipnote"><img src="${ICON("inv_misc_note_01")}" alt=""><span><b>Tip</b>${esc(x.text)}</span></p>`).join("");
   return `<article class="page${st.length && d === st.length ? " done" : ""}" id="kbp-${i}" data-p="${i}">
-  <header class="ph"><span class="seal" aria-hidden="true">${esc(H.n || "✦")}</span><div class="pt"><h3>${esc(H.name)}</h3>${H.small ? `<small>${esc(H.small)}</small>` : ""}</div>
+  <header class="ph"><button class="fold" type="button" aria-expanded="true" aria-controls="kbpb-${i}" aria-label="Fold ${esc(H.name)}${H.small ? ", " + esc(H.small) : ""}"><span class="seal" aria-hidden="true">${esc(H.n || "✦")}</span><span class="pt"><h3>${esc(H.name)}</h3>${H.small ? `<small>${esc(H.small)}</small>` : ""}</span><span class="chev" aria-hidden="true"></span></button>
     <span class="pp" aria-label="${d} of ${st.length} steps ticked">${d}/${st.length}</span>
     <button class="copy" type="button" data-tip="Copies this part as one Discord message (${chars.toLocaleString()} of 2,000 characters)">${COPY_ICON}<span>Copy for Discord</span></button></header>
-  <div class="pb">${blocks}</div>
+  <div class="pb" id="kbpb-${i}">${ptips}${blocks}</div>
 </article>`;
 }
 let cur = null, mode = null, spyObs = null;
+// "When to start": each quest chain at the level you can pick it up, and a switch to skip it
+function planner(g) {
+  const C = chainMaps(g), rows = {};
+  (g.chains || []).forEach(c => { const lv = qreq(c.quests[0]) || 0; (rows[lv] = rows[lv] || []).push(c); });
+  const lvls = Object.keys(rows).map(Number).sort((a, b) => a - b);
+  (g.chains || []).forEach(c => {
+    const qs = c.quests.filter(n => QPARTS[n]), lv = qs.flatMap(n => QPARTS[n].map(p => p.level));
+    D.TIPS["kbc:" + c.id] = `<div class="kqt"><div class="kqh"><b>${esc(c.name)}</b>${lv.length ? `<span>Level ${Math.min(...lv)}–${Math.max(...lv)}</span>` : ""}</div>`
+      + `<div class="kqr">Pick up at level ${qreq(c.quests[0]) || "?"}</div>${c.note ? `<div class="kqp">${esc(c.note)}</div>` : ""}`
+      + `<div class="kqs">Quests</div><div class="kql">${c.quests.map(esc).join("<br>")}</div><div class="kqp dim">Click to skip it, or to bring it back.</div></div>`;
+  });
+  return `<section class="kbrun" aria-labelledby="kbrunh">
+  <div class="rh"><h3 id="kbrunh">When to start, and what to skip</h3><p>Quest chains by the level you can pick them up. Untick one to skip it, and its steps grey out all through the guide.</p></div>
+  <div class="ladder">${lvls.map(lv => `<div class="rung"><span class="lvl" aria-label="Level ${lv}"><small>Level</small>${lv}</span><div class="chains">${rows[lv].map(c => `<button class="chain" type="button" data-chain="${esc(c.id)}" aria-pressed="true" data-tiph="kbc:${esc(c.id)}"><span class="cbox" aria-hidden="true"></span><span class="cn">${esc(c.name)}</span>${c.tag ? `<span class="ctag">${esc(c.tag)}</span>` : ""}</button>`).join("")}</div></div>`).join("")}</div>
+  ${(g.before || []).length ? `<div class="before"><p class="lbl">Before you go</p><ul>${g.before.map(b => `<li>${esc(b)}</li>`).join("")}</ul></div>` : ""}
+</section>`;
+}
+const foldKey = g => "kb." + g.id + ".fold";
 function book(g) {
   const M = model(g), t = ticks(g);
+  G = g; firstNote = new Set();
   bannerBook(g, M[0].cover && M[0].cover.sub);
   bookEl.innerHTML = `<div class="kbbar">
   <a class="btn ghost kbback" href="#library">← Back to the shelf</a>
   <div class="kbprog" role="progressbar" aria-label="Steps ticked" aria-valuemin="0"><span class="bar"><i></i></span><b></b></div>
-  <div class="row"><button class="btn kbnext" type="button"><span class="qm qw" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M2.5 1.8 14 8 2.5 14.2 5.4 8z" fill="#ffd200" stroke="#3b2600" stroke-width="1.1" stroke-linejoin="round"/></svg></span><span><b>Next step</b><small></small></span></button><button class="btn ghost kbreset" type="button">Start a fresh run</button><button class="btn ghost kblink" type="button">Copy link</button></div>
+  <div class="row"><button class="btn ghost kbfoldall" type="button">Fold all parts</button><button class="btn kbnext" type="button"><span class="qm qw" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M2.5 1.8 14 8 2.5 14.2 5.4 8z" fill="#ffd200" stroke="#3b2600" stroke-width="1.1" stroke-linejoin="round"/></svg></span><span><b>Next step</b><small></small></span></button><button class="btn ghost kbreset" type="button">Start a fresh run</button><button class="btn ghost kblink" type="button">Copy link</button></div>
 </div>
 <div class="kbintro">
   <div class="kbkey" role="list" aria-label="How to read this guide">
@@ -335,6 +420,7 @@ function book(g) {
     <span role="listitem"><span class="ki">[Item]</span> loot or use</span>
     <span role="listitem"><span class="loc" aria-hidden="true"><img src="${ICON("inv_misc_map_01")}" alt="">Zone</span> opens their map</span>
   </div>
+  ${planner(g)}
   ${(g.unsure || []).length ? `<details class="kbnotes"><summary><span class="stamp">Unchecked</span>${g.unsure.length} things nobody has confirmed on Forever yet<small>The ones about a step are on that step too. Seen one in game? Tell an officer.</small></summary><ul>${g.unsure.map(u => `<li>${esc(u.text || u)}</li>`).join("")}</ul></details>` : ""}
 </div>
 <div class="kbbook">
@@ -347,19 +433,35 @@ ${(g.sources || []).length ? `<details class="more"><summary><span>Where this ca
 }
 // counts, the progress bar and the DONE stamps, without redrawing the book
 function refresh(g) {
-  const t = ticks(g), { n, of } = tally(g, t), pr = $(".kbprog", bookEl);
+  const t = ticks(g), skip = skipSet(g), { n, of } = tally(g, t, skip), pr = $(".kbprog", bookEl);
   pr.style.setProperty("--p", (of ? n / of * 100 : 0) + "%"); pr.setAttribute("aria-valuemax", of); pr.setAttribute("aria-valuenow", n);
-  $("b", pr).textContent = n === of ? `All ${of} steps done` : `${n} of ${of} steps`;
+  const nskip = allSteps(g).length - of;
+  $("b", pr).textContent = (n === of ? `All ${of} steps done` : `${n} of ${of} steps`) + (nskip ? ` · ${nskip} skipped` : "");
   pr.classList.toggle("full", n === of);
+  // skipped chains: whole steps grey out when they're only about skipped chains, single lines when theirs are
+  const SB = Object.fromEntries(allSteps(g).map(s => [s.id, s]));
+  $$("[data-ch]", bookEl).forEach(el => {
+    const off = el.dataset.ch.split(" ").every(c => skip.has(c));
+    if (el.classList.contains("step")) {
+      const sk = stepSkipped(g, SB[el.dataset.s], skip);
+      el.classList.toggle("skipped", sk); $(".tick", el).disabled = sk;
+      const b = $(".skipb", el); if (b) { $("span", b).textContent = sk ? "Bring back" : "Skip"; b.setAttribute("aria-pressed", sk); }
+    } else el.classList.toggle("off", off);
+  });
+  $$(".kbrun .chain", bookEl).forEach(b => { const on = !skip.has(b.dataset.chain); b.setAttribute("aria-pressed", on); b.classList.toggle("on", on); });
   model(g).forEach((P, i) => {
-    const st = stepsOf(P), d = st.filter(s => t.has(s.id)).length, full = !!st.length && d === st.length;
+    const st = stepsOf(P).filter(s => !stepSkipped(g, s, skip)), d = st.filter(s => t.has(s.id)).length, full = !!st.length && d === st.length, all = !st.length && stepsOf(P).length;
     const pg = $(`#kbp-${i}`, bookEl), nv = $(`.kbnav [data-p="${i}"]`, bookEl);
-    $(".ph .pp", pg).textContent = d + "/" + st.length; pg.classList.toggle("done", full);
-    $(".pp", nv).textContent = full ? "✓" : d + "/" + st.length; nv.classList.toggle("done", full);
+    $(".ph .pp", pg).textContent = all ? "skipped" : d + "/" + st.length; pg.classList.toggle("done", full); pg.classList.toggle("allskip", !!all);
+    $(".pp", nv).textContent = all ? "–" : full ? "✓" : d + "/" + st.length; nv.classList.toggle("done", full || !!all);
   });
   const rb = $(".kbreset", bookEl); rb.disabled = !n; if (!armed) rb.textContent = "Start a fresh run";
-  // the first step you haven't ticked glows, like a tracked quest, and the Next step button takes you there
-  const steps = $$(".step", bookEl), nx = steps.find(s => !s.classList.contains("done"));
+  // folded parts
+  const fold = new Set(store.get(foldKey(g), []));
+  $$(".page", bookEl).forEach(pg => { const f = fold.has(+pg.dataset.p); pg.classList.toggle("folded", f); $(".fold", pg).setAttribute("aria-expanded", !f); });
+  $(".kbfoldall", bookEl).textContent = fold.size >= model(g).length ? "Open all parts" : "Fold all parts";
+  // the first step you haven't ticked (or skipped) glows, like a tracked quest, and the Next step button takes you there
+  const steps = $$(".step", bookEl), nx = steps.find(s => !s.classList.contains("done") && !s.classList.contains("skipped"));
   steps.forEach(s => s.classList.toggle("next", s === nx));
   const nb = $(".kbnext", bookEl); nb.hidden = !nx;
   if (nx) {
@@ -435,6 +537,18 @@ function reset(btn) {
   $$(".step.done", bookEl).forEach(s => { s.classList.remove("done"); $(".tick", s).setAttribute("aria-checked", "false"); });
   refresh(cur); say(pick(L.reset), 0, 3000);
 }
+// skip a quest chain, or bring it back
+function toggleChain(g, id) {
+  const o = store.get(runKey(g), {}), skipped = skipSet(g).has(id);
+  o[id] = skipped; store.set(runKey(g), o);
+  refresh(g);
+}
+// fold or open parts (by index)
+function setFold(g, list, folded) {
+  const s = new Set(store.get(foldKey(g), []));
+  list.forEach(i => folded ? s.add(i) : s.delete(i));
+  store.set(foldKey(g), [...s]); refresh(g);
+}
 /* ---- the zone map, opened from a map button or a thumbnail: the whole zone, with the NPC's ! or ? on it ---- */
 const mapBox = document.createElement("div");
 mapBox.className = "kbmap"; mapBox.hidden = true; mapBox.setAttribute("role", "dialog"); mapBox.setAttribute("aria-modal", "true");
@@ -456,12 +570,15 @@ addEventListener("hashchange", closeMap);
 bookEl.addEventListener("click", e => {
   const lc = e.target.closest(".loc, .wmap");
   if (lc) { openMap(lc.dataset.npc, lc.dataset.pin, lc); return; }
-  const el = e.target.closest(".tick, .copy, .kbnav [data-p], .kbreset, .kblink, .kbnext");
+  const el = e.target.closest(".tick, .copy, .kbnav [data-p], .kbreset, .kblink, .kbnext, .skipb, .chain, .fold, .kbfoldall");
   if (!el || !cur) return;
   if (el.classList.contains("tick")) tick(el);
-  else if (el.classList.contains("kbnext")) { const nx = $(".step.next", bookEl); if (nx) nx.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); }
+  else if (el.classList.contains("skipb") || el.classList.contains("chain")) toggleChain(cur, el.dataset.chain);
+  else if (el.classList.contains("fold")) { const i = +el.closest(".page").dataset.p; setFold(cur, [i], el.getAttribute("aria-expanded") === "true"); }
+  else if (el.classList.contains("kbfoldall")) { const all = model(cur).map((_, i) => i), open = new Set(store.get(foldKey(cur), [])).size < all.length; setFold(cur, all, open); }
+  else if (el.classList.contains("kbnext")) { const nx = $(".step.next", bookEl); if (nx) { setFold(cur, [+nx.closest(".page").dataset.p], false); nx.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); } }
   else if (el.classList.contains("copy")) copyPart(el);
-  else if (el.dataset.p != null) $(`#kbp-${el.dataset.p}`, bookEl).scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "start" });
+  else if (el.dataset.p != null) { setFold(cur, [+el.dataset.p], false); $(`#kbp-${el.dataset.p}`, bookEl).scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "start" }); }
   else if (el.classList.contains("kbreset")) reset(el);
   else {
     const url = location.origin + location.pathname + "#kb-" + cur.id;

@@ -1075,3 +1075,73 @@ a.islot:hover .ib::after{transform:translateX(120%)}
   .islot{grid-template-columns:40px minmax(0,1fr) auto}.islot .ib{width:40px;height:40px}
 }
 @media (prefers-reduced-motion:reduce){.pin,.pin.dot{animation:none}}
+
+/* ---------- the library: folding parts, skipping chains, the run planner, quest cards ---------- */
+.ph .fold{display:flex;align-items:center;gap:.8rem;flex:1 1 220px;min-width:0;padding:0;border:0;background:none;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.ph .fold .pt{flex:1;min-width:0;display:block}
+.ph .fold .pt h3{display:block}
+.ph .chev{flex:none;width:10px;height:10px;margin:0 .5rem 0 auto;border-right:2.5px solid var(--gold);border-bottom:2.5px solid var(--gold);transform:rotate(45deg) translateY(-2px);transition:transform .2s}
+.ph .fold:hover .chev{border-color:var(--gold2)}
+.page.folded .chev{transform:rotate(-45deg)}
+.page.folded .pb{display:none}
+.page.folded .ph{border-bottom:0}
+.page.folded::after{top:50%;bottom:auto;right:9.5rem;transform:translateY(-50%) rotate(-8deg);font-size:1rem;animation:none}
+.page.allskip .ph{opacity:.5}
+/* a skipped step: greyed like a quest too low to care about; lines that are only about a skipped chain fade too */
+.step{position:relative}
+.step.can-skip .sx{padding-right:6.4rem}
+.skipb{position:absolute;right:0;top:0;padding:.22rem .65rem;border-radius:99px;border:1px solid var(--rule);background:var(--bg3);color:var(--muted);font:700 .72rem/1.3 var(--f-sans);cursor:pointer;transition:color .2s,border-color .2s}
+.skipb:hover{color:var(--ink);border-color:var(--dim)}
+.step.skipped .sx,.step.skipped>.tick{opacity:.3;filter:grayscale(1)}
+.step.skipped>.tick{cursor:default}
+.step.skipped .skipb{color:var(--gold2);border-color:#7a6330;background:#241a0d}
+.skiptag{display:none;position:absolute;right:0;top:0;padding:.1rem .45rem;border-radius:4px;background:var(--bg4);color:var(--muted);font:800 .6rem/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.step.skipped .skiptag{display:block}
+.step.skipped.can-skip .skiptag{top:2rem}
+.sx [data-ch].off,.pb>p.off{opacity:.3;filter:grayscale(1)}
+.sx li.off::before{background:var(--dim);box-shadow:none}
+/* the guide's own word on a chain, and tips */
+.cnote{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .55rem;padding:.42rem .7rem;border-radius:8px;background:rgba(242,197,107,.07);border-left:3px solid var(--gold);color:#e9dcb8;font-size:.92rem}
+.ctag{display:inline-block;padding:.03rem .45rem;border-radius:4px;background:#3a2a10;border:1px solid #8a6a2c;color:var(--gold2);font:800 .6rem/1.7 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.tipnote{display:flex;gap:.55rem;align-items:flex-start;padding:.45rem .7rem;border-radius:8px;background:var(--bg3);border:1px solid var(--rule);font-size:.9rem;color:#d3d7e4}
+.tipnote img{flex:none;width:22px;height:22px;border-radius:4px;box-shadow:0 0 0 1px #000,0 0 0 2px #4b4f63}
+.tipnote b{margin-right:.45rem;color:var(--sky);font:800 .64rem/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.qlv{display:inline-block;margin-left:.22rem;padding:0 .3rem;border-radius:4px;background:var(--bg4);color:#c9b892;font:700 .68rem/1.55 var(--f-mono);vertical-align:.08em}
+/* "When to start, and what to skip": chains on the rungs of a level ladder */
+.kbrun{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:.9rem 1.6rem;padding:.95rem 1.05rem 1.05rem;border-radius:12px;background:var(--bg2);border:1px solid var(--rule)}
+.kbrun .rh{grid-column:1/-1}
+.kbrun .rh h3{font-size:1.15rem}
+.kbrun .rh p{margin-top:.25rem;color:var(--muted);font-size:.9rem;max-width:80ch}
+.ladder{position:relative;display:flex;flex-direction:column;gap:.5rem}
+.ladder::before{content:"";position:absolute;left:22px;top:20px;bottom:20px;width:3px;border-radius:2px;background:linear-gradient(180deg,#8a6a2c,#4a3420)}
+.rung{position:relative;display:flex;gap:.75rem;align-items:flex-start}
+.lvl{flex:none;display:grid;place-items:center;align-content:center;width:46px;height:46px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#3d2c13,#15100a);border:2px solid #8a6a2c;box-shadow:0 2px 6px #000,inset 0 1px 0 rgba(255,220,150,.15);color:var(--gold2);font:800 1.05rem/1 var(--f-display)}
+.lvl small{margin-bottom:.1rem;font:700 .42rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:#c9b892}
+.kbrun .chains{display:flex;flex-wrap:wrap;gap:.35rem;padding-top:.5rem;min-width:0}
+.chain{display:inline-flex;align-items:center;gap:.45rem;padding:.32rem .6rem .32rem .42rem;border-radius:8px;border:1px solid var(--rule);background:var(--bg3);color:var(--dim);font:700 .86rem/1.2 var(--f-sans);text-decoration:line-through;cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.chain.on{color:var(--ink);text-decoration:none;border-color:#6b5a2c;background:linear-gradient(180deg,#221a0f,var(--bg3))}
+.chain:hover{border-color:var(--gold)}
+.cbox{position:relative;flex:none;width:16px;height:16px;border-radius:4px;border:2px solid #8a6a2c;background:#0e0b07}
+.chain.on .cbox::after{content:"";position:absolute;left:3px;top:0;width:4px;height:8px;border:solid var(--ql);border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
+.chain .ctag{font-size:.55rem}
+.before{align-self:start;padding:.7rem .85rem .8rem;border-radius:10px;background:var(--bg3);border:1px solid var(--rule)}
+.before .lbl{margin-bottom:.4rem;color:var(--gold)}
+.before ul{margin:0;padding-left:1.05rem;display:flex;flex-direction:column;gap:.4rem;font-size:.9rem;color:#d3d7e4}
+/* quest and chain cards on hover: name and level, then what you get */
+#tip .kqt{min-width:250px;max-width:350px}
+.kqh{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.kqh b{color:var(--ql);font:800 .98rem/1.25 var(--f-sans)}
+.kqh span{color:var(--muted);font:600 .76rem/1 var(--f-mono);white-space:nowrap}
+.kqr{margin-top:.15rem;color:#c9b892;font-size:.82rem}
+.kqs{margin-top:.55rem;color:var(--ql);font-size:.8rem;font-weight:700}
+.kqi{--qc:#8a8a8a;display:flex;align-items:center;gap:.5rem;margin-top:.32rem}
+.kqi img{flex:none;width:30px;height:30px;border-radius:5px;box-shadow:0 0 0 1px #000,0 0 0 1.5px var(--qc)}
+.kqi span{display:flex;flex-direction:column;min-width:0}
+.kqi b{font-size:.88rem;line-height:1.2;color:#fff}
+.kqi small{font-size:.74rem;line-height:1.3;color:var(--muted)}
+.kqi.q2{--qc:#1eff00}.kqi.q2 b{color:#1eff00}.kqi.q3{--qc:#0070dd}.kqi.q3 b{color:#4aa3ff}.kqi.q4{--qc:#a335ee}.kqi.q4 b{color:#c36bff}
+.kqp{margin-top:.5rem;color:#9fe7a7;font-size:.82rem;line-height:1.35}
+.kqp.dim{color:var(--muted)}
+.kql{font-size:.82rem;line-height:1.45;color:#d3d7e4}
+@media (max-width:760px){.kbrun{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:620px){.step.can-skip .sx{padding-right:0;padding-top:1.9rem}.skipb{top:0;right:0}.step.skipped.can-skip .skiptag{top:0;right:6.2rem}.page.folded::after{display:none}}

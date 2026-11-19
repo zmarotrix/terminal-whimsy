@@ -1,0 +1,787 @@
+{
+ "_about": "Quest facts for the Library's guides. parts: Wowhead's Forever quest pages, read by hand on 19 Nov 2026 (level, required level, reward choices, reputation), keyed by quest id. rewards: Wowhead's Forever item tooltips. Written by tools/kb_quests.py. No XP yet: Wowhead works it out in the browser.",
+ "parts": {
+  "3441": {
+   "level": 48,
+   "name": "Divine Retribution",
+   "req": 40,
+   "side": "Both"
+  },
+  "3701": {
+   "items": [
+    {
+     "id": 12102,
+     "name": "Ring of the Aristocrat",
+     "q": 2
+    }
+   ],
+   "level": 54,
+   "name": "The Smoldering Ruins of Thaurissan",
+   "rep": [
+    "100 reputation with Ironforge"
+   ],
+   "req": 50
+  },
+  "3702": {
+   "level": 54,
+   "name": "The Smoldering Ruins of Thaurissan",
+   "rep": [
+    "10 reputation with Ironforge"
+   ],
+   "req": 50
+  },
+  "3801": {
+   "level": 52,
+   "name": "Dark Iron Legacy",
+   "req": 48,
+   "side": "Both"
+  },
+  "3802": {
+   "items": [
+    {
+     "id": 11000,
+     "name": "Shadowforge Key",
+     "q": 1
+    }
+   ],
+   "level": 52,
+   "name": "Dark Iron Legacy",
+   "req": 48,
+   "side": "Both"
+  },
+  "4022": {
+   "level": 54,
+   "name": "A Taste of Flame",
+   "req": 52,
+   "side": "Both"
+  },
+  "4023": {
+   "level": 54,
+   "name": "A Taste of Flame",
+   "req": 52,
+   "side": "Both"
+  },
+  "4024": {
+   "choice": [
+    {
+     "id": 12066,
+     "name": "Shaleskin Cape",
+     "q": 2
+    },
+    {
+     "id": 12082,
+     "name": "Wyrmhide Spaulders",
+     "q": 2
+    },
+    {
+     "id": 12083,
+     "name": "Valconian Sash",
+     "q": 2
+    }
+   ],
+   "level": 58,
+   "name": "A Taste of Flame",
+   "req": 52,
+   "side": "Both"
+  },
+  "4083": {
+   "level": 55,
+   "name": "The Spectral Chalice",
+   "req": 40,
+   "side": "Both"
+  },
+  "4123": {
+   "level": 55,
+   "name": "The Heart of the Mountain",
+   "req": 50,
+   "side": "Both"
+  },
+  "4126": {
+   "choice": [
+    {
+     "id": 11964,
+     "name": "Swiftstrike Cudgel",
+     "q": 2
+    },
+    {
+     "id": 12000,
+     "name": "Limb Cleaver",
+     "q": 2
+    },
+    {
+     "id": 270123,
+     "name": "Ragnar's Favorite Hat",
+     "q": 2
+    }
+   ],
+   "level": 55,
+   "name": "Hurley Blackbreath",
+   "req": 50
+  },
+  "4128": {
+   "level": 55,
+   "name": "Ragnar Thunderbrew",
+   "req": 50
+  },
+  "4136": {
+   "choice": [
+    {
+     "id": 11865,
+     "name": "Rancor Boots",
+     "q": 2
+    },
+    {
+     "id": 11963,
+     "name": "Penance Spaulders",
+     "q": 2
+    },
+    {
+     "id": 12049,
+     "name": "Splintsteel Armor",
+     "q": 2
+    }
+   ],
+   "level": 53,
+   "name": "Ribbly Screwspigot",
+   "req": 48,
+   "side": "Both"
+  },
+  "4182": {
+   "level": 54,
+   "name": "Dragonkin Menace",
+   "rep": [
+    "100 reputation with Darnassus"
+   ],
+   "req": 48
+  },
+  "4183": {
+   "level": 54,
+   "name": "The True Masters",
+   "rep": [
+    "75 reputation with Darnassus"
+   ],
+   "req": 48
+  },
+  "4184": {
+   "level": 54,
+   "name": "The True Masters",
+   "rep": [
+    "75 reputation with Stormwind"
+   ],
+   "req": 48
+  },
+  "4185": {
+   "level": 54,
+   "name": "The True Masters",
+   "req": 48
+  },
+  "4186": {
+   "level": 54,
+   "name": "The True Masters",
+   "rep": [
+    "100 reputation with Stormwind"
+   ],
+   "req": 48
+  },
+  "4201": {
+   "choice": [
+    {
+     "id": 11962,
+     "name": "Manacle Cuffs",
+     "q": 3
+    },
+    {
+     "id": 11866,
+     "name": "Nagmara's Whipping Belt",
+     "q": 3
+    },
+    {
+     "id": 270120,
+     "name": "Boots of Requite",
+     "q": 3
+    },
+    {
+     "id": 270121,
+     "name": "Private Rocknot's Spare Bracers",
+     "q": 3
+    }
+   ],
+   "level": 54,
+   "name": "The Love Potion",
+   "req": 50,
+   "side": "Both"
+  },
+  "4223": {
+   "level": 54,
+   "name": "The True Masters",
+   "req": 48
+  },
+  "4224": {
+   "level": 54,
+   "name": "The True Masters",
+   "req": 48
+  },
+  "4241": {
+   "level": 54,
+   "name": "Marshal Windsor",
+   "rep": [
+    "100 reputation with Stormwind"
+   ],
+   "req": 48
+  },
+  "4242": {
+   "choice": [
+    {
+     "id": 12018,
+     "name": "Conservator Helm",
+     "q": 3
+    },
+    {
+     "id": 12021,
+     "name": "Shieldplate Sabatons",
+     "q": 3
+    },
+    {
+     "id": 12041,
+     "name": "Windshear Leggings",
+     "q": 3
+    },
+    {
+     "id": 270118,
+     "name": "Cindercloth Gown",
+     "q": 3
+    }
+   ],
+   "level": 54,
+   "name": "Abandoned Hope",
+   "rep": [
+    "100 reputation with Stormwind"
+   ],
+   "req": 48
+  },
+  "4262": {
+   "level": 52,
+   "name": "Overmaster Pyron",
+   "rep": [
+    "100 reputation with Gnomeregan Exiles"
+   ],
+   "req": 48
+  },
+  "4263": {
+   "choice": [
+    {
+     "id": 12113,
+     "name": "Sunborne Cape",
+     "q": 2
+    },
+    {
+     "id": 12114,
+     "name": "Nightfall Gloves",
+     "q": 2
+    },
+    {
+     "id": 12112,
+     "name": "Crypt Demon Bracers",
+     "q": 2
+    },
+    {
+     "id": 12115,
+     "name": "Stalwart Clutch",
+     "q": 2
+    }
+   ],
+   "level": 56,
+   "name": "Incendius!",
+   "rep": [
+    "100 reputation with Gnomeregan Exiles"
+   ],
+   "req": 48
+  },
+  "4264": {
+   "level": 58,
+   "name": "A Crumpled Up Note",
+   "rep": [
+    "100 reputation with Stormwind"
+   ],
+   "req": 50
+  },
+  "4282": {
+   "level": 58,
+   "name": "A Shred of Hope",
+   "rep": [
+    "100 reputation with Stormwind"
+   ],
+   "req": 50
+  },
+  "4286": {
+   "items": [
+    {
+     "id": 11883,
+     "name": "A Dingy Fanny Pack",
+     "q": 1
+    }
+   ],
+   "level": 56,
+   "name": "The Good Stuff",
+   "rep": [
+    "100 reputation with Ironforge"
+   ],
+   "req": 50
+  },
+  "4322": {
+   "choice": [
+    {
+     "id": 12061,
+     "name": "Blade of Reckoning",
+     "q": 2
+    },
+    {
+     "id": 12062,
+     "name": "Skilled Fighting Blade",
+     "q": 2
+    }
+   ],
+   "level": 58,
+   "name": "Jail Break!",
+   "rep": [
+    "150 reputation with Stormwind"
+   ],
+   "req": 50
+  },
+  "4324": {
+   "level": 53,
+   "name": "Yuka Screwspigot",
+   "req": 48,
+   "side": "Both"
+  },
+  "4341": {
+   "level": 59,
+   "name": "Kharan Mighthammer",
+   "rep": [
+    "100 reputation with Ironforge"
+   ],
+   "req": 50
+  },
+  "4342": {
+   "level": 59,
+   "name": "Kharan's Tale",
+   "req": 50
+  },
+  "4361": {
+   "level": 59,
+   "name": "The Bearer of Bad News",
+   "req": 50
+  },
+  "4362": {
+   "level": 59,
+   "name": "The Fate of the Kingdom",
+   "rep": [
+    "150 reputation with Ironforge"
+   ],
+   "req": 50
+  },
+  "4363": {
+   "choice": [
+    {
+     "id": 12548,
+     "name": "Magni's Will",
+     "q": 3
+    },
+    {
+     "id": 12543,
+     "name": "Songstone of Ironforge",
+     "q": 3
+    }
+   ],
+   "level": 59,
+   "name": "The Princess's Surprise",
+   "req": 50
+  },
+  "6402": {
+   "level": 60,
+   "name": "Stormwind Rendezvous",
+   "req": 50
+  },
+  "6403": {
+   "level": 60,
+   "name": "The Great Masquerade",
+   "rep": [
+    "200 reputation with Stormwind"
+   ],
+   "req": 50
+  },
+  "6501": {
+   "level": 60,
+   "name": "The Dragon's Eye",
+   "req": 50
+  },
+  "6502": {
+   "items": [
+    {
+     "id": 16309,
+     "name": "Drakefire Amulet",
+     "q": 3
+    }
+   ],
+   "level": 60,
+   "name": "Drakefire Amulet",
+   "req": 50
+  },
+  "7848": {
+   "level": 60,
+   "name": "Attunement to the Core",
+   "req": 55,
+   "side": "Both"
+  },
+  "8948": {
+   "level": 60,
+   "name": "Anthion's Old Friend",
+   "req": 58,
+   "side": "Both"
+  },
+  "8950": {
+   "level": 60,
+   "name": "The Instigator's Enchantment",
+   "req": 58,
+   "side": "Both"
+  },
+  "9015": {
+   "level": 60,
+   "name": "The Challenge",
+   "req": 58,
+   "side": "Both"
+  }
+ },
+ "rewards": {
+  "11000": {
+   "icon": "inv_misc_key_08",
+   "lines": [
+    "Quest Item",
+    "\"Master Key to the Depths, Courtesy of F.F.F.\""
+   ],
+   "name": "Shadowforge Key",
+   "q": 1
+  },
+  "11865": {
+   "icon": "inv_boots_02",
+   "lines": [
+    "Feet · Cloth",
+    "47 Armor",
+    "+9 Agility",
+    "+10 Stamina",
+    "+8 Intellect"
+   ],
+   "name": "Rancor Boots",
+   "q": 2
+  },
+  "11866": {
+   "icon": "inv_belt_11",
+   "lines": [
+    "Waist · Leather",
+    "89 Armor",
+    "+8 Strength",
+    "+14 Stamina",
+    "Equip: Increased Defense +9."
+   ],
+   "name": "Nagmara's Whipping Belt",
+   "q": 3
+  },
+  "11883": {
+   "icon": "inv_misc_bag_09_black",
+   "lines": [],
+   "name": "A Dingy Fanny Pack",
+   "q": 1
+  },
+  "11962": {
+   "icon": "inv_bracer_13",
+   "lines": [
+    "Wrist · Cloth",
+    "34 Armor",
+    "+15 Intellect",
+    "Equip: Increases damage and healing done by magical spells and effects by up to 7."
+   ],
+   "name": "Manacle Cuffs",
+   "q": 3
+  },
+  "11963": {
+   "icon": "inv_shoulder_25",
+   "lines": [
+    "Shoulder · Leather",
+    "104 Armor",
+    "+8 Agility",
+    "+8 Stamina",
+    "+9 Spirit"
+   ],
+   "name": "Penance Spaulders",
+   "q": 2
+  },
+  "11964": {
+   "icon": "inv_mace_08",
+   "lines": [
+    "Main Hand · Mace",
+    "36 - 68 Damage · Speed 1.60",
+    "(32.50 damage per second)",
+    "+5 Agility",
+    "Equip: Improves your chance to hit by 0.8%."
+   ],
+   "name": "Swiftstrike Cudgel",
+   "q": 2
+  },
+  "12000": {
+   "icon": "inv_axe_02",
+   "lines": [
+    "Two-Hand · Axe",
+    "82 - 123 Damage · Speed 2.40",
+    "(42.71 damage per second)",
+    "+21 Strength",
+    "+6 Stamina",
+    "Equip: +9 Attack Power against Humanoids."
+   ],
+   "name": "Limb Cleaver",
+   "q": 2
+  },
+  "12018": {
+   "icon": "inv_helmet_01",
+   "lines": [
+    "Head · Mail",
+    "262 Armor",
+    "+22 Stamina",
+    "+20 Spirit"
+   ],
+   "name": "Conservator Helm",
+   "q": 3
+  },
+  "12021": {
+   "icon": "inv_boots_plate_01",
+   "lines": [
+    "Feet · Plate",
+    "390 Armor",
+    "+12 Strength",
+    "+15 Stamina",
+    "+9 Spirit"
+   ],
+   "name": "Shieldplate Sabatons",
+   "q": 3
+  },
+  "12041": {
+   "icon": "inv_pants_13",
+   "lines": [
+    "Legs · Leather",
+    "136 Armor",
+    "+19 Agility",
+    "+5 Stamina",
+    "+22 Spirit"
+   ],
+   "name": "Windshear Leggings",
+   "q": 3
+  },
+  "12049": {
+   "icon": "inv_chest_chain_16",
+   "lines": [
+    "Chest · Mail",
+    "288 Armor",
+    "+9 Strength",
+    "+14 Stamina",
+    "+12 Spirit"
+   ],
+   "name": "Splintsteel Armor",
+   "q": 2
+  },
+  "12061": {
+   "icon": "inv_sword_26",
+   "lines": [
+    "One-Hand · Sword",
+    "60 - 112 Damage · Speed 2.40",
+    "(35.83 damage per second)",
+    "+6 Stamina",
+    "Equip: +15 Attack Power.",
+    "Equip: +12 Attack Power against Dragonkin."
+   ],
+   "name": "Blade of Reckoning",
+   "q": 2
+  },
+  "12062": {
+   "icon": "inv_sword_21",
+   "lines": [
+    "One-Hand · Dagger",
+    "35 - 65 Damage · Speed 1.40",
+    "(35.71 damage per second)",
+    "Equip: Increased Daggers +1."
+   ],
+   "name": "Skilled Fighting Blade",
+   "q": 2
+  },
+  "12066": {
+   "icon": "inv_misc_cape_02",
+   "lines": [
+    "Back",
+    "38 Armor",
+    "+6 Agility",
+    "+11 Stamina"
+   ],
+   "name": "Shaleskin Cape",
+   "q": 2
+  },
+  "12082": {
+   "icon": "inv_shoulder_16",
+   "lines": [
+    "Shoulder · Leather",
+    "113 Armor",
+    "Equip: Improves your chance to hit by 1.5%.",
+    "Equip: +12 Attack Power.",
+    "Equip: +18 Attack Power against Dragonkin."
+   ],
+   "name": "Wyrmhide Spaulders",
+   "q": 2
+  },
+  "12083": {
+   "icon": "inv_belt_11",
+   "lines": [
+    "Waist · Cloth",
+    "42 Armor",
+    "+6 Stamina",
+    "+6 Fire Resistance",
+    "Equip: Increases damage and healing done by magical spells and effects by up to 17."
+   ],
+   "name": "Valconian Sash",
+   "q": 2
+  },
+  "12102": {
+   "icon": "inv_jewelry_ring_15",
+   "lines": [
+    "Finger ·",
+    "+10 Stamina",
+    "+6 Spirit"
+   ],
+   "name": "Ring of the Aristocrat",
+   "q": 2
+  },
+  "12112": {
+   "icon": "inv_bracer_17",
+   "lines": [
+    "Wrist · Mail",
+    "132 Armor",
+    "+11 Agility",
+    "+7 Intellect"
+   ],
+   "name": "Crypt Demon Bracers",
+   "q": 2
+  },
+  "12113": {
+   "icon": "inv_misc_cape_08",
+   "lines": [
+    "Back",
+    "36 Armor",
+    "+5 Spirit",
+    "Restores +3 mana per 5 sec.",
+    "Equip: Increases damage done by Fire spells and effects by up to 13."
+   ],
+   "name": "Sunborne Cape",
+   "q": 2
+  },
+  "12114": {
+   "icon": "inv_gauntlets_17",
+   "lines": [
+    "Hands · Leather",
+    "91 Armor",
+    "+9 Strength",
+    "+9 Agility",
+    "+9 Intellect"
+   ],
+   "name": "Nightfall Gloves",
+   "q": 2
+  },
+  "12115": {
+   "icon": "inv_belt_34",
+   "lines": [
+    "Waist · Plate",
+    "300 Armor",
+    "+9 Stamina",
+    "+9 Spirit",
+    "Equip: Increased Defense +6."
+   ],
+   "name": "Stalwart Clutch",
+   "q": 2
+  },
+  "12543": {
+   "icon": "inv_jewelry_ring_05",
+   "lines": [
+    "Finger ·",
+    "+7 Intellect",
+    "Equip: Increases damage and healing done by magical spells and effects by up to 18.",
+    "Equip: Your spells pierce 2 Magical Resistance."
+   ],
+   "name": "Songstone of Ironforge",
+   "q": 3
+  },
+  "12548": {
+   "icon": "inv_jewelry_ring_05",
+   "lines": [
+    "Finger ·",
+    "+7 Strength",
+    "+8 Stamina",
+    "Equip: Improves your chance to get a critical strike by 1.0%."
+   ],
+   "name": "Magni's Will",
+   "q": 3
+  },
+  "16309": {
+   "icon": "inv_jewelry_talisman_11",
+   "lines": [
+    "Neck ·",
+    "+10 Stamina",
+    "+15 Fire Resistance",
+    "\"The Blood of Drakkisath Flows Within...\""
+   ],
+   "name": "Drakefire Amulet",
+   "q": 3
+  },
+  "270118": {
+   "icon": "inv_shirt_17",
+   "lines": [
+    "Chest · Cloth",
+    "77 Armor",
+    "+16 Stamina",
+    "+24 Intellect"
+   ],
+   "name": "Cindercloth Gown",
+   "q": 3
+  },
+  "270120": {
+   "icon": "inv_boots_plate_07",
+   "lines": [
+    "Feet · Mail",
+    "225 Armor",
+    "+14 Agility",
+    "+12 Intellect",
+    "+11 Spirit"
+   ],
+   "name": "Boots of Requite",
+   "q": 3
+  },
+  "270121": {
+   "icon": "inv_bracer_14",
+   "lines": [
+    "Wrist · Plate",
+    "252 Armor",
+    "+10 Strength",
+    "+9 Stamina",
+    "+8 Spirit"
+   ],
+   "name": "Private Rocknot's Spare Bracers",
+   "q": 3
+  },
+  "270123": {
+   "icon": "inv_helmet_46",
+   "lines": [
+    "Head · Leather",
+    "117 Armor",
+    "+11 Stamina",
+    "Equip: Improves your chance to hit by 0.5%.",
+    "Equip: Increases damage and healing done by magical spells and effects by up to 20."
+   ],
+   "name": "Ragnar's Favorite Hat",
+   "q": 2
+  }
+ }
+}

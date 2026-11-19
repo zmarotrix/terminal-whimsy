@@ -1,7 +1,7 @@
 """Build data.js (everything the page shows except The Wire) and icons.js (every icon it uses, inlined).
 
 Inputs: data/src/changes.json, gear.json, official.json (research), kb.json + kb/*.md (the Library's guides,
-        with kb_items.json from tools/kb_items.py and kb_places.json from tools/kb_places.py)
+        with kb_items.json, kb_places.json and kb_quests.json from tools/kb_items.py, kb_places.py and kb_quests.py)
         + tools/curated.py (hand-written parts).
   python tools/build_data.py
 """
@@ -154,6 +154,11 @@ for g in load("kb.json")["guides"]:
     KB.append(g)
 KBI = load("kb_items.json")["items"] if os.path.exists(os.path.join(ROOT, "data", "src", "kb_items.json")) else {}
 KBP = load("kb_places.json")["places"] if os.path.exists(os.path.join(ROOT, "data", "src", "kb_places.json")) else {}
+KBQ = load("kb_quests.json") if os.path.exists(os.path.join(ROOT, "data", "src", "kb_quests.json")) else {"parts": {}, "rewards": {}}
+KBQ = {"parts": KBQ["parts"], "rewards": KBQ["rewards"]}
+for r in KBQ["rewards"].values():
+    if r.get("icon"):
+        use(r["icon"])
 for it in KBI.values():
     use(it["icon"])
 for i in ["inv_misc_book_07", "inv_misc_horn_01", "inv_misc_book_11", "inv_crown_01", "spell_fire_fire", "spell_nature_sleep",
@@ -170,7 +175,7 @@ for m in C.MUST:
 doc = {
     "HERO_CMD": C.HERO_CMD, "LEDE": C.LEDE, "COUNTDOWNS": C.COUNTDOWNS, "CLASSES": C.CLASSES, "AREAS": C.AREAS,
     "TOPICS": C.TOPICS, "ACH": C.ACH, "MUST": MUST, "ROAD": C.ROAD, "ROAD_TLDR": C.ROAD_TLDR,
-    "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "KB": KB, "KBI": KBI, "KBP": KBP, "TIPS": {},
+    "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "KB": KB, "KBI": KBI, "KBP": KBP, "KBQ": KBQ, "TIPS": {},
 }
 with open(os.path.join(ROOT, "data.js"), "w", encoding="utf-8", newline="\n") as f:
     f.write("/* Built by tools/build_data.py from data/src/*.json + tools/curated.py. Don't edit by hand. */\n")

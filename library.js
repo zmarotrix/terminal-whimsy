@@ -70,6 +70,12 @@ for (const [id, p] of Object.entries(KBQ.parts)) (QPARTS[p.name] = QPARTS[p.name
 // the quest a tag means: "3. The Love Potion (anyone) — needs…" -> "The Love Potion"
 const qname = t => strip(t).replace(/^\d+\.\s+/, "").replace(/:$/, "").split(/ \(| —/)[0].trim();
 const qreq = n => QPARTS[n] ? Math.min(...QPARTS[n].map(p => p.req || 99)) : null;
+// XP for a quest (all its parts), or null while any part's XP is still unknown
+// (parts you do one or the other of, like the two molt quests for A Taste of Flame, count once)
+const ALT = new Set(KB.flatMap(g => (g.altParts || []).flatMap(a => a.slice(1))));
+const qxp = n => QPARTS[n] && QPARTS[n].every(p => p.xp != null) ? QPARTS[n].filter(p => !ALT.has(p.id)).reduce((a, p) => a + p.xp, 0) : null;
+const kxp = x => x >= 1000 ? (x / 1000).toFixed(x >= 10000 ? 1 : 2).replace(/\.?0+$/, "") + "k" : String(x);
+const money = c => { const g = Math.floor(c / 1e4), s = Math.floor(c / 100) % 100, k = c % 100; return [g && `<span class="mg">${g}g</span>`, s && `<span class="ms">${s}s</span>`, k && `<span class="mc">${k}c</span>`].filter(Boolean).join(" "); };
 const QTIP = {};                                      // tooltip keys already built
 function questTip(n) {
   const P = QPARTS[n]; if (!P) return "";
@@ -80,12 +86,15 @@ function questTip(n) {
     P.forEach(p => (p.rep || []).forEach(r => { const m = r.match(/^(\d+) reputation with (.+)$/); if (m) rep[m[2]] = (rep[m[2]] || 0) + +m[1]; }));
     const it = id => { const R = KBQ.rewards[id] || {}; return `<div class="kqi q${R.q || 1}">${R.icon ? `<img src="${ICON(R.icon)}" alt="">` : ""}<span><b>${esc(R.name || "")}</b>${(R.lines || []).length ? `<small>${esc(R.lines.slice(0, 3).join(" · ").replace(/ · · /g, " · ").replace(/\s·\s*$/, ""))}</small>` : ""}</span></div>`; };
     const choice = P.flatMap(p => p.choice || []), items = P.flatMap(p => p.items || []);
+    const PD = P.filter(p => !ALT.has(p.id)), xp = qxp(n), gold = PD.reduce((a, p) => a + (p.money || 0), 0), cap = PD.reduce((a, p) => a + (p.moneyAtCap || 0), 0);
     D.TIPS[k] = `<div class="kqt"><div class="kqh"><b>${esc(n)}</b><span>Level ${lv.length > 1 ? lv[0] + "–" + lv[lv.length - 1] : lv[0]}</span></div>`
-      + `<div class="kqr">Requires level ${rq}${P.length > 1 ? ` · ${P.length} parts` : ""}</div>`
+      + `<div class="kqr">Requires level ${rq}${PD.length > 1 ? ` · ${PD.length} parts` : ""}</div>`
+      + (xp != null || gold || cap ? `<div class="kqx">${xp ? `<span class="xpv">${xp.toLocaleString()} XP</span>` : ""}${gold ? `<span>${money(gold)}</span>` : ""}${cap ? `<span class="dim">at 60: ${money(cap)}</span>` : ""}</div>` : "")
       + (choice.length ? `<div class="kqs">Choose one reward:</div>${choice.map(c => it(c.id)).join("")}` : "")
       + (items.length ? `<div class="kqs">You get:</div>${items.map(c => it(c.id)).join("")}` : "")
       + (Object.keys(rep).length ? `<div class="kqp">${Object.entries(rep).map(([f, v]) => `+${v} reputation with ${esc(f)}`).join("<br>")}</div>` : "")
-      + (!choice.length && !items.length && !Object.keys(rep).length ? `<div class="kqp dim">No item rewards.</div>` : "") + `</div>`;
+      + (!choice.length && !items.length && !Object.keys(rep).length ? `<div class="kqp dim">No item rewards.</div>` : "")
+      + (xp == null ? `<div class="kqp dim">XP not read yet.</div>` : "") + `</div>`;
     QTIP[k] = 1;
   }
   return k;
@@ -94,7 +103,8 @@ function tag(txt, bold, k) {
   if (k === "q" || k === "a" || k === "t") {   // quests read like an NPC's quest list: ! to pick up, ? to hand in
     const name = txt.replace(/:$/, ""), g = k === "a" ? `<i class="g">!</i>` : k === "t" ? `<i class="g">?</i>` : "";
     const what = k === "a" ? "Quest to pick up" : k === "t" ? "Quest to hand in" : "Quest", tk = questTip(qname(name)), rq = k === "a" ? qreq(qname(name)) : null;
-    return `<a class="kq" href="${WH}${encodeURIComponent(name)}" target="_blank" rel="noopener" ${tk ? `data-tiph="${esc(tk)}"` : `data-tip="${what}. Opens a Wowhead search."`}>${g}[${esc(name)}]</a>${rq ? `<span class="qlv" aria-label="needs level ${rq}">${rq}+</span>` : ""}${txt.endsWith(":") ? ":" : ""}`;
+    const xp = k === "t" ? qxp(qname(name)) : null;       // handing in pays out: show what
+    return `<a class="kq" href="${WH}${encodeURIComponent(name)}" target="_blank" rel="noopener" ${tk ? `data-tiph="${esc(tk)}"` : `data-tip="${what}. Opens a Wowhead search."`}>${g}[${esc(name)}]</a>${rq ? `<span class="qlv" aria-label="needs level ${rq}">${rq}+</span>` : ""}${xp ? `<span class="qxp" aria-label="${xp.toLocaleString()} experience">+${kxp(xp)} XP</span>` : ""}${txt.endsWith(":") ? ":" : ""}`;
   }
   if (k === "i") return itemHTML(txt);
   if (k === "h") return `<b class="kh"><i class="sk">${SKULL}</i>${esc(txt)}</b>`;
@@ -388,15 +398,17 @@ function planner(g) {
   const C = chainMaps(g), rows = {};
   (g.chains || []).forEach(c => { const lv = qreq(c.quests[0]) || 0; (rows[lv] = rows[lv] || []).push(c); });
   const lvls = Object.keys(rows).map(Number).sort((a, b) => a - b);
+  const cxp = {};
   (g.chains || []).forEach(c => {
     const qs = c.quests.filter(n => QPARTS[n]), lv = qs.flatMap(n => QPARTS[n].map(p => p.level));
+    const xs = qs.filter(n => !(c.optional || []).includes(n)).map(qxp); cxp[c.id] = xs.length && xs.every(x => x != null) ? xs.reduce((a, b) => a + b, 0) : null;
     D.TIPS["kbc:" + c.id] = `<div class="kqt"><div class="kqh"><b>${esc(c.name)}</b>${lv.length ? `<span>Level ${Math.min(...lv)}–${Math.max(...lv)}</span>` : ""}</div>`
-      + `<div class="kqr">Pick up at level ${qreq(c.quests[0]) || "?"}</div>${c.note ? `<div class="kqp">${esc(c.note)}</div>` : ""}`
-      + `<div class="kqs">Quests</div><div class="kql">${c.quests.map(esc).join("<br>")}</div><div class="kqp dim">Click to skip it, or to bring it back.</div></div>`;
+      + `<div class="kqr">Pick up at level ${qreq(c.quests[0]) || "?"}</div>${cxp[c.id] ? `<div class="kqx"><span class="xpv">${cxp[c.id].toLocaleString()} XP in all</span></div>` : ""}${c.note ? `<div class="kqp">${esc(c.note)}</div>` : ""}`
+      + `<div class="kqs">Quests</div><div class="kql">${c.quests.map(n => esc(n) + (qxp(n) ? ` <span class="dim">${kxp(qxp(n))} XP</span>` : "")).join("<br>")}</div><div class="kqp dim">Click to skip it, or to bring it back.</div></div>`;
   });
   return `<section class="kbrun" aria-labelledby="kbrunh">
   <div class="rh"><h3 id="kbrunh">When to start, and what to skip</h3><p>Quest chains by the level you can pick them up. Untick one to skip it, and its steps grey out all through the guide.</p></div>
-  <div class="ladder">${lvls.map(lv => `<div class="rung"><span class="lvl" aria-label="Level ${lv}"><small>Level</small>${lv}</span><div class="chains">${rows[lv].map(c => `<button class="chain" type="button" data-chain="${esc(c.id)}" aria-pressed="true" data-tiph="kbc:${esc(c.id)}"><span class="cbox" aria-hidden="true"></span><span class="cn">${esc(c.name)}</span>${c.tag ? `<span class="ctag">${esc(c.tag)}</span>` : ""}</button>`).join("")}</div></div>`).join("")}</div>
+  <div class="ladder">${lvls.map(lv => `<div class="rung"><span class="lvl" aria-label="Level ${lv}"><small>Level</small>${lv}</span><div class="chains">${rows[lv].map(c => `<button class="chain" type="button" data-chain="${esc(c.id)}" aria-pressed="true" data-tiph="kbc:${esc(c.id)}"><span class="cbox" aria-hidden="true"></span><span class="cn">${esc(c.name)}</span>${cxp[c.id] ? `<span class="cxp">${kxp(cxp[c.id])} XP</span>` : ""}${c.tag ? `<span class="ctag">${esc(c.tag)}</span>` : ""}</button>`).join("")}</div></div>`).join("")}</div>
   ${(g.before || []).length ? `<div class="before"><p class="lbl">Before you go</p><ul>${g.before.map(b => `<li>${esc(b)}</li>`).join("")}</ul></div>` : ""}
 </section>`;
 }

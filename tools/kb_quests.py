@@ -5,6 +5,7 @@ keyed by quest id: {id: {name, level, req, side, choice: [{id, name, q}], items:
 This tool adds what each reward item is (icon, quality, a short stat line) from Wowhead's Forever item tooltips,
 downloads the icons, and writes data/src/kb_quests.json.
   python tools/kb_quests.py path/to/snapshot.json
+  python tools/kb_quests.py --scaling path/to/scaling.json   (add XP and gold: {id: setupScalingRewards data})
   python tools/kb_quests.py            (refresh the reward items for the quests already in kb_quests.json)
 """
 import html, io, json, os, re, sys, time, urllib.request
@@ -38,10 +39,39 @@ def summary(tip, name):
     return out[:6]
 
 
+def round_xp(x):
+    """WoW rounds quest XP for display; Wowhead's Forever pages show the same numbers (11,520 -> 11,500)."""
+    x = int(x)
+    return 5 * ((x + 2) // 5) if x <= 100 else 10 * ((x + 5) // 10) if x <= 500 else 25 * ((x + 12) // 25) if x <= 1000 else 50 * ((x + 25) // 50)
+
+
+def scaling(parts, path):
+    """Wowhead's Forever quest pages carry setupScalingRewards({xp: {multiplier, levels}, coin: {...}}): Classic's XP
+    and gold at the quest's level, and Forever's multiplier on top. Keyed by quest id, as read from those pages."""
+    for qid, s in json.load(open(path, encoding="utf-8")).items():
+        p = parts.get(qid)
+        if not p or "xp" not in s:
+            if p is not None and s.get("none"):
+                p["xp"] = 0
+            continue
+        lv = str(s["minLevel"])
+        base, mult = s["xp"]["levels"].get(lv, 0), s["xp"]["multiplier"]
+        p["xp"] = round_xp(base * mult)
+        p["xpMult"] = mult
+        c = s["coin"]
+        p["money"] = int(round(c["levels"].get(lv, 0) * c["multiplier"]))
+        if c.get("rewardAtCap"):
+            p["moneyAtCap"] = c["rewardAtCap"]
+
+
 def main():
     db = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else {"parts": {}, "rewards": {}}
-    if len(sys.argv) > 1:
-        db["parts"] = json.load(open(sys.argv[1], encoding="utf-8"))
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if "--scaling" in sys.argv:
+        scaling(db["parts"], args[0])
+        args = []
+    if args:
+        db["parts"] = json.load(open(args[0], encoding="utf-8"))
     rewards = db.get("rewards", {})
     for q in db["parts"].values():
         for it in q.get("choice", []) + q.get("items", []):
@@ -58,8 +88,9 @@ def main():
             Image.open(io.BytesIO(get(ICON % r["icon"]))).convert("RGB").save(p)
             time.sleep(.2)
     db = {"_about": "Quest facts for the Library's guides. parts: Wowhead's Forever quest pages, read by hand on 19 Nov 2026 "
-                    "(level, required level, reward choices, reputation), keyed by quest id. rewards: Wowhead's Forever item "
-                    "tooltips. Written by tools/kb_quests.py. No XP yet: Wowhead works it out in the browser.",
+                    "(level, required level, reward choices, reputation), keyed by quest id; xp and money (copper) come from the "
+                    "same pages' scaling data (Classic's value times Forever's multiplier, rounded the way WoW shows it). rewards: "
+                    "Wowhead's Forever item tooltips. Written by tools/kb_quests.py.",
           "parts": db["parts"], "rewards": rewards}
     with open(OUT, "w", encoding="utf-8", newline="\n") as f:
         json.dump(db, f, ensure_ascii=False, indent=1, sort_keys=True)

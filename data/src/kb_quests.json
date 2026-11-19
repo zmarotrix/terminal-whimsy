@@ -1,11 +1,14 @@
 {
- "_about": "Quest facts for the Library's guides. parts: Wowhead's Forever quest pages, read by hand on 19 Nov 2026 (level, required level, reward choices, reputation), keyed by quest id. rewards: Wowhead's Forever item tooltips. Written by tools/kb_quests.py. No XP yet: Wowhead works it out in the browser.",
+ "_about": "Quest facts for the Library's guides. parts: Wowhead's Forever quest pages, read by hand on 19 Nov 2026 (level, required level, reward choices, reputation), keyed by quest id; xp and money (copper) come from the same pages' scaling data (Classic's value times Forever's multiplier, rounded the way WoW shows it). rewards: Wowhead's Forever item tooltips. Written by tools/kb_quests.py.",
  "parts": {
   "3441": {
    "level": 48,
+   "money": 0,
    "name": "Divine Retribution",
    "req": 40,
-   "side": "Both"
+   "side": "Both",
+   "xp": 440,
+   "xpMult": 1
   },
   "3701": {
    "items": [
@@ -16,25 +19,34 @@
     }
    ],
    "level": 54,
+   "money": 16500,
    "name": "The Smoldering Ruins of Thaurissan",
    "rep": [
     "100 reputation with Ironforge"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 5450,
+   "xpMult": 1
   },
   "3702": {
    "level": 54,
+   "money": 0,
    "name": "The Smoldering Ruins of Thaurissan",
    "rep": [
     "10 reputation with Ironforge"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 550,
+   "xpMult": 1
   },
   "3801": {
    "level": 52,
+   "money": 0,
    "name": "Dark Iron Legacy",
    "req": 48,
-   "side": "Both"
+   "side": "Both",
+   "xp": 500,
+   "xpMult": 1
   },
   "3802": {
    "items": [
@@ -45,21 +57,30 @@
     }
    ],
    "level": 52,
+   "money": 23000,
    "name": "Dark Iron Legacy",
    "req": 48,
-   "side": "Both"
+   "side": "Both",
+   "xp": 9450,
+   "xpMult": 1.85
   },
   "4022": {
    "level": 54,
+   "money": 12262,
    "name": "A Taste of Flame",
    "req": 52,
-   "side": "Both"
+   "side": "Both",
+   "xp": 5450,
+   "xpMult": 1
   },
   "4023": {
    "level": 54,
+   "money": 12262,
    "name": "A Taste of Flame",
    "req": 52,
-   "side": "Both"
+   "side": "Both",
+   "xp": 5450,
+   "xpMult": 1
   },
   "4024": {
    "choice": [
@@ -80,21 +101,30 @@
     }
    ],
    "level": 58,
+   "money": 26500,
    "name": "A Taste of Flame",
    "req": 52,
-   "side": "Both"
+   "side": "Both",
+   "xp": 11450,
+   "xpMult": 1.85
   },
   "4083": {
    "level": 55,
+   "money": 13419,
    "name": "The Spectral Chalice",
    "req": 40,
-   "side": "Both"
+   "side": "Both",
+   "xp": 5650,
+   "xpMult": 1
   },
   "4123": {
    "level": 55,
+   "money": 16783,
    "name": "The Heart of the Mountain",
    "req": 50,
-   "side": "Both"
+   "side": "Both",
+   "xp": 10450,
+   "xpMult": 1.85
   },
   "4126": {
    "choice": [
@@ -115,13 +145,19 @@
     }
    ],
    "level": 55,
+   "money": 16500,
    "name": "Hurley Blackbreath",
-   "req": 50
+   "req": 50,
+   "xp": 14800,
+   "xpMult": 2.1
   },
   "4128": {
    "level": 55,
+   "money": 0,
    "name": "Ragnar Thunderbrew",
-   "req": 50
+   "req": 50,
+   "xp": 550,
+   "xpMult": 1
   },
   "4136": {
    "choice": [
@@ -142,46 +178,64 @@
     }
    ],
    "level": 53,
+   "money": 6000,
    "name": "Ribbly Screwspigot",
    "req": 48,
-   "side": "Both"
+   "side": "Both",
+   "xp": 5550,
+   "xpMult": 2.1
   },
   "4182": {
    "level": 54,
+   "money": 18450,
    "name": "Dragonkin Menace",
    "rep": [
     "100 reputation with Darnassus"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 5450,
+   "xpMult": 1
   },
   "4183": {
    "level": 54,
+   "money": 9225,
    "name": "The True Masters",
    "rep": [
     "75 reputation with Darnassus"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 4100,
+   "xpMult": 1
   },
   "4184": {
    "level": 54,
+   "money": 9225,
    "name": "The True Masters",
    "rep": [
     "75 reputation with Stormwind"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 4100,
+   "xpMult": 1
   },
   "4185": {
    "level": 54,
+   "money": 0,
    "name": "The True Masters",
-   "req": 48
+   "req": 48,
+   "xp": 550,
+   "xpMult": 1
   },
   "4186": {
    "level": 54,
+   "money": 12262,
    "name": "The True Masters",
    "rep": [
     "100 reputation with Stormwind"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 5450,
+   "xpMult": 1
   },
   "4201": {
    "choice": [
@@ -207,27 +261,39 @@
     }
    ],
    "level": 54,
+   "money": 8000,
    "name": "The Love Potion",
    "req": 50,
-   "side": "Both"
+   "side": "Both",
+   "xp": 10900,
+   "xpMult": 2
   },
   "4223": {
    "level": 54,
+   "money": 0,
    "name": "The True Masters",
-   "req": 48
+   "req": 48,
+   "xp": 550,
+   "xpMult": 1
   },
   "4224": {
    "level": 54,
+   "money": 0,
    "name": "The True Masters",
-   "req": 48
+   "req": 48,
+   "xp": 550,
+   "xpMult": 1
   },
   "4241": {
    "level": 54,
+   "money": 12262,
    "name": "Marshal Windsor",
    "rep": [
     "100 reputation with Stormwind"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 11450,
+   "xpMult": 2.1
   },
   "4242": {
    "choice": [
@@ -253,19 +319,25 @@
     }
    ],
    "level": 54,
+   "money": 0,
    "name": "Abandoned Hope",
    "rep": [
     "100 reputation with Stormwind"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 9800,
+   "xpMult": 1.8
   },
   "4262": {
    "level": 52,
+   "money": 15367,
    "name": "Overmaster Pyron",
    "rep": [
     "100 reputation with Gnomeregan Exiles"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 5100,
+   "xpMult": 1
   },
   "4263": {
    "choice": [
@@ -322,11 +394,14 @@
     }
    ],
    "level": 56,
+   "money": 8500,
    "name": "The Good Stuff",
    "rep": [
     "100 reputation with Ironforge"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 10450,
+   "xpMult": 1.8
   },
   "4322": {
    "choice": [
@@ -352,20 +427,27 @@
    "level": 53,
    "name": "Yuka Screwspigot",
    "req": 48,
-   "side": "Both"
+   "side": "Both",
+   "xp": 0
   },
   "4341": {
    "level": 59,
+   "money": 18400,
    "name": "Kharan Mighthammer",
    "rep": [
     "100 reputation with Ironforge"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 11500,
+   "xpMult": 1.8
   },
   "4342": {
    "level": 59,
+   "money": 0,
    "name": "Kharan's Tale",
-   "req": 50
+   "req": 50,
+   "xp": 2900,
+   "xpMult": 1.8
   },
   "4361": {
    "level": 59,
@@ -429,27 +511,40 @@
   },
   "7848": {
    "level": 60,
+   "money": 0,
+   "moneyAtCap": 39600,
    "name": "Attunement to the Core",
    "req": 55,
-   "side": "Both"
+   "side": "Both",
+   "xp": 6600,
+   "xpMult": 1
   },
   "8948": {
    "level": 60,
+   "money": 19800,
    "name": "Anthion's Old Friend",
    "req": 58,
-   "side": "Both"
+   "side": "Both",
+   "xp": 13200,
+   "xpMult": 2
   },
   "8950": {
    "level": 60,
+   "money": 19800,
    "name": "The Instigator's Enchantment",
    "req": 58,
-   "side": "Both"
+   "side": "Both",
+   "xp": 13200,
+   "xpMult": 2
   },
   "9015": {
    "level": 60,
+   "money": 19800,
    "name": "The Challenge",
    "req": 58,
-   "side": "Both"
+   "side": "Both",
+   "xp": 13200,
+   "xpMult": 2
   }
  },
  "rewards": {

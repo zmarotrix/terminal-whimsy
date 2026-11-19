@@ -1106,6 +1106,13 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .tipnote{display:flex;gap:.55rem;align-items:flex-start;padding:.45rem .7rem;border-radius:8px;background:var(--bg3);border:1px solid var(--rule);font-size:.9rem;color:#d3d7e4}
 .tipnote img{flex:none;width:22px;height:22px;border-radius:4px;box-shadow:0 0 0 1px #000,0 0 0 2px #4b4f63}
 .tipnote b{margin-right:.45rem;color:var(--sky);font:800 .64rem/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.qxp{display:inline-block;margin-left:.22rem;padding:0 .32rem;border-radius:4px;background:rgba(163,92,255,.16);border:1px solid rgba(178,120,255,.35);color:#cfa6ff;font:700 .66rem/1.5 var(--f-mono);vertical-align:.08em;white-space:nowrap}
+.kqx{display:flex;flex-wrap:wrap;gap:.2rem .8rem;margin-top:.35rem;font-size:.84rem}
+.kqx .xpv{color:#cfa6ff;font-weight:700}
+.kqx .dim,.kql .dim{color:var(--muted)}
+.mg{color:#ffd23f}.ms{color:#d6dbe6}.mc{color:#d38b4a}
+.cxp{font:700 .64rem/1 var(--f-mono);color:#cfa6ff;opacity:.9}
+.chain:not(.on) .cxp{opacity:.4}
 .qlv{display:inline-block;margin-left:.22rem;padding:0 .3rem;border-radius:4px;background:var(--bg4);color:#c9b892;font:700 .68rem/1.55 var(--f-mono);vertical-align:.08em}
 /* "When to start, and what to skip": chains on the rungs of a level ladder */
 .kbrun{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:.9rem 1.6rem;padding:.95rem 1.05rem 1.05rem;border-radius:12px;background:var(--bg2);border:1px solid var(--rule)}

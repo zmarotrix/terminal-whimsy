@@ -1,5 +1,5 @@
 {
-  "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text mark it on the site and are stripped from the Discord copy: {a} a quest you pick up (gold !), {t} a quest you hand in (gold ?), {q} a quest mentioned, {n} friendly NPC, {h} hostile (skull), {i} item. unsure: things nobody has confirmed on Forever; at lists the steps they belong to as part.step (parts count from 0). 'at' is when the book went on the shelf (it gets a ! until you've seen it).",
+  "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text mark it on the site and are stripped from the Discord copy: {a} a quest you pick up (gold !), {t} a quest you hand in (gold ?), {q} a quest mentioned, {n} friendly NPC, {h} hostile (skull), {i} item. unsure: things nobody has confirmed on Forever; at lists the steps they belong to as part.step (parts count from 0). 'at' is when the book went on the shelf (it gets a ! until you've seen it). altParts: quest parts where you do one or the other (counted once in XP). A chain's optional quests still grey out with it but don't count toward its XP.",
   "noMap": {
     "_why": "They stand inside Blackrock Mountain; the zone maps would only show its edge, under another zone's name.",
     "npcs": [
@@ -150,7 +150,13 @@
             "Drakefire Amulet",
             "Blood of the Black Dragon Champion"
           ],
-          "note": "The BRD part of the Onyxia attunement. Onyxia opens on 9 December."
+          "note": "The BRD part of the Onyxia attunement. Onyxia opens on 9 December.",
+          "optional": [
+            "Stormwind Rendezvous",
+            "The Great Masquerade",
+            "The Dragon's Eye",
+            "Drakefire Amulet"
+          ]
         },
         {
           "id": "princess",
@@ -202,7 +208,10 @@
             "Altered Black Dragonflight Molt",
             "Encased Fiery Essence"
           ],
-          "note": "Cyrus won't give you the quest until you show him a Black Dragonflight Molt."
+          "note": "Cyrus won't give you the quest until you show him a Black Dragonflight Molt.",
+          "optional": [
+            "Divine Retribution"
+          ]
         },
         {
           "id": "heart",
@@ -234,6 +243,9 @@
           ],
           "items": [
             "Lost Thunderbrew Recipe"
+          ],
+          "optional": [
+            "Ragnar Thunderbrew"
           ]
         },
         {
@@ -245,6 +257,9 @@
           ],
           "items": [
             "Ribbly's Head"
+          ],
+          "optional": [
+            "Yuka Screwspigot"
           ]
         },
         {
@@ -301,7 +316,11 @@
           ],
           "tag": "58+",
           "off": true,
-          "note": "Only if you're already on the Dungeon Set 2 chain from Dire Maul West. If you haven't done The Instigator's Enchantment, leave it for now."
+          "note": "Only if you're already on the Dungeon Set 2 chain from Dire Maul West. If you haven't done The Instigator's Enchantment, leave it for now.",
+          "optional": [
+            "Anthion's Old Friend",
+            "The Instigator's Enchantment"
+          ]
         }
       ],
       "core": [
@@ -333,6 +352,12 @@
         "Miners need skill 230 for The Spectral Chalice.",
         "The Challenge needs level 58 and the Dire Maul West chain. Skip it unless you're already on that chain.",
         "Quests of level 48 and up also pay gold in Forever."
+      ],
+      "altParts": [
+        [
+          4022,
+          4023
+        ]
       ]
     }
   ]

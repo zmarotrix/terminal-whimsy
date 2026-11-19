@@ -305,6 +305,7 @@ async function runLine(line) {
   if (line === "!!" || line.includes("!!")) { line = line.replace(/!!/g, lastLine); print(line, "dim"); if (line.startsWith("sudo ")) award("sudobang"); }
   lastLine = line;
   ran++; store.set("conRan", ran); if (ran >= 10) award("poweruser"); if (ran >= 100) award("terminalbound");
+  if (wreck(line)) return;
   const toks = tokenize(line);
   let seg = [], segs = [];
   for (const t of toks) { if (typeof t === "object" && (t.op === ";" || t.op === "&&" || t.op === "||")) { segs.push({ seg, op: t.op }); seg = []; } else seg.push(t); }
@@ -580,10 +581,97 @@ cmd(["zcat", "gunzip", "gzip"], a => {
   throw "not in gzip format";
 });
 cmd(["touch", "mkdir", "rmdir", "mv", "cp", "ln", "nano", "pico", "edit", "notepad"], (a, _, n) => html(`<span class="err">read-only file system.</span> <span class="dim">(the wisp guards it. also, grumbolt would like a word about your editor.)</span>`));
+/* ---------------- wrecking the box: fork bombs, disk wipes and the rest. They're matched on the raw line, before the
+   parser splits it on | ; and &. The wisp takes each one personally. ---------------- */
+const shake = () => { document.body.classList.add("shake"); setTimeout(() => document.body.classList.remove("shake"), 600); };
+const dizzy = ms => { wisp.el.classList.add("dizzy"); setTimeout(() => wisp.el.classList.remove("dizzy"), ms); };
+function wrecked(kind) {
+  const w = store.get("wrecks", []);
+  if (w.includes(kind)) return;
+  w.push(kind); store.set("wrecks", w);
+  if (w.length === 5) setTimeout(() => { award("chaos"); wisp.talk("> that's five ways to wreck my box. i'm keeping a list. you're on it.", 4000); }, 6500);
+}
+function forkbomb(line, m) {
+  const name = m[1] || (/%0/.test(m[0]) ? "%0" : /fork/.test(m[0]) ? "fork" : ":");
+  if (flags.forkbomb) { wisp.talk("> still capped at seven. still handled.", 2500); return html(`<span class="err">whimsh: fork: retry: Resource temporarily unavailable</span> <span class="dim">(ulimit -u 7 is still set, so it fizzles at seven.)</span>`); }
+  flag("forkbomb");
+  const L = ["[1] 7070"];
+  for (let n = 2; n <= 64; n *= 2) L.push(`${name}  ${String(n).padStart(2)} processes` + (n === 16 ? "   load average: 0.07, 0.70, 7.00" : n === 64 ? "   the fans are louder than a Molten Core pull" : ""));
+  L.push(html(`<span class="err">whimsh: fork: retry: Resource temporarily unavailable</span>`));
+  for (let k = 0; k < 6; k++) setTimeout(() => X.swarm && X.swarm(2 ** k, .05), 260 * (k + 1));   // the whelps double with the processes
+  stream(L, 260, () => {
+    shake(); dizzy(2500);
+    print("The wisp set ulimit -u 7 and reaped the other 57. Seven processes is plenty.", "hl");
+    award("forkbomb"); wisp.talk("> MANY WHELPS. ok, several whelps. i capped them at seven.", 3500);
+  });
+  return "";
+}
+function diskwipe(line) {
+  const d = (line.match(/of=(\/dev\/[\w.-]+)/) || line.match(/>\s*(\/dev\/[\w.-]+)/) || line.match(/(\/dev\/[\w.-]+)/) || [, "/dev/wisp0"])[1], tool = (line.match(/^\S+/) || [""])[0];
+  const busy = html(`<span class="err">${esc(tool === "dd" ? "dd: error writing" : tool === "shred" || tool === "wipefs" ? tool + ":" : "whimsh:")} '${esc(d)}': Device or resource busy</span> <span class="dim">(the wisp is lying on it.)</span>`);
+  const done = () => { shake(); award("diskwipe"); wisp.talk("> that's my disk and i'm lying on it. save the wipes for raid night.", 3500); };
+  if (/^format\s/i.test(line)) { done(); return html(`<span class="err">format: there's no C: drive here.</span> <span class="dim">The disk is wisp0, and the wisp is lying on it. (Also, this isn't Windows.)</span>`); }
+  if (/^mkfs/.test(tool)) { done(); return html(`<span class="err">${esc(tool)}: ${esc(d)} is mounted, and the wisp is lying on it. Will not make a filesystem here!</span>`); }
+  if (tool === "dd") { stream([`dd: writing to '${d}'...`, "7+0 records in", "7+0 records out", "7 bytes copied, 0.07 s", busy], 300, done); return ""; }
+  done(); return busy;
+}
+function perms(line) {
+  const who = /^ch(own|grp)/.test(line), t = line.split(/\s+/).pop();
+  wisp.talk(/\b0?777\b|a\+rwx/.test(line) ? "> 777 on root is a raid with no loot rules. no." : /\b0?000\b|a-rwx/.test(line) ? "> 000 on root locks me out of my own corner. no." : "> no. i like my permissions where they are.", 3200);
+  return html(`<span class="err">${who ? "chown: changing ownership" : "chmod: changing permissions"} of '${esc(t)}': Operation not permitted</span> <span class="dim">(the wisp put them back. it remembers who owns what.)</span>`);
+}
+function killall() {
+  const fate = { 1: "refuses. It's turtles all the way down.", 7: "ignored it. wispd is immortal.", 42: "paused for tea.", 101: "terminated. It's back in 3 hours.", 404: "not found.",
+    1337: "terminated. Fizzlewick is restarting it (attempt 48).", 2026: "terminated. Saltshaker had it scheduled to come back.", 4242: "terminated. Trade chat is 4% quieter.", 9001: "ignored it. Already charging." };
+  const L = ["kill: sending SIGKILL to all your processes...", ...PROCS().map(([p, , c]) => `${String(p).padStart(5)}  ${c.padEnd(36)} ${fate[p] || "terminated."}`), html(`<span class="err">  ???  ${"whimsh (you)".padEnd(36)} terminated.</span>`)];
+  if (!flags.goldbotDead) { flag("goldbotDead"); award("banned"); }
+  stream(L, 170, () => { shake(); print("The wisp started you a new shell. It looks a lot like the old one.", "hl"); wisp.talk("> you killed your own shell. i made you a new one. i keep spares.", 3500); });
+  return "";
+}
+function panic(line) {
+  const k = ((line.match(/echo\s+["']?(\w)/) || [])[1] || "c").toLowerCase();
+  if (k === "b") return CMDS.reboot.f([]);
+  if (k === "o") return CMDS.shutdown.f([]);
+  if (k !== "c") return html(`<span class="dim">sysrq: ${esc(k)}: the wisp ignored that one. (try reading the kernel docs before poking /proc.)</span>`);
+  const L = ["[  7.077777] sysrq: Trigger a crash", "[  7.077778] Kernel panic - not syncing: sysrq triggered crash", "[  7.077779] CPU: 7 PID: 7 Comm: wispd Tainted: G        W  whimsy", "[  7.077780] Call Trace:", "[  7.077781]  hearthstone_bootloader+0x7/0x7", "[  7.077782] ---[ end Kernel panic - not syncing: sysrq triggered crash ]---"];
+  stream(L.map(l => html(`<span class="err">${esc(l)}</span>`)), 200, () => {
+    shake(); con.classList.add("panic");
+    setTimeout(() => { con.classList.remove("panic"); print("The wisp jiggled the power cable. Back up. Uptime: 0 days, 0:07.", "hl"); wisp.talk("> a kernel panic. i don't panic. i'm 96% vibes.", 3000); }, 1500);
+  });
+  return "";
+}
+const WRECKS = [
+  { kind: "forkbomb", rx: /([^\s(){}|&;]+)\s*\(\s*\)\s*\{\s*\1\s*\|\s*\1\s*&\s*;?\s*\}\s*;?\s*\1|%0\s*\|\s*%0|fork\s+while\s+fork|os\.fork\s*\(\s*\)|while\s*\(\s*1\s*\)\s*fork\s*\(|\$0\s*\|\s*\$0/, f: forkbomb },
+  { kind: "panic", rx: />\s*\/proc\/sysrq-trigger/, f: panic },
+  { kind: "disk", rx: /(^|[;&|]\s*)(dd\b.*\bof=\/dev\/(?!null\b|zero\b|stdout\b)|mkfs(\.\w+)?\s|wipefs\b|shred\b.*\/dev\/)|>\s*\/dev\/(sd|hd|vd|xvd|nvme|mmcblk|wisp|disk)\w*|^format\s+[a-z]:/i, f: diskwipe },
+  { kind: "perms", rx: /^(chmod|chown|chgrp)(?=.*\s(-[a-zA-Z]*R|--recursive|0?777|0?000|a[+-]rwx)(\s|$)).*\s(\/\*?|~\/?|\/(etc|bin|usr|home|boot|root|var)\/?)$/, f: perms },
+  { kind: "killall", rx: /^(kill\s+(-s\s+\w+|-\w+|--)(\s+--)?\s+-1|killall5(\s.*)?|pkill\s+(-\w+\s+)*\.\*?|kill\s+-9\s+0)$/i, f: killall },
+  { kind: "void", rx: /^mv\s+(\S+\s+)+\/dev\/null\/?$/, f: line => { wisp.talk("> the void sent it back. it only takes output.", 2800); return html(`<span class="err">mv: cannot move '${esc(line.split(/\s+/)[1])}' to '/dev/null': Not a directory</span> <span class="dim">(/dev/null swallows output, not folders. the wisp checked.)</span>`); } },
+  { kind: "curlsh", rx: /(^|[;&|]\s*)(curl|wget)\b[^|]*\|\s*(sudo\s+)?(ba|z|da|k|fi)?sh\b/, f: () => { award("curl"); wisp.talk("> read before you run. even my scripts. especially grumbolt's.", 3200); return html(`The wisp read the script before running it. It was a goldbot installer, so it went in the bin. <span class="dim">(Read a script before you pipe it into a shell.)</span>`); } },
+  { kind: "git", rx: /^git\s+(push\b.*\s(-f|--force)\b|reset\s+--hard|clean\s+(-\w*f|--force))/, f: line => {
+    if (/^git\s+push/.test(line)) { wisp.talk("> no force pushes to main. i've seen what happens.", 3000); return html(`To forever.git\n<span class="err"> ! [remote rejected] main -> main (protected branch: the wisp guards main)\nerror: failed to push some refs to 'forever.git'</span>\n<span class="dim">(Grumbolt tried that on 12 Nov, right after removing vim.)</span>`); }
+    if (/^git\s+reset/.test(line)) return html(`HEAD is now at 7777777 hide the seals. I'll definitely remember where.\n<span class="dim">(Nothing was lost. The working tree was already whimsical.)</span>`);
+    return html(`<span class="dim">Would remove nothing. The wisp glued its files down.</span>`); } },
+  { kind: "sql", rx: /^(drop\s+(table|database|schema)|delete\s+from|truncate\s+table)\s|;\s*drop\s+table/i, f: line => { wisp.talk("> the roster isn't a table. it's a guild. you can't drop it.", 3200); return html(`<span class="err">${esc((line.match(/(drop|delete|truncate)/i) || ["drop"])[0].toUpperCase())}: command not found.</span> <span class="dim">This is a shell, not a database. (Hello, Bobby Tables.)</span>`); } },
+  { kind: "rm", rx: /^(del|erase)\s.*\/[sfq]\b|^(rd|rmdir)\s+\/s\b|^(del|erase)\s+(\/\w\s+)*[a-z]:\\/i, f: () => CMDS.rm.f(["-rf", "/"]) },
+];
+function wreck(line) {
+  const bare = line.replace(/^(sudo\s+(-\S+\s+)*)+/, "").trim(), says = /^(echo|printf|man|whatis|grep|egrep|rg|less|cat|help|figlet|cowsay|lolcat)\b/.test(bare);
+  for (const w of WRECKS) {
+    const m = bare.match(w.rx);
+    if (!m || says && w.kind === "forkbomb") continue;      // echo ':(){ :|:& };:' only prints it
+    const r = w.f(bare, m);
+    if (r != null && r !== "") print(r);
+    wrecked(w.kind);
+    return true;
+  }
+  return false;
+}
 cmd("rm", a => {
-  const s = a.join(" ");
-  if (/-[a-z]*r[a-z]*f|-[a-z]*f[a-z]*r|--no-preserve-root/.test(s)) {
-    award("nicetry"); wisp.el.classList.add("dizzy"); setTimeout(() => wisp.el.classList.remove("dizzy"), 3000);
+  const fl = a.filter(x => x.startsWith("-")).join(" ");
+  const recursive = /(^|\s)-[a-z]*r|--recursive/i.test(fl), rootish = a.some(x => /^(\/|~)\/?$/.test(x));
+  if (/--no-preserve-root/.test(fl) || recursive && (/(^|\s)-[a-z]*f|--force/i.test(fl) || rootish)) {
+    wrecked("rm"); award("nicetry"); wisp.el.classList.add("dizzy"); setTimeout(() => wisp.el.classList.remove("dizzy"), 3000);
     wisp.talk("> AAAA. NO. we don't do that here.", 3000);
     document.body.classList.add("shake"); setTimeout(() => document.body.classList.remove("shake"), 600);
     if (flags.nicetry) { flag("ghost"); TWT.die && setTimeout(() => TWT.die("You deleted everything. Including yourself."), 900); return html(`<span class="err">You did it again. Everything goes dark.</span>`); }

@@ -49,6 +49,8 @@ Press ` on the site, or click the green command line on the Briefing page. It's 
 whimsy@forever, with a quest called the Seven Seals, an Emacs with a small Lisp, a text adventure, and secret pages.
 
 - `term-core.js`: the shell (files, pipes, ~150 commands, Emacs-style line editing, WoW slash commands, the quest).
+  Fork bombs, disk wipes and other ways to wreck the box are matched on the raw line before it's parsed (`WRECKS`),
+  because a fork bomb is full of `|`, `&` and `;`. Each one takes over the whole line.
 - `term-emacs.js`: Emacs: a small Emacs Lisp, `M-x` commands (doctor, butterfly, zone, snake, life, hanoi, magit-status,
   org-agenda...), plus the vim and ed traps.
 - `term-adv.js`: the little text adventure (`adventure`, or `M-x dunnet`).

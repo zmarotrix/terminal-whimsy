@@ -420,6 +420,11 @@ footer b{color:var(--ink)}
 /* the hidden terminal */
 .console{position:fixed;z-index:97;left:0;right:0;top:0;height:min(58vh,460px);display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + .8rem) var(--gr) .8rem var(--gl);background:rgba(6,8,12,.96);border-bottom:2px solid var(--term);box-shadow:0 20px 60px rgba(0,0,0,.7),0 0 40px -10px var(--term);font:500 .92rem/1.55 var(--f-mono);color:#c9f5d6;transform:translateY(-102%);transition:transform .22s ease-out}
 .console.on{transform:none}
+/* echo c > /proc/sysrq-trigger: the console goes red for a moment, then the wisp jiggles the cable */
+.console.panic{background:rgba(40,4,6,.97);border-bottom-color:#ff5d5d;box-shadow:0 20px 60px rgba(0,0,0,.7),0 0 50px -6px rgba(255,70,70,.7);color:#ffb3a8;transition:none}
+.console.panic .con-out{animation:panicflick .14s steps(2) 8}
+@keyframes panicflick{50%{opacity:.55}}
+@media (prefers-reduced-motion:reduce){.console.panic .con-out{animation:none}}
 .con-out{flex:1;overflow-y:auto;max-width:1100px;width:100%;margin:0 auto;scrollbar-color:var(--bg4) transparent}
 .con-out .ln{padding:.12rem 0;white-space:pre-wrap;word-break:break-word}
 .con-out .cmd{color:var(--ink);margin-top:.5rem}

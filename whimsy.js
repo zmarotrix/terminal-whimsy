@@ -120,12 +120,16 @@ function leeroy() {
   document.body.append(el); setTimeout(() => el.remove(), 2600);
   award("leeroy"); setTimeout(() => wisp.talk(D.WISP.leeroy, 3000), 2200);
 }
-function whelps() {
-  for (let k = 0; k < 18; k++) {
+// whelps fly across the page (the terminal's fork bomb sends them in doubling waves)
+function swarm(n, gap = .12) {
+  for (let k = 0; k < n; k++) {
     const w = document.createElement("img"); w.className = "sprite whelp"; w.src = ICON("inv_misc_head_dragon_black"); w.alt = "";
-    w.style.top = (8 + Math.random() * 80) + "vh"; w.style.animationDelay = (k * 0.12) + "s"; w.style.animationDuration = (2.2 + Math.random() * 1.4) + "s";
-    document.body.append(w); setTimeout(() => w.remove(), 4500);
+    w.style.top = (8 + Math.random() * 80) + "vh"; w.style.animationDelay = (k * gap) + "s"; w.style.animationDuration = (2.2 + Math.random() * 1.4) + "s";
+    document.body.append(w); setTimeout(() => w.remove(), 4000 + k * gap * 1000);
   }
+}
+function whelps() {
+  swarm(18);
   award("whelps"); wisp.talk(D.WISP.whelps, 3000);
 }
 let typed = "";
@@ -161,7 +165,7 @@ function timeSecrets() {
 }
 
 /* =================== go =================== */
-Object.assign(X, { party, dance, matrix, eyes, follow, leeroy, whelps, lootRoll });
+Object.assign(X, { party, dance, matrix, eyes, follow, leeroy, whelps, swarm, lootRoll });
 hideMotes();
 lootPanel();
 timeSecrets();

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:02:41Z",
+ "updated": "2026-11-19T10:12:41Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,27 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Survival Hunter Guide (1-60) - Talents, Rotations & More",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZVBoLVNIWUNpVVRNU05Vdm5SeGNQOWhENVB5MjBfYk92M284cWQyOTczUGRib0ZkUVFhSVNBU05TYmo2UTVzZjI1T1pSTXNHVElGX2poUHFIeWtLNHdrSGRZTlh0NU80UzVKZkJuWUJhd09KT2d3ZlJfaVYtVmQ4UG13?oc=5",
+   "date": "2026-11-19T08:41:11Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "3ddc494004",
+   "first": "2026-11-19T08:41:11Z",
+   "last": "2026-11-19T08:41:11Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "hunter"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "WoW Forever November 17 Hotfixes Bring Tougher UBRS and a Shadow Priest Nerf",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1lYaXM4aUoxWm9pQWhWWVFEZWVGWU9TbzllRVVxd0M4SzJzcmFSNUl5LTBhVjBJNk1lNF9PTFR4NkN4UnpGemgtcjFmdGhURmlZSWhSaTBWQ29SSVVUSGR2N3NuTmlrWFRiUHdvY1Jyd3pPelI4QmxKZ3hGaEdEd1l6MzQ5RHM5S0djVXRQa2FQUjZZRnMxOVhEQUl4b1dtdWV5SEVsZ0QzUVZLR1E?oc=5",
@@ -291,8 +312,8 @@
    "first": "2026-11-18T17:51:09Z",
    "last": "2026-11-18T17:51:09Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "rogue"
@@ -583,29 +604,12 @@
    "first": "2026-11-18T09:03:08Z",
    "last": "2026-11-18T09:03:08Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "warrior"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever Hits More Milestones Following Biggest Launch",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHdnSHA0dk1fbDVmMXdNZGMwOXdpSlhYdFBOLUFuOFNKdmFWX21iZjlZQlpCU1g4c1JGcDRUTXdqd09aSkQ5UDB0cllyLS1ieDRyWlJlMnJCUVZ2QnFMaURSYnFBNnlHeDNTQzd2WWFSd3JWVGE4R2ZLQWlFZWlLU09wQnpKZ2pqQjhtSVNDRzZWRUtHWkxjclJ6S3JfcW5fbkE?oc=5",
-   "date": "2026-11-18T08:38:41Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GamerBraves",
-   "icon": "inv_misc_spyglass_03",
-   "id": "26f40978f7",
-   "first": "2026-11-18T08:38:41Z",
-   "last": "2026-11-18T08:38:41Z",
-   "tags": [],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -839,9 +843,9 @@
    "last": "2026-11-17T02:36:53Z",
    "tags": [
     "items",
-    "professions",
+    "classes",
     "hotfix",
-    "classes"
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -881,9 +885,9 @@
    "last": "2026-11-17T02:23:22Z",
    "tags": [
     "items",
+    "classes",
     "leveling",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1311,8 +1315,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1490,8 +1494,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1529,9 +1533,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "classes",
     "leveling",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1926,8 +1930,8 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "story",
     "pvp",
+    "story",
     "realms"
    ],
    "classes": [],
@@ -2024,8 +2028,8 @@
    "last": "2026-11-12T00:52:58Z",
    "tags": [
     "items",
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2082,8 +2086,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2160,9 +2164,9 @@
     "hotfix"
    ],
    "classes": [
+    "warlock",
     "shaman",
-    "hunter",
-    "warlock"
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2390,8 +2394,8 @@
     "classes"
    ],
    "classes": [
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2410,8 +2414,8 @@
    "last": "2026-11-10T19:12:35Z",
    "tags": [
     "items",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -2486,9 +2490,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "ui",
+    "classes",
     "hotfix",
-    "classes"
+    "ui"
    ],
    "classes": [
     "druid"
@@ -2570,9 +2574,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "classes",
     "leveling",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2946,8 +2950,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -3124,10 +3128,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
-    "ui",
+    "classes",
     "leveling",
-    "classes"
+    "pvp",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -3147,9 +3151,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
+    "classes",
     "leveling",
-    "raids",
-    "classes"
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3504,6 +3508,21 @@
   }
  ],
  "items": [
+  {
+   "title": "Survival Hunter Guide (1-60) - Talents, Rotations & More",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZVBoLVNIWUNpVVRNU05Vdm5SeGNQOWhENVB5MjBfYk92M284cWQyOTczUGRib0ZkUVFhSVNBU05TYmo2UTVzZjI1T1pSTXNHVElGX2poUHFIeWtLNHdrSGRZTlh0NU80UzVKZkJuWUJhd09KT2d3ZlJfaVYtVmQ4UG13?oc=5",
+   "date": "2026-11-19T08:41:11Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "hunter"
+   ]
+  },
   {
    "title": "WoW Forever November 17 Hotfixes Bring Tougher UBRS and a Shadow Priest Nerf",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1lYaXM4aUoxWm9pQWhWWVFEZWVGWU9TbzllRVVxd0M4SzJzcmFSNUl5LTBhVjBJNk1lNF9PTFR4NkN4UnpGemgtcjFmdGhURmlZSWhSaTBWQ29SSVVUSGR2N3NuTmlrWFRiUHdvY1Jyd3pPelI4QmxKZ3hGaEdEd1l6MzQ5RHM5S0djVXRQa2FQUjZZRnMxOVhEQUl4b1dtdWV5SEVsZ0QzUVZLR1E?oc=5",
@@ -3899,17 +3918,6 @@
    "classes": [
     "warrior"
    ]
-  },
-  {
-   "title": "World of Warcraft: Forever Hits More Milestones Following Biggest Launch",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHdnSHA0dk1fbDVmMXdNZGMwOXdpSlhYdFBOLUFuOFNKdmFWX21iZjlZQlpCU1g4c1JGcDRUTXdqd09aSkQ5UDB0cllyLS1ieDRyWlJlMnJCUVZ2QnFMaURSYnFBNnlHeDNTQzd2WWFSd3JWVGE4R2ZLQWlFZWlLU09wQnpKZ2pqQjhtSVNDRzZWRUtHWkxjclJ6S3JfcW5fbkE?oc=5",
-   "date": "2026-11-18T08:38:41Z",
-   "who": "GamerBraves",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
   },
   {
    "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",

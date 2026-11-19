@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T00:54:35Z",
+ "updated": "2026-11-19T01:29:11Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,25 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
+   "date": "2026-11-19T01:25:22Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "In-game quest objective markers are available in WoW: Forever, allowing for easier navigation without needing additional addons. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "6bf70b7f60",
+   "first": "2026-11-19T01:25:22Z",
+   "last": "2026-11-19T01:25:22Z",
+   "tags": [
+    "ui"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
    "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
@@ -47,6 +66,27 @@
      "date": "2026-11-18T23:47:07Z"
     }
    ]
+  },
+  {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-18T23:31:45Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "234469eb31",
+   "first": "2026-11-18T23:31:45Z",
+   "last": "2026-11-18T23:31:45Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
   },
   {
    "title": "World Of Warcraft: Forever Just Broke A 15-Year-Old Record",
@@ -102,8 +142,8 @@
    "first": "2026-11-18T12:12:19Z",
    "last": "2026-11-18T19:52:08Z",
    "tags": [
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 2,
@@ -535,9 +575,9 @@
    "first": "2026-11-18T04:02:56Z",
    "last": "2026-11-18T04:02:56Z",
    "tags": [
+    "leveling",
     "hotfix",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -617,35 +657,6 @@
    "also": []
   },
   {
-   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
-   "date": "2026-11-16T21:04:18Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "13b85724cd",
-   "first": "2026-11-16T21:04:18Z",
-   "last": "2026-11-17T22:51:22Z",
-   "tags": [
-    "economy",
-    "leveling",
-    "pvp"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "WoW Forever News: Gold Farm Nerfed, Dungeon XP Changed Again, PvP Chaos and More",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV3BoaVJmdlN6dk8zRGFrbmpqTDFYbGpiNk85OUlMclkxeHlXQzR6R1BvZFIzOHNSVWM2bUw1OFgtdVlNUEFuV0ZBMkdzcGI1RnBzc3pLdmd5T0ZyZm0yemJ5U2tVTVl2dXhrakd2akVaWFlpUnYyTlRGZWphWjBRTGpPdERxdWozcjRzQk0zQmxWOU4yQzdhcmVoazNaZ3BjaVlJc19TdGFDenRFWGdqN0ViZktQSHl3eFlDQ0gwNnJGX05ycGwwRXJOTHY2YVBNWnJXY01HQzhIdw?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-17T22:51:22Z"
-    }
-   ]
-  },
-  {
    "title": "Actions For Blackmaw Hold Abuse - November 17",
    "url": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757/1",
    "date": "2026-11-17T18:38:11.984000Z",
@@ -685,8 +696,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -707,8 +718,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -819,10 +830,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "hotfix",
-    "classes",
+    "items",
     "professions",
-    "items"
+    "hotfix",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -861,10 +872,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "hotfix",
-    "classes",
+    "items",
     "leveling",
-    "items"
+    "hotfix",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1023,6 +1034,25 @@
    "first": "2026-11-16T21:24:02Z",
    "last": "2026-11-16T21:24:02Z",
    "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
+   "date": "2026-11-16T21:04:18Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "13b85724cd",
+   "first": "2026-11-16T21:04:18Z",
+   "last": "2026-11-16T21:04:18Z",
+   "tags": [
+    "economy"
+   ],
    "classes": [],
    "n": 1,
    "official": false,
@@ -1273,8 +1303,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1452,8 +1482,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1491,9 +1521,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "leveling",
     "hotfix",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1647,8 +1677,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1668,8 +1698,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -1985,9 +2015,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "hotfix",
+    "items",
     "professions",
-    "items"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2044,8 +2074,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "classes",
-    "economy"
+    "economy",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2122,9 +2152,9 @@
     "hotfix"
    ],
    "classes": [
+    "warlock",
     "hunter",
-    "shaman",
-    "warlock"
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -2213,8 +2243,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2234,8 +2264,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -2352,8 +2382,8 @@
     "classes"
    ],
    "classes": [
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2371,9 +2401,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
+    "items",
     "hotfix",
-    "classes",
-    "items"
+    "classes"
    ],
    "classes": [
     "shaman"
@@ -2448,9 +2478,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
+    "ui",
     "hotfix",
-    "classes",
-    "ui"
+    "classes"
    ],
    "classes": [
     "druid"
@@ -2493,8 +2523,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2532,9 +2562,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "leveling",
     "hotfix",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2799,8 +2829,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2908,8 +2938,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -3086,10 +3116,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "classes",
-    "leveling",
     "ui",
-    "pvp"
+    "leveling",
+    "pvp",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3109,8 +3139,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "leveling",
     "raids",
+    "leveling",
     "classes"
    ],
    "classes": [],
@@ -3467,6 +3497,19 @@
  ],
  "items": [
   {
+   "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
+   "date": "2026-11-19T01:25:22Z",
+   "summary": "In-game quest objective markers are available in WoW: Forever, allowing for easier navigation without needing additional addons. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "ui"
+   ],
+   "classes": []
+  },
+  {
    "title": "New WoW Forever Video: Honor Rewards & Battlegrounds",
    "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-video-honor-rewards-battlegrounds/",
    "date": "2026-11-18T23:47:07Z",
@@ -3479,6 +3522,21 @@
     "pvp"
    ],
    "classes": []
+  },
+  {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-18T23:31:45Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
   },
   {
    "title": "World Of Warcraft: Forever Just Broke A 15-Year-Old Record",
@@ -3885,21 +3943,6 @@
    "label": "press",
    "icon": "inv_misc_spyglass_03",
    "tags": [],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever News: Gold Farm Nerfed, Dungeon XP Changed Again, PvP Chaos and More",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPV3BoaVJmdlN6dk8zRGFrbmpqTDFYbGpiNk85OUlMclkxeHlXQzR6R1BvZFIzOHNSVWM2bUw1OFgtdVlNUEFuV0ZBMkdzcGI1RnBzc3pLdmd5T0ZyZm0yemJ5U2tVTVl2dXhrakd2akVaWFlpUnYyTlRGZWphWjBRTGpPdERxdWozcjRzQk0zQmxWOU4yQzdhcmVoazNaZ3BjaVlJc19TdGFDenRFWGdqN0ViZktQSHl3eFlDQ0gwNnJGX05ycGwwRXJOTHY2YVBNWnJXY01HQzhIdw?oc=5",
-   "date": "2026-11-17T22:51:22Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "pvp",
-    "economy"
-   ],
    "classes": []
   },
   {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:29:11Z",
+ "updated": "2026-11-19T01:41:05Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -424,8 +424,8 @@
    "first": "2026-11-18T09:39:12Z",
    "last": "2026-11-18T09:39:12Z",
    "tags": [
-    "leveling",
-    "professions"
+    "professions",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -564,6 +564,35 @@
    "also": []
   },
   {
+   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
+   "date": "2026-11-16T21:04:18Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "13b85724cd",
+   "first": "2026-11-16T21:04:18Z",
+   "last": "2026-11-18T04:36:37Z",
+   "tags": [
+    "economy",
+    "pvp",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "WoW Forever News: Gold Farm Nerfed, Dungeon XP Changed Again, PvP Chaos and More",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb2VmY3kyYmUyOWRRWHNuTFlkMjVBNVJhb0FIRTJCeDRZX195TXE4YkFBd1NGVXExUWRpcFZzU1BZTVRvZG5xSks0ZVctMGE4LUZIWDVGNUJEVEJyRFlXTnJpQTREWnNtUGFpelBNNE9faXJEZjlGbGQ1Y3MtaFdzbzZLdlZzUzMtM3hKV1daVElhYnZudmJlQVdfcENCT2hxMVdWNXRoNmRZMmhlMFEwNE41WlJPZFE?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-18T04:36:37Z"
+    }
+   ]
+  },
+  {
    "title": "WoW: Forever Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
    "date": "2026-11-18T04:02:56Z",
@@ -575,9 +604,9 @@
    "first": "2026-11-18T04:02:56Z",
    "last": "2026-11-18T04:02:56Z",
    "tags": [
-    "leveling",
+    "classes",
     "hotfix",
-    "classes"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -634,23 +663,6 @@
    "tags": [
     "classes"
    ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "4 Things to Know If WoW: Forever Is Your First Time Playing World of Warcraft",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ25pWTEyZVE3Si1UdlY0Zzh0ZURiVEJMQTA4WThyWGJoQ0MwczZLVktmeDZ1WmZsYlRJOVlrWTV2WTI4Z0llNW1xWXhsZ1U1QUZlMXFqSzNEY014SFVWYTBLQW9zNWpWTzR3bGt0Y0ZiOTV2a0UyczJVQ0xEWFVSYWtCWHZHU09lUm00T3BqVzhjR1M4TzU1dmV3bTdqalBKWHRfVTFjYw?oc=5",
-   "date": "2026-11-18T00:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GameTyrant",
-   "icon": "inv_misc_spyglass_03",
-   "id": "61b9c873d2",
-   "first": "2026-11-18T00:00:00Z",
-   "last": "2026-11-18T00:00:00Z",
-   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -718,8 +730,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -830,8 +842,8 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
     "professions",
+    "items",
     "hotfix",
     "classes"
    ],
@@ -873,9 +885,9 @@
    "last": "2026-11-17T02:23:22Z",
    "tags": [
     "items",
-    "leveling",
+    "classes",
     "hotfix",
-    "classes"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1034,25 +1046,6 @@
    "first": "2026-11-16T21:24:02Z",
    "last": "2026-11-16T21:24:02Z",
    "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
-   "date": "2026-11-16T21:04:18Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "13b85724cd",
-   "first": "2026-11-16T21:04:18Z",
-   "last": "2026-11-16T21:04:18Z",
-   "tags": [
-    "economy"
-   ],
    "classes": [],
    "n": 1,
    "official": false,
@@ -1303,8 +1296,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -1521,9 +1514,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "leveling",
+    "classes",
     "hotfix",
-    "classes"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1677,8 +1670,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1698,8 +1691,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -1800,8 +1793,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1918,9 +1911,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "realms",
     "story",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2015,8 +2008,8 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "items",
     "professions",
+    "items",
     "hotfix"
    ],
    "classes": [],
@@ -2243,8 +2236,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2264,8 +2257,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2382,8 +2375,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2502,8 +2495,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2523,8 +2516,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2562,9 +2555,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "leveling",
+    "classes",
     "hotfix",
-    "classes"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2829,8 +2822,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3117,9 +3110,9 @@
    "last": "2026-11-03T18:00:00Z",
    "tags": [
     "ui",
-    "leveling",
     "pvp",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3139,9 +3132,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
+    "classes",
     "leveling",
-    "classes"
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3846,6 +3839,21 @@
    ]
   },
   {
+   "title": "WoW Forever News: Gold Farm Nerfed, Dungeon XP Changed Again, PvP Chaos and More",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb2VmY3kyYmUyOWRRWHNuTFlkMjVBNVJhb0FIRTJCeDRZX195TXE4YkFBd1NGVXExUWRpcFZzU1BZTVRvZG5xSks0ZVctMGE4LUZIWDVGNUJEVEJyRFlXTnJpQTREWnNtUGFpelBNNE9faXJEZjlGbGQ1Y3MtaFdzbzZLdlZzUzMtM3hKV1daVElhYnZudmJlQVdfcENCT2hxMVdWNXRoNmRZMmhlMFEwNE41WlJPZFE?oc=5",
+   "date": "2026-11-18T04:36:37Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "pvp",
+    "economy"
+   ],
+   "classes": []
+  },
+  {
    "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",
    "url": "https://www.warcrafttavern.com/forever/news/cozy-sleeping-bag-shendralas-wow-forever-hotfixes-for-november-17/",
    "date": "2026-11-18T04:06:27Z",
@@ -3931,17 +3939,6 @@
    "source": "Wowhead",
    "label": "press",
    "icon": "inv_misc_book_09",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "4 Things to Know If WoW: Forever Is Your First Time Playing World of Warcraft",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ25pWTEyZVE3Si1UdlY0Zzh0ZURiVEJMQTA4WThyWGJoQ0MwczZLVktmeDZ1WmZsYlRJOVlrWTV2WTI4Z0llNW1xWXhsZ1U1QUZlMXFqSzNEY014SFVWYTBLQW9zNWpWTzR3bGt0Y0ZiOTV2a0UyczJVQ0xEWFVSYWtCWHZHU09lUm00T3BqVzhjR1M4TzU1dmV3bTdqalBKWHRfVTFjYw?oc=5",
-   "date": "2026-11-18T00:00:00Z",
-   "who": "GameTyrant",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
    "tags": [],
    "classes": []
   },

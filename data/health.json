@@ -67,7 +67,7 @@
  },
  "r/wowforever": {
   "error": "HTTP Error 404: Not Found",
-  "fails": 15,
+  "fails": 16,
   "lastItems": "2026-11-17",
   "lastOk": "2026-11-17"
  }

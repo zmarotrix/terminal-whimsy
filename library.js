@@ -151,7 +151,7 @@ function parse(raw, pi) {
   }
   return P;
 }
-// "Phase 6: Dungeon Run 2 (part 1): front half + Jail Break!" -> seal 6, "Dungeon Run 2", "Part 1 · front half + Jail Break!"
+// "Phase 6: BRD Trip 2 (part 1): front half + Jail Break!" -> seal 6, "BRD Trip 2", "Part 1 · front half + Jail Break!"
 function heading(h) {
   const m = h.match(/^Phase (\d+):\s*(.*)$/), n = m ? m[1] : "", rest = m ? m[2] : h;
   const p = rest.match(/^(.*?)\s*\(([^)]*)\)(?::\s*(.*))?$/);

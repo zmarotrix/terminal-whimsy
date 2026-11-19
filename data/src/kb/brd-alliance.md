@@ -5,7 +5,7 @@
 **1. The Love Potion (anyone) — needs a second trip**{q}
 - **Requires:** 4x Gromsblood, 10x Giant Silver Vein (cliff giants in Azshara), 1x Nagmara's Filled Vial
 - Mistress Nagmara (Grim Guzzler, inside BRD) gives you an empty **Nagmara's Vial**{i} when you accept. Fill it at **Golakka Hot Springs** in Un'Goro Crater.
-- You can only finish it this trip if you picked it up on an earlier visit. Otherwise grab it in Run 2 and bring everything next time.
+- You can only finish it this trip if you picked it up on an earlier visit. Otherwise grab it on Trip 2 and bring everything next time you're in BRD.
 
 **2. The Spectral Chalice (Miners, skill 230+)**{q}
 - **Requires:** 2x Star Ruby, 20x Gold Bar, 10x Truesilver Bar
@@ -20,7 +20,7 @@
 - Not on that chain? Skip it.
 <<<POST>>>
 ## Phase 2: Quest Pickup Tour (part 1)
--# Starts and ends in Ironforge. There's one backtrack, and it saves you a third BRD run.
+-# Starts and ends in Ironforge. There's one backtrack, and it saves you a third trip into BRD.
 
 **1. Ironforge — The High Seat**
 - **Royal Historian Archesonus**{n} (38.5, 55.5), next to Magni: **The Smoldering Ruins of Thaurissan**{a}. Part 1 is listening to his story. Part 2 sends you to the Ruins of Thaurissan in Burning Steppes.
@@ -35,7 +35,7 @@
 **4. Burning Steppes — Morgan's Vigil**
 - **Marshal Maxwell**{n} (84.6, 68.8): **Marshal Windsor**{a}
 - **Oralius**{n} (84.5, 68.5): **The Good Stuff**{a} (20 {i:Dark Iron Fanny Packs}, from any Dark Iron dwarf in BRD)
-- **Jalinda Sprig**{n} (85.4, 70.0): **Overmaster Pyron**{a} (kill him on your way into Run 1, not now)
+- **Jalinda Sprig**{n} (85.4, 70.0): **Overmaster Pyron**{a} (kill him on your way into BRD, not now)
 <<<POST>>>
 ## Phase 2: Quest Pickup Tour (part 2)
 
@@ -54,7 +54,7 @@ He wants a **Black Dragonflight Molt**{i} before he gives **A Taste of Flame**{a
 
 **8. Back to Ironforge**
 - Turn in *The Smoldering Ruins of Thaurissan*{t} to Archesonus. **King Magni**{n} then gives **Kharan Mighthammer**{a}.
-- Without it you can't do Kharan in Run 1, and the princess chain costs a third run.
+- Without it you can't do Kharan on Trip 1, and the princess chain costs a third trip into BRD.
 <<<POST>>>
 ## Phase 3: Blackrock Mountain Essentials
 
@@ -67,9 +67,9 @@ He wants a **Black Dragonflight Molt**{i} before he gives **A Taste of Flame**{a
 - Resurrect and find **Lothos Riftwaker**{n} on the path down to the BRD portal. Pick up **Attunement to the Core**{a}.
 - Molten Core isn't open yet, but you can grab the {i:Core Fragment} now so you're attuned when it is.
 
-👥 **Find a group for the full quest run.** Phases 4 to 6 are two BRD runs with a trip out in between. After Run 1 the whole group leaves the dungeon to hand in quests at Morgan's Vigil and in Ironforge, then comes back for Run 2, which picks up where Run 1 left off. It takes a while, so say so when you invite people, and make sure they know walking out after Run 1 isn't the end.
+👥 **Find a group for the full quest run.** Phases 4 to 6 are one BRD run in two trips. After Trip 1 the whole group leaves the dungeon to hand in quests at Morgan's Vigil and in Ironforge, then goes back in for Trip 2, which picks up where Trip 1 left off. It takes a while, so say so when you invite people, and make sure they know walking out after Trip 1 isn't the end.
 <<<POST>>>
-## Phase 4: Dungeon Run 1 (The Setup)
+## Phase 4: BRD Trip 1 (The Setup)
 *Goal: trigger the two "leave the dungeon" steps (Windsor and the Princess).*
 
 **1. Overmaster Pyron**{q}
@@ -78,7 +78,7 @@ He wants a **Black Dragonflight Molt**{i} before he gives **A Taste of Flame**{a
 **3. High Interrogator Gerstahn:**{h} kill her and loot the **Prison Cell Key**{i}. It opens the cells, and one keyholder can open a door for the whole group.
 **4. Marshal Windsor**{n} (his cell): turn in *Marshal Windsor*{t}, accept **Abandoned Hope**{a}.
 **5. Kharan Mighthammer**{n} (open his cell with the key): turn in *Kharan Mighthammer*{t}, do **Kharan's Tale**{a} (go through all his dialogue), accept **The Bearer of Bad News**{a}.
-**6. Keep** any **Relic Coffer Keys**{i} and **Dark Iron Fanny Packs**{i} that drop. They count in Run 2.
+**6. Keep** any **Relic Coffer Keys**{i} and **Dark Iron Fanny Packs**{i} that drop. They count on Trip 2.
 **7. Leave the instance.** No need for the Ring of Law yet.
 <<<POST>>>
 ## Phase 5: The Intermission
@@ -92,8 +92,8 @@ He wants a **Black Dragonflight Molt**{i} before he gives **A Taste of Flame**{a
 
 Head back to BRD. If the instance reset while you were gone, you'll re-clear the Detention Block, which is your first stop anyway.
 <<<POST>>>
-## Phase 6: Dungeon Run 2 (part 1): front half + Jail Break!
--# Angerforge and Argelmach are close to the entrance through the Shadowforge Lock. You get Windsor's pages early and escort him before heading deep, so there's no run back from the throne room.
+## Phase 6: BRD Trip 2 (part 1): front half + Jail Break!
+-# Angerforge and Argelmach are close to the entrance through the Shadowforge Lock. You get Windsor's pages early and escort him before heading deep, so there's no walk back from the throne room.
 
 **1. Detention Block:** farm Dark Iron dwarves until **A Crumpled Up Note**{i} drops. It can't be shared in Forever, so everyone needs their own. Turn it in to Windsor and accept **A Shred of Hope**{a}.
 **2. Ring of Law:** clear it. If you have *The Challenge*{q}, plant the banner while Grimstone sentences you.
@@ -105,7 +105,7 @@ Head back to BRD. If the instance reset while you were gone, you'll re-clear the
 **8. Golem Lord Argelmach**{h} (next room over): kill his two constructs first, then him. Loot the second **Lost Information**{i}.
 **9. Jail Break!:**{q} short walk back to Windsor. Everyone turns in *A Shred of Hope*{t}, then accept **Jail Break!**{a} to start the escort. He walks through the Detention Block and the Ring of Law to get his gear and free his friends. He **can't be healed**, so taunt the ambushers off him.
 <<<POST>>>
-## Phase 6: Dungeon Run 2 (part 2): the deep end
+## Phase 6: BRD Trip 2 (part 2): the deep end
 
 **10. The Grim Guzzler (bar):** keep the bar friendly until you're done (don't attack Plugger or the patrons).
 - **Hurley Blackbreath:**{h} break the three **Thunderbrew Lager Kegs** in the storeroom, kill Hurley and his cronies, loot the **Lost Thunderbrew Recipe**{i}.

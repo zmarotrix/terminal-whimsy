@@ -577,7 +577,7 @@ WISP = {
         "murloc": ["> was that a murloc? in my banner?", "> mrgl. i don't speak it either."],
         # library.js: the guides on the shelf
         "kb": {
-            "open": ["> brd. pack a lunch. it's a long one.", "> good pick. bring water. a lot of water.", "> two runs and one trip home. i've read ahead."],
+            "open": ["> brd. pack a lunch. it's a long one.", "> good pick. bring water. a lot of water.", "> one run, two trips in. i've read ahead."],
             "tick": ["> one down.", "> ticked. i saw.", "> the dwarves are getting nervous."],
             "part": ["> that's a whole part. repair your gear.", "> part done. bio break earned."],
             "done": ["> every step ticked. go hand in some quests.", "> finished! the dwarves will be talking about you."],

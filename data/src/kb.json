@@ -1,5 +1,5 @@
 {
-  "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text colour it on the site and are stripped from the Discord copy: {q} quest, {n} friendly NPC, {h} hostile, {i} item. 'at' is when the book went on the shelf (it gets a ! until you've seen it).",
+  "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text mark it on the site and are stripped from the Discord copy: {a} a quest you pick up (gold !), {t} a quest you hand in (gold ?), {q} a quest mentioned, {n} friendly NPC, {h} hostile (skull), {i} item. unsure: things nobody has confirmed on Forever; at lists the steps they belong to as part.step (parts count from 0). 'at' is when the book went on the shelf (it gets a ! until you've seen it).",
   "guides": [
     {
       "id": "brd",
@@ -17,9 +17,9 @@
       "checked": "2026-11-18",
       "unsure": [
         "BRD wasn't in the Forever beta, so this leans on Forever's quest data and Blizzard's hotfixes more than on anyone's run.",
-        "Nobody has confirmed the Frenzied Black Drake still turns up at Cyrus. If it doesn't, do the Searing Gorge chain.",
-        "The Spectral Chalice needed Mining 230 in Classic. Forever's quest page doesn't say.",
-        "Attunement to the Core is in Forever's quest data, but Molten Core isn't open yet. If Lothos doesn't offer it, it isn't switched on."
+        {"text": "Nobody has confirmed the Frenzied Black Drake still turns up at Cyrus. If it doesn't, do the Searing Gorge chain.", "at": ["2.5"]},
+        {"text": "The Spectral Chalice needed Mining 230 in Classic. Forever's quest page doesn't say.", "at": ["0.2", "7.11"]},
+        {"text": "Attunement to the Core is in Forever's quest data, but Molten Core isn't open yet. If Lothos doesn't offer it, it isn't switched on.", "at": ["3.2", "7.12"]}
       ],
       "sources": [
         {"name": "Warcraft Tavern: Forever BRD quests", "url": "https://www.warcrafttavern.com/forever/guides/blackrock-depths-quests/"},

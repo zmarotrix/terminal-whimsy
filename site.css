@@ -874,14 +874,28 @@ a.ccard:hover{transform:rotate(0) translateY(-3px);color:#2b2118}
 .kbprog .bar::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 calc(5% - 1px),rgba(0,0,0,.55) calc(5% - 1px) 5%)}
 .kbprog.full .bar i{background:linear-gradient(180deg,#d9ffe3,var(--term) 55%,#2f9a5a);box-shadow:0 0 16px rgba(124,242,154,.8)}
 .kbprog b{font:700 .78rem/1 var(--f-mono);color:var(--gold2);white-space:nowrap}
-.kbintro{display:grid;grid-template-columns:minmax(0,1fr);gap:1.2rem;margin-top:1.4rem}
-.kblegend{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1.1rem;font-size:.92rem}
-.kbnotes{position:relative;background:linear-gradient(180deg,rgba(255,111,94,.06),transparent),var(--bg2);border:1px dashed color-mix(in srgb,var(--foe) 45%,transparent);border-radius:var(--r);padding:1rem 1.1rem}
-.kbnotes .stamp{position:absolute;right:1rem;top:-.85rem;padding:.2rem .55rem;border:2px solid var(--stamp);border-radius:4px;background:var(--bg);color:#ff7a68;font:800 .7rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;transform:rotate(3deg)}
-.kbnotes p{color:var(--muted);font-size:.95rem;max-width:62ch}
-.kbnotes ul{margin:.6rem 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.4rem}
-.kbnotes li{position:relative;padding-left:1.5rem;max-width:72ch}
-.kbnotes li::before{content:"?";position:absolute;left:0;top:.2em;width:1.05rem;height:1.05rem;border-radius:50%;display:grid;place-items:center;font:800 .66rem/1 var(--f-mono);color:#0a0c13;background:var(--ql)}
+.kbintro{display:grid;grid-template-columns:minmax(0,1fr);gap:.9rem;margin-top:1.4rem}
+/* WoW's marks: the gold ! and ? over a quest giver, a raid-target skull, small icons for the odd step */
+.qm{display:inline-grid;place-items:center;flex:none;width:1.25em;height:1.25em;font:900 1.3em/1 Georgia,"Times New Roman",serif;color:#ffd200;-webkit-text-stroke:1.3px #3b2600;paint-order:stroke fill;text-shadow:0 0 7px rgba(255,190,0,.55),0 1px 0 #000;vertical-align:-.22em}
+.qm.qk svg{width:.95em;height:.95em;filter:drop-shadow(0 0 2px #000) drop-shadow(0 0 5px rgba(255,255,255,.25))}
+.qm.qw svg{width:.85em;height:.85em;filter:drop-shadow(0 0 5px rgba(255,190,0,.6))}
+.qm.qi img{width:.9em;height:.9em;border-radius:3px;box-shadow:0 0 0 1px #000,0 0 0 2px #6b5a2c}
+.kbkey{display:flex;flex-wrap:wrap;align-items:center;gap:.45rem 1.3rem;padding:.65rem .9rem;border-radius:10px;background:var(--bg2);border:1px solid var(--rule);font-size:.92rem;color:var(--muted)}
+.kbkey>span{display:inline-flex;align-items:center;gap:.4rem;white-space:nowrap}
+.kbkey .qm{font-size:1.3em}
+.kbnotes{border:1px dashed color-mix(in srgb,var(--foe) 45%,transparent);border-radius:10px;background:linear-gradient(180deg,rgba(255,111,94,.05),transparent),var(--bg2)}
+.kbnotes>summary{list-style:none;cursor:pointer;padding:.65rem .9rem;display:flex;flex-wrap:wrap;align-items:center;gap:.3rem .7rem;font-weight:700;color:#f3c6bd}
+.kbnotes>summary::-webkit-details-marker{display:none}
+.kbnotes>summary::after{content:"+";margin-left:auto;font:700 1rem/1 var(--f-mono);color:var(--muted)}
+.kbnotes[open]>summary::after{content:"–"}
+.kbnotes>summary small{flex-basis:100%;font-weight:400;font-size:.86rem;color:var(--muted)}
+.kbnotes .stamp{padding:.18rem .45rem;border:2px solid var(--stamp);border-radius:4px;color:#ff7a68;font:800 .64rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;transform:rotate(-2deg)}
+.kbnotes ul{margin:0;padding:0 .9rem .8rem 2rem;display:flex;flex-direction:column;gap:.35rem;max-width:80ch}
+.kbbar .kbnext{border-color:color-mix(in srgb,var(--ql) 55%,var(--rule));background:linear-gradient(180deg,rgba(255,210,63,.12),rgba(255,210,63,.04));gap:.6rem;max-width:min(100%,420px);text-align:left}
+.kbbar .kbnext:hover{box-shadow:0 8px 24px -8px rgba(255,200,60,.5)}
+.kbnext>span:last-child{display:flex;flex-direction:column;gap:.2rem;min-width:0}
+.kbnext b{color:var(--ql);font-size:.88rem}
+.kbnext small{font:500 .74rem/1.2 var(--f-sans);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:330px}
 .kbbook{display:grid;grid-template-columns:230px minmax(0,1fr);gap:2rem;margin-top:1.8rem;align-items:start}
 .kbnav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 74px);display:flex;flex-direction:column;gap:.15rem;padding:.9rem .6rem;border-radius:var(--r);background:linear-gradient(180deg,#1e140c,#130d08);border:1px solid #4a3220;box-shadow:inset 0 0 0 1px rgba(0,0,0,.6)}
 .kbnav .lbl{color:var(--gold);padding-left:.4rem;margin-bottom:.4rem}
@@ -920,12 +934,26 @@ a.ccard:hover{transform:rotate(0) translateY(-3px);color:#2b2118}
 .step .tick::after{content:"";position:absolute;left:5px;top:3px;width:12px;height:7px;border:3.5px solid var(--ql);border-top:0;border-right:0;transform:rotate(-45deg) scale(0);transition:transform .3s cubic-bezier(.2,1.8,.4,1);filter:drop-shadow(0 0 4px rgba(255,210,63,.8))}
 .step.done .tick{border-color:var(--gold)}
 .step.done .tick::after{transform:rotate(-45deg) scale(1)}
-.step .sx{min-width:0;transition:opacity .3s}
+.step .sx{min-width:0;transition:opacity .3s;display:flex;flex-direction:column;gap:.25rem}
+.sx .sh{line-height:1.5}
+.sx .sh .marks{display:inline-flex;align-items:center;gap:.05rem;margin-right:.4rem;vertical-align:-.28em}
+.sx .sh .marks .qm{vertical-align:0}
+.sx .where{margin-left:.45rem;font:600 .82rem/1.3 var(--f-sans);color:#c9b892;letter-spacing:.02em}
+.sx .where::before{content:"·";margin-right:.45rem;color:var(--dim)}
+.sx .sd{color:#d3d7e4}
+.unsure{margin-top:.3rem;padding:.4rem .65rem;border:1px dashed rgba(255,111,94,.5);border-radius:6px;font-size:.88rem;color:#f3c6bd;max-width:72ch}
+.unsure b{display:inline-block;margin-right:.5rem;font:800 .64rem/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:#ff7a68}
+.step .tick .tn{font:800 .72rem/1 var(--f-mono);color:#c9a14e;transition:opacity .2s}
+.step.done .tick .tn{opacity:0}
+/* the next step you haven't done glows like a tracked quest */
+.step.next{margin:-.45rem -.6rem;padding:.45rem .6rem;border-radius:9px;background:linear-gradient(90deg,rgba(255,210,63,.1),rgba(255,210,63,.02) 70%,transparent);box-shadow:inset 3px 0 0 var(--ql)}
+.step.next .tick{border-color:var(--ql);animation:nextglow 1.8s ease-in-out infinite}
+@keyframes nextglow{50%{box-shadow:inset 0 2px 5px #000,0 0 0 1px #000,0 0 12px 2px rgba(255,210,63,.55)}}
+.step.done .qm{filter:grayscale(1);opacity:.7}
 .step.done .sx{opacity:.5}
 .step.done .sx:hover{opacity:.85}
 .sx p{max-width:74ch}
-.sx .sn{display:inline-grid;place-items:center;min-width:1.55em;height:1.55em;padding:0 .3em;margin-right:.45rem;border-radius:99px;background:var(--bg4);color:var(--gold);font:800 .76rem/1 var(--f-mono);vertical-align:.12em}
-.sx .stt{font-weight:800;color:var(--ink)}
+.sx .stt{font-weight:800;font-size:1.04rem;color:var(--ink)}
 .sx ul{margin:.4rem 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.32rem}
 .sx li{position:relative;padding-left:1.15rem;color:#d3d7e4;max-width:72ch}
 .sx li::before{content:"";position:absolute;left:.15rem;top:.62em;width:6px;height:6px;transform:rotate(45deg);background:var(--dim)}
@@ -933,6 +961,8 @@ a.ccard:hover{transform:rotate(0) translateY(-3px);color:#2b2118}
 .kq{color:var(--ql);text-decoration:none;font-weight:700}
 a.kq:hover{color:#fff3a8;text-decoration:underline;text-underline-offset:3px}
 .kn{color:var(--npc)}.kh{color:var(--foe)}
+.kq .g{font:900 1.12em/1 Georgia,"Times New Roman",serif;color:#ffd200;-webkit-text-stroke:1px #3b2600;paint-order:stroke fill;margin-right:.08em;text-shadow:0 0 5px rgba(255,190,0,.5)}
+.kh .sk svg{width:.9em;height:.9em;margin-right:.18em;vertical-align:-.1em;filter:drop-shadow(0 0 1px #000)}
 .ki{color:var(--item);font-weight:700;text-shadow:0 0 10px rgba(255,255,255,.12)}
 .sx .stt.kq{color:var(--ql)}.sx .stt.kn{color:var(--npc)}.sx .stt.kh{color:var(--foe)}
 .coord{display:inline-block;font:600 .78em/1.3 var(--f-mono);padding:0 .4em;border-radius:4px;background:var(--bg4);color:var(--sky);white-space:nowrap}
@@ -967,4 +997,4 @@ a.kq:hover{color:#fff3a8;text-decoration:underline;text-underline-offset:3px}
   .page.done::after{top:auto;bottom:.8rem;right:.8rem;font-size:1.1rem}
   .step{grid-template-columns:28px minmax(0,1fr);gap:.6rem}
 }
-@media (prefers-reduced-motion:reduce){.candle .flame,.embers i,.rw b,.book .newseal,.dustbunny{animation:none}}
+@media (prefers-reduced-motion:reduce){.candle .flame,.embers i,.rw b,.book .newseal,.dustbunny,.step.next .tick{animation:none}}

@@ -1,7 +1,9 @@
 /* Terminal Whimsy: the Library, the guild's knowledge base. Guides sit on a shelf as books.
    A guide is the same Discord posts the guild pastes (data/src/kb/*.md, built into D.KB), so each part has a copy
-   button. Tags after bold text colour it here ({q} quest, {n} friendly, {h} hostile, {i} item) and are stripped from
-   the copy. Steps tick off as you play; ticks live in this browser (tw.kb.<id>). Needs app.js (window.TWX). */
+   button. Tags after bold text mark it here in WoW's own language, and are stripped from the copy: {a} a quest you pick
+   up (gold !), {t} one you hand in (gold ?), {q} a quest mentioned, {n} friendly (green), {h} hostile (red, skull),
+   {i} item ([link]). Each step shows its ! ? and skulls up front. Steps tick off as you play; ticks live in this
+   browser (tw.kb.<id>). Needs app.js (window.TWX). */
 (() => {
 "use strict";
 const X = window.TWX, sec = document.getElementById("library");
@@ -16,8 +18,29 @@ const banner = $(".banner", sec), art = $(".art", banner), credit = $(".credit",
 const shelfEl = $("#kbShelf"), bookEl = $("#kbBook");
 const WH = "https://www.wowhead.com/forever/search?q=";
 const day = d => new Date(d + "T12:00:00").toLocaleDateString(undefined, { day: "numeric", month: "short" });
-const KIND = { q: "kq", n: "kn", h: "kh", i: "ki" };
-const strip = s => s.replace(/\{[qnhi]\}/g, "");
+const KIND = { q: "kq", a: "kq", t: "kq", n: "kn", h: "kh", i: "ki" };
+const strip = s => s.replace(/\{[qnhiat]\}/g, "");
+// WoW's marks: the gold ! and ? over a quest giver's head, a raid-target skull, and a few icons
+const SKULL = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.3C4.3 1.3 1.8 3.9 1.8 7.1c0 1.9.9 3.4 2.3 4.2v1.8c0 .8.6 1.5 1.4 1.5h5c.8 0 1.4-.7 1.4-1.5v-1.8c1.4-.8 2.3-2.3 2.3-4.2 0-3.2-2.5-5.8-6.2-5.8z" fill="#f2f2f2" stroke="#000" stroke-width=".9"/><circle cx="5.6" cy="7.5" r="1.7" fill="#111"/><circle cx="10.4" cy="7.5" r="1.7" fill="#111"/><path d="M7.3 9.8h1.4L8 11.1z" fill="#111"/><path d="M6.4 12.3v2.2M8 12.3v2.2M9.6 12.3v2.2" stroke="#111" stroke-width=".8"/></svg>`;
+const MARK = {
+  a: `<span class="qm qa" data-tip="Pick up a quest">!</span>`,
+  t: `<span class="qm qt" data-tip="Hand in a quest">?</span>`,
+  h: `<span class="qm qk" data-tip="Kill">${SKULL}</span>`,
+  bag: `<span class="qm qi" data-tip="Bring these with you"><img src="${ICON("inv_misc_bag_08")}" alt=""></span>`,
+  ghost: `<span class="qm qi" data-tip="Die on purpose"><img src="${ICON("spell_holy_resurrection")}" alt=""></span>`,
+  door: `<span class="qm qi" data-tip="Dungeon entrance"><img src="${ICON("spell_arcane_portaldalaran")}" alt=""></span>`,
+  hearth: `<span class="qm qi" data-tip="Hearthstone"><img src="${ICON("inv_misc_rune_01")}" alt=""></span>`,
+};
+// what a step asks of you, in the order it says it: ! ? and skulls from its tags, plus a few plain-word steps
+function marks(s) {
+  const out = [], add = k => !out.includes(k) && out.push(k), title = strip(s.title || "");
+  if (/\*\*Requires:\*\*/.test(s.raw)) add("bag");
+  if (/^(Enter|Leave)\b/.test(title)) add("door");
+  if (/\*\*die\*\*/.test(s.raw)) add("ghost");
+  for (const m of s.raw.matchAll(/\{([ath])\}/g)) add(m[1]);
+  if (/^Hearth\b/.test(title)) add("hearth");
+  return out.slice(0, 3).map(k => MARK[k]).join("");
+}
 
 /* =================== reading Discord markdown =================== */
 // plain text: escape it, then dress up map coordinates, stack counts and arrows
@@ -26,17 +49,19 @@ const plain = s => esc(s)
   .replace(/\b(\d+)x (?=[A-Z])/g, '<span class="qty">$1×</span> ')
   .replace(/→/g, '<span class="arw">→</span>');
 function tag(txt, bold, k) {
-  if (k === "q") {      // quests read like a quest link in chat, and look themselves up on Wowhead
-    const name = txt.replace(/:$/, "");
-    return `<a class="kq" href="${WH}${encodeURIComponent(name)}" target="_blank" rel="noopener" data-tip="Quest. Opens a Wowhead search.">[${esc(name)}]</a>${txt.endsWith(":") ? ":" : ""}`;
+  if (k === "q" || k === "a" || k === "t") {   // quests read like an NPC's quest list: ! to pick up, ? to hand in
+    const name = txt.replace(/:$/, ""), g = k === "a" ? `<i class="g">!</i>` : k === "t" ? `<i class="g">?</i>` : "";
+    const what = k === "a" ? "Quest to pick up" : k === "t" ? "Quest to hand in" : "Quest";
+    return `<a class="kq" href="${WH}${encodeURIComponent(name)}" target="_blank" rel="noopener" data-tip="${what}. Opens a Wowhead search.">${g}[${esc(name)}]</a>${txt.endsWith(":") ? ":" : ""}`;
   }
   if (k === "i") return `<span class="ki">[${esc(txt)}]</span>`;
+  if (k === "h") return `<b class="kh"><i class="sk">${SKULL}</i>${esc(txt)}</b>`;
   if (k) return `<b class="${KIND[k]}">${esc(txt)}</b>`;
   return bold ? `<b>${esc(txt)}</b>` : `<i>${esc(txt)}</i>`;
 }
 function inline(raw) {
   let out = "", at = 0;
-  for (const m of String(raw || "").matchAll(/(\*\*|\*)(.+?)\1(?:\{([qnhi])\})?/g)) {
+  for (const m of String(raw || "").matchAll(/(\*\*|\*)(.+?)\1(?:\{([qnhiat])\})?/g)) {
     out += plain(raw.slice(at, m.index)) + tag(m[2], m[1] === "**", m[3]);
     at = m.index + m[0].length;
   }
@@ -52,19 +77,20 @@ function parse(raw, pi) {
     if (ln.startsWith("# ")) { P.cover = { title: ln.slice(2), sub: "" }; continue; }
     if (ln.startsWith("## ")) { P.head = ln.slice(3); continue; }
     if (ln.startsWith("-# ")) { if (P.cover && !P.head) P.cover.sub = ln.slice(3); else P.blocks.push({ t: "sub", h: inline(ln.slice(3)) }); continue; }
-    let m = ln.match(/^\*\*(\d+)\.\s+(.+?)\*\*(?:\{([qnhi])\})?(.*)$/);
-    if (m) { step = { t: "step", id: pi + "." + m[1], n: m[1], title: m[2], k: m[3], rest: m[4], body: [], label: strip(m[2]).replace(/:$/, "") }; P.blocks.push(step); continue; }
+    let m = ln.match(/^\*\*(\d+)\.\s+(.+?)\*\*(?:\{([qnhiat])\})?(.*)$/);
+    if (m) { step = { t: "step", id: pi + "." + m[1], n: m[1], title: m[2], k: m[3], rest: m[4], body: [], raw: ln, label: strip(m[2]).replace(/[:.]$/, "") }; P.blocks.push(step); continue; }
     m = ln.match(/^\*\*([^*]+)\*\*\s*$/);
     if (m) { step = null; P.blocks.push({ t: "grp", h: esc(m[1]) }); continue; }
-    if (ln.startsWith("⚠️")) { const w = { t: "warn", raw: ln.replace(/^⚠️\s*/, "") }; if (step) { step.body.push(w); step.warn = w.raw; } else P.blocks.push(w); continue; }
+    if (ln.startsWith("⚠️")) { const w = { t: "warn", raw: ln.replace(/^⚠️\s*/, "") }; if (step) { step.body.push(w); step.warn = w.raw; step.raw += "\n" + ln; } else P.blocks.push(w); continue; }
     if (ln.startsWith("- ")) {
-      if (step) step.body.push({ t: "li", h: inline(ln.slice(2)) });
-      else P.blocks.push({ t: "step", id: pi + ".b" + (++nb), bullet: true, h: inline(ln.slice(2)), body: [], label: strip(ln.slice(2)).replace(/\*/g, "").slice(0, 70) });
+      if (step) { step.body.push({ t: "li", h: inline(ln.slice(2)) }); step.raw += "\n" + ln; }
+      else P.blocks.push({ t: "step", id: pi + ".b" + (++nb), bullet: true, h: inline(ln.slice(2)), body: [], raw: ln, label: strip(ln.slice(2)).replace(/\*/g, "").slice(0, 70) });
       continue;
     }
     m = ln.match(/^\*([^*].*)\*$/);
     if (m) { P.blocks.push({ t: "goal", h: inline(m[1]) }); continue; }
-    (step ? step.body : P.blocks).push({ t: "p", h: inline(ln) });
+    if (step) { step.body.push({ t: "p", h: inline(ln) }); step.raw += "\n" + ln; }
+    else P.blocks.push({ t: "p", h: inline(ln) });
   }
   return P;
 }
@@ -176,13 +202,29 @@ function body(items) {
   }
   return h + (ul ? "</ul>" : "");
 }
-function stepHTML(s, done) {
-  const head = s.bullet ? `<p>${s.h}</p>` : `<p><span class="sn">${s.n}</span><b class="stt ${s.k ? KIND[s.k] : ""}">${plain(strip(s.title))}</b>${inline(s.rest)}</p>`;
-  return `<div class="step${done ? " done" : ""}${s.warn ? " warned" : ""}" data-s="${esc(s.id)}"><button class="tick" type="button" role="checkbox" aria-checked="${done}" aria-label="${esc(s.label)}"></button><div class="sx">${head}${body(s.body)}</div></div>`;
+// a numbered step reads as a title line (marks, title, where), then what to do underneath:
+// "**3. Marshal Windsor** (his cell): turn in…" -> Marshal Windsor · his cell / Turn in…
+const cap1 = s => s.replace(/^(\**)([a-z])/, (_, a, b) => a + b.toUpperCase());
+function headHTML(s) {
+  const mk = marks(s);
+  if (s.bullet) return `<p class="sh">${mk ? `<span class="marks">${mk}</span>` : ""}${s.h}</p>`;
+  const title = strip(s.title), rest = s.rest || "";
+  let where = "", desc = "", tail = "", m;
+  if ((m = rest.match(/^\s*—\s*(.+)$/))) where = m[1];
+  else if ((m = rest.match(/^\s*\(([^)]*)\)\s*(?::\s*(.*))?$/))) { where = m[1]; desc = m[2] || ""; }
+  else if (/[:.]$/.test(title) || !rest.trim()) desc = rest.trim();
+  else tail = rest;                                             // "**5. Keep** any…": one line, as written
+  const tt = `<b class="stt ${s.k ? KIND[s.k] : ""}">${plain(tail ? title : title.replace(/[:.]$/, ""))}</b>${tail ? inline(tail) : ""}`;
+  return `<p class="sh">${mk ? `<span class="marks">${mk}</span>` : ""}${tt}${where ? `<span class="where">${inline(where)}</span>` : ""}</p>${desc ? `<p class="sd">${inline(cap1(desc))}</p>` : ""}`;
+}
+function stepHTML(s, done, notes) {
+  const un = notes.filter(u => u.at.includes(s.id)).map(u => `<p class="unsure"><b>Not confirmed on Forever</b>${esc(u.text)}</p>`).join("");
+  return `<div class="step${done ? " done" : ""}${s.warn ? " warned" : ""}" data-s="${esc(s.id)}"><button class="tick" type="button" role="checkbox" aria-checked="${done}" aria-label="${esc(s.label)}">${s.n ? `<span class="tn">${s.n}</span>` : ""}</button><div class="sx">${headHTML(s)}${body(s.body)}${un}</div></div>`;
 }
 function pageHTML(g, P, i, t) {
   const H = heading(P.head), st = stepsOf(P), d = st.filter(s => t.has(s.id)).length, chars = strip(g.posts[i]).length;
-  const blocks = P.blocks.map(b => b.t === "step" ? stepHTML(b, t.has(b.id)) : b.t === "grp" ? `<h4 class="kgrp">${b.h}</h4>` : b.t === "sub" ? `<p class="sub">${b.h}</p>`
+  const notes = (g.unsure || []).filter(u => u && Array.isArray(u.at));
+  const blocks = P.blocks.map(b => b.t === "step" ? stepHTML(b, t.has(b.id), notes) : b.t === "grp" ? `<h4 class="kgrp">${b.h}</h4>` : b.t === "sub" ? `<p class="sub">${b.h}</p>`
     : b.t === "goal" ? `<p class="goal">${b.h}</p>` : b.t === "warn" ? body([b]) : `<p>${b.h}</p>`).join("");
   return `<article class="page${st.length && d === st.length ? " done" : ""}" id="kbp-${i}" data-p="${i}">
   <header class="ph"><span class="seal" aria-hidden="true">${esc(H.n || "✦")}</span><div class="pt"><h3>${esc(H.name)}</h3>${H.small ? `<small>${esc(H.small)}</small>` : ""}</div>
@@ -198,11 +240,19 @@ function book(g) {
   bookEl.innerHTML = `<div class="kbbar">
   <a class="btn ghost kbback" href="#library">← Back to the shelf</a>
   <div class="kbprog" role="progressbar" aria-label="Steps ticked" aria-valuemin="0"><span class="bar"><i></i></span><b></b></div>
-  <div class="row"><button class="btn ghost kbreset" type="button">Start a fresh run</button><button class="btn ghost kblink" type="button">Copy link</button></div>
+  <div class="row"><button class="btn kbnext" type="button"><span class="qm qw" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M2.5 1.8 14 8 2.5 14.2 5.4 8z" fill="#ffd200" stroke="#3b2600" stroke-width="1.1" stroke-linejoin="round"/></svg></span><span><b>Next step</b><small></small></span></button><button class="btn ghost kbreset" type="button">Start a fresh run</button><button class="btn ghost kblink" type="button">Copy link</button></div>
 </div>
 <div class="kbintro">
-  <p class="kblegend"><span class="kq">[Quest]</span><b class="kn">Friendly</b><b class="kh">Hostile</b><span class="ki">[Item]</span><span><span class="coord">38.5, 55.5</span> map spot</span></p>
-  ${(g.unsure || []).length ? `<aside class="kbnotes"><span class="stamp">Unchecked</span><p>Things nobody has confirmed on Forever yet. Seen one in game? Tell an officer.</p><ul>${g.unsure.map(u => `<li>${esc(u)}</li>`).join("")}</ul></aside>` : ""}
+  <div class="kbkey" role="list" aria-label="How to read this guide">
+    <span role="listitem">${MARK.a}Pick up a quest</span>
+    <span role="listitem">${MARK.t}Hand in a quest</span>
+    <span role="listitem">${MARK.h}Kill</span>
+    <span role="listitem"><b class="kn">Green</b> friendly NPC</span>
+    <span role="listitem"><b class="kh">Red</b> enemy</span>
+    <span role="listitem"><span class="ki">[Item]</span> loot or use</span>
+    <span role="listitem"><span class="coord">38.5, 55.5</span> on the map</span>
+  </div>
+  ${(g.unsure || []).length ? `<details class="kbnotes"><summary><span class="stamp">Unchecked</span>${g.unsure.length} things nobody has confirmed on Forever yet<small>The ones about a step are on that step too. Seen one in game? Tell an officer.</small></summary><ul>${g.unsure.map(u => `<li>${esc(u.text || u)}</li>`).join("")}</ul></details>` : ""}
 </div>
 <div class="kbbook">
   <nav class="kbnav" aria-label="Parts of the guide"><p class="lbl">Quest log</p>${M.map((P, i) => { const H = heading(P.head); return `<button type="button" data-p="${i}"><span class="seal sm" aria-hidden="true">${esc(H.n || "✦")}</span><span class="nt">${esc(H.nav)}</span><span class="pp"></span></button>`; }).join("")}</nav>
@@ -225,6 +275,14 @@ function refresh(g) {
     $(".pp", nv).textContent = full ? "✓" : d + "/" + st.length; nv.classList.toggle("done", full);
   });
   const rb = $(".kbreset", bookEl); rb.disabled = !n; if (!armed) rb.textContent = "Start a fresh run";
+  // the first step you haven't ticked glows, like a tracked quest, and the Next step button takes you there
+  const steps = $$(".step", bookEl), nx = steps.find(s => !s.classList.contains("done"));
+  steps.forEach(s => s.classList.toggle("next", s === nx));
+  const nb = $(".kbnext", bookEl); nb.hidden = !nx;
+  if (nx) {
+    const H = heading(model(g)[+nx.closest(".page").dataset.p].head);
+    $("small", nb).textContent = (H.n ? "Phase " + H.n + " · " : "") + $(".tick", nx).getAttribute("aria-label");
+  }
 }
 // the quest log follows you down the page
 function spy() {
@@ -295,9 +353,10 @@ function reset(btn) {
   refresh(cur); say(pick(L.reset), 0, 3000);
 }
 bookEl.addEventListener("click", e => {
-  const el = e.target.closest(".tick, .copy, .kbnav [data-p], .kbreset, .kblink");
+  const el = e.target.closest(".tick, .copy, .kbnav [data-p], .kbreset, .kblink, .kbnext");
   if (!el || !cur) return;
   if (el.classList.contains("tick")) tick(el);
+  else if (el.classList.contains("kbnext")) { const nx = $(".step.next", bookEl); if (nx) nx.scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); }
   else if (el.classList.contains("copy")) copyPart(el);
   else if (el.dataset.p != null) $(`#kbp-${el.dataset.p}`, bookEl).scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "start" });
   else if (el.classList.contains("kbreset")) reset(el);

@@ -146,12 +146,13 @@ for g in load("kb.json")["guides"]:
     txt = open(os.path.join(ROOT, "data", "src", g.pop("file")), encoding="utf-8").read().replace("\r\n", "\n")
     g["posts"] = [p.strip("\n") for p in txt.split("<<<POST>>>") if p.strip()]
     for p in g["posts"]:                    # Discord's limit is per message; tags don't count, they're stripped
-        n = len(re.sub(r"\{[qnhi]\}", "", p))
+        n = len(re.sub(r"\{[qnhiat]\}", "", p))
         if n > 2000:
             sys.exit("kb %s: a post is %d characters, over Discord's 2,000" % (g["id"], n))
     use(g["icon"])
     KB.append(g)
-for i in ["inv_misc_book_07", "inv_misc_horn_01", "inv_misc_book_11", "inv_crown_01", "spell_fire_fire", "spell_nature_sleep"]:
+for i in ["inv_misc_book_07", "inv_misc_horn_01", "inv_misc_book_11", "inv_crown_01", "spell_fire_fire", "spell_nature_sleep",
+          "inv_misc_rune_01", "inv_misc_bag_08", "spell_arcane_portaldalaran", "spell_holy_resurrection"]:   # + step marks
     use(i)
 
 MUST = []

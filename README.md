@@ -33,7 +33,8 @@ A guild guide to World of Warcraft: Forever: everything Blizzard has said, every
 - New Blizzard statement or change: add it to the JSON in `data/src/`, run `python tools/build_data.py`, commit.
 - New news source: add it to `tools/feeds.json` and run `python tools/fetch_news.py --dry` to check it.
 - New or updated guide: a guide is written as Discord posts, one per part, separated by a line that says `<<<POST>>>`, in `data/src/kb/<name>.md`. Add its details (title, cover, art, sources, the things nobody has confirmed yet) to `data/src/kb.json`, then run `python tools/build_data.py`. The build stops if a part is over Discord's 2,000 characters.
-  - Optional tags right after bold or italic text colour it on the site: `{q}` quest, `{n}` friendly NPC, `{h}` hostile, `{i}` item. For example `**Marshal Windsor**{q}`. The copy button strips them, so the Discord text stays clean.
+  - Optional tags right after bold or italic text mark it on the site in WoW's own language: `{a}` a quest you pick up (gold !), `{t}` a quest you hand in (gold ?), `{q}` a quest that's only mentioned, `{n}` friendly NPC (green), `{h}` hostile (red, with a raid skull), `{i}` item (`[link]`). For example `accept **Abandoned Hope**{a}`. Each step shows its ! ? and skulls up front. The copy button strips the tags, so the Discord text stays clean.
+  - In `kb.json`, an `unsure` note can carry `"at": ["2.5"]` (part, counting from 0, then step number) to show it on that step as well as in the list at the top.
   - A numbered bold line (`**3. Marshal Windsor** ...`) is a step with a tick box, and the bullets under it are its details. A bullet that isn't under a numbered line is a step of its own. A line starting with ⚠️ becomes a raid warning.
   - Tick boxes are saved per step, by part and step number. Renumbering a part's steps resets those ticks for people mid-run, so avoid it once a guide is in use.
 

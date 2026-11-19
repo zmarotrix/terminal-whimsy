@@ -137,6 +137,7 @@ function parse(raw, pi) {
     if (m) { step = { t: "step", id: pi + "." + m[1], n: m[1], title: m[2], k: m[3], rest: m[4], body: [], raw: ln, label: strip(m[2]).replace(/[:.]$/, "") }; P.blocks.push(step); continue; }
     m = ln.match(/^\*\*([^*]+)\*\*\s*$/);
     if (m) { step = null; P.blocks.push({ t: "grp", h: esc(m[1]) }); continue; }
+    if (ln.startsWith("👥")) { P.lfg = ln.replace(/^👥\s*/, ""); continue; }   // a call to find a group, shown after the part
     if (ln.startsWith("⚠️")) { const w = { t: "warn", raw: ln.replace(/^⚠️\s*/, "") }; if (step) { step.body.push(w); step.warn = w.raw; step.raw += "\n" + ln; } else P.blocks.push(w); continue; }
     if (ln.startsWith("- ")) {
       if (step) { step.body.push({ t: "li", raw: ln.slice(2) }); step.raw += "\n" + ln; }
@@ -163,6 +164,14 @@ const stepsOf = (P) => P.blocks.filter(b => b.t === "step");
 const allSteps = g => model(g).flatMap(stepsOf);
 const key = g => "kb." + g.id;
 const ticks = g => new Set(store.get(key(g), []));
+// steps that got new ids (kb.json "moves", oldest first): each map is applied once to the ticks saved here
+KB.forEach(g => {
+  const mv = g.moves || [], k = key(g) + ".moves", done = store.get(k, 0);
+  if (done >= mv.length) return;
+  const t = store.get(key(g), []);
+  if (t.length) store.set(key(g), mv.slice(done).reduce((ids, m) => ids.map(id => m[id] || id), t));
+  store.set(k, mv.length);
+});
 
 /* ---- quest chains: skip one and every step and line that's only about it greys out ---- */
 function chainMaps(g) {
@@ -417,7 +426,12 @@ function pageHTML(g, P, i, t) {
     <span class="pp" aria-label="${d} of ${st.length} steps ticked">${d}/${st.length}</span>
     <button class="copy" type="button" data-tip="Copies this part as one Discord message (${chars.toLocaleString()} of 2,000 characters)">${COPY_ICON}<span>Copy for Discord</span></button></header>
   <div class="pb" id="kbpb-${i}">${ptips}${blocks}</div>
-</article>`;
+</article>${P.lfg ? lfgHTML(P.lfg) : ""}`;
+}
+// between two parts, outside both, so folding a part never hides it
+function lfgHTML(raw) {
+  const m = raw.match(/^\*\*(.+?)\*\*\s*(.*)$/);
+  return `<aside class="kblfg" role="note"><img src="${ICON("achievement_guildperk_everybodysfriend")}" alt=""><div><b>${esc(m ? m[1].replace(/\.$/, "") : "Find a group")}</b><p>${inline(m ? m[2] : raw)}</p></div></aside>`;
 }
 let cur = null, mode = null, spyObs = null;
 // "When to start": each quest chain at the level you can pick it up, and a switch to skip it

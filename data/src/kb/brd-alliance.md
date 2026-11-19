@@ -67,18 +67,19 @@ He wants a **Black Dragonflight Molt**{i} before he gives **A Taste of Flame**{a
 - Resurrect and find **Lothos Riftwaker**{n} on the path down to the BRD portal. Pick up **Attunement to the Core**{a}.
 - Molten Core isn't open yet, but you can grab the {i:Core Fragment} now so you're attuned when it is.
 
-**3. Overmaster Pyron**{q}
-- Kill **Pyron**{h} (level 52 elite fire elemental) in the Blackrock Quarry, right outside the BRD portal. Credit is shared, so do it as a group.
+👥 **Find a group for the full quest run.** Phases 4 to 6 are two BRD runs with a trip out in between. After Run 1 the whole group leaves the dungeon to hand in quests at Morgan's Vigil and in Ironforge, then comes back for Run 2, which picks up where Run 1 left off. It takes a while, so say so when you invite people, and make sure they know walking out after Run 1 isn't the end.
 <<<POST>>>
 ## Phase 4: Dungeon Run 1 (The Setup)
 *Goal: trigger the two "leave the dungeon" steps (Windsor and the Princess).*
 
-**1. Enter BRD → Detention Block.**
-**2. High Interrogator Gerstahn:**{h} kill her and loot the **Prison Cell Key**{i}. It opens the cells, and one keyholder can open a door for the whole group.
-**3. Marshal Windsor**{n} (his cell): turn in *Marshal Windsor*{t}, accept **Abandoned Hope**{a}.
-**4. Kharan Mighthammer**{n} (open his cell with the key): turn in *Kharan Mighthammer*{t}, do **Kharan's Tale**{a} (go through all his dialogue), accept **The Bearer of Bad News**{a}.
-**5. Keep** any **Relic Coffer Keys**{i} and **Dark Iron Fanny Packs**{i} that drop. They count in Run 2.
-**6. Leave the instance.** No need for the Ring of Law yet.
+**1. Overmaster Pyron**{q}
+- On the way in, kill **Pyron**{h} (level 52 elite fire elemental) in the Blackrock Quarry, right outside the BRD portal. Credit is shared, so the whole group gets it.
+**2. Enter BRD → Detention Block.**
+**3. High Interrogator Gerstahn:**{h} kill her and loot the **Prison Cell Key**{i}. It opens the cells, and one keyholder can open a door for the whole group.
+**4. Marshal Windsor**{n} (his cell): turn in *Marshal Windsor*{t}, accept **Abandoned Hope**{a}.
+**5. Kharan Mighthammer**{n} (open his cell with the key): turn in *Kharan Mighthammer*{t}, do **Kharan's Tale**{a} (go through all his dialogue), accept **The Bearer of Bad News**{a}.
+**6. Keep** any **Relic Coffer Keys**{i} and **Dark Iron Fanny Packs**{i} that drop. They count in Run 2.
+**7. Leave the instance.** No need for the Ring of Law yet.
 <<<POST>>>
 ## Phase 5: The Intermission
 

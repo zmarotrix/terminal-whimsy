@@ -1,5 +1,5 @@
 {
-  "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text mark it on the site and are stripped from the Discord copy: {a} a quest you pick up (gold !), {t} a quest you hand in (gold ?), {q} a quest mentioned, {n} friendly NPC, {h} hostile (skull), {i} item. unsure: things nobody has confirmed on Forever; at lists the steps they belong to as part.step (parts count from 0). 'at' is when the book went on the shelf (it gets a ! until you've seen it). altParts: quest parts where you do one or the other (counted once in XP). A chain's optional quests still grey out with it but don't count toward its XP.",
+  "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text mark it on the site and are stripped from the Discord copy: {a} a quest you pick up (gold !), {t} a quest you hand in (gold ?), {q} a quest mentioned, {n} friendly NPC, {h} hostile (skull), {i} item. unsure: things nobody has confirmed on Forever; at lists the steps they belong to as part.step (parts count from 0). 'at' is when the book went on the shelf (it gets a ! until you've seen it). altParts: quest parts where you do one or the other (counted once in XP). A chain's optional quests still grey out with it but don't count toward its XP. moves: when steps get new ids (part.step), one old id -> new id map per change, oldest first, so ticks saved in people's browsers follow the steps. Never edit an old map; add a new one. A line starting with 👥 shows between that part and the next.",
   "noMap": {
     "_why": "They stand inside Blackrock Mountain; the zone maps would only show its edge, under another zone's name.",
     "npcs": [
@@ -323,10 +323,21 @@
           ]
         }
       ],
+      "moves": [
+        {
+          "3.3": "4.1",
+          "4.1": "4.2",
+          "4.2": "4.3",
+          "4.3": "4.4",
+          "4.4": "4.5",
+          "4.5": "4.6",
+          "4.6": "4.7"
+        }
+      ],
       "core": [
-        "4.1",
         "4.2",
-        "4.6",
+        "4.3",
+        "4.7",
         "6.2",
         "7.11",
         "7.13",
@@ -339,7 +350,7 @@
           "text": "Right-click the note in your bags to start its quest."
         },
         {
-          "at": "4.6",
+          "at": "4.7",
           "text": "Hearth or run out. Either works."
         },
         {

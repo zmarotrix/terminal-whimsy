@@ -163,7 +163,8 @@ for it in KBI.values():
     use(it["icon"])
 for i in ["inv_misc_book_07", "inv_misc_horn_01", "inv_misc_book_11", "inv_crown_01", "spell_fire_fire", "spell_nature_sleep",
           "ability_rogue_sprint", "inv_misc_map_01",
-          "inv_misc_rune_01", "inv_misc_bag_08", "spell_arcane_portaldalaran", "spell_holy_resurrection"]:   # + step marks
+          "inv_misc_rune_01", "inv_misc_bag_08", "spell_arcane_portaldalaran", "spell_holy_resurrection",
+          "achievement_guildperk_everybodysfriend"]:   # + step marks, the find-a-group note
     use(i)
 
 MUST = []

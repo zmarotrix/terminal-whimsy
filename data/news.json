@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:41:05Z",
+ "updated": "2026-11-19T02:01:34Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -324,6 +324,23 @@
    "also": []
   },
   {
+   "title": "World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zdFBzX19ybEhTc1ZEQmdCS1AzNmxNejBZVkZaRkNGQUg2T2Z3Sk1VbTk1SjFsUGsyWE1OWENRRVRFVlRlV3BXanpiYWl1dEVMNlNvQnM2YkV1YXYySXhn?oc=5",
+   "date": "2026-11-18T15:11:03Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Polygon.com",
+   "icon": "inv_misc_spyglass_03",
+   "id": "3f0d4406a0",
+   "first": "2026-11-18T15:11:03Z",
+   "last": "2026-11-18T15:11:03Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "World of Warcraft Forever Officially Hits Player Peak it Hasn't Seen in 15 Years",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XNmlOaWsxWWtmMWZmOWJmbXdCR0hDZ3hoakx0cWFBdDJ5TXBTT2NfREpxWjIxTmxCblRmYm1EZE5kbFJ4aGRkNnM5RlRxel9RWmdvVExReVlBZ3htcjd2NDlXX0xtdkQwTHp3RTBUaXdDWEgzcGsxNi13?oc=5",
    "date": "2026-11-18T15:08:25Z",
@@ -605,8 +622,8 @@
    "last": "2026-11-18T04:02:56Z",
    "tags": [
     "classes",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -643,25 +660,6 @@
    "last": "2026-11-18T03:43:47Z",
    "tags": [
     "hotfix"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW: Forever Officially Reveals Its Most Played Race, Class, and Faction",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EYkRxaV9FdVRUcHZ5OWo0b1hlbHdMOUtpSlhjYkppd2ZOV0g2bkVHWWRiTGY3VG5YTGcyd3oxV1E1SlRsRjdBQmRMWVY5ektKSVJhSU1yTEZCVl94ZElXejBsS2ZBOXU3VHlMMHFvWGdWV2lTaUE?oc=5",
-   "date": "2026-11-18T02:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Polygon.com",
-   "icon": "inv_misc_spyglass_03",
-   "id": "2efa2b95e9",
-   "first": "2026-11-18T02:00:00Z",
-   "last": "2026-11-18T02:00:00Z",
-   "tags": [
-    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -730,8 +728,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -843,9 +841,9 @@
    "last": "2026-11-17T02:36:53Z",
    "tags": [
     "professions",
+    "classes",
     "items",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -884,10 +882,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "items",
     "classes",
-    "hotfix",
-    "leveling"
+    "items",
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1515,8 +1513,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "classes",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1670,8 +1668,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1911,9 +1909,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "story",
     "pvp",
-    "realms"
+    "realms",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -2067,8 +2065,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2145,9 +2143,9 @@
     "hotfix"
    ],
    "classes": [
-    "warlock",
+    "shaman",
     "hunter",
-    "shaman"
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2375,8 +2373,8 @@
     "classes"
    ],
    "classes": [
-    "hunter",
-    "warlock"
+    "warlock",
+    "hunter"
    ],
    "n": 1,
    "official": false,
@@ -2394,9 +2392,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
+    "classes",
     "items",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -2471,9 +2469,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
+    "classes",
     "ui",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [
     "druid"
@@ -2516,8 +2514,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2556,8 +2554,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "classes",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2822,8 +2820,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3109,9 +3107,9 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "ui",
-    "pvp",
     "classes",
+    "pvp",
+    "ui",
     "leveling"
    ],
    "classes": [],
@@ -3692,6 +3690,17 @@
    "classes": []
   },
   {
+   "title": "World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zdFBzX19ybEhTc1ZEQmdCS1AzNmxNejBZVkZaRkNGQUg2T2Z3Sk1VbTk1SjFsUGsyWE1OWENRRVRFVlRlV3BXanpiYWl1dEVMNlNvQnM2YkV1YXYySXhn?oc=5",
+   "date": "2026-11-18T15:11:03Z",
+   "who": "Polygon.com",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "World of Warcraft Forever Officially Hits Player Peak it Hasn't Seen in 15 Years",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XNmlOaWsxWWtmMWZmOWJmbXdCR0hDZ3hoakx0cWFBdDJ5TXBTT2NfREpxWjIxTmxCblRmYm1EZE5kbFJ4aGRkNnM5RlRxel9RWmdvVExReVlBZ3htcjd2NDlXX0xtdkQwTHp3RTBUaXdDWEgzcGsxNi13?oc=5",
    "date": "2026-11-18T15:08:25Z",
@@ -3916,19 +3925,6 @@
    "label": "press",
    "icon": "inv_misc_food_15",
    "tags": [],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever Officially Reveals Its Most Played Race, Class, and Faction",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EYkRxaV9FdVRUcHZ5OWo0b1hlbHdMOUtpSlhjYkppd2ZOV0g2bkVHWWRiTGY3VG5YTGcyd3oxV1E1SlRsRjdBQmRMWVY5ektKSVJhSU1yTEZCVl94ZElXejBsS2ZBOXU3VHlMMHFvWGdWV2lTaUE?oc=5",
-   "date": "2026-11-18T02:00:00Z",
-   "who": "Polygon.com",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
    "classes": []
   },
   {

@@ -60,7 +60,7 @@ He wants a **Black Dragonflight Molt**{i} before he gives **A Taste of Flame**{a
 
 **1. Dark Iron Legacy (the ghost quest)**{a}
 - In Blackrock Mountain, **die** (jump in the lava).
-- As a ghost, go to the big room in the middle of Blackrock Mountain. The whole room hangs from chains, and a coffin sits on its floor. Talk to **Franclorn Forgewright**{n} there.
+- As a ghost, go to the big room in the middle of Blackrock Mountain. Talk to **Franclorn Forgewright**{n} there on top of the coffin.
 - Listening to his story finishes part 1, and he gives you part 2.
 
 **2. Attunement to the Core**{a}

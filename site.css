@@ -998,3 +998,79 @@ a.kq:hover{color:#fff3a8;text-decoration:underline;text-underline-offset:3px}
   .step{grid-template-columns:28px minmax(0,1fr);gap:.6rem}
 }
 @media (prefers-reduced-motion:reduce){.candle .flame,.embers i,.rw b,.book .newseal,.dustbunny,.step.next .tick{animation:none}}
+
+/* ---------- the library: items, places and the shapes of a step's details ---------- */
+/* items in the text: the real icon, in the item's quality colour, like a link in chat */
+.ki{--qc:#8a8a8a}
+.ki.q0{color:#9d9d9d;--qc:#5d5d5d}.ki.q1{color:var(--item)}.ki.q2{color:#1eff00;--qc:#1eff00}.ki.q3{color:#4aa3ff;--qc:#0070dd}.ki.q4{color:#c36bff;--qc:#a335ee}
+a.ki{text-decoration:none}
+a.ki:hover{text-decoration:underline;text-underline-offset:3px}
+.ii{display:inline-block;width:1.2em;height:1.2em;margin-right:.22em;border-radius:3px;vertical-align:-.24em;box-shadow:0 0 0 1px #000,0 0 0 1.5px var(--qc,#8a8a8a)}
+.sh>.ii{width:1.45em;height:1.45em;margin-right:.4em;vertical-align:-.36em}
+/* "Bring these": a little bag window, one slot per item: icon, name, how many */
+.bring{margin:.35rem 0 .15rem;max-width:760px;padding:.55rem .65rem .7rem;border-radius:12px;background:linear-gradient(180deg,#2c1e12,#191109);border:2px solid #5d4123;box-shadow:inset 0 0 0 1px #000,inset 0 2px 0 rgba(255,220,150,.08),0 8px 20px -10px #000}
+.bring .bh{display:flex;align-items:center;gap:.5rem;margin:0 0 .5rem .1rem;font:700 .95rem/1 var(--f-display);letter-spacing:.04em;color:var(--gold)}
+.bring .bh img{width:24px;height:24px;border-radius:5px;box-shadow:0 0 0 1px #000,0 0 0 2px #6b5a2c}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:.45rem}
+.islot{--qc:#8a8a8a;display:grid;grid-template-columns:44px minmax(0,1fr) auto;align-items:center;gap:.65rem;padding:.35rem .7rem .35rem .35rem;border-radius:9px;background:rgba(0,0,0,.38);border:1px solid rgba(255,255,255,.06);color:inherit;text-decoration:none;transition:transform .15s,background .2s}
+.islot.q2{--qc:#1eff00}.islot.q3{--qc:#0070dd}.islot.q4{--qc:#a335ee}
+a.islot:hover{transform:translateY(-2px);background:rgba(255,255,255,.05);color:inherit}
+.islot .ib{position:relative;width:44px;height:44px;border-radius:7px;overflow:hidden;background:#000;box-shadow:0 0 0 1px #000,0 0 0 2px var(--qc),0 0 12px -3px var(--qc)}
+.islot .ib img{width:100%;height:100%;display:block}
+.islot .ib::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);transform:translateX(-120%);transition:transform .6s}
+a.islot:hover .ib::after{transform:translateX(120%)}
+.islot .in{display:flex;flex-direction:column;gap:.1rem;min-width:0}
+.islot .in b{font:700 .96rem/1.2 var(--f-sans);color:var(--item)}
+.islot.q2 .in b{color:#1eff00}.islot.q3 .in b{color:#4aa3ff}.islot.q4 .in b{color:#c36bff}
+.islot .in small{font-size:.78rem;line-height:1.25;color:var(--muted)}
+.islot .ix{font:800 1.2rem/1 var(--f-display);color:var(--gold2);text-shadow:0 2px 0 #000,0 0 10px rgba(242,197,107,.35)}
+/* who you're looking for: a card with a scrap of the zone map, their ! or ? pinned on it */
+.whos{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,310px),1fr));gap:.55rem;margin-top:.35rem}
+.who{display:flex;gap:.75rem;align-items:flex-start;min-width:0;padding:.55rem .65rem .6rem .55rem;border-radius:11px;background:var(--bg3);border:1px solid color-mix(in srgb,var(--npc) 22%,var(--rule))}
+.who.k-h{border-color:color-mix(in srgb,var(--foe) 30%,var(--rule));background:linear-gradient(90deg,rgba(255,111,94,.07),transparent 70%),var(--bg3)}
+.wb{display:flex;flex-direction:column;gap:.18rem;min-width:0}
+.wh{display:flex;align-items:center;gap:.4rem;font-size:1rem;font-weight:800;line-height:1.25}
+.wi{display:inline-grid;flex:none}.wi svg{width:19px;height:19px;filter:drop-shadow(0 1px 1px #000)}
+.ww{font-size:.82rem;color:#c9b892}
+.wt{font-size:.94rem;color:#d3d7e4}
+.wmap{position:relative;flex:none;width:118px;height:77px;padding:0;border-radius:8px;border:2px solid #8a6a2c;background-color:#3a2a16;background-repeat:no-repeat;box-shadow:0 0 0 1px #000,inset 0 0 14px rgba(0,0,0,.45);overflow:hidden;cursor:zoom-in;transition:transform .15s,border-color .2s}
+.wmap:hover{transform:scale(1.04);border-color:var(--gold)}
+.wmap .wz{position:absolute;left:0;right:0;bottom:0;padding:.55rem .35rem .18rem;font:800 .55rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;text-align:left;color:#f6e7bf;background:linear-gradient(transparent,rgba(0,0,0,.8))}
+/* WoW's quest marker on a map: a gold ! or ?, bobbing; a gold dot when there's no quest */
+.pin{position:absolute;z-index:1;font:900 22px/1 Georgia,"Times New Roman",serif;font-style:normal;color:#ffd200;-webkit-text-stroke:1.7px #2b1b00;paint-order:stroke fill;text-shadow:0 0 8px rgba(255,200,0,.95),0 2px 2px #000;transform:translate(-50%,-70%);animation:pinbob 1.5s ease-in-out infinite;pointer-events:none}
+.pin.dot{width:12px;height:12px;border-radius:50%;background:#ffd200;border:2px solid #2b1b00;box-shadow:0 0 10px 3px rgba(255,200,0,.75);transform:translate(-50%,-50%);animation:pinpulse 1.5s ease-in-out infinite}
+@keyframes pinbob{50%{transform:translate(-50%,-92%)}}
+@keyframes pinpulse{50%{box-shadow:0 0 16px 6px rgba(255,200,0,.9)}}
+/* a map button in a line of text */
+.loc{display:inline-flex;align-items:center;gap:.3rem;margin:0 .1rem;padding:.06rem .5rem .06rem .18rem;border-radius:99px;border:1px solid #7a6330;background:linear-gradient(180deg,#2d2312,#1c160b);color:#f2dda6;font:700 .76rem/1.45 var(--f-sans);cursor:zoom-in;vertical-align:.06em;transition:border-color .2s,color .2s}
+.loc img{width:16px;height:16px;border-radius:3px}
+.loc:hover{border-color:var(--gold);color:#fff}
+/* two ways to do something: side by side, with an "or" between */
+.ways{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:.5rem;align-items:stretch;margin-top:.35rem}
+.way{padding:.6rem .75rem .7rem;border-radius:11px;background:var(--bg3);border:1px solid var(--rule)}
+.way p{font-size:.94rem;color:#d3d7e4}
+.way .wyh{display:flex;align-items:center;gap:.45rem;margin-bottom:.35rem;font:800 .74rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.way .wyh img{width:24px;height:24px;border-radius:5px;box-shadow:0 0 0 1px #000,0 0 0 2px #4b4f63}
+.or{align-self:center;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#3a2a16,#1b130a);border:2px solid #8a6a2c;font:800 .78rem/1 var(--f-display);color:var(--gold2);text-transform:uppercase;box-shadow:0 2px 6px #000}
+.opt{padding:.45rem .7rem;border-radius:9px;border:1px dashed var(--rule);color:var(--muted);font-size:.92rem;max-width:72ch}
+.optag{display:inline-block;margin-right:.5rem;padding:.05rem .4rem;border-radius:4px;background:var(--bg4);color:var(--muted);font:800 .6rem/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;vertical-align:.1em}
+/* everything else: a gold minimap blip instead of a bullet */
+.sx ul.tips li::before{left:.05rem;top:.5em;width:9px;height:9px;border-radius:50%;transform:none;background:radial-gradient(circle at 35% 35%,#fff6b0,#ffd200 55%,#a77d00);box-shadow:0 0 0 1.5px #2b1b00,0 0 7px rgba(255,210,0,.55)}
+/* the zone map, full size */
+.kbmap{position:fixed;inset:0;z-index:120;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) var(--gr) max(16px,env(safe-area-inset-bottom,0px)) var(--gl);background:rgba(5,6,10,.8);backdrop-filter:blur(4px);animation:roomin .25s ease-out}
+.kbmap .mbox{width:min(780px,100%);max-height:100%;overflow:auto;padding:.6rem;border-radius:12px;background:#1a120b;border:2px solid #8a6a2c;box-shadow:0 24px 60px #000}
+.kbmap .mimg{position:relative}
+.kbmap .mimg img{display:block;width:100%;height:auto;border-radius:6px}
+.kbmap .mimg .pin{font-size:36px}
+.kbmap .mimg .pin.dot{width:16px;height:16px}
+.kbmap .mtag{position:absolute;transform:translate(-50%,14px);padding:.18rem .45rem;border-radius:4px;background:rgba(0,0,0,.8);color:var(--npc);font:700 .8rem/1.2 var(--f-sans);white-space:nowrap;pointer-events:none}
+.kbmap .mtag.r{transform:translate(-100%,14px)}.kbmap .mtag.l{transform:translate(0,14px)}
+.kbmap .mcap{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem;padding:.65rem .35rem .2rem;font-size:.98rem}
+.kbmap .mxy{font:600 .78rem/1 var(--f-mono);color:var(--muted)}
+.kbmap .mx{margin-left:auto;padding:.5rem .95rem;font-size:.88rem}
+@media (max-width:620px){
+  .ways{grid-template-columns:minmax(0,1fr)}.or{justify-self:center}
+  .who{gap:.6rem}.wmap{width:96px;height:63px}
+  .islot{grid-template-columns:40px minmax(0,1fr) auto}.islot .ib{width:40px;height:40px}
+}
+@media (prefers-reduced-motion:reduce){.pin,.pin.dot{animation:none}}

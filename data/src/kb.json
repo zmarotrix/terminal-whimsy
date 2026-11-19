@@ -1,5 +1,9 @@
 {
   "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text mark it on the site and are stripped from the Discord copy: {a} a quest you pick up (gold !), {t} a quest you hand in (gold ?), {q} a quest mentioned, {n} friendly NPC, {h} hostile (skull), {i} item. unsure: things nobody has confirmed on Forever; at lists the steps they belong to as part.step (parts count from 0). 'at' is when the book went on the shelf (it gets a ! until you've seen it).",
+  "noMap": {"_why": "They stand inside Blackrock Mountain; the zone maps would only show its edge, under another zone's name.", "npcs": ["Lothos Riftwaker", "Franclorn Forgewright"]},
+  "places": {
+    "Velarok Windblade": {"zone": 51, "x": 39.06, "y": 38.99, "_note": "Not in NorgannonDB. This is the spot NorgannonDB gives Kalaran Windblade, who starts Divine Retribution there; the guide's coordinates match it."}
+  },
   "guides": [
     {
       "id": "brd",

@@ -1,6 +1,7 @@
 """Build data.js (everything the page shows except The Wire) and icons.js (every icon it uses, inlined).
 
-Inputs: data/src/changes.json, gear.json, official.json (research), kb.json + kb/*.md (the Library's guides)
+Inputs: data/src/changes.json, gear.json, official.json (research), kb.json + kb/*.md (the Library's guides,
+        with kb_items.json from tools/kb_items.py and kb_places.json from tools/kb_places.py)
         + tools/curated.py (hand-written parts).
   python tools/build_data.py
 """
@@ -146,12 +147,17 @@ for g in load("kb.json")["guides"]:
     txt = open(os.path.join(ROOT, "data", "src", g.pop("file")), encoding="utf-8").read().replace("\r\n", "\n")
     g["posts"] = [p.strip("\n") for p in txt.split("<<<POST>>>") if p.strip()]
     for p in g["posts"]:                    # Discord's limit is per message; tags don't count, they're stripped
-        n = len(re.sub(r"\{[qnhiat]\}", "", p))
+        n = len(re.sub(r"\{[qnhiat]\}", "", re.sub(r"\{i:([^}]+)\}", r"", p)))
         if n > 2000:
             sys.exit("kb %s: a post is %d characters, over Discord's 2,000" % (g["id"], n))
     use(g["icon"])
     KB.append(g)
+KBI = load("kb_items.json")["items"] if os.path.exists(os.path.join(ROOT, "data", "src", "kb_items.json")) else {}
+KBP = load("kb_places.json")["places"] if os.path.exists(os.path.join(ROOT, "data", "src", "kb_places.json")) else {}
+for it in KBI.values():
+    use(it["icon"])
 for i in ["inv_misc_book_07", "inv_misc_horn_01", "inv_misc_book_11", "inv_crown_01", "spell_fire_fire", "spell_nature_sleep",
+          "ability_rogue_sprint", "inv_misc_map_01",
           "inv_misc_rune_01", "inv_misc_bag_08", "spell_arcane_portaldalaran", "spell_holy_resurrection"]:   # + step marks
     use(i)
 
@@ -164,7 +170,7 @@ for m in C.MUST:
 doc = {
     "HERO_CMD": C.HERO_CMD, "LEDE": C.LEDE, "COUNTDOWNS": C.COUNTDOWNS, "CLASSES": C.CLASSES, "AREAS": C.AREAS,
     "TOPICS": C.TOPICS, "ACH": C.ACH, "MUST": MUST, "ROAD": C.ROAD, "ROAD_TLDR": C.ROAD_TLDR,
-    "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "KB": KB, "TIPS": {},
+    "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "KB": KB, "KBI": KBI, "KBP": KBP, "TIPS": {},
 }
 with open(os.path.join(ROOT, "data.js"), "w", encoding="utf-8", newline="\n") as f:
     f.write("/* Built by tools/build_data.py from data/src/*.json + tools/curated.py. Don't edit by hand. */\n")

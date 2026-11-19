@@ -19,7 +19,17 @@ const shelfEl = $("#kbShelf"), bookEl = $("#kbBook");
 const WH = "https://www.wowhead.com/forever/search?q=";
 const day = d => new Date(d + "T12:00:00").toLocaleDateString(undefined, { day: "numeric", month: "short" });
 const KIND = { q: "kq", a: "kq", t: "kq", n: "kn", h: "kh", i: "ki" };
-const strip = s => s.replace(/\{[qnhiat]\}/g, "");
+// {i:Name} tags an item written as plain text; the Discord copy keeps just the name
+const strip = s => s.replace(/\{i:([^}]+)\}/g, "$1").replace(/\{[qnhiat]\}/g, "");
+const KBI = D.KBI || {}, KBP = D.KBP || {};          // items (icon, quality, id) and where NPCs stand (zone, x, y)
+const WHI = "https://www.wowhead.com/forever/item=";
+const itemIcon = it => it ? `<img class="ii" src="${ICON(it.icon)}" alt="" loading="lazy">` : "";
+const pinOf = raw => /\{a\}/.test(raw || "") ? "!" : /\{t\}/.test(raw || "") ? "?" : "";
+// a map button for an NPC we can place: opens their zone map with a pin on them
+const locBtn = (npc, pin = "") => {
+  const P = KBP[npc];
+  return P ? `<button class="loc" type="button" data-npc="${esc(npc)}" data-pin="${esc(pin)}" data-tip="Show ${esc(npc)} on the ${esc(P.zoneName)} map"><img src="${ICON("inv_misc_map_01")}" alt="">${esc(P.zoneName)}</button>` : "";
+};
 // WoW's marks: the gold ! and ? over a quest giver's head, a raid-target skull, and a few icons
 const SKULL = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.3C4.3 1.3 1.8 3.9 1.8 7.1c0 1.9.9 3.4 2.3 4.2v1.8c0 .8.6 1.5 1.4 1.5h5c.8 0 1.4-.7 1.4-1.5v-1.8c1.4-.8 2.3-2.3 2.3-4.2 0-3.2-2.5-5.8-6.2-5.8z" fill="#f2f2f2" stroke="#000" stroke-width=".9"/><circle cx="5.6" cy="7.5" r="1.7" fill="#111"/><circle cx="10.4" cy="7.5" r="1.7" fill="#111"/><path d="M7.3 9.8h1.4L8 11.1z" fill="#111"/><path d="M6.4 12.3v2.2M8 12.3v2.2M9.6 12.3v2.2" stroke="#111" stroke-width=".8"/></svg>`;
 const MARK = {
@@ -44,28 +54,37 @@ function marks(s) {
 
 /* =================== reading Discord markdown =================== */
 // plain text: escape it, then dress up map coordinates, stack counts and arrows
-const plain = s => esc(s)
-  .replace(/\((\d{1,2}(?:\.\d+)?), (\d{1,2}(?:\.\d+)?)\)/g, '<span class="coord" data-tip="Map coordinates">$1, $2</span>')
+// coordinates right after an NPC we can place become a map button for them
+const plain = (s, npc, pin) => esc(s)
+  .replace(/\s?\((\d{1,2}(?:\.\d+)?), (\d{1,2}(?:\.\d+)?)\)/g, (all, x, y) => npc && KBP[npc] ? " " + locBtn(npc, pin) : ` <span class="coord" data-tip="Map coordinates">${x}, ${y}</span>`)
   .replace(/\b(\d+)x (?=[A-Z])/g, '<span class="qty">$1×</span> ')
   .replace(/→/g, '<span class="arw">→</span>');
+function itemHTML(txt) {
+  const it = KBI[txt];
+  return it ? `<a class="ki q${it.q}" href="${WHI}${it.id}" target="_blank" rel="noopener" data-tip="Item. Opens Wowhead.">${itemIcon(it)}[${esc(txt)}]</a>` : `<span class="ki">[${esc(txt)}]</span>`;
+}
 function tag(txt, bold, k) {
   if (k === "q" || k === "a" || k === "t") {   // quests read like an NPC's quest list: ! to pick up, ? to hand in
     const name = txt.replace(/:$/, ""), g = k === "a" ? `<i class="g">!</i>` : k === "t" ? `<i class="g">?</i>` : "";
     const what = k === "a" ? "Quest to pick up" : k === "t" ? "Quest to hand in" : "Quest";
     return `<a class="kq" href="${WH}${encodeURIComponent(name)}" target="_blank" rel="noopener" data-tip="${what}. Opens a Wowhead search.">${g}[${esc(name)}]</a>${txt.endsWith(":") ? ":" : ""}`;
   }
-  if (k === "i") return `<span class="ki">[${esc(txt)}]</span>`;
+  if (k === "i") return itemHTML(txt);
   if (k === "h") return `<b class="kh"><i class="sk">${SKULL}</i>${esc(txt)}</b>`;
   if (k) return `<b class="${KIND[k]}">${esc(txt)}</b>`;
   return bold ? `<b>${esc(txt)}</b>` : `<i>${esc(txt)}</i>`;
 }
-function inline(raw) {
+// npc: who the line is about so far, so "(84.6, 68.8)" after them becomes their map
+function inline(raw, npc = null) {
+  raw = String(raw || "");
+  const pin = pinOf(raw);
   let out = "", at = 0;
-  for (const m of String(raw || "").matchAll(/(\*\*|\*)(.+?)\1(?:\{([qnhiat])\})?/g)) {
-    out += plain(raw.slice(at, m.index)) + tag(m[2], m[1] === "**", m[3]);
+  for (const m of raw.matchAll(/(\*\*|\*)(.+?)\1(?:\{([qnhiat])\})?|\{i:([^}]+)\}/g)) {
+    out += plain(raw.slice(at, m.index), npc, pin) + (m[4] ? itemHTML(m[4]) : tag(m[2], m[1] === "**", m[3]));
+    if (m[3] === "n") npc = m[2].replace(/:$/, "");
     at = m.index + m[0].length;
   }
-  return out + plain(raw.slice(at));
+  return out + plain(raw.slice(at), npc, pin);
 }
 // one post -> heading + blocks. A numbered bold line is a step (its bullets are details); a bullet outside a
 // numbered step is a step of its own; a line that's all bold is a group heading.
@@ -83,7 +102,7 @@ function parse(raw, pi) {
     if (m) { step = null; P.blocks.push({ t: "grp", h: esc(m[1]) }); continue; }
     if (ln.startsWith("⚠️")) { const w = { t: "warn", raw: ln.replace(/^⚠️\s*/, "") }; if (step) { step.body.push(w); step.warn = w.raw; step.raw += "\n" + ln; } else P.blocks.push(w); continue; }
     if (ln.startsWith("- ")) {
-      if (step) { step.body.push({ t: "li", h: inline(ln.slice(2)) }); step.raw += "\n" + ln; }
+      if (step) { step.body.push({ t: "li", raw: ln.slice(2) }); step.raw += "\n" + ln; }
       else P.blocks.push({ t: "step", id: pi + ".b" + (++nb), bullet: true, h: inline(ln.slice(2)), body: [], raw: ln, label: strip(ln.slice(2)).replace(/\*/g, "").slice(0, 70) });
       continue;
     }
@@ -192,30 +211,94 @@ function shelf() {
 
 /* =================== an open book =================== */
 const COPY_ICON = `<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5" y="5" width="9" height="9" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 11V3a1 1 0 0 1 1-1h7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
-function body(items) {
-  let h = "", ul = false;
-  for (const b of items) {
-    if (b.t === "li") { if (!ul) { h += "<ul>"; ul = true; } h += `<li>${b.h}</li>`; continue; }
-    if (ul) { h += "</ul>"; ul = false; }
-    if (b.t === "p") h += `<p>${b.h}</p>`;
-    else if (b.t === "warn") { const m = b.raw.match(/^\*\*(.+?)\*\*\s*(.*)$/); h += `<div class="rw" role="note">${m ? `<b>${esc(m[1])}</b><span>${inline(m[2])}</span>` : `<span>${inline(b.raw)}</span>`}</div>`; }
-  }
-  return h + (ul ? "</ul>" : "");
+/* ---- a step's details: what kind of line it is decides how it looks ---- */
+const BUBBLE = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2C4.1 2 1.2 4.3 1.2 7.1c0 1.6 1 3 2.5 3.9l-.6 2.6 3-1.7c.6.1 1.2.2 1.9.2 3.9 0 6.8-2.3 6.8-5S11.9 2 8 2z" fill="#f4f1e6" stroke="#2a2010" stroke-width=".9"/><circle cx="5.2" cy="7.1" r=".9" fill="#2a2010"/><circle cx="8" cy="7.1" r=".9" fill="#2a2010"/><circle cx="10.8" cy="7.1" r=".9" fill="#2a2010"/></svg>`;
+const WAYS = /^\*\*((?:Fast|Long|Short|Slow|Quick|Easy|Hard) way):\*\*\s*(.*)$/i;
+const WAY_ICON = { fast: "ability_rogue_sprint", quick: "ability_rogue_sprint", short: "ability_rogue_sprint", long: "inv_misc_map_01", slow: "inv_misc_map_01" };
+function liKind(raw) {
+  if (/^\*\*Requires:\*\*/.test(raw)) return "bring";
+  if (WAYS.test(raw)) return "way";
+  if (/^\*Optional:\*/.test(raw)) return "opt";
+  if (/^\*\*[^*]+\*\*\{[nh]\}/.test(raw)) return "who";
+  return "tip";
 }
+// "**Ragnar Thunderbrew**{n} (46.8, 52.5), Thunderbrew Distillery: **Hurley Blackbreath**{a}"
+//   -> who: Ragnar, kind n, where "Thunderbrew Distillery", then what you do there
+function whoParts(raw) {
+  const m = raw.match(/^\*\*([^*]+?)\*\*\{([nh])\}(.*)$/);
+  let name = m[1], where = "", rest = m[3];
+  if (name.endsWith(":")) name = name.slice(0, -1);
+  else {
+    const r = rest.match(/^\s*(?:\(([^)]*)\))?(?:,\s*([^:]+?))?:\s*(.*)$/);
+    if (r) {
+      if (r[1] && !/^\d{1,2}(\.\d+)?, \d{1,2}(\.\d+)?$/.test(r[1])) where = r[1];
+      if (r[2]) where = where ? where + ", " + r[2] : r[2];
+      rest = r[3];
+    }
+  }
+  return { name, k: m[2], where, rest: rest.trim() };
+}
+// a little zoomed-in piece of the zone map, centred on the NPC, with WoW's ! or ? on them
+function mapThumb(npc, pin) {
+  const P = KBP[npc]; if (!P) return "";
+  const Z = 2.6, fx = P.x / 100, fy = P.y / 100, ox = Math.min(Math.max(fx - .5 / Z, 0), 1 - 1 / Z), oy = Math.min(Math.max(fy - .5 / Z, 0), 1 - 1 / Z);
+  return `<button class="wmap" type="button" data-npc="${esc(npc)}" data-pin="${esc(pin)}" aria-label="Show ${esc(npc)} on the ${esc(P.zoneName)} map" style="background-image:url(img/maps/${P.zone}.jpg);background-size:${Z * 100}% ${Z * 100}%;background-position:${(ox / (1 - 1 / Z) * 100).toFixed(1)}% ${(oy / (1 - 1 / Z) * 100).toFixed(1)}%">`
+    + `<i class="pin${pin ? "" : " dot"}" style="left:${((fx - ox) * Z * 100).toFixed(1)}%;top:${((fy - oy) * Z * 100).toFixed(1)}%">${pin}</i><span class="wz">${esc(P.zoneName)}</span></button>`;
+}
+function whoHTML(raw) {
+  const w = whoParts(raw), pin = pinOf(raw), thumb = w.k === "n" ? mapThumb(w.name, pin) : "";
+  return `<div class="who k-${w.k}${thumb ? " has-map" : ""}">${thumb}<div class="wb">
+    <p class="wh"><span class="wi">${w.k === "h" ? SKULL : BUBBLE}</span><b class="${KIND[w.k]}">${esc(w.name)}</b></p>
+    ${w.where ? `<p class="ww">${inline(w.where)}</p>` : ""}<p class="wt">${inline(cap1(w.rest), w.name)}</p></div></div>`;
+}
+function bringHTML(raw) {
+  const list = raw.replace(/^\*\*Requires:\*\*\s*/, "").split(", ").map(p => p.trim().match(/^(\d+)x (.+?)(?: \((.*)\))?$/)).filter(Boolean);
+  return `<div class="bring"><p class="bh"><img src="${ICON("inv_misc_bag_08")}" alt="">Bring these</p><div class="bgrid">${list.map(([, n, name, note]) => {
+    const it = KBI[name], tagName = it ? "a" : "span";
+    return `<${tagName} class="islot q${it ? it.q : 1}"${it ? ` href="${WHI}${it.id}" target="_blank" rel="noopener"` : ""}><span class="ib">${it ? `<img src="${ICON(it.icon)}" alt="" loading="lazy">` : ""}</span><span class="in"><b>${esc(name)}</b>${note ? `<small>${esc(note)}</small>` : ""}</span><span class="ix">×${n}</span></${tagName}>`;
+  }).join("")}</div></div>`;
+}
+function wayHTML(raw) {
+  const m = raw.match(WAYS), kind = m[1].split(" ")[0].toLowerCase();
+  return `<div class="way"><p class="wyh"><img src="${ICON(WAY_ICON[kind] || "inv_misc_map_01")}" alt="">${esc(m[1])}</p><p>${inline(cap1(m[2]))}</p></div>`;
+}
+function details(items) {
+  let h = "", i = 0;
+  while (i < items.length) {
+    const b = items[i];
+    if (b.t === "p") { h += `<p class="sd">${b.h}</p>`; i++; continue; }
+    if (b.t === "warn") { const m = b.raw.match(/^\*\*(.+?)\*\*\s*(.*)$/); h += `<div class="rw" role="note">${m ? `<b>${esc(m[1])}</b><span>${inline(m[2])}</span>` : `<span>${inline(b.raw)}</span>`}</div>`; i++; continue; }
+    const k = liKind(b.raw), run = [];
+    while (i < items.length && items[i].t === "li" && liKind(items[i].raw) === k) run.push(items[i++].raw);
+    if (k === "bring") h += run.map(bringHTML).join("");
+    else if (k === "way") h += `<div class="ways">${run.map(wayHTML).join(`<span class="or" aria-hidden="true">or</span>`)}</div>`;
+    else if (k === "who") h += `<div class="whos">${run.map(whoHTML).join("")}</div>`;
+    else if (k === "opt") h += run.map(r => `<p class="opt"><span class="optag">Optional</span>${inline(r.replace(/^\*Optional:\*\s*/, ""))}</p>`).join("");
+    else h += `<ul class="tips">${run.map(r => `<li>${inline(r)}</li>`).join("")}</ul>`;
+  }
+  return h;
+}
+const body = details;
 // a numbered step reads as a title line (marks, title, where), then what to do underneath:
 // "**3. Marshal Windsor** (his cell): turn in…" -> Marshal Windsor · his cell / Turn in…
 const cap1 = s => s.replace(/^(\**)([a-z])/, (_, a, b) => a + b.toUpperCase());
 function headHTML(s) {
-  const mk = marks(s);
-  if (s.bullet) return `<p class="sh">${mk ? `<span class="marks">${mk}</span>` : ""}${s.h}</p>`;
+  const mk = marks(s), mks = mk ? `<span class="marks">${mk}</span>` : "";
+  if (s.bullet) {
+    // "**Lothos Riftwaker:**{n} *Attunement to the Core*{t}" -> Lothos (with a map button) / Hand in…
+    const r = s.raw.replace(/^- /, ""), m = r.match(/^\*\*([^*]+?):\*\*(?:\{([nh])\})?\s*(.*)$/);
+    if (!m) return `<p class="sh">${mks}${s.h}</p>`;
+    return `<p class="sh">${mks}<b class="stt ${m[2] ? KIND[m[2]] : ""}">${esc(m[1])}</b>${m[2] === "n" ? locBtn(m[1], pinOf(r)) : ""}</p><p class="sd">${inline(cap1(m[3]), m[2] === "n" ? m[1] : null)}</p>`;
+  }
   const title = strip(s.title), rest = s.rest || "";
   let where = "", desc = "", tail = "", m;
   if ((m = rest.match(/^\s*—\s*(.+)$/))) where = m[1];
   else if ((m = rest.match(/^\s*\(([^)]*)\)\s*(?::\s*(.*))?$/))) { where = m[1]; desc = m[2] || ""; }
   else if (/[:.]$/.test(title) || !rest.trim()) desc = rest.trim();
   else tail = rest;                                             // "**5. Keep** any…": one line, as written
-  const tt = `<b class="stt ${s.k ? KIND[s.k] : ""}">${plain(tail ? title : title.replace(/[:.]$/, ""))}</b>${tail ? inline(tail) : ""}`;
-  return `<p class="sh">${mk ? `<span class="marks">${mk}</span>` : ""}${tt}${where ? `<span class="where">${inline(where)}</span>` : ""}</p>${desc ? `<p class="sd">${inline(cap1(desc))}</p>` : ""}`;
+  const npc = s.k === "n" ? title.replace(/[:.]$/, "") : null, it = s.k === "i" ? KBI[title.replace(/[:.]$/, "")] : null;
+  const tt = `${itemIcon(it)}<b class="stt ${s.k ? KIND[s.k] : ""}">${plain(tail ? title : title.replace(/[:.]$/, ""))}</b>${tail ? inline(tail) : ""}`;
+  return `<p class="sh">${mks}${tt}${where ? `<span class="where">${inline(where, npc)}</span>` : ""}</p>${desc ? `<p class="sd">${inline(cap1(desc), npc)}</p>` : ""}`;
 }
 function stepHTML(s, done, notes) {
   const un = notes.filter(u => u.at.includes(s.id)).map(u => `<p class="unsure"><b>Not confirmed on Forever</b>${esc(u.text)}</p>`).join("");
@@ -250,7 +333,7 @@ function book(g) {
     <span role="listitem"><b class="kn">Green</b> friendly NPC</span>
     <span role="listitem"><b class="kh">Red</b> enemy</span>
     <span role="listitem"><span class="ki">[Item]</span> loot or use</span>
-    <span role="listitem"><span class="coord">38.5, 55.5</span> on the map</span>
+    <span role="listitem"><span class="loc" aria-hidden="true"><img src="${ICON("inv_misc_map_01")}" alt="">Zone</span> opens their map</span>
   </div>
   ${(g.unsure || []).length ? `<details class="kbnotes"><summary><span class="stamp">Unchecked</span>${g.unsure.length} things nobody has confirmed on Forever yet<small>The ones about a step are on that step too. Seen one in game? Tell an officer.</small></summary><ul>${g.unsure.map(u => `<li>${esc(u.text || u)}</li>`).join("")}</ul></details>` : ""}
 </div>
@@ -352,7 +435,27 @@ function reset(btn) {
   $$(".step.done", bookEl).forEach(s => { s.classList.remove("done"); $(".tick", s).setAttribute("aria-checked", "false"); });
   refresh(cur); say(pick(L.reset), 0, 3000);
 }
+/* ---- the zone map, opened from a map button or a thumbnail: the whole zone, with the NPC's ! or ? on it ---- */
+const mapBox = document.createElement("div");
+mapBox.className = "kbmap"; mapBox.hidden = true; mapBox.setAttribute("role", "dialog"); mapBox.setAttribute("aria-modal", "true");
+document.body.append(mapBox);
+let mapFrom = null;
+function openMap(npc, pin, from) {
+  const P = KBP[npc]; if (!P) return;
+  mapFrom = from;
+  mapBox.setAttribute("aria-label", `${npc} on the ${P.zoneName} map`);
+  mapBox.innerHTML = `<div class="mbox"><div class="mimg"><img src="img/maps/${P.zone}.jpg" alt="Map of ${esc(P.zoneName)}"><i class="pin${pin ? "" : " dot"}" style="left:${P.x}%;top:${P.y}%">${esc(pin)}</i><span class="mtag${P.x > 75 ? " r" : P.x < 25 ? " l" : ""}" style="left:${P.x}%;top:${P.y}%">${esc(npc)}</span></div>
+    <p class="mcap"><span><b class="kn">${esc(npc)}</b> · ${esc(P.zoneName)}</span><span class="mxy">${P.x.toFixed(1)}, ${P.y.toFixed(1)}</span><button class="btn mx" type="button">Close</button></p></div>`;
+  mapBox.hidden = false; $(".mx", mapBox).focus();
+}
+function closeMap() { if (mapBox.hidden) return; mapBox.hidden = true; mapBox.innerHTML = ""; if (mapFrom) mapFrom.focus(); }
+mapBox.addEventListener("click", e => { if (e.target === mapBox || e.target.closest(".mx")) closeMap(); });
+addEventListener("keydown", e => { if (e.key === "Escape") closeMap(); });
+addEventListener("hashchange", closeMap);
+
 bookEl.addEventListener("click", e => {
+  const lc = e.target.closest(".loc, .wmap");
+  if (lc) { openMap(lc.dataset.npc, lc.dataset.pin, lc); return; }
   const el = e.target.closest(".tick, .copy, .kbnav [data-p], .kbreset, .kblink, .kbnext");
   if (!el || !cur) return;
   if (el.classList.contains("tick")) tick(el);

@@ -34,7 +34,7 @@
 
 **4. Burning Steppes — Morgan's Vigil**
 - **Marshal Maxwell**{n} (84.6, 68.8): **Marshal Windsor**{a}
-- **Oralius**{n} (84.5, 68.5): **The Good Stuff**{a} (20 Dark Iron Fanny Packs, from any Dark Iron dwarf in BRD)
+- **Oralius**{n} (84.5, 68.5): **The Good Stuff**{a} (20 {i:Dark Iron Fanny Packs}, from any Dark Iron dwarf in BRD)
 - **Jalinda Sprig**{n} (85.4, 70.0): **Overmaster Pyron**{a} (kill him on your way into Run 1, not now)
 <<<POST>>>
 ## Phase 2: Quest Pickup Tour (part 2)
@@ -65,7 +65,7 @@ He wants a **Black Dragonflight Molt**{i} before he gives **A Taste of Flame**{a
 
 **2. Attunement to the Core**{a}
 - Resurrect and find **Lothos Riftwaker**{n} on the path down to the BRD portal. Pick up **Attunement to the Core**{a}.
-- Molten Core isn't open yet, but you can grab the Core Fragment now so you're attuned when it is.
+- Molten Core isn't open yet, but you can grab the {i:Core Fragment} now so you're attuned when it is.
 
 **3. Overmaster Pyron**{q}
 - Kill **Pyron**{h} (level 52 elite fire elemental) in the Blackrock Quarry, right outside the BRD portal. Credit is shared, so do it as a group.
@@ -96,7 +96,7 @@ Head back to BRD. If the instance reset while you were gone, you'll re-clear the
 
 **1. Detention Block:** farm Dark Iron dwarves until **A Crumpled Up Note**{i} drops. It can't be shared in Forever, so everyone needs their own. Turn it in to Windsor and accept **A Shred of Hope**{a}.
 **2. Ring of Law:** clear it. If you have *The Challenge*{q}, plant the banner while Grimstone sentences you.
-**3. The Black Vault:** open all 12 **Relic Coffers** with Relic Coffer Keys (dwarves drop them). Kill **Watchman Doomgrip**{h} and the **Warbringer Constructs**{h}, then open the **Secret Safe** under the Dark Coffer for **The Heart of the Mountain**{i}. Everyone can loot it since the 9 Nov hotfix.
+**3. The Black Vault:** open all 12 **Relic Coffers** with {i:Relic Coffer Keys} (dwarves drop them). Kill **Watchman Doomgrip**{h} and the **Warbringer Constructs**{h}, then open the **Secret Safe** under the Dark Coffer for **The Heart of the Mountain**{i}. Everyone can loot it since the 9 Nov hotfix.
 **4. Fineous Darkvire**{h} (Hall of Crafting): loot **Ironfel**{i} and put it on **Franclorn's monument** in the Shrine of Thaurissan. That finishes **Dark Iron Legacy**{t} and gives you the **Shadowforge Key**{i}.
 **5. Bael'Gar**{h} (Dark Iron Highway): kill him, then use the **Altered Black Dragonflight Molt**{i} on his remains for the **Encased Fiery Essence**{i}.
 **6. Lord Incendius**{h} (Black Anvil): kill him for **Incendius!**{q}
@@ -113,7 +113,7 @@ Head back to BRD. If the instance reset while you were gone, you'll re-clear the
 
 **11. The Seven**{h} (Summoners' Tomb): miners do *The Spectral Chalice*{t} with Gloom'rel **first**. Killing the Seven opens the way on.
 
-**12. Core Fragment** (*Attunement to the Core*{q}): past the Seven, the big gate straight ahead leads to the Lyceum. Take the path on the **right** instead (two packs of fire elementals) to the green Molten Core portal. The fragment is the stalagmite to the left of the portal.
+**12. Core Fragment**{i} (*Attunement to the Core*{q}): past the Seven, the big gate straight ahead leads to the Lyceum. Take the path on the **right** instead (two packs of fire elementals) to the green Molten Core portal. The fragment is the stalagmite to the left of the portal.
 
 **13. The Lyceum → Magmus.**
 
@@ -134,10 +134,10 @@ Head back to BRD. If the instance reset while you were gone, you'll re-clear the
 - **Flame Crest:** Maxwort (*The Heart of the Mountain*{t}), Yuka (*Ribbly Screwspigot*{t})
 
 **Ironforge & Kharanos**
-- **King Magni:**{n} *The Princess's Surprise*{t} (Magni's Will or Songstone of Ironforge)
+- **King Magni:**{n} *The Princess's Surprise*{t} ({i:Magni's Will} or {i:Songstone of Ironforge})
 - **Ragnar Thunderbrew:**{n} *Hurley Blackbreath*{t}
 
 **Eastern Plaguelands**
 - **Anthion Harmon:**{n} *The Challenge*{t}
 
-**Onyxia next:** Stormwind Rendezvous → The Great Masquerade → The Dragon's Eye (Blood of the Black Dragon Champion from General Drakkisath in UBRS) → **Drakefire Amulet**{i}. Onyxia opens **9 December**, and the amulet only has to be in your bags.
+**Onyxia next:** Stormwind Rendezvous → The Great Masquerade → The Dragon's Eye ({i:Blood of the Black Dragon Champion} from General Drakkisath in UBRS) → **Drakefire Amulet**{i}. Onyxia opens **9 December**, and the amulet only has to be in your bags.

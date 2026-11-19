@@ -1,0 +1,95 @@
+{
+ "_about": "Where the Library guides' friendly NPCs stand: NorgannonDB spawns (or kb.json places), zone and subzone names from NorgannonDB. Written by tools/kb_places.py.",
+ "places": {
+  "Anthion Harmon": {
+   "npc": 16016,
+   "x": 26.11,
+   "y": 11.3,
+   "zone": 139,
+   "zoneName": "Eastern Plaguelands"
+  },
+  "Cyrus Therepentous": {
+   "npc": 9459,
+   "x": 95.09,
+   "y": 31.56,
+   "zone": 46,
+   "zoneName": "Burning Steppes"
+  },
+  "Helendis Riverhorn": {
+   "npc": 9562,
+   "x": 85.82,
+   "y": 68.95,
+   "zone": 46,
+   "zoneName": "Burning Steppes"
+  },
+  "Jalinda Sprig": {
+   "npc": 9561,
+   "x": 85.41,
+   "y": 70.06,
+   "zone": 46,
+   "zoneName": "Burning Steppes"
+  },
+  "King Magni": {
+   "npc": 2784,
+   "x": 39.09,
+   "y": 56.2,
+   "zone": 1537,
+   "zoneName": "Ironforge"
+  },
+  "Marshal Maxwell": {
+   "npc": 9560,
+   "x": 84.74,
+   "y": 69.02,
+   "zone": 46,
+   "zoneName": "Burning Steppes"
+  },
+  "Maxwort Uberglint": {
+   "npc": 9536,
+   "x": 65.15,
+   "y": 23.91,
+   "zone": 46,
+   "zoneName": "Burning Steppes"
+  },
+  "Oralius": {
+   "npc": 9177,
+   "x": 84.56,
+   "y": 68.68,
+   "zone": 46,
+   "zoneName": "Burning Steppes"
+  },
+  "Ragnar Thunderbrew": {
+   "npc": 1267,
+   "x": 46.83,
+   "y": 52.36,
+   "zone": 1,
+   "zoneName": "Dun Morogh"
+  },
+  "Royal Historian Archesonus": {
+   "npc": 8879,
+   "x": 38.37,
+   "y": 55.31,
+   "zone": 1537,
+   "zoneName": "Ironforge"
+  },
+  "Velarok Windblade": {
+   "x": 39.06,
+   "y": 38.99,
+   "zone": 51,
+   "zoneName": "Searing Gorge"
+  },
+  "Yorba Screwspigot": {
+   "npc": 9706,
+   "x": 67.04,
+   "y": 24.01,
+   "zone": 440,
+   "zoneName": "Tanaris"
+  },
+  "Yuka Screwspigot": {
+   "npc": 9544,
+   "x": 66.06,
+   "y": 21.95,
+   "zone": 46,
+   "zoneName": "Burning Steppes"
+  }
+ }
+}

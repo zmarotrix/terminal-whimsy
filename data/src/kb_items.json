@@ -1,0 +1,173 @@
+{
+ "_about": "Items the Library's guides mention, as Wowhead's Forever item search has them (id, icon, quality). Written by tools/kb_items.py; keyed by the name as the guide spells it.",
+ "items": {
+  "A Crumpled Up Note": {
+   "icon": "inv_misc_note_05",
+   "id": 11446,
+   "name": "A Crumpled Up Note",
+   "q": 1
+  },
+  "Altered Black Dragonflight Molt": {
+   "icon": "inv_misc_shadowegg",
+   "id": 11231,
+   "name": "Altered Black Dragonflight Molt",
+   "q": 1
+  },
+  "Banner of Provocation": {
+   "icon": "inv_brd_banner",
+   "id": 21986,
+   "name": "Banner of Provocation",
+   "q": 1
+  },
+  "Black Dragonflight Molt": {
+   "icon": "inv_misc_shadowegg",
+   "id": 10575,
+   "name": "Black Dragonflight Molt",
+   "q": 1
+  },
+  "Blood of the Black Dragon Champion": {
+   "icon": "inv_potion_27",
+   "id": 16663,
+   "name": "Blood of the Black Dragon Champion",
+   "q": 1
+  },
+  "Core Fragment": {
+   "icon": "inv_misc_gem_opal_01",
+   "id": 18412,
+   "name": "Core Fragment",
+   "q": 1
+  },
+  "Dark Iron Fanny Packs": {
+   "icon": "inv_misc_bag_09_black",
+   "id": 11468,
+   "name": "Dark Iron Fanny Pack",
+   "q": 1
+  },
+  "Drakefire Amulet": {
+   "icon": "inv_jewelry_talisman_11",
+   "id": 16309,
+   "name": "Drakefire Amulet",
+   "q": 3
+  },
+  "Encased Fiery Essence": {
+   "icon": "spell_fire_sealoffire",
+   "id": 11230,
+   "name": "Encased Fiery Essence",
+   "q": 1
+  },
+  "Giant Silver Vein": {
+   "icon": "inv_ore_truesilver_01",
+   "id": 11405,
+   "name": "Giant Silver Vein",
+   "q": 1
+  },
+  "Gold Bar": {
+   "icon": "inv_ingot_03",
+   "id": 3577,
+   "name": "Gold Bar",
+   "q": 2
+  },
+  "Gromsblood": {
+   "icon": "inv_misc_herb_16",
+   "id": 8846,
+   "name": "Gromsblood",
+   "q": 1
+  },
+  "Ironfel": {
+   "icon": "inv_hammer_23",
+   "id": 10999,
+   "name": "Ironfel",
+   "q": 1
+  },
+  "Lost Information": {
+   "icon": "inv_misc_rune_07",
+   "id": 11464,
+   "name": "Marshal Windsor's Lost Information",
+   "q": 1
+  },
+  "Lost Thunderbrew Recipe": {
+   "icon": "inv_misc_note_03",
+   "id": 11312,
+   "name": "Lost Thunderbrew Recipe",
+   "q": 1
+  },
+  "Magni's Will": {
+   "icon": "inv_jewelry_ring_05",
+   "id": 12548,
+   "name": "Magni's Will",
+   "q": 3
+  },
+  "Marshal Windsor's Lost Information": {
+   "icon": "inv_misc_rune_07",
+   "id": 11464,
+   "name": "Marshal Windsor's Lost Information",
+   "q": 1
+  },
+  "Nagmara's Filled Vial": {
+   "icon": "inv_potion_03",
+   "id": 11413,
+   "name": "Nagmara's Filled Vial",
+   "q": 1
+  },
+  "Nagmara's Vial": {
+   "icon": "inv_potion_03",
+   "id": 11412,
+   "name": "Nagmara's Vial",
+   "q": 1
+  },
+  "Prison Cell Key": {
+   "icon": "inv_misc_key_10",
+   "id": 11140,
+   "name": "Prison Cell Key",
+   "q": 1
+  },
+  "Relic Coffer Keys": {
+   "icon": "inv_misc_key_03",
+   "id": 11078,
+   "name": "Relic Coffer Key",
+   "q": 1
+  },
+  "Ribbly's Head": {
+   "icon": "inv_misc_head_orc_01",
+   "id": 11313,
+   "name": "Ribbly's Head",
+   "q": 1
+  },
+  "Shadowforge Key": {
+   "icon": "inv_misc_key_08",
+   "id": 11000,
+   "name": "Shadowforge Key",
+   "q": 1
+  },
+  "Songstone of Ironforge": {
+   "icon": "inv_jewelry_ring_05",
+   "id": 12543,
+   "name": "Songstone of Ironforge",
+   "q": 3
+  },
+  "Star Ruby": {
+   "icon": "inv_misc_gem_ruby_02",
+   "id": 7910,
+   "name": "Star Ruby",
+   "q": 2
+  },
+  "The Heart of the Mountain": {
+   "icon": "inv_misc_gem_bloodstone_02",
+   "id": 11309,
+   "name": "The Heart of the Mountain",
+   "q": 1
+  },
+  "Top Piece of Lord Valthalak's Amulet": {
+   "icon": "inv_jewelry_necklace_28",
+   "id": 22047,
+   "name": "Top Piece of Lord Valthalak's Amulet",
+   "q": 1
+  },
+  "Truesilver Bar": {
+   "icon": "inv_ingot_08",
+   "id": 6037,
+   "name": "Truesilver Bar",
+   "q": 2
+  }
+ }
+}

@@ -303,21 +303,47 @@ function whoParts(raw) {
   }
   return { name, k: m[2], where, rest: rest.trim() };
 }
-// a little zoomed-in piece of the zone map, centred on the NPC, with WoW's ! or ? on them
-function mapThumb(npc, pin) {
-  const P = KBP[npc]; if (!P) return "";
+// one spot on a zone map for one NPC, or for a few standing together (their middle)
+const andList = a => a.length < 3 ? a.join(" and ") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
+function spot(npcs) {
+  const Ps = npcs.map(n => KBP[n]).filter(Boolean); if (!Ps.length) return null;
+  const mid = k => Ps.reduce((s, P) => s + P[k], 0) / Ps.length;
+  return { zone: Ps[0].zone, zoneName: Ps[0].zoneName, x: mid("x"), y: mid("y") };
+}
+// a little zoomed-in piece of the zone map, centred on the NPC (or NPCs), with WoW's ! or ? on them
+function mapThumb(npcs, pin) {
+  npcs = [].concat(npcs);
+  const P = spot(npcs); if (!P) return "";
   const Z = 2.6, fx = P.x / 100, fy = P.y / 100, ox = Math.min(Math.max(fx - .5 / Z, 0), 1 - 1 / Z), oy = Math.min(Math.max(fy - .5 / Z, 0), 1 - 1 / Z);
-  return `<button class="wmap" type="button" data-npc="${esc(npc)}" data-pin="${esc(pin)}" aria-label="Show ${esc(npc)} on the ${esc(P.zoneName)} map" style="background-image:url(img/maps/${P.zone}.jpg);background-size:${Z * 100}% ${Z * 100}%;background-position:${(ox / (1 - 1 / Z) * 100).toFixed(1)}% ${(oy / (1 - 1 / Z) * 100).toFixed(1)}%">`
+  return `<button class="wmap" type="button" data-npc="${esc(npcs.join("|"))}" data-pin="${esc(pin)}" aria-label="Show ${esc(andList(npcs))} on the ${esc(P.zoneName)} map" style="background-image:url(img/maps/${P.zone}.jpg);background-size:${Z * 100}% ${Z * 100}%;background-position:${(ox / (1 - 1 / Z) * 100).toFixed(1)}% ${(oy / (1 - 1 / Z) * 100).toFixed(1)}%">`
     + `<i class="pin${pin ? "" : " dot"}" style="left:${((fx - ox) * Z * 100).toFixed(1)}%;top:${((fy - oy) * Z * 100).toFixed(1)}%">${pin}</i><span class="wz">${esc(P.zoneName)}</span></button>`;
 }
 // data-ch: the quest chains a line belongs to, so skipping a chain can grey it out
 let G = null;
 const chAttr = raw => { const c = G ? [...chainsOf(G, raw)] : []; return c.length ? ` data-ch="${c.join(" ")}"` : ""; };
+const whoBody = (w, attr = "") => `<div class="wb"${attr}>
+    <p class="wh"><span class="wi">${w.k === "h" ? SKULL : BUBBLE}</span><b class="${KIND[w.k]}">${esc(w.name)}</b></p>
+    ${w.where ? `<p class="ww">${inline(w.where)}</p>` : ""}<p class="wt">${inline(cap1(w.rest), w.name)}</p></div>`;
 function whoHTML(raw) {
   const w = whoParts(raw), pin = pinOf(raw), thumb = w.k === "n" ? mapThumb(w.name, pin) : "";
-  return `<div class="who k-${w.k}${thumb ? " has-map" : ""}"${chAttr(raw)}>${thumb}<div class="wb">
-    <p class="wh"><span class="wi">${w.k === "h" ? SKULL : BUBBLE}</span><b class="${KIND[w.k]}">${esc(w.name)}</b></p>
-    ${w.where ? `<p class="ww">${inline(w.where)}</p>` : ""}<p class="wt">${inline(cap1(w.rest), w.name)}</p></div></div>`;
+  return `<div class="who k-${w.k}${thumb ? " has-map" : ""}"${chAttr(raw)}>${thumb}${whoBody(w)}</div>`;
+}
+// NPCs standing together (same zone, a few map points apart) share one card and one map
+const NEAR = 5;
+function whoGroups(run) {
+  const out = [];
+  run.forEach(raw => {
+    const w = whoParts(raw), P = w.k === "n" && KBP[w.name], last = out[out.length - 1];
+    if (P && last && last.P && last.P.zone === P.zone && Math.hypot(last.P.x - P.x, last.P.y - P.y) <= NEAR) last.raws.push(raw);
+    else out.push({ P, raws: [raw] });
+  });
+  return out.map(g => g.raws.length > 1 ? whoGroupHTML(g.raws) : whoHTML(g.raws[0])).join("");
+}
+function whoGroupHTML(raws) {
+  const ws = raws.map(whoParts), chs = G ? raws.map(r => [...chainsOf(G, r)]) : [];
+  // the card greys out only when every NPC on it is about a skipped chain
+  const all = chs.length && chs.every(c => c.length) ? ` data-ch="${[...new Set(chs.flat())].join(" ")}"` : "";
+  return `<div class="who k-n has-map wgrp"${all}>${mapThumb(ws.map(w => w.name), pinOf(raws.join(" ")))}<div class="wrows">${ws.map((w, i) => whoBody(w, chAttr(raws[i]))).join("")}</div></div>`;
 }
 function bringHTML(raw) {
   const list = raw.replace(/^\*\*Requires:\*\*\s*/, "").split(", ").map(p => p.trim().match(/^(\d+)x (.+?)(?: \((.*)\))?$/)).filter(Boolean);
@@ -340,7 +366,7 @@ function details(items) {
     while (i < items.length && items[i].t === "li" && liKind(items[i].raw) === k) run.push(items[i++].raw);
     if (k === "bring") h += run.map(bringHTML).join("");
     else if (k === "way") h += `<div class="ways">${run.map(wayHTML).join(`<span class="or" aria-hidden="true">or</span>`)}</div>`;
-    else if (k === "who") h += `<div class="whos">${run.map(whoHTML).join("")}</div>`;
+    else if (k === "who") h += `<div class="whos">${whoGroups(run)}</div>`;
     else if (k === "opt") h += run.map(r => `<p class="opt"${chAttr(r)}><span class="optag">Optional</span>${inline(r.replace(/^\*Optional:\*\s*/, ""))}</p>`).join("");
     else h += `<ul class="tips">${run.map(r => `<li${chAttr(r)}>${inline(r)}</li>`).join("")}</ul>`;
   }
@@ -567,12 +593,13 @@ const mapBox = document.createElement("div");
 mapBox.className = "kbmap"; mapBox.hidden = true; mapBox.setAttribute("role", "dialog"); mapBox.setAttribute("aria-modal", "true");
 document.body.append(mapBox);
 let mapFrom = null;
+// several NPCs standing together (data-npc="A|B|C") share one pin, with their names stacked on its tag
 function openMap(npc, pin, from) {
-  const P = KBP[npc]; if (!P) return;
+  const npcs = npc.split("|").filter(n => KBP[n]), P = spot(npcs); if (!P) return;
   mapFrom = from;
-  mapBox.setAttribute("aria-label", `${npc} on the ${P.zoneName} map`);
-  mapBox.innerHTML = `<div class="mbox"><div class="mimg"><img src="img/maps/${P.zone}.jpg" alt="Map of ${esc(P.zoneName)}"><i class="pin${pin ? "" : " dot"}" style="left:${P.x}%;top:${P.y}%">${esc(pin)}</i><span class="mtag${P.x > 75 ? " r" : P.x < 25 ? " l" : ""}" style="left:${P.x}%;top:${P.y}%">${esc(npc)}</span></div>
-    <p class="mcap"><span><b class="kn">${esc(npc)}</b> · ${esc(P.zoneName)}</span><span class="mxy">${P.x.toFixed(1)}, ${P.y.toFixed(1)}</span><button class="btn mx" type="button">Close</button></p></div>`;
+  mapBox.setAttribute("aria-label", `${andList(npcs)} on the ${P.zoneName} map`);
+  mapBox.innerHTML = `<div class="mbox"><div class="mimg"><img src="img/maps/${P.zone}.jpg" alt="Map of ${esc(P.zoneName)}"><i class="pin${pin ? "" : " dot"}" style="left:${P.x}%;top:${P.y}%">${esc(pin)}</i><span class="mtag${P.x > 75 ? " r" : P.x < 25 ? " l" : ""}" style="left:${P.x}%;top:${P.y}%">${npcs.map(esc).join("<br>")}</span></div>
+    <p class="mcap"><span>${andList(npcs.map(n => `<b class="kn">${esc(n)}</b>`))} · ${esc(P.zoneName)}</span><span class="mxy">${P.x.toFixed(1)}, ${P.y.toFixed(1)}</span><button class="btn mx" type="button">Close</button></p></div>`;
   mapBox.hidden = false; $(".mx", mapBox).focus();
 }
 function closeMap() { if (mapBox.hidden) return; mapBox.hidden = true; mapBox.innerHTML = ""; if (mapFrom) mapFrom.focus(); }

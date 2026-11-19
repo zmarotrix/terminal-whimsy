@@ -1053,6 +1053,12 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .wi{display:inline-grid;flex:none}.wi svg{width:19px;height:19px;filter:drop-shadow(0 1px 1px #000)}
 .ww{font-size:.82rem;color:#c9b892}
 .wt{font-size:.94rem;color:#d3d7e4}
+/* NPCs standing together: one card, one map, a row each */
+.whos>.wgrp{flex-basis:100%}
+.wgrp>.wmap{width:150px;height:98px}
+.wrows{display:flex;flex-direction:column;flex:1;min-width:0}
+.wrows>.wb+.wb{margin-top:.45rem;padding-top:.45rem;border-top:1px solid color-mix(in srgb,var(--npc) 14%,var(--rule))}
+.sx .wgrp.off .wb.off{opacity:1;filter:none}
 .wmap{position:relative;flex:none;width:118px;height:77px;padding:0;border-radius:8px;border:2px solid #8a6a2c;background-color:#3a2a16;background-repeat:no-repeat;box-shadow:0 0 0 1px #000,inset 0 0 14px rgba(0,0,0,.45);overflow:hidden;cursor:zoom-in;transition:transform .15s,border-color .2s}
 .wmap:hover{transform:scale(1.04);border-color:var(--gold)}
 .wmap .wz{position:absolute;left:0;right:0;bottom:0;padding:.55rem .35rem .18rem;font:800 .55rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;text-align:left;color:#f6e7bf;background:linear-gradient(transparent,rgba(0,0,0,.8))}
@@ -1084,13 +1090,15 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .kbmap .mimg .pin{font-size:36px}
 .kbmap .mimg .pin.dot{width:16px;height:16px}
 .kbmap .mtag{position:absolute;transform:translate(-50%,14px);padding:.18rem .45rem;border-radius:4px;background:rgba(0,0,0,.8);color:var(--npc);font:700 .8rem/1.2 var(--f-sans);white-space:nowrap;pointer-events:none}
-.kbmap .mtag.r{transform:translate(-100%,14px)}.kbmap .mtag.l{transform:translate(0,14px)}
+.kbmap .mtag.r{transform:translate(-100%,14px);text-align:right}.kbmap .mtag.l{transform:translate(0,14px)}
 .kbmap .mcap{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem;padding:.65rem .35rem .2rem;font-size:.98rem}
 .kbmap .mxy{font:600 .78rem/1 var(--f-mono);color:var(--muted)}
 .kbmap .mx{margin-left:auto;padding:.5rem .95rem;font-size:.88rem}
 @media (max-width:620px){
   .ways{grid-template-columns:minmax(0,1fr)}.or{justify-self:center}
-  .who{gap:.6rem}.wmap{width:96px;height:63px}
+  .who{gap:.6rem}.wmap{width:96px;height:63px}.wgrp>.wmap{width:96px;height:63px}
+  /* on a phone the map sits beside the first NPC and the rest get the card's full width */
+  .wgrp{display:flow-root}.wgrp>.wmap{float:left;margin:0 .6rem .4rem 0}.wrows{display:block}
   .islot{grid-template-columns:40px minmax(0,1fr) auto}.islot .ib{width:40px;height:40px}
 }
 @media (prefers-reduced-motion:reduce){.pin,.pin.dot{animation:none}}

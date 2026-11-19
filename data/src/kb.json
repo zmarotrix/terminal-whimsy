@@ -365,6 +365,33 @@
         "The Challenge needs level 58 and the Dire Maul West chain. Skip it unless you're already on that chain.",
         "Quests of level 48 and up also pay gold in Forever."
       ],
+      "dungeon": {
+        "_about": "The dungeon map: shown at the top of part 'at', and each step in 'steps' gets a button that opens it with those numbers ringed. spots are the numbers' centres in image pixels; names are the map's own legend.",
+        "name": "Blackrock Depths",
+        "src": "img/maps/brd.webp",
+        "w": 800,
+        "h": 518,
+        "at": 4,
+        "spots": {
+          "A": [120, 428], "1": [246, 372], "2": [265, 422], "3": [273, 454], "4": [273, 487], "5": [195, 495],
+          "6": [209, 372], "7": [238, 397], "8": [282, 282], "9": [287, 225], "10": [243, 248], "11": [42, 324],
+          "12": [160, 373], "13": [121, 338], "14": [112, 260], "15": [207, 265], "16": [230, 201], "17": [199, 148],
+          "18": [229, 96], "19": [305, 48], "20": [391, 48], "21": [458, 48], "22": [318, 108], "23": [342, 165]
+        },
+        "names": {
+          "A": "Entrance", "1": "Lord Roccor", "2": "Kharan Mighthammer", "3": "Commander Gor'shak", "4": "Marshal Windsor",
+          "5": "High Interrogator Gerstahn", "6": "Ring of Law", "7": "Franclorn's monument", "8": "The Vault",
+          "9": "Fineous Darkvire", "10": "The Black Anvil", "11": "Bael'Gar", "12": "Shadowforge Lock", "13": "General Angerforge",
+          "14": "Golem Lord Argelmach", "15": "The Grim Guzzler", "16": "Ambassador Flamelash", "17": "Panzor the Invincible",
+          "18": "Summoners' Tomb", "19": "The Lyceum", "20": "Magmus", "21": "Emperor Dagran Thaurissan", "22": "The Black Forge",
+          "23": "Molten Core"
+        },
+        "steps": {
+          "4.2": ["A"], "4.3": ["5"], "4.4": ["4"], "4.5": ["2"],
+          "6.1": ["4"], "6.2": ["6"], "6.3": ["8"], "6.4": ["9", "7"], "6.5": ["11"], "6.6": ["10"], "6.7": ["12", "13"], "6.8": ["14"], "6.9": ["4"],
+          "7.10": ["15"], "7.11": ["18"], "7.12": ["23"], "7.13": ["19", "20"], "7.14": ["21"]
+        }
+      },
       "altParts": [
         [
           4022,

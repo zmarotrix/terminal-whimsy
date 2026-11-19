@@ -413,12 +413,27 @@ function stepHTML(s, done, notes) {
   if (one && one.note && !firstNote.has(one.id)) { firstNote.add(one.id); note = `<p class="cnote">${one.tag ? `<span class="ctag">${esc(one.tag)}</span>` : ""}${esc(one.note)}</p>`; }
   const tips = (G.tips || []).filter(t => t.at === s.id).map(t => `<p class="tipnote"><img src="${ICON("inv_misc_note_01")}" alt=""><span><b>Tip</b>${esc(t.text)}</span></p>`).join("");
   const skip = one ? `<button class="skipb" type="button" data-chain="${esc(one.id)}" data-tip="Skip ${esc(one.name)}. Its other steps grey out too."><span>Skip</span></button>` : "";
-  return `<div class="step${done ? " done" : ""}${s.warn ? " warned" : ""}${skip ? " can-skip" : ""}" data-s="${esc(s.id)}"${ch.length ? ` data-ch="${ch.join(" ")}"` : ""}><button class="tick" type="button" role="checkbox" aria-checked="${done}" aria-label="${esc(s.label)}">${s.n ? `<span class="tn">${s.n}</span>` : ""}</button><div class="sx">${headHTML(s)}${note}${body(s.body)}${tips}${un}</div>${skip}<span class="skiptag" aria-hidden="true">Skipped</span></div>`;
+  const head = headHTML(s).replace("</p>", dspotBtn(s.id) + "</p>");
+  return `<div class="step${done ? " done" : ""}${s.warn ? " warned" : ""}${skip ? " can-skip" : ""}" data-s="${esc(s.id)}"${ch.length ? ` data-ch="${ch.join(" ")}"` : ""}><button class="tick" type="button" role="checkbox" aria-checked="${done}" aria-label="${esc(s.label)}">${s.n ? `<span class="tn">${s.n}</span>` : ""}</button><div class="sx">${head}${note}${body(s.body)}${tips}${un}</div>${skip}<span class="skiptag" aria-hidden="true">Skipped</span></div>`;
+}
+/* ---- the dungeon map: a picture above the first step of the first part inside, and on the steps in there a
+   button with the map's numbers for where that step happens; it opens the map with those numbers ringed ---- */
+function dspotBtn(id) {
+  const M = G && G.dungeon, ns = M && (M.steps || {})[id];
+  if (!ns || !ns.length) return "";
+  return ` <button class="loc dspot" type="button" data-dspot="${esc(ns.join(" "))}" data-tip="Show ${esc(andList(ns.map(n => M.names[n] || n)))} on the ${esc(M.name)} map"><img src="${ICON("inv_misc_map_01")}" alt="">Map ${esc(ns.join(" · "))}</button>`;
+}
+function dmapFigure() {
+  const M = G.dungeon;
+  return `<figure class="dmap"><button class="dmapb" type="button" data-dspot="" aria-label="Open the ${esc(M.name)} map"><img src="${esc(M.src)}" width="${M.w}" height="${M.h}" alt="Map of ${esc(M.name)} with numbered places and a key" loading="lazy"></button>
+    <figcaption>Steps inside have a map button with their number on this map. Click it, or the map, to open it bigger.</figcaption></figure>`;
 }
 function pageHTML(g, P, i, t) {
   const H = heading(P.head), st = stepsOf(P), d = st.filter(s => t.has(s.id)).length, chars = strip(g.posts[i]).length;
   const notes = (g.unsure || []).filter(u => u && Array.isArray(u.at));
-  const blocks = P.blocks.map(b => b.t === "step" ? stepHTML(b, t.has(b.id), notes) : b.t === "grp" ? `<h4 class="kgrp">${b.h}</h4>` : b.t === "sub" ? `<p class="sub">${b.h}</p>`
+  let fig = g.dungeon && g.dungeon.at === i ? dmapFigure() : "";
+  const lead = () => { const f = fig; fig = ""; return f; };
+  const blocks = P.blocks.map(b => b.t === "step" ? lead() + stepHTML(b, t.has(b.id), notes) : b.t === "grp" ? `<h4 class="kgrp">${b.h}</h4>` : b.t === "sub" ? `<p class="sub">${b.h}</p>`
     : b.t === "goal" ? `<p class="goal">${b.h}</p>` : b.t === "warn" ? body([b]) : `<p${chAttr(b.raw)}>${b.h}</p>`).join("");
   const ptips = (G.tips || []).filter(x => x.at === "p" + i).map(x => `<p class="tipnote"><img src="${ICON("inv_misc_note_01")}" alt=""><span><b>Tip</b>${esc(x.text)}</span></p>`).join("");
   return `<article class="page${st.length && d === st.length ? " done" : ""}" id="kbp-${i}" data-p="${i}">
@@ -616,12 +631,26 @@ function openMap(npc, pin, from) {
     <p class="mcap"><span>${andList(npcs.map(n => `<b class="kn">${esc(n)}</b>`))} · ${esc(P.zoneName)}</span><span class="mxy">${P.x.toFixed(1)}, ${P.y.toFixed(1)}</span><button class="btn mx" type="button">Close</button></p></div>`;
   mapBox.hidden = false; $(".mx", mapBox).focus();
 }
+// the dungeon map, bigger, with the numbers asked for ringed; on a phone it scrolls sideways to them
+function openDMap(spots, from) {
+  const M = cur && cur.dungeon; if (!M) return;
+  const ns = spots.split(" ").filter(n => M.spots[n]);
+  mapFrom = from;
+  mapBox.setAttribute("aria-label", `${M.name} map` + (ns.length ? `, ${andList(ns.map(n => M.names[n] || n))} ringed` : ""));
+  mapBox.innerHTML = `<div class="mbox dm"><div class="mimg"><div class="dmw"><img src="${esc(M.src)}" width="${M.w}" height="${M.h}" alt="Map of ${esc(M.name)} with numbered places and a key">${ns.map(n => `<i class="dring" style="left:${(M.spots[n][0] / M.w * 100).toFixed(2)}%;top:${(M.spots[n][1] / M.h * 100).toFixed(2)}%"></i>`).join("")}</div></div>
+    <p class="mcap"><span>${ns.length ? ns.map(n => `<b class="dnum">${esc(n)}</b> ${esc(M.names[n] || "")}`).join(" · ") + " · " : ""}${esc(M.name)}</span><button class="btn mx" type="button">Close</button></p></div>`;
+  mapBox.hidden = false; $(".mx", mapBox).focus();
+  const box = $(".mimg", mapBox), w = $(".dmw", mapBox);
+  if (ns.length && w.offsetWidth > box.clientWidth) box.scrollLeft = M.spots[ns[0]][0] / M.w * w.offsetWidth - box.clientWidth / 2;
+}
 function closeMap() { if (mapBox.hidden) return; mapBox.hidden = true; mapBox.innerHTML = ""; if (mapFrom) mapFrom.focus(); }
 mapBox.addEventListener("click", e => { if (e.target === mapBox || e.target.closest(".mx")) closeMap(); });
 addEventListener("keydown", e => { if (e.key === "Escape") closeMap(); });
 addEventListener("hashchange", closeMap);
 
 bookEl.addEventListener("click", e => {
+  const ds = e.target.closest("[data-dspot]");
+  if (ds) { openDMap(ds.dataset.dspot, ds); return; }
   const lc = e.target.closest(".loc, .wmap");
   if (lc) { openMap(lc.dataset.npc, lc.dataset.pin, lc); return; }
   const el = e.target.closest(".tick, .copy, .kbnav [data-p], .kbreset, .kblink, .kbnext, .skipb, .chain, .fold, .kbfoldall");

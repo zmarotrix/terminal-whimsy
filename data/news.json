@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:01:34Z",
+ "updated": "2026-11-19T02:29:05Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,23 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Over 15.16 Million Characters Created in WoW: Forever as Weekly Active Players Hit 15-Year High",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWDFRYThNSlA2WVg5WHd2SXpBMzNsUUZiMzYxcGhQMDRlNkFsQTFiQ0JFRkk3RG1KaXdERGh5bFhNRGtSRmhLUG9ZczRPRzJVLWRxLUgxcEFsMlUzbWVZWEx5Z0V6VzVSbGRIUzFQZWdfb25lOHRFVXlkSTJRc1Bkc0U1czIwNEZpbGVKX2EyZ2xxOFIwMGwwdzNGeTJBdHZVdkZLMjdhTlIzS0pxeWZjdEpjaWsxNEVJZm1KUEppUzBueExGNExoekI0R1RkVVdqZ0E?oc=5",
+   "date": "2026-11-19T02:04:46Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Inven Global",
+   "icon": "inv_misc_spyglass_03",
+   "id": "d77b62885f",
+   "first": "2026-11-19T02:04:46Z",
+   "last": "2026-11-19T02:04:46Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
    "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
@@ -142,8 +159,8 @@
    "first": "2026-11-18T12:12:19Z",
    "last": "2026-11-18T19:52:08Z",
    "tags": [
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [],
    "n": 2,
@@ -441,8 +458,8 @@
    "first": "2026-11-18T09:39:12Z",
    "last": "2026-11-18T09:39:12Z",
    "tags": [
-    "professions",
-    "leveling"
+    "leveling",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -593,8 +610,8 @@
    "last": "2026-11-18T04:36:37Z",
    "tags": [
     "economy",
-    "pvp",
-    "leveling"
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 2,
@@ -621,27 +638,10 @@
    "first": "2026-11-18T04:02:56Z",
    "last": "2026-11-18T04:02:56Z",
    "tags": [
-    "classes",
+    "hotfix",
     "leveling",
-    "hotfix"
+    "classes"
    ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Merchant's Favour and Waylaid Crates Full Guide",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmctaHppNjd3Y2Jlbkc2Z19vNE9GT05va1VHUEF0NVN4a1dOQjhmc1NibER3OXdidXdqOGxBQzliSjZ3S3pqZFRnR1I4eGZDTEZJdVRINlVybHlBbGxtNDRydnJvR1BXSHRiNHpPRzZ0QVBHeXA5aTRxZlZxUzVqVnBfM0ZUUFAtOHZEcXpzTUhZZi1JWkx2VQ?oc=5",
-   "date": "2026-11-18T03:52:32Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "13721f0e60",
-   "first": "2026-11-18T03:52:32Z",
-   "last": "2026-11-18T03:52:32Z",
-   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -706,8 +706,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -728,8 +728,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -840,10 +840,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
+    "hotfix",
     "professions",
-    "classes",
     "items",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -882,10 +882,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "classes",
+    "hotfix",
     "items",
     "leveling",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1473,8 +1473,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1512,9 +1512,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "classes",
+    "hotfix",
     "leveling",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1668,8 +1668,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1791,8 +1791,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1910,8 +1910,8 @@
    "last": "2026-11-12T17:58:03Z",
    "tags": [
     "pvp",
-    "realms",
-    "story"
+    "story",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2006,9 +2006,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
+    "hotfix",
     "professions",
-    "items",
-    "hotfix"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2065,8 +2065,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "classes",
-    "economy"
+    "economy",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2143,9 +2143,9 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
     "hunter",
-    "warlock"
+    "warlock",
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -2234,8 +2234,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2255,8 +2255,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -2373,8 +2373,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2392,9 +2392,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
-    "classes",
+    "hotfix",
     "items",
-    "hotfix"
+    "classes"
    ],
    "classes": [
     "shaman"
@@ -2469,9 +2469,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "classes",
+    "hotfix",
     "ui",
-    "hotfix"
+    "classes"
    ],
    "classes": [
     "druid"
@@ -2514,8 +2514,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2553,9 +2553,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "classes",
+    "hotfix",
     "leveling",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2591,8 +2591,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "ui",
-    "items"
+    "items",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2820,8 +2820,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3107,10 +3107,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "classes",
+    "leveling",
     "pvp",
     "ui",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3130,9 +3130,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "classes",
+    "raids",
     "leveling",
-    "raids"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3487,6 +3487,17 @@
   }
  ],
  "items": [
+  {
+   "title": "Over 15.16 Million Characters Created in WoW: Forever as Weekly Active Players Hit 15-Year High",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWDFRYThNSlA2WVg5WHd2SXpBMzNsUUZiMzYxcGhQMDRlNkFsQTFiQ0JFRkk3RG1KaXdERGh5bFhNRGtSRmhLUG9ZczRPRzJVLWRxLUgxcEFsMlUzbWVZWEx5Z0V6VzVSbGRIUzFQZWdfb25lOHRFVXlkSTJRc1Bkc0U1czIwNEZpbGVKX2EyZ2xxOFIwMGwwdzNGeTJBdHZVdkZLMjdhTlIzS0pxeWZjdEpjaWsxNEVJZm1KUEppUzBueExGNExoekI0R1RkVVdqZ0E?oc=5",
+   "date": "2026-11-19T02:04:46Z",
+   "who": "Inven Global",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
   {
    "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
    "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
@@ -3889,17 +3900,6 @@
     "leveling",
     "classes"
    ],
-   "classes": []
-  },
-  {
-   "title": "Merchant's Favour and Waylaid Crates Full Guide",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmctaHppNjd3Y2Jlbkc2Z19vNE9GT05va1VHUEF0NVN4a1dOQjhmc1NibER3OXdidXdqOGxBQzliSjZ3S3pqZFRnR1I4eGZDTEZJdVRINlVybHlBbGxtNDRydnJvR1BXSHRiNHpPRzZ0QVBHeXA5aTRxZlZxUzVqVnBfM0ZUUFAtOHZEcXpzTUhZZi1JWkx2VQ?oc=5",
-   "date": "2026-11-18T03:52:32Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {

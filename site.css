@@ -957,7 +957,10 @@ a.ccard:hover{transform:rotate(0) translateY(-3px);color:#2b2118}
 .step .tick .tn{font:800 .72rem/1 var(--f-mono);color:#c9a14e;transition:opacity .2s}
 .step.done .tick .tn{opacity:0}
 /* the next step you haven't done glows like a tracked quest */
-.step.next{margin:-.45rem -.6rem;padding:.45rem .6rem;border-radius:9px;background:linear-gradient(90deg,rgba(255,210,63,.1),rgba(255,210,63,.02) 70%,transparent);box-shadow:inset 3px 0 0 var(--ql)}
+.step.next{margin:-.45rem -.6rem;padding:.45rem .6rem;border-radius:9px;background:linear-gradient(90deg,rgba(255,210,63,.1),rgba(255,210,63,.02) 70%,transparent)}
+/* its gold thread hangs straight down from its number, so the numbers above and below stay in one column */
+.step.next::before{content:"";position:absolute;left:calc(.6rem + 12px);top:calc(.57rem + 32px);bottom:.7rem;width:2px;border-radius:2px;background:linear-gradient(var(--ql),rgba(255,210,63,.06));pointer-events:none}
+.step.next .skipb,.step.next .skiptag{top:.45rem;right:.6rem}
 .step.next .tick{border-color:var(--ql);animation:nextglow 1.8s ease-in-out infinite}
 @keyframes nextglow{50%{box-shadow:inset 0 2px 5px #000,0 0 0 1px #000,0 0 12px 2px rgba(255,210,63,.55)}}
 .step.done .qm{filter:grayscale(1);opacity:.7}
@@ -1100,7 +1103,10 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .page.allskip .ph{opacity:.5}
 /* a skipped step: greyed like a quest too low to care about; lines that are only about a skipped chain fade too */
 .step{position:relative}
-.step.can-skip .sx{padding-right:6.4rem}
+/* only the title line makes room for the Skip pill (or the SKIPPED tag): the title sits level with its number and the cards below keep the full width */
+.step.can-skip .sh::before,.step.skipped .sh::before{content:"";float:right;width:3.3rem;height:1.5rem}
+.step.can-skip.skipped .sh::before{width:5.1rem}
+.step.skipped:not(.can-skip) .sh::before{width:4.5rem}
 .skipb{position:absolute;right:0;top:0;padding:.22rem .65rem;border-radius:99px;border:1px solid var(--rule);background:var(--bg3);color:var(--muted);font:700 .72rem/1.3 var(--f-sans);cursor:pointer;transition:color .2s,border-color .2s}
 .skipb:hover{color:var(--ink);border-color:var(--dim)}
 .step.skipped .sx,.step.skipped>.tick{opacity:.3;filter:grayscale(1)}
@@ -1108,7 +1114,7 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .step.skipped .skipb{color:var(--gold2);border-color:#7a6330;background:#241a0d}
 .skiptag{display:none;position:absolute;right:0;top:0;padding:.1rem .45rem;border-radius:4px;background:var(--bg4);color:var(--muted);font:800 .6rem/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
 .step.skipped .skiptag{display:block}
-.step.skipped.can-skip .skiptag{top:2rem}
+.step.skipped.can-skip .skiptag{display:none}
 .sx [data-ch].off,.pb>p.off{opacity:.3;filter:grayscale(1)}
 .sx li.off::before{background:var(--dim);box-shadow:none}
 /* the guide's own word on a chain, and tips */
@@ -1162,4 +1168,4 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .kqp.dim{color:var(--muted)}
 .kql{font-size:.82rem;line-height:1.45;color:#d3d7e4}
 @media (max-width:760px){.kbrun{grid-template-columns:minmax(0,1fr)}}
-@media (max-width:620px){.step.can-skip .sx{padding-right:0;padding-top:1.9rem}.skipb{top:0;right:0}.step.skipped.can-skip .skiptag{top:0;right:6.2rem}.page.folded::after{display:none}}
+@media (max-width:620px){.page.folded::after{display:none}}

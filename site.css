@@ -922,7 +922,7 @@ a.ccard:hover{transform:rotate(0) translateY(-3px);color:#2b2118}
 .page.done::after{content:"Done";position:absolute;right:1.4rem;top:4.6rem;padding:.2rem .7rem;border:3px double var(--stamp);border-radius:6px;color:var(--stamp);font:800 1.5rem/1.1 var(--f-display);letter-spacing:.1em;text-transform:uppercase;transform:rotate(-12deg);opacity:.85;pointer-events:none;animation:stampdown .4s cubic-bezier(.2,1.6,.4,1) both}
 @keyframes stampdown{from{transform:rotate(-12deg) scale(2.4);opacity:0}}
 .pb{padding:1.1rem 1.15rem 1.3rem;display:flex;flex-direction:column;gap:.85rem}
-.pb>p{color:var(--muted);max-width:72ch}
+.pb>p{color:var(--muted);max-width:92ch}
 .pb .sub{font-size:.9rem;color:var(--muted);padding-left:.8rem;border-left:2px solid var(--rule)}
 .pb .goal{font-style:italic;color:var(--gold2);padding:.6rem .9rem;border-radius:8px;background:rgba(242,197,107,.07);border-left:3px solid var(--gold)}
 .pb .kgrp{display:flex;align-items:center;gap:.6rem;margin-top:.3rem;font:700 .74rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
@@ -941,7 +941,7 @@ a.ccard:hover{transform:rotate(0) translateY(-3px);color:#2b2118}
 .sx .where{margin-left:.45rem;font:600 .82rem/1.3 var(--f-sans);color:#c9b892;letter-spacing:.02em}
 .sx .where::before{content:"·";margin-right:.45rem;color:var(--dim)}
 .sx .sd{color:#d3d7e4}
-.unsure{margin-top:.3rem;padding:.4rem .65rem;border:1px dashed rgba(255,111,94,.5);border-radius:6px;font-size:.88rem;color:#f3c6bd;max-width:72ch}
+.unsure{margin-top:.3rem;padding:.4rem .65rem;border:1px dashed rgba(255,111,94,.5);border-radius:6px;font-size:.88rem;color:#f3c6bd}
 .unsure b{display:inline-block;margin-right:.5rem;font:800 .64rem/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:#ff7a68}
 .step .tick .tn{font:800 .72rem/1 var(--f-mono);color:#c9a14e;transition:opacity .2s}
 .step.done .tick .tn{opacity:0}
@@ -952,10 +952,10 @@ a.ccard:hover{transform:rotate(0) translateY(-3px);color:#2b2118}
 .step.done .qm{filter:grayscale(1);opacity:.7}
 .step.done .sx{opacity:.5}
 .step.done .sx:hover{opacity:.85}
-.sx p{max-width:74ch}
+.sx p{max-width:92ch}
 .sx .stt{font-weight:800;font-size:1.04rem;color:var(--ink)}
 .sx ul{margin:.4rem 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.32rem}
-.sx li{position:relative;padding-left:1.15rem;color:#d3d7e4;max-width:72ch}
+.sx li{position:relative;padding-left:1.15rem;color:#d3d7e4;max-width:92ch}
 .sx li::before{content:"";position:absolute;left:.15rem;top:.62em;width:6px;height:6px;transform:rotate(45deg);background:var(--dim)}
 .sx b:not([class]){color:var(--ink)}
 .kq{color:var(--ql);text-decoration:none;font-weight:700}
@@ -1008,10 +1008,10 @@ a.ki:hover{text-decoration:underline;text-underline-offset:3px}
 .ii{display:inline-block;width:1.2em;height:1.2em;margin-right:.22em;border-radius:3px;vertical-align:-.24em;box-shadow:0 0 0 1px #000,0 0 0 1.5px var(--qc,#8a8a8a)}
 .sh>.ii{width:1.45em;height:1.45em;margin-right:.4em;vertical-align:-.36em}
 /* "Bring these": a little bag window, one slot per item: icon, name, how many */
-.bring{margin:.35rem 0 .15rem;max-width:760px;padding:.55rem .65rem .7rem;border-radius:12px;background:linear-gradient(180deg,#2c1e12,#191109);border:2px solid #5d4123;box-shadow:inset 0 0 0 1px #000,inset 0 2px 0 rgba(255,220,150,.08),0 8px 20px -10px #000}
+.bring{margin:.35rem 0 .15rem;padding:.55rem .65rem .7rem;border-radius:12px;background:linear-gradient(180deg,#2c1e12,#191109);border:2px solid #5d4123;box-shadow:inset 0 0 0 1px #000,inset 0 2px 0 rgba(255,220,150,.08),0 8px 20px -10px #000}
 .bring .bh{display:flex;align-items:center;gap:.5rem;margin:0 0 .5rem .1rem;font:700 .95rem/1 var(--f-display);letter-spacing:.04em;color:var(--gold)}
 .bring .bh img{width:24px;height:24px;border-radius:5px;box-shadow:0 0 0 1px #000,0 0 0 2px #6b5a2c}
-.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:.45rem}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:.45rem}
 .islot{--qc:#8a8a8a;display:grid;grid-template-columns:44px minmax(0,1fr) auto;align-items:center;gap:.65rem;padding:.35rem .7rem .35rem .35rem;border-radius:9px;background:rgba(0,0,0,.38);border:1px solid rgba(255,255,255,.06);color:inherit;text-decoration:none;transition:transform .15s,background .2s}
 .islot.q2{--qc:#1eff00}.islot.q3{--qc:#0070dd}.islot.q4{--qc:#a335ee}
 a.islot:hover{transform:translateY(-2px);background:rgba(255,255,255,.05);color:inherit}
@@ -1025,7 +1025,8 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .islot .in small{font-size:.78rem;line-height:1.25;color:var(--muted)}
 .islot .ix{font:800 1.2rem/1 var(--f-display);color:var(--gold2);text-shadow:0 2px 0 #000,0 0 10px rgba(242,197,107,.35)}
 /* who you're looking for: a card with a scrap of the zone map, their ! or ? pinned on it */
-.whos{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,310px),1fr));gap:.55rem;margin-top:.35rem}
+.whos{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:.35rem}
+.whos>.who{flex:1 1 310px}
 .who{display:flex;gap:.75rem;align-items:flex-start;min-width:0;padding:.55rem .65rem .6rem .55rem;border-radius:11px;background:var(--bg3);border:1px solid color-mix(in srgb,var(--npc) 22%,var(--rule))}
 .who.k-h{border-color:color-mix(in srgb,var(--foe) 30%,var(--rule));background:linear-gradient(90deg,rgba(255,111,94,.07),transparent 70%),var(--bg3)}
 .wb{display:flex;flex-direction:column;gap:.18rem;min-width:0}
@@ -1052,7 +1053,7 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .way .wyh{display:flex;align-items:center;gap:.45rem;margin-bottom:.35rem;font:800 .74rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
 .way .wyh img{width:24px;height:24px;border-radius:5px;box-shadow:0 0 0 1px #000,0 0 0 2px #4b4f63}
 .or{align-self:center;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#3a2a16,#1b130a);border:2px solid #8a6a2c;font:800 .78rem/1 var(--f-display);color:var(--gold2);text-transform:uppercase;box-shadow:0 2px 6px #000}
-.opt{padding:.45rem .7rem;border-radius:9px;border:1px dashed var(--rule);color:var(--muted);font-size:.92rem;max-width:72ch}
+.opt{padding:.45rem .7rem;border-radius:9px;border:1px dashed var(--rule);color:var(--muted);font-size:.92rem}
 .optag{display:inline-block;margin-right:.5rem;padding:.05rem .4rem;border-radius:4px;background:var(--bg4);color:var(--muted);font:800 .6rem/1.6 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;vertical-align:.1em}
 /* everything else: a gold minimap blip instead of a bullet */
 .sx ul.tips li::before{left:.05rem;top:.5em;width:9px;height:9px;border-radius:50%;transform:none;background:radial-gradient(circle at 35% 35%,#fff6b0,#ffd200 55%,#a77d00);box-shadow:0 0 0 1.5px #2b1b00,0 0 7px rgba(255,210,0,.55)}

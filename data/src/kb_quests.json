@@ -363,27 +363,36 @@
     }
    ],
    "level": 56,
+   "money": 8500,
    "name": "Incendius!",
    "rep": [
     "100 reputation with Gnomeregan Exiles"
    ],
-   "req": 48
+   "req": 48,
+   "xp": 10450,
+   "xpMult": 1.8
   },
   "4264": {
    "level": 58,
+   "money": 17050,
    "name": "A Crumpled Up Note",
    "rep": [
     "100 reputation with Stormwind"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 11150,
+   "xpMult": 1.8
   },
   "4282": {
    "level": 58,
+   "money": 21175,
    "name": "A Shred of Hope",
    "rep": [
     "100 reputation with Stormwind"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 11150,
+   "xpMult": 1.8
   },
   "4286": {
    "items": [
@@ -417,11 +426,14 @@
     }
    ],
    "level": 58,
+   "money": 17500,
    "name": "Jail Break!",
    "rep": [
     "150 reputation with Stormwind"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 13950,
+   "xpMult": 1.8
   },
   "4324": {
    "level": 53,
@@ -451,16 +463,22 @@
   },
   "4361": {
    "level": 59,
+   "money": 18400,
    "name": "The Bearer of Bad News",
-   "req": 50
+   "req": 50,
+   "xp": 6400,
+   "xpMult": 1
   },
   "4362": {
    "level": 59,
+   "money": 23144,
    "name": "The Fate of the Kingdom",
    "rep": [
     "150 reputation with Ironforge"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 16900,
+   "xpMult": 2.1
   },
   "4363": {
    "choice": [
@@ -476,26 +494,38 @@
     }
    ],
    "level": 59,
+   "money": 26500,
    "name": "The Princess's Surprise",
-   "req": 50
+   "req": 50,
+   "xp": 20250,
+   "xpMult": 2.1
   },
   "6402": {
    "level": 60,
+   "money": 0,
    "name": "Stormwind Rendezvous",
-   "req": 50
+   "req": 50,
+   "xp": 650,
+   "xpMult": 1
   },
   "6403": {
    "level": 60,
+   "money": 29850,
    "name": "The Great Masquerade",
    "rep": [
     "200 reputation with Stormwind"
    ],
-   "req": 50
+   "req": 50,
+   "xp": 9950,
+   "xpMult": 1
   },
   "6501": {
    "level": 60,
+   "money": 19800,
    "name": "The Dragon's Eye",
-   "req": 50
+   "req": 50,
+   "xp": 6600,
+   "xpMult": 1
   },
   "6502": {
    "items": [
@@ -506,8 +536,11 @@
     }
    ],
    "level": 60,
+   "money": 0,
    "name": "Drakefire Amulet",
-   "req": 50
+   "req": 50,
+   "xp": 22200,
+   "xpMult": 2.675
   },
   "7848": {
    "level": 60,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:59:31Z",
+ "updated": "2026-11-19T00:54:35Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,57 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
+   "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
+   "date": "2026-11-18T18:03:36Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "9b69e6b347",
+   "first": "2026-11-18T18:03:36Z",
+   "last": "2026-11-18T23:47:07Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [],
+   "n": 3,
+   "official": false,
+   "also": [
+    {
+     "title": "Honor Rewards and Battlegrounds in World of Warcraft: Forever",
+     "url": "https://www.mmo-champion.com/content/14705-Honor-Rewards-and-Battlegrounds-in-World-of-Warcraft-Forever",
+     "source": "MMO-Champion",
+     "label": "press",
+     "date": "2026-11-18T20:41:00Z"
+    },
+    {
+     "title": "New WoW Forever Video: Honor Rewards & Battlegrounds",
+     "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-video-honor-rewards-battlegrounds/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-18T23:47:07Z"
+    }
+   ]
+  },
+  {
+   "title": "World Of Warcraft: Forever Just Broke A 15-Year-Old Record",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV3daQmh1ZURTV2pUdmsyMUFacjVFTm5qLVlFVGVDUXdJTXNYcUV5djBxbEdOdUVzc2k4NVdtNTVfOHdWMFRTaWNSQmxGODhxb2JVcndYNTZadHAwWWlWTTJUZUtlVnNSWWdieEgyV1dpSWpRMVhYTlUwVTFVbDg5WjRJTFJ6V1ZHX3JYS0J3?oc=5",
+   "date": "2026-11-18T23:03:06Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Kotaku",
+   "icon": "inv_misc_spyglass_03",
+   "id": "c0b44a08f2",
+   "first": "2026-11-18T23:03:06Z",
+   "last": "2026-11-18T23:03:06Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
    "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
@@ -36,33 +87,6 @@
      "source": "Google News",
      "label": "press",
      "date": "2026-11-18T21:34:18Z"
-    }
-   ]
-  },
-  {
-   "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
-   "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
-   "date": "2026-11-18T18:03:36Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "9b69e6b347",
-   "first": "2026-11-18T18:03:36Z",
-   "last": "2026-11-18T20:41:00Z",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "Honor Rewards and Battlegrounds in World of Warcraft: Forever",
-     "url": "https://www.mmo-champion.com/content/14705-Honor-Rewards-and-Battlegrounds-in-World-of-Warcraft-Forever",
-     "source": "MMO-Champion",
-     "label": "press",
-     "date": "2026-11-18T20:41:00Z"
     }
    ]
   },
@@ -481,6 +505,25 @@
    "also": []
   },
   {
+   "title": "Marksmanship Hunter | Staedt",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
+   "date": "2026-11-18T05:53:12Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "0ac2c8204a",
+   "first": "2026-11-18T05:53:12Z",
+   "last": "2026-11-18T05:53:12Z",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW: Forever Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
    "date": "2026-11-18T04:02:56Z",
@@ -493,8 +536,8 @@
    "last": "2026-11-18T04:02:56Z",
    "tags": [
     "hotfix",
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -586,8 +629,8 @@
    "last": "2026-11-17T22:51:22Z",
    "tags": [
     "economy",
-    "pvp",
-    "leveling"
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 2,
@@ -601,44 +644,6 @@
      "date": "2026-11-17T22:51:22Z"
     }
    ]
-  },
-  {
-   "title": "World of Warcraft Forever posts a guide to getting started fresh in the game",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRE96LUpDdFc3NEw4Y0xtTzVWWk1ITmpuXzhCcmZjVDFFTEI2REJtNDA1dEl2MDdFd1dGZU4zVFlVU3ZPVGhBYmlBNHMzeEJ6SlVkMHVMZVdvanFHUnlKbG9DWEZ6S0hHTmF6eHU2Um45NklaaTBCYzd3RWQ1WlZOMWFYVnVhXzIwOUVEX01KSFZ1M1Z4WTZMRVNnanhyLUZLRFhaMmhUYlJuMjlKa0p0TmNR?oc=5",
-   "date": "2026-11-17T22:00:55Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "30059fb617",
-   "first": "2026-11-17T22:00:55Z",
-   "last": "2026-11-17T22:00:55Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW: Forever November 16 Hotfix Fixes Class and Dungeon Issues for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZUpuOUhpZEQxYkVjZTJZS1dqeG9BZElwRDI4anBqS2dVM1Nidk9OSTU2ckVHN0pSdEtmQ1YxeEtfaVdRMTdHSDk0Wjdpcm9mMWFfbDZ0SkRTZTV3Vm0xVzZWRDFBTFAyRjI3OGxmM0YzZEQ5VUVJWWx4djdXejlsellQMWhVaE1zOEF6c2tpWnhoQ2x0UFcwcFpmOGQ1dw?oc=5",
-   "date": "2026-11-17T21:33:45Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Maxroll",
-   "icon": "inv_misc_spyglass_03",
-   "id": "952f298527",
-   "first": "2026-11-17T21:33:45Z",
-   "last": "2026-11-17T21:33:45Z",
-   "tags": [
-    "hotfix",
-    "leveling",
-    "classes"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
   },
   {
    "title": "Actions For Blackmaw Hold Abuse - November 17",
@@ -815,8 +820,8 @@
    "last": "2026-11-17T02:36:53Z",
    "tags": [
     "hotfix",
-    "professions",
     "classes",
+    "professions",
     "items"
    ],
    "classes": [],
@@ -857,8 +862,8 @@
    "last": "2026-11-17T02:23:22Z",
    "tags": [
     "hotfix",
-    "leveling",
     "classes",
+    "leveling",
     "items"
    ],
    "classes": [],
@@ -1487,8 +1492,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "hotfix",
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2039,8 +2044,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2528,8 +2533,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "hotfix",
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3081,10 +3086,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
-    "leveling",
     "classes",
-    "ui"
+    "leveling",
+    "ui",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3104,8 +3109,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
     "leveling",
+    "raids",
     "classes"
    ],
    "classes": [],
@@ -3462,6 +3467,31 @@
  ],
  "items": [
   {
+   "title": "New WoW Forever Video: Honor Rewards & Battlegrounds",
+   "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-video-honor-rewards-battlegrounds/",
+   "date": "2026-11-18T23:47:07Z",
+   "summary": "Earlier today, Blizzard shared a new video titled “Honor Rewards & Battlegrounds”, providing an overview of the revamped PvP system in WoW Forever. Designed to make PvP progression more approachable and accessible, the new system separates Honor Points and…",
+   "who": "Sponge",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "pvp"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World Of Warcraft: Forever Just Broke A 15-Year-Old Record",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV3daQmh1ZURTV2pUdmsyMUFacjVFTm5qLVlFVGVDUXdJTXNYcUV5djBxbEdOdUVzc2k4NVdtNTVfOHdWMFRTaWNSQmxGODhxb2JVcndYNTZadHAwWWlWTTJUZUtlVnNSWWdieEgyV1dpSWpRMVhYTlUwVTFVbDg5WjRJTFJ6V1ZHX3JYS0J3?oc=5",
+   "date": "2026-11-18T23:03:06Z",
+   "who": "Kotaku",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "WoW: Forever is huge: Players have created over 15 million characters so far",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcE9FYnRhaEhOSU1HRnB3QUZCQkV6bFp4ZEdMOUZ2Uk9fYzVTMVdVZmhCdHhXRlRtb2tmQ3ZfTDEwQVRzbklFcy1HREo3aWNUbTBELWdTYWRpTUtEQ0pqNzYtelBoSDhZYlhrT3JZVkJXNUtSYjBVeWtBeWwtQUFDaFdYSkFNcFhablRLaV9sTXFTQzhLQy1VZEVvZzBHaU9CNjZ3YTNpcDBBM0dwTVgzcnNnZXJ0Wm9YX19iSHRRX3c?oc=5",
    "date": "2026-11-18T21:34:18Z",
@@ -3745,6 +3775,19 @@
    "classes": []
   },
   {
+   "title": "Marksmanship Hunter | Staedt",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
+   "date": "2026-11-18T05:53:12Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ]
+  },
+  {
    "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",
    "url": "https://www.warcrafttavern.com/forever/news/cozy-sleeping-bag-shendralas-wow-forever-hotfixes-for-november-17/",
    "date": "2026-11-18T04:06:27Z",
@@ -3856,32 +3899,6 @@
     "leveling",
     "pvp",
     "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft Forever posts a guide to getting started fresh in the game",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRE96LUpDdFc3NEw4Y0xtTzVWWk1ITmpuXzhCcmZjVDFFTEI2REJtNDA1dEl2MDdFd1dGZU4zVFlVU3ZPVGhBYmlBNHMzeEJ6SlVkMHVMZVdvanFHUnlKbG9DWEZ6S0hHTmF6eHU2Um45NklaaTBCYzd3RWQ1WlZOMWFYVnVhXzIwOUVEX01KSFZ1M1Z4WTZMRVNnanhyLUZLRFhaMmhUYlJuMjlKa0p0TmNR?oc=5",
-   "date": "2026-11-17T22:00:55Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever November 16 Hotfix Fixes Class and Dungeon Issues for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZUpuOUhpZEQxYkVjZTJZS1dqeG9BZElwRDI4anBqS2dVM1Nidk9OSTU2ckVHN0pSdEtmQ1YxeEtfaVdRMTdHSDk0Wjdpcm9mMWFfbDZ0SkRTZTV3Vm0xVzZWRDFBTFAyRjI3OGxmM0YzZEQ5VUVJWWx4djdXejlsellQMWhVaE1zOEF6c2tpWnhoQ2x0UFcwcFpmOGQ1dw?oc=5",
-   "date": "2026-11-17T21:33:45Z",
-   "who": "Maxroll",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix",
-    "leveling",
-    "classes"
    ],
    "classes": []
   },

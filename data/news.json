@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:19:16Z",
+ "updated": "2026-11-19T13:14:58Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,63 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "The hunt for World of Warcraft: Forever secrets continue with the discovery of an elusive pet",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVm1VSGFveU8zOVRSbEIyYXBMSXF1eEx0aGJXNFBYWEZua2tBbldZMkloWXJjOW8xbS04RkUxelZCel81Qzhva2RPOE80Y2ZRRzRtLXY2ODNyM3NCaTNNT3d3TFotYm1Fd0Q0OE1kc18wSjJld3dvM3RMd1l2WG55ZV9XaWhnQQ?oc=5",
+   "date": "2026-11-19T12:35:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Eurogamer.net",
+   "icon": "inv_misc_spyglass_03",
+   "id": "e39b65d346",
+   "first": "2026-11-19T12:35:00Z",
+   "last": "2026-11-19T12:35:00Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "The Shaper's Terrace – Complete Dungeon Guide",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmZUMW9keTZ4a0stdHMtVDJ1WDJZZ2JxWFVPWDQtVHZxekdOM1h6TkJrZEJpOGpta096OWt1SllwYU5jTm5WeTU2aE4tSWhQUmNHMWdzUVRUVXhIMzRzS2xoX3NHcTlFLVQ1UkI0VHhmZ1FzaEsyejJrR3lvMDNiMkJWQ3ZQVmJyTHVrSkk2Y3hTRDZhV2NJ?oc=5",
+   "date": "2026-11-19T11:41:31Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "6bc3c62d99",
+   "first": "2026-11-19T11:41:31Z",
+   "last": "2026-11-19T11:41:31Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever News: Record Player Numbers, Shadow Priest Nerfs, Gold Exploit Punishments, and More!",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMlZPRkRlZW03QjZSb3hOc2Izdloya1UzX0V4SkMyOHd6SHVzQ3NsNHJqb1Z2ZmVsUV9rc2RLNlB0ZWxrbHdqSllsaHBOQktySllRbkF3TDU1TXlaWFRFNHY4QlZzWnZNRk5COTFEREJPcGZYVnNYa1BzdlplMUZZV3BITkRtUnJNZ1R4STBqaTZKUWliUWpZVU5LZUVQOHZtUEVVbmt2d2hxSDVfSU9WTFIwTHY5NDI0ZGRjZkJyM1ZLZ3YwbGlDSHYwbw?oc=5",
+   "date": "2026-11-19T11:35:28Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "a682b27723",
+   "first": "2026-11-19T11:35:28Z",
+   "last": "2026-11-19T11:35:28Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [
+    "priest"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "WoW Forever November 17 Hotfixes Bring Tougher UBRS and a Shadow Priest Nerf",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1lYaXM4aUoxWm9pQWhWWVFEZWVGWU9TbzllRVVxd0M4SzJzcmFSNUl5LTBhVjBJNk1lNF9PTFR4NkN4UnpGemgtcjFmdGhURmlZSWhSaTBWQ29SSVVUSGR2N3NuTmlrWFRiUHdvY1Jyd3pPelI4QmxKZ3hGaEdEd1l6MzQ5RHM5S0djVXRQa2FQUjZZRnMxOVhEQUl4b1dtdWV5SEVsZ0QzUVZLR1E?oc=5",
@@ -64,9 +121,9 @@
    "first": "2026-11-19T01:35:38Z",
    "last": "2026-11-19T01:35:38Z",
    "tags": [
-    "leveling",
+    "economy",
     "items",
-    "economy"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -149,6 +206,27 @@
    ],
    "classes": [
     "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Omnivore's Arms Warrior PvP Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JTERpWWdMUmI4eE10Nnlxbmhsa1ZFM0ZFTE1mYmFGS2ZoLW9ZUzFTOUNnbUhrR2M3LTVfVC1UYTlFZmNDMHlCeXQtdWZzTExPQUlBb3p4YWJJc0x2cmxtbmlLMTBON1BmRVJN?oc=5",
+   "date": "2026-11-18T23:08:54Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "21ff42e997",
+   "first": "2026-11-18T23:08:54Z",
+   "last": "2026-11-18T23:08:54Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "warrior"
    ],
    "n": 1,
    "official": false,
@@ -291,8 +369,8 @@
    "first": "2026-11-18T17:51:09Z",
    "last": "2026-11-18T17:51:09Z",
    "tags": [
-    "leveling",
-    "classes"
+    "classes",
+    "leveling"
    ],
    "classes": [
     "rogue"
@@ -535,82 +613,6 @@
    "also": []
   },
   {
-   "title": "WoW Forever Engineering Guide 1-300: Leveling Route and Materials",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52R0p5YWlPZTRPZjAycktwb3JMRHRTX2VaR3pkWXR6ZmdSRWVvUU5fbGRiVHVIQXVmMVRHWUstYUJoVTlNRUdsa2ZEWmZSUnJPR0xaWUJNWUYyZXlLcEpEeHJ4YzRvYmVtVXV6Mw?oc=5",
-   "date": "2026-11-18T09:39:12Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "5d8e18048f",
-   "first": "2026-11-18T09:39:12Z",
-   "last": "2026-11-18T09:39:12Z",
-   "tags": [
-    "leveling",
-    "professions"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Blizzard Share More Stats About World Of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOW9FU2h6LWZELWd3OG9rbTFOQXY1Z2NTOXBJNkJGUTVwNEY2QUhZeEVpTDM5MV96M3NxbkVZQXFiUzQ0aXU1SEJOVElhejJKek9mRFAyRndScVh0NmxvSkE3WG14UThoWjVoLXpBZE5rUklEWG80UmRnVlc5Z2JnZzhGNWt1VmRTbEtSV1dYWlhWaXBfWE1oSTl3Y0V4ZWRhNjRCYjllNA?oc=5",
-   "date": "2026-11-18T09:35:17Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "The Otaku's Study",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ef978ea345",
-   "first": "2026-11-18T09:35:17Z",
-   "last": "2026-11-18T09:35:17Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-18T09:03:08Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "59e25fb230",
-   "first": "2026-11-18T09:03:08Z",
-   "last": "2026-11-18T09:03:08Z",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever Hits More Milestones Following Biggest Launch",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHdnSHA0dk1fbDVmMXdNZGMwOXdpSlhYdFBOLUFuOFNKdmFWX21iZjlZQlpCU1g4c1JGcDRUTXdqd09aSkQ5UDB0cllyLS1ieDRyWlJlMnJCUVZ2QnFMaURSYnFBNnlHeDNTQzd2WWFSd3JWVGE4R2ZLQWlFZWlLU09wQnpKZ2pqQjhtSVNDRzZWRUtHWkxjclJ6S3JfcW5fbkE?oc=5",
-   "date": "2026-11-18T08:38:41Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GamerBraves",
-   "icon": "inv_misc_spyglass_03",
-   "id": "26f40978f7",
-   "first": "2026-11-18T08:38:41Z",
-   "last": "2026-11-18T08:38:41Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026",
    "url": "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever",
    "date": "2026-11-18T03:43:47Z",
@@ -838,10 +840,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
-    "hotfix",
     "classes",
-    "professions"
+    "items",
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -881,9 +883,9 @@
    "last": "2026-11-17T02:23:22Z",
    "tags": [
     "leveling",
+    "classes",
     "items",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1311,8 +1313,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -1490,8 +1492,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1530,8 +1532,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1808,8 +1810,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -2024,8 +2026,8 @@
    "last": "2026-11-12T00:52:58Z",
    "tags": [
     "items",
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2082,8 +2084,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "economy",
-    "classes"
+    "classes",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2160,9 +2162,9 @@
     "hotfix"
    ],
    "classes": [
-    "shaman",
+    "hunter",
     "warlock",
-    "hunter"
+    "shaman"
    ],
    "n": 1,
    "official": false,
@@ -2251,8 +2253,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2272,8 +2274,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2390,8 +2392,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "hunter"
+    "hunter",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -2409,9 +2411,9 @@
    "first": "2026-11-10T19:12:35Z",
    "last": "2026-11-10T19:12:35Z",
    "tags": [
+    "classes",
     "items",
-    "hotfix",
-    "classes"
+    "hotfix"
    ],
    "classes": [
     "shaman"
@@ -2486,9 +2488,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "hotfix",
+    "ui",
     "classes",
-    "ui"
+    "hotfix"
    ],
    "classes": [
     "druid"
@@ -2571,8 +2573,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2608,8 +2610,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2946,8 +2948,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -3124,10 +3126,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "leveling",
-    "pvp",
+    "ui",
     "classes",
-    "ui"
+    "pvp",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3147,9 +3149,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "leveling",
     "classes",
-    "raids"
+    "raids",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3505,6 +3507,45 @@
  ],
  "items": [
   {
+   "title": "The hunt for World of Warcraft: Forever secrets continue with the discovery of an elusive pet",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVm1VSGFveU8zOVRSbEIyYXBMSXF1eEx0aGJXNFBYWEZua2tBbldZMkloWXJjOW8xbS04RkUxelZCel81Qzhva2RPOE80Y2ZRRzRtLXY2ODNyM3NCaTNNT3d3TFotYm1Fd0Q0OE1kc18wSjJld3dvM3RMd1l2WG55ZV9XaWhnQQ?oc=5",
+   "date": "2026-11-19T12:35:00Z",
+   "who": "Eurogamer.net",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "The Shaper's Terrace – Complete Dungeon Guide",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmZUMW9keTZ4a0stdHMtVDJ1WDJZZ2JxWFVPWDQtVHZxekdOM1h6TkJrZEJpOGpta096OWt1SllwYU5jTm5WeTU2aE4tSWhQUmNHMWdzUVRUVXhIMzRzS2xoX3NHcTlFLVQ1UkI0VHhmZ1FzaEsyejJrR3lvMDNiMkJWQ3ZQVmJyTHVrSkk2Y3hTRDZhV2NJ?oc=5",
+   "date": "2026-11-19T11:41:31Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever News: Record Player Numbers, Shadow Priest Nerfs, Gold Exploit Punishments, and More!",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMlZPRkRlZW03QjZSb3hOc2Izdloya1UzX0V4SkMyOHd6SHVzQ3NsNHJqb1Z2ZmVsUV9rc2RLNlB0ZWxrbHdqSllsaHBOQktySllRbkF3TDU1TXlaWFRFNHY4QlZzWnZNRk5COTFEREJPcGZYVnNYa1BzdlplMUZZV3BITkRtUnJNZ1R4STBqaTZKUWliUWpZVU5LZUVQOHZtUEVVbmt2d2hxSDVfSU9WTFIwTHY5NDI0ZGRjZkJyM1ZLZ3YwbGlDSHYwbw?oc=5",
+   "date": "2026-11-19T11:35:28Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
+   "classes": [
+    "priest"
+   ]
+  },
+  {
    "title": "WoW Forever November 17 Hotfixes Bring Tougher UBRS and a Shadow Priest Nerf",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1lYaXM4aUoxWm9pQWhWWVFEZWVGWU9TbzllRVVxd0M4SzJzcmFSNUl5LTBhVjBJNk1lNF9PTFR4NkN4UnpGemgtcjFmdGhURmlZSWhSaTBWQ29SSVVUSGR2N3NuTmlrWFRiUHdvY1Jyd3pPelI4QmxKZ3hGaEdEd1l6MzQ5RHM5S0djVXRQa2FQUjZZRnMxOVhEQUl4b1dtdWV5SEVsZ0QzUVZLR1E?oc=5",
    "date": "2026-11-19T05:14:14Z",
@@ -3598,6 +3639,21 @@
    ],
    "classes": [
     "paladin"
+   ]
+  },
+  {
+   "title": "Omnivore's Arms Warrior PvP Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JTERpWWdMUmI4eE10Nnlxbmhsa1ZFM0ZFTE1mYmFGS2ZoLW9ZUzFTOUNnbUhrR2M3LTVfVC1UYTlFZmNDMHlCeXQtdWZzTExPQUlBb3p4YWJJc0x2cmxtbmlLMTBON1BmRVJN?oc=5",
+   "date": "2026-11-18T23:08:54Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "warrior"
    ]
   },
   {
@@ -3857,58 +3913,6 @@
    "tags": [
     "economy"
    ],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever Engineering Guide 1-300: Leveling Route and Materials",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52R0p5YWlPZTRPZjAycktwb3JMRHRTX2VaR3pkWXR6ZmdSRWVvUU5fbGRiVHVIQXVmMVRHWUstYUJoVTlNRUdsa2ZEWmZSUnJPR0xaWUJNWUYyZXlLcEpEeHJ4YzRvYmVtVXV6Mw?oc=5",
-   "date": "2026-11-18T09:39:12Z",
-   "who": "space4games",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "professions"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Blizzard Share More Stats About World Of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOW9FU2h6LWZELWd3OG9rbTFOQXY1Z2NTOXBJNkJGUTVwNEY2QUhZeEVpTDM5MV96M3NxbkVZQXFiUzQ0aXU1SEJOVElhejJKek9mRFAyRndScVh0NmxvSkE3WG14UThoWjVoLXpBZE5rUklEWG80UmRnVlc5Z2JnZzhGNWt1VmRTbEtSV1dYWlhWaXBfWE1oSTl3Y0V4ZWRhNjRCYjllNA?oc=5",
-   "date": "2026-11-18T09:35:17Z",
-   "who": "The Otaku's Study",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-18T09:03:08Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
-   ]
-  },
-  {
-   "title": "World of Warcraft: Forever Hits More Milestones Following Biggest Launch",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHdnSHA0dk1fbDVmMXdNZGMwOXdpSlhYdFBOLUFuOFNKdmFWX21iZjlZQlpCU1g4c1JGcDRUTXdqd09aSkQ5UDB0cllyLS1ieDRyWlJlMnJCUVZ2QnFMaURSYnFBNnlHeDNTQzd2WWFSd3JWVGE4R2ZLQWlFZWlLU09wQnpKZ2pqQjhtSVNDRzZWRUtHWkxjclJ6S3JfcW5fbkE?oc=5",
-   "date": "2026-11-18T08:38:41Z",
-   "who": "GamerBraves",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {

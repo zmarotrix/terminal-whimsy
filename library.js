@@ -436,7 +436,7 @@ function planner(g) {
   return `<section class="kbrun" aria-labelledby="kbrunh">
   <div class="rh"><h3 id="kbrunh">When to start, and what to skip</h3><p>Quest chains by the level you can pick them up. Untick one to skip it, and its steps grey out all through the guide.</p></div>
   <div class="ladder">${lvls.map(lv => `<div class="rung"><span class="lvl" aria-label="Level ${lv}"><small>Level</small>${lv}</span><div class="chains">${rows[lv].map(c => `<button class="chain" type="button" data-chain="${esc(c.id)}" aria-pressed="true" data-tiph="kbc:${esc(c.id)}"><span class="cbox" aria-hidden="true"></span><span class="cn">${esc(c.name)}</span>${cxp[c.id] ? `<span class="cxp">${kxp(cxp[c.id])} XP</span>` : ""}${c.tag ? `<span class="ctag">${esc(c.tag)}</span>` : ""}</button>`).join("")}</div></div>`).join("")}</div>
-  ${(g.before || []).length ? `<div class="before"><p class="lbl">Before you go</p><ul>${g.before.map(b => `<li>${esc(b)}</li>`).join("")}</ul></div>` : ""}
+  ${(g.before || []).length ? `<div class="before"><p class="lbl">Before you go</p><ul>${g.before.map(b => `<li${chAttr(b)}>${inline(b)}</li>`).join("")}</ul></div>` : ""}
 </section>`;
 }
 const foldKey = g => "kb." + g.id + ".fold";

@@ -1164,6 +1164,7 @@ a.islot:hover .ib::after{transform:translateX(120%)}
 .before{align-self:start;padding:.7rem .85rem .8rem;border-radius:10px;background:var(--bg3);border:1px solid var(--rule)}
 .before .lbl{margin-bottom:.4rem;color:var(--gold)}
 .before ul{margin:0;padding-left:1.05rem;display:flex;flex-direction:column;gap:.4rem;font-size:.9rem;color:#d3d7e4}
+.before li.off{opacity:.3;filter:grayscale(1)}
 /* quest and chain cards on hover: name and level, then what you get */
 #tip .kqt{min-width:250px;max-width:350px}
 .kqh{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}

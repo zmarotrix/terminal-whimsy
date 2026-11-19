@@ -251,7 +251,8 @@ function shelf() {
     return `<div class="kslot">
   <div class="stand"><a class="book" href="#kb-${esc(g.id)}" style="--leather:${esc(g.leather || "#5b3a1e")}" aria-label="Open ${esc(g.title)}">
     <span class="pages" aria-hidden="true"></span>
-    <span class="lid"><span class="foil"><span class="emb"><img src="${ICON(g.icon)}" alt=""></span><b>${esc(g.cover[0])}</b><small>${esc(g.cover[1] || "")}</small></span></span>
+    <span class="leaf" aria-hidden="true"><span class="plate"><small>Ex libris</small><b>Terminal Whimsy</b><span class="pl-t">${esc(g.title)}</span></span></span>
+    <span class="lid"><span class="face front"><span class="foil"><span class="emb"><img src="${ICON(g.icon)}" alt=""></span><b>${esc(g.cover[0])}</b><small>${esc(g.cover[1] || "")}</small></span></span><span class="face back" aria-hidden="true"></span></span>
     ${n ? `<span class="ribbon" style="--p:${n / of}" data-tip="${n} of ${of} steps ticked"></span>` : ""}
     ${fresh ? `<span class="newseal" aria-label="New">NEW</span>` : ""}
   </a></div>

@@ -820,21 +820,32 @@ html.ressick main{filter:blur(.6px) saturate(.6);transition:filter 2s}
 .stand::after{content:"";position:absolute;left:0;right:0;bottom:0;height:16px;background:linear-gradient(180deg,#8a5c34 0 2px,var(--wood) 2px 60%,var(--wood2));box-shadow:0 12px 18px -8px rgba(0,0,0,.9)}
 .book{position:relative;display:block;width:156px;height:214px;text-decoration:none;color:var(--gold2);transform-style:preserve-3d;transition:transform .4s cubic-bezier(.2,1.4,.4,1)}
 .book .pages{position:absolute;top:5px;bottom:5px;right:-7px;width:12px;border-radius:0 4px 4px 0;background:repeating-linear-gradient(90deg,#efe4cc 0 1px,#cdbb95 1px 2px);box-shadow:2px 2px 8px rgba(0,0,0,.6)}
-.book .lid{position:absolute;inset:0;overflow:hidden;border-radius:3px 9px 9px 3px;transform-origin:left center;transition:transform .55s cubic-bezier(.5,0,.2,1);
+/* the cover has two faces: leather outside, a marbled endpaper inside; under it, the title page */
+.book .lid{position:absolute;inset:0;z-index:2;transform-origin:left center;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.5,0,.2,1)}
+.book .face{position:absolute;inset:0;overflow:hidden;border-radius:3px 9px 9px 3px;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.book .face.front{
   background:linear-gradient(90deg,rgba(0,0,0,.5) 0 13px,rgba(255,255,255,.1) 13px 15px,transparent 15px),radial-gradient(130% 90% at 30% 15%,color-mix(in srgb,var(--leather) 75%,#fff 14%),var(--leather) 55%,color-mix(in srgb,var(--leather) 55%,#000));
   box-shadow:inset 0 0 0 1px rgba(0,0,0,.6),inset 0 0 22px rgba(0,0,0,.45),0 18px 26px -10px rgba(0,0,0,.95)}
+.book .face.back{transform:rotateY(180deg);border-radius:9px 3px 3px 9px;
+  background:radial-gradient(ellipse 42% 26% at 24% 28%,rgba(122,34,22,.4),transparent 70%),radial-gradient(ellipse 36% 30% at 74% 20%,rgba(42,74,110,.36),transparent 70%),radial-gradient(ellipse 48% 28% at 50% 60%,rgba(176,132,50,.4),transparent 70%),radial-gradient(ellipse 32% 22% at 80% 84%,rgba(122,34,22,.34),transparent 70%),radial-gradient(ellipse 40% 26% at 20% 86%,rgba(42,74,110,.34),transparent 70%),repeating-conic-gradient(from 20deg at 50% 50%,rgba(120,80,30,.07) 0 5deg,transparent 5deg 11deg),#e8dabb;
+  box-shadow:inset 0 0 0 6px color-mix(in srgb,var(--leather) 85%,#000),inset 0 0 0 7px rgba(0,0,0,.5),inset -10px 0 18px rgba(0,0,0,.35)}
+.book .leaf{position:absolute;inset:3px 3px 3px 5px;z-index:1;display:grid;place-items:center;border-radius:2px 7px 7px 2px;background:linear-gradient(90deg,#c9b68e,#efe3c6 9%,#f6eddb 60%,#efe3c6);box-shadow:inset 6px 0 10px -4px rgba(90,60,20,.45),inset 0 0 14px rgba(120,90,40,.2)}
+.book .plate{display:flex;flex-direction:column;align-items:center;gap:.25rem;width:78%;padding:.6rem .4rem .7rem;border:1.5px solid #8a5a2a;outline:1px solid rgba(138,90,42,.45);outline-offset:3px;border-radius:3px;text-align:center;color:#3a2614}
+.book .plate small{font:700 .5rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:#8a5a2a}
+.book .plate b{font:800 .78rem/1.1 var(--f-display);color:#4a1d10}
+.book .plate .pl-t{font:italic 600 .62rem/1.25 var(--f-sans);color:#5b4128}
 .book .foil{position:absolute;inset:12px 12px 12px 22px;border:1.5px solid rgba(242,197,107,.75);border-radius:4px;outline:1px solid rgba(242,197,107,.35);outline-offset:3px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.55rem;padding:.6rem .4rem;text-align:center}
 .book .emb{width:52px;height:52px;border-radius:50%;padding:4px;background:radial-gradient(circle,#3a2a12,#120c05);box-shadow:0 0 0 2px #c9a14e,0 0 0 4px rgba(0,0,0,.6),0 0 16px rgba(242,197,107,.35)}
 .book .emb img{width:100%;height:100%;border-radius:50%;display:block}
 .book .foil b{font:800 1.02rem/1.15 var(--f-display);letter-spacing:.03em;background:linear-gradient(180deg,#fff3c8,#f2c56b 55%,#b9852f);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 1px 0 rgba(0,0,0,.8))}
 .book .foil small{font:700 .58rem/1.2 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:rgba(242,197,107,.8)}
-.book .lid::after{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.22) 50%,transparent 65%);transform:translateX(-120%);transition:transform .7s}
+.book .face.front::after{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.22) 50%,transparent 65%);transform:translateX(-120%);transition:transform .7s}
 .book:hover,.book:focus-visible{transform:translateY(-8px) rotateY(-16deg)}
-.book:hover .lid::after{transform:translateX(120%)}
-.book.opening{transform:translateY(-8px) scale(1.06)}
-.book.opening .lid{transform:rotateY(-155deg)}
-.book .ribbon{position:absolute;top:-6px;right:26px;width:16px;height:calc(28px + var(--p) * 150px);background:linear-gradient(90deg,#9e2a1e,#d2493a,#9e2a1e);clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 8px),0 100%);transition:height .5s;filter:drop-shadow(0 2px 3px rgba(0,0,0,.6))}
-.book .newseal{position:absolute;left:-12px;top:-10px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:800 .62rem/1 var(--f-mono);letter-spacing:.06em;color:#0a0c13;background:radial-gradient(circle at 35% 30%,#fff2b8,var(--gold) 60%,#b9852f);box-shadow:0 3px 8px rgba(0,0,0,.6);transform:rotate(-14deg);animation:sealbob 2.6s ease-in-out infinite}
+.book:hover .face.front::after{transform:translateX(120%)}
+.book.opening{transform:translateY(-10px) scale(1.1);filter:drop-shadow(0 0 18px rgba(242,197,107,.45))}
+.book.opening .lid{transform:rotateY(-158deg)}
+.book .ribbon{position:absolute;z-index:3;top:-6px;right:26px;width:16px;height:calc(28px + var(--p) * 150px);background:linear-gradient(90deg,#9e2a1e,#d2493a,#9e2a1e);clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 8px),0 100%);transition:height .5s;filter:drop-shadow(0 2px 3px rgba(0,0,0,.6))}
+.book .newseal{position:absolute;z-index:3;left:-12px;top:-10px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:800 .62rem/1 var(--f-mono);letter-spacing:.06em;color:#0a0c13;background:radial-gradient(circle at 35% 30%,#fff2b8,var(--gold) 60%,#b9852f);box-shadow:0 3px 8px rgba(0,0,0,.6);transform:rotate(-14deg);animation:sealbob 2.6s ease-in-out infinite}
 @keyframes sealbob{50%{transform:rotate(-8deg) scale(1.08)}}
 .book.ghost{border:2px dashed color-mix(in srgb,var(--dim) 70%,transparent);border-radius:3px 9px 9px 3px;background:repeating-linear-gradient(135deg,transparent 0 10px,rgba(255,255,255,.02) 10px 20px);display:grid;place-items:center;padding:1rem;cursor:pointer;color:var(--dim);font:600 .74rem/1.3 var(--f-mono);letter-spacing:.06em;text-transform:uppercase}
 .book.ghost:hover{transform:translateY(-3px);color:var(--muted);border-color:var(--muted)}

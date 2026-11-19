@@ -1,0 +1,45 @@
+{
+  "_about": "The Library's books. Each guide's text is the Discord posts in data/src/kb/<file>, split by <<<POST>>> lines. Tags after bold or italic text colour it on the site and are stripped from the Discord copy: {q} quest, {n} friendly NPC, {h} hostile, {i} item. 'at' is when the book went on the shelf (it gets a ! until you've seen it).",
+  "guides": [
+    {
+      "id": "brd",
+      "file": "kb/brd-alliance.md",
+      "title": "Ultimate BRD Quest Guide",
+      "cover": ["Blackrock Depths", "Alliance quests"],
+      "kicker": "Blackrock Depths · Alliance · levels 48 to 60",
+      "blurb": "The Alliance BRD quests in two runs, with one trip back to Ironforge in between. First written for Turtle WoW, then checked against Forever.",
+      "call": "917.BRD ALL",
+      "icon": "inv_misc_head_dwarf_01",
+      "art": "img/molten-core.jpg",
+      "credit": "Molten Core · © Blizzard",
+      "leather": "#7a2216",
+      "at": "2026-11-19T00:53:00Z",
+      "checked": "2026-11-18",
+      "unsure": [
+        "BRD wasn't in the Forever beta, so this leans on Forever's quest data and Blizzard's hotfixes more than on anyone's run.",
+        "Nobody has confirmed the Frenzied Black Drake still turns up at Cyrus. If it doesn't, do the Searing Gorge chain.",
+        "The Spectral Chalice needed Mining 230 in Classic. Forever's quest page doesn't say.",
+        "Attunement to the Core is in Forever's quest data, but Molten Core isn't open yet. If Lothos doesn't offer it, it isn't switched on."
+      ],
+      "sources": [
+        {"name": "Warcraft Tavern: Forever BRD quests", "url": "https://www.warcrafttavern.com/forever/guides/blackrock-depths-quests/"},
+        {"name": "Warcraft Tavern: Forever BRD dungeon guide", "url": "https://www.warcrafttavern.com/forever/guides/blackrock-depths/"},
+        {"name": "ConquestCapped: Forever BRD quests", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-blackrock-depths-quests/"},
+        {"name": "ConquestCapped: Forever BRD guide", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-blackrock-depths-guide/"},
+        {"name": "WCLBox Forever database: BRD quests", "url": "https://wowforever.wclbox.com/en/renwu/blackrock-depths"},
+        {"name": "Wowhead Forever: The Love Potion", "url": "https://www.wowhead.com/forever/quest=4201"},
+        {"name": "Wowhead Forever: A Shred of Hope", "url": "https://www.wowhead.com/forever/quest=4282"},
+        {"name": "Wowhead Forever: Jail Break!", "url": "https://www.wowhead.com/forever/quest=4322"},
+        {"name": "Wowhead Forever: Attunement to the Core", "url": "https://www.wowhead.com/forever/quest=7848"},
+        {"name": "Blizzard: Forever hotfixes (Heart of the Mountain, throne room doors)", "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040"},
+        {"name": "Blizzard: Forever raid overview", "url": "https://news.blizzard.com/en-gb/article/24303009/world-of-warcraft-forever-raid-overviewlocations-raid-sizes-and-attunement"},
+        {"name": "Jame's BRD Guide (WoW-Pro, Classic)", "url": "https://www.wow-pro.com/48-60-james-blackrock-depths-guide-brd/"},
+        {"name": "ExpCarry: Forever BRD keys and quest routes", "url": "https://expcarry.com/wow-forever-brd-keys-quest-routes-bosses"},
+        {"name": "warcraft.wiki.gg: Frenzied Black Drake", "url": "https://warcraft.wiki.gg/wiki/Frenzied_Black_Drake"},
+        {"name": "warcraft.wiki.gg: Divine Retribution", "url": "https://warcraft.wiki.gg/wiki/Divine_Retribution"},
+        {"name": "warcraft.wiki.gg: The Challenge", "url": "https://warcraft.wiki.gg/wiki/The_Challenge_(quest)"},
+        {"name": "warcraft.wiki.gg: The Love Potion", "url": "https://warcraft.wiki.gg/wiki/The_Love_Potion"}
+      ]
+    }
+  ]
+}

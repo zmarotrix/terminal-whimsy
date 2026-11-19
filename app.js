@@ -318,7 +318,7 @@ const callBtn = $("#callWisp");
 if (callBtn) callBtn.addEventListener("click", () => { if (!wisp.call()) notice("Blub", "The wisp is at the bottom of the faire pond. Fish it out."); });
 
 /* ---------------- rooms (tabs) ---------------- */
-const ROOMS = ["brief", "changes", "gear", "said", "wire", "sources"];
+const ROOMS = ["brief", "changes", "gear", "said", "wire", "library", "sources"];
 const SECRET = {};      // id -> { open(): bool, locked: room to show instead, tab: label, onShow() }
 function secretTabs() {
   $$(".tabs .secret-tab").forEach(a => a.remove());
@@ -335,6 +335,7 @@ let room = null;
 function go(hash, scroll = true) {
   let id = (hash || "").replace(/^#/, ""), item = null;
   if (id.startsWith("c-")) { item = id; id = "changes"; }
+  if (id.startsWith("kb-")) id = "library";          // a book on the shelf; library.js opens it
   if (!ROOMS.includes(id) && !SECRET[id]) id = id && SECRET.nether ? "nether" : "brief";
   if (SECRET[id] && !SECRET[id].open()) id = SECRET[id].locked || "nether";
   if (id !== room) {
@@ -345,7 +346,7 @@ function go(hash, scroll = true) {
     if (SECRET[id] && SECRET[id].onShow) SECRET[id].onShow();
     if (scroll && !item) scrollTo({ top: 0, behavior: "instant" });
     if (!visited.has(id)) { visited.add(id); store.set("rooms", [...visited]); setTimeout(() => wisp.talk(D.WISP.sections[id]), 600); }
-    if (["brief", "changes", "gear", "said", "wire"].every(r => visited.has(r))) award("end");
+    if (["brief", "changes", "gear", "said", "wire", "library"].every(r => visited.has(r))) award("end");
     hideTip();
     emit("room", id);
   }
@@ -739,6 +740,7 @@ function sources() {
   D.SAID.forEach(s => add({ url: s.url, name: s.title }));
   D.TIER.forEach(s => s.url && add({ url: s.url, name: s.name + " (tier set)" }));
   D.ITEMS.forEach(g => g.url && add({ url: g.url, name: g.name }));
+  (D.KB || []).forEach(g => (g.sources || []).forEach(add));
   $("#srcList").innerHTML = [...all].sort((a, b) => host(a[0]).localeCompare(host(b[0]))).map(([u, n]) => `<li><span class="h">${esc(host(u))}</span><br><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a></li>`).join("");
   $("#srcCount").textContent = all.size;
 }
@@ -757,7 +759,7 @@ function sources() {
 window.TWX = { notice, D, $, $$, esc, ICON, icon, store, award, got, wisp, fx, burst, go, CL, hideTip, who, title, xp, REDUCE, star, emit,
   addRoom(id, r) { SECRET[id] = r; secretTabs(); }, secretTabs, get room() { return room; },
   setClass(k) { myClass = k; store.set("class", k); award("class"); }, get myClass() { return myClass; }, get hot() { return HOT; },
-  get said() { return SAIDALL; }, visit: VISIT, isNew, when };
+  get said() { return SAIDALL; }, get kb() { return D.KB || []; }, visit: VISIT, isNew, when };
 
 /* ---------------- init ---------------- */
 $$("img[src^='img/icons/']").forEach(i => { const k = i.getAttribute("src").slice(10, -4); if (window.TW_ICONS && TW_ICONS[k]) i.src = TW_ICONS[k]; });

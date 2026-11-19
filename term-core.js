@@ -445,7 +445,7 @@ cmd("help", () => html(`<b>Files</b>    ls cd pwd cat less head tail grep find t
 <b>Network</b>  ifconfig ip ping traceroute nslookup dig curl ssh netstat
 <b>Editors</b>  emacs (M-x works anywhere: Alt+x)   vim   nano   ed
 <b>Fun</b>      fortune cowsay figlet lolcat sl cmatrix calc xeyes hack
-<b>Guild</b>    mail raid wire hotfix change said class loot motes seals go /dance /roll /hug /who /played
+<b>Guild</b>    mail raid wire hotfix change said class loot library motes seals go /dance /roll /hug /who /played
 <b>Keys</b>     C-a C-e C-b C-f C-k C-y C-u C-l C-g C-p C-n C-r M-b M-f M-d M-x C-x C-c, Tab, Up/Down
 <span class="dim">man whimsy for the manual. Not every command is listed. Not every file is visible.</span>`));
 cmd("man", a => {
@@ -1214,12 +1214,17 @@ cmd("loot", () => { const r = X.lootRoll ? X.lootRoll(true) : null; return r ? h
 cmd(["look", "examine"], () => html(`You look around. You're in a terminal on the guild's box. <span class="dim">(Somewhere on this machine there's a game with much more to look at.)</span>`), { hidden: true });
 cmd(["go", "open", "xdg-open"], a => {
   const t = (a[0] || "").toLowerCase().replace(/^#/, "");
-  const known = ["brief", "changes", "gear", "said", "wire", "sources", "vault", "darkmoon", "patchnotes", "credits", "graveyard", "nether"];
+  const known = ["brief", "changes", "gear", "said", "wire", "library", "sources", "vault", "darkmoon", "patchnotes", "credits", "graveyard", "nether"];
   const r = known.find(k => k.startsWith(t));
   const bi = !r && X.bag && a.length ? X.bag.find(a.join(" ")) : null;     // open bottle, open shell
   if (bi) return html(X.bag.term(bi));
-  if (!t || !r) return `places: brief, changes, gear, said, wire, sources (and some you'll have to earn)`;
+  if (!t || !r) return `places: brief, changes, gear, said, wire, library, sources (and some you'll have to earn)`;
   location.hash = r; setTimeout(closeCon, 200); return "";
+});
+cmd(["library", "guides", "books"], () => {
+  const K = D.KB || [];
+  if (!K.length) return "The shelf is empty. Someone should write something.";
+  return html(K.map(g => `<a href="#kb-${esc(g.id)}">${esc(g.title)}</a>  <span class="dim">${esc(g.kicker)}</span>`).join("\n") + `\n<span class="dim">Type  go library  to walk over to the shelf.</span>`);
 });
 cmd("faire", () => { if (!flags.ticket) return "A gnome at the gate asks for your ticket. You don't have one."; flag("darkmoon"); award("faire"); X.secretTabs(); setTimeout(() => { location.hash = "darkmoon"; closeCon(); }, 700); return "The gnome punches your ticket. The Darkmoon Faire opens before you..."; });
 const THEMES = { green: () => true, amber: () => store.get("vault", false), ice: () => store.get("vault", false), fel: () => store.get("vault", false), gold: () => store.get("motes", []).length >= 7, paper: () => Object.keys(X.got).length >= 30 };

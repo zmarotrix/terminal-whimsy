@@ -35,6 +35,7 @@ const ROOMS = {
   said: { list: () => X.said, tip: n => plural(n, "new post", "new posts") + " from Blizzard since your last visit" },
   changes: { list: () => X.hot, tip: n => plural(n, "new hotfix", "new hotfixes") + " since your last visit" },
   wire: { list: () => stories || [], tip: n => plural(n, "new headline", "new headlines") + " since your last visit" },
+  library: { list: () => X.kb || [], tip: n => plural(n, "new guide", "new guides") + " on the shelf" },
 };
 function mark(el, n, tip) {
   let m = $(".qmark", el);

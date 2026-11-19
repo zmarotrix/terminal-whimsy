@@ -1,6 +1,7 @@
 """Build data.js (everything the page shows except The Wire) and icons.js (every icon it uses, inlined).
 
-Inputs: data/src/changes.json, gear.json, official.json (research) + tools/curated.py (hand-written parts).
+Inputs: data/src/changes.json, gear.json, official.json (research), kb.json + kb/*.md (the Library's guides)
+        + tools/curated.py (hand-written parts).
   python tools/build_data.py
 """
 import base64, io, json, os, re, sys
@@ -138,6 +139,21 @@ for f in json.load(open(os.path.join(HERE, "feeds.json"), encoding="utf-8"))["fe
     if f.get("icon"):
         use(f["icon"])
 
+# ---------- the Library: guides as books (data/src/kb.json + the Discord posts they're written as) ----------
+KB = []
+for g in load("kb.json")["guides"]:
+    g = {k: v for k, v in g.items() if not k.startswith("_")}
+    txt = open(os.path.join(ROOT, "data", "src", g.pop("file")), encoding="utf-8").read().replace("\r\n", "\n")
+    g["posts"] = [p.strip("\n") for p in txt.split("<<<POST>>>") if p.strip()]
+    for p in g["posts"]:                    # Discord's limit is per message; tags don't count, they're stripped
+        n = len(re.sub(r"\{[qnhi]\}", "", p))
+        if n > 2000:
+            sys.exit("kb %s: a post is %d characters, over Discord's 2,000" % (g["id"], n))
+    use(g["icon"])
+    KB.append(g)
+for i in ["inv_misc_book_07", "inv_misc_horn_01", "inv_misc_book_11", "inv_crown_01", "spell_fire_fire", "spell_nature_sleep"]:
+    use(i)
+
 MUST = []
 for m in C.MUST:
     m = dict(m)
@@ -147,7 +163,7 @@ for m in C.MUST:
 doc = {
     "HERO_CMD": C.HERO_CMD, "LEDE": C.LEDE, "COUNTDOWNS": C.COUNTDOWNS, "CLASSES": C.CLASSES, "AREAS": C.AREAS,
     "TOPICS": C.TOPICS, "ACH": C.ACH, "MUST": MUST, "ROAD": C.ROAD, "ROAD_TLDR": C.ROAD_TLDR,
-    "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "TIPS": {},
+    "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "KB": KB, "TIPS": {},
 }
 with open(os.path.join(ROOT, "data.js"), "w", encoding="utf-8", newline="\n") as f:
     f.write("/* Built by tools/build_data.py from data/src/*.json + tools/curated.py. Don't edit by hand. */\n")

@@ -260,6 +260,11 @@ ACH = {
     "hotread": {"n": "Patch Notes Enjoyer", "d": "Opened the hotfix log.", "i": "inv_misc_wrench_01", "cat": "Briefing"},
     "raidnight": {"n": "It's Raid Night", "d": "Visited on 9 December.", "i": "achievement_boss_onyxia", "cat": "Briefing"},
     "caughtup": {"n": "Caught Up", "d": "Cleared the ! from every tab that had one.", "i": "inv_misc_note_06", "cat": "Briefing"},
+    # library.js: the guides
+    "kbopen": {"n": "Library Card", "d": "Opened a guide in the Library.", "i": "inv_misc_book_07", "cat": "Briefing"},
+    "kbcopy": {"n": "Town Crier", "d": "Copied part of a guide for Discord.", "i": "inv_misc_horn_01", "cat": "Briefing"},
+    "kbdone": {"n": "Required Reading", "d": "Ticked off every step of a guide.", "i": "inv_misc_book_11", "cat": "Briefing"},
+    "moira": {"n": "Royal Pardon", "d": "Ticked the step where Princess Moira lives.", "i": "inv_crown_01", "cat": "Briefing"},
     # ---- Whimsy: the wisp, the motes, the page ----
     "wisp": {"n": "Wisp Whisperer", "d": "Poked the wisp five times. It liked it.", "i": "spell_nature_starfall", "cat": "Whimsy", "secret": True},
     "wrangler": {"n": "Wisp Wrangler", "d": "Dragged the wisp somewhere new.", "i": "spell_holy_mindvision", "cat": "Whimsy", "secret": True},
@@ -285,6 +290,8 @@ ACH = {
     "critters": {"n": "To All the Critters", "d": "Loved a rabbit, a squirrel, a toad and a rat.", "i": "inv_misc_flower_02", "cat": "Whimsy", "secret": True},
     "bannermurloc": {"n": "Fish Out of Water", "d": "Caught the murloc that wanders the banners, and loved it.", "i": "inv_misc_head_murloc_01", "cat": "Whimsy", "secret": True},
     "lost": {"n": "Off the Map", "d": "Found a page that doesn't exist.", "i": "spell_shadow_teleport", "cat": "Whimsy", "secret": True},
+    "candle": {"n": "Candlesnuffer", "d": "Blew out the library candle. The wisp lit it again.", "i": "spell_fire_fire", "cat": "Whimsy", "secret": True},
+    "dustbunny": {"n": "Bless You", "d": "Woke the dust bunny on the empty shelf.", "i": "spell_nature_sleep", "cat": "Whimsy", "secret": True},
     # ---- Terminal ----
     "term": {"n": "Hello, World", "d": "Opened the hidden terminal.", "i": "inv_misc_enggizmos_20", "cat": "Terminal", "secret": True},
     "notfound": {"n": "Command Not Found", "d": "Typed something the terminal didn't know.", "i": "inv_misc_questionmark", "cat": "Terminal", "secret": True},
@@ -501,6 +508,7 @@ WISP = {
         "said": "> what blizzard said, with receipts. click a line to read it.",
         "wire": "> new headlines a few times a day. gold means blizzard said it.",
         "sources": "> every claim links somewhere. trust, but verify.",
+        "library": "> shh. library rules. tick the steps as you go and i'll keep your place.",
     },
     # poke tips, in order from the second poke. News first; refresh these when the news moves on (last: 18 Nov).
     # Keep the hunt's hints where they are: the guild's-middle-name hint is the 8th poke.
@@ -564,6 +572,20 @@ WISP = {
         },
         "critter": ["> a {k}. don't pull it.", "> {k} spotted. not on the loot table.", "> leave the {k} alone. (pet it.)", "> no aoe near the {k}, please."],
         "murloc": ["> was that a murloc? in my banner?", "> mrgl. i don't speak it either."],
+        # library.js: the guides on the shelf
+        "kb": {
+            "open": ["> brd. pack a lunch. it's a long one.", "> good pick. bring water. a lot of water.", "> two runs and one trip home. i've read ahead."],
+            "tick": ["> one down.", "> ticked. i saw.", "> the dwarves are getting nervous."],
+            "part": ["> that's a whole part. repair your gear.", "> part done. bio break earned."],
+            "done": ["> every step ticked. go hand in some quests.", "> finished! the dwarves will be talking about you."],
+            "moira": ["> the princess lives. magni owes you one.", "> moira lives. good. she was very clear about that."],
+            "copy": ["> ready to paste. one part per message, discord stops at 2,000 characters.", "> copied. it's one discord message. headers and all."],
+            "reset": ["> fresh run. same dwarves.", "> ticks wiped. the dwarves won't remember either."],
+            "snuff": ["> hey! who did that?", "> it's dark. i'm scared of nothing. (the bell.)"],
+            "relight": ["> fine. i'll be the candle.", "> lit it myself. i'm basically a candle with opinions."],
+            "dust": ["> bless you. (that was the dust bunny, not me.)", "> it sneezed. it's fine. it does that."],
+            "ghost": ["> that shelf's empty. write a guide and it moves in.", "> nothing there yet. post a guide in discord."],
+        },
         "wake": ["> mm. i was resting my eyes.", "> oh! hi. i was guarding the page. with my eyes shut."],
         "hungry": ["> snack break. the motes up top look tasty.", "> a bit peckish. back in a second."],
         "nom": ["> nom. banner motes taste like starlight.", "> crunchy. a bit arcane."],
@@ -577,6 +599,7 @@ WISP = {
             "gear": ["> i'd wear tier 1. if i had shoulders.", "> stats are secret. i've tried asking.", "> the soulforge tank set has spell power now. paladins, take note."],
             "said": ["> gold means blizzard said it.", "> receipts. i love receipts.", "> blue names are blizzard staff. kaivax writes a lot of these."],
             "wire": ["> fresh headlines. the gold ones are blizzard's.", "> lots of people talking. blizzard's posts are the gold ones."],
+            "library": ["> library voice, please. (i don't have one either.)", "> the princess lives in this one. i checked the ending.", "> more books soon. the shelf is patient.", "> yellow is quests, green is friends, red is trouble."],
             "darkmoon": ["> i know this pond. personally.", "> the fish here know me by name."],
             "vault": ["> my memories. skip the embarrassing ones."],
             "nether": ["> it's very empty in here. i like it."],

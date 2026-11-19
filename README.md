@@ -19,6 +19,8 @@ A guild guide to World of Warcraft: Forever: everything Blizzard has said, every
   - `data/src/changes.json`: changes from Classic, with confidence and sources
   - `data/src/gear.json`: tier sets, crafted pieces and other items
   - `tools/curated.py`: the hand-written parts (must-know list, roadmap, class notes, fixes)
+  - `data/src/kb.json` + `data/src/kb/*.md`: the Library's guides (see below)
+- `library.js`: the Library, the guild's knowledge base. Each guide is a book on the shelf; opening it shows the steps with tick boxes (saved in the visitor's browser) and a "Copy for Discord" button per part.
 - `icons.js`: every icon the page uses, inlined. Built by the same script from `img/icons/`.
 - `data/news.json`: The Wire. `tools/fetch_news.py` reads the sources in `tools/feeds.json`, keeps Forever stories, and merges them with the last run.
 - `data/hotfixes.json`: the hotfix log. `tools/hotfixes.py` reads Blizzard's hotfix thread on the forums and splits every post into one line per change, with its section, class and developer notes.
@@ -30,6 +32,10 @@ A guild guide to World of Warcraft: Forever: everything Blizzard has said, every
 
 - New Blizzard statement or change: add it to the JSON in `data/src/`, run `python tools/build_data.py`, commit.
 - New news source: add it to `tools/feeds.json` and run `python tools/fetch_news.py --dry` to check it.
+- New or updated guide: a guide is written as Discord posts, one per part, separated by a line that says `<<<POST>>>`, in `data/src/kb/<name>.md`. Add its details (title, cover, art, sources, the things nobody has confirmed yet) to `data/src/kb.json`, then run `python tools/build_data.py`. The build stops if a part is over Discord's 2,000 characters.
+  - Optional tags right after bold or italic text colour it on the site: `{q}` quest, `{n}` friendly NPC, `{h}` hostile, `{i}` item. For example `**Marshal Windsor**{q}`. The copy button strips them, so the Discord text stays clean.
+  - A numbered bold line (`**3. Marshal Windsor** ...`) is a step with a tick box, and the bullets under it are its details. A bullet that isn't under a numbered line is a step of its own. A line starting with ⚠️ becomes a raid warning.
+  - Tick boxes are saved per step, by part and step number. Renumbering a part's steps resets those ticks for people mid-run, so avoid it once a guide is in use.
 
 ## The terminal (spoilers below)
 

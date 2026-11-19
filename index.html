@@ -9,7 +9,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 58 12v20c0 15-11 25-26 29C17 57 6 47 6 32V12z' fill='%2310131d' stroke='%23f2c56b' stroke-width='3'/%3E%3Cpath d='M19 24l9 8-9 8' fill='none' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M32 41h13' stroke='%237cf29a' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Cinzel:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=a1c93de4">
+<link rel="stylesheet" href="site.css?v=83117049">
 </head>
 <body>
 <!--
@@ -26,6 +26,7 @@
     <a href="#gear" data-room="gear"><img src="img/icons/inv_helmet_09.png" alt="">Gear</a>
     <a href="#said" data-room="said"><img src="img/icons/inv_scroll_03.png" alt="">Blizzard said</a>
     <a href="#wire" data-room="wire"><img src="img/icons/inv_letter_15.png" alt="">The Wire</a>
+    <a href="#library" data-room="library"><img src="img/icons/inv_misc_book_07.png" alt="">Library</a>
   </nav>
   <button class="xp" type="button" aria-label="Achievements"><span class="xpbar"><i></i></span><span class="v"></span></button>
 </header>
@@ -66,6 +67,7 @@
       <a class="door" href="#gear" style="--img:url(img/thanes.jpg);--tint:var(--lilac)"><b>Gear</b><span>Try on the new Tier 1 sets</span><i class="n" data-count="gear"></i></a>
       <a class="door" href="#said" style="--img:url(img/lordaeron.jpg);--tint:var(--butter)"><b>Blizzard said</b><span>What Blizzard has posted, with links</span><i class="n" data-count="said"></i></a>
       <a class="door" href="#wire" style="--img:url(img/gilneas-map.jpg);--tint:var(--sky)"><b>The Wire</b><span>Headlines, pulled in a few times a day</span><i class="n" data-count="wire"></i></a>
+      <a class="door wide" href="#library" style="--img:url(img/molten-core.jpg);--tint:var(--rose)"><b>The Library</b><span>Guides we've written, starting with the Alliance BRD quests in two runs</span><i class="n" data-count="library"></i></a>
     </div>
   </div>
 </section>
@@ -148,6 +150,13 @@
   </div>
 </section>
 
+<!-- ================= LIBRARY ================= -->
+<section class="room" id="library" data-room="library" hidden>
+  <div class="banner lib"><div class="art"></div><div class="wrap cap"><h2>The Library</h2><p>The guild's knowledge base. Guides we've written, checked against Forever.</p></div><span class="credit" hidden></span><button class="candle" type="button" aria-label="The library candle"><i class="wax"></i><i class="wick"></i><i class="flame"></i></button></div>
+  <div class="wrap" id="kbShelf"></div>
+  <div class="wrap" id="kbBook" hidden></div>
+</section>
+
 <!-- ================= SOURCES ================= -->
 <section class="room" id="sources" data-room="sources" hidden>
   <div class="wrap" style="padding-top:2.5rem">
@@ -174,12 +183,13 @@
 <script src="config.js?v=e650831c"></script>
 <script src="log.js?v=ab76afca"></script>
 <script src="icons.js?v=fc183564"></script>
-<script src="data.js?v=6de112b4"></script>
+<script src="data.js?v=8881f171"></script>
 <script src="term-data.js?v=1f7dc9fb"></script>
-<script src="app.js?v=147d9eb4"></script>
+<script src="app.js?v=cbbe5d6f"></script>
 <script src="whimsy.js?v=1efd03ee"></script>
-<script src="world.js?v=5c0ff388"></script>
-<script src="term-core.js?v=a4c6f01f"></script>
+<script src="world.js?v=f9b6a663"></script>
+<script src="library.js?v=c0553d44"></script>
+<script src="term-core.js?v=472eabde"></script>
 <script src="term-emacs.js?v=834c5890"></script>
 <script src="term-adv.js?v=9b673aaa"></script>
 <script src="secret.js?v=1b56d5ba"></script>

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:57:40Z",
+ "updated": "2026-11-20T21:09:33Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,207 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
+   "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
+   "date": "2026-11-20T20:51:19Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The stats for the crafted versions of Tier Set gear from the first raid tier have been revealed in a hotfix to Forever! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "4f87808d40",
+   "first": "2026-11-20T20:51:19Z",
+   "last": "2026-11-20T20:51:19Z",
+   "tags": [
+    "raids",
+    "hotfix",
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Layer Hopping Functionality Will Be Reduced for Addons in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/layer-hopping-functionality-will-be-reduced-for-addons-in-wow-forever/",
+   "date": "2026-11-20T16:21:03Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "Senior Software Engineer Daniel Yates, AKA Meorawr, has posted some API changes in the WoWUIDev Discord that will limit addons’ ability to send you to a specific layer. The changes will block several addon workarounds for finding and switching to specific…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "3b39b75141",
+   "first": "2026-11-20T16:21:03Z",
+   "last": "2026-11-20T19:00:55Z",
+   "tags": [
+    "ui",
+    "realms",
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-20T19:00:55Z"
+    }
+   ]
+  },
+  {
+   "title": "WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly",
+   "url": "https://news.blizzard.com/en-us/article/24317681/wow-forever-class-design-echoes-of-the-worldcore-and-more-in-wow-weekly",
+   "date": "2026-11-20T18:00:00Z",
+   "label": "official",
+   "source": "Blizzard News",
+   "summary": "From the WoW: Forever Podcast's focus on class design to the December 1 arrival of Midnight: Echoes of the Worldcore, Talebound's macabre rewards, Mythic 2/6 gear in the Labyrinth of Kino'jan, and the World of Warcraft 22nd Anniversary Celebration, this…",
+   "icon": "inv_letter_15",
+   "id": "7650785ab6",
+   "first": "2026-11-20T18:00:00Z",
+   "last": "2026-11-20T18:00:00Z",
+   "tags": [
+    "classes",
+    "story",
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": true,
+   "also": []
+  },
+  {
+   "title": "Blizzard Addresses Spellpower Gear & the Healer Shortage in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-spellpower-gear-and-the-healer-shortage-in-wow-forever/",
+   "date": "2026-11-19T17:53:00Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "The very first topics covered in the latest episode of the WoW Forever Podcast are regarding casters and healers, who players feel have recieved the short end of the stick while leveling so far. Principal Designer Kris Zierhut stated that the developers are…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "c11d8c1155",
+   "first": "2026-11-19T17:53:00Z",
+   "last": "2026-11-20T17:00:46Z",
+   "tags": [
+    "story",
+    "items",
+    "classes",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 3,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-20T00:42:07Z"
+    },
+    {
+     "title": "World of Warcraft Forever talks class balance, itemization, and the healer shortage",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1BXTGVHMnpVMGRoY3VwOEJ6UXFlVHNYXzQ5ZF82cEp4dkxMZUdjY2Riam9wLWhULVVzTFBzVUhla1pIOWFVM3VwcnJXT3ZwcnVxS1hlTjBaQ1U5WXFxT01OM3VQUUtXcmlpS29JZ3NCQ0tKMG1icnFhY0Y1Vjd3T3JzYW9KZ0RKQXY1U01UVWxUb3RXWHJPVlhZeUJ5Vk9MYTdDU0g2NzFWWHJZTkdWRF9Pc0FmT0FE?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-20T17:00:46Z"
+    }
+   ]
+  },
+  {
+   "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
+   "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+   "date": "2026-11-20T16:00:00Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Completing a quest in one of the new WoW: Forever dungeons will make future runs go a bit smoother: you'll gain a key to unlock doors leading to a final boss shortcut! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "c33c7c79ba",
+   "first": "2026-11-20T16:00:00Z",
+   "last": "2026-11-20T16:00:00Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
+   "date": "2026-11-20T15:00:00Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Here are all the quests for the level 30 to 40 dungeons to help you level faster in WoW: Forever! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "a740957d39",
+   "first": "2026-11-20T15:00:00Z",
+   "last": "2026-11-20T15:00:00Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever Graphics Settings: Presets, HD Models and Options",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90Q2VzX1Q0U0FDUWE0YjhtR1RadFFoNHdRSGozS29xejdhTGpDWHEzZVROanF6dUZmblY2TkpOakZCTEp3b2VwVXJMYXZrSWJpeVRnRzlfSFh4eFdvMENXalpyd3dfN1ZKc1hEWFFaaGI3aUVl?oc=5",
+   "date": "2026-11-20T14:43:28Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "c9ea1715eb",
+   "first": "2026-11-20T14:43:28Z",
+   "last": "2026-11-20T14:43:28Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever reveals huge player stats after record-breaking launch",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaEtmUHdxMUhZSV83Vlg1MUZqem1RTzZKaFE4OWhRZjJ4X3A3MWRhZ2xtNTNjNXBNZ2VhWTVPeXE5SjlXZUpBcWxQQ3BfS3Y1TjlfRFRMSEdGQi1QZkRGQUF0TkNVTERkeW13bFlKWkN2UG4xZ1piOGNCY0hONWkza1p2d3BiekphUjk5dU9GQUlIZXRZQWZQSVhielNRcDlnbnhWT05fRjh5R1gtZjhVcGh2MA?oc=5",
+   "date": "2026-11-20T14:38:39Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "KitGuru",
+   "icon": "inv_misc_spyglass_03",
+   "id": "7ddb00b0e3",
+   "first": "2026-11-20T14:38:39Z",
+   "last": "2026-11-20T14:38:39Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "World of Warcraft Forever explains the differences in its PvP ranking structure",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVnR4Q3ZYcHhXZm5rT1FnaFhReW0tREdUYVY0WFdiNlMxaGlLbWFsbm5MVVo3UzY0cnlNS1lVOF9xWTFCcnU2ZW43NjU0T2JDUzQwQ1ZjckNSZFpoQzUyTXlLUjc0NlhMMTZVT2FtZWlITURuNENkTHNJUFhwMks5WEhfejlfd3AtV3BVQ091S2FZZjd5ZkRDcTRQWGVyMWxSLXZpNzI1TDVUekw1S19RNm5aWks1Zw?oc=5",
+   "date": "2026-11-20T14:00:27Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Massively Overpowered",
+   "icon": "inv_misc_spyglass_03",
+   "id": "ae44b79fe6",
+   "first": "2026-11-20T14:00:27Z",
+   "last": "2026-11-20T14:00:27Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQcEsyV3NYRlY2eEZfemlLamd4WG1GY3FLMDJnLU16SmF6MXkxNmNzQWJ3cWp1NVhnME05Q1gtRXVqakVpQUF6elI4MTF5VVJybXBzTVJlSjZoRFIzcllkVWdIcjFmeTN0eFhCNWp0QS1KNGx3ZnFQMnlIc0pGS2F3SlBVd1ZBU3lCWlRyUTRRaFlkbnhKUjhZVlhxNkpkRTU2Q28tM21zeUUwRUV3NHhnT0ZIVHFKYkpQQmMyVmg3eUVFZGVXX0VEbVJBYzRJY2g2TFlGajEweE0tc1cwVmQ5cHFBMlZZMkxCX2V6MzJDWWo5WDQwVk9rajFjQjl3QVFMaHl2ejIxNFJZYUZGemNJM2t0SzQ?oc=5",
@@ -93,15 +294,35 @@
   {
    "title": "World of Warcraft: Forever is getting a record number of players each week",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUDRhYUhLSTVfSzRiLXNLUVlfc3JzUVZFdk93QlF2RGpoVFd2QjFHeG10c21EelROMnlTNnBHMFp3dnkwcXRaYnZnWlVhZEFRNUgzREY0M2FBN1ZxM2w1VFFpZE12My1DanBwOHNnVXdmd0JfSE41V3p6aTUwRlZDckZMdWpvS201Y0hxU2tkdTUtM1Jxc0pvRjVBaTlvREY2ZEdPVUVkME14WkZGYnVEWmRVYVdjUXpwZ0hTTldyV1A?oc=5",
-   "date": "2026-11-20T11:07:46Z",
+   "date": "2026-11-20T11:07:07Z",
    "label": "press",
    "source": "Google News",
    "who": "Instant Gaming News",
    "icon": "inv_misc_spyglass_03",
    "id": "de4030e78e",
-   "first": "2026-11-20T11:07:46Z",
-   "last": "2026-11-20T11:07:46Z",
+   "first": "2026-11-20T11:07:07Z",
+   "last": "2026-11-20T11:07:07Z",
    "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever News: Gold Exploit, AH Deposit and Weekly Hotfixes",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82aXlpd2tpTGZiY1RTdE1fV1dmcmFpQ1hmMFl3RU9sczQzNmJyOFg0Yy0zMXNpZ1FxT0lVRzZLaEl6TkVjV0hyS3lmaHZUWVR6bDdMQWJqclZLbWc4eWxXVGFGR09FejIwZ05NS2JrdGI0dw?oc=5",
+   "date": "2026-11-20T09:51:45Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "9568e65c4c",
+   "first": "2026-11-20T09:51:45Z",
+   "last": "2026-11-20T09:51:45Z",
+   "tags": [
+    "economy",
+    "hotfix"
+   ],
    "classes": [],
    "n": 1,
    "official": false,
@@ -164,12 +385,12 @@
    ]
   },
   {
-   "title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
+   "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
    "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
    "date": "2026-11-20T04:35:14Z",
    "label": "press",
    "source": "Wowhead",
-   "summary": "Skyborne now get a 10% reputation discount for mounts in WoW: Forever when they hit Honored. Get your Runecloth turn-ins ready! Continue reading »",
+   "summary": "All Skyborne now get a 10% discount on mounts in WoW: Forever, regardless of reputation. Continue reading »",
    "icon": "inv_misc_book_09",
    "id": "88b0748bd0",
    "first": "2026-11-20T04:35:14Z",
@@ -196,36 +417,6 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "Blizzard Addresses Spellpower Gear & the Healer Shortage in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-spellpower-gear-and-the-healer-shortage-in-wow-forever/",
-   "date": "2026-11-19T17:53:00Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "The very first topics covered in the latest episode of the WoW Forever Podcast are regarding casters and healers, who players feel have recieved the short end of the stick while leveling so far. Principal Designer Kris Zierhut stated that the developers are…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "c11d8c1155",
-   "first": "2026-11-19T17:53:00Z",
-   "last": "2026-11-20T00:42:07Z",
-   "tags": [
-    "items",
-    "story",
-    "leveling"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-20T00:42:07Z"
-    }
-   ]
   },
   {
    "title": "WoW Forever sets 15-year record for highest weekly players",
@@ -373,8 +564,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -567,21 +758,29 @@
    "also": []
   },
   {
-   "title": "World of Warcraft Forever sees over 15 million characters created so far",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdE85THhrcldWaVpZTXZJaW9pRjVJVDQ0NjFIbV9tWWl4ZFpoa04tVFRtUkp3SkxHY3had1g0ZGl5dXlHQjBzY29lMTRjOXVzMndXc1FUUl9LT1M3SjV0WkJBR3hoalVueUkwX25WQmN0V0haWElEd25wZDR1YnA5Yk1QOG9KYXlaZG1SaGEzNHN2TldIeVpYMDBBZ2lJUm5LYlBLaHF3R0R5cVRW?oc=5",
-   "date": "2026-11-19T14:00:02Z",
+   "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
+   "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
+   "date": "2026-11-18T00:04:50Z",
    "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "afc9dc7efe",
-   "first": "2026-11-19T14:00:02Z",
+   "source": "Wowhead",
+   "summary": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "eeb20a197d",
+   "first": "2026-11-18T00:04:50Z",
    "last": "2026-11-19T14:00:02Z",
    "tags": [],
    "classes": [],
-   "n": 1,
+   "n": 2,
    "official": false,
-   "also": []
+   "also": [
+    {
+     "title": "World of Warcraft Forever sees over 15 million characters created so far",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdE85THhrcldWaVpZTXZJaW9pRjVJVDQ0NjFIbV9tWWl4ZFpoa04tVFRtUkp3SkxHY3had1g0ZGl5dXlHQjBzY29lMTRjOXVzMndXc1FUUl9LT1M3SjV0WkJBR3hoalVueUkwX25WQmN0V0haWElEd25wZDR1YnA5Yk1QOG9KYXlaZG1SaGEzNHN2TldIeVpYMDBBZ2lJUm5LYlBLaHF3R0R5cVRW?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-19T14:00:02Z"
+    }
+   ]
   },
   {
    "title": "The hunt for World of Warcraft: Forever secrets continue with the discovery of an elusive pet",
@@ -672,112 +871,21 @@
    "also": []
   },
   {
-   "title": "WoW Forever November 17 Hotfixes Bring Tougher UBRS and a Shadow Priest Nerf",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1lYaXM4aUoxWm9pQWhWWVFEZWVGWU9TbzllRVVxd0M4SzJzcmFSNUl5LTBhVjBJNk1lNF9PTFR4NkN4UnpGemgtcjFmdGhURmlZSWhSaTBWQ29SSVVUSGR2N3NuTmlrWFRiUHdvY1Jyd3pPelI4QmxKZ3hGaEdEd1l6MzQ5RHM5S0djVXRQa2FQUjZZRnMxOVhEQUl4b1dtdWV5SEVsZ0QzUVZLR1E?oc=5",
-   "date": "2026-11-19T05:14:14Z",
+   "title": "WoW Forever World Buffs: Might of Stormwind and Warchief's Blessing",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IeDd4Y28tNzFFbGlyZU4zQmQ1YkYzakJJdmttbExWMFpxRXY3Y2xoakh5OV9icWQxa0xPc0c0M3o5cThid1VnRjFSTEgyQXRyNUlPMTYzZ2tqUlhrMkVqd1NueXc5V3ZndmNuYw?oc=5",
+   "date": "2026-11-19T10:17:03Z",
    "label": "press",
    "source": "Google News",
-   "who": "MMOEXP",
+   "who": "space4games",
    "icon": "inv_misc_spyglass_03",
-   "id": "7aacb25c06",
-   "first": "2026-11-19T05:14:14Z",
-   "last": "2026-11-19T05:14:14Z",
-   "tags": [
-    "hotfix"
-   ],
-   "classes": [
-    "priest"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
-   "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
-   "date": "2026-11-18T00:04:50Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "eeb20a197d",
-   "first": "2026-11-18T00:04:50Z",
-   "last": "2026-11-19T02:04:46Z",
+   "id": "ada26627e5",
+   "first": "2026-11-19T10:17:03Z",
+   "last": "2026-11-19T10:17:03Z",
    "tags": [],
    "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "Over 15.16 Million Characters Created in WoW: Forever as Weekly Active Players Hit 15-Year High",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWDFRYThNSlA2WVg5WHd2SXpBMzNsUUZiMzYxcGhQMDRlNkFsQTFiQ0JFRkk3RG1KaXdERGh5bFhNRGtSRmhLUG9ZczRPRzJVLWRxLUgxcEFsMlUzbWVZWEx5Z0V6VzVSbGRIUzFQZWdfb25lOHRFVXlkSTJRc1Bkc0U1czIwNEZpbGVKX2EyZ2xxOFIwMGwwdzNGeTJBdHZVdkZLMjdhTlIzS0pxeWZjdEpjaWsxNEVJZm1KUEppUzBueExGNExoekI0R1RkVVdqZ0E?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-19T02:04:46Z"
-    }
-   ]
-  },
-  {
-   "title": "WoW Forever Leveling Guide: Best Cheap Enchants, Auction House Gear & Fast 1–20 Tips",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNHJfQlpISnhqclhRT1FnQzNtY1Jrd1ZWTG5TVExINkxPcFdMWVFjZE81VDh0MmhibG9TSkQ3R28zSXlZQ1M3TUo2cXY2QjFMV19BOWRWLWdyMzc5aE85ZWxSQjdTbjg5azV6NTFlWHM3XzlHb2h2Z0s0c051c0tTNjNybzMtTmh5anVFaEdKN2lEYkVQRkNXbGttSFRrNmdlODI0bTRhUlRDNGlTLVA5YkdQaw?oc=5",
-   "date": "2026-11-19T01:35:38Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "MMOEXP",
-   "icon": "inv_misc_spyglass_03",
-   "id": "cc8872f482",
-   "first": "2026-11-19T01:35:38Z",
-   "last": "2026-11-19T01:35:38Z",
-   "tags": [
-    "items",
-    "leveling",
-    "economy"
-   ],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
-   "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
-   "date": "2026-11-18T18:03:36Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "9b69e6b347",
-   "first": "2026-11-18T18:03:36Z",
-   "last": "2026-11-19T01:31:03Z",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [],
-   "n": 4,
-   "official": false,
-   "also": [
-    {
-     "title": "Honor Rewards and Battlegrounds in World of Warcraft: Forever",
-     "url": "https://www.mmo-champion.com/content/14705-Honor-Rewards-and-Battlegrounds-in-World-of-Warcraft-Forever",
-     "source": "MMO-Champion",
-     "label": "press",
-     "date": "2026-11-18T20:41:00Z"
-    },
-    {
-     "title": "New WoW Forever Video: Honor Rewards & Battlegrounds",
-     "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-video-honor-rewards-battlegrounds/",
-     "source": "Warcraft Tavern",
-     "label": "press",
-     "date": "2026-11-18T23:47:07Z"
-    },
-    {
-     "title": "WoW Forever Honor Rewards & Battlegrounds: How the New PvP System Works",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMTFEZDRRYUNuMC1vdGlhTjhncUNsVWM2bHQ1dVBuNTN2U0RXVlgxZVNHbVJOeEpLbGVRQWYwVW5zNW1ya09vb20yQi1LSFFOTmNIOWswYThYSEY4RDE5aDhuTG56Si1EZVEzS0lTMzhydVNBbzFTY2dSRmZKMlJxQ1BuYkQtZWxid2xqTEdiV1dvYjJBNFpMRElwdExNUEo1VDcw?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-19T01:31:03Z"
-    }
-   ]
   },
   {
    "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
@@ -799,46 +907,38 @@
    "also": []
   },
   {
-   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
-   "date": "2026-11-18T23:31:45Z",
+   "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
+   "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
+   "date": "2026-11-18T18:03:36Z",
    "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "234469eb31",
-   "first": "2026-11-18T23:31:45Z",
-   "last": "2026-11-18T23:31:45Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Omnivore's Arms Warrior PvP Guide - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JTERpWWdMUmI4eE10Nnlxbmhsa1ZFM0ZFTE1mYmFGS2ZoLW9ZUzFTOUNnbUhrR2M3LTVfVC1UYTlFZmNDMHlCeXQtdWZzTExPQUlBb3p4YWJJc0x2cmxtbmlLMTBON1BmRVJN?oc=5",
-   "date": "2026-11-18T23:08:54Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "21ff42e997",
-   "first": "2026-11-18T23:08:54Z",
-   "last": "2026-11-18T23:08:54Z",
+   "source": "Wowhead",
+   "summary": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "9b69e6b347",
+   "first": "2026-11-18T18:03:36Z",
+   "last": "2026-11-18T23:47:07Z",
    "tags": [
     "pvp"
    ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 1,
+   "classes": [],
+   "n": 3,
    "official": false,
-   "also": []
+   "also": [
+    {
+     "title": "Honor Rewards and Battlegrounds in World of Warcraft: Forever",
+     "url": "https://www.mmo-champion.com/content/14705-Honor-Rewards-and-Battlegrounds-in-World-of-Warcraft-Forever",
+     "source": "MMO-Champion",
+     "label": "press",
+     "date": "2026-11-18T20:41:00Z"
+    },
+    {
+     "title": "New WoW Forever Video: Honor Rewards & Battlegrounds",
+     "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-video-honor-rewards-battlegrounds/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-18T23:47:07Z"
+    }
+   ]
   },
   {
    "title": "Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever",
@@ -1041,8 +1141,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1176,9 +1276,9 @@
    "last": "2026-11-17T02:36:53Z",
    "tags": [
     "classes",
-    "items",
+    "professions",
     "hotfix",
-    "professions"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1815,8 +1915,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2031,8 +2131,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2133,8 +2233,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -2348,9 +2448,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "items",
+    "professions",
     "hotfix",
-    "professions"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2435,65 +2535,6 @@
    "also": []
   },
   {
-   "title": "Gelkis or Magram: Which to Pick in WoW: Forever?",
-   "url": "https://www.wowhead.com/news=383829/gelkis-or-magram-which-to-pick-in-wow-forever",
-   "date": "2026-11-11T15:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "When you start questing in Desolace in WoW: Forever, there are two competing clans to choose from - the Gelkis or the Magram. Which side is the better choice? Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "33e87c096a",
-   "first": "2026-11-11T15:00:00Z",
-   "last": "2026-11-11T15:00:00Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Which Darkmoon Faire Buff Should You Pick in WoW: Forever?",
-   "url": "https://www.wowhead.com/news=383827/which-darkmoon-faire-buff-should-you-pick-in-wow-forever",
-   "date": "2026-11-11T14:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "In WoW: Forever, players can gain a 2-hour buff to aid them on their leveling or dungeon journey. The question is, which buff should players pick? Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "8ccab8ee78",
-   "first": "2026-11-11T14:00:00Z",
-   "last": "2026-11-11T14:00:00Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Hunter Pet Nerf and Enhancement Shaman Changes - WoW: Forever Hotfixes for November 10, 2026",
-   "url": "https://www.wowhead.com/news=383837/hunter-pet-nerf-and-enhancement-shaman-changes-wow-forever-hotfixes-for-november",
-   "date": "2026-11-11T03:30:15Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has posted hotfixes for today, which includes a pet nerf for Hunters, a pet buff for Warlocks, Enhancement Shaman changes and more! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "5fecaa5068",
-   "first": "2026-11-11T03:30:15Z",
-   "last": "2026-11-11T03:30:15Z",
-   "tags": [
-    "hotfix"
-   ],
-   "classes": [
-    "shaman",
-    "warlock",
-    "hunter"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Blizzard replied in “Bugged/missing shaman totems since Monday's server chaos”",
    "url": "https://us.forums.blizzard.com/en/wow/t/buggedmissing-shaman-totems-since-mondays-server-chaos/2409772/2",
    "date": "2026-11-11T01:10:36.511000Z",
@@ -2504,12 +2545,12 @@
    "icon": "inv_scroll_03",
    "id": "064bdf3034",
    "first": "2026-11-11T01:10:36.511000Z",
-   "last": "2026-11-11T01:13:27Z",
+   "last": "2026-11-11T01:10:36Z",
    "tags": [],
    "classes": [
     "shaman"
    ],
-   "n": 3,
+   "n": 2,
    "official": true,
    "also": [
     {
@@ -2518,13 +2559,6 @@
      "source": "Wowhead Blue Tracker",
      "label": "official",
      "date": "2026-11-11T01:10:36Z"
-    },
-    {
-     "title": "Blizzard Addressing Missing Shaman Totems Due to Monday's Server Issue in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383833/blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-11T01:13:27Z"
     }
    ]
   },
@@ -2557,8 +2591,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2578,8 +2612,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2669,8 +2703,8 @@
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
     "classes",
-    "hotfix",
-    "ui"
+    "ui",
+    "hotfix"
    ],
    "classes": [
     "druid"
@@ -2790,8 +2824,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -3307,9 +3341,9 @@
    "last": "2026-11-03T18:00:00Z",
    "tags": [
     "classes",
-    "pvp",
     "ui",
-    "leveling"
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3329,8 +3363,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
     "classes",
+    "raids",
     "leveling"
    ],
    "classes": [],
@@ -3687,6 +3721,140 @@
  ],
  "items": [
   {
+   "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
+   "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
+   "date": "2026-11-20T20:51:19Z",
+   "summary": "The stats for the crafted versions of Tier Set gear from the first raid tier have been revealed in a hotfix to Forever! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "hotfix",
+    "raids",
+    "items"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
+   "date": "2026-11-20T19:00:55Z",
+   "summary": "Targeted Layering Addons will no longer work in an upcoming hotfix for WoW: Forever, as various API calls that show a realm ID will be obfuscated soon. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "hotfix",
+    "realms",
+    "ui"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly",
+   "url": "https://news.blizzard.com/en-us/article/24317681/wow-forever-class-design-echoes-of-the-worldcore-and-more-in-wow-weekly",
+   "date": "2026-11-20T18:00:00Z",
+   "summary": "From the WoW: Forever Podcast's focus on class design to the December 1 arrival of Midnight: Echoes of the Worldcore, Talebound's macabre rewards, Mythic 2/6 gear in the Labyrinth of Kino'jan, and the World of Warcraft 22nd Anniversary Celebration, this…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15",
+   "tags": [
+    "classes",
+    "items",
+    "story"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft Forever talks class balance, itemization, and the healer shortage",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1BXTGVHMnpVMGRoY3VwOEJ6UXFlVHNYXzQ5ZF82cEp4dkxMZUdjY2Riam9wLWhULVVzTFBzVUhla1pIOWFVM3VwcnJXT3ZwcnVxS1hlTjBaQ1U5WXFxT01OM3VQUUtXcmlpS29JZ3NCQ0tKMG1icnFhY0Y1Vjd3T3JzYW9KZ0RKQXY1U01UVWxUb3RXWHJPVlhZeUJ5Vk9MYTdDU0g2NzFWWHJZTkdWRF9Pc0FmT0FE?oc=5",
+   "date": "2026-11-20T17:00:46Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Layer Hopping Functionality Will Be Reduced for Addons in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/layer-hopping-functionality-will-be-reduced-for-addons-in-wow-forever/",
+   "date": "2026-11-20T16:21:03Z",
+   "summary": "Senior Software Engineer Daniel Yates, AKA Meorawr, has posted some API changes in the WoWUIDev Discord that will limit addons’ ability to send you to a specific layer. The changes will block several addon workarounds for finding and switching to specific…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "realms",
+    "ui"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
+   "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+   "date": "2026-11-20T16:00:00Z",
+   "summary": "Completing a quest in one of the new WoW: Forever dungeons will make future runs go a bit smoother: you'll gain a key to unlock doors leading to a final boss shortcut! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
+   "date": "2026-11-20T15:00:00Z",
+   "summary": "Here are all the quests for the level 30 to 40 dungeons to help you level faster in WoW: Forever! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever Graphics Settings: Presets, HD Models and Options",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90Q2VzX1Q0U0FDUWE0YjhtR1RadFFoNHdRSGozS29xejdhTGpDWHEzZVROanF6dUZmblY2TkpOakZCTEp3b2VwVXJMYXZrSWJpeVRnRzlfSFh4eFdvMENXalpyd3dfN1ZKc1hEWFFaaGI3aUVl?oc=5",
+   "date": "2026-11-20T14:43:28Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever reveals huge player stats after record-breaking launch",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaEtmUHdxMUhZSV83Vlg1MUZqem1RTzZKaFE4OWhRZjJ4X3A3MWRhZ2xtNTNjNXBNZ2VhWTVPeXE5SjlXZUpBcWxQQ3BfS3Y1TjlfRFRMSEdGQi1QZkRGQUF0TkNVTERkeW13bFlKWkN2UG4xZ1piOGNCY0hONWkza1p2d3BiekphUjk5dU9GQUlIZXRZQWZQSVhielNRcDlnbnhWT05fRjh5R1gtZjhVcGh2MA?oc=5",
+   "date": "2026-11-20T14:38:39Z",
+   "who": "KitGuru",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft Forever explains the differences in its PvP ranking structure",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVnR4Q3ZYcHhXZm5rT1FnaFhReW0tREdUYVY0WFdiNlMxaGlLbWFsbm5MVVo3UzY0cnlNS1lVOF9xWTFCcnU2ZW43NjU0T2JDUzQwQ1ZjckNSZFpoQzUyTXlLUjc0NlhMMTZVT2FtZWlITURuNENkTHNJUFhwMks5WEhfejlfd3AtV3BVQ091S2FZZjd5ZkRDcTRQWGVyMWxSLXZpNzI1TDVUekw1S19RNm5aWks1Zw?oc=5",
+   "date": "2026-11-20T14:00:27Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": []
+  },
+  {
    "title": "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQcEsyV3NYRlY2eEZfemlLamd4WG1GY3FLMDJnLU16SmF6MXkxNmNzQWJ3cWp1NVhnME05Q1gtRXVqakVpQUF6elI4MTF5VVJybXBzTVJlSjZoRFIzcllkVWdIcjFmeTN0eFhCNWp0QS1KNGx3ZnFQMnlIc0pGS2F3SlBVd1ZBU3lCWlRyUTRRaFlkbnhKUjhZVlhxNkpkRTU2Q28tM21zeUUwRUV3NHhnT0ZIVHFKYkpQQmMyVmg3eUVFZGVXX0VEbVJBYzRJY2g2TFlGajEweE0tc1cwVmQ5cHFBMlZZMkxCX2V6MzJDWWo5WDQwVk9rajFjQjl3QVFMaHl2ejIxNFJZYUZGemNJM2t0SzQ?oc=5",
    "date": "2026-11-20T12:07:57Z",
@@ -3729,12 +3897,26 @@
   {
    "title": "World of Warcraft: Forever is getting a record number of players each week",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUDRhYUhLSTVfSzRiLXNLUVlfc3JzUVZFdk93QlF2RGpoVFd2QjFHeG10c21EelROMnlTNnBHMFp3dnkwcXRaYnZnWlVhZEFRNUgzREY0M2FBN1ZxM2w1VFFpZE12My1DanBwOHNnVXdmd0JfSE41V3p6aTUwRlZDckZMdWpvS201Y0hxU2tkdTUtM1Jxc0pvRjVBaTlvREY2ZEdPVUVkME14WkZGYnVEWmRVYVdjUXpwZ0hTTldyV1A?oc=5",
-   "date": "2026-11-20T11:07:46Z",
+   "date": "2026-11-20T11:07:07Z",
    "who": "Instant Gaming News",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
    "tags": [],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever News: Gold Exploit, AH Deposit and Weekly Hotfixes",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82aXlpd2tpTGZiY1RTdE1fV1dmcmFpQ1hmMFl3RU9sczQzNmJyOFg0Yy0zMXNpZ1FxT0lVRzZLaEl6TkVjV0hyS3lmaHZUWVR6bDdMQWJqclZLbWc4eWxXVGFGR09FejIwZ05NS2JrdGI0dw?oc=5",
+   "date": "2026-11-20T09:51:45Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "hotfix",
+    "economy"
+   ],
    "classes": []
   },
   {
@@ -3764,10 +3946,10 @@
    "classes": []
   },
   {
-   "title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
+   "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
    "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
    "date": "2026-11-20T04:35:14Z",
-   "summary": "Skyborne now get a 10% reputation discount for mounts in WoW: Forever when they hit Honored. Get your Runecloth turn-ins ready! Continue reading »",
+   "summary": "All Skyborne now get a 10% discount on mounts in WoW: Forever, regardless of reputation. Continue reading »",
    "source": "Wowhead",
    "label": "press",
    "icon": "inv_misc_book_09",
@@ -4198,57 +4380,14 @@
    ]
   },
   {
-   "title": "WoW Forever November 17 Hotfixes Bring Tougher UBRS and a Shadow Priest Nerf",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1lYaXM4aUoxWm9pQWhWWVFEZWVGWU9TbzllRVVxd0M4SzJzcmFSNUl5LTBhVjBJNk1lNF9PTFR4NkN4UnpGemgtcjFmdGhURmlZSWhSaTBWQ29SSVVUSGR2N3NuTmlrWFRiUHdvY1Jyd3pPelI4QmxKZ3hGaEdEd1l6MzQ5RHM5S0djVXRQa2FQUjZZRnMxOVhEQUl4b1dtdWV5SEVsZ0QzUVZLR1E?oc=5",
-   "date": "2026-11-19T05:14:14Z",
-   "who": "MMOEXP",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix"
-   ],
-   "classes": [
-    "priest"
-   ]
-  },
-  {
-   "title": "Over 15.16 Million Characters Created in WoW: Forever as Weekly Active Players Hit 15-Year High",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWDFRYThNSlA2WVg5WHd2SXpBMzNsUUZiMzYxcGhQMDRlNkFsQTFiQ0JFRkk3RG1KaXdERGh5bFhNRGtSRmhLUG9ZczRPRzJVLWRxLUgxcEFsMlUzbWVZWEx5Z0V6VzVSbGRIUzFQZWdfb25lOHRFVXlkSTJRc1Bkc0U1czIwNEZpbGVKX2EyZ2xxOFIwMGwwdzNGeTJBdHZVdkZLMjdhTlIzS0pxeWZjdEpjaWsxNEVJZm1KUEppUzBueExGNExoekI0R1RkVVdqZ0E?oc=5",
-   "date": "2026-11-19T02:04:46Z",
-   "who": "Inven Global",
+   "title": "WoW Forever World Buffs: Might of Stormwind and Warchief's Blessing",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IeDd4Y28tNzFFbGlyZU4zQmQ1YkYzakJJdmttbExWMFpxRXY3Y2xoakh5OV9icWQxa0xPc0c0M3o5cThid1VnRjFSTEgyQXRyNUlPMTYzZ2tqUlhrMkVqd1NueXc5V3ZndmNuYw?oc=5",
+   "date": "2026-11-19T10:17:03Z",
+   "who": "space4games",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
    "tags": [],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever Leveling Guide: Best Cheap Enchants, Auction House Gear & Fast 1–20 Tips",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNHJfQlpISnhqclhRT1FnQzNtY1Jrd1ZWTG5TVExINkxPcFdMWVFjZE81VDh0MmhibG9TSkQ3R28zSXlZQ1M3TUo2cXY2QjFMV19BOWRWLWdyMzc5aE85ZWxSQjdTbjg5azV6NTFlWHM3XzlHb2h2Z0s0c051c0tTNjNybzMtTmh5anVFaEdKN2lEYkVQRkNXbGttSFRrNmdlODI0bTRhUlRDNGlTLVA5YkdQaw?oc=5",
-   "date": "2026-11-19T01:35:38Z",
-   "who": "MMOEXP",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "items",
-    "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever Honor Rewards & Battlegrounds: How the New PvP System Works",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMTFEZDRRYUNuMC1vdGlhTjhncUNsVWM2bHQ1dVBuNTN2U0RXVlgxZVNHbVJOeEpLbGVRQWYwVW5zNW1ya09vb20yQi1LSFFOTmNIOWswYThYSEY4RDE5aDhuTG56Si1EZVEzS0lTMzhydVNBbzFTY2dSRmZKMlJxQ1BuYkQtZWxid2xqTEdiV1dvYjJBNFpMRElwdExNUEo1VDcw?oc=5",
-   "date": "2026-11-19T01:31:03Z",
-   "who": "MMOEXP",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "pvp"
-   ],
    "classes": []
   },
   {
@@ -4277,36 +4416,6 @@
     "pvp"
    ],
    "classes": []
-  },
-  {
-   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
-   "date": "2026-11-18T23:31:45Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ]
-  },
-  {
-   "title": "Omnivore's Arms Warrior PvP Guide - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JTERpWWdMUmI4eE10Nnlxbmhsa1ZFM0ZFTE1mYmFGS2ZoLW9ZUzFTOUNnbUhrR2M3LTVfVC1UYTlFZmNDMHlCeXQtdWZzTExPQUlBb3p4YWJJc0x2cmxtbmlLMTBON1BmRVJN?oc=5",
-   "date": "2026-11-18T23:08:54Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [
-    "warrior"
-   ]
   },
   {
    "title": "Honor Rewards and Battlegrounds in World of Warcraft: Forever",
@@ -5593,60 +5702,6 @@
     "leveling"
    ],
    "classes": []
-  },
-  {
-   "title": "Gelkis or Magram: Which to Pick in WoW: Forever?",
-   "url": "https://www.wowhead.com/news=383829/gelkis-or-magram-which-to-pick-in-wow-forever",
-   "date": "2026-11-11T15:00:00Z",
-   "summary": "When you start questing in Desolace in WoW: Forever, there are two competing clans to choose from - the Gelkis or the Magram. Which side is the better choice? Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Which Darkmoon Faire Buff Should You Pick in WoW: Forever?",
-   "url": "https://www.wowhead.com/news=383827/which-darkmoon-faire-buff-should-you-pick-in-wow-forever",
-   "date": "2026-11-11T14:00:00Z",
-   "summary": "In WoW: Forever, players can gain a 2-hour buff to aid them on their leveling or dungeon journey. The question is, which buff should players pick? Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Hunter Pet Nerf and Enhancement Shaman Changes - WoW: Forever Hotfixes for November 10, 2026",
-   "url": "https://www.wowhead.com/news=383837/hunter-pet-nerf-and-enhancement-shaman-changes-wow-forever-hotfixes-for-november",
-   "date": "2026-11-11T03:30:15Z",
-   "summary": "Blizzard has posted hotfixes for today, which includes a pet nerf for Hunters, a pet buff for Warlocks, Enhancement Shaman changes and more! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "hotfix"
-   ],
-   "classes": [
-    "hunter",
-    "shaman",
-    "warlock"
-   ]
-  },
-  {
-   "title": "Blizzard Addressing Missing Shaman Totems Due to Monday's Server Issue in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383833/blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow",
-   "date": "2026-11-11T01:13:27Z",
-   "summary": "Blizzard has fixed an issue with missing Shaman totems due to server issues on Monday. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [],
-   "classes": [
-    "shaman"
-   ]
   },
   {
    "title": "Bugged/missing shaman totems since Monday's server chaos",

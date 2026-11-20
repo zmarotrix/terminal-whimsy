@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:39:36Z",
+ "updated": "2026-11-20T03:21:14Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,6 +15,107 @@
  ],
  "stories": [
   {
+   "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
+   "date": "2026-11-20T02:09:09Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The official BlizzardCS account has commented on several quests in Wowhead's database, letting players know they are investigating bugs. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "03efa6e6bb",
+   "first": "2026-11-20T02:09:09Z",
+   "last": "2026-11-20T02:09:09Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Blizzard Addresses Spellpower Gear & the Healer Shortage in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-spellpower-gear-and-the-healer-shortage-in-wow-forever/",
+   "date": "2026-11-19T17:53:00Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "The very first topics covered in the latest episode of the WoW Forever Podcast are regarding casters and healers, who players feel have recieved the short end of the stick while leveling so far. Principal Designer Kris Zierhut stated that the developers are…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "c11d8c1155",
+   "first": "2026-11-19T17:53:00Z",
+   "last": "2026-11-20T00:42:07Z",
+   "tags": [
+    "story",
+    "items",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-20T00:42:07Z"
+    }
+   ]
+  },
+  {
+   "title": "WoW Forever sets 15-year record for highest weekly players",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMlFjWVVCWDFFcGF0QzZONU53N1lhR0lINGxOWjdpQ3g0eWtZMTNKZWRFQ2N4Y013Z0o0QzdoLUtHWG9vRkN3UEVnbjBCM0ZycEJGaGVMblpLSFJjYXkzN3RnRHpPQU1FaWc1b0V0V0hvbHoyRENLZUVoN1A1MTZVeUlzZlE5ME9qSTRKUjVZY1UweUpvMHNlOW1iazVJZE1iRWo1WktudWpPQzg?oc=5",
+   "date": "2026-11-19T23:35:05Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "TweakTown",
+   "icon": "inv_misc_spyglass_03",
+   "id": "add2899e67",
+   "first": "2026-11-19T23:35:05Z",
+   "last": "2026-11-19T23:35:05Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
+   "date": "2026-11-19T23:20:47Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Some EU players have been reporting issues with PvP queues, preventing any Battleground queues from popping. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "be956cf5da",
+   "first": "2026-11-19T23:20:47Z",
+   "last": "2026-11-19T23:20:47Z",
+   "tags": [
+    "pvp",
+    "realms"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Warcraft outlines WoW: Forever’s new Rank Points—Honor’s getting company",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xaFpHS0xPamdHUU4wRFVrVDZPQmVScU4wRHo0ZGxEYi1odkNxRmdqam9JNDN2Nkp6em9RX1RBRkpQY2R6aG1V?oc=5",
+   "date": "2026-11-19T23:20:15Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Digg",
+   "icon": "inv_misc_spyglass_03",
+   "id": "0264c8aa8c",
+   "first": "2026-11-19T23:20:15Z",
+   "last": "2026-11-19T23:20:15Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
    "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
    "date": "2026-11-19T21:23:45Z",
@@ -28,6 +129,23 @@
    "tags": [
     "economy"
    ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "World of Warcraft: Forever is a Massive Success for Blizzard",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbzdpYjdOUy1NUUlxcmNZV3pENFhZTjlrUnJpT1dVa0FaZ3p6N0FkS0RsMTZfRUhuWXFLVzRfcUtnOVo4WkdOeTZLOE9PY2VBck16OGw0TVNCdmQ3Y1gtTWttRFBwbTlZT0lKYTZhWkRBb0E0RWIzRVJCZDFTMDM5TlFoRk14VXFBQ1Y3eHdCeDlHNUNyNUkxTQ?oc=5",
+   "date": "2026-11-19T20:44:37Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "OpenCritic",
+   "icon": "inv_misc_spyglass_03",
+   "id": "e512aa0e03",
+   "first": "2026-11-19T20:44:37Z",
+   "last": "2026-11-19T20:44:37Z",
+   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -63,8 +181,8 @@
    "first": "2026-11-19T18:58:48Z",
    "last": "2026-11-19T19:19:21Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "raids"
    ],
    "classes": [],
@@ -167,28 +285,6 @@
    "also": []
   },
   {
-   "title": "Blizzard Addresses Spellpower Gear & the Healer Shortage in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-spellpower-gear-and-the-healer-shortage-in-wow-forever/",
-   "date": "2026-11-19T17:53:00Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "The very first topics covered in the latest episode of the WoW Forever Podcast are regarding casters and healers, who players feel have recieved the short end of the stick while leveling so far. Principal Designer Kris Zierhut stated that the developers are…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "c11d8c1155",
-   "first": "2026-11-19T17:53:00Z",
-   "last": "2026-11-19T17:53:00Z",
-   "tags": [
-    "leveling",
-    "story",
-    "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Zirene Teases Item Granting Bonus Stats When Bags are Full in WoW: Forever",
    "url": "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full",
    "date": "2026-11-19T17:50:34Z",
@@ -219,8 +315,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "classes",
-    "story"
+    "story",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -247,8 +343,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:30:08Z",
    "tags": [
-    "classes",
     "story",
+    "classes",
     "items"
    ],
    "classes": [],
@@ -379,6 +475,27 @@
    ]
   },
   {
+   "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
+   "date": "2026-11-19T12:28:56Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "d584c4d40d",
+   "first": "2026-11-19T12:28:56Z",
+   "last": "2026-11-19T12:28:56Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "rogue"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "The Shaper's Terrace – Complete Dungeon Guide",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmZUMW9keTZ4a0stdHMtVDJ1WDJZZ2JxWFVPWDQtVHZxekdOM1h6TkJrZEJpOGpta096OWt1SllwYU5jTm5WeTU2aE4tSWhQUmNHMWdzUVRUVXhIMzRzS2xoX3NHcTlFLVQ1UkI0VHhmZ1FzaEsyejJrR3lvMDNiMkJWQ3ZQVmJyTHVrSkk2Y3hTRDZhV2NJ?oc=5",
    "date": "2026-11-19T11:41:31Z",
@@ -468,8 +585,8 @@
    "first": "2026-11-19T01:35:38Z",
    "last": "2026-11-19T01:35:38Z",
    "tags": [
-    "leveling",
     "items",
+    "leveling",
     "economy"
    ],
    "classes": [],
@@ -533,28 +650,6 @@
     "ui"
    ],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-19T00:08:40Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "59e25fb230",
-   "first": "2026-11-19T00:08:40Z",
-   "last": "2026-11-19T00:08:40Z",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -734,64 +829,6 @@
    "id": "7a048b2869",
    "first": "2026-11-18T19:07:16Z",
    "last": "2026-11-18T19:07:16Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Players Find Mysterious New Black Market NPC",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2FvVWxwR0o4b0tTVDA2M1JicGNuZnJ1NHJCWXhXeUZGRl9POTV5RUVvdWVNTktJNjBpSkg1UGkxa0JUa1U1d1F1MDJNYzZiVGkxRGJEWHdqd3dYN25raTdoNmhIYTF2OW1rTXo4WkdzSkRFVm1jelEzMVhPRFVRdGlUY3NoWGVz?oc=5",
-   "date": "2026-11-18T18:01:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Yahoo Tech",
-   "icon": "inv_misc_spyglass_03",
-   "id": "79b4aa7254",
-   "first": "2026-11-18T18:01:00Z",
-   "last": "2026-11-18T18:01:00Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
-   "date": "2026-11-18T17:51:09Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ba18526e01",
-   "first": "2026-11-18T17:51:09Z",
-   "last": "2026-11-18T17:51:09Z",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "rogue"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever isn't mere nostalgia bait - it's rebuilding the MMO social architecture that Blizzard spent years dismantling",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNOEhET2kxbmZpb1pCUmpEajBvSGFxalI2TkZSekZkalNJWFpFTEkzaWszSWpRMlZxRUpnVEtCVVM3bXBfYnZseDJ1OFJvLVRJcVJ2N09PQUpTSkZoa1NxRGlHVHZkaS1weEhWZzZMYTl4elJoTkpzUG0yV0g0QVFTT2t0SFFEaWZhemkxX1J0WTZPeDZ2YmdlY3RuUk9KWWJyNjZUMmNPMG8zRk9uQWF0d3N5ek5sbDVDMnRfbEpvQmRXb1I4NUtEWndNeEtxaVVSRWI2TzlZaW1JWGF6U0lsVzFtdmFIQTFzYWN3RWp2MFJwOTNJTTRN?oc=5",
-   "date": "2026-11-18T17:44:10Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Rock Paper Shotgun",
-   "icon": "inv_misc_spyglass_03",
-   "id": "74560efc81",
-   "first": "2026-11-18T17:44:10Z",
-   "last": "2026-11-18T17:44:10Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -980,8 +1017,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1002,8 +1039,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1114,10 +1151,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "classes",
+    "hotfix",
     "items",
     "professions",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1156,10 +1193,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "leveling",
-    "classes",
+    "hotfix",
     "items",
-    "hotfix"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1587,8 +1624,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1754,8 +1791,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1793,9 +1830,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "hotfix",
     "leveling",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1949,8 +1986,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1970,8 +2007,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -2072,8 +2109,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -2190,8 +2227,8 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
     "story",
+    "pvp",
     "realms"
    ],
    "classes": [],
@@ -2287,9 +2324,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "professions",
+    "hotfix",
     "items",
-    "hotfix"
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2603,25 +2640,6 @@
    ]
   },
   {
-   "title": "Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead",
-   "url": "https://www.wowhead.com/news=383828/vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed",
-   "date": "2026-11-10T21:05:09Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "With the weekly reset, many items had their Vendor Prices changed on WoW: Forever, likely targeting Vendor Shuffles. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "cb15a4c215",
-   "first": "2026-11-10T21:05:09Z",
-   "last": "2026-11-10T21:05:09Z",
-   "tags": [
-    "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Whether you haven’t logged in for a while or this is your first time ever in Azeroth, here’s a quickstart guide to WoW: Forever 📖…",
    "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzydrc7ppu2v",
    "date": "2026-11-10T21:05:01.044000Z",
@@ -2640,51 +2658,6 @@
    "also": []
   },
   {
-   "title": "Warlock and Hunter Class Tuning Now Live in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383826/warlock-and-hunter-class-tuning-now-live-in-wow-forever",
-   "date": "2026-11-10T20:16:31Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Some Warlock and Hunter class tuning is now live in WoW: Forever. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "38070b8196",
-   "first": "2026-11-10T20:16:31Z",
-   "last": "2026-11-10T20:16:31Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "warlock",
-    "hunter"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
-   "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever",
-   "date": "2026-11-10T19:12:35Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "On the Weekly Reset, the Shaman Class Weapon, Rage of the Storm, has been hotfixed to change the attack speed and stats of the weapon. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "5fe07b4b23",
-   "first": "2026-11-10T19:12:35Z",
-   "last": "2026-11-10T19:12:35Z",
-   "tags": [
-    "classes",
-    "items",
-    "hotfix"
-   ],
-   "classes": [
-    "shaman"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Blizzard replied in “WoW: Forever Hotfixes - November 13, 2026”",
    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
    "date": "2026-11-10T04:23:46.156000Z",
@@ -2697,9 +2670,9 @@
    "first": "2026-11-10T04:23:46.156000Z",
    "last": "2026-11-10T04:23:46.156000Z",
    "tags": [
-    "classes",
+    "hotfix",
     "ui",
-    "hotfix"
+    "classes"
    ],
    "classes": [
     "druid"
@@ -2742,8 +2715,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2781,9 +2754,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "hotfix",
     "leveling",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3048,8 +3021,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3157,8 +3130,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -3336,9 +3309,9 @@
    "last": "2026-11-03T18:00:00Z",
    "tags": [
     "leveling",
-    "classes",
     "ui",
-    "pvp"
+    "pvp",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3358,9 +3331,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
+    "raids",
     "leveling",
-    "classes",
-    "raids"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3716,6 +3689,67 @@
  ],
  "items": [
   {
+   "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
+   "date": "2026-11-20T02:09:09Z",
+   "summary": "The official BlizzardCS account has commented on several quests in Wowhead's database, letting players know they are investigating bugs. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+   "date": "2026-11-20T00:42:07Z",
+   "summary": "In the latest episode of the WoW: Forever Podcast, developers Kris Zierhut and Aidan Moon address the concern about a lack of Spell Power gear in WoW: Forever. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "items",
+    "story"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever sets 15-year record for highest weekly players",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMlFjWVVCWDFFcGF0QzZONU53N1lhR0lINGxOWjdpQ3g0eWtZMTNKZWRFQ2N4Y013Z0o0QzdoLUtHWG9vRkN3UEVnbjBCM0ZycEJGaGVMblpLSFJjYXkzN3RnRHpPQU1FaWc1b0V0V0hvbHoyRENLZUVoN1A1MTZVeUlzZlE5ME9qSTRKUjVZY1UweUpvMHNlOW1iazVJZE1iRWo1WktudWpPQzg?oc=5",
+   "date": "2026-11-19T23:35:05Z",
+   "who": "TweakTown",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
+   "date": "2026-11-19T23:20:47Z",
+   "summary": "Some EU players have been reporting issues with PvP queues, preventing any Battleground queues from popping. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "pvp",
+    "realms"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Warcraft outlines WoW: Forever’s new Rank Points—Honor’s getting company",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xaFpHS0xPamdHUU4wRFVrVDZPQmVScU4wRHo0ZGxEYi1odkNxRmdqam9JNDN2Nkp6em9RX1RBRkpQY2R6aG1V?oc=5",
+   "date": "2026-11-19T23:20:15Z",
+   "who": "Digg",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
    "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
    "date": "2026-11-19T21:23:45Z",
@@ -3726,6 +3760,17 @@
    "tags": [
     "economy"
    ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft: Forever is a Massive Success for Blizzard",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbzdpYjdOUy1NUUlxcmNZV3pENFhZTjlrUnJpT1dVa0FaZ3p6N0FkS0RsMTZfRUhuWXFLVzRfcUtnOVo4WkdOeTZLOE9PY2VBck16OGw0TVNCdmQ3Y1gtTWttRFBwbTlZT0lKYTZhWkRBb0E0RWIzRVJCZDFTMDM5TlFoRk14VXFBQ1Y3eHdCeDlHNUNyNUkxTQ?oc=5",
+   "date": "2026-11-19T20:44:37Z",
+   "who": "OpenCritic",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
    "classes": []
   },
   {
@@ -3992,6 +4037,21 @@
    "classes": []
   },
   {
+   "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
+   "date": "2026-11-19T12:28:56Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "rogue"
+   ]
+  },
+  {
    "title": "The Shaper's Terrace – Complete Dungeon Guide",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmZUMW9keTZ4a0stdHMtVDJ1WDJZZ2JxWFVPWDQtVHZxekdOM1h6TkJrZEJpOGpta096OWt1SllwYU5jTm5WeTU2aE4tSWhQUmNHMWdzUVRUVXhIMzRzS2xoX3NHcTlFLVQ1UkI0VHhmZ1FzaEsyejJrR3lvMDNiMkJWQ3ZQVmJyTHVrSkk2Y3hTRDZhV2NJ?oc=5",
    "date": "2026-11-19T11:41:31Z",
@@ -4085,22 +4145,6 @@
     "ui"
    ],
    "classes": []
-  },
-  {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-19T00:08:40Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
-   ]
   },
   {
    "title": "New WoW Forever Video: Honor Rewards & Battlegrounds",
@@ -4259,46 +4303,6 @@
    "tags": [
     "pvp"
    ],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever Players Find Mysterious New Black Market NPC",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2FvVWxwR0o4b0tTVDA2M1JicGNuZnJ1NHJCWXhXeUZGRl9POTV5RUVvdWVNTktJNjBpSkg1UGkxa0JUa1U1d1F1MDJNYzZiVGkxRGJEWHdqd3dYN25raTdoNmhIYTF2OW1rTXo4WkdzSkRFVm1jelEzMVhPRFVRdGlUY3NoWGVz?oc=5",
-   "date": "2026-11-18T18:01:00Z",
-   "who": "Yahoo Tech",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Rogue Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CSnNSMmVDOURpQ1VObmtUc25EdVhSUHBGSHNVVGZkM0lWQklZUzJnUTVfUzM3VXRMa0FFTkFZU2FXTEZROU9SUU9TNU0wTmVPM1pmekhnZEl5VnFpV3RvRVdncTFEd20tU1Nmc0hzdw?oc=5",
-   "date": "2026-11-18T17:51:09Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "rogue"
-   ]
-  },
-  {
-   "title": "World of Warcraft: Forever isn't mere nostalgia bait - it's rebuilding the MMO social architecture that Blizzard spent years dismantling",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNOEhET2kxbmZpb1pCUmpEajBvSGFxalI2TkZSekZkalNJWFpFTEkzaWszSWpRMlZxRUpnVEtCVVM3bXBfYnZseDJ1OFJvLVRJcVJ2N09PQUpTSkZoa1NxRGlHVHZkaS1weEhWZzZMYTl4elJoTkpzUG0yV0g0QVFTT2t0SFFEaWZhemkxX1J0WTZPeDZ2YmdlY3RuUk9KWWJyNjZUMmNPMG8zRk9uQWF0d3N5ek5sbDVDMnRfbEpvQmRXb1I4NUtEWndNeEtxaVVSRWI2TzlZaW1JWGF6U0lsVzFtdmFIQTFzYWN3RWp2MFJwOTNJTTRN?oc=5",
-   "date": "2026-11-18T17:44:10Z",
-   "who": "Rock Paper Shotgun",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {
@@ -5769,19 +5773,6 @@
    "classes": []
   },
   {
-   "title": "Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead",
-   "url": "https://www.wowhead.com/news=383828/vendor-price-changes-on-wow-forever-iron-grenade-shuffle-nerfed",
-   "date": "2026-11-10T21:05:09Z",
-   "summary": "With the weekly reset, many items had their Vendor Prices changed on WoW: Forever, likely targeting Vendor Shuffles. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "items"
-   ],
-   "classes": []
-  },
-  {
    "title": "Whether you haven’t logged in for a while or this is your first time ever in Azeroth, here’s a quickstart guide to WoW: Forever 📖…",
    "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzydrc7ppu2v",
    "date": "2026-11-10T21:05:01.044000Z",
@@ -5792,39 +5783,6 @@
    "icon": "inv_misc_horn_01",
    "tags": [],
    "classes": []
-  },
-  {
-   "title": "Warlock and Hunter Class Tuning Now Live in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383826/warlock-and-hunter-class-tuning-now-live-in-wow-forever",
-   "date": "2026-11-10T20:16:31Z",
-   "summary": "Some Warlock and Hunter class tuning is now live in WoW: Forever. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "hunter",
-    "warlock"
-   ]
-  },
-  {
-   "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
-   "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever",
-   "date": "2026-11-10T19:12:35Z",
-   "summary": "On the Weekly Reset, the Shaman Class Weapon, Rage of the Storm, has been hotfixed to change the attack speed and stats of the weapon. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "hotfix",
-    "classes",
-    "items"
-   ],
-   "classes": [
-    "shaman"
-   ]
   },
   {
    "title": "Blizzard replied in “WoW: Forever Hotfixes - November 13, 2026”",

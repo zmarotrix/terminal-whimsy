@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:09:33Z",
+ "updated": "2026-11-21T02:20:21Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,6 +15,65 @@
  ],
  "stories": [
   {
+   "title": "Alcaz Prison Dungeon Guide - Bosses, Loot & Quests",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJQS1zWnlERzJUWFRiZlVoZVozLWxHR2MwVHQySUZNREhkbDZTc2hxQ0YxSzJKM0ZLWWl0MV9aLXM3M3RZQ3dXQ0tiZU5KUHcyV1U0Nm5zMFEyamRPeEJXNEQ3OWlralJjQjN3WUxwa2NGcDhFYmVKcg?oc=5",
+   "date": "2026-11-21T01:26:10Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "b9ab4021cf",
+   "first": "2026-11-21T01:26:10Z",
+   "last": "2026-11-21T01:26:10Z",
+   "tags": [
+    "items",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
+   "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
+   "date": "2026-11-21T00:23:36Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has posted hotfixes for today, which contains a bug fix for players seeing fewer groups than intended in LFG. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "b7bc0e023d",
+   "first": "2026-11-21T00:23:36Z",
+   "last": "2026-11-21T00:23:36Z",
+   "tags": [
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
+   "date": "2026-11-21T00:03:18Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "6175a8b402",
+   "first": "2026-11-21T00:03:18Z",
+   "last": "2026-11-21T00:03:18Z",
+   "tags": [
+    "items",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
    "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
    "date": "2026-11-20T20:51:19Z",
@@ -27,8 +86,8 @@
    "last": "2026-11-20T20:51:19Z",
    "tags": [
     "raids",
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -48,8 +107,8 @@
    "first": "2026-11-20T16:21:03Z",
    "last": "2026-11-20T19:00:55Z",
    "tags": [
-    "ui",
     "realms",
+    "ui",
     "hotfix"
    ],
    "classes": [],
@@ -77,9 +136,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
+    "items",
     "classes",
-    "story",
-    "items"
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -99,8 +158,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T17:00:46Z",
    "tags": [
-    "story",
     "items",
+    "story",
     "classes",
     "leveling"
    ],
@@ -158,6 +217,27 @@
     "leveling"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
+   "date": "2026-11-20T14:51:07Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "da35cbd0a8",
+   "first": "2026-11-20T14:51:07Z",
+   "last": "2026-11-20T14:51:07Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "druid"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -402,6 +482,28 @@
    "also": []
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-20T03:29:15Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "59e25fb230",
+   "first": "2026-11-20T03:29:15Z",
+   "last": "2026-11-20T03:29:15Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
    "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
    "date": "2026-11-20T02:09:09Z",
@@ -414,6 +516,27 @@
    "last": "2026-11-20T02:09:09Z",
    "tags": [],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "rogue BiS Gear",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zckxzS0FNajlIV0ZPRUpYSjhhZmpHcmxXMkFzSUZVQ0I5S0JRbkxHREtZT25XQ1NENERBeTM4aTBQMHJvTklWa2U4VmFkeHVBNFNtbXI3ZWppN3pIWFJXcWloT1hpcWs0TGZackN3OWxlTi1kOHFTQVdYU20?oc=5",
+   "date": "2026-11-19T23:58:40Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "b0fceb105b",
+   "first": "2026-11-19T23:58:40Z",
+   "last": "2026-11-19T23:58:40Z",
+   "tags": [
+    "items"
+   ],
+   "classes": [
+    "rogue"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -447,8 +570,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -468,6 +591,27 @@
    "last": "2026-11-19T23:20:15Z",
    "tags": [],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-19T22:38:48Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "234469eb31",
+   "first": "2026-11-19T22:38:48Z",
+   "last": "2026-11-19T22:38:48Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -564,8 +708,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "story",
-    "items"
+    "items",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -758,131 +902,20 @@
    "also": []
   },
   {
-   "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
-   "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
-   "date": "2026-11-18T00:04:50Z",
+   "title": "Tame a Secret Hunter Pet in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383902/tame-a-secret-hunter-pet-in-wow-forever",
+   "date": "2026-11-19T14:00:00Z",
    "label": "press",
    "source": "Wowhead",
-   "summary": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed. Continue reading »",
+   "summary": "A secret Hunter pet has been discovered in WoW: Forever, and players can finally tame a Winna's Kitten lookalike, which wasn't available in the original Classic! Continue reading »",
    "icon": "inv_misc_book_09",
-   "id": "eeb20a197d",
-   "first": "2026-11-18T00:04:50Z",
-   "last": "2026-11-19T14:00:02Z",
-   "tags": [],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "World of Warcraft Forever sees over 15 million characters created so far",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdE85THhrcldWaVpZTXZJaW9pRjVJVDQ0NjFIbV9tWWl4ZFpoa04tVFRtUkp3SkxHY3had1g0ZGl5dXlHQjBzY29lMTRjOXVzMndXc1FUUl9LT1M3SjV0WkJBR3hoalVueUkwX25WQmN0V0haWElEd25wZDR1YnA5Yk1QOG9KYXlaZG1SaGEzNHN2TldIeVpYMDBBZ2lJUm5LYlBLaHF3R0R5cVRW?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-19T14:00:02Z"
-    }
-   ]
-  },
-  {
-   "title": "The hunt for World of Warcraft: Forever secrets continue with the discovery of an elusive pet",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVm1VSGFveU8zOVRSbEIyYXBMSXF1eEx0aGJXNFBYWEZua2tBbldZMkloWXJjOW8xbS04RkUxelZCel81Qzhva2RPOE80Y2ZRRzRtLXY2ODNyM3NCaTNNT3d3TFotYm1Fd0Q0OE1kc18wSjJld3dvM3RMd1l2WG55ZV9XaWhnQQ?oc=5",
-   "date": "2026-11-19T12:35:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Eurogamer.net",
-   "icon": "inv_misc_spyglass_03",
-   "id": "e39b65d346",
-   "first": "2026-11-19T12:35:00Z",
+   "id": "85de71cab5",
+   "first": "2026-11-19T14:00:00Z",
    "last": "2026-11-19T14:00:00Z",
    "tags": [],
    "classes": [
     "hunter"
    ],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "Tame a Secret Hunter Pet in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383902/tame-a-secret-hunter-pet-in-wow-forever",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-19T14:00:00Z"
-    }
-   ]
-  },
-  {
-   "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
-   "date": "2026-11-19T12:28:56Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "d584c4d40d",
-   "first": "2026-11-19T12:28:56Z",
-   "last": "2026-11-19T12:28:56Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "rogue"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "The Shaper's Terrace – Complete Dungeon Guide",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmZUMW9keTZ4a0stdHMtVDJ1WDJZZ2JxWFVPWDQtVHZxekdOM1h6TkJrZEJpOGpta096OWt1SllwYU5jTm5WeTU2aE4tSWhQUmNHMWdzUVRUVXhIMzRzS2xoX3NHcTlFLVQ1UkI0VHhmZ1FzaEsyejJrR3lvMDNiMkJWQ3ZQVmJyTHVrSkk2Y3hTRDZhV2NJ?oc=5",
-   "date": "2026-11-19T11:41:31Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "6bc3c62d99",
-   "first": "2026-11-19T11:41:31Z",
-   "last": "2026-11-19T11:41:31Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever News: Record Player Numbers, Shadow Priest Nerfs, Gold Exploit Punishments, and More!",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMlZPRkRlZW03QjZSb3hOc2Izdloya1UzX0V4SkMyOHd6SHVzQ3NsNHJqb1Z2ZmVsUV9rc2RLNlB0ZWxrbHdqSllsaHBOQktySllRbkF3TDU1TXlaWFRFNHY4QlZzWnZNRk5COTFEREJPcGZYVnNYa1BzdlplMUZZV3BITkRtUnJNZ1R4STBqaTZKUWliUWpZVU5LZUVQOHZtUEVVbmt2d2hxSDVfSU9WTFIwTHY5NDI0ZGRjZkJyM1ZLZ3YwbGlDSHYwbw?oc=5",
-   "date": "2026-11-19T11:35:28Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "a682b27723",
-   "first": "2026-11-19T11:35:28Z",
-   "last": "2026-11-19T11:35:28Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [
-    "priest"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever World Buffs: Might of Stormwind and Warchief's Blessing",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IeDd4Y28tNzFFbGlyZU4zQmQ1YkYzakJJdmttbExWMFpxRXY3Y2xoakh5OV9icWQxa0xPc0c0M3o5cThid1VnRjFSTEgyQXRyNUlPMTYzZ2tqUlhrMkVqd1NueXc5V3ZndmNuYw?oc=5",
-   "date": "2026-11-19T10:17:03Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ada26627e5",
-   "first": "2026-11-19T10:17:03Z",
-   "last": "2026-11-19T10:17:03Z",
-   "tags": [],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -1048,6 +1081,23 @@
    "also": []
   },
   {
+   "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
+   "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
+   "date": "2026-11-18T00:04:50Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "eeb20a197d",
+   "first": "2026-11-18T00:04:50Z",
+   "last": "2026-11-18T00:04:50Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
    "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
    "date": "2026-11-17T15:38:22Z",
@@ -1141,8 +1191,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -1163,8 +1213,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1275,10 +1325,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "classes",
     "professions",
-    "hotfix",
-    "items"
+    "items",
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1317,10 +1367,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "classes",
     "items",
-    "hotfix",
-    "leveling"
+    "classes",
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1955,8 +2005,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "classes",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2110,8 +2160,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2131,8 +2181,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -2233,8 +2283,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -2352,8 +2402,8 @@
    "last": "2026-11-12T17:58:03Z",
    "tags": [
     "story",
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2449,8 +2499,8 @@
    "last": "2026-11-12T00:52:58Z",
    "tags": [
     "professions",
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2507,27 +2557,8 @@
    "first": "2026-11-11T18:29:47Z",
    "last": "2026-11-11T18:29:47Z",
    "tags": [
-    "classes",
-    "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Explore the Drowned City: New Dungeon in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383825/explore-the-drowned-city-new-dungeon-in-wow-forever",
-   "date": "2026-11-11T16:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The Drowned City is a new dungeon that challenges players in the Level 37-42 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "ae8b5b22ce",
-   "first": "2026-11-11T16:00:00Z",
-   "last": "2026-11-11T16:00:00Z",
-   "tags": [
-    "leveling"
+    "economy",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2648,8 +2679,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 3,
@@ -2690,30 +2721,6 @@
    "also": []
   },
   {
-   "title": "Blizzard replied in “WoW: Forever Hotfixes - November 13, 2026”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
-   "date": "2026-11-10T04:23:46.156000Z",
-   "label": "official",
-   "source": "Blizzard forums (US)",
-   "summary": "November 9, 2026 Classes Druid The Cooldown Manager no longer shows Berserk, and now correctly shows Lacerate when learned. Idol of Ferocity no longer lists Mangle as an ability it discounts. Feral Fixed an issue where Feral Charge (Cat) was not putting the…",
-   "who": "Kaivax (Community Manager)",
-   "icon": "inv_scroll_03",
-   "id": "c4d4e57cfb",
-   "first": "2026-11-10T04:23:46.156000Z",
-   "last": "2026-11-10T04:23:46.156000Z",
-   "tags": [
-    "classes",
-    "ui",
-    "hotfix"
-   ],
-   "classes": [
-    "druid"
-   ],
-   "n": 1,
-   "official": true,
-   "also": []
-  },
-  {
    "title": "PvP Faction Balance Updates - November 10",
    "url": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1",
    "date": "2026-11-10T02:05:13.558000Z",
@@ -2726,8 +2733,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2747,8 +2754,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2774,6 +2781,28 @@
    "also": []
   },
   {
+   "title": "Blizzard replied in “WoW: Forever Hotfixes - November 20, 2026”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/2403040/4",
+   "date": "2026-11-07T01:07:59.018000Z",
+   "label": "official",
+   "source": "Blizzard forums (US)",
+   "summary": "November 6, 2026 Classes Fixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended. Cooldown Manager The Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when…",
+   "who": "Kaivax (Community Manager)",
+   "icon": "inv_scroll_03",
+   "id": "8cd62cb853",
+   "first": "2026-11-07T01:07:59.018000Z",
+   "last": "2026-11-07T01:07:59.018000Z",
+   "tags": [
+    "ui",
+    "classes",
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": true,
+   "also": []
+  },
+  {
    "title": "Class Tuning Incoming - November 10",
    "url": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092/1",
    "date": "2026-11-06T21:11:39.116000Z",
@@ -2787,8 +2816,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "classes",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2824,8 +2853,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "ui",
-    "items"
+    "items",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -3053,8 +3082,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3341,8 +3370,8 @@
    "last": "2026-11-03T18:00:00Z",
    "tags": [
     "classes",
-    "ui",
     "leveling",
+    "ui",
     "pvp"
    ],
    "classes": [],
@@ -3363,8 +3392,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "classes",
     "raids",
+    "classes",
     "leveling"
    ],
    "classes": [],
@@ -3721,6 +3750,47 @@
  ],
  "items": [
   {
+   "title": "Alcaz Prison Dungeon Guide - Bosses, Loot & Quests",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJQS1zWnlERzJUWFRiZlVoZVozLWxHR2MwVHQySUZNREhkbDZTc2hxQ0YxSzJKM0ZLWWl0MV9aLXM3M3RZQ3dXQ0tiZU5KUHcyV1U0Nm5zMFEyamRPeEJXNEQ3OWlralJjQjN3WUxwa2NGcDhFYmVKcg?oc=5",
+   "date": "2026-11-21T01:26:10Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "items"
+   ],
+   "classes": []
+  },
+  {
+   "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
+   "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
+   "date": "2026-11-21T00:23:36Z",
+   "summary": "Blizzard has posted hotfixes for today, which contains a bug fix for players seeing fewer groups than intended in LFG. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "hotfix"
+   ],
+   "classes": []
+  },
+  {
+   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
+   "date": "2026-11-21T00:03:18Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "items"
+   ],
+   "classes": []
+  },
+  {
    "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
    "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
    "date": "2026-11-20T20:51:19Z",
@@ -3818,6 +3888,21 @@
     "leveling"
    ],
    "classes": []
+  },
+  {
+   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
+   "date": "2026-11-20T14:51:07Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "druid"
+   ]
   },
   {
    "title": "WoW Forever Graphics Settings: Presets, HD Models and Options",
@@ -3989,6 +4074,22 @@
    ]
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-20T03:29:15Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
+  {
    "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
    "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
    "date": "2026-11-20T02:09:09Z",
@@ -4012,6 +4113,21 @@
     "story"
    ],
    "classes": []
+  },
+  {
+   "title": "rogue BiS Gear",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zckxzS0FNajlIV0ZPRUpYSjhhZmpHcmxXMkFzSUZVQ0I5S0JRbkxHREtZT25XQ1NENERBeTM4aTBQMHJvTklWa2U4VmFkeHVBNFNtbXI3ZWppN3pIWFJXcWloT1hpcWs0TGZackN3OWxlTi1kOHFTQVdYU20?oc=5",
+   "date": "2026-11-19T23:58:40Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "items"
+   ],
+   "classes": [
+    "rogue"
+   ]
   },
   {
    "title": "WoW Forever sets 15-year record for highest weekly players",
@@ -4048,6 +4164,21 @@
    "icon": "inv_misc_spyglass_03",
    "tags": [],
    "classes": []
+  },
+  {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-19T22:38:48Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
   },
   {
    "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
@@ -4302,17 +4433,6 @@
    "classes": []
   },
   {
-   "title": "World of Warcraft Forever sees over 15 million characters created so far",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdE85THhrcldWaVpZTXZJaW9pRjVJVDQ0NjFIbV9tWWl4ZFpoa04tVFRtUkp3SkxHY3had1g0ZGl5dXlHQjBzY29lMTRjOXVzMndXc1FUUl9LT1M3SjV0WkJBR3hoalVueUkwX25WQmN0V0haWElEd25wZDR1YnA5Yk1QOG9KYXlaZG1SaGEzNHN2TldIeVpYMDBBZ2lJUm5LYlBLaHF3R0R5cVRW?oc=5",
-   "date": "2026-11-19T14:00:02Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "Tame a Secret Hunter Pet in WoW: Forever",
    "url": "https://www.wowhead.com/news=383902/tame-a-secret-hunter-pet-in-wow-forever",
    "date": "2026-11-19T14:00:00Z",
@@ -4324,71 +4444,6 @@
    "classes": [
     "hunter"
    ]
-  },
-  {
-   "title": "The hunt for World of Warcraft: Forever secrets continue with the discovery of an elusive pet",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVm1VSGFveU8zOVRSbEIyYXBMSXF1eEx0aGJXNFBYWEZua2tBbldZMkloWXJjOW8xbS04RkUxelZCel81Qzhva2RPOE80Y2ZRRzRtLXY2ODNyM3NCaTNNT3d3TFotYm1Fd0Q0OE1kc18wSjJld3dvM3RMd1l2WG55ZV9XaWhnQQ?oc=5",
-   "date": "2026-11-19T12:35:00Z",
-   "who": "Eurogamer.net",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Combat Rogue Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ublRCMDFnN2xMZHVFQTltTXo1UHRJUnpqenNjekRaSzhRUEpkem1KYkZ3SnVmeXZvZEw1aXA4ZDk2ZDBTNTFVZlc3QktENmFlN0lGM3dyUGJXcnZwemhONmN2ZnhoT0JUMmNuTQ?oc=5",
-   "date": "2026-11-19T12:28:56Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "rogue"
-   ]
-  },
-  {
-   "title": "The Shaper's Terrace – Complete Dungeon Guide",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmZUMW9keTZ4a0stdHMtVDJ1WDJZZ2JxWFVPWDQtVHZxekdOM1h6TkJrZEJpOGpta096OWt1SllwYU5jTm5WeTU2aE4tSWhQUmNHMWdzUVRUVXhIMzRzS2xoX3NHcTlFLVQ1UkI0VHhmZ1FzaEsyejJrR3lvMDNiMkJWQ3ZQVmJyTHVrSkk2Y3hTRDZhV2NJ?oc=5",
-   "date": "2026-11-19T11:41:31Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever News: Record Player Numbers, Shadow Priest Nerfs, Gold Exploit Punishments, and More!",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMlZPRkRlZW03QjZSb3hOc2Izdloya1UzX0V4SkMyOHd6SHVzQ3NsNHJqb1Z2ZmVsUV9rc2RLNlB0ZWxrbHdqSllsaHBOQktySllRbkF3TDU1TXlaWFRFNHY4QlZzWnZNRk5COTFEREJPcGZYVnNYa1BzdlplMUZZV3BITkRtUnJNZ1R4STBqaTZKUWliUWpZVU5LZUVQOHZtUEVVbmt2d2hxSDVfSU9WTFIwTHY5NDI0ZGRjZkJyM1ZLZ3YwbGlDSHYwbw?oc=5",
-   "date": "2026-11-19T11:35:28Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": [
-    "priest"
-   ]
-  },
-  {
-   "title": "WoW Forever World Buffs: Might of Stormwind and Warchief's Blessing",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IeDd4Y28tNzFFbGlyZU4zQmQ1YkYzakJJdmttbExWMFpxRXY3Y2xoakh5OV9icWQxa0xPc0c0M3o5cThid1VnRjFSTEgyQXRyNUlPMTYzZ2tqUlhrMkVqd1NueXc5V3ZndmNuYw?oc=5",
-   "date": "2026-11-19T10:17:03Z",
-   "who": "space4games",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
   },
   {
    "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
@@ -5691,19 +5746,6 @@
    "classes": []
   },
   {
-   "title": "Explore the Drowned City: New Dungeon in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383825/explore-the-drowned-city-new-dungeon-in-wow-forever",
-   "date": "2026-11-11T16:00:00Z",
-   "summary": "The Drowned City is a new dungeon that challenges players in the Level 37-42 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
    "title": "Bugged/missing shaman totems since Monday's server chaos",
    "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2409772",
    "date": "2026-11-11T01:10:36Z",
@@ -5856,24 +5898,6 @@
    "classes": []
   },
   {
-   "title": "Blizzard replied in “WoW: Forever Hotfixes - November 13, 2026”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/5",
-   "date": "2026-11-10T04:23:46.156000Z",
-   "summary": "November 9, 2026 Classes Druid The Cooldown Manager no longer shows Berserk, and now correctly shows Lacerate when learned. Idol of Ferocity no longer lists Mangle as an ability it discounts. Feral Fixed an issue where Feral Charge (Cat) was not putting the…",
-   "who": "Kaivax (Community Manager)",
-   "source": "Blizzard forums (US)",
-   "label": "official",
-   "icon": "inv_scroll_03",
-   "tags": [
-    "hotfix",
-    "classes",
-    "ui"
-   ],
-   "classes": [
-    "druid"
-   ]
-  },
-  {
    "title": "PvP Faction Balance Updates - November 10",
    "url": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1",
    "date": "2026-11-10T02:05:13.558000Z",
@@ -5913,6 +5937,22 @@
    "label": "social",
    "icon": "inv_misc_horn_01",
    "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Blizzard replied in “WoW: Forever Hotfixes - November 20, 2026”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/2403040/4",
+   "date": "2026-11-07T01:07:59.018000Z",
+   "summary": "November 6, 2026 Classes Fixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended. Cooldown Manager The Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when…",
+   "who": "Kaivax (Community Manager)",
+   "source": "Blizzard forums (US)",
+   "label": "official",
+   "icon": "inv_scroll_03",
+   "tags": [
+    "hotfix",
+    "classes",
+    "ui"
+   ],
    "classes": []
   },
   {

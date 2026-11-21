@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T11:09:26Z",
+ "updated": "2026-11-21T17:59:51Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,18 +15,82 @@
  ],
  "stories": [
   {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-21T08:39:59Z",
+   "title": "World of Warcraft: Forever has turned me into a big, friendly golden retriever that says hello to everybody",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS3F3dFhuQ3JyYUtSNFlsX3hZSWx3YmJLcnd4TmpOUjhtd2s3cWh4eU1KSkQ3dTg2WTVfU2cxVjdwM1k4NGdrdDJUdkxBelNYcFVPQ184el9ybEhUWFZjS09tb2VTSnQ2MElPZVhtVXNnSWFDMG1zN3VuRFdYTEtEaEJDRFRoTTMwbFMxdVJWa3NwRzNaQThZb25zdE54UFpNY1RoZWlSdDRuZTNPU2dUYTNpbkZZLTkwSTdvQm9hbHlsTFZNaE5TNVBCWU82WWlRUV9XQzdGRUdncVZLREZ2RkRKZnM3c0FDeEE?oc=5",
+   "date": "2026-11-21T17:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "PC Gamer",
+   "icon": "inv_misc_spyglass_03",
+   "id": "3ab4a041dd",
+   "first": "2026-11-21T17:00:00Z",
+   "last": "2026-11-21T17:00:00Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Blizzard Draws The Line Between Accidental Bug Benefits And Exploitation In WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWkl0c1pUbU5kM291dENsUFJzMHpTdE9rWTEyVElQeHQyOEUxWkMxZ0ZZNmVIMTR6QkpHYUV2em9NQV9tQ0ZtX2p3YjBNYTVnVTFsUl8xdUZpVzZoSEdXZFJ5WVZxbm1JWVJIcm5EaDVxT19RSkVZTG9qcFI1UkJXMnRhUXR4T0w0aGV2dnp5ZW9qNDQ2aGxLSHNuVmVSY2NKSWdQWlhyUHE0QXhrN1h3aHU4cEFTd1F2MnR1MmZONTJuR0pf0gHQAUFVX3lxTE9teWdNdVFVMlhQbEt2d2hqbUROeTlwT0FnaDNpV0djUkNhbkNsbnJOUUhkbU9EMXc0dFV4Nnh5Rk5Vakd2c2lfVGtyRlpCSFNfZUo4UE0wakxMWEpZTkFDdVU5OWpUZUVuTXdfbmI1RXJHaU5ranVLRkNwWDBaWm0yTmNtdjFMZE1tMnFxTXFMNjN5UXljNjJheXVpMUEwc3NKTE1QQUtiQjBUWU52VUxWTnhZN2ludDlmQ0M2OWx1RjhiSVctTF9kSW9obl9ldUc?oc=5",
+   "date": "2026-11-21T16:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "MMORPG.com",
+   "icon": "inv_misc_spyglass_03",
+   "id": "232db3e4c9",
+   "first": "2026-11-21T16:00:00Z",
+   "last": "2026-11-21T16:00:00Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Alcaz Prison Dungeon Guide - Bosses, Loot & Quests",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJQS1zWnlERzJUWFRiZlVoZVozLWxHR2MwVHQySUZNREhkbDZTc2hxQ0YxSzJKM0ZLWWl0MV9aLXM3M3RZQ3dXQ0tiZU5KUHcyV1U0Nm5zMFEyamRPeEJXNEQ3OWlralJjQjN3WUxwa2NGcDhFYmVKcg?oc=5",
+   "date": "2026-11-21T01:26:10Z",
    "label": "press",
    "source": "Google News",
    "who": "Mobalytics",
    "icon": "inv_misc_spyglass_03",
-   "id": "5acfc62b6f",
-   "first": "2026-11-21T08:39:59Z",
-   "last": "2026-11-21T08:39:59Z",
+   "id": "b9ab4021cf",
+   "first": "2026-11-21T01:26:10Z",
+   "last": "2026-11-21T15:00:00Z",
    "tags": [
-    "leveling"
+    "leveling",
+    "items"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-21T15:00:00Z"
+    }
+   ]
+  },
+  {
+   "title": "World of Warcraft: Forever – All Class and Dungeon Changes in November 20 Hotfix",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONE1ZWE12Z0pBYzFKYmYtTnNfZHBhTWpBdmFObGllckRvRFlCWlFuS1Frel9zZERxMC1Ta2VsRm1keElSOFc1TVRwTzc0aWtzR28wTnhJU0l0VlRFNmVHNzFzRlM1V3FqcEp4aVlyQUxLQ1dzcEZHZXo5VE1uM3RNTUZ3dGFId2IwalBTRjlvblVwdERtMHc4VHJ2WUZIXzhoLUk3ODMyRVdQd1FSRFhN?oc=5",
+   "date": "2026-11-21T13:33:09Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "VICE",
+   "icon": "inv_misc_spyglass_03",
+   "id": "70fda4917b",
+   "first": "2026-11-21T13:33:09Z",
+   "last": "2026-11-21T13:33:09Z",
+   "tags": [
+    "leveling",
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -79,46 +143,6 @@
    ]
   },
   {
-   "title": "Alcaz Prison Dungeon Guide - Bosses, Loot & Quests",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJQS1zWnlERzJUWFRiZlVoZVozLWxHR2MwVHQySUZNREhkbDZTc2hxQ0YxSzJKM0ZLWWl0MV9aLXM3M3RZQ3dXQ0tiZU5KUHcyV1U0Nm5zMFEyamRPeEJXNEQ3OWlralJjQjN3WUxwa2NGcDhFYmVKcg?oc=5",
-   "date": "2026-11-21T01:26:10Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "b9ab4021cf",
-   "first": "2026-11-21T01:26:10Z",
-   "last": "2026-11-21T01:26:10Z",
-   "tags": [
-    "items",
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
-   "date": "2026-11-21T00:03:18Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "6175a8b402",
-   "first": "2026-11-21T00:03:18Z",
-   "last": "2026-11-21T00:03:18Z",
-   "tags": [
-    "items",
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
    "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
    "date": "2026-11-20T20:51:19Z",
@@ -131,8 +155,8 @@
    "last": "2026-11-20T20:51:19Z",
    "tags": [
     "items",
-    "raids",
-    "hotfix"
+    "hotfix",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -152,8 +176,8 @@
    "first": "2026-11-20T16:21:03Z",
    "last": "2026-11-20T19:00:55Z",
    "tags": [
-    "ui",
     "realms",
+    "ui",
     "hotfix"
    ],
    "classes": [],
@@ -181,9 +205,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "items",
     "story",
-    "classes"
+    "classes",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -463,6 +487,25 @@
    "also": []
   },
   {
+   "title": "World of Warcraft: Forever designer wants to “get rid of” best-in-slot gear",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVE1meTBXdUk4bG1VVHZxNVJydzdUcHFkT3JCQkJkbjBPTHctNHhiaTZHckk5S0pfdHFHVEpSeUhIcTk0Mm5CTE9US3o2MUZwcHY4MFJleDM3S1hHN1BUVjl6TmdlUFRLamNveXdPeEFaazBTSzBQV1Q2cUVVQ2VoWmdn?oc=5",
+   "date": "2026-11-20T09:53:54Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mezha.net",
+   "icon": "inv_misc_spyglass_03",
+   "id": "56537fb560",
+   "first": "2026-11-20T09:53:54Z",
+   "last": "2026-11-20T09:53:54Z",
+   "tags": [
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW Forever News: Gold Exploit, AH Deposit and Weekly Hotfixes",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82aXlpd2tpTGZiY1RTdE1fV1dmcmFpQ1hmMFl3RU9sczQzNmJyOFg0Yy0zMXNpZ1FxT0lVRzZLaEl6TkVjV0hyS3lmaHZUWVR6bDdMQWJqclZLbWc4eWxXVGFGR09FejIwZ05NS2JrdGI0dw?oc=5",
    "date": "2026-11-20T09:51:45Z",
@@ -474,8 +517,8 @@
    "first": "2026-11-20T09:51:45Z",
    "last": "2026-11-20T09:51:45Z",
    "tags": [
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -502,17 +545,55 @@
    "also": []
   },
   {
-   "title": "Blizzard wants to \"get rid\" of best-in-slot items in World of Warcraft: Forever by introducing situationally strong gear",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGJ4UlVEZ3lUaEJ2MFIzN1BaSXZRb2tSYm1ybHozZ3p1QXc3NjdZdlpYLXh1Tmd0Vy1BdFRvQ1puVHUtalBXWkVHbHdDSGFPeE5QLVpMb3VqQWdQUFhIcHRZUVlQNzBxaWN4QUlsYkRDVjBCLTJKRXlTSDJac1dsM1JwWlFjQVRNZUow?oc=5",
-   "date": "2026-11-20T09:46:30Z",
+   "title": "“I Essentially Want to Get Rid of BiS:” Raid Itemization in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/i-essentially-want-to-get-rid-of-bis-raid-itemization-in-wow-forever/",
+   "date": "2026-11-19T18:58:48Z",
    "label": "press",
-   "source": "Google News",
-   "who": "Eurogamer.net",
-   "icon": "inv_misc_spyglass_03",
-   "id": "eb30c9197b",
-   "first": "2026-11-20T09:46:30Z",
+   "source": "Warcraft Tavern",
+   "summary": "Following a general discussion of flavor items in WoW Forever in this week’s episode of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, went on to talk about how the developers are approaching endgame gearing. He said their goal is to…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "7db3cb1f61",
+   "first": "2026-11-19T18:58:48Z",
    "last": "2026-11-20T09:46:30Z",
    "tags": [
+    "items",
+    "story",
+    "raids"
+   ],
+   "classes": [],
+   "n": 3,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-19T19:19:21Z"
+    },
+    {
+     "title": "Blizzard wants to \"get rid\" of best-in-slot items in World of Warcraft: Forever by introducing situationally strong gear",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGJ4UlVEZ3lUaEJ2MFIzN1BaSXZRb2tSYm1ybHozZ3p1QXc3NjdZdlpYLXh1Tmd0Vy1BdFRvQ1puVHUtalBXWkVHbHdDSGFPeE5QLVpMb3VqQWdQUFhIcHRZUVlQNzBxaWN4QUlsYkRDVjBCLTJKRXlTSDJac1dsM1JwWlFjQVRNZUow?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-20T09:46:30Z"
+    }
+   ]
+  },
+  {
+   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
+   "date": "2026-11-20T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "6175a8b402",
+   "first": "2026-11-20T08:00:00Z",
+   "last": "2026-11-20T08:00:00Z",
+   "tags": [
+    "leveling",
     "items"
    ],
    "classes": [],
@@ -598,21 +679,30 @@
    "also": []
   },
   {
-   "title": "WoW Forever sets 15-year record for highest weekly players",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMlFjWVVCWDFFcGF0QzZONU53N1lhR0lINGxOWjdpQ3g0eWtZMTNKZWRFQ2N4Y013Z0o0QzdoLUtHWG9vRkN3UEVnbjBCM0ZycEJGaGVMblpLSFJjYXkzN3RnRHpPQU1FaWc1b0V0V0hvbHoyRENLZUVoN1A1MTZVeUlzZlE5ME9qSTRKUjVZY1UweUpvMHNlOW1iazVJZE1iRWo1WktudWpPQzg?oc=5",
-   "date": "2026-11-19T23:35:05Z",
+   "title": "Largest Weekly Player Count in 15 Years: WoW Forever by the Numbers",
+   "url": "https://www.warcrafttavern.com/forever/news/largest-weekly-player-count-in-15-years-wow-forever-by-the-numbers/",
+   "date": "2026-11-18T03:21:09Z",
    "label": "press",
-   "source": "Google News",
-   "who": "TweakTown",
-   "icon": "inv_misc_spyglass_03",
-   "id": "add2899e67",
-   "first": "2026-11-19T23:35:05Z",
+   "source": "Warcraft Tavern",
+   "summary": "Blizzard has tweeted some statistics for WoW Forever, accompanied by an announcement from Executive Producer Holly Longdale that the new version has brought World of Warcraft’s highest weekly player count in 15 years. For context, the Cataclysm expansion…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "26563809bf",
+   "first": "2026-11-18T03:21:09Z",
    "last": "2026-11-19T23:35:05Z",
    "tags": [],
    "classes": [],
-   "n": 1,
+   "n": 2,
    "official": false,
-   "also": []
+   "also": [
+    {
+     "title": "WoW Forever sets 15-year record for highest weekly players",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMlFjWVVCWDFFcGF0QzZONU53N1lhR0lINGxOWjdpQ3g0eWtZMTNKZWRFQ2N4Y013Z0o0QzdoLUtHWG9vRkN3UEVnbjBCM0ZycEJGaGVMblpLSFJjYXkzN3RnRHpPQU1FaWc1b0V0V0hvbHoyRENLZUVoN1A1MTZVeUlzZlE5ME9qSTRKUjVZY1UweUpvMHNlOW1iazVJZE1iRWo1WktudWpPQzg?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-19T23:35:05Z"
+    }
+   ]
   },
   {
    "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
@@ -688,86 +778,6 @@
    "also": []
   },
   {
-   "title": "“I Essentially Want to Get Rid of BiS:” Raid Itemization in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/i-essentially-want-to-get-rid-of-bis-raid-itemization-in-wow-forever/",
-   "date": "2026-11-19T18:58:48Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "Following a general discussion of flavor items in WoW Forever in this week’s episode of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, went on to talk about how the developers are approaching endgame gearing. He said their goal is to…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "7db3cb1f61",
-   "first": "2026-11-19T18:58:48Z",
-   "last": "2026-11-19T20:30:51Z",
-   "tags": [
-    "items",
-    "story",
-    "raids"
-   ],
-   "classes": [],
-   "n": 3,
-   "official": false,
-   "also": [
-    {
-     "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-19T19:19:21Z"
-    },
-    {
-     "title": "WoW: Forever Wants To Get Rid Of The Idea Of \"BiS\" Gear",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTlk4clg0ZUMzdWR5NVdyeFczV3BYdF9DOUkwZ3R6LW5uOVNuMVZaMmtZU256LVF2RzdvNE9ldG1ZTTg2TGlFejFIdFJKU29uYThjN081MGNiaUpBQXotS2xjYnQxMzA0OUlNNGROLTRQcnJzczQ2bDFsTHpQMXlSUHY0cWs1aHRuZ2NHRG11NWQ?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-19T20:30:51Z"
-    }
-   ]
-  },
-  {
-   "title": "WoW: Forever Hits 15-Year Weekly Player High",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMzZ6Yl9pWUR3RUtfNXVnRDJfaHlJa3oyYllwaE5OanZ2U0prR1NlTHlIMUowanJiN1NzZk0wMDZCbXdqZi0tRzc1UWxPOTEyd1dSVzlFX3Zqc3p1Z1E0S3BOWnI2WFdTRkt5M3dIQWk?oc=5",
-   "date": "2026-11-19T20:04:56Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "GodisaGeek.com",
-   "icon": "inv_misc_spyglass_03",
-   "id": "2590141be9",
-   "first": "2026-11-19T20:04:56Z",
-   "last": "2026-11-19T20:04:56Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Largest Weekly Player Count in 15 Years: WoW Forever by the Numbers",
-   "url": "https://www.warcrafttavern.com/forever/news/largest-weekly-player-count-in-15-years-wow-forever-by-the-numbers/",
-   "date": "2026-11-18T03:21:09Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "Blizzard has tweeted some statistics for WoW Forever, accompanied by an announcement from Executive Producer Holly Longdale that the new version has brought World of Warcraft’s highest weekly player count in 15 years. For context, the Cataclysm expansion…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "26563809bf",
-   "first": "2026-11-18T03:21:09Z",
-   "last": "2026-11-19T18:52:50Z",
-   "tags": [],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "World of Warcraft: Forever’s player count just hit a 15-year high, and Blizzard’s stats are wild",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PcVJIb1U2ZW40aDFwVnp3NWExa2hyUWNZOTc2WnI0R2dNSURFdzN0Z3RIdVJETjhLVTRGOG9YVHhjTTM2MVhNS291eng2eHZrY0lrQXdqVkRzSWhhUHphRVVQTHVpWmhaWmlIT2Rn?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-19T18:52:50Z"
-    }
-   ]
-  },
-  {
    "title": "Fun Over Optimization: Flavor Items are Here to Stay in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/fun-over-optimization-flavor-items-are-here-to-stay-in-wow-forever/",
    "date": "2026-11-19T18:37:59Z",
@@ -780,8 +790,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1190,8 +1200,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1212,8 +1222,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1324,10 +1334,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
-    "hotfix",
+    "professions",
     "classes",
-    "professions"
+    "hotfix",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1366,10 +1376,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "items",
-    "hotfix",
     "leveling",
-    "classes"
+    "classes",
+    "hotfix",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1797,8 +1807,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -1964,8 +1974,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2003,9 +2013,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "hotfix",
     "leveling",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2159,8 +2169,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2180,8 +2190,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2282,8 +2292,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -2512,9 +2522,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "items",
+    "professions",
     "hotfix",
-    "professions"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2553,26 +2563,6 @@
    "last": "2026-11-11T19:42:15Z",
    "tags": [
     "story"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Dual Spec Costs 50 Gold at Level 40 - Unlock Secondary Talent Tree",
-   "url": "https://www.wowhead.com/news=383835/dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree",
-   "date": "2026-11-11T18:29:47Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Dual spec is available in WoW: Forever, but it costs 50 gold! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "625b60d8e8",
-   "first": "2026-11-11T18:29:47Z",
-   "last": "2026-11-11T18:29:47Z",
-   "tags": [
-    "classes",
-    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2665,8 +2655,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 3,
@@ -2740,8 +2730,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2780,8 +2770,8 @@
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
     "ui",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2801,9 +2791,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "hotfix",
     "leveling",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2839,8 +2829,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -3068,8 +3058,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3355,10 +3345,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "ui",
-    "pvp",
     "leveling",
-    "classes"
+    "ui",
+    "classes",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3378,9 +3368,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
     "leveling",
-    "classes"
+    "classes",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3716,15 +3706,52 @@
  ],
  "items": [
   {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-21T08:39:59Z",
-   "who": "Mobalytics",
+   "title": "World of Warcraft: Forever has turned me into a big, friendly golden retriever that says hello to everybody",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS3F3dFhuQ3JyYUtSNFlsX3hZSWx3YmJLcnd4TmpOUjhtd2s3cWh4eU1KSkQ3dTg2WTVfU2cxVjdwM1k4NGdrdDJUdkxBelNYcFVPQ184el9ybEhUWFZjS09tb2VTSnQ2MElPZVhtVXNnSWFDMG1zN3VuRFdYTEtEaEJDRFRoTTMwbFMxdVJWa3NwRzNaQThZb25zdE54UFpNY1RoZWlSdDRuZTNPU2dUYTNpbkZZLTkwSTdvQm9hbHlsTFZNaE5TNVBCWU82WWlRUV9XQzdGRUdncVZLREZ2RkRKZnM3c0FDeEE?oc=5",
+   "date": "2026-11-21T17:00:00Z",
+   "who": "PC Gamer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Blizzard Draws The Line Between Accidental Bug Benefits And Exploitation In WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWkl0c1pUbU5kM291dENsUFJzMHpTdE9rWTEyVElQeHQyOEUxWkMxZ0ZZNmVIMTR6QkpHYUV2em9NQV9tQ0ZtX2p3YjBNYTVnVTFsUl8xdUZpVzZoSEdXZFJ5WVZxbm1JWVJIcm5EaDVxT19RSkVZTG9qcFI1UkJXMnRhUXR4T0w0aGV2dnp5ZW9qNDQ2aGxLSHNuVmVSY2NKSWdQWlhyUHE0QXhrN1h3aHU4cEFTd1F2MnR1MmZONTJuR0pf0gHQAUFVX3lxTE9teWdNdVFVMlhQbEt2d2hqbUROeTlwT0FnaDNpV0djUkNhbkNsbnJOUUhkbU9EMXc0dFV4Nnh5Rk5Vakd2c2lfVGtyRlpCSFNfZUo4UE0wakxMWEpZTkFDdVU5OWpUZUVuTXdfbmI1RXJHaU5ranVLRkNwWDBaWm0yTmNtdjFMZE1tMnFxTXFMNjN5UXljNjJheXVpMUEwc3NKTE1QQUtiQjBUWU52VUxWTnhZN2ludDlmQ0M2OWx1RjhiSVctTF9kSW9obl9ldUc?oc=5",
+   "date": "2026-11-21T16:00:00Z",
+   "who": "MMORPG.com",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
+   "date": "2026-11-21T15:00:00Z",
+   "summary": "Located in Dustwallow Marsh, Alcaz Prison is a new dungeon for players around level 50 in WoW: Forever. Here are all the dungeon quests you should pick up! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft: Forever – All Class and Dungeon Changes in November 20 Hotfix",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONE1ZWE12Z0pBYzFKYmYtTnNfZHBhTWpBdmFObGllckRvRFlCWlFuS1Frel9zZERxMC1Ta2VsRm1keElSOFc1TVRwTzc0aWtzR28wTnhJU0l0VlRFNmVHNzFzRlM1V3FqcEp4aVlyQUxLQ1dzcEZHZXo5VE1uM3RNTUZ3dGFId2IwalBTRjlvblVwdERtMHc4VHJ2WUZIXzhoLUk3ODMyRVdQd1FSRFhN?oc=5",
+   "date": "2026-11-21T13:33:09Z",
+   "who": "VICE",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
    "tags": [
-    "leveling"
+    "hotfix",
+    "leveling",
+    "classes"
    ],
    "classes": []
   },
@@ -3778,20 +3805,6 @@
    "icon": "inv_misc_book_09",
    "tags": [
     "hotfix"
-   ],
-   "classes": []
-  },
-  {
-   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
-   "date": "2026-11-21T00:03:18Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "items"
    ],
    "classes": []
   },
@@ -4009,6 +4022,19 @@
    "classes": []
   },
   {
+   "title": "World of Warcraft: Forever designer wants to “get rid of” best-in-slot gear",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVE1meTBXdUk4bG1VVHZxNVJydzdUcHFkT3JCQkJkbjBPTHctNHhiaTZHckk5S0pfdHFHVEpSeUhIcTk0Mm5CTE9US3o2MUZwcHY4MFJleDM3S1hHN1BUVjl6TmdlUFRLamNveXdPeEFaazBTSzBQV1Q2cUVVQ2VoWmdn?oc=5",
+   "date": "2026-11-20T09:53:54Z",
+   "who": "Mezha.net",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "items"
+   ],
+   "classes": []
+  },
+  {
    "title": "WoW Forever News: Gold Exploit, AH Deposit and Weekly Hotfixes",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82aXlpd2tpTGZiY1RTdE1fV1dmcmFpQ1hmMFl3RU9sczQzNmJyOFg0Yy0zMXNpZ1FxT0lVRzZLaEl6TkVjV0hyS3lmaHZUWVR6bDdMQWJqclZLbWc4eWxXVGFGR09FejIwZ05NS2JrdGI0dw?oc=5",
    "date": "2026-11-20T09:51:45Z",
@@ -4044,6 +4070,20 @@
    "label": "press",
    "icon": "inv_misc_spyglass_03",
    "tags": [
+    "items"
+   ],
+   "classes": []
+  },
+  {
+   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
+   "date": "2026-11-20T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
     "items"
    ],
    "classes": []
@@ -4208,30 +4248,6 @@
    "classes": []
   },
   {
-   "title": "WoW: Forever Wants To Get Rid Of The Idea Of \"BiS\" Gear",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTlk4clg0ZUMzdWR5NVdyeFczV3BYdF9DOUkwZ3R6LW5uOVNuMVZaMmtZU256LVF2RzdvNE9ldG1ZTTg2TGlFejFIdFJKU29uYThjN081MGNiaUpBQXotS2xjYnQxMzA0OUlNNGROLTRQcnJzczQ2bDFsTHpQMXlSUHY0cWs1aHRuZ2NHRG11NWQ?oc=5",
-   "date": "2026-11-19T20:30:51Z",
-   "who": "GameSpot",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "items"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever Hits 15-Year Weekly Player High",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMzZ6Yl9pWUR3RUtfNXVnRDJfaHlJa3oyYllwaE5OanZ2U0prR1NlTHlIMUowanJiN1NzZk0wMDZCbXdqZi0tRzc1UWxPOTEyd1dSVzlFX3Zqc3p1Z1E0S3BOWnI2WFdTRkt5M3dIQWk?oc=5",
-   "date": "2026-11-19T20:04:56Z",
-   "who": "GodisaGeek.com",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
    "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
    "date": "2026-11-19T19:19:21Z",
@@ -4259,17 +4275,6 @@
     "items",
     "story"
    ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever’s player count just hit a 15-year high, and Blizzard’s stats are wild",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PcVJIb1U2ZW40aDFwVnp3NWExa2hyUWNZOTc2WnI0R2dNSURFdzN0Z3RIdVJETjhLVTRGOG9YVHhjTTM2MVhNS291eng2eHZrY0lrQXdqVkRzSWhhUHphRVVQTHVpWmhaWmlIT2Rn?oc=5",
-   "date": "2026-11-19T18:52:50Z",
-   "who": "Eurogamer.net",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {
@@ -5709,20 +5714,6 @@
    "icon": "inv_misc_book_09",
    "tags": [
     "story"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Dual Spec Costs 50 Gold at Level 40 - Unlock Secondary Talent Tree",
-   "url": "https://www.wowhead.com/news=383835/dual-spec-costs-50-gold-at-level-40-unlock-secondary-talent-tree",
-   "date": "2026-11-11T18:29:47Z",
-   "summary": "Dual spec is available in WoW: Forever, but it costs 50 gold! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "classes",
-    "economy"
    ],
    "classes": []
   },

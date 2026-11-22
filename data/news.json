@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:21:51Z",
+ "updated": "2026-11-22T06:54:19Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,6 +15,25 @@
  ],
  "stories": [
   {
+   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
+   "date": "2026-11-22T05:42:42Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "34ea7b832e",
+   "first": "2026-11-22T05:42:42Z",
+   "last": "2026-11-22T05:42:42Z",
+   "tags": [
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
    "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
    "date": "2026-11-21T19:26:27Z",
@@ -27,8 +46,8 @@
    "last": "2026-11-21T19:26:27Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -47,8 +66,8 @@
    "first": "2026-11-21T19:10:22Z",
    "last": "2026-11-21T19:10:22Z",
    "tags": [
-    "leveling",
-    "items"
+    "items",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -67,8 +86,8 @@
    "first": "2026-11-21T19:10:21Z",
    "last": "2026-11-21T19:10:21Z",
    "tags": [
-    "leveling",
-    "items"
+    "items",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -88,6 +107,27 @@
    "last": "2026-11-21T17:00:00Z",
    "tags": [],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever Druid Guide: Form Quests, Spells and Leveling Tips",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nTF9fbjFtakFxSFFQemIyN3UyU1NhbkNRT0ZwTWxBVTJDMTgwci1MOUlabmR0S0oxSWVFYm5JTXhzVWQycFNyZHJSdC1SbGNlT1ZDUXl6MEdMQkJZdE40MnFiTng?oc=5",
+   "date": "2026-11-21T16:02:53Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "59e8de5794",
+   "first": "2026-11-21T16:02:53Z",
+   "last": "2026-11-21T16:02:53Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [
+    "druid"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -150,8 +190,27 @@
    "last": "2026-11-21T13:33:09Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever Mining Guide 1-300: Ore Routes, Smelting and Tips",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wWGhxMjg2UUNRZGU2WEdyVkd5UWd0N1plNDdsOTBzYmJ1WmZ6dGl4Y2EzZ2NyVXVkUnBsQWhjcEVHVV9mNkNOMjRTekxJOEQtQjJGUzZ1OTJWa2hRNmhnczRwOUJzdw?oc=5",
+   "date": "2026-11-21T11:18:08Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "space4games",
+   "icon": "inv_misc_spyglass_03",
+   "id": "fb8e86c75d",
+   "first": "2026-11-21T11:18:08Z",
+   "last": "2026-11-21T11:18:08Z",
+   "tags": [
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -255,28 +314,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
-    "hotfix",
     "items",
-    "raids"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-20T20:43:50Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "5acfc62b6f",
-   "first": "2026-11-20T20:43:50Z",
-   "last": "2026-11-20T20:43:50Z",
-   "tags": [
-    "leveling"
+    "raids",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -325,9 +365,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "story",
     "items",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -347,8 +387,8 @@
    "first": "2026-11-19T18:22:30Z",
    "last": "2026-11-20T17:37:12Z",
    "tags": [
-    "story",
-    "professions"
+    "professions",
+    "story"
    ],
    "classes": [],
    "n": 2,
@@ -376,8 +416,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T17:00:46Z",
    "tags": [
-    "story",
     "items",
+    "story",
     "leveling",
     "classes"
    ],
@@ -655,8 +695,8 @@
    "first": "2026-11-20T09:51:45Z",
    "last": "2026-11-20T09:51:45Z",
    "tags": [
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -676,45 +716,6 @@
    "last": "2026-11-20T09:48:41Z",
    "tags": [
     "pvp"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Blizzard wants to \"get rid\" of best-in-slot items in World of Warcraft: Forever by introducing situationally strong gear",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGJ4UlVEZ3lUaEJ2MFIzN1BaSXZRb2tSYm1ybHozZ3p1QXc3NjdZdlpYLXh1Tmd0Vy1BdFRvQ1puVHUtalBXWkVHbHdDSGFPeE5QLVpMb3VqQWdQUFhIcHRZUVlQNzBxaWN4QUlsYkRDVjBCLTJKRXlTSDJac1dsM1JwWlFjQVRNZUow?oc=5",
-   "date": "2026-11-20T09:46:30Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Eurogamer.net",
-   "icon": "inv_misc_spyglass_03",
-   "id": "eb30c9197b",
-   "first": "2026-11-20T09:46:30Z",
-   "last": "2026-11-20T09:46:30Z",
-   "tags": [
-    "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
-   "date": "2026-11-20T08:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "6175a8b402",
-   "first": "2026-11-20T08:00:00Z",
-   "last": "2026-11-20T08:00:00Z",
-   "tags": [
-    "leveling",
-    "items"
    ],
    "classes": [],
    "n": 1,
@@ -767,8 +768,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -807,8 +808,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "story",
-    "items"
+    "items",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -865,8 +866,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "story",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
    "n": 2,
@@ -893,8 +894,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:30:08Z",
    "tags": [
-    "story",
     "classes",
+    "story",
     "items"
    ],
    "classes": [],
@@ -1235,8 +1236,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -1257,8 +1258,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1369,10 +1370,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "hotfix",
-    "professions",
     "items",
-    "classes"
+    "professions",
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1411,10 +1412,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "leveling",
-    "hotfix",
     "items",
-    "classes"
+    "leveling",
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2009,8 +2010,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2049,8 +2050,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2204,8 +2205,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2225,8 +2226,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -2327,8 +2328,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -2460,9 +2461,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
+    "realms",
     "story",
-    "pvp",
-    "realms"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2557,9 +2558,9 @@
    "first": "2026-11-12T00:52:58Z",
    "last": "2026-11-12T00:52:58Z",
    "tags": [
-    "hotfix",
+    "items",
     "professions",
-    "items"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2725,8 +2726,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2786,8 +2787,8 @@
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
     "ui",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2808,8 +2809,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3361,10 +3362,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "leveling",
-    "pvp",
     "ui",
-    "classes"
+    "leveling",
+    "classes",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3385,8 +3386,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "leveling",
-    "classes",
-    "raids"
+    "raids",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3722,6 +3723,19 @@
  ],
  "items": [
   {
+   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
+   "date": "2026-11-22T05:42:42Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "items"
+   ],
+   "classes": []
+  },
+  {
    "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
    "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
    "date": "2026-11-21T19:26:27Z",
@@ -3776,6 +3790,21 @@
    "classes": []
   },
   {
+   "title": "WoW Forever Druid Guide: Form Quests, Spells and Leveling Tips",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nTF9fbjFtakFxSFFQemIyN3UyU1NhbkNRT0ZwTWxBVTJDMTgwci1MOUlabmR0S0oxSWVFYm5JTXhzVWQycFNyZHJSdC1SbGNlT1ZDUXl6MEdMQkJZdE40MnFiTng?oc=5",
+   "date": "2026-11-21T16:02:53Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [
+    "druid"
+   ]
+  },
+  {
    "title": "Blizzard Draws The Line Between Accidental Bug Benefits And Exploitation In WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWkl0c1pUbU5kM291dENsUFJzMHpTdE9rWTEyVElQeHQyOEUxWkMxZ0ZZNmVIMTR6QkpHYUV2em9NQV9tQ0ZtX2p3YjBNYTVnVTFsUl8xdUZpVzZoSEdXZFJ5WVZxbm1JWVJIcm5EaDVxT19RSkVZTG9qcFI1UkJXMnRhUXR4T0w0aGV2dnp5ZW9qNDQ2aGxLSHNuVmVSY2NKSWdQWlhyUHE0QXhrN1h3aHU4cEFTd1F2MnR1MmZONTJuR0pf0gHQAUFVX3lxTE9teWdNdVFVMlhQbEt2d2hqbUROeTlwT0FnaDNpV0djUkNhbkNsbnJOUUhkbU9EMXc0dFV4Nnh5Rk5Vakd2c2lfVGtyRlpCSFNfZUo4UE0wakxMWEpZTkFDdVU5OWpUZUVuTXdfbmI1RXJHaU5ranVLRkNwWDBaWm0yTmNtdjFMZE1tMnFxTXFMNjN5UXljNjJheXVpMUEwc3NKTE1QQUtiQjBUWU52VUxWTnhZN2ludDlmQ0M2OWx1RjhiSVctTF9kSW9obl9ldUc?oc=5",
    "date": "2026-11-21T16:00:00Z",
@@ -3811,6 +3840,19 @@
     "hotfix",
     "leveling",
     "classes"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever Mining Guide 1-300: Ore Routes, Smelting and Tips",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wWGhxMjg2UUNRZGU2WEdyVkd5UWd0N1plNDdsOTBzYmJ1WmZ6dGl4Y2EzZ2NyVXVkUnBsQWhjcEVHVV9mNkNOMjRTekxJOEQtQjJGUzZ1OTJWa2hRNmhnczRwOUJzdw?oc=5",
+   "date": "2026-11-21T11:18:08Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "professions"
    ],
    "classes": []
   },
@@ -3907,19 +3949,6 @@
     "hotfix",
     "raids",
     "items"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-20T20:43:50Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
    ],
    "classes": []
   },
@@ -4158,33 +4187,6 @@
    "icon": "inv_misc_spyglass_03",
    "tags": [
     "pvp"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Blizzard wants to \"get rid\" of best-in-slot items in World of Warcraft: Forever by introducing situationally strong gear",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGJ4UlVEZ3lUaEJ2MFIzN1BaSXZRb2tSYm1ybHozZ3p1QXc3NjdZdlpYLXh1Tmd0Vy1BdFRvQ1puVHUtalBXWkVHbHdDSGFPeE5QLVpMb3VqQWdQUFhIcHRZUVlQNzBxaWN4QUlsYkRDVjBCLTJKRXlTSDJac1dsM1JwWlFjQVRNZUow?oc=5",
-   "date": "2026-11-20T09:46:30Z",
-   "who": "Eurogamer.net",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "items"
-   ],
-   "classes": []
-  },
-  {
-   "title": "The Drowned City Dungeon Guide - Bosses, Loot & Quests - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYN21FRDMyYnEzWWEyVGRZaXN5UHZwa3pTTlRSbjV5bmY4dEx4THhzeHNmTGF3Yk00S3NUVWhnOURmNlNISTVZVFh2ZHRMTVNmeWtxWk1ISDAxMWlKZHNPTEhNSzFPM1lydklqbEdvc21YOTA?oc=5",
-   "date": "2026-11-20T08:00:00Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "items"
    ],
    "classes": []
   },

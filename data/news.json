@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:22:26Z",
+ "updated": "2026-11-22T21:49:41Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,76 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
+   "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
+   "date": "2026-11-22T21:00:03Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "With recent hotfixes, players can no longer peek inside lockboxes in WoW: Forever, likely due to a Lockbox exploit. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "aac2434284",
+   "first": "2026-11-22T21:00:03Z",
+   "last": "2026-11-22T21:38:00Z",
+   "tags": [
+    "hotfix",
+    "items"
+   ],
+   "classes": [
+    "rogue"
+   ],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Lockboxes Hotfixed to Push Loot in WoW: Forever",
+     "url": "https://www.mmo-champion.com/content/14714-Lockboxes-Hotfixed-to-Push-Loot-in-WoW-Forever",
+     "source": "MMO-Champion",
+     "label": "press",
+     "date": "2026-11-22T21:38:00Z"
+    }
+   ]
+  },
+  {
+   "title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
+   "date": "2026-11-22T19:01:53Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "World Buffs are now removed whenever a loading screen triggers, preventing players from using them in dungeons or on the opposite continent. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "0925abda27",
+   "first": "2026-11-22T19:01:53Z",
+   "last": "2026-11-22T19:01:53Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Protection Warrior Guide - Leveling & Endgame",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRW5uQklEaVM1dUFFMzJVbmFIc3dtUXBKRklsUVBoQW84Z2JCaVdJVHc2SXJwUFdDTTB6bWliZ2kyX1RzdlIxaWdYN3NhZ3B1U2JrQUZ6aTUzNExJZUExbks0My1xeWxmUkVCWFJONVdla0p2bWdHTk1yelVZV0ZnZ193?oc=5",
+   "date": "2026-11-22T16:36:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "9ed8679f75",
+   "first": "2026-11-22T16:36:00Z",
+   "last": "2026-11-22T16:36:00Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "One Shots: We’ve seen the light of WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1BPQzM2TmFBanZsRFVQbmlQSTdVUmpDWjkwSEpmOEREVjlHWkhxRi1pd012cldOc3hSaGxtX3RDX2o0Q21oN3FfMkFobDkxRTBrN0RuVUFVTzNhMXNCeHVUc3RabmJtOFdRbzVNcjE1N3BNSVZaMHYzRURMN3R4WkNNaHhOMVk?oc=5",
@@ -83,9 +153,9 @@
    "first": "2026-11-21T19:26:27Z",
    "last": "2026-11-21T19:26:27Z",
    "tags": [
+    "hotfix",
     "economy",
-    "leveling",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -128,6 +198,28 @@
     "leveling"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Warlock Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVjV5ZW5pTGtwODVlRy16SjJNdk4yVUU2Z2cwQ2FtNmlxYldPMjZhQngtVWgtZ0l3VTZGSVo5cWc5WTFmVlg1dnRFeWE3RFFHSjRsOVVMSmdUb004OUdJQUpWdFViZzlpWVFCLU5QNGRTdw?oc=5",
+   "date": "2026-11-21T17:00:29Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "babf906f2b",
+   "first": "2026-11-21T17:00:29Z",
+   "last": "2026-11-21T17:00:29Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "warlock"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -227,9 +319,9 @@
    "first": "2026-11-21T13:33:09Z",
    "last": "2026-11-21T13:33:09Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -352,11 +444,34 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
+    "hotfix",
     "items",
-    "raids",
-    "hotfix"
+    "raids"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Demonology Warlock Guide - Talents, Rotations, Pre Raid BiS Gear & More",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
+   "date": "2026-11-20T19:53:19Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "7650134c20",
+   "first": "2026-11-20T19:53:19Z",
+   "last": "2026-11-20T19:53:19Z",
+   "tags": [
+    "items",
+    "raids",
+    "classes"
+   ],
+   "classes": [
+    "warlock"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -403,8 +518,8 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "classes"
    ],
    "classes": [],
@@ -425,8 +540,8 @@
    "first": "2026-11-19T18:22:30Z",
    "last": "2026-11-20T17:37:12Z",
    "tags": [
-    "professions",
-    "story"
+    "story",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -454,8 +569,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T17:00:46Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "classes",
     "leveling"
    ],
@@ -509,25 +624,6 @@
    "id": "a740957d39",
    "first": "2026-11-20T15:00:00Z",
    "last": "2026-11-20T15:00:00Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-20T14:55:11Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "5acfc62b6f",
-   "first": "2026-11-20T14:55:11Z",
-   "last": "2026-11-20T14:55:11Z",
    "tags": [
     "leveling"
    ],
@@ -611,28 +707,6 @@
    "also": []
   },
   {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-20T13:55:37Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "59e25fb230",
-   "first": "2026-11-20T13:55:37Z",
-   "last": "2026-11-20T13:55:37Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "“I Essentially Want to Get Rid of BiS:” Raid Itemization in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/i-essentially-want-to-get-rid-of-bis-raid-itemization-in-wow-forever/",
    "date": "2026-11-19T18:58:48Z",
@@ -646,8 +720,8 @@
    "last": "2026-11-20T12:07:57Z",
    "tags": [
     "items",
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 3,
@@ -724,23 +798,6 @@
      "date": "2026-11-20T11:22:54Z"
     }
    ]
-  },
-  {
-   "title": "World of Warcraft: Forever is getting a record number of players each week",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUDRhYUhLSTVfSzRiLXNLUVlfc3JzUVZFdk93QlF2RGpoVFd2QjFHeG10c21EelROMnlTNnBHMFp3dnkwcXRaYnZnWlVhZEFRNUgzREY0M2FBN1ZxM2w1VFFpZE12My1DanBwOHNnVXdmd0JfSE41V3p6aTUwRlZDckZMdWpvS201Y0hxU2tkdTUtM1Jxc0pvRjVBaTlvREY2ZEdPVUVkME14WkZGYnVEWmRVYVdjUXpwZ0hTTldyV1A?oc=5",
-   "date": "2026-11-20T11:07:07Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Instant Gaming News",
-   "icon": "inv_misc_spyglass_03",
-   "id": "de4030e78e",
-   "first": "2026-11-20T11:07:07Z",
-   "last": "2026-11-20T11:07:07Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
   },
   {
    "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
@@ -828,8 +885,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1163,16 +1220,15 @@
    "also": []
   },
   {
-   "title": "Blizzard Suspending Accounts Over Blackmaw Hold Exploit in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/blizzard-suspending-accounts-over-blackmaw-hold-exploit-in-wow-forever/",
-   "date": "2026-11-17T19:05:15Z",
+   "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
+   "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
+   "date": "2026-11-17T15:38:22Z",
    "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "Players have been making noise all over social media about a gold farm that was recently hotfixed, but which allowed some players to accumulate an enormous amount of gold before it went away. The exploit gained a lot of attention due to some notable…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "094ab595dc",
-   "first": "2026-11-17T00:06:22Z",
+   "source": "Wowhead",
+   "summary": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "faaeb1547b",
+   "first": "2026-11-17T07:04:34Z",
    "last": "2026-11-17T19:05:15Z",
    "tags": [
     "economy",
@@ -1183,18 +1239,18 @@
    "official": false,
    "also": [
     {
-     "title": "Exploit early, exploit often ... almost 5k gold",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xy5ncr/exploit_early_exploit_often_almost_5k_gold/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-17T00:06:22Z"
+     "title": "Blizzard Suspending Accounts Over Blackmaw Hold Exploit in WoW Forever",
+     "url": "https://www.warcrafttavern.com/forever/news/blizzard-suspending-accounts-over-blackmaw-hold-exploit-in-wow-forever/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-17T19:05:15Z"
     },
     {
-     "title": "Following on from the 'exploit early...exploit often post' - Streamer Ziqo already starting to manipulate AH prices",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xy6qey/following_on_from_the_exploit_earlyexploit_often/",
+     "title": "Blackmaw Hold Farm Megathread",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xydtpi/blackmaw_hold_farm_megathread/",
      "source": "r/wowforever",
      "label": "community",
-     "date": "2026-11-17T00:56:23Z"
+     "date": "2026-11-17T07:04:34Z"
     }
    ]
   },
@@ -1257,8 +1313,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1266,33 +1322,6 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
-   "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
-   "date": "2026-11-17T15:38:22Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "faaeb1547b",
-   "first": "2026-11-17T07:04:34Z",
-   "last": "2026-11-17T15:38:22Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "Blackmaw Hold Farm Megathread",
-     "url": "https://www.reddit.com/r/wowforever/comments/1xydtpi/blackmaw_hold_farm_megathread/",
-     "source": "r/wowforever",
-     "label": "community",
-     "date": "2026-11-17T07:04:34Z"
-    }
-   ]
   },
   {
    "title": "NA WoW: Forever Servers Down for Scheduled Maintenance for 1 Hour",
@@ -1418,10 +1447,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
+    "hotfix",
     "professions",
-    "classes",
-    "hotfix"
+    "items",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1460,10 +1489,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
+    "hotfix",
     "items",
-    "leveling",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1507,6 +1536,34 @@
    "n": 1,
    "official": false,
    "also": []
+  },
+  {
+   "title": "Exploit early, exploit often ... almost 5k gold",
+   "url": "https://www.reddit.com/r/wowforever/comments/1xy5ncr/exploit_early_exploit_often_almost_5k_gold/",
+   "date": "2026-11-17T00:06:22Z",
+   "label": "community",
+   "source": "r/wowforever",
+   "summary": "Not sure what to say. The fact that he did this all offstream says enough that he (and others) knew, that this is not intended and 100% considered an exploit. Personally, I think there should be some kind of punishment and definitely all the gold revoked.…",
+   "who": "/u/FInrodi",
+   "icon": "inv_shirt_guildtabard_01",
+   "id": "cbbf18ccb0",
+   "first": "2026-11-17T00:06:22Z",
+   "last": "2026-11-17T00:56:23Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Following on from the 'exploit early...exploit often post' - Streamer Ziqo already starting to manipulate AH prices",
+     "url": "https://www.reddit.com/r/wowforever/comments/1xy6qey/following_on_from_the_exploit_earlyexploit_often/",
+     "source": "r/wowforever",
+     "label": "community",
+     "date": "2026-11-17T00:56:23Z"
+    }
+   ]
   },
   {
    "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
@@ -2030,8 +2087,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2069,9 +2126,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2246,8 +2303,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2348,8 +2405,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "raids",
-    "story"
+    "story",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -2529,44 +2586,6 @@
    "also": []
   },
   {
-   "title": "Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview",
-   "url": "https://www.wowhead.com/news=383818/catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview",
-   "date": "2026-11-12T14:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "But Why Tho? interviewed Mike Nuthals and Tim Jones on WoW: Forever and discussed the possibility of catch-up mechanics and the Economy. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "1a89e3ae0b",
-   "first": "2026-11-12T14:00:00Z",
-   "last": "2026-11-12T14:00:00Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Restoration Druid Change to Wild Growth in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever",
-   "date": "2026-11-12T04:14:59Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Restoration Druids have gotten a change to Wild Growth today in WoW: Forever. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "b4d8f4c3d4",
-   "first": "2026-11-12T04:14:59Z",
-   "last": "2026-11-12T04:14:59Z",
-   "tags": [],
-   "classes": [
-    "druid"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth",
    "url": "https://news.blizzard.com/en-us/article/24317866/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
    "date": "2026-11-11T21:28:14Z",
@@ -2671,8 +2690,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2746,8 +2765,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2785,9 +2804,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
+    "hotfix",
     "ui",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2807,9 +2826,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2845,8 +2864,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -3074,8 +3093,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3385,8 +3404,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "raids",
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3701,26 +3720,66 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "It’s almost time to say goodbye until launch, so hop on the WoW: Forever Beta while you can!",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mykabhkzym2o",
-   "date": "2026-10-23T13:00:00.579000Z",
-   "label": "social",
-   "source": "World of Warcraft on Bluesky",
-   "who": "@worldofwarcraft.blizzard.com",
-   "icon": "inv_misc_horn_01",
-   "id": "8bcc3ad2ba",
-   "first": "2026-10-23T13:00:00.579000Z",
-   "last": "2026-10-23T13:00:00.579000Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
   }
  ],
  "items": [
+  {
+   "title": "Lockboxes Hotfixed to Push Loot in WoW: Forever",
+   "url": "https://www.mmo-champion.com/content/14714-Lockboxes-Hotfixed-to-Push-Loot-in-WoW-Forever",
+   "date": "2026-11-22T21:38:00Z",
+   "summary": "Lockboxes Hotfixed to Push Loot in WoW: Forever With a new hotfix pushed a few hours ago in WoW: Forever, players can no longer preview the loot contained inside lockboxes. Before this fix, rogues could use the loot key on an opened lockbox to preview its…",
+   "source": "MMO-Champion",
+   "label": "press",
+   "icon": "inv_misc_book_07",
+   "tags": [
+    "hotfix",
+    "items"
+   ],
+   "classes": [
+    "rogue"
+   ]
+  },
+  {
+   "title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
+   "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
+   "date": "2026-11-22T21:00:03Z",
+   "summary": "With recent hotfixes, players can no longer peek inside lockboxes in WoW: Forever, likely due to a Lockbox exploit. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "hotfix"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
+   "date": "2026-11-22T19:01:53Z",
+   "summary": "World Buffs are now removed whenever a loading screen triggers, preventing players from using them in dungeons or on the opposite continent. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Protection Warrior Guide - Leveling & Endgame",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRW5uQklEaVM1dUFFMzJVbmFIc3dtUXBKRklsUVBoQW84Z2JCaVdJVHc2SXJwUFdDTTB6bWliZ2kyX1RzdlIxaWdYN3NhZ3B1U2JrQUZ6aTUzNExJZUExbks0My1xeWxmUkVCWFJONVdla0p2bWdHTk1yelVZV0ZnZ193?oc=5",
+   "date": "2026-11-22T16:36:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
   {
    "title": "One Shots: We’ve seen the light of WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1BPQzM2TmFBanZsRFVQbmlQSTdVUmpDWjkwSEpmOEREVjlHWkhxRi1pd012cldOc3hSaGxtX3RDX2o0Q21oN3FfMkFobDkxRTBrN0RuVUFVTzNhMXNCeHVUc3RabmJtOFdRbzVNcjE1N3BNSVZaMHYzRURMN3R4WkNNaHhOMVk?oc=5",
@@ -3802,6 +3861,22 @@
     "items"
    ],
    "classes": []
+  },
+  {
+   "title": "Warlock Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEVjV5ZW5pTGtwODVlRy16SjJNdk4yVUU2Z2cwQ2FtNmlxYldPMjZhQngtVWgtZ0l3VTZGSVo5cWc5WTFmVlg1dnRFeWE3RFFHSjRsOVVMSmdUb004OUdJQUpWdFViZzlpWVFCLU5QNGRTdw?oc=5",
+   "date": "2026-11-21T17:00:29Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warlock"
+   ]
   },
   {
    "title": "World of Warcraft: Forever has turned me into a big, friendly golden retriever that says hello to everybody",
@@ -3978,6 +4053,23 @@
    "classes": []
   },
   {
+   "title": "Demonology Warlock Guide - Talents, Rotations, Pre Raid BiS Gear & More",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
+   "date": "2026-11-20T19:53:19Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "raids",
+    "classes",
+    "items"
+   ],
+   "classes": [
+    "warlock"
+   ]
+  },
+  {
    "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
    "url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
    "date": "2026-11-20T19:00:55Z",
@@ -4075,19 +4167,6 @@
    "classes": []
   },
   {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-20T14:55:11Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
    "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
    "date": "2026-11-20T14:51:07Z",
@@ -4138,22 +4217,6 @@
    "classes": []
   },
   {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-20T13:55:37Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
-   ]
-  },
-  {
    "title": "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQcEsyV3NYRlY2eEZfemlLamd4WG1GY3FLMDJnLU16SmF6MXkxNmNzQWJ3cWp1NVhnME05Q1gtRXVqakVpQUF6elI4MTF5VVJybXBzTVJlSjZoRFIzcllkVWdIcjFmeTN0eFhCNWp0QS1KNGx3ZnFQMnlIc0pGS2F3SlBVd1ZBU3lCWlRyUTRRaFlkbnhKUjhZVlhxNkpkRTU2Q28tM21zeUUwRUV3NHhnT0ZIVHFKYkpQQmMyVmg3eUVFZGVXX0VEbVJBYzRJY2g2TFlGajEweE0tc1cwVmQ5cHFBMlZZMkxCX2V6MzJDWWo5WDQwVk9rajFjQjl3QVFMaHl2ejIxNFJZYUZGemNJM2t0SzQ?oc=5",
    "date": "2026-11-20T12:07:57Z",
@@ -4191,17 +4254,6 @@
    "tags": [
     "hotfix"
    ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever is getting a record number of players each week",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUDRhYUhLSTVfSzRiLXNLUVlfc3JzUVZFdk93QlF2RGpoVFd2QjFHeG10c21EelROMnlTNnBHMFp3dnkwcXRaYnZnWlVhZEFRNUgzREY0M2FBN1ZxM2w1VFFpZE12My1DanBwOHNnVXdmd0JfSE41V3p6aTUwRlZDckZMdWpvS201Y0hxU2tkdTUtM1Jxc0pvRjVBaTlvREY2ZEdPVUVkME14WkZGYnVEWmRVYVdjUXpwZ0hTTldyV1A?oc=5",
-   "date": "2026-11-20T11:07:07Z",
-   "who": "Instant Gaming News",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {
@@ -5703,32 +5755,6 @@
    "classes": []
   },
   {
-   "title": "Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview",
-   "url": "https://www.wowhead.com/news=383818/catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview",
-   "date": "2026-11-12T14:00:00Z",
-   "summary": "But Why Tho? interviewed Mike Nuthals and Tim Jones on WoW: Forever and discussed the possibility of catch-up mechanics and the Economy. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Restoration Druid Change to Wild Growth in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever",
-   "date": "2026-11-12T04:14:59Z",
-   "summary": "Restoration Druids have gotten a change to Wild Growth today in WoW: Forever. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [],
-   "classes": [
-    "druid"
-   ]
-  },
-  {
    "title": "Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth",
    "url": "https://news.blizzard.com/en-us/article/24317866/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
    "date": "2026-11-11T21:28:14Z",
@@ -6591,17 +6617,6 @@
    "tags": [
     "story"
    ],
-   "classes": []
-  },
-  {
-   "title": "It’s almost time to say goodbye until launch, so hop on the WoW: Forever Beta while you can!",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mykabhkzym2o",
-   "date": "2026-10-23T13:00:00.579000Z",
-   "who": "@worldofwarcraft.blizzard.com",
-   "source": "World of Warcraft on Bluesky",
-   "label": "social",
-   "icon": "inv_misc_horn_01",
-   "tags": [],
    "classes": []
   }
  ]

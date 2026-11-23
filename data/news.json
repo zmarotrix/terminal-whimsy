@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:49:41Z",
+ "updated": "2026-11-23T02:49:35Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,64 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
+   "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
+   "date": "2026-11-23T01:00:37Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "e850d26fbc",
+   "first": "2026-11-23T01:00:37Z",
+   "last": "2026-11-23T01:00:37Z",
+   "tags": [
+    "items",
+    "economy"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Aidan Moon Announces That World Buffs Dropping on Loading Screen is Bug",
+   "url": "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug",
+   "date": "2026-11-22T23:06:59Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Aidan Moon has responded on X (Twitter) that World Buffs dropping during a loading screen is a bug. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "ef541eb252",
+   "first": "2026-11-22T23:06:59Z",
+   "last": "2026-11-22T23:06:59Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "New World of Warcraft: Forever Exploit Lets Rogues Farm Thousands in Gold",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2tSUGlMTHV2UENjajNMSkhxOXg1ZE03cWxOLUVqZTBFTzhueTRaS3hpdTRzTlcwbElOUFdhR2FQTVpOeUp6WmZ4QnpLZVhiNDFvdUZVaVBMaXdDUTgzWU42c01uTGxjQmFLRWlrVkZBdkNUaDZGOHZqTkp1ZnNRTEZMR0JfVk5ibXBOZUt5TmdzTTlBa2Q5QXpIR3VfY0FETERTMnNjaWhUUQ?oc=5",
+   "date": "2026-11-22T23:03:45Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "OpenCritic",
+   "icon": "inv_misc_spyglass_03",
+   "id": "03b07b1913",
+   "first": "2026-11-22T23:03:45Z",
+   "last": "2026-11-22T23:03:45Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [
+    "rogue"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
    "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
@@ -64,6 +122,35 @@
    "also": []
   },
   {
+   "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
+   "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
+   "date": "2026-11-21T19:26:27Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "5b033df260",
+   "first": "2026-11-21T19:26:27Z",
+   "last": "2026-11-22T16:44:57Z",
+   "tags": [
+    "economy",
+    "leveling",
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "World of Warcraft: Forever Players Find Way to Farm Over 100 Gold Per Hour",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnVzOWN6bjBoSEtxc3VVenlTazcxS3FXelhzakJlSWREM2hrd1ZXMVdEd1ItcENGWHFoOGZpSWVTOFM3QlZ1RHBpYTdNWmt3ZGUzMmJFek1zQjJ4WHpiVzB4Z0c2MzMyU3NDak9qTWQ0Tnc2SmRvTkdVcWRQc0NqemFZdVVaY0VyQmtyY1BCZUFFem8xR1NXS0l0OXdIZGtfQkdJUWZQc3RleWM?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-22T16:44:57Z"
+    }
+   ]
+  },
+  {
    "title": "Protection Warrior Guide - Leveling & Endgame",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRW5uQklEaVM1dUFFMzJVbmFIc3dtUXBKRklsUVBoQW84Z2JCaVdJVHc2SXJwUFdDTTB6bWliZ2kyX1RzdlIxaWdYN3NhZ3B1U2JrQUZ6aTUzNExJZUExbks0My1xeWxmUkVCWFJONVdla0p2bWdHTk1yelVZV0ZnZ193?oc=5",
    "date": "2026-11-22T16:36:00Z",
@@ -76,6 +163,27 @@
    "last": "2026-11-22T16:36:00Z",
    "tags": [
     "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Fury Warrior Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xRnJtNWtyS2FucmlmaElfOWlCdHJnakFaY2FadHF5aU1ZY29NQ0pXWGpRNERMd1BhRFdSZzIxRjZ0Y2phQWp2OWp2cGZRd3R1NDhIMHl4Ny1VS1Z5VHo4bTBFYmFJeGxzNTdMcA?oc=5",
+   "date": "2026-11-22T15:08:26Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "d6e5940a26",
+   "first": "2026-11-22T15:08:26Z",
+   "last": "2026-11-22T15:08:26Z",
+   "tags": [
+    "classes"
    ],
    "classes": [
     "warrior"
@@ -123,6 +231,27 @@
    "also": []
   },
   {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-22T08:54:18Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "234469eb31",
+   "first": "2026-11-22T08:54:18Z",
+   "last": "2026-11-22T08:54:18Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
    "date": "2026-11-22T05:42:42Z",
@@ -142,27 +271,6 @@
    "also": []
   },
   {
-   "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
-   "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
-   "date": "2026-11-21T19:26:27Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "5b033df260",
-   "first": "2026-11-21T19:26:27Z",
-   "last": "2026-11-21T19:26:27Z",
-   "tags": [
-    "hotfix",
-    "economy",
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Maraudon Dungeon Guide - Bosses, Loot & Quests",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPXzZwbkR6eTNmdVlwOUtZT001ZGRtRHFXaWZGb1phOHYwQkFpVjgyNlZqaDRwV2dFZUVyeUpTcjF6d0Nsc0tDN2hhS1pNQVpFZ0IxTFN3dHRjODFaN3ZpX1BWRnEyb016TEt4Sk1kQnVPTlBFbEYxQW43S2xjWjZDSXZsTnJHVGpXVWVzcXRNWnZvaDVjaEZXVmdNX2NQS1lXU3VSS2I0MlpGZ2tpY2c?oc=5",
    "date": "2026-11-21T19:10:22Z",
@@ -174,8 +282,8 @@
    "first": "2026-11-21T19:10:22Z",
    "last": "2026-11-21T19:10:22Z",
    "tags": [
-    "items",
-    "leveling"
+    "leveling",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -194,8 +302,8 @@
    "first": "2026-11-21T19:10:21Z",
    "last": "2026-11-21T19:10:21Z",
    "tags": [
-    "items",
-    "leveling"
+    "leveling",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -319,9 +427,9 @@
    "first": "2026-11-21T13:33:09Z",
    "last": "2026-11-21T13:33:09Z",
    "tags": [
-    "hotfix",
     "classes",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -393,6 +501,28 @@
    ]
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-21T00:29:47Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "59e25fb230",
+   "first": "2026-11-21T00:29:47Z",
+   "last": "2026-11-21T00:29:47Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW: Forever designer wants to ditch one-size-fits-all best-in-slot gear, PC Gamer reports",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1lb0liUVQ2R1lYTF8wa1pNRi1HNEFMeGotWnVTWXNCOWpWVXlEblRld0FQQXNoMm5XZ2lJSmQwSU5iRnlncmFz?oc=5",
    "date": "2026-11-21T00:03:39Z",
@@ -407,6 +537,47 @@
     "items"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Complete Combat Leveling 1-60 - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
+   "date": "2026-11-20T23:57:35Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "5acfc62b6f",
+   "first": "2026-11-20T23:57:35Z",
+   "last": "2026-11-20T23:57:35Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
+   "date": "2026-11-20T23:13:16Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "9a8d6dfccc",
+   "first": "2026-11-20T23:13:16Z",
+   "last": "2026-11-20T23:13:16Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "mage"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -444,9 +615,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
-    "hotfix",
     "items",
-    "raids"
+    "raids",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -465,9 +636,9 @@
    "first": "2026-11-20T19:53:19Z",
    "last": "2026-11-20T19:53:19Z",
    "tags": [
+    "classes",
     "items",
-    "raids",
-    "classes"
+    "raids"
    ],
    "classes": [
     "warlock"
@@ -489,8 +660,8 @@
    "first": "2026-11-20T16:21:03Z",
    "last": "2026-11-20T19:00:55Z",
    "tags": [
-    "ui",
     "realms",
+    "ui",
     "hotfix"
    ],
    "classes": [],
@@ -518,9 +689,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "story",
+    "classes",
     "items",
-    "classes"
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -569,8 +740,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T17:00:46Z",
    "tags": [
-    "story",
     "items",
+    "story",
     "classes",
     "leveling"
    ],
@@ -633,173 +804,6 @@
    "also": []
   },
   {
-   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
-   "date": "2026-11-20T14:51:07Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "da35cbd0a8",
-   "first": "2026-11-20T14:51:07Z",
-   "last": "2026-11-20T14:51:07Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "druid"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Graphics Settings: Presets, HD Models and Options",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90Q2VzX1Q0U0FDUWE0YjhtR1RadFFoNHdRSGozS29xejdhTGpDWHEzZVROanF6dUZmblY2TkpOakZCTEp3b2VwVXJMYXZrSWJpeVRnRzlfSFh4eFdvMENXalpyd3dfN1ZKc1hEWFFaaGI3aUVl?oc=5",
-   "date": "2026-11-20T14:43:28Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "c9ea1715eb",
-   "first": "2026-11-20T14:43:28Z",
-   "last": "2026-11-20T14:43:28Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever reveals huge player stats after record-breaking launch",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaEtmUHdxMUhZSV83Vlg1MUZqem1RTzZKaFE4OWhRZjJ4X3A3MWRhZ2xtNTNjNXBNZ2VhWTVPeXE5SjlXZUpBcWxQQ3BfS3Y1TjlfRFRMSEdGQi1QZkRGQUF0TkNVTERkeW13bFlKWkN2UG4xZ1piOGNCY0hONWkza1p2d3BiekphUjk5dU9GQUlIZXRZQWZQSVhielNRcDlnbnhWT05fRjh5R1gtZjhVcGh2MA?oc=5",
-   "date": "2026-11-20T14:38:39Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "KitGuru",
-   "icon": "inv_misc_spyglass_03",
-   "id": "7ddb00b0e3",
-   "first": "2026-11-20T14:38:39Z",
-   "last": "2026-11-20T14:38:39Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft Forever explains the differences in its PvP ranking structure",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVnR4Q3ZYcHhXZm5rT1FnaFhReW0tREdUYVY0WFdiNlMxaGlLbWFsbm5MVVo3UzY0cnlNS1lVOF9xWTFCcnU2ZW43NjU0T2JDUzQwQ1ZjckNSZFpoQzUyTXlLUjc0NlhMMTZVT2FtZWlITURuNENkTHNJUFhwMks5WEhfejlfd3AtV3BVQ091S2FZZjd5ZkRDcTRQWGVyMWxSLXZpNzI1TDVUekw1S19RNm5aWks1Zw?oc=5",
-   "date": "2026-11-20T14:00:27Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ae44b79fe6",
-   "first": "2026-11-20T14:00:27Z",
-   "last": "2026-11-20T14:00:27Z",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "“I Essentially Want to Get Rid of BiS:” Raid Itemization in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/i-essentially-want-to-get-rid-of-bis-raid-itemization-in-wow-forever/",
-   "date": "2026-11-19T18:58:48Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "Following a general discussion of flavor items in WoW Forever in this week’s episode of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, went on to talk about how the developers are approaching endgame gearing. He said their goal is to…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "7db3cb1f61",
-   "first": "2026-11-19T18:58:48Z",
-   "last": "2026-11-20T12:07:57Z",
-   "tags": [
-    "items",
-    "story",
-    "raids"
-   ],
-   "classes": [],
-   "n": 3,
-   "official": false,
-   "also": [
-    {
-     "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-19T19:19:21Z"
-    },
-    {
-     "title": "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
-     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQcEsyV3NYRlY2eEZfemlLamd4WG1GY3FLMDJnLU16SmF6MXkxNmNzQWJ3cWp1NVhnME05Q1gtRXVqakVpQUF6elI4MTF5VVJybXBzTVJlSjZoRFIzcllkVWdIcjFmeTN0eFhCNWp0QS1KNGx3ZnFQMnlIc0pGS2F3SlBVd1ZBU3lCWlRyUTRRaFlkbnhKUjhZVlhxNkpkRTU2Q28tM21zeUUwRUV3NHhnT0ZIVHFKYkpQQmMyVmg3eUVFZGVXX0VEbVJBYzRJY2g2TFlGajEweE0tc1cwVmQ5cHFBMlZZMkxCX2V6MzJDWWo5WDQwVk9rajFjQjl3QVFMaHl2ejIxNFJZYUZGemNJM2t0SzQ?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-20T12:07:57Z"
-    }
-   ]
-  },
-  {
-   "title": "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with'",
-   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNSUFkb3Y3ZjR3S1hLV2RSaEdrQU1nUjBKalNZMGlfU0NJSnIyT1VzNnRLTWRDVlE0ajZ4U0Njd193R0c5dW56SUdVZFZaOGhXMnhJVDF1M1dCdzQ3QTVMRUxvdVFuNFJBN2JhTGs5NFZwMlJIOS1WemdtVG9xb1BjMlBpOHY5aFd6d3d5TlJINklRUmlIU2ZoT2IyaUt2X1hXbHdNTUhqNmpqLXp1U3NlZWxvTjIxbm1LcEwzWnlTdXFoWExYV1pSSzd2NE9NTzh4dXBpS2hVbFFlZzRkZXZ1RWtUWTkxVGNwOXdNd1ByUVdjMjNSYV9pZ1VCUGZrenNZQW1CMmhoa2NTOF9ZLU9MQjVOa1NaNlVGdHc?oc=5",
-   "date": "2026-11-20T11:52:22Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "PC Gamer",
-   "icon": "inv_misc_spyglass_03",
-   "id": "2fc220d0cd",
-   "first": "2026-11-20T11:52:22Z",
-   "last": "2026-11-20T11:52:22Z",
-   "tags": [
-    "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
-   "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
-   "date": "2026-11-20T04:03:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has posted hotfixes for today, which includes a Ret Paladin bug fix and making the Seed Hybridizer available again! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "d19844c714",
-   "first": "2026-11-20T04:03:00Z",
-   "last": "2026-11-20T11:22:54Z",
-   "tags": [
-    "hotfix",
-    "professions"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 3,
-   "official": false,
-   "also": [
-    {
-     "title": "Seed Hybridizer & Cultivation Fixes: WoW Forever Hotfixes for November 19",
-     "url": "https://www.warcrafttavern.com/forever/news/seed-hybridizer-cultivation-fixes-wow-forever-hotfixes-for-november-19/",
-     "source": "Warcraft Tavern",
-     "label": "press",
-     "date": "2026-11-20T04:18:03Z"
-    },
-    {
-     "title": "WoW: Forever November 19 Hotfix Re-Enables the Seed Hybridizer for World of Warcraft: Forever",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT0JZZWdoN2F2em9zNUJxSTR0aGVnYmVxdEJfY2gtV3dHbTFDMUc4OFQxRmhFbmJxaVhhbVBjSUxHRlRwUnljc3VoY3AyMDI0SnFNWTlycG9xcWlsemxfdUVfZmJtaUQ4NHdocnVuMU5BM2JnRURDV0hrbmFhcTRWUUpibGZ3V1EtZV9ScHkwbXhPNnNrUFNPVFVDZ1k3Zw?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-20T11:22:54Z"
-    }
-   ]
-  },
-  {
    "title": "[UPDATED] All Skyborne Now Get Discount for Mounts Regardless of Reputation in WoW: Forever",
    "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
    "date": "2026-11-20T04:35:14Z",
@@ -815,6 +819,36 @@
    "n": 1,
    "official": false,
    "also": []
+  },
+  {
+   "title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
+   "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
+   "date": "2026-11-20T04:03:00Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has posted hotfixes for today, which includes a Ret Paladin bug fix and making the Seed Hybridizer available again! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "d19844c714",
+   "first": "2026-11-20T04:03:00Z",
+   "last": "2026-11-20T04:18:03Z",
+   "tags": [
+    "hotfix",
+    "professions"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Seed Hybridizer & Cultivation Fixes: WoW Forever Hotfixes for November 19",
+     "url": "https://www.warcrafttavern.com/forever/news/seed-hybridizer-cultivation-fixes-wow-forever-hotfixes-for-november-19/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-20T04:18:03Z"
+    }
+   ]
   },
   {
    "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
@@ -845,8 +879,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -873,6 +907,36 @@
    "also": []
   },
   {
+   "title": "“I Essentially Want to Get Rid of BiS:” Raid Itemization in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/i-essentially-want-to-get-rid-of-bis-raid-itemization-in-wow-forever/",
+   "date": "2026-11-19T18:58:48Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "Following a general discussion of flavor items in WoW Forever in this week’s episode of the WoW Forever Podcast, Senior Game Designer Aidan Moon, AKA Zirene, went on to talk about how the developers are approaching endgame gearing. He said their goal is to…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "7db3cb1f61",
+   "first": "2026-11-19T18:58:48Z",
+   "last": "2026-11-19T19:19:21Z",
+   "tags": [
+    "items",
+    "story",
+    "raids"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-19T19:19:21Z"
+    }
+   ]
+  },
+  {
    "title": "Fun Over Optimization: Flavor Items are Here to Stay in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/fun-over-optimization-flavor-items-are-here-to-stay-in-wow-forever/",
    "date": "2026-11-19T18:37:59Z",
@@ -885,8 +949,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "story",
-    "items"
+    "items",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -943,8 +1007,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "story",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
    "n": 2,
@@ -971,8 +1035,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:30:08Z",
    "tags": [
-    "story",
     "classes",
+    "story",
     "items"
    ],
    "classes": [],
@@ -1313,8 +1377,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -1335,8 +1399,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1447,10 +1511,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "hotfix",
-    "professions",
+    "classes",
     "items",
-    "classes"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1489,10 +1553,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "hotfix",
-    "items",
     "classes",
-    "leveling"
+    "leveling",
+    "items",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1920,8 +1984,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2087,8 +2151,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2126,9 +2190,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
-    "hotfix",
     "classes",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2282,8 +2346,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2303,8 +2367,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -2538,47 +2602,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "pvp",
+    "realms",
     "story",
-    "realms"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Loot Ocarina of Time Boots from Drowned City in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383842/loot-ocarina-of-time-boots-from-drowned-city-in-wow-forever",
-   "date": "2026-11-12T16:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "A pair of boots has been discovered in the Drowned City loot table, which appears to be a clear reference to The Legend of Zelda: Ocarina of Time! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "440fb159cb",
-   "first": "2026-11-12T16:00:00Z",
-   "last": "2026-11-12T16:00:00Z",
-   "tags": [
-    "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383807/party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow",
-   "date": "2026-11-12T15:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Getting the Cozy Sleeping Bag takes a long time, but you can use other players' sleeping bags to get the same experience buff if you're in the same party! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "6a3d8d098b",
-   "first": "2026-11-12T15:00:00Z",
-   "last": "2026-11-12T15:00:00Z",
-   "tags": [
-    "leveling"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2633,8 +2659,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2654,8 +2680,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -2690,8 +2716,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 3,
@@ -2744,8 +2770,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2765,8 +2791,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2804,9 +2830,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
-    "hotfix",
     "ui",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2826,9 +2852,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "hotfix",
     "classes",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3093,8 +3119,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3380,10 +3406,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "pvp",
     "ui",
     "classes",
-    "leveling"
+    "leveling",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3403,9 +3429,9 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
+    "classes",
     "leveling",
-    "classes"
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -3724,6 +3750,46 @@
  ],
  "items": [
   {
+   "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
+   "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
+   "date": "2026-11-23T01:00:37Z",
+   "summary": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "items",
+    "economy"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Aidan Moon Announces That World Buffs Dropping on Loading Screen is Bug",
+   "url": "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug",
+   "date": "2026-11-22T23:06:59Z",
+   "summary": "Aidan Moon has responded on X (Twitter) that World Buffs dropping during a loading screen is a bug. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "New World of Warcraft: Forever Exploit Lets Rogues Farm Thousands in Gold",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2tSUGlMTHV2UENjajNMSkhxOXg1ZE03cWxOLUVqZTBFTzhueTRaS3hpdTRzTlcwbElOUFdhR2FQTVpOeUp6WmZ4QnpLZVhiNDFvdUZVaVBMaXdDUTgzWU42c01uTGxjQmFLRWlrVkZBdkNUaDZGOHZqTkp1ZnNRTEZMR0JfVk5ibXBOZUt5TmdzTTlBa2Q5QXpIR3VfY0FETERTMnNjaWhUUQ?oc=5",
+   "date": "2026-11-22T23:03:45Z",
+   "who": "OpenCritic",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
+   "classes": [
+    "rogue"
+   ]
+  },
+  {
    "title": "Lockboxes Hotfixed to Push Loot in WoW: Forever",
    "url": "https://www.mmo-champion.com/content/14714-Lockboxes-Hotfixed-to-Push-Loot-in-WoW-Forever",
    "date": "2026-11-22T21:38:00Z",
@@ -3766,6 +3832,19 @@
    "classes": []
   },
   {
+   "title": "World of Warcraft: Forever Players Find Way to Farm Over 100 Gold Per Hour",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnVzOWN6bjBoSEtxc3VVenlTazcxS3FXelhzakJlSWREM2hrd1ZXMVdEd1ItcENGWHFoOGZpSWVTOFM3QlZ1RHBpYTdNWmt3ZGUzMmJFek1zQjJ4WHpiVzB4Z0c2MzMyU3NDak9qTWQ0Tnc2SmRvTkdVcWRQc0NqemFZdVVaY0VyQmtyY1BCZUFFem8xR1NXS0l0OXdIZGtfQkdJUWZQc3RleWM?oc=5",
+   "date": "2026-11-22T16:44:57Z",
+   "who": "OpenCritic",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
+   "classes": []
+  },
+  {
    "title": "Protection Warrior Guide - Leveling & Endgame",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRW5uQklEaVM1dUFFMzJVbmFIc3dtUXBKRklsUVBoQW84Z2JCaVdJVHc2SXJwUFdDTTB6bWliZ2kyX1RzdlIxaWdYN3NhZ3B1U2JrQUZ6aTUzNExJZUExbks0My1xeWxmUkVCWFJONVdla0p2bWdHTk1yelVZV0ZnZ193?oc=5",
    "date": "2026-11-22T16:36:00Z",
@@ -3775,6 +3854,21 @@
    "icon": "inv_misc_spyglass_03",
    "tags": [
     "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
+  {
+   "title": "Fury Warrior Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xRnJtNWtyS2FucmlmaElfOWlCdHJnakFaY2FadHF5aU1ZY29NQ0pXWGpRNERMd1BhRFdSZzIxRjZ0Y2phQWp2OWp2cGZRd3R1NDhIMHl4Ny1VS1Z5VHo4bTBFYmFJeGxzNTdMcA?oc=5",
+   "date": "2026-11-22T15:08:26Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
    ],
    "classes": [
     "warrior"
@@ -3804,6 +3898,21 @@
    ],
    "classes": [
     "rogue"
+   ]
+  },
+  {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-22T08:54:18Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
    ]
   },
   {
@@ -3997,6 +4106,22 @@
    "classes": []
   },
   {
+   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
+   "date": "2026-11-21T00:29:47Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
+  {
    "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
    "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
    "date": "2026-11-21T00:23:36Z",
@@ -4021,6 +4146,35 @@
     "items"
    ],
    "classes": []
+  },
+  {
+   "title": "Complete Combat Leveling 1-60 - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
+   "date": "2026-11-20T23:57:35Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
+   "date": "2026-11-20T23:13:16Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "mage"
+   ]
   },
   {
    "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
@@ -4163,96 +4317,6 @@
    "icon": "inv_misc_book_09",
    "tags": [
     "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
-   "date": "2026-11-20T14:51:07Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "druid"
-   ]
-  },
-  {
-   "title": "WoW Forever Graphics Settings: Presets, HD Models and Options",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90Q2VzX1Q0U0FDUWE0YjhtR1RadFFoNHdRSGozS29xejdhTGpDWHEzZVROanF6dUZmblY2TkpOakZCTEp3b2VwVXJMYXZrSWJpeVRnRzlfSFh4eFdvMENXalpyd3dfN1ZKc1hEWFFaaGI3aUVl?oc=5",
-   "date": "2026-11-20T14:43:28Z",
-   "who": "space4games",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever reveals huge player stats after record-breaking launch",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaEtmUHdxMUhZSV83Vlg1MUZqem1RTzZKaFE4OWhRZjJ4X3A3MWRhZ2xtNTNjNXBNZ2VhWTVPeXE5SjlXZUpBcWxQQ3BfS3Y1TjlfRFRMSEdGQi1QZkRGQUF0TkNVTERkeW13bFlKWkN2UG4xZ1piOGNCY0hONWkza1p2d3BiekphUjk5dU9GQUlIZXRZQWZQSVhielNRcDlnbnhWT05fRjh5R1gtZjhVcGh2MA?oc=5",
-   "date": "2026-11-20T14:38:39Z",
-   "who": "KitGuru",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft Forever explains the differences in its PvP ranking structure",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVnR4Q3ZYcHhXZm5rT1FnaFhReW0tREdUYVY0WFdiNlMxaGlLbWFsbm5MVVo3UzY0cnlNS1lVOF9xWTFCcnU2ZW43NjU0T2JDUzQwQ1ZjckNSZFpoQzUyTXlLUjc0NlhMMTZVT2FtZWlITURuNENkTHNJUFhwMks5WEhfejlfd3AtV3BVQ091S2FZZjd5ZkRDcTRQWGVyMWxSLXZpNzI1TDVUekw1S19RNm5aWks1Zw?oc=5",
-   "date": "2026-11-20T14:00:27Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "pvp"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
-   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQcEsyV3NYRlY2eEZfemlLamd4WG1GY3FLMDJnLU16SmF6MXkxNmNzQWJ3cWp1NVhnME05Q1gtRXVqakVpQUF6elI4MTF5VVJybXBzTVJlSjZoRFIzcllkVWdIcjFmeTN0eFhCNWp0QS1KNGx3ZnFQMnlIc0pGS2F3SlBVd1ZBU3lCWlRyUTRRaFlkbnhKUjhZVlhxNkpkRTU2Q28tM21zeUUwRUV3NHhnT0ZIVHFKYkpQQmMyVmg3eUVFZGVXX0VEbVJBYzRJY2g2TFlGajEweE0tc1cwVmQ5cHFBMlZZMkxCX2V6MzJDWWo5WDQwVk9rajFjQjl3QVFMaHl2ejIxNFJZYUZGemNJM2t0SzQ?oc=5",
-   "date": "2026-11-20T12:07:57Z",
-   "who": "PC Gamer",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "raids",
-    "items"
-   ],
-   "classes": []
-  },
-  {
-   "title": "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with'",
-   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNSUFkb3Y3ZjR3S1hLV2RSaEdrQU1nUjBKalNZMGlfU0NJSnIyT1VzNnRLTWRDVlE0ajZ4U0Njd193R0c5dW56SUdVZFZaOGhXMnhJVDF1M1dCdzQ3QTVMRUxvdVFuNFJBN2JhTGs5NFZwMlJIOS1WemdtVG9xb1BjMlBpOHY5aFd6d3d5TlJINklRUmlIU2ZoT2IyaUt2X1hXbHdNTUhqNmpqLXp1U3NlZWxvTjIxbm1LcEwzWnlTdXFoWExYV1pSSzd2NE9NTzh4dXBpS2hVbFFlZzRkZXZ1RWtUWTkxVGNwOXdNd1ByUVdjMjNSYV9pZ1VCUGZrenNZQW1CMmhoa2NTOF9ZLU9MQjVOa1NaNlVGdHc?oc=5",
-   "date": "2026-11-20T11:52:22Z",
-   "who": "PC Gamer",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "items"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever November 19 Hotfix Re-Enables the Seed Hybridizer for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT0JZZWdoN2F2em9zNUJxSTR0aGVnYmVxdEJfY2gtV3dHbTFDMUc4OFQxRmhFbmJxaVhhbVBjSUxHRlRwUnljc3VoY3AyMDI0SnFNWTlycG9xcWlsemxfdUVfZmJtaUQ4NHdocnVuMU5BM2JnRURDV0hrbmFhcTRWUUpibGZ3V1EtZV9ScHkwbXhPNnNrUFNPVFVDZ1k3Zw?oc=5",
-   "date": "2026-11-20T11:22:54Z",
-   "who": "Maxroll",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix"
    ],
    "classes": []
   },
@@ -5725,32 +5789,6 @@
    "icon": "inv_letter_15",
    "tags": [
     "story"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Loot Ocarina of Time Boots from Drowned City in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383842/loot-ocarina-of-time-boots-from-drowned-city-in-wow-forever",
-   "date": "2026-11-12T16:00:00Z",
-   "summary": "A pair of boots has been discovered in the Drowned City loot table, which appears to be a clear reference to The Legend of Zelda: Ocarina of Time! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "items"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383807/party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow",
-   "date": "2026-11-12T15:00:00Z",
-   "summary": "Getting the Cozy Sleeping Bag takes a long time, but you can use other players' sleeping bags to get the same experience buff if you're in the same party! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "leveling"
    ],
    "classes": []
   },

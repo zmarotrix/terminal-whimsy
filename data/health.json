@@ -2,72 +2,72 @@
  "Blizzard News": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "Blizzard forums (EU)": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "Blizzard forums (US)": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "BlizzardCS on Bluesky": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "Google News": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "Hotfix thread": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "MMO-Champion": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "Warcraft Tavern": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "World of Warcraft on Bluesky": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "Wowhead": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "Wowhead Blue Tracker": {
   "error": null,
   "fails": 0,
-  "lastItems": "2026-11-22",
-  "lastOk": "2026-11-22"
+  "lastItems": "2026-11-23",
+  "lastOk": "2026-11-23"
  },
  "r/wowforever": {
   "error": "HTTP Error 404: Not Found",
-  "fails": 40,
+  "fails": 41,
   "lastItems": "2026-11-17",
   "lastOk": "2026-11-17"
  }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T02:49:35Z",
+ "updated": "2026-11-23T12:51:45Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -15,6 +15,62 @@
  ],
  "stories": [
   {
+   "title": "WoW Forever Breaks Records While PC Players Wait for GTA 6",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ya3ZPREcxTTlkTWEtWFV4RVY3anRqSHlUUFp6NEVlWjRBRkd4NDNHV0llSXZCSjVxTzNfVk10UDY5cnNEdGhvTERVLXVXN212RXZMRWhDbFVFZEF3VEdMcGxId3hZcjRWMU12RHZn?oc=5",
+   "date": "2026-11-23T11:42:40Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "shattered.io",
+   "icon": "inv_misc_spyglass_03",
+   "id": "08f6a8b103",
+   "first": "2026-11-23T11:42:40Z",
+   "last": "2026-11-23T11:42:40Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW: Forever November 20 Hotfix Cuts Dungeon Reset Limit in Half for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFNVNlY4VDBNaFdqX0tHeHprS2tCbEpVZEdkRFJXNmxiM2FodXdDb21nd3VQeXB0UWl0X2U5X0F5dXhRUE5RVC1HZWcxMkN6Y3ZROTBZZDZWWGFiOWhhcWptQkdJX3dXa1ROeFI5ZUU1Ykl2SExJZldqVC1vQU1Xa3ViNlNfNXNHek82aEFfbjZwOXpIUTdEMElrcUZjeFQx?oc=5",
+   "date": "2026-11-23T09:55:46Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Maxroll",
+   "icon": "inv_misc_spyglass_03",
+   "id": "dc83406ded",
+   "first": "2026-11-23T09:55:46Z",
+   "last": "2026-11-23T09:55:46Z",
+   "tags": [
+    "hotfix",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Marksmanship Hunter | Staedt - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
+   "date": "2026-11-23T06:31:01Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "0ac2c8204a",
+   "first": "2026-11-23T06:31:01Z",
+   "last": "2026-11-23T06:31:01Z",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
    "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
    "date": "2026-11-23T01:00:37Z",
@@ -26,8 +82,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "items",
-    "economy"
+    "economy",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -134,8 +190,8 @@
    "last": "2026-11-22T16:44:57Z",
    "tags": [
     "economy",
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 2,
@@ -252,25 +308,6 @@
    "also": []
   },
   {
-   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
-   "date": "2026-11-22T05:42:42Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "34ea7b832e",
-   "first": "2026-11-22T05:42:42Z",
-   "last": "2026-11-22T05:42:42Z",
-   "tags": [
-    "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Maraudon Dungeon Guide - Bosses, Loot & Quests",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPXzZwbkR6eTNmdVlwOUtZT001ZGRtRHFXaWZGb1phOHYwQkFpVjgyNlZqaDRwV2dFZUVyeUpTcjF6d0Nsc0tDN2hhS1pNQVpFZ0IxTFN3dHRjODFaN3ZpX1BWRnEyb016TEt4Sk1kQnVPTlBFbEYxQW43S2xjWjZDSXZsTnJHVGpXVWVzcXRNWnZvaDVjaEZXVmdNX2NQS1lXU3VSS2I0MlpGZ2tpY2c?oc=5",
    "date": "2026-11-21T19:10:22Z",
@@ -282,8 +319,8 @@
    "first": "2026-11-21T19:10:22Z",
    "last": "2026-11-21T19:10:22Z",
    "tags": [
-    "leveling",
-    "items"
+    "items",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -293,17 +330,17 @@
   {
    "title": "Lower Blackrock Spire Dungeon Guide - Bosses, Loot & Quests",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVRtTld1VGFnNXplblZSamh5eDR3WE9iekl6d0s2SXQ4cHNlNUExanhBT2hjOHhXUU1xN05uZW52bno5NFdUR181RmxNVF9QSEdsUWdaRXhyLXRFRWVuSy0xNTkyUGs2TW5QWTQ0YVo4TGplN2FSazRHclE1cjMyRGlDNTZITGUxSjBFMlRLQ0dISDRVSFpMeUM0a1YyTUVUOFFudTVEQjZUZWdaTlBEejFVSGN5WGczalNRNVk2UQ?oc=5",
-   "date": "2026-11-21T19:10:21Z",
+   "date": "2026-11-21T17:28:38Z",
    "label": "press",
    "source": "Google News",
    "who": "Mobalytics",
    "icon": "inv_misc_spyglass_03",
    "id": "1dba143d32",
-   "first": "2026-11-21T19:10:21Z",
-   "last": "2026-11-21T19:10:21Z",
+   "first": "2026-11-21T17:28:38Z",
+   "last": "2026-11-21T17:28:38Z",
    "tags": [
-    "leveling",
-    "items"
+    "items",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -428,8 +465,8 @@
    "last": "2026-11-21T13:33:09Z",
    "tags": [
     "classes",
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -451,6 +488,108 @@
     "professions"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "34ea7b832e",
+   "first": "2026-11-21T08:00:00Z",
+   "last": "2026-11-21T08:00:00Z",
+   "tags": [
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Holy Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wTG5fenZkMEpGTTd6NXhYX2huTklSUk1ORURnSE9vd3hBNXpIeENvTF9pVVRTWHJnQi1qNGk3VUwzcDI4b0xlM25qMUFaQ3N3dGx4OWF2VmQtd3lFbzR6elVMUTlRRllqSEFUOTlwbXZhcVJNb05Qbg?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "dbeca35246",
+   "first": "2026-11-21T08:00:00Z",
+   "last": "2026-11-21T08:00:00Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Restoration Shaman Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXSUdMUDNGLVVTeDNGY1Y3X3VUMzBXbWtqZGF5X0xDc0loNENDU2pjbC1VMkIwcHJLdDRpLTYySi05MmR2NTBwZFhTYmE3ZzFVbUlBTmJDVEU2VlBDUFpZM2h3UDFGbW1WOHI0SFJsRVJ4c1hE?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "682bb73e3b",
+   "first": "2026-11-21T08:00:00Z",
+   "last": "2026-11-21T08:00:00Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "shaman"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3YUhJdEo2Ykx6Vnp1OGNsWGxnMkdrclJya29Jcy14OVhNUENuTm91Y3Rhb1Y2WEFlTGpDVW9mS3UyS0tYajM2RVdaWnpGOHc5VkpZbnNDQ21OSlI1U21iSXFSLU53ellzdzViT3laU28?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "484d4b91eb",
+   "first": "2026-11-21T08:00:00Z",
+   "last": "2026-11-21T08:00:00Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "priest"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "MrRonit's Arcane Mage Levelling Guide (1-60)",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMVlHc0QycnlaT3BzRXZ0T0ZxcS1HRTY3Zm9xSTRLc0JBTjhINjhiWElQNEhvY1BuMEZqU21BZEZDZkxUM1BEbm00NFRuRnlnZUJFX3p5SmNTLWlDNHZFb1VXVEl3d3dTMzRQMjFmWlJFTkhYd3BGazVfU0ItbmNxa1d2WWhlR1I3cVRhbw?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "6c6f58f6fb",
+   "first": "2026-11-21T08:00:00Z",
+   "last": "2026-11-21T08:00:00Z",
+   "tags": [],
+   "classes": [
+    "mage"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -501,28 +640,6 @@
    ]
   },
   {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-21T00:29:47Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "59e25fb230",
-   "first": "2026-11-21T00:29:47Z",
-   "last": "2026-11-21T00:29:47Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "WoW: Forever designer wants to ditch one-size-fits-all best-in-slot gear, PC Gamer reports",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1lb0liUVQ2R1lYTF8wa1pNRi1HNEFMeGotWnVTWXNCOWpWVXlEblRld0FQQXNoMm5XZ2lJSmQwSU5iRnlncmFz?oc=5",
    "date": "2026-11-21T00:03:39Z",
@@ -542,68 +659,6 @@
    "also": []
   },
   {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-20T23:57:35Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "5acfc62b6f",
-   "first": "2026-11-20T23:57:35Z",
-   "last": "2026-11-20T23:57:35Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-20T23:13:16Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "9a8d6dfccc",
-   "first": "2026-11-20T23:13:16Z",
-   "last": "2026-11-20T23:13:16Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "mage"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
-   "date": "2026-11-20T21:58:17Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ebfb657fbd",
-   "first": "2026-11-20T21:58:17Z",
-   "last": "2026-11-20T21:58:17Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
    "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
    "date": "2026-11-20T20:51:19Z",
@@ -615,34 +670,11 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
-    "items",
     "raids",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Demonology Warlock Guide - Talents, Rotations, Pre Raid BiS Gear & More",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-20T19:53:19Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "7650134c20",
-   "first": "2026-11-20T19:53:19Z",
-   "last": "2026-11-20T19:53:19Z",
-   "tags": [
-    "classes",
-    "items",
-    "raids"
-   ],
-   "classes": [
-    "warlock"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -690,80 +722,13 @@
    "last": "2026-11-20T18:00:00Z",
    "tags": [
     "classes",
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
    "official": true,
    "also": []
-  },
-  {
-   "title": "Blizzard “Taking a Hard Look” at Merchant’s Favor Factions in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/blizzard-taking-a-hard-look-at-merchants-favor-factions-in-wow-forever/",
-   "date": "2026-11-19T18:22:30Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "In the latest episode of the WoW Forever Podcast, Principal Designer Kris Zierhut addressed some player concerns about how the Azeroth Commerce Authority and Durotar Supply & Logisitics factions work in WoW Forever. He said the team is aware that players are…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "194ef8b237",
-   "first": "2026-11-19T18:22:30Z",
-   "last": "2026-11-20T17:37:12Z",
-   "tags": [
-    "story",
-    "professions"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "Blizzard wants to add new merchant faction recipes with every WoW Forever update",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVWdwRWJVaUJDVXBvVTkzRk9XbGdUS0tTY05NbExZTC05RFJ5ZTY4aXpaWVRRWU9LeHE5cEdveDlsVXFHNUQ2NldNVGtIdGVrVEdwakRCYWZZemVCOW5xYlQ1WmxLZ25fQXh1NUoxdmFad1RMYS13NWtTdzFqalg0ZzBwa2lNQzVIdzhtQm9VV04wVFd1MWMtc3YySHJQRkh0alczTlhoSkN1cGpqcG5MNWw4dkNjVC0yWGptRWNVV0ZvSThJNEE2TA?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-20T17:37:12Z"
-    }
-   ]
-  },
-  {
-   "title": "Blizzard Addresses Spellpower Gear & the Healer Shortage in WoW Forever",
-   "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-spellpower-gear-and-the-healer-shortage-in-wow-forever/",
-   "date": "2026-11-19T17:53:00Z",
-   "label": "press",
-   "source": "Warcraft Tavern",
-   "summary": "The very first topics covered in the latest episode of the WoW Forever Podcast are regarding casters and healers, who players feel have recieved the short end of the stick while leveling so far. Principal Designer Kris Zierhut stated that the developers are…",
-   "who": "Luxrah",
-   "icon": "inv_misc_food_15",
-   "id": "c11d8c1155",
-   "first": "2026-11-19T17:53:00Z",
-   "last": "2026-11-20T17:00:46Z",
-   "tags": [
-    "items",
-    "story",
-    "classes",
-    "leveling"
-   ],
-   "classes": [],
-   "n": 3,
-   "official": false,
-   "also": [
-    {
-     "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-20T00:42:07Z"
-    },
-    {
-     "title": "World of Warcraft Forever talks class balance, itemization, and the healer shortage",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1BXTGVHMnpVMGRoY3VwOEJ6UXFlVHNYXzQ5ZF82cEp4dkxMZUdjY2Riam9wLWhULVVzTFBzVUhla1pIOWFVM3VwcnJXT3ZwcnVxS1hlTjBaQ1U5WXFxT01OM3VQUUtXcmlpS29JZ3NCQ0tKMG1icnFhY0Y1Vjd3T3JzYW9KZ0RKQXY1U01UVWxUb3RXWHJPVlhZeUJ5Vk9MYTdDU0g2NzFWWHJZTkdWRF9Pc0FmT0FE?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-20T17:00:46Z"
-    }
-   ]
   },
   {
    "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
@@ -868,6 +833,36 @@
    "also": []
   },
   {
+   "title": "Blizzard Addresses Spellpower Gear & the Healer Shortage in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-spellpower-gear-and-the-healer-shortage-in-wow-forever/",
+   "date": "2026-11-19T17:53:00Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "The very first topics covered in the latest episode of the WoW Forever Podcast are regarding casters and healers, who players feel have recieved the short end of the stick while leveling so far. Principal Designer Kris Zierhut stated that the developers are…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "c11d8c1155",
+   "first": "2026-11-19T17:53:00Z",
+   "last": "2026-11-20T00:42:07Z",
+   "tags": [
+    "items",
+    "story",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-20T00:42:07Z"
+    }
+   ]
+  },
+  {
    "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
    "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
    "date": "2026-11-19T23:20:47Z",
@@ -879,8 +874,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -919,8 +914,8 @@
    "first": "2026-11-19T18:58:48Z",
    "last": "2026-11-19T19:19:21Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "raids"
    ],
    "classes": [],
@@ -949,7 +944,27 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
+    "story",
+    "items"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Blizzard “Taking a Hard Look” at Merchant’s Favor Factions in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/blizzard-taking-a-hard-look-at-merchants-favor-factions-in-wow-forever/",
+   "date": "2026-11-19T18:22:30Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "In the latest episode of the WoW Forever Podcast, Principal Designer Kris Zierhut addressed some player concerns about how the Azeroth Commerce Authority and Durotar Supply & Logisitics factions work in WoW Forever. He said the team is aware that players are…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "194ef8b237",
+   "first": "2026-11-19T18:22:30Z",
+   "last": "2026-11-19T18:22:30Z",
+   "tags": [
     "story"
    ],
    "classes": [],
@@ -1377,8 +1392,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1399,8 +1414,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1512,9 +1527,9 @@
    "last": "2026-11-17T02:36:53Z",
    "tags": [
     "classes",
-    "items",
+    "hotfix",
     "professions",
-    "hotfix"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1554,9 +1569,9 @@
    "last": "2026-11-17T02:23:22Z",
    "tags": [
     "classes",
-    "leveling",
+    "hotfix",
     "items",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2151,8 +2166,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2191,8 +2206,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "classes",
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2346,8 +2361,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2367,8 +2382,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2469,8 +2484,8 @@
    "first": "2026-11-12T22:02:00Z",
    "last": "2026-11-12T22:02:00Z",
    "tags": [
-    "story",
-    "raids"
+    "raids",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -2499,16 +2514,15 @@
    "also": []
   },
   {
-   "title": "Blizzard replied in “Bugged/missing shaman totems since Monday's server chaos”",
-   "url": "https://us.forums.blizzard.com/en/wow/t/buggedmissing-shaman-totems-since-mondays-server-chaos/2409772/2",
-   "date": "2026-11-11T01:10:36.511000Z",
-   "label": "official",
-   "source": "Blizzard forums (US)",
-   "summary": "We have just deployed a fix for this to all regions. Shamans who lost a totem due to the crash should find it restored to their bag. Shamans who experienced the disappearance, who are currently in-game, will need to make sure you have bag space, and then…",
-   "who": "Kaivax (Community Manager)",
-   "icon": "inv_scroll_03",
-   "id": "064bdf3034",
-   "first": "2026-11-11T01:10:36.511000Z",
+   "title": "Enhancement Shaman Class Changes Now Live in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383858/enhancement-shaman-class-changes-now-live",
+   "date": "2026-11-12T19:12:41Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has confirmed that the Enhancement Shaman changes are now live. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "4ad6b572f0",
+   "first": "2026-11-12T19:12:41Z",
    "last": "2026-11-12T19:17:00Z",
    "tags": [
     "classes"
@@ -2516,23 +2530,9 @@
    "classes": [
     "shaman"
    ],
-   "n": 4,
-   "official": true,
+   "n": 2,
+   "official": false,
    "also": [
-    {
-     "title": "Bugged/missing shaman totems since Monday's server chaos",
-     "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2409772",
-     "source": "Wowhead Blue Tracker",
-     "label": "official",
-     "date": "2026-11-11T01:10:36Z"
-    },
-    {
-     "title": "Enhancement Shaman Class Changes Now Live in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383858/enhancement-shaman-class-changes-now-live",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-12T19:12:41Z"
-    },
     {
      "title": "Enhancement Shaman Changes Now Live in WoW: Forever",
      "url": "https://www.mmo-champion.com/content/14690-Enhancement-Shaman-Changes-Now-Live-in-WoW-Forever",
@@ -2602,9 +2602,9 @@
    "first": "2026-11-12T17:58:03Z",
    "last": "2026-11-12T17:58:03Z",
    "tags": [
-    "realms",
+    "pvp",
     "story",
-    "pvp"
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2629,6 +2629,34 @@
    "n": 1,
    "official": true,
    "also": []
+  },
+  {
+   "title": "Blizzard replied in “Bugged/missing shaman totems since Monday's server chaos”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/buggedmissing-shaman-totems-since-mondays-server-chaos/2409772/2",
+   "date": "2026-11-11T01:10:36.511000Z",
+   "label": "official",
+   "source": "Blizzard forums (US)",
+   "summary": "We have just deployed a fix for this to all regions. Shamans who lost a totem due to the crash should find it restored to their bag. Shamans who experienced the disappearance, who are currently in-game, will need to make sure you have bag space, and then…",
+   "who": "Kaivax (Community Manager)",
+   "icon": "inv_scroll_03",
+   "id": "064bdf3034",
+   "first": "2026-11-11T01:10:36.511000Z",
+   "last": "2026-11-11T01:10:36Z",
+   "tags": [],
+   "classes": [
+    "shaman"
+   ],
+   "n": 2,
+   "official": true,
+   "also": [
+    {
+     "title": "Bugged/missing shaman totems since Monday's server chaos",
+     "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2409772",
+     "source": "Wowhead Blue Tracker",
+     "label": "official",
+     "date": "2026-11-11T01:10:36Z"
+    }
+   ]
   },
   {
    "title": "WoW: Forever screenshot thread below 🧵",
@@ -2659,8 +2687,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2680,8 +2708,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2716,8 +2744,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2770,8 +2798,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2791,8 +2819,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2830,9 +2858,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
-    "ui",
     "classes",
-    "hotfix"
+    "hotfix",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2853,8 +2881,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "classes",
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3119,8 +3147,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3228,8 +3256,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -3406,10 +3434,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "ui",
     "classes",
-    "leveling",
-    "pvp"
+    "pvp",
+    "ui",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3430,8 +3458,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "classes",
-    "leveling",
-    "raids"
+    "raids",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3750,6 +3778,44 @@
  ],
  "items": [
   {
+   "title": "WoW Forever Breaks Records While PC Players Wait for GTA 6",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ya3ZPREcxTTlkTWEtWFV4RVY3anRqSHlUUFp6NEVlWjRBRkd4NDNHV0llSXZCSjVxTzNfVk10UDY5cnNEdGhvTERVLXVXN212RXZMRWhDbFVFZEF3VEdMcGxId3hZcjRWMU12RHZn?oc=5",
+   "date": "2026-11-23T11:42:40Z",
+   "who": "shattered.io",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "WoW: Forever November 20 Hotfix Cuts Dungeon Reset Limit in Half for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFNVNlY4VDBNaFdqX0tHeHprS2tCbEpVZEdkRFJXNmxiM2FodXdDb21nd3VQeXB0UWl0X2U5X0F5dXhRUE5RVC1HZWcxMkN6Y3ZROTBZZDZWWGFiOWhhcWptQkdJX3dXa1ROeFI5ZUU1Ykl2SExJZldqVC1vQU1Xa3ViNlNfNXNHek82aEFfbjZwOXpIUTdEMElrcUZjeFQx?oc=5",
+   "date": "2026-11-23T09:55:46Z",
+   "who": "Maxroll",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "hotfix",
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Marksmanship Hunter | Staedt - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
+   "date": "2026-11-23T06:31:01Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ]
+  },
+  {
    "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
    "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
    "date": "2026-11-23T01:00:37Z",
@@ -3916,19 +3982,6 @@
    ]
   },
   {
-   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
-   "date": "2026-11-22T05:42:42Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "items"
-   ],
-   "classes": []
-  },
-  {
    "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
    "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
    "date": "2026-11-21T19:26:27Z",
@@ -3960,7 +4013,7 @@
   {
    "title": "Lower Blackrock Spire Dungeon Guide - Bosses, Loot & Quests",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVRtTld1VGFnNXplblZSamh5eDR3WE9iekl6d0s2SXQ4cHNlNUExanhBT2hjOHhXUU1xN05uZW52bno5NFdUR181RmxNVF9QSEdsUWdaRXhyLXRFRWVuSy0xNTkyUGs2TW5QWTQ0YVo4TGplN2FSazRHclE1cjMyRGlDNTZITGUxSjBFMlRLQ0dISDRVSFpMeUM0a1YyTUVUOFFudTVEQjZUZWdaTlBEejFVSGN5WGczalNRNVk2UQ?oc=5",
-   "date": "2026-11-21T19:10:21Z",
+   "date": "2026-11-21T17:28:38Z",
    "who": "Mobalytics",
    "source": "Google News",
    "label": "press",
@@ -4066,6 +4119,78 @@
    "classes": []
   },
   {
+   "title": "Gnomeregan Guide - Bosses, Loot & Quests - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xOTdud05iVVQ1dXhvVlJGMGhDOWljeEp5X29wdE1ZRU9KNHVtNkZWRlZyaFVIVy1uQUY5cDBpNW9zWlNxRVdadHVBZ25fS241NWlLa0RKR3FBQjRfaG9aTXk1b0JlZk81a3FZ?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "items"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Holy Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wTG5fenZkMEpGTTd6NXhYX2huTklSUk1ORURnSE9vd3hBNXpIeENvTF9pVVRTWHJnQi1qNGk3VUwzcDI4b0xlM25qMUFaQ3N3dGx4OWF2VmQtd3lFbzR6elVMUTlRRllqSEFUOTlwbXZhcVJNb05Qbg?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
+  },
+  {
+   "title": "Restoration Shaman Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXSUdMUDNGLVVTeDNGY1Y3X3VUMzBXbWtqZGF5X0xDc0loNENDU2pjbC1VMkIwcHJLdDRpLTYySi05MmR2NTBwZFhTYmE3ZzFVbUlBTmJDVEU2VlBDUFpZM2h3UDFGbW1WOHI0SFJsRVJ4c1hE?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "shaman"
+   ]
+  },
+  {
+   "title": "Priest Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3YUhJdEo2Ykx6Vnp1OGNsWGxnMkdrclJya29Jcy14OVhNUENuTm91Y3Rhb1Y2WEFlTGpDVW9mS3UyS0tYajM2RVdaWnpGOHc5VkpZbnNDQ21OSlI1U21iSXFSLU53ellzdzViT3laU28?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling",
+    "classes"
+   ],
+   "classes": [
+    "priest"
+   ]
+  },
+  {
+   "title": "MrRonit's Arcane Mage Levelling Guide (1-60)",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMVlHc0QycnlaT3BzRXZ0T0ZxcS1HRTY3Zm9xSTRLc0JBTjhINjhiWElQNEhvY1BuMEZqU21BZEZDZkxUM1BEbm00NFRuRnlnZUJFX3p5SmNTLWlDNHZFb1VXVEl3d3dTMzRQMjFmWlJFTkhYd3BGazVfU0ItbmNxa1d2WWhlR1I3cVRhbw?oc=5",
+   "date": "2026-11-21T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": [
+    "mage"
+   ]
+  },
+  {
    "title": "World of Warcraft: Forever Sets Biggest Launch in History",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNlk5VGNXczlvZS1uRnNSUVhVU2o4WDdzcjJRaldGWlEwM082NVJObjd4NnBEaFFoX2lKTjctRk5nV01qVy1MUEFPbGVHTkNSSmxmcXZXR0xPMmJGd3EtSGxYQzFrMV9tcmpuTGFEXzBvYm9FV1R4eHhKeW9VelBvd0otUzNJVWV4bzg3THE0MFVDaG0tNmJxbnBFQjc?oc=5",
    "date": "2026-11-21T04:19:53Z",
@@ -4106,22 +4231,6 @@
    "classes": []
   },
   {
-   "title": "Warrior Leveling Guide (Level 1-60) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meDdFWlE1NW1BdWZaTGpMZ25RdjhmMFlOdWtYZFRpTGhtTG0yRWk0ejdGbTFNX3JWUmdPdkwyWVJqRE9iVHJNMUNwbG92ZUZ3WGExeUI5cVJGdFZwcWJ5dmpMNW1MVERCdUNTQnZ0ZnpOQQ?oc=5",
-   "date": "2026-11-21T00:29:47Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "warrior"
-   ]
-  },
-  {
    "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
    "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
    "date": "2026-11-21T00:23:36Z",
@@ -4148,50 +4257,6 @@
    "classes": []
   },
   {
-   "title": "Complete Combat Leveling 1-60 - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MZnE2TDZ0M25ObWNaLUZLTjR3dUZIdUNiSFo0QktILVJTUkE2cUJYNzcyRUEwQmtHU1pCOFEyM0pWWnQxUmlnc05ncU5DUTNzMEM1ckRGMXplZGlFdS1IMTVRNlhnbERKT0otUk4tcmVLUmhnZFNraA?oc=5",
-   "date": "2026-11-20T23:57:35Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-20T23:13:16Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "mage"
-   ]
-  },
-  {
-   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
-   "date": "2026-11-20T21:58:17Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ]
-  },
-  {
    "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
    "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
    "date": "2026-11-20T20:51:19Z",
@@ -4205,23 +4270,6 @@
     "items"
    ],
    "classes": []
-  },
-  {
-   "title": "Demonology Warlock Guide - Talents, Rotations, Pre Raid BiS Gear & More",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdHFSNlZHVGR4cDR3WkxTSW5KRnI4c2pIN19EUWxRSTdqczVLLWJCZVlqVjRtZ1FFdXlpZ29IYWhQOWxublp2OG9pMVhtcFFxYm11VUpuZDJWS3lsVUxBdjRaSDdjT0xNbld2WDVFaVluSU1m?oc=5",
-   "date": "2026-11-20T19:53:19Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "raids",
-    "classes",
-    "items"
-   ],
-   "classes": [
-    "warlock"
-   ]
   },
   {
    "title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
@@ -4250,32 +4298,6 @@
     "classes",
     "items",
     "story"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Blizzard wants to add new merchant faction recipes with every WoW Forever update",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVWdwRWJVaUJDVXBvVTkzRk9XbGdUS0tTY05NbExZTC05RFJ5ZTY4aXpaWVRRWU9LeHE5cEdveDlsVXFHNUQ2NldNVGtIdGVrVEdwakRCYWZZemVCOW5xYlQ1WmxLZ25fQXh1NUoxdmFad1RMYS13NWtTdzFqalg0ZzBwa2lNQzVIdzhtQm9VV04wVFd1MWMtc3YySHJQRkh0alczTlhoSkN1cGpqcG5MNWw4dkNjVC0yWGptRWNVV0ZvSThJNEE2TA?oc=5",
-   "date": "2026-11-20T17:37:12Z",
-   "who": "TweakTown",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "professions"
-   ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft Forever talks class balance, itemization, and the healer shortage",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1BXTGVHMnpVMGRoY3VwOEJ6UXFlVHNYXzQ5ZF82cEp4dkxMZUdjY2Riam9wLWhULVVzTFBzVUhla1pIOWFVM3VwcnJXT3ZwcnVxS1hlTjBaQ1U5WXFxT01OM3VQUUtXcmlpS29JZ3NCQ0tKMG1icnFhY0Y1Vjd3T3JzYW9KZ0RKQXY1U01UVWxUb3RXWHJPVlhZeUJ5Vk9MYTdDU0g2NzFWWHJZTkdWRF9Pc0FmT0FE?oc=5",
-   "date": "2026-11-20T17:00:46Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
    ],
    "classes": []
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:56:30Z",
+ "updated": "2026-11-24T05:57:28Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -44,8 +44,8 @@
    "last": "2026-11-24T02:30:39Z",
    "tags": [
     "items",
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [],
    "n": 2,
@@ -72,9 +72,9 @@
    "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T02:10:52Z",
    "tags": [
-    "classes",
+    "professions",
     "hotfix",
-    "professions"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -115,8 +115,8 @@
    "first": "2026-11-23T22:46:03Z",
    "last": "2026-11-23T22:46:03Z",
    "tags": [
-    "classes",
-    "professions"
+    "professions",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -204,8 +204,8 @@
     "classes"
    ],
    "classes": [
-    "paladin",
-    "warlock"
+    "warlock",
+    "paladin"
    ],
    "n": 3,
    "official": true,
@@ -227,27 +227,6 @@
    ]
   },
   {
-   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
-   "date": "2026-11-23T18:58:57Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "da35cbd0a8",
-   "first": "2026-11-23T18:58:57Z",
-   "last": "2026-11-23T18:58:57Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "druid"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Dungeon XP in WoW Forever: Three Hotfixes and What They Mean for Levelling",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU09DRjliZk9EbjB0SEV5UGJ4X3F4WlYteHg2WTRscmpocE9BTi1TVWJOVDhBOXJVaUV2QlVXZFJfc0M0Zkh1cC1TU09wRmFTZ2NPT2ZLcktkT09WN0tzdENsLTQ3TllLZHk2eF9LeHU3dE54aGR6MURqZ19oRElpLXI4SVpzREFpY01BLTVvSE45T2xTamthYlZKb1k3UENN?oc=5",
    "date": "2026-11-23T18:10:58Z",
@@ -259,10 +238,31 @@
    "first": "2026-11-23T18:10:58Z",
    "last": "2026-11-23T18:10:58Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
+   "date": "2026-11-23T18:08:42Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "da35cbd0a8",
+   "first": "2026-11-23T18:08:42Z",
+   "last": "2026-11-23T18:08:42Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "druid"
+   ],
    "n": 1,
    "official": false,
    "also": []
@@ -387,8 +387,8 @@
    "last": "2026-11-23T16:26:25.715000Z",
    "tags": [
     "items",
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [
     "rogue"
@@ -531,8 +531,8 @@
    "first": "2026-11-23T09:55:46Z",
    "last": "2026-11-23T09:55:46Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -667,8 +667,8 @@
    "last": "2026-11-22T16:44:57Z",
    "tags": [
     "economy",
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 2,
@@ -863,9 +863,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
+    "hotfix",
     "raids",
-    "items",
-    "hotfix"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -885,8 +885,8 @@
    "first": "2026-11-20T16:21:03Z",
    "last": "2026-11-20T19:00:55Z",
    "tags": [
-    "realms",
     "ui",
+    "realms",
     "hotfix"
    ],
    "classes": [],
@@ -1067,8 +1067,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1585,8 +1585,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1607,8 +1607,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1719,10 +1719,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "classes",
-    "items",
+    "professions",
     "hotfix",
-    "professions"
+    "classes",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1761,10 +1761,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
+    "hotfix",
     "classes",
-    "items",
     "leveling",
-    "hotfix"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2398,9 +2398,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "hotfix",
     "classes",
-    "leveling",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2554,8 +2554,8 @@
    "first": "2026-11-13T18:33:36Z",
    "last": "2026-11-13T18:33:36Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2575,8 +2575,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2839,8 +2839,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2893,8 +2893,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2914,8 +2914,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2953,8 +2953,8 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
-    "classes",
     "hotfix",
+    "classes",
     "ui"
    ],
    "classes": [],
@@ -2975,9 +2975,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "hotfix",
     "classes",
-    "leveling",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3013,8 +3013,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -3242,8 +3242,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3351,8 +3351,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -3529,10 +3529,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "classes",
+    "ui",
     "pvp",
-    "leveling",
-    "ui"
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3552,8 +3552,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "classes",
     "raids",
+    "classes",
     "leveling"
    ],
    "classes": [],
@@ -3863,21 +3863,6 @@
    ]
   },
   {
-   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
-   "date": "2026-11-23T18:58:57Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "druid"
-   ]
-  },
-  {
    "title": "Epic Mount - Bug Riding Skill",
    "url": "https://www.wowhead.com/forever/blue-tracker/topic/eu/642667",
    "date": "2026-11-23T18:56:23Z",
@@ -3916,6 +3901,21 @@
     "leveling"
    ],
    "classes": []
+  },
+  {
+   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
+   "date": "2026-11-23T18:08:42Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "druid"
+   ]
   },
   {
    "title": "World of Warcraft: Forever",

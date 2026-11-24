@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:39:55Z",
+ "updated": "2026-11-24T05:56:30Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -73,8 +73,8 @@
    "last": "2026-11-24T02:10:52Z",
    "tags": [
     "classes",
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -204,8 +204,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "paladin"
+    "paladin",
+    "warlock"
    ],
    "n": 3,
    "official": true,
@@ -227,6 +227,27 @@
    ]
   },
   {
+   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
+   "date": "2026-11-23T18:58:57Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "da35cbd0a8",
+   "first": "2026-11-23T18:58:57Z",
+   "last": "2026-11-23T18:58:57Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "druid"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Dungeon XP in WoW Forever: Three Hotfixes and What They Mean for Levelling",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU09DRjliZk9EbjB0SEV5UGJ4X3F4WlYteHg2WTRscmpocE9BTi1TVWJOVDhBOXJVaUV2QlVXZFJfc0M0Zkh1cC1TU09wRmFTZ2NPT2ZLcktkT09WN0tzdENsLTQ3TllLZHk2eF9LeHU3dE54aGR6MURqZ19oRElpLXI4SVpzREFpY01BLTVvSE45T2xTamthYlZKb1k3UENN?oc=5",
    "date": "2026-11-23T18:10:58Z",
@@ -238,8 +259,8 @@
    "first": "2026-11-23T18:10:58Z",
    "last": "2026-11-23T18:10:58Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -510,8 +531,8 @@
    "first": "2026-11-23T09:55:46Z",
    "last": "2026-11-23T09:55:46Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -568,8 +589,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "items",
-    "economy"
+    "economy",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -646,8 +667,8 @@
    "last": "2026-11-22T16:44:57Z",
    "tags": [
     "economy",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 2,
@@ -784,27 +805,6 @@
    "also": []
   },
   {
-   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
-   "date": "2026-11-22T02:17:59Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "234469eb31",
-   "first": "2026-11-22T02:17:59Z",
-   "last": "2026-11-22T02:17:59Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
    "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
    "date": "2026-11-21T15:00:00Z",
@@ -863,9 +863,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
+    "raids",
     "items",
-    "hotfix",
-    "raids"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -915,8 +915,8 @@
    "last": "2026-11-20T18:00:00Z",
    "tags": [
     "classes",
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1038,8 +1038,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T00:42:07Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "leveling"
    ],
    "classes": [],
@@ -1107,8 +1107,8 @@
    "first": "2026-11-19T18:58:48Z",
    "last": "2026-11-19T19:19:21Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "raids"
    ],
    "classes": [],
@@ -1137,8 +1137,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1721,8 +1721,8 @@
    "tags": [
     "classes",
     "items",
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1763,8 +1763,8 @@
    "tags": [
     "classes",
     "items",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2192,8 +2192,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -2359,8 +2359,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2399,8 +2399,8 @@
    "last": "2026-11-14T01:59:35Z",
    "tags": [
     "classes",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2839,8 +2839,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 3,
@@ -2914,8 +2914,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2976,8 +2976,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "classes",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3242,8 +3242,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3531,8 +3531,8 @@
    "tags": [
     "classes",
     "pvp",
-    "ui",
-    "leveling"
+    "leveling",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -3553,8 +3553,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "classes",
-    "leveling",
-    "raids"
+    "raids",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3860,6 +3860,21 @@
    "classes": [
     "paladin",
     "warlock"
+   ]
+  },
+  {
+   "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
+   "date": "2026-11-23T18:58:57Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "druid"
    ]
   },
   {
@@ -4304,21 +4319,6 @@
    "tags": [
     "classes",
     "items"
-   ],
-   "classes": [
-    "paladin"
-   ]
-  },
-  {
-   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
-   "date": "2026-11-22T02:17:59Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
    ],
    "classes": [
     "paladin"

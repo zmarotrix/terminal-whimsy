@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:30:01Z",
+ "updated": "2026-11-24T07:33:07Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -44,8 +44,8 @@
    "last": "2026-11-24T02:30:39Z",
    "tags": [
     "items",
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [],
    "n": 2,
@@ -72,9 +72,9 @@
    "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T02:10:52Z",
    "tags": [
+    "hotfix",
     "classes",
-    "professions",
-    "hotfix"
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -204,8 +204,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "paladin"
+    "paladin",
+    "warlock"
    ],
    "n": 3,
    "official": true,
@@ -227,6 +227,28 @@
    ]
   },
   {
+   "title": "Paladin AoE Farming - Gear, Talents and more!",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdHNNaTlsbHNOUXowV1JiNlR1aUpwNHVfUjA2SFhCX2FkX0pFTDBYd0VqREFGSnZLem9IVHBIT0oxczhGUktLQ21EWGF3bEl3djlRSGo0bGZ2SlQ4dU4wOFc4NXNCcDlwTHJoQVMzZ2hCY2RJZnhzXzJFMzFmYUdmRDk1ckVkMExrSnp1U2F3?oc=5",
+   "date": "2026-11-23T18:27:45Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "1021e16203",
+   "first": "2026-11-23T18:27:45Z",
+   "last": "2026-11-23T18:27:45Z",
+   "tags": [
+    "items",
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Dungeon XP in WoW Forever: Three Hotfixes and What They Mean for Levelling",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU09DRjliZk9EbjB0SEV5UGJ4X3F4WlYteHg2WTRscmpocE9BTi1TVWJOVDhBOXJVaUV2QlVXZFJfc0M0Zkh1cC1TU09wRmFTZ2NPT2ZLcktkT09WN0tzdENsLTQ3TllLZHk2eF9LeHU3dE54aGR6MURqZ19oRElpLXI4SVpzREFpY01BLTVvSE45T2xTamthYlZKb1k3UENN?oc=5",
    "date": "2026-11-23T18:10:58Z",
@@ -238,8 +260,8 @@
    "first": "2026-11-23T18:10:58Z",
    "last": "2026-11-23T18:10:58Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -387,8 +409,8 @@
    "last": "2026-11-23T16:26:25.715000Z",
    "tags": [
     "items",
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [
     "rogue"
@@ -531,8 +553,8 @@
    "first": "2026-11-23T09:55:46Z",
    "last": "2026-11-23T09:55:46Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -608,8 +630,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "economy",
-    "items"
+    "items",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -686,8 +708,8 @@
    "last": "2026-11-22T16:44:57Z",
    "tags": [
     "economy",
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 2,
@@ -783,25 +805,6 @@
    "also": []
   },
   {
-   "title": "Restoration Druid - A Complete Guide",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZHhLSjRmR2trZlNweVBMTnVwcDBqTjFQMS1BR1dXZ3NERklmQm5tTkFZNlFiRXNOSTRETG5kb3laYW9pU05YQmxRV0JoR3lNLVE0cUVpeEt4Q1dnM0VkNUNrb3o2alJpd25IRmE1aUpMMGhhMUlYWDBaQnkwS2p0aA?oc=5",
-   "date": "2026-11-22T08:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "4c83c0362e",
-   "first": "2026-11-22T08:00:00Z",
-   "last": "2026-11-22T08:00:00Z",
-   "tags": [],
-   "classes": [
-    "druid"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
    "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
    "date": "2026-11-21T15:00:00Z",
@@ -861,8 +864,8 @@
    "last": "2026-11-20T20:51:19Z",
    "tags": [
     "items",
-    "raids",
-    "hotfix"
+    "hotfix",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -911,9 +914,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "classes",
     "items",
-    "story"
+    "story",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1064,8 +1067,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1213,8 +1216,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "classes",
     "story",
+    "classes",
     "items"
    ],
    "classes": [],
@@ -1249,8 +1252,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:15:00Z",
    "tags": [
-    "classes",
-    "story"
+    "story",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1716,10 +1719,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "classes",
     "items",
-    "professions",
-    "hotfix"
+    "hotfix",
+    "classes",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -1758,10 +1761,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "leveling",
-    "classes",
     "items",
-    "hotfix"
+    "hotfix",
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2356,8 +2359,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2395,9 +2398,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "hotfix",
     "leveling",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2836,8 +2839,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2890,8 +2893,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2911,8 +2914,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2950,9 +2953,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
-    "ui",
+    "hotfix",
     "classes",
-    "hotfix"
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -2972,9 +2975,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "hotfix",
     "leveling",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3239,8 +3242,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3528,8 +3531,8 @@
    "tags": [
     "leveling",
     "classes",
-    "pvp",
-    "ui"
+    "ui",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3883,6 +3886,22 @@
    "classes": [
     "paladin",
     "warlock"
+   ]
+  },
+  {
+   "title": "Paladin AoE Farming - Gear, Talents and more!",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdHNNaTlsbHNOUXowV1JiNlR1aUpwNHVfUjA2SFhCX2FkX0pFTDBYd0VqREFGSnZLem9IVHBIT0oxczhGUktLQ21EWGF3bEl3djlRSGo0bGZ2SlQ4dU4wOFc4NXNCcDlwTHJoQVMzZ2hCY2RJZnhzXzJFMzFmYUdmRDk1ckVkMExrSnp1U2F3?oc=5",
+   "date": "2026-11-23T18:27:45Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes",
+    "items"
+   ],
+   "classes": [
+    "paladin"
    ]
   },
   {
@@ -4303,19 +4322,6 @@
    ],
    "classes": [
     "rogue"
-   ]
-  },
-  {
-   "title": "Restoration Druid - A Complete Guide",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZHhLSjRmR2trZlNweVBMTnVwcDBqTjFQMS1BR1dXZ3NERklmQm5tTkFZNlFiRXNOSTRETG5kb3laYW9pU05YQmxRV0JoR3lNLVE0cUVpeEt4Q1dnM0VkNUNrb3o2alJpd25IRmE1aUpMMGhhMUlYWDBaQnkwS2p0aA?oc=5",
-   "date": "2026-11-22T08:00:00Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": [
-    "druid"
    ]
   },
   {

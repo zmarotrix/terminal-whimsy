@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:55:39Z",
+ "updated": "2026-11-24T05:26:42Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,73 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "25 Things to Do at Level 60 in WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
+   "date": "2026-11-24T05:25:17Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "fde077feca",
+   "first": "2026-11-24T05:25:17Z",
+   "last": "2026-11-24T05:25:17Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
+   "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
+   "date": "2026-11-23T21:20:40Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The Obsidian Golem boss in Uldaman drops loot again, but the vendor cost of the items has been nerfed. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "b01312ac57",
+   "first": "2026-11-23T21:20:40Z",
+   "last": "2026-11-24T02:30:39Z",
+   "tags": [
+    "items",
+    "hotfix",
+    "economy"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Obsidian Sentinel Loot Nerfed: WoW Forever Hotfixes for November 23",
+     "url": "https://www.warcrafttavern.com/forever/news/obsidian-sentinel-loot-nerfed-wow-forever-hotfixes-for-november-23/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-24T02:30:39Z"
+    }
+   ]
+  },
+  {
+   "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+   "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+   "date": "2026-11-24T02:10:52Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "380bd87306",
+   "first": "2026-11-24T02:10:52Z",
+   "last": "2026-11-24T02:10:52Z",
+   "tags": [
+    "professions",
+    "hotfix",
+    "classes"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
    "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
@@ -48,8 +115,8 @@
    "first": "2026-11-23T22:46:03Z",
    "last": "2026-11-23T22:46:03Z",
    "tags": [
-    "classes",
-    "professions"
+    "professions",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -69,25 +136,6 @@
    "last": "2026-11-23T22:29:58Z",
    "tags": [
     "classes"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
-   "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
-   "date": "2026-11-23T21:20:40Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The Obsidian Golem boss in Uldaman drops loot again, but the vendor cost of the items has been nerfed. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "b01312ac57",
-   "first": "2026-11-23T21:20:40Z",
-   "last": "2026-11-23T21:20:40Z",
-   "tags": [
-    "items"
    ],
    "classes": [],
    "n": 1,
@@ -141,27 +189,6 @@
    ]
   },
   {
-   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
-   "date": "2026-11-23T19:32:15Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ebfb657fbd",
-   "first": "2026-11-23T19:32:15Z",
-   "last": "2026-11-23T19:32:15Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Blizzard replied in “Epic Mount - Bug Riding Skill”",
    "url": "https://eu.forums.blizzard.com/en/wow/t/epic-mount-bug-riding-skill/642667/11",
    "date": "2026-11-23T18:56:15.717000Z",
@@ -211,9 +238,26 @@
    "first": "2026-11-23T18:10:58Z",
    "last": "2026-11-23T18:10:58Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zdFBzX19ybEhTc1ZEQmdCS1AzNmxNejBZVkZaRkNGQUg2T2Z3Sk1VbTk1SjFsUGsyWE1OWENRRVRFVlRlV3BXanpiYWl1dEVMNlNvQnM2YkV1YXYySXhn?oc=5",
+   "date": "2026-11-23T17:17:32Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Polygon.com",
+   "icon": "inv_misc_spyglass_03",
+   "id": "3f0d4406a0",
+   "first": "2026-11-23T17:17:32Z",
+   "last": "2026-11-23T17:17:32Z",
+   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -400,6 +444,27 @@
    "also": []
   },
   {
+   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
+   "date": "2026-11-23T13:30:51Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "ebfb657fbd",
+   "first": "2026-11-23T13:30:51Z",
+   "last": "2026-11-23T13:30:51Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "WoW Forever Breaks Records While PC Players Wait for GTA 6",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ya3ZPREcxTTlkTWEtWFV4RVY3anRqSHlUUFp6NEVlWjRBRkd4NDNHV0llSXZCSjVxTzNfVk10UDY5cnNEdGhvTERVLXVXN212RXZMRWhDbFVFZEF3VEdMcGxId3hZcjRWMU12RHZn?oc=5",
    "date": "2026-11-23T11:42:40Z",
@@ -428,8 +493,8 @@
    "first": "2026-11-23T09:55:46Z",
    "last": "2026-11-23T09:55:46Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -564,8 +629,8 @@
    "last": "2026-11-22T16:44:57Z",
    "tags": [
     "economy",
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 2,
@@ -661,27 +726,6 @@
    "also": []
   },
   {
-   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
-   "date": "2026-11-22T08:54:18Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "234469eb31",
-   "first": "2026-11-22T08:54:18Z",
-   "last": "2026-11-22T08:54:18Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Restoration Druid - A Complete Guide",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZHhLSjRmR2trZlNweVBMTnVwcDBqTjFQMS1BR1dXZ3NERklmQm5tTkFZNlFiRXNOSTRETG5kb3laYW9pU05YQmxRV0JoR3lNLVE0cUVpeEt4Q1dnM0VkNUNrb3o2alJpd25IRmE1aUpMMGhhMUlYWDBaQnkwS2p0aA?oc=5",
    "date": "2026-11-22T08:00:00Z",
@@ -712,7 +756,28 @@
    "first": "2026-11-22T08:00:00Z",
    "last": "2026-11-22T08:00:00Z",
    "tags": [
-    "items",
+    "classes",
+    "items"
+   ],
+   "classes": [
+    "paladin"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-22T02:17:59Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "234469eb31",
+   "first": "2026-11-22T02:17:59Z",
+   "last": "2026-11-22T02:17:59Z",
+   "tags": [
     "classes"
    ],
    "classes": [
@@ -739,48 +804,6 @@
    "classes": [
     "druid"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-21T20:36:12Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "9a8d6dfccc",
-   "first": "2026-11-21T20:36:12Z",
-   "last": "2026-11-21T20:36:12Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "mage"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Maraudon Dungeon Guide - Bosses, Loot & Quests",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPXzZwbkR6eTNmdVlwOUtZT001ZGRtRHFXaWZGb1phOHYwQkFpVjgyNlZqaDRwV2dFZUVyeUpTcjF6d0Nsc0tDN2hhS1pNQVpFZ0IxTFN3dHRjODFaN3ZpX1BWRnEyb016TEt4Sk1kQnVPTlBFbEYxQW43S2xjWjZDSXZsTnJHVGpXVWVzcXRNWnZvaDVjaEZXVmdNX2NQS1lXU3VSS2I0MlpGZ2tpY2c?oc=5",
-   "date": "2026-11-21T19:10:22Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "d27582976d",
-   "first": "2026-11-21T19:10:22Z",
-   "last": "2026-11-21T19:10:22Z",
-   "tags": [
-    "items",
-    "leveling"
-   ],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -895,9 +918,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "items",
+    "story",
     "classes",
-    "story"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1019,8 +1042,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T00:42:07Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "leveling"
    ],
    "classes": [],
@@ -1048,8 +1071,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1088,8 +1111,8 @@
    "first": "2026-11-19T18:58:48Z",
    "last": "2026-11-19T19:19:21Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "raids"
    ],
    "classes": [],
@@ -1118,8 +1141,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1197,8 +1220,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "classes",
     "story",
+    "classes",
     "items"
    ],
    "classes": [],
@@ -1233,8 +1256,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:15:00Z",
    "tags": [
-    "classes",
-    "story"
+    "story",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1700,10 +1723,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
+    "professions",
     "hotfix",
     "items",
-    "classes",
-    "professions"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1742,10 +1765,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
+    "leveling",
     "hotfix",
     "items",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2173,8 +2196,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2340,8 +2363,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2379,9 +2402,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "leveling",
     "hotfix",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2556,8 +2579,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -2621,25 +2644,6 @@
    "last": "2026-11-13T01:10:58Z",
    "tags": [
     "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out",
-   "date": "2026-11-12T22:45:42Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Once you learn Dual Spec, a bug can randomly trigger when you log out, wiping abilities off your Action Bars! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "b01a4883d0",
-   "first": "2026-11-12T22:45:42Z",
-   "last": "2026-11-12T22:45:42Z",
-   "tags": [
-    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2782,8 +2786,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2803,8 +2807,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -2839,8 +2843,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 3,
@@ -2893,8 +2897,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2914,8 +2918,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2953,9 +2957,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
+    "ui",
     "hotfix",
-    "classes",
-    "ui"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2975,9 +2979,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "leveling",
     "hotfix",
-    "classes",
-    "leveling"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3013,8 +3017,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -3242,8 +3246,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3351,8 +3355,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -3529,10 +3533,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
+    "leveling",
     "ui",
-    "pvp",
     "classes",
-    "leveling"
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3553,8 +3557,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "raids",
-    "classes",
-    "leveling"
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3719,27 +3723,51 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "Return to Azeroth in World of Warcraft: Forever",
-   "url": "https://eu.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/638484/1",
-   "date": "2026-10-29T19:03:13.656000Z",
-   "label": "official",
-   "source": "Blizzard forums (EU)",
-   "summary": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground…",
-   "who": "BlizzardEntertainment (Blizzard News)",
-   "icon": "inv_scroll_03",
-   "id": "be2fa355db",
-   "first": "2026-10-29T19:03:13.656000Z",
-   "last": "2026-10-29T19:03:13.656000Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": true,
-   "also": []
   }
  ],
  "items": [
+  {
+   "title": "25 Things to Do at Level 60 in WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
+   "date": "2026-11-24T05:25:17Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Obsidian Sentinel Loot Nerfed: WoW Forever Hotfixes for November 23",
+   "url": "https://www.warcrafttavern.com/forever/news/obsidian-sentinel-loot-nerfed-wow-forever-hotfixes-for-november-23/",
+   "date": "2026-11-24T02:30:39Z",
+   "summary": "A new round of hotfixes has arrived in WoW Forever, with a couple of notable changes included. The Obsidian Sentinel in Uldaman briefly had its loot removed to block a lucrative gold farm. It should now drop loot again, although the loot seems to have had…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "hotfix",
+    "items",
+    "economy"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+   "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+   "date": "2026-11-24T02:10:52Z",
+   "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "hotfix",
+    "classes",
+    "professions"
+   ],
+   "classes": []
+  },
   {
    "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
    "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
@@ -3823,21 +3851,6 @@
    "classes": []
   },
   {
-   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
-   "date": "2026-11-23T19:32:15Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ]
-  },
-  {
    "title": "Blizzard Working on a Fix for Paladin and Warlocks Not Unlocking Epic Riding",
    "url": "https://www.wowhead.com/news=383965/blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding",
    "date": "2026-11-23T19:05:26Z",
@@ -3891,6 +3904,17 @@
     "hotfix",
     "leveling"
    ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zdFBzX19ybEhTc1ZEQmdCS1AzNmxNejBZVkZaRkNGQUg2T2Z3Sk1VbTk1SjFsUGsyWE1OWENRRVRFVlRlV3BXanpiYWl1dEVMNlNvQnM2YkV1YXYySXhn?oc=5",
+   "date": "2026-11-23T17:17:32Z",
+   "who": "Polygon.com",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
    "classes": []
   },
   {
@@ -4031,6 +4055,21 @@
     "realms"
    ],
    "classes": []
+  },
+  {
+   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
+   "date": "2026-11-23T13:30:51Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
   },
   {
    "title": "WoW Forever Breaks Records While PC Players Wait for GTA 6",
@@ -4235,21 +4274,6 @@
    ]
   },
   {
-   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
-   "date": "2026-11-22T08:54:18Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ]
-  },
-  {
    "title": "Restoration Druid - A Complete Guide",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZHhLSjRmR2trZlNweVBMTnVwcDBqTjFQMS1BR1dXZ3NERklmQm5tTkFZNlFiRXNOSTRETG5kb3laYW9pU05YQmxRV0JoR3lNLVE0cUVpeEt4Q1dnM0VkNUNrb3o2alJpd25IRmE1aUpMMGhhMUlYWDBaQnkwS2p0aA?oc=5",
    "date": "2026-11-22T08:00:00Z",
@@ -4279,6 +4303,21 @@
    ]
   },
   {
+   "title": "Protection Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBORXlScEtHVXZLWG1yVC16T3h3YWZaSDNkeGhHOTlaVTFpUllwZVFjZFVOWG9WZ0hFNzJVWkhKWm1Sb1puY3JRSGJaVnowLXZKVHNFSWF0elJNcjFfcDM5QTdIZFBSOTRrZUJJdDRTMUdWc0p1?oc=5",
+   "date": "2026-11-22T02:17:59Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "paladin"
+   ]
+  },
+  {
    "title": "Feral Druid Guide (Cat DPS) - Talents, Rotations, Races & More - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JQWVpZ3ZHckZSN1gtS2xGVnF1eXJqYVR4Q0dhOHBJdmhmZ00td3lOOHVRLWNraktmNzBOM2UtYTJSZ295eXU5dC1oQXhrUENmcm16QS1falhLcEJxTnRBbnIwd1d5UldEQkpj?oc=5",
    "date": "2026-11-21T22:15:25Z",
@@ -4294,22 +4333,6 @@
    ]
   },
   {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-21T20:36:12Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "mage"
-   ]
-  },
-  {
    "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
    "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
    "date": "2026-11-21T19:26:27Z",
@@ -4321,20 +4344,6 @@
     "hotfix",
     "leveling",
     "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Maraudon Dungeon Guide - Bosses, Loot & Quests",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPXzZwbkR6eTNmdVlwOUtZT001ZGRtRHFXaWZGb1phOHYwQkFpVjgyNlZqaDRwV2dFZUVyeUpTcjF6d0Nsc0tDN2hhS1pNQVpFZ0IxTFN3dHRjODFaN3ZpX1BWRnEyb016TEt4Sk1kQnVPTlBFbEYxQW43S2xjWjZDSXZsTnJHVGpXVWVzcXRNWnZvaDVjaEZXVmdNX2NQS1lXU3VSS2I0MlpGZ2tpY2c?oc=5",
-   "date": "2026-11-21T19:10:22Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "items"
    ],
    "classes": []
   },
@@ -5786,19 +5795,6 @@
    "classes": []
   },
   {
-   "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out",
-   "date": "2026-11-12T22:45:42Z",
-   "summary": "Once you learn Dual Spec, a bug can randomly trigger when you log out, wiping abilities off your Action Bars! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "classes"
-   ],
-   "classes": []
-  },
-  {
    "title": "Enhancement Shaman Changes Now Live in WoW: Forever",
    "url": "https://www.mmo-champion.com/content/14690-Enhancement-Shaman-Changes-Now-Live-in-WoW-Forever",
    "date": "2026-11-12T19:17:00Z",
@@ -6625,18 +6621,6 @@
    "source": "World of Warcraft on Bluesky",
    "label": "social",
    "icon": "inv_misc_horn_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Return to Azeroth in World of Warcraft: Forever",
-   "url": "https://eu.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/638484/1",
-   "date": "2026-10-29T19:03:13.656000Z",
-   "summary": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground…",
-   "who": "BlizzardEntertainment (Blizzard News)",
-   "source": "Blizzard forums (EU)",
-   "label": "official",
-   "icon": "inv_scroll_03",
    "tags": [],
    "classes": []
   }

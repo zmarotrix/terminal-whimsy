@@ -2,7 +2,7 @@
 Edit here, then run: python tools/build_data.py"""
 
 HERO_CMD = "whimsy --brief forever --raid-night 2026-12-09"
-LEDE = "What we've worked out about WoW Forever so far, so nobody turns up on 9 December with a Classic spec."
+LEDE = "Welcome in! This is where our guild keeps its notes on WoW Forever. Have a look around, whether you raid with us or not."
 
 COUNTDOWNS = [
     # Time still unannounced. Blizzard's Korean pages say 10 Dec, so not before 00:00 KST, which is 7 a.m. PST on 9 Dec

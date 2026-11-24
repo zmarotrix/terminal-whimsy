@@ -41,6 +41,39 @@
       <p class="term" aria-hidden="true"><span class="txt"></span><span class="cur"></span></p>
       <h1>Terminal Whimsy<span class="spark" aria-hidden="true">✦</span><small>The Forever Briefing</small></h1>
       <p class="lede">Welcome in! This is where our guild keeps its notes on WoW&nbsp;Forever. Have a look around, whether you raid with us or not.</p>
+      <script>
+      /* The welcome under the title: a random one each load, never the same twice running. Here rather than in
+         data.js so it's chosen before the first paint. The text above is what shows without scripts. */
+      (() => {
+        const W = [
+          "Welcome in! This is where our guild keeps its notes on WoW Forever. Have a look around, whether you raid with us or not.",
+          "Oh good, you made it. Grab a seat by the fire (the one that isn't Onyxia's). Our WoW Forever notes are yours to read.",
+          "Come in, come in! Mind the wisp. It lives here, and it loves visitors. Our notes on WoW Forever are just below.",
+          "Well met, traveller! You've found our guild's pile of WoW Forever notes. It's much tidier than our guild bank.",
+          "Welcome! Lean your staff anywhere. We've been writing down what's new in WoW Forever, and you can read over our shoulders.",
+          "You've been summoned! It took a warlock and two volunteers. While you're here, have a read of our WoW Forever notes.",
+          "New here or back again, it's good to see you. We've kept our WoW Forever notes warm for you.",
+          "Hail, friend! No attunement needed. Our notes on WoW Forever are open to anyone who wanders in.",
+          "Kettle's on. Sit down and catch up on WoW Forever with us. Nobody here minds if you ask what threat is.",
+          "Welcome, hero! You're rested in here. Take your time with our WoW Forever notes. Nobody's pulling yet.",
+          "Mrglglgl! (That's murloc for welcome.) These are our guild's notes on WoW Forever, and there's room for one more reader.",
+          "Welcome to our comfy corner of Azeroth. We read the WoW Forever patch notes so you can go fishing.",
+          "Discovered: Terminal Whimsy! It's where our guild keeps its WoW Forever notes. Sorry, we couldn't afford the XP.",
+          "Hello hello! Wipe your boots, it's been a long week in Molten Core. Then come and see what we've found out about WoW Forever.",
+          "Welcome! The portal was a bit wobbly, but you're here now. Poke around our WoW Forever notes. Poke the wisp, too.",
+          "The inn's open and there's a bed made up. Stay as long as you like with our notes on WoW Forever.",
+          "Horde or Alliance, you're welcome here. We leave our WoW Forever notes out on the table where anyone can read them.",
+          "You look like you could use a snack and a summary. We're out of snacks. Welcome to our WoW Forever notes!",
+          "Hello, stranger! Well, not a stranger now. That's how it works here. Our WoW Forever notes are just below.",
+          "Something sparkly told us you were coming. Make yourself at home in our WoW Forever notes, and watch out for loose motes."
+        ];
+        let last = -1, i;
+        try { last = +(localStorage.getItem("tw.welcome") ?? -1); } catch {}
+        do i = Math.floor(Math.random() * W.length); while (i === last);
+        try { localStorage.setItem("tw.welcome", i); } catch {}
+        document.querySelector("#brief .lede").textContent = W[i].replace("WoW Forever", "WoW Forever");
+      })();
+      </script>
       <div class="count"></div>
     </div>
   </div>
@@ -183,7 +216,7 @@
 <script src="config.js?v=e650831c"></script>
 <script src="log.js?v=ab76afca"></script>
 <script src="icons.js?v=58a62146"></script>
-<script src="data.js?v=7239d387"></script>
+<script src="data.js?v=770d7961"></script>
 <script src="term-data.js?v=1f7dc9fb"></script>
 <script src="app.js?v=cbbe5d6f"></script>
 <script src="whimsy.js?v=51dc8856"></script>

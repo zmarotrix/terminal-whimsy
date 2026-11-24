@@ -174,7 +174,7 @@ for m in C.MUST:
     MUST.append(m)
 
 doc = {
-    "HERO_CMD": C.HERO_CMD, "LEDE": C.LEDE, "COUNTDOWNS": C.COUNTDOWNS, "CLASSES": C.CLASSES, "AREAS": C.AREAS,
+    "HERO_CMD": C.HERO_CMD, "COUNTDOWNS": C.COUNTDOWNS, "CLASSES": C.CLASSES, "AREAS": C.AREAS,
     "TOPICS": C.TOPICS, "ACH": C.ACH, "MUST": MUST, "ROAD": C.ROAD, "ROAD_TLDR": C.ROAD_TLDR,
     "WISP": C.WISP, "TOYS": getattr(C, "TOYS", []), "TOYSHOP": getattr(C, "TOYSHOP", {}), "TITLES": C.TITLES, "FORTUNES": C.FORTUNES, "MOTES": C.MOTES, "CHANGES": changes, "SAID": said, "TIER": tier, "ITEMS": items, "KB": KB, "KBI": KBI, "KBP": KBP, "KBQ": KBQ, "TIPS": {},
 }

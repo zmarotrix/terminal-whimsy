@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T06:03:29Z",
+ "updated": "2026-11-24T07:30:01Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -72,8 +72,8 @@
    "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T02:10:52Z",
    "tags": [
-    "professions",
     "classes",
+    "professions",
     "hotfix"
    ],
    "classes": [],
@@ -115,8 +115,8 @@
    "first": "2026-11-23T22:46:03Z",
    "last": "2026-11-23T22:46:03Z",
    "tags": [
-    "professions",
-    "classes"
+    "classes",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -540,6 +540,25 @@
    "also": []
   },
   {
+   "title": "WoW Forever Dungeon Boosting: What Still Works After the 12-Level Rule",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenBKMHplRFZPWFFwTDYzVWdETHZIaG1EcGhHOTNBWndHRF94aEtBc1gyOEFjVFdDdjJLT1lwVFVkYUNYeE1FNzJQeFRicDlSdXJiajFkNWpRY2JiUjhMT3FJY2FUNUQ2MlI0ZVdsWFdHR3ZDbW1mM2tpRC1ZM20zWkJrZm5BclRaTVoxb1Bldng1SDQxTXowVnZuLUlrM3Mtd0pTajlR?oc=5",
+   "date": "2026-11-23T08:01:45Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "COGconnected",
+   "icon": "inv_misc_spyglass_03",
+   "id": "81fce59cf9",
+   "first": "2026-11-23T08:01:45Z",
+   "last": "2026-11-23T08:01:45Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Marksmanship Hunter | Staedt - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
    "date": "2026-11-23T06:31:01Z",
@@ -589,8 +608,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "items",
-    "economy"
+    "economy",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -783,28 +802,6 @@
    "also": []
   },
   {
-   "title": "Paladin AoE Farming - Gear, Talents and more!",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdHNNaTlsbHNOUXowV1JiNlR1aUpwNHVfUjA2SFhCX2FkX0pFTDBYd0VqREFGSnZLem9IVHBIT0oxczhGUktLQ21EWGF3bEl3djlRSGo0bGZ2SlQ4dU4wOFc4NXNCcDlwTHJoQVMzZ2hCY2RJZnhzXzJFMzFmYUdmRDk1ckVkMExrSnp1U2F3?oc=5",
-   "date": "2026-11-22T08:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "1021e16203",
-   "first": "2026-11-22T08:00:00Z",
-   "last": "2026-11-22T08:00:00Z",
-   "tags": [
-    "items",
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
    "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
    "date": "2026-11-21T15:00:00Z",
@@ -914,9 +911,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
+    "classes",
     "items",
-    "story",
-    "classes"
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1067,8 +1064,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1216,8 +1213,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "story",
     "classes",
+    "story",
     "items"
    ],
    "classes": [],
@@ -1252,8 +1249,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:15:00Z",
    "tags": [
-    "story",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1719,9 +1716,9 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "professions",
-    "items",
     "classes",
+    "items",
+    "professions",
     "hotfix"
    ],
    "classes": [],
@@ -1761,9 +1758,9 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "items",
     "leveling",
     "classes",
+    "items",
     "hotfix"
    ],
    "classes": [],
@@ -2782,8 +2779,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2803,8 +2800,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -2893,8 +2890,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -3529,10 +3526,10 @@
    "first": "2026-11-03T18:00:00Z",
    "last": "2026-11-03T18:00:00Z",
    "tags": [
-    "ui",
-    "pvp",
     "leveling",
-    "classes"
+    "classes",
+    "pvp",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -3553,8 +3550,8 @@
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
     "leveling",
-    "raids",
-    "classes"
+    "classes",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -4119,6 +4116,19 @@
    "classes": []
   },
   {
+   "title": "WoW Forever Dungeon Boosting: What Still Works After the 12-Level Rule",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenBKMHplRFZPWFFwTDYzVWdETHZIaG1EcGhHOTNBWndHRF94aEtBc1gyOEFjVFdDdjJLT1lwVFVkYUNYeE1FNzJQeFRicDlSdXJiajFkNWpRY2JiUjhMT3FJY2FUNUQ2MlI0ZVdsWFdHR3ZDbW1mM2tpRC1ZM20zWkJrZm5BclRaTVoxb1Bldng1SDQxTXowVnZuLUlrM3Mtd0pTajlR?oc=5",
+   "date": "2026-11-23T08:01:45Z",
+   "who": "COGconnected",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
    "title": "Marksmanship Hunter | Staedt - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
    "date": "2026-11-23T06:31:01Z",
@@ -4306,22 +4316,6 @@
    "tags": [],
    "classes": [
     "druid"
-   ]
-  },
-  {
-   "title": "Paladin AoE Farming - Gear, Talents and more!",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdHNNaTlsbHNOUXowV1JiNlR1aUpwNHVfUjA2SFhCX2FkX0pFTDBYd0VqREFGSnZLem9IVHBIT0oxczhGUktLQ21EWGF3bEl3djlRSGo0bGZ2SlQ4dU4wOFc4NXNCcDlwTHJoQVMzZ2hCY2RJZnhzXzJFMzFmYUdmRDk1ckVkMExrSnp1U2F3?oc=5",
-   "date": "2026-11-22T08:00:00Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes",
-    "items"
-   ],
-   "classes": [
-    "paladin"
    ]
   },
   {

@@ -25,9 +25,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       # the latest main, not the commit that queued this run: an earlier run may have saved news since
       - uses: actions/checkout@v4
@@ -61,5 +58,25 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - id: deploy
+
+  # Its own job, after a short wait: right after the upload, GitHub often can't see the artifact yet and the deploy
+  # fails with 'No artifacts named "github-pages" were found' (github.com/actions/deploy-pages/issues/451).
+  # If a deploy still fails, "Re-run failed jobs" repeats only this job, with the same upload.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.second.outputs.page_url || steps.first.outputs.page_url }}
+    steps:
+      - name: Give the upload a moment to show up
+        run: sleep 10
+      - id: first
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before trying again
+        if: steps.first.outcome == 'failure'
+        run: sleep 45
+      - id: second
+        if: steps.first.outcome == 'failure'
         uses: actions/deploy-pages@v4

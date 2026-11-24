@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:58:48Z",
+ "updated": "2026-11-24T21:15:55Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,395 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Don’t Miss the World of Warcraft: Forever Comic, “Al'Aketh Rising”",
+   "url": "https://news.blizzard.com/en-us/article/24317680/dont-miss-the-world-of-warcraft-forever-comic-al-aketh-rising",
+   "date": "2026-11-24T18:00:00Z",
+   "label": "official",
+   "source": "Blizzard News",
+   "summary": "Join Constable Aonda of the Skyborne as she travels into a remote settlement in the shadow of a growing threat. To find out why, she plays along, but quickly finds herself overwhelmed by hidden agendas and fanatic devotion. And in a land ruled by wind, blind…",
+   "icon": "inv_letter_15",
+   "id": "df078d93a4",
+   "first": "2026-11-24T18:00:00Z",
+   "last": "2026-11-24T20:19:01Z",
+   "tags": [
+    "story"
+   ],
+   "classes": [],
+   "n": 4,
+   "official": true,
+   "also": [
+    {
+     "title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
+     "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-24T18:06:43Z"
+    },
+    {
+     "title": "World of Warcraft: Forever Comic: \"Al'Aketh Rising\"",
+     "url": "https://www.mmo-champion.com/content/14717-World-of-Warcraft-Forever-Comic-Al-Aketh-Rising",
+     "source": "MMO-Champion",
+     "label": "press",
+     "date": "2026-11-24T18:32:00Z"
+    },
+    {
+     "title": "New WoW Forever Comic: Al’Aketh Rising",
+     "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-comic-alaketh-rising/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-24T20:19:01Z"
+    }
+   ]
+  },
+  {
+   "title": "World of Warcraft Forever shows off the diversity of support options available to every class",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa1MyS1dJaWl3cnpTa3NQakktN3Y2bkJTRHlicUdQY0JIRjBMaThZTVNxMUQtMFVVV01JMHNzNHlPU2F2b25DeEpEQVg0WkdVZU1BcWZhbWU0QXc1blc1eERqUVY1bkZJamE0M1IydWRadS14Vjhqb3NVV080OG10OFdGNnNlMkpzVVRoNTlUMWswRHdZcWRfMTVpdzVBb1QxeGVFSkRmLUxBR1IzcXNwWUplX1RZMEltcFVBWGdCSkVkdXpMdHRMWA?oc=5",
+   "date": "2026-11-24T20:00:37Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Massively Overpowered",
+   "icon": "inv_misc_spyglass_03",
+   "id": "b035169808",
+   "first": "2026-11-24T20:00:37Z",
+   "last": "2026-11-24T20:00:37Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "No, You’re Not Behind: The Average WoW Forever Character is Level 22",
+   "url": "https://www.warcrafttavern.com/forever/news/no-youre-not-behind-the-average-wow-forever-character-is-level-22/",
+   "date": "2026-11-24T19:47:59Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "World of Warcraft: Forever launched three weeks ago, and a lot of players have already reached level 60. You may see them on your Friends List, or posting on social media, and feel like you’re way behind the curve. If you’re suffering from FOMO, fear not:…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "907ae67119",
+   "first": "2026-11-24T19:47:59Z",
+   "last": "2026-11-24T19:47:59Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "New Player’s Starter Guide: Welcome to World of Warcraft: Forever",
+   "url": "https://www.wowhead.com/forever/blue-tracker/news/eu/24315280",
+   "date": "2026-11-24T19:47:24Z",
+   "label": "official",
+   "source": "Wowhead Blue Tracker",
+   "summary": "Your first steps in Azeroth begin with a few meaningful choices: how you want to play, who your character will become, and where curiosity will lead you. From setting up your account to joining other... By Blizzard Entertainment on 2026/11/24 at 1:47 PM",
+   "icon": "inv_scroll_03",
+   "id": "b160193225",
+   "first": "2026-11-24T19:47:24Z",
+   "last": "2026-11-24T19:47:24Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": true,
+   "also": []
+  },
+  {
+   "title": "Return to Azeroth in World of Warcraft: Forever",
+   "url": "https://www.wowhead.com/forever/blue-tracker/news/us/24315643",
+   "date": "2026-11-24T19:47:13Z",
+   "label": "official",
+   "source": "Wowhead Blue Tracker",
+   "summary": "World of Warcraft: Forever begins a new journey through a reimagined original world, with new zones, quests, dungeons, systems, and character options designed to expand the adventure while preserving... By Blizzard Entertainment on 2026/11/24 at 1:47 PM",
+   "icon": "inv_scroll_03",
+   "id": "44e8c39f02",
+   "first": "2026-11-24T19:47:13Z",
+   "last": "2026-11-24T19:47:13Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": true,
+   "also": []
+  },
+  {
+   "title": "Nine New Dungeons Across Azeroth for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX1lpTHdZWVJKRFdyRDVNR1kyUEY3VHFvbG9ZOTJleHJJSEN5NWdCUnVzTDhTUEhWb0p6Vl95UzZTUjlKM3FYQmRIQVBSTDFidkhVMHFOY2d6X09mdDgxaUVHWkVWdndUWWk2clZmaTFVSXVjN1oxV3NMN3RJMFRkcGRQaXlDRDRTWTBoZzl3?oc=5",
+   "date": "2026-11-24T19:09:34Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Maxroll",
+   "icon": "inv_misc_spyglass_03",
+   "id": "84b0fb391f",
+   "first": "2026-11-24T19:09:34Z",
+   "last": "2026-11-24T19:09:34Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
+   "date": "2026-11-24T15:00:00Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Tier 3 workstations are necessary for high-level crafting, so take a look at where to find all the blueprints you'll need in WoW: Forever. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "38f5e814f4",
+   "first": "2026-11-24T15:00:00Z",
+   "last": "2026-11-24T18:30:39Z",
+   "tags": [
+    "professions",
+    "hotfix",
+    "leveling",
+    "classes"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "World of Warcraft Forever hotfixes class, dungeon, and crafting issues",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaDhpYVcyYkVOTEEyQ1ZtM1NMaEFXQmFPSVBsZG9JYlo4OEN5OXNqOVhTUFZFMTNaNzhZT1RHdzdIazZEN0REVVJaVDc1cjNDcndsT0FpOUNwZC1ZTDctdlNWZWg2SWFXSmw4SHBkeWE4bHY3SHVoNm5WSHFJVGpNZ3ZhZEVSc2x4VURJTzZIRXQ3dVNTNDRtenFYWXkwbFl6bzVwN3Azaw?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-24T18:30:39Z"
+    }
+   ]
+  },
+  {
+   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
+   "date": "2026-11-24T17:59:32Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "fd129f7a66",
+   "first": "2026-11-24T17:59:32Z",
+   "last": "2026-11-24T17:59:32Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
+   "date": "2026-11-24T17:52:11Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Maxroll",
+   "icon": "inv_misc_spyglass_03",
+   "id": "8090421b8c",
+   "first": "2026-11-24T17:52:11Z",
+   "last": "2026-11-24T17:52:11Z",
+   "tags": [
+    "hotfix",
+    "classes",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Opinion: Grand Theft Auto VI and World of Warcraft: Forever show that mundanity is having a moment",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd2lUSDJycXhGX3ozMTFSal9jVDV0cUtYd2FuaW1KUXY5b2RUQm16S1ZfN0tudDAxeWNOVm9YZUludHVoWjZOSjRvanNSTjQ2cXY2N3dEanlsaHBtQ09lYVVLR0RhTnlxZGFYTDVRM1hhMDliQkgtRjItZkZDSjA0d2N5b3UyUmp1THFLQnlLOUVFVVMzaFNqeUNJODIzWkxSc01mTXFiT3hXWUxtYmllZzBWS1JzNGFHdGNodV9BZFZmd2s?oc=5",
+   "date": "2026-11-24T15:46:15Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Game Developer",
+   "icon": "inv_misc_spyglass_03",
+   "id": "f2b0d915b6",
+   "first": "2026-11-24T15:46:15Z",
+   "last": "2026-11-24T15:46:15Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Realm Selection Replaced With Rulesets for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeExmbHVFQXppSkNXQWozZUtRLXFVaTI0cnBieGR4QmtQSzdFZnN6clkyOFRpT2ZQNl96bEpQYzRQd3dtYTFJZlBkcS1UcG5QREZhWUVXblc3N3BfV2VOaG9BdElnMDNreW52WlNkaGh3cERpTGF6eE9VR1cxaG9nTWRzY2ktRkNDVFMzckktMA?oc=5",
+   "date": "2026-11-24T13:55:46Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Maxroll",
+   "icon": "inv_misc_spyglass_03",
+   "id": "9bafa87e8b",
+   "first": "2026-11-24T13:55:46Z",
+   "last": "2026-11-24T13:55:46Z",
+   "tags": [
+    "realms"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Launch Details for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41TjVuM2E1TzZ0bHlrNHVzN2ZGTW5vb2RmQTBUUnBEX2h6dFZTeDBtYk9iUDZZQVJUcVNCekVvcmY5ODBaTkFRRVZSZjBqNWNDdlJXU0JoSEdhMmp3ai1yVkxISHVlbW1RVWg3Y3VtYw?oc=5",
+   "date": "2026-11-24T13:33:42Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Maxroll",
+   "icon": "inv_misc_spyglass_03",
+   "id": "51efc31512",
+   "first": "2026-11-24T13:33:42Z",
+   "last": "2026-11-24T13:33:42Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "World of Warcraft: Forever - All Class, Dungeon, and Profession Changes in November 23 Hotfix",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMkc3YUtYbDRPZWkwdWVwOXltTGs0LUFIaEY1SzFHc3VfMHRMT0d4ZzhzZnJySzFtelZyNEx5enZiMVlWSGFlRXlreE5JXzAtVWNVTVVQMjd5MVBpdVlPd1pLOFpPM0JhUEpLUVhGOG8zX285UklVTEpUc3lTN1pKOXotQ3JTcFd4VlN2ekNFSmFXSzBoWGdtLVRKODhQbjBrWl9aM1VxNlFsNzM0Smw4b1M2amhyekh0X0p0T2p3?oc=5",
+   "date": "2026-11-24T13:15:23Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "VICE",
+   "icon": "inv_misc_spyglass_03",
+   "id": "05c200f303",
+   "first": "2026-11-24T13:15:23Z",
+   "last": "2026-11-24T13:15:23Z",
+   "tags": [
+    "hotfix",
+    "professions",
+    "classes",
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Most Popular World of Warcraft: Forever Class Officially Has 'One-Shot' Build",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmtjVEY3ZHRIVHkwYXZBMS1KY3BCZjNwX0ZOc0dINWFFUEhpU1dFVTE5djU3ODVpZS1SekhMazllSXlmQVF0blljREVNbDlHZk5NTWxKYlAzMHdKSFY3ZG54SmZtT3piVUV4eG5sb3Y3bkp6MjVQRHllMHdORGJDZTVFdmlRSGRqVE95N2FGbkZNdHRSTnRzblBPTDE1WTlnNThCOUtyb0tXeWFz?oc=5",
+   "date": "2026-11-24T12:44:58Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "OpenCritic",
+   "icon": "inv_misc_spyglass_03",
+   "id": "09f060c414",
+   "first": "2026-11-24T12:44:58Z",
+   "last": "2026-11-24T12:44:58Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
+   "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
+   "date": "2026-11-23T23:00:58Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "9c05f20e2b",
+   "first": "2026-11-23T23:00:58Z",
+   "last": "2026-11-24T12:20:47Z",
+   "tags": [
+    "economy",
+    "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVDk3WE5CVzVyTXliaEg4STBpUG40N2VlSmNYaU81eU9TVDJTMkcyY0FoRjdCeFpZOURXeGZ2RTVYS2lSUzF4cEpjLWw5VTJURUU2M0VacHZfMnA0RDhIRFZaQVBGc3h2Ny1yalZweDFuRkhqLUF0eHFEWjM4alZuN1ZERWo0X3ROOERXUDFPRHF3Q2FzbklBVF95MEJ2cS12ODY3Tm0waXU1TG9lVWJWbXp3TXpFdFJ3S0Y2cTZ0NXpqNlJ2T1RtSmRJeHNqS2dnWU5STGhQY0RIc3lDaVpTamZGQWhJN3hQai0yazJSd3hLaWxtQklUWEgzQWI4MTlJMzRLZV8weUQwaDAzMGh6VTZ3TkVlMkE?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-24T12:20:47Z"
+    }
+   ]
+  },
+  {
+   "title": "Legacy System Rewards Progress Across Your Account for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnQzWWw4YWFiRzdUQUpCNFlwRjA2WVRid2lpYVdESFVlUXpmWGs5MEdTWmFKVC1sNWdDR2ZrWXBNb2RMMUhMZGEwRV9mUkZMX2tQamZYeVZjOWxRZlNxTmZWTmhTbEFiVDkxVi04T1FxbnZtZDZUX0d1TTRGMUdsVTFncGR2RjJKSkJiOG01TDk1alhkTlY1cFBvT3FaX2dS?oc=5",
+   "date": "2026-11-24T11:23:45Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Maxroll",
+   "icon": "inv_misc_spyglass_03",
+   "id": "b3a6acf2bc",
+   "first": "2026-11-24T11:23:45Z",
+   "last": "2026-11-24T11:23:45Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
+   "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
+   "date": "2026-11-23T01:00:37Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "e850d26fbc",
+   "first": "2026-11-23T01:00:37Z",
+   "last": "2026-11-24T11:02:53Z",
+   "tags": [
+    "items",
+    "economy"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "WoW Forever News: Blizzard Addresses Lockbox Exploit, Uldaman Loot Removed, New Mounts, and More!",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb2dMajhJdmZ3c2g2TUxNeEZkZ21tdGhiU0s3TnotZVk1UXJMM2JCVlpmclhyamw5R0taNTJzcVZrQmFFY3BEalhtc2xPV1JWTHNUbXJyZVhjZmtaMVh6V1pNOVFrT2JXMUJEUUE0aXQ0SlFuV0JURlU5RkxWN2s0QmlNWGZlNnJUeG1md1NtNmxFSlJ6ZnhYb1gzdXk5R29fUzNsY2J4SWhzb1FZbEl5Q2U0YzFVcUhtLXNzd3gzRjNiX0RsSVNmMEE1aw?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-24T11:02:53Z"
+    }
+   ]
+  },
+  {
+   "title": "World of Warcraft Forever on gamepad is genuinely great — but needs work",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWG04Tl9Lb1J3blZMdGl0dWZMVXlnQXNPLTRnVXd4X1JFRHlpZUlCNnlDbWxhZVU2VlM2V2licGZRVHQ5Y3ZpcEg0YXBpeUJ6N2lnQXhTeWxKSUlFRlZoTlBRckNOanFreDJBV0ZYcXJsVzl3Y09TSEY0TTlYU1VadGYydk1SVW1WeFVrYS11eGcxa29IN29XZEdVX19vUVJXZlNvWkxkYk5uOGJYSkFFWnhn?oc=5",
+   "date": "2026-11-24T11:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Windows Central",
+   "icon": "inv_misc_spyglass_03",
+   "id": "df15f1794b",
+   "first": "2026-11-24T11:00:00Z",
+   "last": "2026-11-24T11:00:00Z",
+   "tags": [
+    "ui"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "WoW Forever Is Now Playable On The AYN Thor With Dual-Screen Support",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOS1lQW8xMU1DaGo3SWFtR3hyWFlIY2I1b1I4UTU0Q2VfT0d0WWJiZmZaejJPamN1eUczaWM2QmpER0llbm5TbUdrZUV6alpMR0dic3V5M0VDQ1dYNkIzOTFJQzhRSWpxREFiR0ljNFRObFF2TDFUVXJEdl8tTllfU0NMOGpFZ2RtY2dBOWQ3RWFwUE5Pb3c?oc=5",
@@ -43,8 +432,8 @@
    "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T09:11:34Z",
    "tags": [
-    "classes",
     "hotfix",
+    "classes",
     "professions"
    ],
    "classes": [],
@@ -52,7 +441,7 @@
    "official": false,
    "also": [
     {
-     "title": "WoW: Forever November 23 Hotfix Fixes Class and World Buff Issues for World of Warcraft: Forever",
+     "title": "November 23 Hotfix Fixes Class and World Buff Issues for World of Warcraft: Forever",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQajRvNko1VVBkbUhIN1MzQjBzcEZfSmJwZUpicGhCV2dXYmY2eG0tcUg0UWE3cWRrcHV3d1pVR1ZocHJnb2h3MWFacDlLYk9DRW0zRzVxVTN5LVdTOVdEWVk3YkFPSTdGeFVOeEFGb3JrTnlPM043dE02UFlodW9zLVZEMzBqT1p1djhTX2RsOVgxMVNFd1drWlVVa3V2U0ZkRnc?oc=5",
      "source": "Google News",
      "label": "press",
@@ -107,27 +496,6 @@
    ]
   },
   {
-   "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
-   "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
-   "date": "2026-11-23T23:00:58Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "9c05f20e2b",
-   "first": "2026-11-23T23:00:58Z",
-   "last": "2026-11-23T23:00:58Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "How To Set Up One-Key Fishing in WoW Forever",
    "url": "https://www.warcrafttavern.com/forever/news/how-to-set-up-one-key-fishing-in-wow-forever/",
    "date": "2026-11-23T22:46:03Z",
@@ -140,8 +508,8 @@
    "first": "2026-11-23T22:46:03Z",
    "last": "2026-11-23T22:46:03Z",
    "tags": [
-    "classes",
-    "professions"
+    "professions",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -187,31 +555,23 @@
    "also": []
   },
   {
-   "title": "World of Warcraft: Forever World Buff Fix Is Arriving This Week",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOVRQMXBhcU95c1VFdjJaOWZ5Uzh1NTl5akstQVF5dno1N21tNHh5WHpjdVhoNDZib3RlU3FubXBrNTZfRzI4R0FydFg0S1BPZm9hQ24zWjJNTDg1ajc3VkI3ZkIyLXN6S0pBa3AycVVQY3g5cW1DRzh6LV9YMTNUNFczVDVzTFFNN1l4d2NHMjFKV2dSUjcwNkhYWQ?oc=5",
-   "date": "2026-11-23T14:24:15Z",
+   "title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
+   "date": "2026-11-23T19:39:02Z",
    "label": "press",
-   "source": "Google News",
-   "who": "VICE",
-   "icon": "inv_misc_spyglass_03",
-   "id": "135ce55d75",
-   "first": "2026-11-23T14:24:15Z",
+   "source": "Wowhead",
+   "summary": "World Buffs now persist through loading screens in WoW: Forever, but one of the Dire Maul Tribute buffs has been nerfed. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "9a3560969a",
+   "first": "2026-11-23T19:39:02Z",
    "last": "2026-11-23T19:39:02Z",
    "tags": [
     "hotfix"
    ],
    "classes": [],
-   "n": 2,
+   "n": 1,
    "official": false,
-   "also": [
-    {
-     "title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-23T19:39:02Z"
-    }
-   ]
+   "also": []
   },
   {
    "title": "Blizzard replied in “Epic Mount - Bug Riding Skill”",
@@ -229,8 +589,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "paladin"
+    "paladin",
+    "warlock"
    ],
    "n": 3,
    "official": true,
@@ -285,8 +645,8 @@
    "first": "2026-11-23T18:10:58Z",
    "last": "2026-11-23T18:10:58Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -361,23 +721,6 @@
    "id": "88beb15a56",
    "first": "2026-11-23T16:54:58Z",
    "last": "2026-11-23T16:54:58Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Secrets: Overview of Finds and Open Leads",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KTVNPWlBqWTZBRUw2TVVsV0R0SnNXUzNTVHR2RDljR01FZzM0cGZRTklsaWNQcTUzSzU4LXA4TzhpN0tBZXVKVmZxMmNaZEFUTTFyenlqS0JKTUVFNDFRanJqdGVmbUU?oc=5",
-   "date": "2026-11-23T16:34:19Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "f5e43094f8",
-   "first": "2026-11-23T16:34:19Z",
-   "last": "2026-11-23T16:34:19Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -474,196 +817,6 @@
    ]
   },
   {
-   "title": "Can You Raid in WoW and WoW Forever on a Steam Deck? Setup, Settings, and Raid Performance",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMC1HN25KdUhEaW54X1lvOGpvdWN6Sy1EeVo3N2ltTWZXYURBS1E1RlB6SWdQc2d2cGV3eGlRT3M4ZG82UFRETmF1Qi1rMGlFREZzYTlWM05nQlhQWUFOYnpCbWpDLWhHUHJYVW1RSkRIUFBzcThhbWNmdU5CcDlRcmVmVGxad1l1MGViYVBFTm1BZGRJaHlSS1N1VjhuZ1M5Y2tfRzZqNkFEblRQdnV0VjM1dTFBX2M?oc=5",
-   "date": "2026-11-23T16:07:22Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "jeu.video",
-   "icon": "inv_misc_spyglass_03",
-   "id": "df39d51e05",
-   "first": "2026-11-23T16:07:22Z",
-   "last": "2026-11-23T16:07:22Z",
-   "tags": [
-    "raids"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever review",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVFVldHUzZHItU1dPVFl6V1hqd1pmamhMS2x2QURadTNRWWNzWXBFTFhIemF2MHZZMnpsck1sVFNKaFc1ZTBZd0RydXpTZXRrLUtCVVBXZ3RHOTIxQ1k1NEFiWUd5SmpqaEJkTEhPMHNYZG5FcEd1ZGRRdlIzQXJqT1hEczR0TlY4?oc=5",
-   "date": "2026-11-23T15:36:34Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "PC Gamer",
-   "icon": "inv_misc_spyglass_03",
-   "id": "3e3a10328b",
-   "first": "2026-11-23T15:36:34Z",
-   "last": "2026-11-23T15:36:34Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft Forever moves to eliminate targeted layer swapping",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYW1VME1JbVRsYkdTaU1tUzY0cmJJV0ZkTG1ueEdELTlQelJ2VzR5ejB3WmNobS1tU3B2QUwxdUpKdG5xeVlaV2N5ZnhiWkFaWnZ3YUNFV2Z2ODNsdlhGUzAwVEFiM0xzZi16MkU3Q3RkaU9jTGdhSFFLVF9ULVFTUDZLd0JmNkJyZ1hHbHVVR25JZGlqdGNTU0FtX1p4ZE1SY1B4NjBUWQ?oc=5",
-   "date": "2026-11-23T14:00:51Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "d23bb6e856",
-   "first": "2026-11-23T14:00:51Z",
-   "last": "2026-11-23T14:00:51Z",
-   "tags": [
-    "realms"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
-   "date": "2026-11-23T13:30:51Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ebfb657fbd",
-   "first": "2026-11-23T13:30:51Z",
-   "last": "2026-11-23T13:30:51Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Breaks Records While PC Players Wait for GTA 6",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ya3ZPREcxTTlkTWEtWFV4RVY3anRqSHlUUFp6NEVlWjRBRkd4NDNHV0llSXZCSjVxTzNfVk10UDY5cnNEdGhvTERVLXVXN212RXZMRWhDbFVFZEF3VEdMcGxId3hZcjRWMU12RHZn?oc=5",
-   "date": "2026-11-23T11:42:40Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "shattered.io",
-   "icon": "inv_misc_spyglass_03",
-   "id": "08f6a8b103",
-   "first": "2026-11-23T11:42:40Z",
-   "last": "2026-11-23T11:42:40Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW: Forever November 20 Hotfix Cuts Dungeon Reset Limit in Half for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFNVNlY4VDBNaFdqX0tHeHprS2tCbEpVZEdkRFJXNmxiM2FodXdDb21nd3VQeXB0UWl0X2U5X0F5dXhRUE5RVC1HZWcxMkN6Y3ZROTBZZDZWWGFiOWhhcWptQkdJX3dXa1ROeFI5ZUU1Ykl2SExJZldqVC1vQU1Xa3ViNlNfNXNHek82aEFfbjZwOXpIUTdEMElrcUZjeFQx?oc=5",
-   "date": "2026-11-23T09:55:46Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Maxroll",
-   "icon": "inv_misc_spyglass_03",
-   "id": "dc83406ded",
-   "first": "2026-11-23T09:55:46Z",
-   "last": "2026-11-23T09:55:46Z",
-   "tags": [
-    "leveling",
-    "hotfix"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Dungeon Boosting: What Still Works After the 12-Level Rule",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenBKMHplRFZPWFFwTDYzVWdETHZIaG1EcGhHOTNBWndHRF94aEtBc1gyOEFjVFdDdjJLT1lwVFVkYUNYeE1FNzJQeFRicDlSdXJiajFkNWpRY2JiUjhMT3FJY2FUNUQ2MlI0ZVdsWFdHR3ZDbW1mM2tpRC1ZM20zWkJrZm5BclRaTVoxb1Bldng1SDQxTXowVnZuLUlrM3Mtd0pTajlR?oc=5",
-   "date": "2026-11-23T08:01:45Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "COGconnected",
-   "icon": "inv_misc_spyglass_03",
-   "id": "81fce59cf9",
-   "first": "2026-11-23T08:01:45Z",
-   "last": "2026-11-23T08:01:45Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Marksmanship Hunter | Staedt - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
-   "date": "2026-11-23T06:31:01Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "0ac2c8204a",
-   "first": "2026-11-23T06:31:01Z",
-   "last": "2026-11-23T06:31:01Z",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever Onyxia Attunement Guide - How to Get the Drakefire Amulet Before Raids Open",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTG9hLThkM3ZKUnBZelhCWW9zR3VERlZER2FEVnZYM1I0Y19vUHFyUndTenMxWjJqd21lQmhJWGxoSDJHYm9kWkRFb2o0QmdzS0hxYWNpZk45c0pEdkt2eEFzZGNYeDBNZkIwRmtrMGlyX3AzWmNNMERZN0stT0czYXI0eDd4NVd6aElKNjMyeDV0NU9DeHcxc24wYUhnODQ4dWZvc2wzYWsyMGpySWZ0b1NxWHBPT2VzYzl3?oc=5",
-   "date": "2026-11-23T06:03:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Apple World Today",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ad629cad2c",
-   "first": "2026-11-23T06:03:00Z",
-   "last": "2026-11-23T06:03:00Z",
-   "tags": [
-    "raids"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
-   "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
-   "date": "2026-11-23T01:00:37Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "e850d26fbc",
-   "first": "2026-11-23T01:00:37Z",
-   "last": "2026-11-23T01:00:37Z",
-   "tags": [
-    "items",
-    "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Aidan Moon Announces That World Buffs Dropping on Loading Screen is Bug",
    "url": "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug",
    "date": "2026-11-22T23:06:59Z",
@@ -676,27 +829,6 @@
    "last": "2026-11-22T23:06:59Z",
    "tags": [],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "New World of Warcraft: Forever Exploit Lets Rogues Farm Thousands in Gold",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2tSUGlMTHV2UENjajNMSkhxOXg1ZE03cWxOLUVqZTBFTzhueTRaS3hpdTRzTlcwbElOUFdhR2FQTVpOeUp6WmZ4QnpLZVhiNDFvdUZVaVBMaXdDUTgzWU42c01uTGxjQmFLRWlrVkZBdkNUaDZGOHZqTkp1ZnNRTEZMR0JfVk5ibXBOZUt5TmdzTTlBa2Q5QXpIR3VfY0FETERTMnNjaWhUUQ?oc=5",
-   "date": "2026-11-22T23:03:45Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "OpenCritic",
-   "icon": "inv_misc_spyglass_03",
-   "id": "03b07b1913",
-   "first": "2026-11-22T23:03:45Z",
-   "last": "2026-11-22T23:03:45Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [
-    "rogue"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -721,56 +853,6 @@
    "also": []
   },
   {
-   "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
-   "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
-   "date": "2026-11-21T19:26:27Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "5b033df260",
-   "first": "2026-11-21T19:26:27Z",
-   "last": "2026-11-22T16:44:57Z",
-   "tags": [
-    "economy",
-    "leveling",
-    "hotfix"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "World of Warcraft: Forever Players Find Way to Farm Over 100 Gold Per Hour",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnVzOWN6bjBoSEtxc3VVenlTazcxS3FXelhzakJlSWREM2hrd1ZXMVdEd1ItcENGWHFoOGZpSWVTOFM3QlZ1RHBpYTdNWmt3ZGUzMmJFek1zQjJ4WHpiVzB4Z0c2MzMyU3NDak9qTWQ0Tnc2SmRvTkdVcWRQc0NqemFZdVVaY0VyQmtyY1BCZUFFem8xR1NXS0l0OXdIZGtfQkdJUWZQc3RleWM?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-22T16:44:57Z"
-    }
-   ]
-  },
-  {
-   "title": "Protection Warrior Guide - Leveling & Endgame",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRW5uQklEaVM1dUFFMzJVbmFIc3dtUXBKRklsUVBoQW84Z2JCaVdJVHc2SXJwUFdDTTB6bWliZ2kyX1RzdlIxaWdYN3NhZ3B1U2JrQUZ6aTUzNExJZUExbks0My1xeWxmUkVCWFJONVdla0p2bWdHTk1yelVZV0ZnZ193?oc=5",
-   "date": "2026-11-22T16:36:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "9ed8679f75",
-   "first": "2026-11-22T16:36:00Z",
-   "last": "2026-11-22T16:36:00Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
    "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
    "date": "2026-11-22T15:00:00Z",
@@ -787,6 +869,27 @@
    "classes": [
     "rogue"
    ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
+   "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
+   "date": "2026-11-21T19:26:27Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "5b033df260",
+   "first": "2026-11-21T19:26:27Z",
+   "last": "2026-11-21T19:26:27Z",
+   "tags": [
+    "hotfix",
+    "economy",
+    "leveling"
+   ],
+   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -850,9 +953,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
-    "raids",
     "items",
-    "hotfix"
+    "hotfix",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -901,9 +1004,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
+    "story",
     "items",
-    "classes",
-    "story"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1025,8 +1128,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T00:42:07Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "leveling"
    ],
    "classes": [],
@@ -1054,8 +1157,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1094,8 +1197,8 @@
    "first": "2026-11-19T18:58:48Z",
    "last": "2026-11-19T19:19:21Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "raids"
    ],
    "classes": [],
@@ -1124,8 +1227,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1203,8 +1306,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "classes",
     "story",
+    "classes",
     "items"
    ],
    "classes": [],
@@ -1239,8 +1342,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:15:00Z",
    "tags": [
-    "classes",
-    "story"
+    "story",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1572,8 +1675,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1706,10 +1809,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
+    "hotfix",
     "professions",
     "items",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1748,10 +1851,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "classes",
     "items",
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "classes",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2179,8 +2282,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "economy",
-    "business"
+    "business",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -2205,31 +2308,24 @@
    "also": []
   },
   {
-   "title": "The majority WANTS increased dungeon XP",
-   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2406555",
-   "date": "2026-11-14T18:22:16Z",
-   "label": "official",
-   "source": "Wowhead Blue Tracker",
-   "summary": "This obviously isnt the entire game, but just going off the people in the forums there are significantly more people in favor of reverting dungeon xp to how it was in classic than those who dont want... By Metuyomatch on 2026/11/14 at 12:22 PM",
-   "icon": "inv_scroll_03",
-   "id": "aab506c7e6",
-   "first": "2026-11-14T18:22:16Z",
+   "title": "Dungeon Kill Experience Changed Again in WoW Forever",
+   "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
+   "date": "2026-11-15T02:49:15Z",
+   "label": "press",
+   "source": "Warcraft Tavern",
+   "summary": "In their ongoing effort to balance out the experience gained from dungeons in WoW Forever, Blizzard has once again adjusted the amount of XP granted from enemy kills. A recent change had effectively disabled experience for the entire party for mobs that were…",
+   "who": "Luxrah",
+   "icon": "inv_misc_food_15",
+   "id": "f1d2e5f082",
+   "first": "2026-11-15T02:49:15Z",
    "last": "2026-11-15T02:49:15Z",
    "tags": [
     "leveling"
    ],
    "classes": [],
-   "n": 2,
-   "official": true,
-   "also": [
-    {
-     "title": "Dungeon Kill Experience Changed Again in WoW Forever",
-     "url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
-     "source": "Warcraft Tavern",
-     "label": "press",
-     "date": "2026-11-15T02:49:15Z"
-    }
-   ]
+   "n": 1,
+   "official": false,
+   "also": []
   },
   {
    "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
@@ -2334,6 +2430,25 @@
    "also": []
   },
   {
+   "title": "The majority WANTS increased dungeon XP",
+   "url": "https://www.wowhead.com/forever/blue-tracker/topic/us/2406555",
+   "date": "2026-11-14T18:22:16Z",
+   "label": "official",
+   "source": "Wowhead Blue Tracker",
+   "summary": "This obviously isnt the entire game, but just going off the people in the forums there are significantly more people in favor of reverting dungeon xp to how it was in classic than those who dont want... By Metuyomatch on 2026/11/14 at 12:22 PM",
+   "icon": "inv_scroll_03",
+   "id": "aab506c7e6",
+   "first": "2026-11-14T18:22:16Z",
+   "last": "2026-11-14T18:22:16Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": true,
+   "also": []
+  },
+  {
    "title": "More Fishing Tournament Winners: WoW Forever Hotfixes for November 13",
    "url": "https://www.warcrafttavern.com/forever/news/more-fishing-tournament-winners-wow-forever-hotfixes-for-november-13/",
    "date": "2026-11-14T17:42:10Z",
@@ -2346,8 +2461,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2385,9 +2500,9 @@
    "first": "2026-11-14T01:59:35Z",
    "last": "2026-11-14T01:59:35Z",
    "tags": [
+    "hotfix",
     "classes",
-    "leveling",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2596,44 +2711,6 @@
    "also": []
   },
   {
-   "title": "Secret Disguise Toy Found WoW: Forever",
-   "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever",
-   "date": "2026-11-13T15:00:00Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "A new secret toy, the Alcaz Operative Disguise, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "47b4603392",
-   "first": "2026-11-13T15:00:00Z",
-   "last": "2026-11-13T15:00:00Z",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
-   "date": "2026-11-13T01:10:58Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Once you reach max level in WoW: Forever, there's a new Weekly Quest that awards a random amount of gold, up to 100 Gold! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "34fad4a54f",
-   "first": "2026-11-13T01:10:58Z",
-   "last": "2026-11-13T01:10:58Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Enhancement Shaman Changes Now Live in WoW: Forever",
    "url": "https://www.mmo-champion.com/content/14690-Enhancement-Shaman-Changes-Now-Live-in-WoW-Forever",
    "date": "2026-11-12T19:17:00Z",
@@ -2826,8 +2903,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -2880,8 +2957,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -2901,8 +2978,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -2940,9 +3017,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
+    "hotfix",
     "ui",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2962,9 +3039,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
+    "hotfix",
     "classes",
-    "leveling",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3229,8 +3306,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3539,8 +3616,8 @@
    "first": "2026-11-03T17:04:14.844000Z",
    "last": "2026-11-03T17:04:14.844000Z",
    "tags": [
-    "raids",
     "classes",
+    "raids",
     "leveling"
    ],
    "classes": [],
@@ -3602,113 +3679,295 @@
    "n": 1,
    "official": false,
    "also": []
-  },
-  {
-   "title": "Good morning, friends! It's Monday, coffee is ready, and we're getting closer to WoW Forever! Just two more days to go!🥳 We're around if…",
-   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzd4xgnvq22h",
-   "date": "2026-11-02T10:37:16.344000Z",
-   "label": "social",
-   "source": "BlizzardCS on Bluesky",
-   "summary": "Good morning, friends! It's Monday, coffee is ready, and we're getting closer to WoW Forever! Just two more days to go!🥳 We're around if you've got any support questions",
-   "who": "@support.blizzard.com",
-   "icon": "spell_holy_heal",
-   "id": "b2a3c6f623",
-   "first": "2026-11-02T10:37:16.344000Z",
-   "last": "2026-11-02T10:37:16.344000Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Three sleeps to go before WoW: Forever launches 🫪",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzb6jmqfvu2e",
-   "date": "2026-11-01T16:00:00.956000Z",
-   "label": "social",
-   "source": "World of Warcraft on Bluesky",
-   "who": "@worldofwarcraft.blizzard.com",
-   "icon": "inv_misc_horn_01",
-   "id": "c476fcabed",
-   "first": "2026-11-01T16:00:00.956000Z",
-   "last": "2026-11-01T16:00:00.956000Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Villagers speak in hushed tones about the legend of the dreaded Kobold miner… Thanks for participating in the WoW: Forever beta!",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz4i3ja5vo2a",
-   "date": "2026-10-30T19:07:46.256000Z",
-   "label": "social",
-   "source": "World of Warcraft on Bluesky",
-   "who": "@worldofwarcraft.blizzard.com",
-   "icon": "inv_misc_horn_01",
-   "id": "bb3a46c13e",
-   "first": "2026-10-30T19:07:46.256000Z",
-   "last": "2026-10-30T19:07:46.256000Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
-   "url": "https://news.blizzard.com/en-us/article/24316094/prepare-for-forever-try-midnights-talebound-and-discover-sweet-treats-in-wow-weekly",
-   "date": "2026-10-30T17:01:00Z",
-   "label": "official",
-   "source": "Blizzard News",
-   "summary": "From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting…",
-   "icon": "inv_letter_15",
-   "id": "2909a303fd",
-   "first": "2026-10-30T17:01:00Z",
-   "last": "2026-10-30T17:01:00Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": true,
-   "also": []
-  },
-  {
-   "title": "Watch an amazing animated music video and earn orbs while you headbang 🤘 Check Discord for the newest WoW: Forever Quest! blizz.ly/47OBIBy",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz2elumgcn2m",
-   "date": "2026-10-29T23:00:00.633000Z",
-   "label": "social",
-   "source": "World of Warcraft on Bluesky",
-   "summary": "Watch an amazing animated music video and earn orbs while you headbang 🤘 Check Discord for the newest WoW: Forever Quest! blizz.ly/47OBIBy",
-   "who": "@worldofwarcraft.blizzard.com",
-   "icon": "inv_misc_horn_01",
-   "id": "63b46419b8",
-   "first": "2026-10-29T23:00:00.633000Z",
-   "last": "2026-10-29T23:00:00.633000Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Send this to the people you want in your first WoW: Forever group 📩",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz25yifcy724",
-   "date": "2026-10-29T21:01:47.788000Z",
-   "label": "social",
-   "source": "World of Warcraft on Bluesky",
-   "who": "@worldofwarcraft.blizzard.com",
-   "icon": "inv_misc_horn_01",
-   "id": "56f4075843",
-   "first": "2026-10-29T21:01:47.788000Z",
-   "last": "2026-10-29T21:01:47.788000Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
   }
  ],
  "items": [
+  {
+   "title": "New WoW Forever Comic: Al’Aketh Rising",
+   "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-comic-alaketh-rising/",
+   "date": "2026-11-24T20:19:01Z",
+   "summary": "Blizzard has shared another short story for WoW Forever, this time in the form of a comic. Al’Aketh Rising is available as a PDF or YouTube video. The video is voiced by actress Sam Slade. The comic follows Aonda, the Skyborne constable of Shen’Dar Village…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [
+    "story"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft Forever shows off the diversity of support options available to every class",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa1MyS1dJaWl3cnpTa3NQakktN3Y2bkJTRHlicUdQY0JIRjBMaThZTVNxMUQtMFVVV01JMHNzNHlPU2F2b25DeEpEQVg0WkdVZU1BcWZhbWU0QXc1blc1eERqUVY1bkZJamE0M1IydWRadS14Vjhqb3NVV080OG10OFdGNnNlMkpzVVRoNTlUMWswRHdZcWRfMTVpdzVBb1QxeGVFSkRmLUxBR1IzcXNwWUplX1RZMEltcFVBWGdCSkVkdXpMdHRMWA?oc=5",
+   "date": "2026-11-24T20:00:37Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": []
+  },
+  {
+   "title": "No, You’re Not Behind: The Average WoW Forever Character is Level 22",
+   "url": "https://www.warcrafttavern.com/forever/news/no-youre-not-behind-the-average-wow-forever-character-is-level-22/",
+   "date": "2026-11-24T19:47:59Z",
+   "summary": "World of Warcraft: Forever launched three weeks ago, and a lot of players have already reached level 60. You may see them on your Friends List, or posting on social media, and feel like you’re way behind the curve. If you’re suffering from FOMO, fear not:…",
+   "who": "Luxrah",
+   "source": "Warcraft Tavern",
+   "label": "press",
+   "icon": "inv_misc_food_15",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "New Player’s Starter Guide: Welcome to World of Warcraft: Forever",
+   "url": "https://www.wowhead.com/forever/blue-tracker/news/eu/24315280",
+   "date": "2026-11-24T19:47:24Z",
+   "summary": "Your first steps in Azeroth begin with a few meaningful choices: how you want to play, who your character will become, and where curiosity will lead you. From setting up your account to joining other... By Blizzard Entertainment on 2026/11/24 at 1:47 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Return to Azeroth in World of Warcraft: Forever",
+   "url": "https://www.wowhead.com/forever/blue-tracker/news/us/24315643",
+   "date": "2026-11-24T19:47:13Z",
+   "summary": "World of Warcraft: Forever begins a new journey through a reimagined original world, with new zones, quests, dungeons, systems, and character options designed to expand the adventure while preserving... By Blizzard Entertainment on 2026/11/24 at 1:47 PM",
+   "source": "Wowhead Blue Tracker",
+   "label": "official",
+   "icon": "inv_scroll_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Nine New Dungeons Across Azeroth for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX1lpTHdZWVJKRFdyRDVNR1kyUEY3VHFvbG9ZOTJleHJJSEN5NWdCUnVzTDhTUEhWb0p6Vl95UzZTUjlKM3FYQmRIQVBSTDFidkhVMHFOY2d6X09mdDgxaUVHWkVWdndUWWk2clZmaTFVSXVjN1oxV3NMN3RJMFRkcGRQaXlDRDRTWTBoZzl3?oc=5",
+   "date": "2026-11-24T19:09:34Z",
+   "who": "Maxroll",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "leveling"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft: Forever Comic: \"Al'Aketh Rising\"",
+   "url": "https://www.mmo-champion.com/content/14717-World-of-Warcraft-Forever-Comic-Al-Aketh-Rising",
+   "date": "2026-11-24T18:32:00Z",
+   "summary": "World of Warcraft: Forever Comic: \"Al'Aketh Rising\" Originally Posted by Blizzard ( Blue Tracker / Official Forums ) Constable Aonda of the Skyborne travels into a remote settlement that appears to be under strict control. Prisoners march under close guard,…",
+   "source": "MMO-Champion",
+   "label": "press",
+   "icon": "inv_misc_book_07",
+   "tags": [
+    "story"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft Forever hotfixes class, dungeon, and crafting issues",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaDhpYVcyYkVOTEEyQ1ZtM1NMaEFXQmFPSVBsZG9JYlo4OEN5OXNqOVhTUFZFMTNaNzhZT1RHdzdIazZEN0REVVJaVDc1cjNDcndsT0FpOUNwZC1ZTDctdlNWZWg2SWFXSmw4SHBkeWE4bHY3SHVoNm5WSHFJVGpNZ3ZhZEVSc2x4VURJTzZIRXQ3dVNTNDRtenFYWXkwbFl6bzVwN3Azaw?oc=5",
+   "date": "2026-11-24T18:30:39Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "hotfix",
+    "leveling",
+    "classes",
+    "professions"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
+   "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever",
+   "date": "2026-11-24T18:06:43Z",
+   "summary": "Blizzard has released a new motion comic for WoW: Forever called \"Al'Aketh Rising,\" which follows a local Skyborne constable on Zephras Isle. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "story"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Don’t Miss the World of Warcraft: Forever Comic, “Al'Aketh Rising”",
+   "url": "https://news.blizzard.com/en-us/article/24317680/dont-miss-the-world-of-warcraft-forever-comic-al-aketh-rising",
+   "date": "2026-11-24T18:00:00Z",
+   "summary": "Join Constable Aonda of the Skyborne as she travels into a remote settlement in the shadow of a growing threat. To find out why, she plays along, but quickly finds herself overwhelmed by hidden agendas and fanatic devotion. And in a land ruled by wind, blind…",
+   "source": "Blizzard News",
+   "label": "official",
+   "icon": "inv_letter_15",
+   "tags": [
+    "story"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
+   "date": "2026-11-24T17:59:32Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Hotfixes Adjust Dungeon XP and Class Abilities for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3pFWVF2bHlTU2lwb0hIeTRVUk94dUFYLUE3aEQ2MVBvbXNuam5GUmticzB1OHNybU5oVUtabmJZeEJiOXdmM3NhaW03cWkyd19zejBLM25IQWZBU3g1TzlrQW1BUWZJOWE5QVMzaW13TXBxV24yZmo1dFhGUldTc3BCck5SQkQ1M3czTlBPNmxheWVNb21jODh3?oc=5",
+   "date": "2026-11-24T17:52:11Z",
+   "who": "Maxroll",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "hotfix",
+    "leveling",
+    "classes"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Opinion: Grand Theft Auto VI and World of Warcraft: Forever show that mundanity is having a moment",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd2lUSDJycXhGX3ozMTFSal9jVDV0cUtYd2FuaW1KUXY5b2RUQm16S1ZfN0tudDAxeWNOVm9YZUludHVoWjZOSjRvanNSTjQ2cXY2N3dEanlsaHBtQ09lYVVLR0RhTnlxZGFYTDVRM1hhMDliQkgtRjItZkZDSjA0d2N5b3UyUmp1THFLQnlLOUVFVVMzaFNqeUNJODIzWkxSc01mTXFiT3hXWUxtYmllZzBWS1JzNGFHdGNodV9BZFZmd2s?oc=5",
+   "date": "2026-11-24T15:46:15Z",
+   "who": "Game Developer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
+   "date": "2026-11-24T15:00:00Z",
+   "summary": "Tier 3 workstations are necessary for high-level crafting, so take a look at where to find all the blueprints you'll need in WoW: Forever. Continue reading »",
+   "source": "Wowhead",
+   "label": "press",
+   "icon": "inv_misc_book_09",
+   "tags": [
+    "professions"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Realm Selection Replaced With Rulesets for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeExmbHVFQXppSkNXQWozZUtRLXFVaTI0cnBieGR4QmtQSzdFZnN6clkyOFRpT2ZQNl96bEpQYzRQd3dtYTFJZlBkcS1UcG5QREZhWUVXblc3N3BfV2VOaG9BdElnMDNreW52WlNkaGh3cERpTGF6eE9VR1cxaG9nTWRzY2ktRkNDVFMzckktMA?oc=5",
+   "date": "2026-11-24T13:55:46Z",
+   "who": "Maxroll",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "realms"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Launch Details for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41TjVuM2E1TzZ0bHlrNHVzN2ZGTW5vb2RmQTBUUnBEX2h6dFZTeDBtYk9iUDZZQVJUcVNCekVvcmY5ODBaTkFRRVZSZjBqNWNDdlJXU0JoSEdhMmp3ai1yVkxISHVlbW1RVWg3Y3VtYw?oc=5",
+   "date": "2026-11-24T13:33:42Z",
+   "who": "Maxroll",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft: Forever - All Class, Dungeon, and Profession Changes in November 23 Hotfix",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMkc3YUtYbDRPZWkwdWVwOXltTGs0LUFIaEY1SzFHc3VfMHRMT0d4ZzhzZnJySzFtelZyNEx5enZiMVlWSGFlRXlreE5JXzAtVWNVTVVQMjd5MVBpdVlPd1pLOFpPM0JhUEpLUVhGOG8zX285UklVTEpUc3lTN1pKOXotQ3JTcFd4VlN2ekNFSmFXSzBoWGdtLVRKODhQbjBrWl9aM1VxNlFsNzM0Smw4b1M2amhyekh0X0p0T2p3?oc=5",
+   "date": "2026-11-24T13:15:23Z",
+   "who": "VICE",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "hotfix",
+    "leveling",
+    "classes",
+    "professions"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Most Popular World of Warcraft: Forever Class Officially Has 'One-Shot' Build",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmtjVEY3ZHRIVHkwYXZBMS1KY3BCZjNwX0ZOc0dINWFFUEhpU1dFVTE5djU3ODVpZS1SekhMazllSXlmQVF0blljREVNbDlHZk5NTWxKYlAzMHdKSFY3ZG54SmZtT3piVUV4eG5sb3Y3bkp6MjVQRHllMHdORGJDZTVFdmlRSGRqVE95N2FGbkZNdHRSTnRzblBPTDE1WTlnNThCOUtyb0tXeWFz?oc=5",
+   "date": "2026-11-24T12:44:58Z",
+   "who": "OpenCritic",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVDk3WE5CVzVyTXliaEg4STBpUG40N2VlSmNYaU81eU9TVDJTMkcyY0FoRjdCeFpZOURXeGZ2RTVYS2lSUzF4cEpjLWw5VTJURUU2M0VacHZfMnA0RDhIRFZaQVBGc3h2Ny1yalZweDFuRkhqLUF0eHFEWjM4alZuN1ZERWo0X3ROOERXUDFPRHF3Q2FzbklBVF95MEJ2cS12ODY3Tm0waXU1TG9lVWJWbXp3TXpFdFJ3S0Y2cTZ0NXpqNlJ2T1RtSmRJeHNqS2dnWU5STGhQY0RIc3lDaVpTamZGQWhJN3hQai0yazJSd3hLaWxtQklUWEgzQWI4MTlJMzRLZV8weUQwaDAzMGh6VTZ3TkVlMkE?oc=5",
+   "date": "2026-11-24T12:20:47Z",
+   "who": "PC Gamer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
+   "classes": [
+    "warrior"
+   ]
+  },
+  {
+   "title": "Legacy System Rewards Progress Across Your Account for World of Warcraft: Forever",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnQzWWw4YWFiRzdUQUpCNFlwRjA2WVRid2lpYVdESFVlUXpmWGs5MEdTWmFKVC1sNWdDR2ZrWXBNb2RMMUhMZGEwRV9mUkZMX2tQamZYeVZjOWxRZlNxTmZWTmhTbEFiVDkxVi04T1FxbnZtZDZUX0d1TTRGMUdsVTFncGR2RjJKSkJiOG01TDk1alhkTlY1cFBvT3FaX2dS?oc=5",
+   "date": "2026-11-24T11:23:45Z",
+   "who": "Maxroll",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever News: Blizzard Addresses Lockbox Exploit, Uldaman Loot Removed, New Mounts, and More!",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb2dMajhJdmZ3c2g2TUxNeEZkZ21tdGhiU0s3TnotZVk1UXJMM2JCVlpmclhyamw5R0taNTJzcVZrQmFFY3BEalhtc2xPV1JWTHNUbXJyZVhjZmtaMVh6V1pNOVFrT2JXMUJEUUE0aXQ0SlFuV0JURlU5RkxWN2s0QmlNWGZlNnJUeG1md1NtNmxFSlJ6ZnhYb1gzdXk5R29fUzNsY2J4SWhzb1FZbEl5Q2U0YzFVcUhtLXNzd3gzRjNiX0RsSVNmMEE1aw?oc=5",
+   "date": "2026-11-24T11:02:53Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "items"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft Forever on gamepad is genuinely great — but needs work",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWG04Tl9Lb1J3blZMdGl0dWZMVXlnQXNPLTRnVXd4X1JFRHlpZUlCNnlDbWxhZVU2VlM2V2licGZRVHQ5Y3ZpcEg0YXBpeUJ6N2lnQXhTeWxKSUlFRlZoTlBRckNOanFreDJBV0ZYcXJsVzl3Y09TSEY0TTlYU1VadGYydk1SVW1WeFVrYS11eGcxa29IN29XZEdVX19vUVJXZlNvWkxkYk5uOGJYSkFFWnhn?oc=5",
+   "date": "2026-11-24T11:00:00Z",
+   "who": "Windows Central",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "ui"
+   ],
+   "classes": []
+  },
   {
    "title": "WoW Forever Is Now Playable On The AYN Thor With Dual-Screen Support",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOS1lQW8xMU1DaGo3SWFtR3hyWFlIY2I1b1I4UTU0Q2VfT0d0WWJiZmZaejJPamN1eUczaWM2QmpER0llbm5TbUdrZUV6alpMR0dic3V5M0VDQ1dYNkIzOTFJQzhRSWpxREFiR0ljNFRObFF2TDFUVXJEdl8tTllfU0NMOGpFZ2RtY2dBOWQ3RWFwUE5Pb3c?oc=5",
@@ -3721,7 +3980,7 @@
    "classes": []
   },
   {
-   "title": "WoW: Forever November 23 Hotfix Fixes Class and World Buff Issues for World of Warcraft: Forever",
+   "title": "November 23 Hotfix Fixes Class and World Buff Issues for World of Warcraft: Forever",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQajRvNko1VVBkbUhIN1MzQjBzcEZfSmJwZUpicGhCV2dXYmY2eG0tcUg0UWE3cWRrcHV3d1pVR1ZocHJnb2h3MWFacDlLYk9DRW0zRzVxVTN5LVdTOVdEWVk3YkFPSTdGeFVOeEFGb3JrTnlPM043dE02UFlodW9zLVZEMzBqT1p1djhTX2RsOVgxMVNFd1drWlVVa3V2U0ZkRnc?oc=5",
    "date": "2026-11-24T09:11:34Z",
    "who": "Maxroll",
@@ -3981,17 +4240,6 @@
    "classes": []
   },
   {
-   "title": "WoW Forever Secrets: Overview of Finds and Open Leads",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KTVNPWlBqWTZBRUw2TVVsV0R0SnNXUzNTVHR2RDljR01FZzM0cGZRTklsaWNQcTUzSzU4LXA4TzhpN0tBZXVKVmZxMmNaZEFUTTFyenlqS0JKTUVFNDFRanJqdGVmbUU?oc=5",
-   "date": "2026-11-23T16:34:19Z",
-   "who": "space4games",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "Blizzard Announces Lockbox Change is Temporary in WoW: Forever - Peeking Inside Lockboxes Will Return",
    "url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will",
    "date": "2026-11-23T16:33:33Z",
@@ -4059,133 +4307,6 @@
    "classes": []
   },
   {
-   "title": "Can You Raid in WoW and WoW Forever on a Steam Deck? Setup, Settings, and Raid Performance",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMC1HN25KdUhEaW54X1lvOGpvdWN6Sy1EeVo3N2ltTWZXYURBS1E1RlB6SWdQc2d2cGV3eGlRT3M4ZG82UFRETmF1Qi1rMGlFREZzYTlWM05nQlhQWUFOYnpCbWpDLWhHUHJYVW1RSkRIUFBzcThhbWNmdU5CcDlRcmVmVGxad1l1MGViYVBFTm1BZGRJaHlSS1N1VjhuZ1M5Y2tfRzZqNkFEblRQdnV0VjM1dTFBX2M?oc=5",
-   "date": "2026-11-23T16:07:22Z",
-   "who": "jeu.video",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "raids"
-   ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever review",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVFVldHUzZHItU1dPVFl6V1hqd1pmamhMS2x2QURadTNRWWNzWXBFTFhIemF2MHZZMnpsck1sVFNKaFc1ZTBZd0RydXpTZXRrLUtCVVBXZ3RHOTIxQ1k1NEFiWUd5SmpqaEJkTEhPMHNYZG5FcEd1ZGRRdlIzQXJqT1hEczR0TlY4?oc=5",
-   "date": "2026-11-23T15:36:34Z",
-   "who": "PC Gamer",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever World Buff Fix Is Arriving This Week",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOVRQMXBhcU95c1VFdjJaOWZ5Uzh1NTl5akstQVF5dno1N21tNHh5WHpjdVhoNDZib3RlU3FubXBrNTZfRzI4R0FydFg0S1BPZm9hQ24zWjJNTDg1ajc3VkI3ZkIyLXN6S0pBa3AycVVQY3g5cW1DRzh6LV9YMTNUNFczVDVzTFFNN1l4d2NHMjFKV2dSUjcwNkhYWQ?oc=5",
-   "date": "2026-11-23T14:24:15Z",
-   "who": "VICE",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft Forever moves to eliminate targeted layer swapping",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYW1VME1JbVRsYkdTaU1tUzY0cmJJV0ZkTG1ueEdELTlQelJ2VzR5ejB3WmNobS1tU3B2QUwxdUpKdG5xeVlaV2N5ZnhiWkFaWnZ3YUNFV2Z2ODNsdlhGUzAwVEFiM0xzZi16MkU3Q3RkaU9jTGdhSFFLVF9ULVFTUDZLd0JmNkJyZ1hHbHVVR25JZGlqdGNTU0FtX1p4ZE1SY1B4NjBUWQ?oc=5",
-   "date": "2026-11-23T14:00:51Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "realms"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Retribution Paladin Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTVJ0ajk1TXA1WEVBbE1tNjFweHQtMEg2bjVESjZMb1FhMUJPNVdyYW5IZjRhU1hBMHM0RmZ4aVpFZGx0RUJ0WWxSUmtBSXNBdms5bExRYnBzYk02UGtTOTRjQzVQMk56eHZWUFlXS2d4SFY5a3c?oc=5",
-   "date": "2026-11-23T13:30:51Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "paladin"
-   ]
-  },
-  {
-   "title": "WoW Forever Breaks Records While PC Players Wait for GTA 6",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ya3ZPREcxTTlkTWEtWFV4RVY3anRqSHlUUFp6NEVlWjRBRkd4NDNHV0llSXZCSjVxTzNfVk10UDY5cnNEdGhvTERVLXVXN212RXZMRWhDbFVFZEF3VEdMcGxId3hZcjRWMU12RHZn?oc=5",
-   "date": "2026-11-23T11:42:40Z",
-   "who": "shattered.io",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "WoW: Forever November 20 Hotfix Cuts Dungeon Reset Limit in Half for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFNVNlY4VDBNaFdqX0tHeHprS2tCbEpVZEdkRFJXNmxiM2FodXdDb21nd3VQeXB0UWl0X2U5X0F5dXhRUE5RVC1HZWcxMkN6Y3ZROTBZZDZWWGFiOWhhcWptQkdJX3dXa1ROeFI5ZUU1Ykl2SExJZldqVC1vQU1Xa3ViNlNfNXNHek82aEFfbjZwOXpIUTdEMElrcUZjeFQx?oc=5",
-   "date": "2026-11-23T09:55:46Z",
-   "who": "Maxroll",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix",
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever Dungeon Boosting: What Still Works After the 12-Level Rule",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenBKMHplRFZPWFFwTDYzVWdETHZIaG1EcGhHOTNBWndHRF94aEtBc1gyOEFjVFdDdjJLT1lwVFVkYUNYeE1FNzJQeFRicDlSdXJiajFkNWpRY2JiUjhMT3FJY2FUNUQ2MlI0ZVdsWFdHR3ZDbW1mM2tpRC1ZM20zWkJrZm5BclRaTVoxb1Bldng1SDQxTXowVnZuLUlrM3Mtd0pTajlR?oc=5",
-   "date": "2026-11-23T08:01:45Z",
-   "who": "COGconnected",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Marksmanship Hunter | Staedt - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWtNd21EUjY3Mjl1ODhYWGhDckpQVGNoQ2dXMVlPTGdZekxFNE5Bal9zU2I3MzFZVEo3bVU0VkVDYnlRcm9pd0kzNmpPd3FNVHV0Yms4a2xZMU11b3pyMHBNeFh4cFJXei0yeDFRT1hYWS1teExQMl9NTGh5eUotVG93?oc=5",
-   "date": "2026-11-23T06:31:01Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ]
-  },
-  {
-   "title": "WoW Forever Onyxia Attunement Guide - How to Get the Drakefire Amulet Before Raids Open",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTG9hLThkM3ZKUnBZelhCWW9zR3VERlZER2FEVnZYM1I0Y19vUHFyUndTenMxWjJqd21lQmhJWGxoSDJHYm9kWkRFb2o0QmdzS0hxYWNpZk45c0pEdkt2eEFzZGNYeDBNZkIwRmtrMGlyX3AzWmNNMERZN0stT0czYXI0eDd4NVd6aElKNjMyeDV0NU9DeHcxc24wYUhnODQ4dWZvc2wzYWsyMGpySWZ0b1NxWHBPT2VzYzl3?oc=5",
-   "date": "2026-11-23T06:03:00Z",
-   "who": "Apple World Today",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "raids"
-   ],
-   "classes": []
-  },
-  {
    "title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
    "url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
    "date": "2026-11-23T01:00:37Z",
@@ -4209,21 +4330,6 @@
    "icon": "inv_misc_book_09",
    "tags": [],
    "classes": []
-  },
-  {
-   "title": "New World of Warcraft: Forever Exploit Lets Rogues Farm Thousands in Gold",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2tSUGlMTHV2UENjajNMSkhxOXg1ZE03cWxOLUVqZTBFTzhueTRaS3hpdTRzTlcwbElOUFdhR2FQTVpOeUp6WmZ4QnpLZVhiNDFvdUZVaVBMaXdDUTgzWU42c01uTGxjQmFLRWlrVkZBdkNUaDZGOHZqTkp1ZnNRTEZMR0JfVk5ibXBOZUt5TmdzTTlBa2Q5QXpIR3VfY0FETERTMnNjaWhUUQ?oc=5",
-   "date": "2026-11-22T23:03:45Z",
-   "who": "OpenCritic",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": [
-    "rogue"
-   ]
   },
   {
    "title": "Lockboxes Hotfixed to Push Loot in WoW: Forever",
@@ -4266,34 +4372,6 @@
     "leveling"
    ],
    "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever Players Find Way to Farm Over 100 Gold Per Hour",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnVzOWN6bjBoSEtxc3VVenlTazcxS3FXelhzakJlSWREM2hrd1ZXMVdEd1ItcENGWHFoOGZpSWVTOFM3QlZ1RHBpYTdNWmt3ZGUzMmJFek1zQjJ4WHpiVzB4Z0c2MzMyU3NDak9qTWQ0Tnc2SmRvTkdVcWRQc0NqemFZdVVaY0VyQmtyY1BCZUFFem8xR1NXS0l0OXdIZGtfQkdJUWZQc3RleWM?oc=5",
-   "date": "2026-11-22T16:44:57Z",
-   "who": "OpenCritic",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Protection Warrior Guide - Leveling & Endgame",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRW5uQklEaVM1dUFFMzJVbmFIc3dtUXBKRklsUVBoQW84Z2JCaVdJVHc2SXJwUFdDTTB6bWliZ2kyX1RzdlIxaWdYN3NhZ3B1U2JrQUZ6aTUzNExJZUExbks0My1xeWxmUkVCWFJONVdla0p2bWdHTk1yelVZV0ZnZ193?oc=5",
-   "date": "2026-11-22T16:36:00Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling"
-   ],
-   "classes": [
-    "warrior"
-   ]
   },
   {
    "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
@@ -5747,32 +5825,6 @@
    "classes": []
   },
   {
-   "title": "Secret Disguise Toy Found WoW: Forever",
-   "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever",
-   "date": "2026-11-13T15:00:00Z",
-   "summary": "A new secret toy, the Alcaz Operative Disguise, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison. Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
-   "date": "2026-11-13T01:10:58Z",
-   "summary": "Once you reach max level in WoW: Forever, there's a new Weekly Quest that awards a random amount of gold, up to 100 Gold! Continue reading »",
-   "source": "Wowhead",
-   "label": "press",
-   "icon": "inv_misc_book_09",
-   "tags": [
-    "economy"
-   ],
-   "classes": []
-  },
-  {
    "title": "Enhancement Shaman Changes Now Live in WoW: Forever",
    "url": "https://www.mmo-champion.com/content/14690-Enhancement-Shaman-Changes-Now-Live-in-WoW-Forever",
    "date": "2026-11-12T19:17:00Z",
@@ -6532,74 +6584,6 @@
    "tags": [
     "business"
    ],
-   "classes": []
-  },
-  {
-   "title": "Good morning, friends! It's Monday, coffee is ready, and we're getting closer to WoW Forever! Just two more days to go!🥳 We're around if…",
-   "url": "https://bsky.app/profile/support.blizzard.com/post/3mzd4xgnvq22h",
-   "date": "2026-11-02T10:37:16.344000Z",
-   "summary": "Good morning, friends! It's Monday, coffee is ready, and we're getting closer to WoW Forever! Just two more days to go!🥳 We're around if you've got any support questions",
-   "who": "@support.blizzard.com",
-   "source": "BlizzardCS on Bluesky",
-   "label": "social",
-   "icon": "spell_holy_heal",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Three sleeps to go before WoW: Forever launches 🫪",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mzb6jmqfvu2e",
-   "date": "2026-11-01T16:00:00.956000Z",
-   "who": "@worldofwarcraft.blizzard.com",
-   "source": "World of Warcraft on Bluesky",
-   "label": "social",
-   "icon": "inv_misc_horn_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Villagers speak in hushed tones about the legend of the dreaded Kobold miner… Thanks for participating in the WoW: Forever beta!",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz4i3ja5vo2a",
-   "date": "2026-10-30T19:07:46.256000Z",
-   "who": "@worldofwarcraft.blizzard.com",
-   "source": "World of Warcraft on Bluesky",
-   "label": "social",
-   "icon": "inv_misc_horn_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
-   "url": "https://news.blizzard.com/en-us/article/24316094/prepare-for-forever-try-midnights-talebound-and-discover-sweet-treats-in-wow-weekly",
-   "date": "2026-10-30T17:01:00Z",
-   "summary": "From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting…",
-   "source": "Blizzard News",
-   "label": "official",
-   "icon": "inv_letter_15",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Watch an amazing animated music video and earn orbs while you headbang 🤘 Check Discord for the newest WoW: Forever Quest! blizz.ly/47OBIBy",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz2elumgcn2m",
-   "date": "2026-10-29T23:00:00.633000Z",
-   "summary": "Watch an amazing animated music video and earn orbs while you headbang 🤘 Check Discord for the newest WoW: Forever Quest! blizz.ly/47OBIBy",
-   "who": "@worldofwarcraft.blizzard.com",
-   "source": "World of Warcraft on Bluesky",
-   "label": "social",
-   "icon": "inv_misc_horn_01",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Send this to the people you want in your first WoW: Forever group 📩",
-   "url": "https://bsky.app/profile/worldofwarcraft.blizzard.com/post/3mz25yifcy724",
-   "date": "2026-10-29T21:01:47.788000Z",
-   "who": "@worldofwarcraft.blizzard.com",
-   "source": "World of Warcraft on Bluesky",
-   "label": "social",
-   "icon": "inv_misc_horn_01",
-   "tags": [],
    "classes": []
   }
  ]

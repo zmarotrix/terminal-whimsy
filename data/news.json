@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:58:24Z",
+ "updated": "2026-11-26T09:34:00Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,44 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
+   "date": "2026-11-26T01:04:50Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "c01611b84f",
+   "first": "2026-11-26T01:04:50Z",
+   "last": "2026-11-26T01:04:50Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "hunter"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Blizzard Announces Massive World of Warcraft: Forever Discount for Black Friday",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUXNGRFNVZ2FLejBUZllRY1kzRE1ObjFyNXhuY1FOWkF0ZXBiam9yNnlWWER3eXQ1ckJVZl8tTjl6anRyclhFVFBRaGcxYTRRR3ROVWUycHR0WktaTVVKVHBrcTJ1NE1WR2EwOTVIeE5Ua1ByTWNSZzhFdHZxakJ5QTJFRDNKUG51cGg4ZDRiczM1WHdpWXdGWi13VWdNVjVtTmRtMnk4d2VaanZfb05lVDN3?oc=5",
+   "date": "2026-11-26T00:36:29Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "OpenCritic",
+   "icon": "inv_misc_spyglass_03",
+   "id": "2d32ac1385",
+   "first": "2026-11-26T00:36:29Z",
+   "last": "2026-11-26T00:36:29Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "New World of Warcraft Forever Release Officially Available",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVm1Ma0g1SnRYZUpKenJSSUZaU0Y1dVY0LU03ZURSbVppTkJicHdDVk91SHlQOGNsaV92QmdlSWFuYXZOd2xHRkRTMUZiQUlGdGRPbVVOZ29nYjlWNWZRM1NUaEpUd29MeHJGbm9mLXNJbmhtbWRwTy04TXRyYl9uOWdyVQ?oc=5",
@@ -166,6 +204,25 @@
    "also": []
   },
   {
+   "title": "Survival Hunter | Staedt - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80M0taYUxrUHVPZzFtYy1OanE3UnhuaFlldHBlZ1JfbkEyYU9VSEUxTE5fOU9va2dqOHkwc1Y4UG1hMVFidmdHT19mWmVsMzJPUlRNR3d3WnRzTjhaYkZSUjN3eUt5RkZBQVZocHlkX3ZLNFJjZ2VOSktja3Y?oc=5",
+   "date": "2026-11-25T20:37:31Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "a7775a7537",
+   "first": "2026-11-25T20:37:31Z",
+   "last": "2026-11-25T20:37:31Z",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Dawn Waker Secret Brings Players to a Cataclysm Boss Cameo in WoW: Forever",
    "url": "https://www.wowhead.com/news=383812/dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever",
    "date": "2026-11-25T15:00:00Z",
@@ -292,9 +349,9 @@
    "first": "2026-11-25T18:15:00Z",
    "last": "2026-11-25T18:15:00Z",
    "tags": [
-    "business",
     "items",
-    "story"
+    "story",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -414,6 +471,23 @@
    "also": []
   },
   {
+   "title": "Warcraft outlines WoW: Forever’s new Rank Points—Honor’s getting company",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xaFpHS0xPamdHUU4wRFVrVDZPQmVScU4wRHo0ZGxEYi1odkNxRmdqam9JNDN2Nkp6em9RX1RBRkpQY2R6aG1V?oc=5",
+   "date": "2026-11-25T13:47:34Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Digg",
+   "icon": "inv_misc_spyglass_03",
+   "id": "0264c8aa8c",
+   "first": "2026-11-25T13:47:34Z",
+   "last": "2026-11-25T13:47:34Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Blizzard Halves WoW: Forever's Instance Cap to 5 After Gold Crackdown",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVpSQkZaV0s5VmQ3VmJVTnF3cTAtNjJCMG1PanZ2NTZLQUtBM1Myb25xak5KM0E4WEI1QnBUMUR4TV9kYzRfcDcxNzEwS3gxWE5rQklLYU96eERDd04ycjUzdGcwZXdCcUdYWkdCTE80Ql9nYzRBcWpMU3pEVlQxSFNiM1U0UkZFYWkwNUtmeEJTWEtQYXNpcmVsRG9oLTduYWJF?oc=5",
    "date": "2026-11-25T13:10:59Z",
@@ -464,25 +538,6 @@
    "last": "2026-11-25T06:00:00Z",
    "tags": [
     "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "November 19 Hotfix Re-Enables the Seed Hybridizer for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT0JZZWdoN2F2em9zNUJxSTR0aGVnYmVxdEJfY2gtV3dHbTFDMUc4OFQxRmhFbmJxaVhhbVBjSUxHRlRwUnljc3VoY3AyMDI0SnFNWTlycG9xcWlsemxfdUVfZmJtaUQ4NHdocnVuMU5BM2JnRURDV0hrbmFhcTRWUUpibGZ3V1EtZV9ScHkwbXhPNnNrUFNPVFVDZ1k3Zw?oc=5",
-   "date": "2026-11-25T02:51:10Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Maxroll",
-   "icon": "inv_misc_spyglass_03",
-   "id": "e43955a85b",
-   "first": "2026-11-25T02:51:10Z",
-   "last": "2026-11-25T02:51:10Z",
-   "tags": [
-    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -710,8 +765,8 @@
    "tags": [
     "professions",
     "leveling",
-    "classes",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -727,24 +782,33 @@
    ]
   },
   {
-   "title": "WoW Forever Class Hotfix: What Changed up to November 23",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tNEREbnB3bk9FSjVNeVVhZVl0ek91UHRkU1lMcGxPTXVFUllYd2xVUEthbTBGNzVXemdfc29fQXM0OFJCTlZiUW5VT0RTR2sxNVd2MkFEQmNteWNTMVhsdFcwaTB3RENjUFlJbWV4R1I5MmU1NVZ5SEd1Sks1QQ?oc=5",
-   "date": "2026-11-24T18:23:58Z",
+   "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+   "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+   "date": "2026-11-24T02:10:52Z",
    "label": "press",
-   "source": "Google News",
-   "who": "space4games",
-   "icon": "inv_misc_spyglass_03",
-   "id": "635c501476",
-   "first": "2026-11-24T18:23:58Z",
+   "source": "Wowhead",
+   "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "380bd87306",
+   "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T18:23:58Z",
    "tags": [
     "classes",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
-   "n": 1,
+   "n": 2,
    "official": false,
-   "also": []
+   "also": [
+    {
+     "title": "WoW Forever Class Hotfix: What Changed up to November 23",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tNEREbnB3bk9FSjVNeVVhZVl0ek91UHRkU1lMcGxPTXVFUllYd2xVUEthbTBGNzVXemdfc29fQXM0OFJCTlZiUW5VT0RTR2sxNVd2MkFEQmNteWNTMVhsdFcwaTB3RENjUFlJbWV4R1I5MmU1NVZ5SEd1Sks1QQ?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-24T18:23:58Z"
+    }
+   ]
   },
   {
    "title": "Shadow Priest Guide - Talents, Rotations, Races & More - WoW Forever",
@@ -804,85 +868,6 @@
    "also": []
   },
   {
-   "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
-   "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
-   "date": "2026-11-24T02:10:52Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "380bd87306",
-   "first": "2026-11-24T02:10:52Z",
-   "last": "2026-11-24T13:15:23Z",
-   "tags": [
-    "classes",
-    "professions",
-    "hotfix",
-    "leveling"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "World of Warcraft: Forever - All Class, Dungeon, and Profession Changes in November 23 Hotfix",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMkc3YUtYbDRPZWkwdWVwOXltTGs0LUFIaEY1SzFHc3VfMHRMT0d4ZzhzZnJySzFtelZyNEx5enZiMVlWSGFlRXlreE5JXzAtVWNVTVVQMjd5MVBpdVlPd1pLOFpPM0JhUEpLUVhGOG8zX285UklVTEpUc3lTN1pKOXotQ3JTcFd4VlN2ekNFSmFXSzBoWGdtLVRKODhQbjBrWl9aM1VxNlFsNzM0Smw4b1M2amhyekh0X0p0T2p3?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-24T13:15:23Z"
-    }
-   ]
-  },
-  {
-   "title": "Most Popular World of Warcraft: Forever Class Officially Has 'One-Shot' Build",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmtjVEY3ZHRIVHkwYXZBMS1KY3BCZjNwX0ZOc0dINWFFUEhpU1dFVTE5djU3ODVpZS1SekhMazllSXlmQVF0blljREVNbDlHZk5NTWxKYlAzMHdKSFY3ZG54SmZtT3piVUV4eG5sb3Y3bkp6MjVQRHllMHdORGJDZTVFdmlRSGRqVE95N2FGbkZNdHRSTnRzblBPTDE1WTlnNThCOUtyb0tXeWFz?oc=5",
-   "date": "2026-11-24T12:44:58Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "OpenCritic",
-   "icon": "inv_misc_spyglass_03",
-   "id": "09f060c414",
-   "first": "2026-11-24T12:44:58Z",
-   "last": "2026-11-24T12:44:58Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
-   "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
-   "date": "2026-11-23T23:00:58Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons. Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "9c05f20e2b",
-   "first": "2026-11-23T23:00:58Z",
-   "last": "2026-11-24T12:20:47Z",
-   "tags": [
-    "economy",
-    "leveling"
-   ],
-   "classes": [
-    "warrior"
-   ],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
-     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVDk3WE5CVzVyTXliaEg4STBpUG40N2VlSmNYaU81eU9TVDJTMkcyY0FoRjdCeFpZOURXeGZ2RTVYS2lSUzF4cEpjLWw5VTJURUU2M0VacHZfMnA0RDhIRFZaQVBGc3h2Ny1yalZweDFuRkhqLUF0eHFEWjM4alZuN1ZERWo0X3ROOERXUDFPRHF3Q2FzbklBVF95MEJ2cS12ODY3Tm0waXU1TG9lVWJWbXp3TXpFdFJ3S0Y2cTZ0NXpqNlJ2T1RtSmRJeHNqS2dnWU5STGhQY0RIc3lDaVpTamZGQWhJN3hQai0yazJSd3hLaWxtQklUWEgzQWI4MTlJMzRLZV8weUQwaDAzMGh6VTZ3TkVlMkE?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-24T12:20:47Z"
-    }
-   ]
-  },
-  {
    "title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
    "url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
    "date": "2026-11-23T21:20:40Z",
@@ -910,6 +895,27 @@
      "date": "2026-11-24T02:30:39Z"
     }
    ]
+  },
+  {
+   "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
+   "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
+   "date": "2026-11-23T23:00:58Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons. Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "9c05f20e2b",
+   "first": "2026-11-23T23:00:58Z",
+   "last": "2026-11-23T23:00:58Z",
+   "tags": [
+    "leveling"
+   ],
+   "classes": [
+    "warrior"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
   },
   {
    "title": "How To Set Up One-Key Fishing in WoW Forever",
@@ -1039,8 +1045,8 @@
    "last": "2026-11-23T16:26:25.715000Z",
    "tags": [
     "items",
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [
     "rogue"
@@ -1090,8 +1096,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "economy",
-    "items"
+    "items",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1167,9 +1173,9 @@
    "first": "2026-11-21T19:26:27Z",
    "last": "2026-11-21T19:26:27Z",
    "tags": [
-    "economy",
     "leveling",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1235,9 +1241,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
+    "hotfix",
     "raids",
-    "items",
-    "hotfix"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1257,8 +1263,8 @@
    "first": "2026-11-20T16:21:03Z",
    "last": "2026-11-20T19:00:55Z",
    "tags": [
-    "ui",
     "realms",
+    "ui",
     "hotfix"
    ],
    "classes": [],
@@ -1286,8 +1292,8 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "items",
     "classes",
+    "items",
     "story"
    ],
    "classes": [],
@@ -1457,8 +1463,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1975,8 +1981,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -1997,8 +2003,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2109,10 +2115,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
     "classes",
-    "professions",
-    "hotfix"
+    "hotfix",
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2151,10 +2157,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "items",
     "leveling",
+    "hotfix",
     "classes",
-    "hotfix"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2749,8 +2755,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2995,8 +3001,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -3016,8 +3022,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "economy",
-    "leveling"
+    "leveling",
+    "economy"
    ],
    "classes": [],
    "n": 3,
@@ -3106,8 +3112,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3185,8 +3191,8 @@
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
     "classes",
-    "ui",
-    "hotfix"
+    "hotfix",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -3207,8 +3213,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "leveling",
-    "classes",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3636,6 +3642,32 @@
  ],
  "items": [
   {
+   "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
+   "date": "2026-11-26T01:04:50Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "hunter"
+   ]
+  },
+  {
+   "title": "Blizzard Announces Massive World of Warcraft: Forever Discount for Black Friday",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUXNGRFNVZ2FLejBUZllRY1kzRE1ObjFyNXhuY1FOWkF0ZXBiam9yNnlWWER3eXQ1ckJVZl8tTjl6anRyclhFVFBRaGcxYTRRR3ROVWUycHR0WktaTVVKVHBrcTJ1NE1WR2EwOTVIeE5Ua1ByTWNSZzhFdHZxakJ5QTJFRDNKUG51cGg4ZDRiczM1WHdpWXdGWi13VWdNVjVtTmRtMnk4d2VaanZfb05lVDN3?oc=5",
+   "date": "2026-11-26T00:36:29Z",
+   "who": "OpenCritic",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "New World of Warcraft Forever Release Officially Available",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVm1Ma0g1SnRYZUpKenJSSUZaU0Y1dVY0LU03ZURSbVppTkJicHdDVk91SHlQOGNsaV92QmdlSWFuYXZOd2xHRkRTMUZiQUlGdGRPbVVOZ29nYjlWNWZRM1NUaEpUd29MeHJGbm9mLXNJbmhtbWRwTy04TXRyYl9uOWdyVQ?oc=5",
    "date": "2026-11-26T00:05:00Z",
@@ -3737,6 +3769,19 @@
    "icon": "inv_misc_spyglass_03",
    "tags": [],
    "classes": []
+  },
+  {
+   "title": "Survival Hunter | Staedt - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80M0taYUxrUHVPZzFtYy1OanE3UnhuaFlldHBlZ1JfbkEyYU9VSEUxTE5fOU9va2dqOHkwc1Y4UG1hMVFidmdHT19mWmVsMzJPUlRNR3d3WnRzTjhaYkZSUjN3eUt5RkZBQVZocHlkX3ZLNFJjZ2VOSktja3Y?oc=5",
+   "date": "2026-11-25T20:37:31Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": [
+    "hunter"
+   ]
   },
   {
    "title": "World of Warcraft: Forever Has a Secret Dungeon Boss You Probably Missed",
@@ -3975,6 +4020,17 @@
    "classes": []
   },
   {
+   "title": "Warcraft outlines WoW: Forever’s new Rank Points—Honor’s getting company",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xaFpHS0xPamdHUU4wRFVrVDZPQmVScU4wRHo0ZGxEYi1odkNxRmdqam9JNDN2Nkp6em9RX1RBRkpQY2R6aG1V?oc=5",
+   "date": "2026-11-25T13:47:34Z",
+   "who": "Digg",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Blizzard Halves WoW: Forever's Instance Cap to 5 After Gold Crackdown",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVpSQkZaV0s5VmQ3VmJVTnF3cTAtNjJCMG1PanZ2NTZLQUtBM1Myb25xak5KM0E4WEI1QnBUMUR4TV9kYzRfcDcxNzEwS3gxWE5rQklLYU96eERDd04ycjUzdGcwZXdCcUdYWkdCTE80Ql9nYzRBcWpMU3pEVlQxSFNiM1U0UkZFYWkwNUtmeEJTWEtQYXNpcmVsRG9oLTduYWJF?oc=5",
    "date": "2026-11-25T13:10:59Z",
@@ -4010,19 +4066,6 @@
    "icon": "inv_misc_spyglass_03",
    "tags": [
     "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "November 19 Hotfix Re-Enables the Seed Hybridizer for World of Warcraft: Forever",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT0JZZWdoN2F2em9zNUJxSTR0aGVnYmVxdEJfY2gtV3dHbTFDMUc4OFQxRmhFbmJxaVhhbVBjSUxHRlRwUnljc3VoY3AyMDI0SnFNWTlycG9xcWlsemxfdUVfZmJtaUQ4NHdocnVuMU5BM2JnRURDV0hrbmFhcTRWUUpibGZ3V1EtZV9ScHkwbXhPNnNrUFNPVFVDZ1k3Zw?oc=5",
-   "date": "2026-11-25T02:51:10Z",
-   "who": "Maxroll",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix"
    ],
    "classes": []
   },
@@ -4272,50 +4315,6 @@
     "economy"
    ],
    "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever - All Class, Dungeon, and Profession Changes in November 23 Hotfix",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMkc3YUtYbDRPZWkwdWVwOXltTGs0LUFIaEY1SzFHc3VfMHRMT0d4ZzhzZnJySzFtelZyNEx5enZiMVlWSGFlRXlreE5JXzAtVWNVTVVQMjd5MVBpdVlPd1pLOFpPM0JhUEpLUVhGOG8zX285UklVTEpUc3lTN1pKOXotQ3JTcFd4VlN2ekNFSmFXSzBoWGdtLVRKODhQbjBrWl9aM1VxNlFsNzM0Smw4b1M2amhyekh0X0p0T2p3?oc=5",
-   "date": "2026-11-24T13:15:23Z",
-   "who": "VICE",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix",
-    "leveling",
-    "classes",
-    "professions"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Most Popular World of Warcraft: Forever Class Officially Has 'One-Shot' Build",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmtjVEY3ZHRIVHkwYXZBMS1KY3BCZjNwX0ZOc0dINWFFUEhpU1dFVTE5djU3ODVpZS1SekhMazllSXlmQVF0blljREVNbDlHZk5NTWxKYlAzMHdKSFY3ZG54SmZtT3piVUV4eG5sb3Y3bkp6MjVQRHllMHdORGJDZTVFdmlRSGRqVE95N2FGbkZNdHRSTnRzblBPTDE1WTlnNThCOUtyb0tXeWFz?oc=5",
-   "date": "2026-11-24T12:44:58Z",
-   "who": "OpenCritic",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
-   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVDk3WE5CVzVyTXliaEg4STBpUG40N2VlSmNYaU81eU9TVDJTMkcyY0FoRjdCeFpZOURXeGZ2RTVYS2lSUzF4cEpjLWw5VTJURUU2M0VacHZfMnA0RDhIRFZaQVBGc3h2Ny1yalZweDFuRkhqLUF0eHFEWjM4alZuN1ZERWo0X3ROOERXUDFPRHF3Q2FzbklBVF95MEJ2cS12ODY3Tm0waXU1TG9lVWJWbXp3TXpFdFJ3S0Y2cTZ0NXpqNlJ2T1RtSmRJeHNqS2dnWU5STGhQY0RIc3lDaVpTamZGQWhJN3hQai0yazJSd3hLaWxtQklUWEgzQWI4MTlJMzRLZV8weUQwaDAzMGh6VTZ3TkVlMkE?oc=5",
-   "date": "2026-11-24T12:20:47Z",
-   "who": "PC Gamer",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": [
-    "warrior"
-   ]
   },
   {
    "title": "Obsidian Sentinel Loot Nerfed: WoW Forever Hotfixes for November 23",

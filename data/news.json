@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:34:00Z",
+ "updated": "2026-11-26T19:38:45Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,138 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "World of Warcraft: Forever – Legacy Talents Explained",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDVjc0I1TGNvbXZ4aVpiR21UUnFQOC1xRHB5dHlpRDFjdWlRWTljMmcxNnhhMDlycWZ4M3B3Q3RUVTFmZjBPMTlZT0FOQm4ySTNmTjBaeTIyR1NvSUR5R2Ewa3RiOURDVWF4V2NRVW54a1Y5SVlrN3d2eVNJZTk1SkpoWjFXRkRJZDQ4?oc=5",
+   "date": "2026-11-26T16:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "VICE",
+   "icon": "inv_misc_spyglass_03",
+   "id": "1577184768",
+   "first": "2026-11-26T16:00:00Z",
+   "last": "2026-11-26T16:00:00Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Alterac Valley Adjustments - November 25",
+   "url": "https://us.forums.blizzard.com/en/wow/t/alterac-valley-adjustments-november-25/2429074/1",
+   "date": "2026-11-25T19:42:28.736000Z",
+   "label": "official",
+   "source": "Blizzard forums (US)",
+   "summary": "We’ve seen that players in Alterac Valley were frequently completing the battleground without capturing the objectives, so we’ve made some adjustments to incentivize a focus on the objectives rather than rushing to kill the enemy faction’s General. The…",
+   "who": "Kaivax (Community Manager)",
+   "icon": "inv_scroll_03",
+   "id": "3f8976cd97",
+   "first": "2026-11-25T19:42:28.736000Z",
+   "last": "2026-11-26T14:45:18Z",
+   "tags": [
+    "pvp",
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 5,
+   "official": true,
+   "also": [
+    {
+     "title": "Alterac Valley Zerg Strat Nerfed in WoW: Forever",
+     "url": "https://www.wowhead.com/news=383997/alterac-valley-zerg-strat-nerfed-in-wow-forever",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-25T19:44:07Z"
+    },
+    {
+     "title": "Alterac Valley Adjustments in WoW: Forever - November 25",
+     "url": "https://www.mmo-champion.com/content/14724-Alterac-Valley-Adjustments-in-WoW-Forever-November-25",
+     "source": "MMO-Champion",
+     "label": "press",
+     "date": "2026-11-25T19:55:00Z"
+    },
+    {
+     "title": "Alterac Valley Receives Surprise Tuning",
+     "url": "https://www.warcrafttavern.com/forever/news/alterac-valley-receives-surprise-tuning/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-25T20:08:37Z"
+    },
+    {
+     "title": "WoW Forever reworks Alterac Valley in latest patch",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWRLS1A3bXpXOHV3UjBHWl9fb2FCQmdQeUo3dWFId2w4dkpXRE4xSEdDaHdRV1I0ckZwTWpfYmNrYWhKWEtKb1lNbi1tbTFxZl9RQTlRdGF3ajMyaE9JUUFqdGpIa1lFLTc5bThQd3VmQ3dGRmFjMXkxQkNLQXl2b0lKVkpKUzZWYzdGSG4tUmxjTGZyREJNbUpUdDR3QQ?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-26T14:45:18Z"
+    }
+   ]
+  },
+  {
+   "title": "Alterac Valley Reputation Increased Again in WoW: Forever",
+   "url": "https://www.wowhead.com/news=383999/alterac-valley-reputation-increased-again-in-wow-forever",
+   "date": "2026-11-25T23:11:07Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has increased Alterac Valley reputation again in WoW: Forever! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "cd51e2194c",
+   "first": "2026-11-25T23:11:07Z",
+   "last": "2026-11-26T11:37:33Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [],
+   "n": 2,
+   "official": false,
+   "also": [
+    {
+     "title": "Blizzard Changes Alterac in World of Warcraft Forever to Combat Reputation Farming",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVkNVNzJKb1dWQUVFeXJ4YUZSLVZQYWVyUkVCU09WeWpsMGRPVjdLQ25zTHY1ZUhvcG12QzBQSENMQlJwNTBWUWZpWE1MWV82ZThNeDlFTUlYby1GSHc5ZDBiQ3BDTEJ6NjJPdmZhUENVVjZBeGpYd0lXSzFvTF9yZzAwOEc0bWpMREF0MHV2UVY2U3ZuVGVmMkY5aTFoSXhoMVJLS3p1eV9YZHRhTUtQbTF0NXhJRE5h?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-26T11:37:33Z"
+    }
+   ]
+  },
+  {
+   "title": "WoW: Forever fixes one of its most annoying endgame quests the literal day after I do it",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRkRGbWp4UmdFQlRwb1NfSWdxbTh5TFAyV1FsLTJqYUFLZy1KcWxjX2lNMEFFTGxUU1ZENV9nX3poUEE5ajlfRGdOMU9keTJYLV94cXJPaVF2dk9ETEY3R25oNG5BbUdzOG91bjkzaG1hVUVKOTVKWURldkt2Qzh5c3llR3ZvZmNwMXFCbktIbzNqMVZkWHFfMWc3bFZNMFFyNWdibENvOW9MTmVUVDM4YW5zQUZnMTJPcWtNdWhRbDdmNkc1S3VjN2duMWJuSVRhVEE?oc=5",
+   "date": "2026-11-26T11:11:17Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "PC Gamer",
+   "icon": "inv_misc_spyglass_03",
+   "id": "a66cd53203",
+   "first": "2026-11-26T11:11:17Z",
+   "last": "2026-11-26T11:11:17Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Blizzard adjusts popular World of Warcraft: Forever Battleground to stop players power-grinding rewards",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaXF0MFU3V3VhSGd1bHdMODFvdzFhZkRrSjBoSTk4bnBuRk9IQ2pYWFFmM1VQZ2ZCbGtQSzZPbXBZWjFUdWNQM1l5OERZSFdEbTFYby14dWo3TVVYRk01TnpOR0hoN2tUQklmZnUzUmcwZ0NiQVlqNzVGd2xNczMySUxneUhFS0RRakR2V1BWUE0?oc=5",
+   "date": "2026-11-26T10:46:10Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Eurogamer.net",
+   "icon": "inv_misc_spyglass_03",
+   "id": "c95b1961d7",
+   "first": "2026-11-26T10:46:10Z",
+   "last": "2026-11-26T10:46:10Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
@@ -70,23 +202,6 @@
    "also": []
   },
   {
-   "title": "25 Things to Do at Level 60 in WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
-   "date": "2026-11-26T00:04:15Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "fde077feca",
-   "first": "2026-11-26T00:04:15Z",
-   "last": "2026-11-26T00:04:15Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
    "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
    "date": "2026-11-25T23:24:22Z",
@@ -100,25 +215,6 @@
    "tags": [
     "classes",
     "hotfix"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Alterac Valley Reputation Increased Again in WoW: Forever",
-   "url": "https://www.wowhead.com/news=383999/alterac-valley-reputation-increased-again-in-wow-forever",
-   "date": "2026-11-25T23:11:07Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has increased Alterac Valley reputation again in WoW: Forever! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "cd51e2194c",
-   "first": "2026-11-25T23:11:07Z",
-   "last": "2026-11-25T23:11:07Z",
-   "tags": [
-    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -250,49 +346,6 @@
    ]
   },
   {
-   "title": "Alterac Valley Adjustments - November 25",
-   "url": "https://us.forums.blizzard.com/en/wow/t/alterac-valley-adjustments-november-25/2429074/1",
-   "date": "2026-11-25T19:42:28.736000Z",
-   "label": "official",
-   "source": "Blizzard forums (US)",
-   "summary": "We’ve seen that players in Alterac Valley were frequently completing the battleground without capturing the objectives, so we’ve made some adjustments to incentivize a focus on the objectives rather than rushing to kill the enemy faction’s General. The…",
-   "who": "Kaivax (Community Manager)",
-   "icon": "inv_scroll_03",
-   "id": "3f8976cd97",
-   "first": "2026-11-25T19:42:28.736000Z",
-   "last": "2026-11-25T20:08:37Z",
-   "tags": [
-    "pvp",
-    "hotfix"
-   ],
-   "classes": [],
-   "n": 4,
-   "official": true,
-   "also": [
-    {
-     "title": "Alterac Valley Zerg Strat Nerfed in WoW: Forever",
-     "url": "https://www.wowhead.com/news=383997/alterac-valley-zerg-strat-nerfed-in-wow-forever",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-25T19:44:07Z"
-    },
-    {
-     "title": "Alterac Valley Adjustments in WoW: Forever - November 25",
-     "url": "https://www.mmo-champion.com/content/14724-Alterac-Valley-Adjustments-in-WoW-Forever-November-25",
-     "source": "MMO-Champion",
-     "label": "press",
-     "date": "2026-11-25T19:55:00Z"
-    },
-    {
-     "title": "Alterac Valley Receives Surprise Tuning",
-     "url": "https://www.warcrafttavern.com/forever/news/alterac-valley-receives-surprise-tuning/",
-     "source": "Warcraft Tavern",
-     "label": "press",
-     "date": "2026-11-25T20:08:37Z"
-    }
-   ]
-  },
-  {
    "title": "Balance Druid Adjustments - November 25",
    "url": "https://us.forums.blizzard.com/en/wow/t/balance-druid-adjustments-november-25/2429007/1",
    "date": "2026-11-25T18:32:04.328000Z",
@@ -349,9 +402,9 @@
    "first": "2026-11-25T18:15:00Z",
    "last": "2026-11-25T18:15:00Z",
    "tags": [
+    "business",
     "items",
-    "story",
-    "business"
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -445,9 +498,9 @@
     "hotfix"
    ],
    "classes": [
-    "mage",
+    "druid",
     "warlock",
-    "druid"
+    "mage"
    ],
    "n": 1,
    "official": false,
@@ -520,6 +573,23 @@
    "tags": [
     "pvp"
    ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "25 Things to Do at Level 60 in WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
+   "date": "2026-11-25T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "fde077feca",
+   "first": "2026-11-25T08:00:00Z",
+   "last": "2026-11-25T08:00:00Z",
+   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -761,106 +831,9 @@
    "icon": "inv_misc_book_09",
    "id": "38f5e814f4",
    "first": "2026-11-24T15:00:00Z",
-   "last": "2026-11-24T18:30:39Z",
+   "last": "2026-11-24T15:00:00Z",
    "tags": [
-    "professions",
-    "leveling",
-    "hotfix",
-    "classes"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "World of Warcraft Forever hotfixes class, dungeon, and crafting issues",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaDhpYVcyYkVOTEEyQ1ZtM1NMaEFXQmFPSVBsZG9JYlo4OEN5OXNqOVhTUFZFMTNaNzhZT1RHdzdIazZEN0REVVJaVDc1cjNDcndsT0FpOUNwZC1ZTDctdlNWZWg2SWFXSmw4SHBkeWE4bHY3SHVoNm5WSHFJVGpNZ3ZhZEVSc2x4VURJTzZIRXQ3dVNTNDRtenFYWXkwbFl6bzVwN3Azaw?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-24T18:30:39Z"
-    }
-   ]
-  },
-  {
-   "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
-   "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
-   "date": "2026-11-24T02:10:52Z",
-   "label": "press",
-   "source": "Wowhead",
-   "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
-   "icon": "inv_misc_book_09",
-   "id": "380bd87306",
-   "first": "2026-11-24T02:10:52Z",
-   "last": "2026-11-24T18:23:58Z",
-   "tags": [
-    "classes",
-    "hotfix",
     "professions"
-   ],
-   "classes": [],
-   "n": 2,
-   "official": false,
-   "also": [
-    {
-     "title": "WoW Forever Class Hotfix: What Changed up to November 23",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tNEREbnB3bk9FSjVNeVVhZVl0ek91UHRkU1lMcGxPTXVFUllYd2xVUEthbTBGNzVXemdfc29fQXM0OFJCTlZiUW5VT0RTR2sxNVd2MkFEQmNteWNTMVhsdFcwaTB3RENjUFlJbWV4R1I5MmU1NVZ5SEd1Sks1QQ?oc=5",
-     "source": "Google News",
-     "label": "press",
-     "date": "2026-11-24T18:23:58Z"
-    }
-   ]
-  },
-  {
-   "title": "Shadow Priest Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5d0Y0N1BDczJKdzdHYWR3MDBXeEU4eWxnOXhsektVYUpsN19EV3JDQVEyeEwtendBeHVJX2hYYktPMUgxdWZhTURENDBBamVLYzI3X0VqUFp1TjhxSGVLWEV3V0lUNTlRRHRHNjNB?oc=5",
-   "date": "2026-11-24T16:31:05Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "9cc67a9d36",
-   "first": "2026-11-24T16:31:05Z",
-   "last": "2026-11-24T16:31:05Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "priest"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Opinion: Grand Theft Auto VI and World of Warcraft: Forever show that mundanity is having a moment",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd2lUSDJycXhGX3ozMTFSal9jVDV0cUtYd2FuaW1KUXY5b2RUQm16S1ZfN0tudDAxeWNOVm9YZUludHVoWjZOSjRvanNSTjQ2cXY2N3dEanlsaHBtQ09lYVVLR0RhTnlxZGFYTDVRM1hhMDliQkgtRjItZkZDSjA0d2N5b3UyUmp1THFLQnlLOUVFVVMzaFNqeUNJODIzWkxSc01mTXFiT3hXWUxtYmllZzBWS1JzNGFHdGNodV9BZFZmd2s?oc=5",
-   "date": "2026-11-24T15:46:15Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Game Developer",
-   "icon": "inv_misc_spyglass_03",
-   "id": "f2b0d915b6",
-   "first": "2026-11-24T15:46:15Z",
-   "last": "2026-11-24T15:46:15Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LU3ZfZE1hcXZoaFV6OThiX2FWZ3NQc2NGMTM5UEMwSnVVSHFiYnFYcWx1czRYS0E3QWpfY2x4cVlZVE1jQW5uQjlYclZqNXg3aWRJTV9SZWotbXJtQ1BUeTlxQVRnRk5nRUNYQmZtWC13YkM5QWZ4UGpGakNhWFE?oc=5",
-   "date": "2026-11-24T14:38:30Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Eurogamer.net",
-   "icon": "inv_misc_spyglass_03",
-   "id": "d468ba6e30",
-   "first": "2026-11-24T14:38:30Z",
-   "last": "2026-11-24T14:38:30Z",
-   "tags": [
-    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -895,6 +868,27 @@
      "date": "2026-11-24T02:30:39Z"
     }
    ]
+  },
+  {
+   "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+   "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+   "date": "2026-11-24T02:10:52Z",
+   "label": "press",
+   "source": "Wowhead",
+   "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
+   "icon": "inv_misc_book_09",
+   "id": "380bd87306",
+   "first": "2026-11-24T02:10:52Z",
+   "last": "2026-11-24T02:10:52Z",
+   "tags": [
+    "classes",
+    "professions",
+    "hotfix"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
   },
   {
    "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
@@ -973,8 +967,8 @@
     "classes"
    ],
    "classes": [
-    "paladin",
-    "warlock"
+    "warlock",
+    "paladin"
    ],
    "n": 3,
    "official": true,
@@ -1045,8 +1039,8 @@
    "last": "2026-11-23T16:26:25.715000Z",
    "tags": [
     "items",
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [
     "rogue"
@@ -1096,8 +1090,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "items",
-    "economy"
+    "economy",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1241,9 +1235,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
-    "hotfix",
     "raids",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1292,8 +1286,8 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "classes",
     "items",
+    "classes",
     "story"
    ],
    "classes": [],
@@ -1981,8 +1975,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "hotfix",
-    "items"
+    "items",
+    "hotfix"
    ],
    "classes": [
     "paladin"
@@ -2003,8 +1997,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "hotfix",
-    "realms"
+    "realms",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2115,10 +2109,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "classes",
-    "hotfix",
     "items",
-    "professions"
+    "classes",
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2157,10 +2151,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
+    "items",
     "leveling",
-    "hotfix",
     "classes",
-    "items"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2755,8 +2749,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3191,8 +3185,8 @@
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
     "classes",
-    "hotfix",
-    "ui"
+    "ui",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3213,8 +3207,8 @@
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3642,6 +3636,69 @@
  ],
  "items": [
   {
+   "title": "World of Warcraft: Forever – Legacy Talents Explained",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDVjc0I1TGNvbXZ4aVpiR21UUnFQOC1xRHB5dHlpRDFjdWlRWTljMmcxNnhhMDlycWZ4M3B3Q3RUVTFmZjBPMTlZT0FOQm4ySTNmTjBaeTIyR1NvSUR5R2Ewa3RiOURDVWF4V2NRVW54a1Y5SVlrN3d2eVNJZTk1SkpoWjFXRkRJZDQ4?oc=5",
+   "date": "2026-11-26T16:00:00Z",
+   "who": "VICE",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever reworks Alterac Valley in latest patch",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWRLS1A3bXpXOHV3UjBHWl9fb2FCQmdQeUo3dWFId2w4dkpXRE4xSEdDaHdRV1I0ckZwTWpfYmNrYWhKWEtKb1lNbi1tbTFxZl9RQTlRdGF3ajMyaE9JUUFqdGpIa1lFLTc5bThQd3VmQ3dGRmFjMXkxQkNLQXl2b0lKVkpKUzZWYzdGSG4tUmxjTGZyREJNbUpUdDR3QQ?oc=5",
+   "date": "2026-11-26T14:45:18Z",
+   "who": "KitGuru",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Blizzard Changes Alterac in World of Warcraft Forever to Combat Reputation Farming",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVkNVNzJKb1dWQUVFeXJ4YUZSLVZQYWVyUkVCU09WeWpsMGRPVjdLQ25zTHY1ZUhvcG12QzBQSENMQlJwNTBWUWZpWE1MWV82ZThNeDlFTUlYby1GSHc5ZDBiQ3BDTEJ6NjJPdmZhUENVVjZBeGpYd0lXSzFvTF9yZzAwOEc0bWpMREF0MHV2UVY2U3ZuVGVmMkY5aTFoSXhoMVJLS3p1eV9YZHRhTUtQbTF0NXhJRE5h?oc=5",
+   "date": "2026-11-26T11:37:33Z",
+   "who": "GameGPU",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW: Forever fixes one of its most annoying endgame quests the literal day after I do it",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRkRGbWp4UmdFQlRwb1NfSWdxbTh5TFAyV1FsLTJqYUFLZy1KcWxjX2lNMEFFTGxUU1ZENV9nX3poUEE5ajlfRGdOMU9keTJYLV94cXJPaVF2dk9ETEY3R25oNG5BbUdzOG91bjkzaG1hVUVKOTVKWURldkt2Qzh5c3llR3ZvZmNwMXFCbktIbzNqMVZkWHFfMWc3bFZNMFFyNWdibENvOW9MTmVUVDM4YW5zQUZnMTJPcWtNdWhRbDdmNkc1S3VjN2duMWJuSVRhVEE?oc=5",
+   "date": "2026-11-26T11:11:17Z",
+   "who": "PC Gamer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "Blizzard adjusts popular World of Warcraft: Forever Battleground to stop players power-grinding rewards",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaXF0MFU3V3VhSGd1bHdMODFvdzFhZkRrSjBoSTk4bnBuRk9IQ2pYWFFmM1VQZ2ZCbGtQSzZPbXBZWjFUdWNQM1l5OERZSFdEbTFYby14dWo3TVVYRk01TnpOR0hoN2tUQklmZnUzUmcwZ0NiQVlqNzVGd2xNczMySUxneUhFS0RRakR2V1BWUE0?oc=5",
+   "date": "2026-11-26T10:46:10Z",
+   "who": "Eurogamer.net",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": []
+  },
+  {
    "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
    "date": "2026-11-26T01:04:50Z",
@@ -3672,17 +3729,6 @@
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVm1Ma0g1SnRYZUpKenJSSUZaU0Y1dVY0LU03ZURSbVppTkJicHdDVk91SHlQOGNsaV92QmdlSWFuYXZOd2xHRkRTMUZiQUlGdGRPbVVOZ29nYjlWNWZRM1NUaEpUd29MeHJGbm9mLXNJbmhtbWRwTy04TXRyYl9uOWdyVQ?oc=5",
    "date": "2026-11-26T00:05:00Z",
    "who": "Polygon.com",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "25 Things to Do at Level 60 in WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
-   "date": "2026-11-26T00:04:15Z",
-   "who": "Mobalytics",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
@@ -4057,6 +4103,17 @@
    "classes": []
   },
   {
+   "title": "25 Things to Do at Level 60 in WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
+   "date": "2026-11-25T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Blizzard Launches World of Warcraft Forever: What Players Need to Know About Gold and the In-Game Economy",
    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQN2lXZ3JNX3dmdkFUenV5Ml9nWWdURzZrQjJ3cXdPbHBWOXJWM3pqSEVuYTRpdU1SSWZKSzFSN1M0V3V1aGE4c1BULWpBcWFTcHNSbEEwMW5QWm9TTGJpb2Q4V0hVblVXbkJfSnlrUVVIVzJranl3Rk9LY0RYQlJTZTFRSVJaZldFMmJqTExERUk3dU5rb2NMN3pibWtfQ3pJUTFuUzRZdXREcmVRdy02ajhIU3FEcUt6b3ZoNmNRbl9YVWxBOEhpRmtLajBuSVl2RVlPdjkxa0hTOFVRMzJCOHllMjI5SWx5QmpvZ2VwZnQ4Zmx5RVR2ZlRqalRib0hMZko4STlRTEVlby1LYms1VFVCQQ?oc=5",
    "date": "2026-11-25T06:00:00Z",
@@ -4209,36 +4266,6 @@
    "classes": []
   },
   {
-   "title": "World of Warcraft Forever hotfixes class, dungeon, and crafting issues",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaDhpYVcyYkVOTEEyQ1ZtM1NMaEFXQmFPSVBsZG9JYlo4OEN5OXNqOVhTUFZFMTNaNzhZT1RHdzdIazZEN0REVVJaVDc1cjNDcndsT0FpOUNwZC1ZTDctdlNWZWg2SWFXSmw4SHBkeWE4bHY3SHVoNm5WSHFJVGpNZ3ZhZEVSc2x4VURJTzZIRXQ3dVNTNDRtenFYWXkwbFl6bzVwN3Azaw?oc=5",
-   "date": "2026-11-24T18:30:39Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix",
-    "leveling",
-    "classes",
-    "professions"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever Class Hotfix: What Changed up to November 23",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tNEREbnB3bk9FSjVNeVVhZVl0ek91UHRkU1lMcGxPTXVFUllYd2xVUEthbTBGNzVXemdfc29fQXM0OFJCTlZiUW5VT0RTR2sxNVd2MkFEQmNteWNTMVhsdFcwaTB3RENjUFlJbWV4R1I5MmU1NVZ5SEd1Sks1QQ?oc=5",
-   "date": "2026-11-24T18:23:58Z",
-   "who": "space4games",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "hotfix",
-    "classes"
-   ],
-   "classes": []
-  },
-  {
    "title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
    "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever",
    "date": "2026-11-24T18:06:43Z",
@@ -4265,32 +4292,6 @@
    "classes": []
   },
   {
-   "title": "Shadow Priest Guide - Talents, Rotations, Races & More - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5d0Y0N1BDczJKdzdHYWR3MDBXeEU4eWxnOXhsektVYUpsN19EV3JDQVEyeEwtendBeHVJX2hYYktPMUgxdWZhTURENDBBamVLYzI3X0VqUFp1TjhxSGVLWEV3V0lUNTlRRHRHNjNB?oc=5",
-   "date": "2026-11-24T16:31:05Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": [
-    "priest"
-   ]
-  },
-  {
-   "title": "Opinion: Grand Theft Auto VI and World of Warcraft: Forever show that mundanity is having a moment",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd2lUSDJycXhGX3ozMTFSal9jVDV0cUtYd2FuaW1KUXY5b2RUQm16S1ZfN0tudDAxeWNOVm9YZUludHVoWjZOSjRvanNSTjQ2cXY2N3dEanlsaHBtQ09lYVVLR0RhTnlxZGFYTDVRM1hhMDliQkgtRjItZkZDSjA0d2N5b3UyUmp1THFLQnlLOUVFVVMzaFNqeUNJODIzWkxSc01mTXFiT3hXWUxtYmllZzBWS1JzNGFHdGNodV9BZFZmd2s?oc=5",
-   "date": "2026-11-24T15:46:15Z",
-   "who": "Game Developer",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
    "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
    "date": "2026-11-24T15:00:00Z",
@@ -4300,19 +4301,6 @@
    "icon": "inv_misc_book_09",
    "tags": [
     "professions"
-   ],
-   "classes": []
-  },
-  {
-   "title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LU3ZfZE1hcXZoaFV6OThiX2FWZ3NQc2NGMTM5UEMwSnVVSHFiYnFYcWx1czRYS0E3QWpfY2x4cVlZVE1jQW5uQjlYclZqNXg3aWRJTV9SZWotbXJtQ1BUeTlxQVRnRk5nRUNYQmZtWC13YkM5QWZ4UGpGakNhWFE?oc=5",
-   "date": "2026-11-24T14:38:30Z",
-   "who": "Eurogamer.net",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
    ],
    "classes": []
   },

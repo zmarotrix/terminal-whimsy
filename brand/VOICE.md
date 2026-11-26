@@ -1,6 +1,6 @@
 # How the site talks
 
-This covers the site's own words: headings, intros, buttons, the briefing. The wisp has its own rules in [WISP.md](WISP.md).
+This covers the site's own words: headings, intros, buttons, the briefing. The wisp has its own rules, kept in a separate character guide.
 
 Write it the way a guildmate who has done the reading would post it in guild chat. Use "we" for the guild. Give the fact first, with the real number or date, and stop.
 

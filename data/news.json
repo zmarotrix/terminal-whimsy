@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:53:12Z",
+ "updated": "2026-11-27T12:27:50Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,75 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Balance Druid Adjustments - November 25",
+   "url": "https://us.forums.blizzard.com/en/wow/t/balance-druid-adjustments-november-25/2429007/1",
+   "date": "2026-11-25T18:32:04.328000Z",
+   "label": "official",
+   "source": "Blizzard forums (US)",
+   "summary": "With changes that are now live, we’ve adjusted Druid talents to improve the talent flow and experience for players as they’re leveling up Balance. Classes Druid Improved Wrath is now renamed Starlight Wrath. Starlight Wrath also reduces the cast time of…",
+   "who": "Kaivax (Community Manager)",
+   "icon": "inv_scroll_03",
+   "id": "8fd5406c17",
+   "first": "2026-11-25T18:32:04.328000Z",
+   "last": "2026-11-27T09:43:06Z",
+   "tags": [
+    "classes",
+    "leveling"
+   ],
+   "classes": [
+    "druid"
+   ],
+   "n": 5,
+   "official": true,
+   "also": [
+    {
+     "title": "Balance Druid Talent Changes Now Live in WoW: Forever - 10% Damage Buff While in Moonkin Form",
+     "url": "https://www.wowhead.com/news=383992/balance-druid-talent-changes-now-live-buffs-to-moonkin-form",
+     "source": "Wowhead",
+     "label": "press",
+     "date": "2026-11-25T18:33:57Z"
+    },
+    {
+     "title": "Balance Druid Adjustments in WoW: Forever - November 25",
+     "url": "https://www.mmo-champion.com/content/14722-Balance-Druid-Adjustments-in-WoW-Forever-November-25",
+     "source": "MMO-Champion",
+     "label": "press",
+     "date": "2026-11-25T18:39:00Z"
+    },
+    {
+     "title": "Balance Druid Receives Surprise Update",
+     "url": "https://www.warcrafttavern.com/forever/news/balance-druid-receives-surprise-update/",
+     "source": "Warcraft Tavern",
+     "label": "press",
+     "date": "2026-11-25T18:44:58Z"
+    },
+    {
+     "title": "WoW Forever News: Lockbox Change, World Buffs and Druid Talents",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84NGNpdjAzbFROQ0JCblpXYTA4clV2c2JUT2t4YXVwVGR5N2M5TTBGWWhfRHc5WmRPY2tJSGxRMzFBWHA3T3N0QnZlNU41WTZrVkhsajBTeUtpa0tKX3BOTGNBeDJ2S1pUcjBFV0RDU2tPQQ?oc=5",
+     "source": "Google News",
+     "label": "press",
+     "date": "2026-11-27T09:43:06Z"
+    }
+   ]
+  },
+  {
+   "title": "WoW Forever vs Classic: What Is Actually New",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwZWR6T1BRbUN3eS01RzBTaFlzM0t2R083ZU5KR1ZFVEh0eWRtbk1fdENSM2RnVW83TTFXQm4yNXhwREIyS1M2Vm5wZWtUMGtrLU5Yd1l5WVVUaWR1V0hmYjBRbEI5dWJOTHR2di1idUdnWDVpaWdB?oc=5",
+   "date": "2026-11-27T07:31:47Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Goomba Stomp Magazine",
+   "icon": "inv_misc_spyglass_03",
+   "id": "b61398e108",
+   "first": "2026-11-27T07:31:47Z",
+   "last": "2026-11-27T07:31:47Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
@@ -135,7 +204,7 @@
    "icon": "inv_scroll_03",
    "id": "3f8976cd97",
    "first": "2026-11-25T19:42:28.736000Z",
-   "last": "2026-11-26T14:09:56Z",
+   "last": "2026-11-26T14:04:43Z",
    "tags": [
     "pvp",
     "hotfix"
@@ -170,7 +239,7 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWRLS1A3bXpXOHV3UjBHWl9fb2FCQmdQeUo3dWFId2w4dkpXRE4xSEdDaHdRV1I0ckZwTWpfYmNrYWhKWEtKb1lNbi1tbTFxZl9RQTlRdGF3ajMyaE9JUUFqdGpIa1lFLTc5bThQd3VmQ3dGRmFjMXkxQkNLQXl2b0lKVkpKUzZWYzdGSG4tUmxjTGZyREJNbUpUdDR3QQ?oc=5",
      "source": "Google News",
      "label": "press",
-     "date": "2026-11-26T14:09:56Z"
+     "date": "2026-11-26T14:04:43Z"
     }
    ]
   },
@@ -293,27 +362,6 @@
    "also": []
   },
   {
-   "title": "Rogue Gold Farming Guide - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiUW5fSDZWT2JCVkVCWXpUbjVqVzFXZ1dLYksxVGRYakVmUi1oZFdGazF6LUVlbnpYWHdNbDdhSGFqQzlKUWtzeXFxYmNKVE9OWVZFQTZ2ZTFCbGZqeHN5RDhLSUlpbFY0VTg4UTlWanpQMkU?oc=5",
-   "date": "2026-11-25T23:40:51Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "5855fc1e2e",
-   "first": "2026-11-25T23:40:51Z",
-   "last": "2026-11-25T23:40:51Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [
-    "rogue"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
    "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
    "date": "2026-11-25T23:24:22Z",
@@ -325,8 +373,8 @@
    "first": "2026-11-25T23:24:22Z",
    "last": "2026-11-25T23:24:22Z",
    "tags": [
-    "classes",
-    "hotfix"
+    "hotfix",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -436,51 +484,6 @@
    ]
   },
   {
-   "title": "Balance Druid Adjustments - November 25",
-   "url": "https://us.forums.blizzard.com/en/wow/t/balance-druid-adjustments-november-25/2429007/1",
-   "date": "2026-11-25T18:32:04.328000Z",
-   "label": "official",
-   "source": "Blizzard forums (US)",
-   "summary": "With changes that are now live, we’ve adjusted Druid talents to improve the talent flow and experience for players as they’re leveling up Balance. Classes Druid Improved Wrath is now renamed Starlight Wrath. Starlight Wrath also reduces the cast time of…",
-   "who": "Kaivax (Community Manager)",
-   "icon": "inv_scroll_03",
-   "id": "8fd5406c17",
-   "first": "2026-11-25T18:32:04.328000Z",
-   "last": "2026-11-25T18:44:58Z",
-   "tags": [
-    "classes",
-    "leveling"
-   ],
-   "classes": [
-    "druid"
-   ],
-   "n": 4,
-   "official": true,
-   "also": [
-    {
-     "title": "Balance Druid Talent Changes Now Live in WoW: Forever - 10% Damage Buff While in Moonkin Form",
-     "url": "https://www.wowhead.com/news=383992/balance-druid-talent-changes-now-live-buffs-to-moonkin-form",
-     "source": "Wowhead",
-     "label": "press",
-     "date": "2026-11-25T18:33:57Z"
-    },
-    {
-     "title": "Balance Druid Adjustments in WoW: Forever - November 25",
-     "url": "https://www.mmo-champion.com/content/14722-Balance-Druid-Adjustments-in-WoW-Forever-November-25",
-     "source": "MMO-Champion",
-     "label": "press",
-     "date": "2026-11-25T18:39:00Z"
-    },
-    {
-     "title": "Balance Druid Receives Surprise Update",
-     "url": "https://www.warcrafttavern.com/forever/news/balance-druid-receives-surprise-update/",
-     "source": "Warcraft Tavern",
-     "label": "press",
-     "date": "2026-11-25T18:44:58Z"
-    }
-   ]
-  },
-  {
    "title": "WoW Celebration Pass, WoW Forever's \"Al'Aketh Rising\" Comic, December Trading Post, and More in WoW Weekly",
    "url": "https://news.blizzard.com/en-us/article/24315647/wow-celebration-pass-wow-forever-s-al-aketh-rising-comic-december-trading-post-and-more-in-wow-weekly",
    "date": "2026-11-25T18:15:00Z",
@@ -492,8 +495,8 @@
    "first": "2026-11-25T18:15:00Z",
    "last": "2026-11-25T18:15:00Z",
    "tags": [
-    "business",
     "items",
+    "business",
     "story"
    ],
    "classes": [],
@@ -588,9 +591,9 @@
     "hotfix"
    ],
    "classes": [
-    "warlock",
     "druid",
-    "mage"
+    "mage",
+    "warlock"
    ],
    "n": 1,
    "official": false,
@@ -663,23 +666,6 @@
    "tags": [
     "pvp"
    ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "25 Things to Do at Level 60 in WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
-   "date": "2026-11-25T08:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "fde077feca",
-   "first": "2026-11-25T08:00:00Z",
-   "last": "2026-11-25T08:00:00Z",
-   "tags": [],
    "classes": [],
    "n": 1,
    "official": false,
@@ -848,8 +834,8 @@
    "last": "2026-11-24T02:30:39Z",
    "tags": [
     "items",
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [],
    "n": 2,
@@ -876,9 +862,9 @@
    "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T02:10:52Z",
    "tags": [
+    "hotfix",
     "professions",
-    "classes",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -962,8 +948,8 @@
     "classes"
    ],
    "classes": [
-    "warlock",
-    "paladin"
+    "paladin",
+    "warlock"
    ],
    "n": 3,
    "official": true,
@@ -1034,8 +1020,8 @@
    "last": "2026-11-23T16:26:25.715000Z",
    "tags": [
     "items",
-    "economy",
-    "hotfix"
+    "hotfix",
+    "economy"
    ],
    "classes": [
     "rogue"
@@ -1085,8 +1071,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "economy",
-    "items"
+    "items",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -1162,9 +1148,9 @@
    "first": "2026-11-21T19:26:27Z",
    "last": "2026-11-21T19:26:27Z",
    "tags": [
-    "leveling",
+    "hotfix",
     "economy",
-    "hotfix"
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -1230,9 +1216,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
-    "raids",
     "items",
-    "hotfix"
+    "hotfix",
+    "raids"
    ],
    "classes": [],
    "n": 1,
@@ -1252,8 +1238,8 @@
    "first": "2026-11-20T16:21:03Z",
    "last": "2026-11-20T19:00:55Z",
    "tags": [
-    "realms",
     "ui",
+    "realms",
     "hotfix"
    ],
    "classes": [],
@@ -1281,9 +1267,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "classes",
+    "story",
     "items",
-    "story"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1405,8 +1391,8 @@
    "first": "2026-11-19T17:53:00Z",
    "last": "2026-11-20T00:42:07Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "leveling"
    ],
    "classes": [],
@@ -1452,8 +1438,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -1601,8 +1587,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "classes",
     "story",
+    "classes",
     "items"
    ],
    "classes": [],
@@ -1637,8 +1623,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:15:00Z",
    "tags": [
-    "classes",
-    "story"
+    "story",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1992,8 +1978,8 @@
    "first": "2026-11-17T14:54:56Z",
    "last": "2026-11-17T14:54:56Z",
    "tags": [
-    "realms",
-    "hotfix"
+    "hotfix",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2104,10 +2090,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "professions",
-    "classes",
     "items",
-    "hotfix"
+    "hotfix",
+    "professions",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2146,10 +2132,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "classes",
-    "leveling",
     "items",
-    "hotfix"
+    "hotfix",
+    "leveling",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -2744,8 +2730,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "professions",
-    "hotfix"
+    "hotfix",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -2838,8 +2824,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "professions",
-    "items"
+    "items",
+    "professions"
    ],
    "classes": [],
    "n": 2,
@@ -2990,8 +2976,8 @@
    "first": "2026-11-10T21:56:33Z",
    "last": "2026-11-10T21:56:33Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3011,8 +2997,8 @@
    "first": "2026-11-10T21:56:23.698000Z",
    "last": "2026-11-10T21:56:33.192000Z",
    "tags": [
-    "leveling",
-    "economy"
+    "economy",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -3047,8 +3033,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 3,
@@ -3101,8 +3087,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "pvp",
-    "realms"
+    "realms",
+    "pvp"
    ],
    "classes": [],
    "n": 1,
@@ -3140,8 +3126,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3179,9 +3165,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
-    "classes",
+    "hotfix",
     "ui",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3201,9 +3187,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "classes",
+    "hotfix",
     "leveling",
-    "hotfix"
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -3239,8 +3225,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "ui",
-    "items"
+    "items",
+    "ui"
    ],
    "classes": [],
    "n": 1,
@@ -3468,8 +3454,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "leveling",
-    "hotfix"
+    "hotfix",
+    "leveling"
    ],
    "classes": [],
    "n": 1,
@@ -3577,8 +3563,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "classes",
-    "ui"
+    "ui",
+    "classes"
    ],
    "classes": [],
    "n": 2,
@@ -3630,6 +3616,32 @@
   }
  ],
  "items": [
+  {
+   "title": "WoW Forever News: Lockbox Change, World Buffs and Druid Talents",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84NGNpdjAzbFROQ0JCblpXYTA4clV2c2JUT2t4YXVwVGR5N2M5TTBGWWhfRHc5WmRPY2tJSGxRMzFBWHA3T3N0QnZlNU41WTZrVkhsajBTeUtpa0tKX3BOTGNBeDJ2S1pUcjBFV0RDU2tPQQ?oc=5",
+   "date": "2026-11-27T09:43:06Z",
+   "who": "space4games",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": [
+    "druid"
+   ]
+  },
+  {
+   "title": "WoW Forever vs Classic: What Is Actually New",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwZWR6T1BRbUN3eS01RzBTaFlzM0t2R083ZU5KR1ZFVEh0eWRtbk1fdENSM2RnVW83TTFXQm4yNXhwREIyS1M2Vm5wZWtUMGtrLU5Yd1l5WVVUaWR1V0hmYjBRbEI5dWJOTHR2di1idUdnWDVpaWdB?oc=5",
+   "date": "2026-11-27T07:31:47Z",
+   "who": "Goomba Stomp Magazine",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
   {
    "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
@@ -3707,7 +3719,7 @@
   {
    "title": "WoW Forever reworks Alterac Valley in latest patch",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWRLS1A3bXpXOHV3UjBHWl9fb2FCQmdQeUo3dWFId2w4dkpXRE4xSEdDaHdRV1I0ckZwTWpfYmNrYWhKWEtKb1lNbi1tbTFxZl9RQTlRdGF3ajMyaE9JUUFqdGpIa1lFLTc5bThQd3VmQ3dGRmFjMXkxQkNLQXl2b0lKVkpKUzZWYzdGSG4tUmxjTGZyREJNbUpUdDR3QQ?oc=5",
-   "date": "2026-11-26T14:09:56Z",
+   "date": "2026-11-26T14:04:43Z",
    "who": "KitGuru",
    "source": "Google News",
    "label": "press",
@@ -3790,21 +3802,6 @@
    "icon": "inv_misc_spyglass_03",
    "tags": [],
    "classes": []
-  },
-  {
-   "title": "Rogue Gold Farming Guide - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiUW5fSDZWT2JCVkVCWXpUbjVqVzFXZ1dLYksxVGRYakVmUi1oZFdGazF6LUVlbnpYWHdNbDdhSGFqQzlKUWtzeXFxYmNKVE9OWVZFQTZ2ZTFCbGZqeHN5RDhLSUlpbFY0VTg4UTlWanpQMkU?oc=5",
-   "date": "2026-11-25T23:40:51Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": [
-    "rogue"
-   ]
   },
   {
    "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
@@ -4155,17 +4152,6 @@
    "tags": [
     "pvp"
    ],
-   "classes": []
-  },
-  {
-   "title": "25 Things to Do at Level 60 in WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2M1hRU0xMTlpFaHlXWU9tc1dyOFFlaGhSVkU1TFVGdzlJbHJjRXNPSElFRENLSnRiQUZHT3lXdEM3NXk0M1M4amVJVDRDQmprR05xb0FndzlUWDhlTGlhOEVCU0NsTG9qQ3dpUlhfOGg5cEdRODg0Z2w4YzBsZEE?oc=5",
-   "date": "2026-11-25T08:00:00Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
    "classes": []
   },
   {

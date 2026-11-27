@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:27:50Z",
+ "updated": "2026-11-27T21:59:39Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,101 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "World of Warcraft: Forever is here, and these 8 gaming upgrades are already up to 46% off",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUHdzM0lLWFpPa0lrLTFscFRaWHpQb3Q1X2dSYVVJbXhUclF5M2JJVGltMER1VklBMUJVWU5RWlFUSEZqeTZ5dXZFRFpsVlJ2VzlOWDhYZnBQQWRkcWd5aDNfdVdldXgxSjVweEYxd0hXNTQ3RDBFTjkyTjA1aUkzXzBUckt6cGQtS1hUeERMZkd6Y2VlT19yMHBmUUhCcURHb2VTZlpQanhQb0JXenNkRG9CeC1JbWZXdFQtWmtna1lXalVoQWFETHZyQXd2Q3QxQTY2WGxtQnFoSmZLM1Z3MzloMWU1UQ?oc=5",
+   "date": "2026-11-27T19:11:33Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Windows Central",
+   "icon": "inv_misc_spyglass_03",
+   "id": "4259a48711",
+   "first": "2026-11-27T19:11:33Z",
+   "last": "2026-11-27T19:11:33Z",
+   "tags": [
+    "business"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "World of Warcraft: Forever December 2026 and 2027 Roadmap Details",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0lLZ3BMdGFCMUQ3UzBuanQ3eUVlRktKYTQzTnRsTTRfbExlcGh5ZXhEWndWRnNRTDlFYjQ5SnBPQXpQd3h4Q2FMRXVDTGtKT3pSQXgxOTd3cXRlWVprN25WdVU4bHdiX2MyYzB3dExJNTl1MlVBTTJMcWplVVhlX19uMGlnQzF2M1ExR3lWUlA0VWtiY29Za0I1RmZ0Zw?oc=5",
+   "date": "2026-11-27T16:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "VICE",
+   "icon": "inv_misc_spyglass_03",
+   "id": "eeeaf365ee",
+   "first": "2026-11-27T16:00:00Z",
+   "last": "2026-11-27T16:00:00Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "World of Warcraft Forever beefs up Alterac Valley’s security detail and buffs Balance Druids",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUjVsMnNMSkFjTEVfclNFMWtBdWF5UndwdmVqb2NKaDdPQlRkQkttQjQteUkzbGwtRzJSaWJzNmVRbmRvTUd4YTNLSXh4cFJwS3RESXNzaVJFaWstYmdzLTFjNFN1bmtjSTJURUItdHBxakhkV0FjSmRMVUxPOERuMDMwSWFVMGN5TmNuMnUwc3lkaWdwQ1JtNk93bjFrMjJtSGstNG5MVVBiSWRhSGE1NzZ2TXZwbHpYMWdERTNVdlZkVU9EbFE?oc=5",
+   "date": "2026-11-27T15:00:10Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Massively Overpowered",
+   "icon": "inv_misc_spyglass_03",
+   "id": "cf357fddca",
+   "first": "2026-11-27T15:00:10Z",
+   "last": "2026-11-27T15:00:10Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "druid"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Most Popular World of Warcraft: Forever Class Officially Has 'One-Shot' Build",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Ea0ZpV1hsWTlHVUhjVXZwRGxaekdlSlM5eDJiaFJZWnNJRmlMTXdpZkZWckVjNlJKQWNjRGVaS0ZHeldJZ1d2Tkh1N1AzeFBBVmQzRzItSHVIZkJQTnVDWGdXYzB6cDQ?oc=5",
+   "date": "2026-11-27T12:55:32Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "IMDb",
+   "icon": "inv_misc_spyglass_03",
+   "id": "9657b9ee81",
+   "first": "2026-11-27T12:55:32Z",
+   "last": "2026-11-27T12:55:32Z",
+   "tags": [
+    "classes"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "Are you a warlock tired of being summon-kicked in World of Warcraft: Forever? There's now a mod to fight back with",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2tPdDVESW9YZS1DZEVtMmNZUndVMk9TUUN1bjAyS3hsbkxDTkdROUVuR0l1YXVUYkZrdzdhQmxTMHJMLXV6N2Q1eFRtSW5mRWdMU3BubFlfdjR6MS15a3k3WnFZMzlRdi1SX0VGZlQxaElvd2VFX1ZOR3JVLTdYUXo4RXozOWM?oc=5",
+   "date": "2026-11-27T12:09:10Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Eurogamer.net",
+   "icon": "inv_misc_spyglass_03",
+   "id": "00b95af9b3",
+   "first": "2026-11-27T12:09:10Z",
+   "last": "2026-11-27T12:09:10Z",
+   "tags": [],
+   "classes": [
+    "warlock"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "Balance Druid Adjustments - November 25",
    "url": "https://us.forums.blizzard.com/en/wow/t/balance-druid-adjustments-november-25/2429007/1",
@@ -77,23 +172,6 @@
    "id": "b61398e108",
    "first": "2026-11-27T07:31:47Z",
    "last": "2026-11-27T07:31:47Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
-   "date": "2026-11-27T01:25:25Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "fd129f7a66",
-   "first": "2026-11-27T01:25:25Z",
-   "last": "2026-11-27T01:25:25Z",
    "tags": [],
    "classes": [],
    "n": 1,
@@ -307,6 +385,23 @@
    "also": []
   },
   {
+   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
+   "date": "2026-11-26T08:00:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "fd129f7a66",
+   "first": "2026-11-26T08:00:00Z",
+   "last": "2026-11-26T08:00:00Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
    "date": "2026-11-26T01:04:50Z",
@@ -362,6 +457,23 @@
    "also": []
   },
   {
+   "title": "World of Warcraft Forever Orgrimmar with DLSS 5 on g9 OLED POV 32:9",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4zalE4cWsyd1NIZm1FS2dFVE9fcGNiSXdiSVZaMkx6NHhDZUpELUpkUm5vVzFDaXN0NWRZektmLUhkUQ?oc=5",
+   "date": "2026-11-25T23:39:42Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "YouTube",
+   "icon": "inv_misc_spyglass_03",
+   "id": "75cb9a95ac",
+   "first": "2026-11-25T23:39:42Z",
+   "last": "2026-11-25T23:39:42Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
    "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
    "date": "2026-11-25T23:24:22Z",
@@ -373,8 +485,8 @@
    "first": "2026-11-25T23:24:22Z",
    "last": "2026-11-25T23:24:22Z",
    "tags": [
-    "hotfix",
-    "classes"
+    "classes",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -393,8 +505,8 @@
    "first": "2026-11-25T22:27:09Z",
    "last": "2026-11-25T22:27:09Z",
    "tags": [
-    "professions",
-    "economy"
+    "economy",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -495,9 +607,9 @@
    "first": "2026-11-25T18:15:00Z",
    "last": "2026-11-25T18:15:00Z",
    "tags": [
-    "items",
     "business",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -543,40 +655,6 @@
    "also": []
   },
   {
-   "title": "Casually Classic: Is WoW Forever the end of WoW Classic?",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUt4RUdOSnBMbUstclVJdVdPcHdUY1hHMkRhSWg2Ynp5Vk1LQ2RNNWN5bUZ1ZHlKUEM2SjhJaVdvYTFMZ1ctTmhkTHdJRTZIVFQ1NUpBNmZEelMycVJ2T1JIOTBOMEpxSmlSSTh4Ui1hZ0VEX1lqRTJxai1oM3dPdzl4UmxMeVk5bjBLVGxiLVlZYk1X?oc=5",
-   "date": "2026-11-25T17:00:18Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "260f541cc6",
-   "first": "2026-11-25T17:00:18Z",
-   "last": "2026-11-25T17:00:18Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever's best new enchantment has been quietly changed, leaving some casters on the back foot",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMURjWUxuaVJRM2FWR0lvaVBiSXZRSldGd284N0RhNFNOYW0xQ01lZUpfT19UTXhpZXczaXNub1JSTEFCOWlUNC00clAzX1E1THhHcm1vR25yRE8zenhGamZOeE01VlJoQkVlT2RsX1NtZ3lZZEFmOXNjNW56RDFxZDd5dmRhdUkw?oc=5",
-   "date": "2026-11-25T16:13:50Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Eurogamer.net",
-   "icon": "inv_misc_spyglass_03",
-   "id": "c5664d2132",
-   "first": "2026-11-25T16:13:50Z",
-   "last": "2026-11-25T16:13:50Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Revelation Enchant Nerfed in WoW: Forever",
    "url": "https://www.wowhead.com/news=383986/revelation-enchant-nerfed-in-wow-forever",
    "date": "2026-11-25T16:08:26Z",
@@ -591,82 +669,10 @@
     "hotfix"
    ],
    "classes": [
+    "warlock",
     "druid",
-    "mage",
-    "warlock"
+    "mage"
    ],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever – What to Do With Waylaid Crate (And Why It’s Worth It)",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUS1xR3hfZm9STUszZVVpQnFlUHhZeFlCWnY0ZUxUenlHRlV0QXlvTGpVS05qMjdDWWhFeDQyamFNWUQyQ1Jybk9Vb3p4TmdVUXE2Szlzb25PNm1wWWlxd2kzeWEzTzRtWVJzLVlFbzhwZDRiSFJYQkVHVEJPVk16aGZXcFBDd3BNcmZNb1draGpOc0pldlgyQ2tQTzZhcnRvRXpDVWdBSFVWT3hZcVE?oc=5",
-   "date": "2026-11-25T14:26:39Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "VICE",
-   "icon": "inv_misc_spyglass_03",
-   "id": "57e8212800",
-   "first": "2026-11-25T14:26:39Z",
-   "last": "2026-11-25T14:26:39Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Warcraft outlines WoW: Forever’s new Rank Points—Honor’s getting company",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xaFpHS0xPamdHUU4wRFVrVDZPQmVScU4wRHo0ZGxEYi1odkNxRmdqam9JNDN2Nkp6em9RX1RBRkpQY2R6aG1V?oc=5",
-   "date": "2026-11-25T13:47:34Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Digg",
-   "icon": "inv_misc_spyglass_03",
-   "id": "0264c8aa8c",
-   "first": "2026-11-25T13:47:34Z",
-   "last": "2026-11-25T13:47:34Z",
-   "tags": [],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Blizzard Halves WoW: Forever's Instance Cap to 5 After Gold Crackdown",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVpSQkZaV0s5VmQ3VmJVTnF3cTAtNjJCMG1PanZ2NTZLQUtBM1Myb25xak5KM0E4WEI1QnBUMUR4TV9kYzRfcDcxNzEwS3gxWE5rQklLYU96eERDd04ycjUzdGcwZXdCcUdYWkdCTE80Ql9nYzRBcWpMU3pEVlQxSFNiM1U0UkZFYWkwNUtmeEJTWEtQYXNpcmVsRG9oLTduYWJF?oc=5",
-   "date": "2026-11-25T13:10:59Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "OpenCritic",
-   "icon": "inv_misc_spyglass_03",
-   "id": "55bebd06a2",
-   "first": "2026-11-25T13:10:59Z",
-   "last": "2026-11-25T13:10:59Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "WoW Forever PvP Overview: Battlegrounds, Ranks, Currencies & More",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FY1J2Y3UzZHhVblpKNnVkYkk1WFdTNFpjc3o0cDVaOHkzLS1Bb2JFLUJ6N0F1WUQ5NXBkQmVxSGlYSnZxSm5pRnI3N0VHc2dZSk9XOGloSE1sa1kwenY2eWpjc1NKQV9qZVNrUnlDQ1BHNHprb3c?oc=5",
-   "date": "2026-11-25T11:28:29Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "ecd2d24606",
-   "first": "2026-11-25T11:28:29Z",
-   "last": "2026-11-25T11:28:29Z",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [],
    "n": 1,
    "official": false,
    "also": []
@@ -834,8 +840,8 @@
    "last": "2026-11-24T02:30:39Z",
    "tags": [
     "items",
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 2,
@@ -862,9 +868,9 @@
    "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T02:10:52Z",
    "tags": [
-    "hotfix",
+    "classes",
     "professions",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -905,8 +911,8 @@
    "first": "2026-11-23T22:46:03Z",
    "last": "2026-11-23T22:46:03Z",
    "tags": [
-    "professions",
-    "classes"
+    "classes",
+    "professions"
    ],
    "classes": [],
    "n": 1,
@@ -948,8 +954,8 @@
     "classes"
    ],
    "classes": [
-    "paladin",
-    "warlock"
+    "warlock",
+    "paladin"
    ],
    "n": 3,
    "official": true,
@@ -1020,8 +1026,8 @@
    "last": "2026-11-23T16:26:25.715000Z",
    "tags": [
     "items",
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [
     "rogue"
@@ -1071,8 +1077,8 @@
    "first": "2026-11-23T01:00:37Z",
    "last": "2026-11-23T01:00:37Z",
    "tags": [
-    "items",
-    "economy"
+    "economy",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1148,9 +1154,9 @@
    "first": "2026-11-21T19:26:27Z",
    "last": "2026-11-21T19:26:27Z",
    "tags": [
-    "hotfix",
     "economy",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1216,9 +1222,9 @@
    "first": "2026-11-20T20:51:19Z",
    "last": "2026-11-20T20:51:19Z",
    "tags": [
-    "items",
+    "raids",
     "hotfix",
-    "raids"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1267,9 +1273,9 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
+    "classes",
     "story",
-    "items",
-    "classes"
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1438,8 +1444,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -1478,8 +1484,8 @@
    "first": "2026-11-19T18:58:48Z",
    "last": "2026-11-19T19:19:21Z",
    "tags": [
-    "items",
     "story",
+    "items",
     "raids"
    ],
    "classes": [],
@@ -1508,8 +1514,8 @@
    "first": "2026-11-19T18:37:59Z",
    "last": "2026-11-19T18:37:59Z",
    "tags": [
-    "items",
-    "story"
+    "story",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -1587,8 +1593,8 @@
    "first": "2026-11-19T17:24:03Z",
    "last": "2026-11-19T17:35:02.043000Z",
    "tags": [
-    "story",
     "classes",
+    "story",
     "items"
    ],
    "classes": [],
@@ -1623,8 +1629,8 @@
    "first": "2026-11-19T17:15:00Z",
    "last": "2026-11-19T17:15:00Z",
    "tags": [
-    "story",
-    "classes"
+    "classes",
+    "story"
    ],
    "classes": [],
    "n": 1,
@@ -1956,8 +1962,8 @@
    "first": "2026-11-17T18:37:40Z",
    "last": "2026-11-17T18:37:40Z",
    "tags": [
-    "items",
-    "hotfix"
+    "hotfix",
+    "items"
    ],
    "classes": [
     "paladin"
@@ -2090,10 +2096,10 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
-    "hotfix",
+    "classes",
     "professions",
-    "classes"
+    "hotfix",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2132,10 +2138,10 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "items",
-    "hotfix",
+    "classes",
     "leveling",
-    "classes"
+    "hotfix",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -2563,8 +2569,8 @@
    "first": "2026-11-15T19:00:00Z",
    "last": "2026-11-15T19:00:00Z",
    "tags": [
-    "business",
-    "economy"
+    "economy",
+    "business"
    ],
    "classes": [],
    "n": 1,
@@ -2730,8 +2736,8 @@
    "first": "2026-11-14T17:42:10Z",
    "last": "2026-11-14T17:42:10Z",
    "tags": [
-    "hotfix",
-    "professions"
+    "professions",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -2824,8 +2830,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -3033,8 +3039,8 @@
    "first": "2026-11-10T21:35:22.464000Z",
    "last": "2026-11-10T21:35:31Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 3,
@@ -3087,8 +3093,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -3126,8 +3132,8 @@
    "first": "2026-11-08T19:47:33.475000Z",
    "last": "2026-11-08T19:47:33.475000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3165,9 +3171,9 @@
    "first": "2026-11-07T01:07:59.018000Z",
    "last": "2026-11-07T01:07:59.018000Z",
    "tags": [
-    "hotfix",
+    "classes",
     "ui",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3187,9 +3193,9 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "hotfix",
+    "classes",
     "leveling",
-    "classes"
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3225,8 +3231,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -3454,8 +3460,8 @@
    "first": "2026-11-05T02:43:58.499000Z",
    "last": "2026-11-05T02:43:58.499000Z",
    "tags": [
-    "hotfix",
-    "leveling"
+    "leveling",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -3563,8 +3569,8 @@
    "first": "2026-11-04T19:35:16.582000Z",
    "last": "2026-11-04T19:35:27Z",
    "tags": [
-    "ui",
-    "classes"
+    "classes",
+    "ui"
    ],
    "classes": [],
    "n": 2,
@@ -3617,6 +3623,71 @@
  ],
  "items": [
   {
+   "title": "World of Warcraft: Forever is here, and these 8 gaming upgrades are already up to 46% off",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUHdzM0lLWFpPa0lrLTFscFRaWHpQb3Q1X2dSYVVJbXhUclF5M2JJVGltMER1VklBMUJVWU5RWlFUSEZqeTZ5dXZFRFpsVlJ2VzlOWDhYZnBQQWRkcWd5aDNfdVdldXgxSjVweEYxd0hXNTQ3RDBFTjkyTjA1aUkzXzBUckt6cGQtS1hUeERMZkd6Y2VlT19yMHBmUUhCcURHb2VTZlpQanhQb0JXenNkRG9CeC1JbWZXdFQtWmtna1lXalVoQWFETHZyQXd2Q3QxQTY2WGxtQnFoSmZLM1Z3MzloMWU1UQ?oc=5",
+   "date": "2026-11-27T19:11:33Z",
+   "who": "Windows Central",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "business"
+   ],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft: Forever December 2026 and 2027 Roadmap Details",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0lLZ3BMdGFCMUQ3UzBuanQ3eUVlRktKYTQzTnRsTTRfbExlcGh5ZXhEWndWRnNRTDlFYjQ5SnBPQXpQd3h4Q2FMRXVDTGtKT3pSQXgxOTd3cXRlWVprN25WdVU4bHdiX2MyYzB3dExJNTl1MlVBTTJMcWplVVhlX19uMGlnQzF2M1ExR3lWUlA0VWtiY29Za0I1RmZ0Zw?oc=5",
+   "date": "2026-11-27T16:00:00Z",
+   "who": "VICE",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft Forever beefs up Alterac Valley’s security detail and buffs Balance Druids",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUjVsMnNMSkFjTEVfclNFMWtBdWF5UndwdmVqb2NKaDdPQlRkQkttQjQteUkzbGwtRzJSaWJzNmVRbmRvTUd4YTNLSXh4cFJwS3RESXNzaVJFaWstYmdzLTFjNFN1bmtjSTJURUItdHBxakhkV0FjSmRMVUxPOERuMDMwSWFVMGN5TmNuMnUwc3lkaWdwQ1JtNk93bjFrMjJtSGstNG5MVVBiSWRhSGE1NzZ2TXZwbHpYMWdERTNVdlZkVU9EbFE?oc=5",
+   "date": "2026-11-27T15:00:10Z",
+   "who": "Massively Overpowered",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [
+    "druid"
+   ]
+  },
+  {
+   "title": "Most Popular World of Warcraft: Forever Class Officially Has 'One-Shot' Build",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Ea0ZpV1hsWTlHVUhjVXZwRGxaekdlSlM5eDJiaFJZWnNJRmlMTXdpZkZWckVjNlJKQWNjRGVaS0ZHeldJZ1d2Tkh1N1AzeFBBVmQzRzItSHVIZkJQTnVDWGdXYzB6cDQ?oc=5",
+   "date": "2026-11-27T12:55:32Z",
+   "who": "IMDb",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "classes"
+   ],
+   "classes": []
+  },
+  {
+   "title": "Are you a warlock tired of being summon-kicked in World of Warcraft: Forever? There's now a mod to fight back with",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2tPdDVESW9YZS1DZEVtMmNZUndVMk9TUUN1bjAyS3hsbkxDTkdROUVuR0l1YXVUYkZrdzdhQmxTMHJMLXV6N2Q1eFRtSW5mRWdMU3BubFlfdjR6MS15a3k3WnFZMzlRdi1SX0VGZlQxaElvd2VFX1ZOR3JVLTdYUXo4RXozOWM?oc=5",
+   "date": "2026-11-27T12:09:10Z",
+   "who": "Eurogamer.net",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": [
+    "warlock"
+   ]
+  },
+  {
    "title": "WoW Forever News: Lockbox Change, World Buffs and Druid Talents",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84NGNpdjAzbFROQ0JCblpXYTA4clV2c2JUT2t4YXVwVGR5N2M5TTBGWWhfRHc5WmRPY2tJSGxRMzFBWHA3T3N0QnZlNU41WTZrVkhsajBTeUtpa0tKX3BOTGNBeDJ2S1pUcjBFV0RDU2tPQQ?oc=5",
    "date": "2026-11-27T09:43:06Z",
@@ -3636,17 +3707,6 @@
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwZWR6T1BRbUN3eS01RzBTaFlzM0t2R083ZU5KR1ZFVEh0eWRtbk1fdENSM2RnVW83TTFXQm4yNXhwREIyS1M2Vm5wZWtUMGtrLU5Yd1l5WVVUaWR1V0hmYjBRbEI5dWJOTHR2di1idUdnWDVpaWdB?oc=5",
    "date": "2026-11-27T07:31:47Z",
    "who": "Goomba Stomp Magazine",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
-   "date": "2026-11-27T01:25:25Z",
-   "who": "Mobalytics",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
@@ -3767,6 +3827,17 @@
    "classes": []
   },
   {
+   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
+   "date": "2026-11-26T08:00:00Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "Feor's Survival Hunter PvP Guide - WoW Forever",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfTjlVWTFPT0s2TU9OVDgxc1VEM2h1elFmR2dndVZsLVJPckRuN1hMLWozSEU5d0MyUDJsOTROWkxaWHZTenB2ODlfVW84ejZ1T1VWZVU4N0J0RFJNYWJUX3dqcXhWY0hPc1JidC1jN3cyT2ZOaWc?oc=5",
    "date": "2026-11-26T01:04:50Z",
@@ -3797,6 +3868,17 @@
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVm1Ma0g1SnRYZUpKenJSSUZaU0Y1dVY0LU03ZURSbVppTkJicHdDVk91SHlQOGNsaV92QmdlSWFuYXZOd2xHRkRTMUZiQUlGdGRPbVVOZ29nYjlWNWZRM1NUaEpUd29MeHJGbm9mLXNJbmhtbWRwTy04TXRyYl9uOWdyVQ?oc=5",
    "date": "2026-11-26T00:05:00Z",
    "who": "Polygon.com",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "World of Warcraft Forever Orgrimmar with DLSS 5 on g9 OLED POV 32:9",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4zalE4cWsyd1NIZm1FS2dFVE9fcGNiSXdiSVZaMkx6NHhDZUpELUpkUm5vVzFDaXN0NWRZektmLUhkUQ?oc=5",
+   "date": "2026-11-25T23:39:42Z",
+   "who": "YouTube",
    "source": "Google News",
    "label": "press",
    "icon": "inv_misc_spyglass_03",
@@ -4055,28 +4137,6 @@
    "classes": []
   },
   {
-   "title": "Casually Classic: Is WoW Forever the end of WoW Classic?",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUt4RUdOSnBMbUstclVJdVdPcHdUY1hHMkRhSWg2Ynp5Vk1LQ2RNNWN5bUZ1ZHlKUEM2SjhJaVdvYTFMZ1ctTmhkTHdJRTZIVFQ1NUpBNmZEelMycVJ2T1JIOTBOMEpxSmlSSTh4Ui1hZ0VEX1lqRTJxai1oM3dPdzl4UmxMeVk5bjBLVGxiLVlZYk1X?oc=5",
-   "date": "2026-11-25T17:00:18Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever's best new enchantment has been quietly changed, leaving some casters on the back foot",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMURjWUxuaVJRM2FWR0lvaVBiSXZRSldGd284N0RhNFNOYW0xQ01lZUpfT19UTXhpZXczaXNub1JSTEFCOWlUNC00clAzX1E1THhHcm1vR25yRE8zenhGamZOeE01VlJoQkVlT2RsX1NtZ3lZZEFmOXNjNW56RDFxZDd5dmRhdUkw?oc=5",
-   "date": "2026-11-25T16:13:50Z",
-   "who": "Eurogamer.net",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
    "title": "Revelation Enchant Nerfed in WoW: Forever",
    "url": "https://www.wowhead.com/news=383986/revelation-enchant-nerfed-in-wow-forever",
    "date": "2026-11-25T16:08:26Z",
@@ -4103,54 +4163,6 @@
    "icon": "inv_misc_book_09",
    "tags": [
     "leveling"
-   ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever – What to Do With Waylaid Crate (And Why It’s Worth It)",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUS1xR3hfZm9STUszZVVpQnFlUHhZeFlCWnY0ZUxUenlHRlV0QXlvTGpVS05qMjdDWWhFeDQyamFNWUQyQ1Jybk9Vb3p4TmdVUXE2Szlzb25PNm1wWWlxd2kzeWEzTzRtWVJzLVlFbzhwZDRiSFJYQkVHVEJPVk16aGZXcFBDd3BNcmZNb1draGpOc0pldlgyQ2tQTzZhcnRvRXpDVWdBSFVWT3hZcVE?oc=5",
-   "date": "2026-11-25T14:26:39Z",
-   "who": "VICE",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Warcraft outlines WoW: Forever’s new Rank Points—Honor’s getting company",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8xaFpHS0xPamdHUU4wRFVrVDZPQmVScU4wRHo0ZGxEYi1odkNxRmdqam9JNDN2Nkp6em9RX1RBRkpQY2R6aG1V?oc=5",
-   "date": "2026-11-25T13:47:34Z",
-   "who": "Digg",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": []
-  },
-  {
-   "title": "Blizzard Halves WoW: Forever's Instance Cap to 5 After Gold Crackdown",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVpSQkZaV0s5VmQ3VmJVTnF3cTAtNjJCMG1PanZ2NTZLQUtBM1Myb25xak5KM0E4WEI1QnBUMUR4TV9kYzRfcDcxNzEwS3gxWE5rQklLYU96eERDd04ycjUzdGcwZXdCcUdYWkdCTE80Ql9nYzRBcWpMU3pEVlQxSFNiM1U0UkZFYWkwNUtmeEJTWEtQYXNpcmVsRG9oLTduYWJF?oc=5",
-   "date": "2026-11-25T13:10:59Z",
-   "who": "OpenCritic",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "WoW Forever PvP Overview: Battlegrounds, Ranks, Currencies & More",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FY1J2Y3UzZHhVblpKNnVkYkk1WFdTNFpjc3o0cDVaOHkzLS1Bb2JFLUJ6N0F1WUQ5NXBkQmVxSGlYSnZxSm5pRnI3N0VHc2dZSk9XOGloSE1sa1kwenY2eWpjc1NKQV9qZVNrUnlDQ1BHNHprb3c?oc=5",
-   "date": "2026-11-25T11:28:29Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "pvp"
    ],
    "classes": []
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:38:45Z",
+ "updated": "2026-11-27T02:53:12Z",
  "sources": [
   "Blizzard News",
   "Blizzard forums (US)",
@@ -14,6 +14,97 @@
   "r/wowforever"
  ],
  "stories": [
+  {
+   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
+   "date": "2026-11-27T01:25:25Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "fd129f7a66",
+   "first": "2026-11-27T01:25:25Z",
+   "last": "2026-11-27T01:25:25Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW: Forever’s Alterac Valley reward rush hits the brakes, Eurogamer reports",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9CUDZidEZwUXdhU2xBZTY0T1lxMGJuMHJWeHNvVUdZYmgtSzVnODB1czhWZGhsN1VSREZVNldOYnRkODd3Nm53?oc=5",
+   "date": "2026-11-26T23:47:51Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Digg",
+   "icon": "inv_misc_spyglass_03",
+   "id": "51dc6c3ff7",
+   "first": "2026-11-26T23:47:51Z",
+   "last": "2026-11-26T23:47:51Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "One-Button Enhancement Shaman Guide | Single-Button GSE Build (WoW Forever)",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE13RHNrZ25zMWhoQTJ4US1zTTV4U0lpMzJ6ZVVLa1RxNW1SS1JKcFoxVFBVaDB0NEpvbUhvN0w2ai1qQQ?oc=5",
+   "date": "2026-11-26T22:15:37Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "YouTube",
+   "icon": "inv_misc_spyglass_03",
+   "id": "5f07cda08c",
+   "first": "2026-11-26T22:15:37Z",
+   "last": "2026-11-26T22:15:37Z",
+   "tags": [],
+   "classes": [
+    "shaman"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW: Forever min-maxers are upset that its 40-player PvP mode now actually requires PvP to win",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRWpGcTFlNU5jSmJ0emtpUmFud3lHYWNrSUp5UXRuU1U4X0dOZzZPMHN6SVN4MU51ZV9sdENNQWN4Ri05WFFJa3YtQUxyaHRLenNpZEhvdE9uRWpPa2RiY3FmeFFZQ25aTkxnbDNaNVFMSVNxV05rSTY5VVdWVk1uLWJYVUY4V296N3VjbWZfdmdmX1c1bnBaSjRaMVQ3SElpU2RKOVFhenF3Q1JJaEZ1NXMxQ1NmVDNmaFlmN2dIWk5wQmxyazJUeXVMSjN4a2lKcGNJSjE5U3VmUQ?oc=5",
+   "date": "2026-11-26T22:05:00Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "PC Gamer",
+   "icon": "inv_misc_spyglass_03",
+   "id": "30afe0f7b6",
+   "first": "2026-11-26T22:05:00Z",
+   "last": "2026-11-26T22:05:00Z",
+   "tags": [
+    "pvp"
+   ],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
+   "title": "WoW Forever Razorfen Downs quests guide (after Agamaggan)",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTVl5SWt2Qk9yYmpJaWVmQ2JzX2VBb0RTaTVoZklBbGltRnhNRnNSenlkaldodVBfeHZHN1NJZVdJQWlwNm8tZ2hOaGpXeVVLMEJXekYtazF5S245TTNHdzhibG8zaTFndGFjSjVWLVZZclY3LThpbzNZSnl3dTlpQzF2dkM1UzkzaEFxQmE3aUw?oc=5",
+   "date": "2026-11-26T20:00:09Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Yahoo Tech",
+   "icon": "inv_misc_spyglass_03",
+   "id": "ff1d418cba",
+   "first": "2026-11-26T20:00:09Z",
+   "last": "2026-11-26T20:00:09Z",
+   "tags": [],
+   "classes": [],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
   {
    "title": "World of Warcraft: Forever – Legacy Talents Explained",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDVjc0I1TGNvbXZ4aVpiR21UUnFQOC1xRHB5dHlpRDFjdWlRWTljMmcxNnhhMDlycWZ4M3B3Q3RUVTFmZjBPMTlZT0FOQm4ySTNmTjBaeTIyR1NvSUR5R2Ewa3RiOURDVWF4V2NRVW54a1Y5SVlrN3d2eVNJZTk1SkpoWjFXRkRJZDQ4?oc=5",
@@ -44,7 +135,7 @@
    "icon": "inv_scroll_03",
    "id": "3f8976cd97",
    "first": "2026-11-25T19:42:28.736000Z",
-   "last": "2026-11-26T14:45:18Z",
+   "last": "2026-11-26T14:09:56Z",
    "tags": [
     "pvp",
     "hotfix"
@@ -79,7 +170,7 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWRLS1A3bXpXOHV3UjBHWl9fb2FCQmdQeUo3dWFId2w4dkpXRE4xSEdDaHdRV1I0ckZwTWpfYmNrYWhKWEtKb1lNbi1tbTFxZl9RQTlRdGF3ajMyaE9JUUFqdGpIa1lFLTc5bThQd3VmQ3dGRmFjMXkxQkNLQXl2b0lKVkpKUzZWYzdGSG4tUmxjTGZyREJNbUpUdDR3QQ?oc=5",
      "source": "Google News",
      "label": "press",
-     "date": "2026-11-26T14:45:18Z"
+     "date": "2026-11-26T14:09:56Z"
     }
    ]
   },
@@ -202,6 +293,27 @@
    "also": []
   },
   {
+   "title": "Rogue Gold Farming Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiUW5fSDZWT2JCVkVCWXpUbjVqVzFXZ1dLYksxVGRYakVmUi1oZFdGazF6LUVlbnpYWHdNbDdhSGFqQzlKUWtzeXFxYmNKVE9OWVZFQTZ2ZTFCbGZqeHN5RDhLSUlpbFY0VTg4UTlWanpQMkU?oc=5",
+   "date": "2026-11-25T23:40:51Z",
+   "label": "press",
+   "source": "Google News",
+   "who": "Mobalytics",
+   "icon": "inv_misc_spyglass_03",
+   "id": "5855fc1e2e",
+   "first": "2026-11-25T23:40:51Z",
+   "last": "2026-11-25T23:40:51Z",
+   "tags": [
+    "economy"
+   ],
+   "classes": [
+    "rogue"
+   ],
+   "n": 1,
+   "official": false,
+   "also": []
+  },
+  {
    "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
    "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
    "date": "2026-11-25T23:24:22Z",
@@ -233,8 +345,8 @@
    "first": "2026-11-25T22:27:09Z",
    "last": "2026-11-25T22:27:09Z",
    "tags": [
-    "economy",
-    "professions"
+    "professions",
+    "economy"
    ],
    "classes": [],
    "n": 1,
@@ -256,28 +368,6 @@
     "raids"
    ],
    "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-25T21:13:27Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Mobalytics",
-   "icon": "inv_misc_spyglass_03",
-   "id": "9a8d6dfccc",
-   "first": "2026-11-25T21:13:27Z",
-   "last": "2026-11-25T21:13:27Z",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "mage"
-   ],
    "n": 1,
    "official": false,
    "also": []
@@ -498,8 +588,8 @@
     "hotfix"
    ],
    "classes": [
-    "druid",
     "warlock",
+    "druid",
     "mage"
    ],
    "n": 1,
@@ -596,44 +686,6 @@
    "also": []
   },
   {
-   "title": "Blizzard Launches World of Warcraft Forever: What Players Need to Know About Gold and the In-Game Economy",
-   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQN2lXZ3JNX3dmdkFUenV5Ml9nWWdURzZrQjJ3cXdPbHBWOXJWM3pqSEVuYTRpdU1SSWZKSzFSN1M0V3V1aGE4c1BULWpBcWFTcHNSbEEwMW5QWm9TTGJpb2Q4V0hVblVXbkJfSnlrUVVIVzJranl3Rk9LY0RYQlJTZTFRSVJaZldFMmJqTExERUk3dU5rb2NMN3pibWtfQ3pJUTFuUzRZdXREcmVRdy02ajhIU3FEcUt6b3ZoNmNRbl9YVWxBOEhpRmtLajBuSVl2RVlPdjkxa0hTOFVRMzJCOHllMjI5SWx5QmpvZ2VwZnQ4Zmx5RVR2ZlRqalRib0hMZko4STlRTEVlby1LYms1VFVCQQ?oc=5",
-   "date": "2026-11-25T06:00:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Decatur Daily",
-   "icon": "inv_misc_spyglass_03",
-   "id": "0ea5663928",
-   "first": "2026-11-25T06:00:00Z",
-   "last": "2026-11-25T06:00:00Z",
-   "tags": [
-    "economy"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "Could World of Warcraft: Forever Reshape Itemization, Even Get Rid of Best in Slot Gear?",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSU9pa1dILUVkX2pwMWQ1dXdyb0xZNEdZaUNNM29fckRUREV6V2tpUXNjY000N3F5ME5yWE96U18wZjBMUjFlWjVndHRNS280Y0QyTVpwMHkzYkw0OFJLMlY5SThULXp1d1VxdWRLaHNqMVZOQV9iNER0NmhSN0lpcmpoV00weGlrQjBUWXJ6OG04dFlWX3Zod0I5M05XM0MyZnAzSm5VT3VOSF9VbGJ1UTExdVJJZHVuczJNYlpEdGVXMDk4Z01neW5FY3ZIUdIBzgFBVV95cUxPSU9pa1dILUVkX2pwMWQ1dXdyb0xZNEdZaUNNM29fckRUREV6V2tpUXNjY000N3F5ME5yWE96U18wZjBMUjFlWjVndHRNS280Y0QyTVpwMHkzYkw0OFJLMlY5SThULXp1d1VxdWRLaHNqMVZOQV9iNER0NmhSN0lpcmpoV00weGlrQjBUWXJ6OG04dFlWX3Zod0I5M05XM0MyZnAzSm5VT3VOSF9VbGJ1UTExdVJJZHVuczJNYlpEdGVXMDk4Z01neW5FY3ZIUQ?oc=5",
-   "date": "2026-11-24T23:35:00Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "MMORPG.com",
-   "icon": "inv_misc_spyglass_03",
-   "id": "26eb53b316",
-   "first": "2026-11-24T23:35:00Z",
-   "last": "2026-11-24T23:35:00Z",
-   "tags": [
-    "items"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
    "title": "Don’t Miss the World of Warcraft: Forever Comic, “Al'Aketh Rising”",
    "url": "https://news.blizzard.com/en-us/article/24317680/dont-miss-the-world-of-warcraft-forever-comic-al-aketh-rising",
    "date": "2026-11-24T18:00:00Z",
@@ -673,63 +725,6 @@
      "date": "2026-11-24T20:19:01Z"
     }
    ]
-  },
-  {
-   "title": "Shockadin (WoW: Forever World PVP)",
-   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFB3YkhBSDVhNUh2NTBPc09JVVZzd19fNTlyT1lyaTU4dDRXT1VDR3dqTFdkRnZZWHZqZlpyWkpYVXB2Zw?oc=5",
-   "date": "2026-11-24T20:15:10Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "YouTube",
-   "icon": "inv_misc_spyglass_03",
-   "id": "5dc48e936c",
-   "first": "2026-11-24T20:15:10Z",
-   "last": "2026-11-24T20:15:10Z",
-   "tags": [
-    "pvp"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft Forever shows off the diversity of support options available to every class",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa1MyS1dJaWl3cnpTa3NQakktN3Y2bkJTRHlicUdQY0JIRjBMaThZTVNxMUQtMFVVV01JMHNzNHlPU2F2b25DeEpEQVg0WkdVZU1BcWZhbWU0QXc1blc1eERqUVY1bkZJamE0M1IydWRadS14Vjhqb3NVV080OG10OFdGNnNlMkpzVVRoNTlUMWswRHdZcWRfMTVpdzVBb1QxeGVFSkRmLUxBR1IzcXNwWUplX1RZMEltcFVBWGdCSkVkdXpMdHRMWA?oc=5",
-   "date": "2026-11-24T20:00:37Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "Massively Overpowered",
-   "icon": "inv_misc_spyglass_03",
-   "id": "b035169808",
-   "first": "2026-11-24T20:00:37Z",
-   "last": "2026-11-24T20:00:37Z",
-   "tags": [
-    "classes"
-   ],
-   "classes": [],
-   "n": 1,
-   "official": false,
-   "also": []
-  },
-  {
-   "title": "World of Warcraft: Forever Hunter Players Face an Impossible Choice",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcnp5d3NwZHdXWmVzd3hxTDNlS2labTZ3VGhyUTZnUzd4aWtidXZ1RU1kQTdvTkl2dTZ6elBIY29TbHVsVWdwOFpvckFlX19ZSUpBQXBXMHM0T1RNeHgySEoydWZRam9tZmxiWlFUd3E3T1pQcTJfWjJ6dEtlVzhCSnNtMUViTUJvWnNac25WbTVveUtCeXJBNXQ3dlJUaXo1S2c?oc=5",
-   "date": "2026-11-24T19:55:01Z",
-   "label": "press",
-   "source": "Google News",
-   "who": "OpenCritic",
-   "icon": "inv_misc_spyglass_03",
-   "id": "54953dbb76",
-   "first": "2026-11-24T19:55:01Z",
-   "last": "2026-11-24T19:55:01Z",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ],
-   "n": 1,
-   "official": false,
-   "also": []
   },
   {
    "title": "No, You’re Not Behind: The Average WoW Forever Character is Level 22",
@@ -881,8 +876,8 @@
    "first": "2026-11-24T02:10:52Z",
    "last": "2026-11-24T02:10:52Z",
    "tags": [
-    "classes",
     "professions",
+    "classes",
     "hotfix"
    ],
    "classes": [],
@@ -924,8 +919,8 @@
    "first": "2026-11-23T22:46:03Z",
    "last": "2026-11-23T22:46:03Z",
    "tags": [
-    "classes",
-    "professions"
+    "professions",
+    "classes"
    ],
    "classes": [],
    "n": 1,
@@ -1168,8 +1163,8 @@
    "last": "2026-11-21T19:26:27Z",
    "tags": [
     "leveling",
-    "hotfix",
-    "economy"
+    "economy",
+    "hotfix"
    ],
    "classes": [],
    "n": 1,
@@ -1286,8 +1281,8 @@
    "first": "2026-11-20T18:00:00Z",
    "last": "2026-11-20T18:00:00Z",
    "tags": [
-    "items",
     "classes",
+    "items",
     "story"
    ],
    "classes": [],
@@ -1457,8 +1452,8 @@
    "first": "2026-11-19T23:20:47Z",
    "last": "2026-11-19T23:20:47Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -2109,9 +2104,9 @@
    "first": "2026-11-17T02:36:53Z",
    "last": "2026-11-17T02:36:53Z",
    "tags": [
-    "items",
-    "classes",
     "professions",
+    "classes",
+    "items",
     "hotfix"
    ],
    "classes": [],
@@ -2151,9 +2146,9 @@
    "first": "2026-11-17T02:23:22Z",
    "last": "2026-11-17T02:23:22Z",
    "tags": [
-    "items",
-    "leveling",
     "classes",
+    "leveling",
+    "items",
     "hotfix"
    ],
    "classes": [],
@@ -2843,8 +2838,8 @@
    "last": "2026-11-13T18:31:00Z",
    "tags": [
     "story",
-    "items",
-    "professions"
+    "professions",
+    "items"
    ],
    "classes": [],
    "n": 2,
@@ -3106,8 +3101,8 @@
    "first": "2026-11-10T02:05:13.558000Z",
    "last": "2026-11-10T02:05:13.558000Z",
    "tags": [
-    "realms",
-    "pvp"
+    "pvp",
+    "realms"
    ],
    "classes": [],
    "n": 1,
@@ -3206,8 +3201,8 @@
    "first": "2026-11-06T21:11:39.116000Z",
    "last": "2026-11-06T21:11:39.116000Z",
    "tags": [
-    "leveling",
     "classes",
+    "leveling",
     "hotfix"
    ],
    "classes": [],
@@ -3244,8 +3239,8 @@
    "first": "2026-11-06T18:10:00Z",
    "last": "2026-11-06T18:10:00Z",
    "tags": [
-    "items",
-    "ui"
+    "ui",
+    "items"
    ],
    "classes": [],
    "n": 1,
@@ -3636,6 +3631,67 @@
  ],
  "items": [
   {
+   "title": "Legacy System Guide - Challenges, Trees & Rewards - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tTENiaTBscFNJNkEyak8wenpwVnpGUDBVTk5hZndqY2F4T2tRRVFOWmVxUEp6SHViTGFhN3dvMWFtU29zQ2tyN1lOY3MtLTRoRmowTzN3Wm83ajBmUkVPdmVBbEtrUWlWSjZyQw?oc=5",
+   "date": "2026-11-27T01:25:25Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
+   "title": "WoW: Forever’s Alterac Valley reward rush hits the brakes, Eurogamer reports",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9CUDZidEZwUXdhU2xBZTY0T1lxMGJuMHJWeHNvVUdZYmgtSzVnODB1czhWZGhsN1VSREZVNldOYnRkODd3Nm53?oc=5",
+   "date": "2026-11-26T23:47:51Z",
+   "who": "Digg",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": []
+  },
+  {
+   "title": "One-Button Enhancement Shaman Guide | Single-Button GSE Build (WoW Forever)",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE13RHNrZ25zMWhoQTJ4US1zTTV4U0lpMzJ6ZVVLa1RxNW1SS1JKcFoxVFBVaDB0NEpvbUhvN0w2ai1qQQ?oc=5",
+   "date": "2026-11-26T22:15:37Z",
+   "who": "YouTube",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": [
+    "shaman"
+   ]
+  },
+  {
+   "title": "WoW: Forever min-maxers are upset that its 40-player PvP mode now actually requires PvP to win",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRWpGcTFlNU5jSmJ0emtpUmFud3lHYWNrSUp5UXRuU1U4X0dOZzZPMHN6SVN4MU51ZV9sdENNQWN4Ri05WFFJa3YtQUxyaHRLenNpZEhvdE9uRWpPa2RiY3FmeFFZQ25aTkxnbDNaNVFMSVNxV05rSTY5VVdWVk1uLWJYVUY4V296N3VjbWZfdmdmX1c1bnBaSjRaMVQ3SElpU2RKOVFhenF3Q1JJaEZ1NXMxQ1NmVDNmaFlmN2dIWk5wQmxyazJUeXVMSjN4a2lKcGNJSjE5U3VmUQ?oc=5",
+   "date": "2026-11-26T22:05:00Z",
+   "who": "PC Gamer",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "pvp"
+   ],
+   "classes": []
+  },
+  {
+   "title": "WoW Forever Razorfen Downs quests guide (after Agamaggan)",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTVl5SWt2Qk9yYmpJaWVmQ2JzX2VBb0RTaTVoZklBbGltRnhNRnNSenlkaldodVBfeHZHN1NJZVdJQWlwNm8tZ2hOaGpXeVVLMEJXekYtazF5S245TTNHdzhibG8zaTFndGFjSjVWLVZZclY3LThpbzNZSnl3dTlpQzF2dkM1UzkzaEFxQmE3aUw?oc=5",
+   "date": "2026-11-26T20:00:09Z",
+   "who": "Yahoo Tech",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [],
+   "classes": []
+  },
+  {
    "title": "World of Warcraft: Forever – Legacy Talents Explained",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDVjc0I1TGNvbXZ4aVpiR21UUnFQOC1xRHB5dHlpRDFjdWlRWTljMmcxNnhhMDlycWZ4M3B3Q3RUVTFmZjBPMTlZT0FOQm4ySTNmTjBaeTIyR1NvSUR5R2Ewa3RiOURDVWF4V2NRVW54a1Y5SVlrN3d2eVNJZTk1SkpoWjFXRkRJZDQ4?oc=5",
    "date": "2026-11-26T16:00:00Z",
@@ -3651,7 +3707,7 @@
   {
    "title": "WoW Forever reworks Alterac Valley in latest patch",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWRLS1A3bXpXOHV3UjBHWl9fb2FCQmdQeUo3dWFId2w4dkpXRE4xSEdDaHdRV1I0ckZwTWpfYmNrYWhKWEtKb1lNbi1tbTFxZl9RQTlRdGF3ajMyaE9JUUFqdGpIa1lFLTc5bThQd3VmQ3dGRmFjMXkxQkNLQXl2b0lKVkpKUzZWYzdGSG4tUmxjTGZyREJNbUpUdDR3QQ?oc=5",
-   "date": "2026-11-26T14:45:18Z",
+   "date": "2026-11-26T14:09:56Z",
    "who": "KitGuru",
    "source": "Google News",
    "label": "press",
@@ -3736,6 +3792,21 @@
    "classes": []
   },
   {
+   "title": "Rogue Gold Farming Guide - WoW Forever",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiUW5fSDZWT2JCVkVCWXpUbjVqVzFXZ1dLYksxVGRYakVmUi1oZFdGazF6LUVlbnpYWHdNbDdhSGFqQzlKUWtzeXFxYmNKVE9OWVZFQTZ2ZTFCbGZqeHN5RDhLSUlpbFY0VTg4UTlWanpQMkU?oc=5",
+   "date": "2026-11-25T23:40:51Z",
+   "who": "Mobalytics",
+   "source": "Google News",
+   "label": "press",
+   "icon": "inv_misc_spyglass_03",
+   "tags": [
+    "economy"
+   ],
+   "classes": [
+    "rogue"
+   ]
+  },
+  {
    "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
    "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
    "date": "2026-11-25T23:24:22Z",
@@ -3788,22 +3859,6 @@
     "raids"
    ],
    "classes": []
-  },
-  {
-   "title": "Mage Leveling Guide (Level 1-60) - Talents, Rotations, Races & More",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOV9qTTlvdElKanp4TkNBQ0lvZVhsc2w1TG44WjN2aVQ5MUZuc2dQMEpucHFkWUc3YkJnanVncmh1cTg5ckRWRzQzandSTWh0RXF5Uk11bWRkUmYyVjRxY1J2N2wxZ05xd2NTTUdn?oc=5",
-   "date": "2026-11-25T21:13:27Z",
-   "who": "Mobalytics",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "leveling",
-    "classes"
-   ],
-   "classes": [
-    "mage"
-   ]
   },
   {
    "title": "As an elder millennial, I’m in nostalgic nirvana with Ocarina of Time and WoW: Forever",
@@ -4114,32 +4169,6 @@
    "classes": []
   },
   {
-   "title": "Blizzard Launches World of Warcraft Forever: What Players Need to Know About Gold and the In-Game Economy",
-   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQN2lXZ3JNX3dmdkFUenV5Ml9nWWdURzZrQjJ3cXdPbHBWOXJWM3pqSEVuYTRpdU1SSWZKSzFSN1M0V3V1aGE4c1BULWpBcWFTcHNSbEEwMW5QWm9TTGJpb2Q4V0hVblVXbkJfSnlrUVVIVzJranl3Rk9LY0RYQlJTZTFRSVJaZldFMmJqTExERUk3dU5rb2NMN3pibWtfQ3pJUTFuUzRZdXREcmVRdy02ajhIU3FEcUt6b3ZoNmNRbl9YVWxBOEhpRmtLajBuSVl2RVlPdjkxa0hTOFVRMzJCOHllMjI5SWx5QmpvZ2VwZnQ4Zmx5RVR2ZlRqalRib0hMZko4STlRTEVlby1LYms1VFVCQQ?oc=5",
-   "date": "2026-11-25T06:00:00Z",
-   "who": "Decatur Daily",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "economy"
-   ],
-   "classes": []
-  },
-  {
-   "title": "Could World of Warcraft: Forever Reshape Itemization, Even Get Rid of Best in Slot Gear?",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSU9pa1dILUVkX2pwMWQ1dXdyb0xZNEdZaUNNM29fckRUREV6V2tpUXNjY000N3F5ME5yWE96U18wZjBMUjFlWjVndHRNS280Y0QyTVpwMHkzYkw0OFJLMlY5SThULXp1d1VxdWRLaHNqMVZOQV9iNER0NmhSN0lpcmpoV00weGlrQjBUWXJ6OG04dFlWX3Zod0I5M05XM0MyZnAzSm5VT3VOSF9VbGJ1UTExdVJJZHVuczJNYlpEdGVXMDk4Z01neW5FY3ZIUdIBzgFBVV95cUxPSU9pa1dILUVkX2pwMWQ1dXdyb0xZNEdZaUNNM29fckRUREV6V2tpUXNjY000N3F5ME5yWE96U18wZjBMUjFlWjVndHRNS280Y0QyTVpwMHkzYkw0OFJLMlY5SThULXp1d1VxdWRLaHNqMVZOQV9iNER0NmhSN0lpcmpoV00weGlrQjBUWXJ6OG04dFlWX3Zod0I5M05XM0MyZnAzSm5VT3VOSF9VbGJ1UTExdVJJZHVuczJNYlpEdGVXMDk4Z01neW5FY3ZIUQ?oc=5",
-   "date": "2026-11-24T23:35:00Z",
-   "who": "MMORPG.com",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "items"
-   ],
-   "classes": []
-  },
-  {
    "title": "New WoW Forever Comic: Al’Aketh Rising",
    "url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-comic-alaketh-rising/",
    "date": "2026-11-24T20:19:01Z",
@@ -4152,45 +4181,6 @@
     "story"
    ],
    "classes": []
-  },
-  {
-   "title": "Shockadin (WoW: Forever World PVP)",
-   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFB3YkhBSDVhNUh2NTBPc09JVVZzd19fNTlyT1lyaTU4dDRXT1VDR3dqTFdkRnZZWHZqZlpyWkpYVXB2Zw?oc=5",
-   "date": "2026-11-24T20:15:10Z",
-   "who": "YouTube",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "pvp"
-   ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft Forever shows off the diversity of support options available to every class",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa1MyS1dJaWl3cnpTa3NQakktN3Y2bkJTRHlicUdQY0JIRjBMaThZTVNxMUQtMFVVV01JMHNzNHlPU2F2b25DeEpEQVg0WkdVZU1BcWZhbWU0QXc1blc1eERqUVY1bkZJamE0M1IydWRadS14Vjhqb3NVV080OG10OFdGNnNlMkpzVVRoNTlUMWswRHdZcWRfMTVpdzVBb1QxeGVFSkRmLUxBR1IzcXNwWUplX1RZMEltcFVBWGdCSkVkdXpMdHRMWA?oc=5",
-   "date": "2026-11-24T20:00:37Z",
-   "who": "Massively Overpowered",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [
-    "classes"
-   ],
-   "classes": []
-  },
-  {
-   "title": "World of Warcraft: Forever Hunter Players Face an Impossible Choice",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcnp5d3NwZHdXWmVzd3hxTDNlS2labTZ3VGhyUTZnUzd4aWtidXZ1RU1kQTdvTkl2dTZ6elBIY29TbHVsVWdwOFpvckFlX19ZSUpBQXBXMHM0T1RNeHgySEoydWZRam9tZmxiWlFUd3E3T1pQcTJfWjJ6dEtlVzhCSnNtMUViTUJvWnNac25WbTVveUtCeXJBNXQ3dlJUaXo1S2c?oc=5",
-   "date": "2026-11-24T19:55:01Z",
-   "who": "OpenCritic",
-   "source": "Google News",
-   "label": "press",
-   "icon": "inv_misc_spyglass_03",
-   "tags": [],
-   "classes": [
-    "hunter"
-   ]
   },
   {
    "title": "No, You’re Not Behind: The Average WoW Forever Character is Level 22",
